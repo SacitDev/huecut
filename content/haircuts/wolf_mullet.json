@@ -1,0 +1,2315 @@
+[
+  {
+    "id": "wolf-cut",
+    "kind": "cut",
+    "name": "Wolf cut",
+    "aliases": [
+      "mullet-shag",
+      "shullet",
+      "wolf shag"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          16
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "sides": {
+        "cm": [
+          20,
+          30
+        ]
+      },
+      "back": {
+        "cm": [
+          28,
+          40
+        ]
+      },
+      "nape": {
+        "cm": [
+          28,
+          40
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry on loose waves and keep the top layers longer"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut dry; see Curly wolf cut"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair becomes see-through at the nape, keep the back fuller"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "thick hair holds the shape well"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The crown layers stand up; avoid cutting them short around a whorl."
+    },
+    "strand_note": "Medium to thick strands hold the contrast; fine strands need softer layers.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising spray",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Grows into a long shag or butterfly cut.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "shag",
+        "face_framing"
+      ],
+      "weight_removal": "high",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "air_dry_friendly"
+      ],
+      "silhouette": "wolf",
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ]
+    },
+    "variants": [],
+    "client": "A bold, shaggy cut with short, choppy layers at the crown and longer, wispy lengths at the back. A curtain fringe falls to the cheekbones.",
+    "stylist": "Create a short crown section, graduate into longer layers at the nape and point cut the ends to give a feathered finish. Weight: short, voluminous crown layers with long, wispy lengths at the nape.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a wolf cut: short, choppy, voluminous shattered layers at the crown (about 8-16 cm) that blend into longer, wispy lengths reaching the shoulders at the back, with a centre-parted curtain fringe falling to the cheekbones, a textured, piecey finish",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/hair/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "soft-wolf-lite",
+    "kind": "cut",
+    "name": "Soft wolf-lite",
+    "aliases": [
+      "wolf-lite",
+      "gentle wolf",
+      "low-contrast wolf"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          14,
+          24
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          16
+        ]
+      },
+      "sides": {
+        "cm": [
+          24,
+          32
+        ]
+      },
+      "back": {
+        "cm": [
+          28,
+          36
+        ]
+      },
+      "nape": {
+        "cm": [
+          28,
+          36
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "wispy",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and keep the crown layers longer"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut dry and allow 6-8 cm for shrinkage"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Crown layers are a little longer, so cowlicks are less of a problem."
+    },
+    "strand_note": "Fine to thick strands all work because the contrast is mild.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "sea-salt spray",
+        "light cream"
+      ]
+    },
+    "grow_out": "Grows into a long layered cut without a visible step.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "full",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "medium",
+        "long_layers",
+        "shag"
+      ],
+      "silhouette": "wolf",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "A softer take on the wolf cut, with gentle layers and no strong contrast.",
+    "stylist": "Keep the crown layers 5-8 cm longer than for a full wolf, and blend the graduation into the lengths with point cutting. Weight: moderate crown layers that blend smoothly to the lengths, with no hard drop.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a soft wolf cut: gentle crown layers of 14-24 cm blending smoothly into the lengths, the sides 24-32 cm and the back 28-36 cm at the shoulders, with a curtain fringe of 10-16 cm at the cheekbones and no hard drop between the layers",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/hair/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "modern-mullet",
+    "kind": "cut",
+    "name": "Modern mullet",
+    "aliases": [
+      "business-in-front mullet",
+      "mullet cut"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "back": {
+        "cm": [
+          18,
+          30
+        ]
+      },
+      "nape": {
+        "cm": [
+          18,
+          30
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "wispy",
+      "landmark": "brow",
+      "options": [
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "keep the top 2 cm longer on loose curls"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep the top and sides 3 cm longer; see Curly mullet"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair thins out in the tail, so keep it blunt"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check for a low nape hairline or whorl before leaving the back long."
+    },
+    "strand_note": "Medium to thick strands support the contrast; fine strands look sparse in the tail.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising paste",
+        "strong wax"
+      ]
+    },
+    "grow_out": "The tail can be left to grow into a long cut while the top is trimmed.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "occiput"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "wispy",
+      "layers": [
+        "heavy",
+        "shag"
+      ],
+      "silhouette": "mullet",
+      "weight_removal": "high",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "Short on top and sides with a longer tail at the back.",
+    "stylist": "Disconnect the back from the sides at the crown, taper the tail and keep the top texturised. Weight: short top and sides disconnected from a long, tapered back.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a modern mullet: a short textured top of 5-10 cm and short sides of 5-10 cm with a wispy fringe of 6-12 cm at the brow, disconnected at the crown from a longer tapered tail of 18-30 cm at the back reaching the shoulders",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-wolf-cut",
+    "kind": "cut",
+    "name": "Curly wolf cut",
+    "aliases": [
+      "curly shullet",
+      "curly mullet-shag"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "sides": {
+        "cm": [
+          16,
+          26
+        ]
+      },
+      "back": {
+        "cm": [
+          24,
+          36
+        ]
+      },
+      "nape": {
+        "cm": [
+          24,
+          36
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "curly"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need styling"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls look sparse at the nape, so keep the tail dense"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Crown layers must be longer around a whorl."
+    },
+    "strand_note": "Dense curls hold the contrast between crown and length; looser or finer curls blur it and look closer to a long shag.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "diffuser"
+      ]
+    },
+    "grow_out": "The contrast softens in about 3 months and the cut becomes a curly long shag with no awkward stage.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "shag",
+        "face_framing"
+      ],
+      "weight_removal": "high",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ],
+      "silhouette": "wolf",
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ]
+    },
+    "variants": [],
+    "client": "A curly wolf cut: a rounded crown of short layered curls, a curly curtain fringe and longer curls at the back.",
+    "stylist": "Cut the crown dry, curl by curl, and leave the back longer. Weight: a rounded crown of layered curls over longer curls at the nape.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly wolf cut: a rounded crown of short layered curls, a curly curtain fringe falling to the cheekbones, and longer defined curls at the back and nape reaching the shoulders",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-mullet-salon",
+    "kind": "cut",
+    "name": "Curly mullet",
+    "aliases": [
+      "curly business-in-front",
+      "curly rat-tail mullet"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "sides": {
+        "cm": [
+          4,
+          9
+        ]
+      },
+      "back": {
+        "cm": [
+          16,
+          26
+        ]
+      },
+      "nape": {
+        "cm": [
+          16,
+          26
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "brow",
+      "options": [
+        "curly"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need styling"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls thin out in the tail, so keep it dense"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A nape whorl can twist or split the tail, so check the nape before deciding how long it stays."
+    },
+    "strand_note": "Dense curls keep the contrast between the short top and the tail; fine curls make the tail look wispy.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        8
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "light gel"
+      ]
+    },
+    "grow_out": "The top grows toward the tail over about 6 months, and the tail can be kept as a feature while the top is trimmed.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "occiput"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "curtain",
+      "layers": [
+        "shag",
+        "heavy"
+      ],
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ],
+      "silhouette": "mullet",
+      "styling_minutes": [
+        5,
+        8
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ]
+    },
+    "variants": [],
+    "client": "Short, rounded curls on top and at the sides with longer curls at the back.",
+    "stylist": "Cut dry and keep the tail in curl clusters. Weight: short, rounded curls on top and sides with a longer tail at the back.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly mullet: short rounded curls on top (6-12 cm) with a curly curtain fringe of 6-10 cm at the brow, short sides of 4-9 cm, and a longer tail of defined curls at the back of 16-26 cm, clearly disconnected",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mullet-classic",
+    "kind": "cut",
+    "name": "Classic mullet",
+    "aliases": [
+      "Business in front",
+      "Rattail-free mullet",
+      "Kentucky waterfall (slang)"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "sides": {
+        "cm": [
+          2,
+          6
+        ]
+      },
+      "back": {
+        "cm": [
+          12,
+          25
+        ]
+      },
+      "nape": {
+        "cm": [
+          12,
+          25
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "collarbone"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Short to mid, tapered",
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Natural wave gives the back its shape."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Cut dry; keep weight at the back."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Back length needs 10+ cm; shape with a pick or twists.",
+        "daily": true
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the back shorter and blunt so it does not look stringy."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": "Crown whorl affects where the back drops; cut the transition below it.",
+      "note": "Short fringe covers temples; avoid brushing back."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; thin hair makes the back look stringy.",
+    "glasses_note": "Short sides leave the frame arms free.",
+    "upkeep": {
+      "styling_minutes": [
+        6,
+        6
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "sea-salt spray",
+        "light cream"
+      ]
+    },
+    "grow_out": "Even out to a shag or flow over 3-4 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-full-natural",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "occiput"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light",
+        "shag"
+      ],
+      "silhouette": "mullet",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        6,
+        6
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "Short, textured top and sides with a longer back. A bold, playful look that suits confident wearers.",
+    "stylist": "Section the back from the crown; cut the long back square or V. Blend sides into the nape with scissors. Back length hangs freely over the collar.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a classic mullet: a short textured top of 6-12 cm with a fringe of 5-10 cm, short sides of 2-6 cm scissor-blended and tapered, and a long back and nape of 12-25 cm hanging freely over the collar, cut square or in a V, no fade",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-mens-hair-trends-fall-winter/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.pallmallbarbers.com/pmb-news/trending-haircuts-to-start-2026-strong/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://behindthechair.com/articles/what-men-are-actually-asking-their-hairdressers-for-in-2026/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mullet-soft-short",
+    "kind": "cut",
+    "name": "Soft short mullet",
+    "aliases": [
+      "Mulletino",
+      "Stealth mullet",
+      "Mini mullet"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "cm": [
+          1.5,
+          4
+        ]
+      },
+      "back": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          5,
+          10
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": {
+      "kind": "taper",
+      "height": "low",
+      "start_mm": 3,
+      "note": "Light taper at the sides; short nape tail."
+    },
+    "neckline": "natural",
+    "sideburns": "Short, tapered",
+    "fringe": {
+      "kind": "textured_forward",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Back length shows curl."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Short nape tail of 6-8 cm; keep it moisturised."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Fringe covers temples; the short top keeps stage 3-4 hairlines less obvious."
+    },
+    "strand_note": null,
+    "density_note": "Any; the shorter nape tail is easier on thin hair.",
+    "glasses_note": "No issue: the sides stay short.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "none",
+      "products": [
+        "paste"
+      ]
+    },
+    "grow_out": "Can be trimmed back to a crop.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "occiput",
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "textured_forward",
+      "layers": [
+        "light",
+        "shag"
+      ],
+      "silhouette": "mullet",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "tags": [
+        "workplace_friendly",
+        "recession_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A modern, discreet mullet with a short nape tail. Fits office dress better than the classic.",
+    "stylist": "Keep the back at 6-10 cm, point cut the ends and use a gentle taper on the sides. Check the transition behind the ears. Back falls to the collar line.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a soft short mullet: a top of 5-9 cm with a fringe of 4-8 cm, the sides 1.5-4 cm in a light taper, and a short nape tail of 6-12 cm point-cut and falling to the collar line, with a natural neckline and tapered sideburns",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-mens-hair-trends-fall-winter/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mullet-burst-fade",
+    "kind": "cut",
+    "name": "Mullet with burst fade",
+    "aliases": [
+      "Burst fade mullet",
+      "Mullet taper"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "nape": {
+        "cm": [
+          10,
+          20
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "collarbone"
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0,
+      "note": "Burst fade curves around the ear, back untouched."
+    },
+    "neckline": "natural",
+    "sideburns": "Faded",
+    "fringe": {
+      "kind": "textured_forward",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Great with curls."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Excellent with a defined back."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the back shorter and blunt so it does not look stringy."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Short fringe or textured top covers the temples."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine hair thins at the long back.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "paste",
+        "salt spray"
+      ]
+    },
+    "grow_out": "Burst fades need touch-ups every 3 weeks; to grow out, let the sides grow and cut the back shorter.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "occiput",
+        "ends"
+      ],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "textured_forward",
+      "layers": [
+        "light",
+        "shag"
+      ],
+      "silhouette": "mullet",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "recession_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A sharp fade curving around the ears and a long back. Trendy and clean.",
+    "stylist": "Mark the burst arc with a trimmer, blend through #0.5, #1 and #2, then free the back at 10-20 cm and scissor the ends.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a mullet with a burst fade: a top of 6-12 cm with a fringe of 5-10 cm, the sides faded from skin to #2 (6 mm) in a half circle curving around the ear, and a long untouched back and nape of 10-20 cm with scissored ends, a natural neckline",
+    "sources": [
+      {
+        "url": "https://behindthechair.com/articles/what-men-are-actually-asking-their-hairdressers-for-in-2026/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "wolf-cut-men",
+    "kind": "cut",
+    "name": "Wolf cut",
+    "aliases": [
+      "Wolf shag",
+      "Layered shag",
+      "Shaggy mullet"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          14
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          4,
+          10
+        ]
+      },
+      "back": {
+        "cm": [
+          8,
+          16
+        ]
+      },
+      "nape": {
+        "cm": [
+          8,
+          16
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Blended",
+    "fringe": {
+      "kind": "textured_forward",
+      "landmark": "brow",
+      "options": [
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Layers show."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Shape with layers."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Curl pattern needs shorter layers."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use fewer layers so the shape keeps its weight."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Shaggy fringe covers stage 3."
+    },
+    "strand_note": null,
+    "density_note": "Medium; thin hair looks sparse.",
+    "glasses_note": "Fine; hair may fall over the arm.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "none",
+      "products": [
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Easy: the layers soften into a shag after about 3 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-full-natural",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "textured_forward",
+      "layers": [
+        "light",
+        "shag"
+      ],
+      "silhouette": "wolf",
+      "weight_removal": "medium",
+      "cut_method": [
+        "razor"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "wash_and_go",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "Shaggy layers with a messy fringe and a longer back. A modern, textured shape.",
+    "stylist": "Cut short layers on top and long layers at the back, razor the ends for movement and keep weight at the crown.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a wolf cut: heavy shaggy layers with short layers on top of 8-14 cm and a messy fringe of 6-12 cm, the sides 4-10 cm, and longer layers at the back and nape of 8-16 cm, razored ends for movement, weight kept at the crown, no fade",
+    "sources": [
+      {
+        "url": "https://bosshunting.com.au/style/grooming/best-long-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.apetogentleman.com/best-mens-hair-trends-fall-winter/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-mullet",
+    "kind": "cut",
+    "name": "Curly mullet",
+    "aliases": [
+      "Curl mullet",
+      "Curly rat-tail free mullet"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "sides": {
+        "cm": [
+          2,
+          5
+        ]
+      },
+      "back": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "nape": {
+        "cm": [
+          10,
+          20
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "collarbone"
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0.5,
+      "note": "Optional burst fade around the ears."
+    },
+    "neckline": "natural",
+    "sideburns": "Short",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited: use a classic mullet."
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "Waves form soft curls."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Good with twists at the back."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the back shorter so the curls do not look stringy."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Curls cover the temples."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine curls look stringy at length.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        5,
+        8
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream"
+      ]
+    },
+    "grow_out": "Trim the back gradually to move into a curly flow.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "occiput"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "shag"
+      ],
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "air_dry_friendly"
+      ],
+      "silhouette": "mullet",
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        5,
+        8
+      ]
+    },
+    "variants": [],
+    "client": "Short curls on top and at the sides with a longer curly back below the collar.",
+    "stylist": "Cut dry. Shape the top short with curl clumps, taper the sides and let the back hang. Avoid hard lines at the nape.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly mullet: short curls on top (6-12 cm) and short sides (2-5 cm) with a small burst fade around the ears, and a longer curly back of 10-20 cm falling below the collar",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-mens-hair-trends-fall-winter/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/curly-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-wolf-cut",
+    "kind": "cut",
+    "name": "Long wolf cut",
+    "aliases": [
+      "long shullet",
+      "long wolf"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          16
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "sides": {
+        "cm": [
+          24,
+          36
+        ]
+      },
+      "back": {
+        "cm": [
+          42,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          42,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "none"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "see long-curly-wolf-cut"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see long-curly-wolf-cut"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "poor",
+        "note": "the thin tail looks stringy on fine hair"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "thick hair holds the shape well"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The crown layers stand up, so keep them longer around a whorl."
+    },
+    "strand_note": "Medium to thick strands hold the contrast. Fine strands leave a stringy tail.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising spray",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "The step softens in about 3 months and the cut becomes a long shag.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "shag",
+        "face_framing",
+        "long_layers"
+      ],
+      "silhouette": "wolf",
+      "weight_removal": "high",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "A bold cut with a round, choppy crown that stops at the jaw and a much thinner tail that falls long. A curtain fringe falls to the cheekbones.",
+    "stylist": "Cut heavy, rounded layers at the crown (8-16 cm) and stop them at the jaw. Blend them fast into a noticeably thinner long tail (42-58 cm), so the outline narrows below the jaw. If the tail stays wide, the shape is a long shag. Short crown layers fall out of a ponytail. Weight: heavy, rounded crown layers over a thin, long tail.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long wolf cut: heavy rounded short layers at the crown (8-16 cm) that stop at the jaw and blend fast into a much thinner, narrower tail reaching the shoulder blades (42-58 cm at the back, 24-36 cm at the sides), a centre-parted curtain fringe of 10-18 cm to the cheekbones, a choppy textured finish",
+    "sources": [
+      {
+        "url": "https://www.bustle.com/style/octopus-haircut",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.modernsalon.com/1079308/how-to-cut-and-style-the-octopus-haircut",
+        "supports": "the style exists and how it is generally described",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://johnfrieda.com/en-uk/blog/hairstyles/wolf-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  },
+  {
+    "id": "long-curly-wolf-cut",
+    "kind": "cut",
+    "name": "Long curly wolf cut",
+    "aliases": [
+      "curly shullet",
+      "long curly short-to-long layers"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "wolf_mullet",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          24
+        ]
+      },
+      "fringe": {
+        "cm": [
+          12,
+          20
+        ]
+      },
+      "sides": {
+        "cm": [
+          24,
+          38
+        ]
+      },
+      "back": {
+        "cm": [
+          48,
+          66
+        ]
+      },
+      "nape": {
+        "cm": [
+          48,
+          66
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curly",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "no curl to shape the cut around"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need styling and may blur the step"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "tight 3C curls shrink most, so keep the crown a little longer"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "the crown shrinks to a cap"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "poor",
+        "note": "fine curls leave a sparse tail"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The crown layers must be longer around a whorl."
+    },
+    "strand_note": "Dense curls hold the contrast between crown and tail. Fine or looser curls blur it.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "diffuser"
+      ]
+    },
+    "grow_out": "The step softens in about 3 months into a curly long shag, with no awkward stage.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curly",
+      "layers": [
+        "shag",
+        "face_framing",
+        "long_layers"
+      ],
+      "silhouette": "wolf",
+      "weight_removal": "high",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A curly wolf cut with a rounded crown of short curls and a springy curly fringe. The tail is longer and narrower. Dry, the tail lands just below the shoulders.",
+    "stylist": "Cut dry, curl by curl. Build a rounded crown mass (12-24 cm) that stops at the jaw, over a clearly narrower tail. Plan for 30-55% shrinkage: at a typical 35% the back lands at about 31-43 cm, so the tail clears the shoulder. Keep the crown at 12 cm or more so it does not sit as a cap. Close to a curly long shag, which has no narrow tail. Weight: a rounded crown over a narrower tail.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long curly wolf cut: a rounded crown of short defined curls (12-24 cm stretched) over a clearly narrower tail that lands just below the shoulders when dry (48-66 cm at the back when stretched), a curly fringe of 12-20 cm stretched at the brow, curls cut dry, a textured finish",
+    "sources": [
+      {
+        "url": "https://www.bustle.com/style/octopus-haircut",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://johnfrieda.com/en-uk/blog/hairstyles/wolf-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.voguescandinavia.com/articles/hair-trends-2026",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  }
+]

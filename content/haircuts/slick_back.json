@@ -1,0 +1,1309 @@
+[
+  {
+    "id": "slick-back-classic",
+    "kind": "cut",
+    "name": "Classic slick back",
+    "aliases": [
+      "Slicked-back hair",
+      "Wet-look back",
+      "Corporate slick"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "slick_back",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          1,
+          4
+        ]
+      },
+      "back": {
+        "cm": [
+          1.5,
+          5
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.5,
+          2
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "scissor_taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Scissor or clipper taper that stays at or above #2; no hard fade."
+    },
+    "neckline": "tapered",
+    "sideburns": "Mid-length",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Blow-dry back first.",
+        "daily": true
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Use gel or cream; hair may need smoothing.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "Better as a brush-back or wave look."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use a matte product and a brush rather than a fine comb so the scalp shows less."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 2,
+      "whorl_note": "Crown thinning shows on the comb lines.",
+      "note": "Pulls all hair off the forehead and shows the whole hairline; not recommended past stage 2."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine hair shows scalp lines between comb tracks, so use less shine and more matte hold.",
+    "glasses_note": "Works with almost any frames.",
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        8
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "rare",
+      "products": [
+        "pomade",
+        "gel"
+      ]
+    },
+    "grow_out": "Keep the length and drop the taper: it flows into a medium brushed-back look in about 8 weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-full-natural",
+        "beard-ducktail"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "swept_back",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        8
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "workplace_friendly",
+        "slick_back"
+      ]
+    },
+    "variants": [],
+    "client": "All the hair combed straight back with a polished finish. Needs a daily product and comb.",
+    "stylist": "Leave 8-10 cm on top, taper the sides cleanly and blend to the nape. Check the hair direction at the temples.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a classic slick back: the top 6-12 cm left about 8-10 cm and combed straight back with a glossy polished finish, no part, the sides 1-4 cm and back 1.5-5 cm cleanly tapered to 0.5-2 cm at the nape, with mid-length sideburns",
+    "sources": [
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "slick-back-undercut",
+    "kind": "cut",
+    "name": "Slick back with disconnected sides",
+    "aliases": [
+      "Slick undercut",
+      "Hard-part slick",
+      "Faded slick back"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "slick_back",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          7,
+          13
+        ]
+      },
+      "fringe": {
+        "cm": [
+          7,
+          13
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "mid",
+      "start_mm": 0.5,
+      "note": "Mid fade or disconnected #2."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "daily": true
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Use a smoothing balm and blow-dry.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "Choose a different style."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use a matte product and a brush rather than a fine comb so the scalp shows less."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 2,
+      "whorl_note": null,
+      "note": "Fully exposes the hairline; best with full hairline."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; thin hair shows comb tracks and loses the sleek effect.",
+    "glasses_note": "Fine with most frames; the open temples let thicker frames dominate.",
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        8
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "rare",
+      "products": [
+        "pomade"
+      ]
+    },
+    "grow_out": "Fade grows into a taper in 4 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-full-natural",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "swept_back",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "undercut",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        8
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "slick_back"
+      ]
+    },
+    "variants": [],
+    "client": "Faded sides with a long top combed straight back. Sharp contrast and a smooth, sleek finish.",
+    "stylist": "Fade to #1 at the temple, leave 8-10 cm on top and cut a long graduated layer to the crown. Test the comb-through and thin the back if it bulks.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a slick back with disconnected sides: a long top of 7-13 cm combed straight back with a sleek, smooth finish, the sides and back faded from skin to #2 (6 mm) with a mid fade line at the temple, a tapered neckline, an optional hard part",
+    "sources": [
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.pallmallbarbers.com/pmb-news/trending-haircuts-to-start-2026-strong/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "side-part-classic",
+    "kind": "cut",
+    "name": "Classic side part",
+    "aliases": [
+      "Regulation side part",
+      "Business cut",
+      "Executive part"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "slick_back",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "cm": [
+          0.5,
+          3
+        ]
+      },
+      "back": {
+        "cm": [
+          0.5,
+          3
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.3,
+          1
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "scissor_taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Scissor or clipper taper over the ears and neck."
+    },
+    "neckline": "tapered",
+    "sideburns": "Mid-ear, tapered",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Dry-cut and use cream."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Keep it at 3-4 cm with a comb part."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": "Place the part where the crown whorl falls naturally.",
+      "note": "A side part conceals mild recession; avoid pulling the part across a stage 4 front."
+    },
+    "strand_note": null,
+    "density_note": "Any; thin hair benefits from a part on the natural side.",
+    "glasses_note": "Fits all frames.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "none",
+      "products": [
+        "light pomade",
+        "gel"
+      ]
+    },
+    "grow_out": "Grows to a longer side part.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-short",
+        "beard-mustache-only"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "side_sweep",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "workplace_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A neat parted cut with short, tidy sides. Easy, traditional and looks fine in a suit.",
+    "stylist": "Find the natural part with a comb; cut the sides with scissor-over-comb and a taper. Leave about 6 cm on top.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a classic side part: the top 4-8 cm, about 6 cm, combed off a natural side part, the sides 0.5-3 cm and back 0.5-3 cm scissor-tapered over the ears and neck to 0.3-1 cm at the nape, mid-ear tapered sideburns, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://www.themodestman.com/hair/crew-cut/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "hard-part-fade",
+    "kind": "cut",
+    "name": "Hard part with fade",
+    "aliases": [
+      "Hard part",
+      "Barbershop parted cut",
+      "Razor part fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "slick_back",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "mid",
+      "start_mm": 0.5,
+      "note": "Mid skin fade; razor-line the part."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Press with a brush; use gel.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "Part works only on short, relaxed or wave-brushed hair."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "The hard part shows a stage 3 hairline; avoid beyond."
+    },
+    "strand_note": null,
+    "density_note": "Any density; fine hair needs a light product so the part line stays visible.",
+    "glasses_note": "Compatible with most frames; the part sits above the frame line.",
+    "upkeep": {
+      "styling_minutes": [
+        6,
+        6
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "rare",
+      "products": [
+        "pomade",
+        "gel"
+      ]
+    },
+    "grow_out": "Fade needs weekly lines; part loses shape in 3 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-faded-full",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "side_sweep",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        6,
+        6
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "workplace_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A fade with a visible shaved line where the hair parts. Sharp and tidy.",
+    "stylist": "Comb the part where the hair naturally breaks, trim the line with a T-blade or foil and soften the edges with a brush. Re-line it every visit.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a hard part with a fade: the top 4-8 cm and the front at 4-8 cm combed neatly to one side along a razor-lined part shaved into the hair, the sides and back at a mid skin fade from skin to #2 (6 mm), a tapered neckline and faded sideburns",
+    "sources": [
+      {
+        "url": "https://www.pallmallbarbers.com/pmb-news/trending-haircuts-to-start-2026-strong/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "comb-over-fade",
+    "kind": "cut",
+    "name": "Comb over with fade",
+    "aliases": [
+      "Fade comb-over",
+      "Modern comb over",
+      "Swept top with fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "slick_back",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0.5,
+      "note": "Low or mid skin fade."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Blow-dry and cream.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "Choose a taper with twists instead."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the sweep light and short; never comb long hair across a sparse area."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Hair swept sideways lets stage 3 recession look fuller; avoid pulling hair across a bald area."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; the sweep needs coverage.",
+    "glasses_note": "Fine with most frames.",
+    "upkeep": {
+      "styling_minutes": [
+        7,
+        7
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "rare",
+      "products": [
+        "pomade",
+        "texturing spray"
+      ]
+    },
+    "grow_out": "Fade grows in about 4 weeks; the sweep carries on as a side part.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-faded-full",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "side_sweep",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        7,
+        7
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "workplace_friendly",
+        "comb_over"
+      ]
+    },
+    "variants": [],
+    "client": "Short faded sides with hair swept to the side. A smart, modern take on the classic comb-over.",
+    "stylist": "Cut a distinct guide line and graduate the top toward the part. Keep the sweep light so no gap is left at the front; avoid pulling long hair across a bald area.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a comb over with a fade: the top 5-9 cm and the front at 5-9 cm swept neatly to one side off a side part with a clear guide line, the sides and back at a low to mid skin fade from skin to #2 (6 mm), a tapered neckline, faded sideburns",
+    "sources": [
+      {
+        "url": "https://www.pallmallbarbers.com/pmb-news/trending-haircuts-to-start-2026-strong/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "brush-back-natural",
+    "kind": "cut",
+    "name": "Natural brush back",
+    "aliases": [
+      "Swept back",
+      "Brushed back taper",
+      "Casual slick"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "slick_back",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "sides": {
+        "cm": [
+          1,
+          4
+        ]
+      },
+      "back": {
+        "cm": [
+          1.5,
+          5
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.5,
+          2
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "scissor_taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Soft taper only."
+    },
+    "neckline": "tapered",
+    "sideburns": "Mid-length",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Natural wave helps."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Brush back with cream."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Use a pick."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use a volumising spray and keep the top shorter."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Brushed back shows the hairline; ok at stage 2-3."
+    },
+    "strand_note": null,
+    "density_note": "Needs medium density; very fine hair needs a volumising spray.",
+    "glasses_note": "Good with most frames.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "none",
+      "products": [
+        "light cream",
+        "paste"
+      ]
+    },
+    "grow_out": "Just grow: it moves into a long flow in about 3 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "swept_back",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A relaxed swept-back look without shine; hair sits back naturally with a light product.",
+    "stylist": "Cut the top longer than the sides, layer toward the crown and blow-dry back. A gentle taper keeps the shape without a hard line.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a natural brush back: the top 6-10 cm brushed back without shine and layered towards the crown, the sides 1-4 cm and back 1.5-5 cm in a soft taper to 0.5-2 cm at the nape with no hard line, mid-length sideburns, a relaxed matte finish",
+    "sources": [
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-side-part",
+    "kind": "cut",
+    "name": "Curly side part",
+    "aliases": [
+      "Curly hard part",
+      "Part with curls"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "slick_back",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0.5,
+      "note": "Low fade."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited: use a classic side part."
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "Works with a short side part and a curl cream."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the curls compact; a hard part shows more scalp on low density."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Hard part reveals the hairline."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick.",
+    "glasses_note": "Sits well with most frames; keep hair above the ear short so the arms rest cleanly.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream"
+      ]
+    },
+    "grow_out": "Stop the fade; the part grows into a curly flow in about 3 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-faded-full",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "side_sweep",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "curly_first",
+        "workplace_friendly",
+        "wash_and_go",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Curls swept to one side with a razor part. Smart, easy and suitable for work.",
+    "stylist": "Part at the natural line, cut dry in curl clumps, fade low and soften the edges.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly side part: natural curls of 5-9 cm swept to one side off a razor-lined hard part, with the front at 4-8 cm, the sides and back at a low fade from skin to #2 (6 mm), the nape up to #1, a tapered neckline and faded sideburns",
+    "sources": [
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/curly-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

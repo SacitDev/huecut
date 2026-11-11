@@ -1,0 +1,94 @@
+/* Button styles: pills 52 px tall on phones and 48 px on desktop, Figtree 17/600. */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-block-size: var(--button-h);
+  /* Words that wrap keep clear of the edge, in balanced lines; the radius is the pill's at one line and rounds a taller button's corners. */
+  padding-block: var(--space-xs);
+  padding-inline: var(--space-l);
+  border: var(--border-control) solid transparent;
+  border-radius: calc(var(--button-h) / 2);
+  text-wrap: balance;
+  font-family: var(--font-text);
+  font-size: var(--text-button);
+  font-weight: var(--weight-button);
+  line-height: var(--lh-button);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icon {
+  flex: none;
+  inline-size: var(--icon-s);
+  block-size: var(--icon-s);
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--on-primary);
+}
+
+.primary:hover {
+  background-color: color-mix(in srgb, var(--primary) 88%, var(--on-primary));
+}
+
+.secondary {
+  background-color: transparent;
+  border-color: var(--primary);
+  color: var(--text);
+}
+
+.secondary:hover {
+  background-color: var(--sunken);
+}
+
+.text {
+  min-block-size: var(--target-min);
+  padding-inline: var(--space-2xs);
+  background-color: transparent;
+  color: var(--accent);
+  text-decoration-line: underline;
+  text-decoration-thickness: var(--underline-thin);
+  text-underline-offset: var(--underline-offset);
+}
+
+.text:hover {
+  text-decoration-thickness: var(--underline-thick);
+}
+
+.button[aria-busy='true'] {
+  position: relative;
+  cursor: progress;
+}
+
+/* Under the busy words, inside the button's own height and padding, in the colour of its words. */
+.busyLine {
+  position: absolute;
+  inset-inline: var(--space-l);
+  inset-block-end: var(--space-xs);
+  block-size: var(--wait-line-h);
+}
+
+.text .busyLine {
+  inset-inline: var(--space-2xs);
+  inset-block-end: var(--space-2xs);
+}
+
+/* Not available: quieter colours that still read (text-2 on sunken 5.70:1, on ground 6.39:1). */
+.button[aria-disabled='true']:not([aria-busy='true']) {
+  cursor: default;
+  background-color: var(--sunken);
+  border-color: var(--line-strong);
+  color: var(--text-2);
+}
+
+/* No edge either: an unusable Move earlier must not look more like a button than the working link beside it. */
+.text[aria-disabled='true']:not([aria-busy='true']) {
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration-line: none;
+}

@@ -1,0 +1,293 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "$ref": "#/$defs/__schema0"
+      },
+      "kind": {
+        "$ref": "#/$defs/__schema1"
+      },
+      "name": {
+        "$ref": "#/$defs/__schema2"
+      },
+      "aliases": {
+        "$ref": "#/$defs/__schema3"
+      },
+      "collections": {
+        "$ref": "#/$defs/__schema4"
+      },
+      "base": {
+        "$ref": "#/$defs/__schema6"
+      },
+      "placements": {
+        "$ref": "#/$defs/__schema7"
+      },
+      "required_base_level": {
+        "$ref": "#/$defs/__schema8"
+      },
+      "grey": {
+        "$ref": "#/$defs/__schema9"
+      },
+      "client": {
+        "$ref": "#/$defs/__schema2"
+      },
+      "stylist": {
+        "$ref": "#/$defs/__schema2"
+      },
+      "images": {
+        "$ref": "#/$defs/__schema10"
+      },
+      "prompt_spec": {
+        "$ref": "#/$defs/__schema2"
+      },
+      "sources": {
+        "$ref": "#/$defs/__schema11"
+      },
+      "review": {
+        "$ref": "#/$defs/__schema12"
+      }
+    },
+    "required": [
+      "id",
+      "kind",
+      "name",
+      "collections",
+      "base",
+      "placements",
+      "required_base_level",
+      "grey",
+      "client",
+      "stylist",
+      "images",
+      "prompt_spec",
+      "review"
+    ],
+    "additionalProperties": false
+  },
+  "$defs": {
+    "__schema0": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "__schema1": {
+      "type": "string",
+      "const": "colour"
+    },
+    "__schema2": {
+      "type": "string",
+      "minLength": 1
+    },
+    "__schema3": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema2"
+      }
+    },
+    "__schema4": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema5"
+      }
+    },
+    "__schema5": {
+      "type": "string",
+      "enum": [
+        "salon",
+        "barbering"
+      ]
+    },
+    "__schema6": {
+      "type": "object",
+      "properties": {
+        "shade": {
+          "$ref": "#/$defs/__schema0"
+        },
+        "technique": {
+          "type": "string",
+          "enum": [
+            "none",
+            "all_over",
+            "gloss",
+            "demi_refresh",
+            "grey_coverage",
+            "vivid_all_over",
+            "colour_correction"
+          ]
+        },
+        "on": {
+          "$ref": "#/$defs/__schema0"
+        },
+        "on_words": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/__schema2"
+          }
+        }
+      },
+      "required": [
+        "shade",
+        "technique"
+      ],
+      "additionalProperties": false
+    },
+    "__schema7": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "technique": {
+            "type": "string",
+            "enum": [
+              "all_over",
+              "gloss",
+              "foil_highlights",
+              "babylights",
+              "lowlights",
+              "balayage",
+              "foilayage",
+              "ombre",
+              "sombre",
+              "root_shadow",
+              "colour_melt",
+              "money_piece",
+              "peekaboo",
+              "grey_blending",
+              "grey_coverage",
+              "colour_correction",
+              "vivid_all_over",
+              "demi_refresh"
+            ]
+          },
+          "shade": {
+            "$ref": "#/$defs/__schema0"
+          },
+          "region": {
+            "type": "string",
+            "enum": [
+              "root",
+              "mids",
+              "ends",
+              "face_frame",
+              "highlights",
+              "lowlights"
+            ]
+          }
+        },
+        "required": [
+          "technique",
+          "shade",
+          "region"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "__schema8": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "__schema9": {
+      "type": "string",
+      "enum": [
+        "covers",
+        "tints",
+        "blends",
+        "shows",
+        "silver"
+      ]
+    },
+    "__schema10": {
+      "type": "object",
+      "properties": {
+        "models": {
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/__schema0"
+          }
+        },
+        "view": {
+          "type": "string",
+          "enum": [
+            "front",
+            "side",
+            "back"
+          ]
+        }
+      },
+      "required": [
+        "models",
+        "view"
+      ],
+      "additionalProperties": false
+    },
+    "__schema11": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "supports": {
+            "$ref": "#/$defs/__schema2"
+          },
+          "level": {
+            "type": "string",
+            "enum": [
+              "authority",
+              "research",
+              "trade_consensus",
+              "single_source",
+              "design_logic",
+              "policy"
+            ]
+          }
+        },
+        "required": [
+          "url",
+          "supports",
+          "level"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "__schema12": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "checked"
+          ]
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+        },
+        "note": {
+          "$ref": "#/$defs/__schema2"
+        }
+      },
+      "required": [
+        "status",
+        "date"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

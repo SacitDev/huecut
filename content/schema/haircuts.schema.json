@@ -1,0 +1,1514 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "$ref": "#/$defs/__schema0"
+      },
+      "kind": {
+        "type": "string",
+        "const": "cut"
+      },
+      "name": {
+        "$ref": "#/$defs/__schema1"
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/__schema1"
+        }
+      },
+      "collections": {
+        "minItems": 1,
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/__schema2"
+        }
+      },
+      "family": {
+        "$ref": "#/$defs/__schema3"
+      },
+      "zones": {
+        "type": "object",
+        "properties": {
+          "basis": {
+            "type": "string",
+            "const": "dry_stretched"
+          },
+          "top": {
+            "$ref": "#/$defs/__schema4"
+          },
+          "fringe": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/__schema4"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "sides": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/__schema4"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "back": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/__schema4"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "nape": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/__schema4"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "basis",
+          "top",
+          "fringe",
+          "sides",
+          "back",
+          "nape"
+        ],
+        "additionalProperties": false
+      },
+      "perimeter": {
+        "$ref": "#/$defs/__schema9"
+      },
+      "fade": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "$ref": "#/$defs/__schema10"
+              },
+              "height": {
+                "$ref": "#/$defs/__schema11"
+              },
+              "start_mm": {
+                "$ref": "#/$defs/__schema12"
+              },
+              "note": {
+                "$ref": "#/$defs/__schema13"
+              }
+            },
+            "required": [
+              "kind",
+              "height",
+              "start_mm",
+              "note"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "neckline": {
+        "$ref": "#/$defs/__schema14"
+      },
+      "sideburns": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/__schema1"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "fringe": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/__schema15"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "texture_fit": {
+        "type": "object",
+        "properties": {
+          "straight": {
+            "$ref": "#/$defs/__schema17"
+          },
+          "wavy": {
+            "$ref": "#/$defs/__schema17"
+          },
+          "curly": {
+            "$ref": "#/$defs/__schema17"
+          },
+          "coily": {
+            "$ref": "#/$defs/__schema17"
+          }
+        },
+        "required": [
+          "straight",
+          "wavy",
+          "curly",
+          "coily"
+        ],
+        "additionalProperties": false
+      },
+      "density_fit": {
+        "type": "object",
+        "properties": {
+          "low": {
+            "$ref": "#/$defs/__schema17"
+          },
+          "medium": {
+            "$ref": "#/$defs/__schema17"
+          },
+          "high": {
+            "$ref": "#/$defs/__schema17"
+          }
+        },
+        "required": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "additionalProperties": false
+      },
+      "shrinkage": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "curly_pct": {
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "$ref": "#/$defs/__schema18"
+                  },
+                  {
+                    "$ref": "#/$defs/__schema19"
+                  }
+                ],
+                "items": false,
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "coily_pct": {
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "$ref": "#/$defs/__schema20"
+                  },
+                  {
+                    "$ref": "#/$defs/__schema21"
+                  }
+                ],
+                "items": false,
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "curly_pct",
+              "coily_pct"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "growth": {
+        "type": "object",
+        "properties": {
+          "recession_stage_max": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 7
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "whorl_note": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/__schema1"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "note": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/__schema1"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "recession_stage_max",
+          "whorl_note",
+          "note"
+        ],
+        "additionalProperties": false
+      },
+      "strand_note": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/__schema1"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "density_note": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/__schema1"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "glasses_note": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/__schema1"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "upkeep": {
+        "type": "object",
+        "properties": {
+          "styling_minutes": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "$ref": "#/$defs/__schema22"
+              },
+              {
+                "$ref": "#/$defs/__schema23"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "trim_weeks": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "$ref": "#/$defs/__schema24"
+              },
+              {
+                "$ref": "#/$defs/__schema25"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "heat": {
+            "type": "string",
+            "enum": [
+              "none",
+              "rare",
+              "weekly",
+              "daily"
+            ]
+          },
+          "products": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/__schema1"
+            }
+          }
+        },
+        "required": [
+          "styling_minutes",
+          "trim_weeks",
+          "heat",
+          "products"
+        ],
+        "additionalProperties": false
+      },
+      "grow_out": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/__schema1"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "era": {
+        "$ref": "#/$defs/__schema3"
+      },
+      "pairs_with": {
+        "type": "object",
+        "properties": {
+          "beards": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/__schema0"
+            }
+          },
+          "looks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/__schema0"
+            }
+          }
+        },
+        "required": [
+          "beards",
+          "looks"
+        ],
+        "additionalProperties": false
+      },
+      "traits": {
+        "type": "object",
+        "properties": {
+          "height_top": {
+            "type": "string",
+            "enum": [
+              "flat",
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "volume_zone": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/__schema26"
+            }
+          },
+          "sides_width": {
+            "type": "string",
+            "enum": [
+              "close",
+              "medium",
+              "full"
+            ]
+          },
+          "perimeter": {
+            "type": "string",
+            "enum": [
+              "blunt",
+              "blunt_sleek",
+              "soft",
+              "rounded",
+              "graduated"
+            ]
+          },
+          "part": {
+            "type": "string",
+            "enum": [
+              "none",
+              "centre",
+              "side",
+              "deep_side"
+            ]
+          },
+          "fringe": {
+            "type": "string",
+            "enum": [
+              "none",
+              "micro",
+              "short_blunt",
+              "blunt_full",
+              "bottleneck",
+              "wispy",
+              "curtain",
+              "side_swept",
+              "long_side",
+              "textured_forward",
+              "curly"
+            ]
+          },
+          "layers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/__schema27"
+            }
+          },
+          "silhouette": {
+            "type": "string",
+            "enum": [
+              "pixie",
+              "bob",
+              "geometric_bob",
+              "lob",
+              "shag",
+              "wolf",
+              "butterfly",
+              "long_layers",
+              "one_length",
+              "rounded",
+              "tapered_natural",
+              "twist_out",
+              "buzz",
+              "crew",
+              "caesar",
+              "french_crop",
+              "crop",
+              "flat_top",
+              "quiff",
+              "pompadour",
+              "swept_back",
+              "side_sweep",
+              "mullet"
+            ]
+          },
+          "weight_removal": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "cut_method": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/__schema28"
+            }
+          },
+          "nape_style": {
+            "type": "string",
+            "enum": [
+              "tapered",
+              "blunt",
+              "undercut",
+              "natural"
+            ]
+          },
+          "shrinkage_risk": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "tension": {
+            "type": "string",
+            "enum": [
+              "none",
+              "low",
+              "high"
+            ]
+          },
+          "heat_dependent": {
+            "type": "boolean"
+          },
+          "grow_out_friendly": {
+            "type": "boolean"
+          },
+          "tie_back": {
+            "type": "boolean"
+          },
+          "covers_forehead": {
+            "type": "boolean"
+          },
+          "covers_ears": {
+            "type": "boolean"
+          },
+          "tucked_behind_ear": {
+            "type": "boolean"
+          },
+          "beard_blend": {
+            "type": "boolean"
+          },
+          "lineup": {
+            "type": "boolean"
+          },
+          "styling_minutes": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "$ref": "#/$defs/__schema29"
+              },
+              {
+                "$ref": "#/$defs/__schema30"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "trim_weeks": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "$ref": "#/$defs/__schema31"
+              },
+              {
+                "$ref": "#/$defs/__schema32"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/__schema33"
+            }
+          }
+        },
+        "required": [
+          "height_top",
+          "volume_zone",
+          "sides_width",
+          "perimeter",
+          "part",
+          "fringe",
+          "layers",
+          "silhouette",
+          "weight_removal",
+          "cut_method",
+          "nape_style",
+          "shrinkage_risk",
+          "tension",
+          "heat_dependent",
+          "grow_out_friendly",
+          "tie_back",
+          "covers_forehead",
+          "covers_ears",
+          "tucked_behind_ear",
+          "beard_blend",
+          "lineup",
+          "styling_minutes",
+          "trim_weeks",
+          "tags"
+        ],
+        "additionalProperties": false
+      },
+      "variants": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "$ref": "#/$defs/__schema0"
+            },
+            "name": {
+              "$ref": "#/$defs/__schema1"
+            },
+            "changes": {
+              "type": "object",
+              "properties": {
+                "zones": {
+                  "type": "object",
+                  "properties": {
+                    "top": {
+                      "$ref": "#/$defs/__schema4"
+                    },
+                    "fringe": {
+                      "anyOf": [
+                        {
+                          "$ref": "#/$defs/__schema4"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "sides": {
+                      "anyOf": [
+                        {
+                          "$ref": "#/$defs/__schema4"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "back": {
+                      "anyOf": [
+                        {
+                          "$ref": "#/$defs/__schema4"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "nape": {
+                      "anyOf": [
+                        {
+                          "$ref": "#/$defs/__schema4"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "perimeter": {
+                  "$ref": "#/$defs/__schema9"
+                },
+                "fade": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "kind": {
+                          "$ref": "#/$defs/__schema10"
+                        },
+                        "height": {
+                          "$ref": "#/$defs/__schema11"
+                        },
+                        "start_mm": {
+                          "$ref": "#/$defs/__schema12"
+                        },
+                        "note": {
+                          "$ref": "#/$defs/__schema13"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "fringe": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/$defs/__schema15"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "neckline": {
+                  "$ref": "#/$defs/__schema14"
+                },
+                "traits": {
+                  "type": "object",
+                  "properties": {
+                    "height_top": {
+                      "type": "string",
+                      "enum": [
+                        "flat",
+                        "low",
+                        "medium",
+                        "high"
+                      ]
+                    },
+                    "volume_zone": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/__schema34"
+                      }
+                    },
+                    "sides_width": {
+                      "type": "string",
+                      "enum": [
+                        "close",
+                        "medium",
+                        "full"
+                      ]
+                    },
+                    "perimeter": {
+                      "type": "string",
+                      "enum": [
+                        "blunt",
+                        "blunt_sleek",
+                        "soft",
+                        "rounded",
+                        "graduated"
+                      ]
+                    },
+                    "part": {
+                      "type": "string",
+                      "enum": [
+                        "none",
+                        "centre",
+                        "side",
+                        "deep_side"
+                      ]
+                    },
+                    "fringe": {
+                      "type": "string",
+                      "enum": [
+                        "none",
+                        "micro",
+                        "short_blunt",
+                        "blunt_full",
+                        "bottleneck",
+                        "wispy",
+                        "curtain",
+                        "side_swept",
+                        "long_side",
+                        "textured_forward",
+                        "curly"
+                      ]
+                    },
+                    "layers": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/__schema35"
+                      }
+                    },
+                    "silhouette": {
+                      "type": "string",
+                      "enum": [
+                        "pixie",
+                        "bob",
+                        "geometric_bob",
+                        "lob",
+                        "shag",
+                        "wolf",
+                        "butterfly",
+                        "long_layers",
+                        "one_length",
+                        "rounded",
+                        "tapered_natural",
+                        "twist_out",
+                        "buzz",
+                        "crew",
+                        "caesar",
+                        "french_crop",
+                        "crop",
+                        "flat_top",
+                        "quiff",
+                        "pompadour",
+                        "swept_back",
+                        "side_sweep",
+                        "mullet"
+                      ]
+                    },
+                    "weight_removal": {
+                      "type": "string",
+                      "enum": [
+                        "low",
+                        "medium",
+                        "high"
+                      ]
+                    },
+                    "cut_method": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/__schema36"
+                      }
+                    },
+                    "nape_style": {
+                      "type": "string",
+                      "enum": [
+                        "tapered",
+                        "blunt",
+                        "undercut",
+                        "natural"
+                      ]
+                    },
+                    "shrinkage_risk": {
+                      "type": "string",
+                      "enum": [
+                        "low",
+                        "medium",
+                        "high"
+                      ]
+                    },
+                    "tension": {
+                      "type": "string",
+                      "enum": [
+                        "none",
+                        "low",
+                        "high"
+                      ]
+                    },
+                    "heat_dependent": {
+                      "type": "boolean"
+                    },
+                    "grow_out_friendly": {
+                      "type": "boolean"
+                    },
+                    "tie_back": {
+                      "type": "boolean"
+                    },
+                    "covers_forehead": {
+                      "type": "boolean"
+                    },
+                    "covers_ears": {
+                      "type": "boolean"
+                    },
+                    "tucked_behind_ear": {
+                      "type": "boolean"
+                    },
+                    "beard_blend": {
+                      "type": "boolean"
+                    },
+                    "lineup": {
+                      "type": "boolean"
+                    },
+                    "styling_minutes": {
+                      "type": "array",
+                      "prefixItems": [
+                        {
+                          "$ref": "#/$defs/__schema37"
+                        },
+                        {
+                          "$ref": "#/$defs/__schema38"
+                        }
+                      ],
+                      "items": false,
+                      "minItems": 2,
+                      "maxItems": 2
+                    },
+                    "trim_weeks": {
+                      "type": "array",
+                      "prefixItems": [
+                        {
+                          "$ref": "#/$defs/__schema39"
+                        },
+                        {
+                          "$ref": "#/$defs/__schema40"
+                        }
+                      ],
+                      "items": false,
+                      "minItems": 2,
+                      "maxItems": 2
+                    },
+                    "tags": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/__schema41"
+                      }
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            },
+            "prompt_spec": {
+              "$ref": "#/$defs/__schema1"
+            },
+            "client": {
+              "$ref": "#/$defs/__schema1"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "changes",
+            "prompt_spec"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "client": {
+        "$ref": "#/$defs/__schema1"
+      },
+      "stylist": {
+        "$ref": "#/$defs/__schema1"
+      },
+      "images": {
+        "type": "object",
+        "properties": {
+          "model": {
+            "$ref": "#/$defs/__schema0"
+          },
+          "views": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/__schema42"
+            }
+          },
+          "shown_on": {
+            "$ref": "#/$defs/__schema1"
+          }
+        },
+        "required": [
+          "model",
+          "views"
+        ],
+        "additionalProperties": false
+      },
+      "prompt_spec": {
+        "$ref": "#/$defs/__schema1"
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "supports": {
+              "$ref": "#/$defs/__schema1"
+            },
+            "level": {
+              "type": "string",
+              "enum": [
+                "authority",
+                "research",
+                "trade_consensus",
+                "single_source",
+                "design_logic",
+                "policy"
+              ]
+            }
+          },
+          "required": [
+            "url",
+            "supports",
+            "level"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "review": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "draft",
+              "checked"
+            ]
+          },
+          "date": {
+            "type": "string",
+            "format": "date",
+            "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+          },
+          "note": {
+            "$ref": "#/$defs/__schema1"
+          }
+        },
+        "required": [
+          "status",
+          "date"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "kind",
+      "name",
+      "aliases",
+      "collections",
+      "family",
+      "zones",
+      "perimeter",
+      "fade",
+      "neckline",
+      "sideburns",
+      "fringe",
+      "texture_fit",
+      "density_fit",
+      "shrinkage",
+      "growth",
+      "strand_note",
+      "density_note",
+      "glasses_note",
+      "upkeep",
+      "grow_out",
+      "era",
+      "pairs_with",
+      "traits",
+      "variants",
+      "client",
+      "stylist",
+      "images",
+      "prompt_spec",
+      "sources",
+      "review"
+    ],
+    "additionalProperties": false
+  },
+  "$defs": {
+    "__schema0": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "__schema1": {
+      "type": "string",
+      "minLength": 1
+    },
+    "__schema2": {
+      "type": "string",
+      "enum": [
+        "salon",
+        "barbering"
+      ]
+    },
+    "__schema3": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$"
+    },
+    "__schema4": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "cm": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "$ref": "#/$defs/__schema5"
+                },
+                {
+                  "$ref": "#/$defs/__schema6"
+                }
+              ],
+              "items": false,
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "cm"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "guard_mm": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "$ref": "#/$defs/__schema7"
+                },
+                {
+                  "$ref": "#/$defs/__schema8"
+                }
+              ],
+              "items": false,
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "guard_mm"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "__schema5": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 150
+    },
+    "__schema6": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 150
+    },
+    "__schema7": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 40
+    },
+    "__schema8": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 40
+    },
+    "__schema9": {
+      "type": "object",
+      "properties": {
+        "landmark": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "above_ear",
+                "ear",
+                "jaw",
+                "chin",
+                "collarbone",
+                "shoulder",
+                "shoulder_blade",
+                "mid_back",
+                "waist"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "landmark"
+      ],
+      "additionalProperties": false
+    },
+    "__schema10": {
+      "type": "string",
+      "enum": [
+        "fade",
+        "skin",
+        "bald",
+        "drop",
+        "taper",
+        "scissor_taper",
+        "undercut"
+      ]
+    },
+    "__schema11": {
+      "anyOf": [
+        {
+          "type": "string",
+          "enum": [
+            "low",
+            "mid",
+            "high"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "__schema12": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 25
+    },
+    "__schema13": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/__schema1"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "__schema14": {
+      "anyOf": [
+        {
+          "type": "string",
+          "enum": [
+            "natural",
+            "tapered",
+            "blocked",
+            "rounded"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "__schema15": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "$ref": "#/$defs/__schema16"
+        },
+        "landmark": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/__schema3"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/__schema16"
+          }
+        }
+      },
+      "required": [
+        "kind",
+        "landmark",
+        "options"
+      ],
+      "additionalProperties": false
+    },
+    "__schema16": {
+      "type": "string",
+      "enum": [
+        "none",
+        "micro",
+        "short_blunt",
+        "blunt_full",
+        "bottleneck",
+        "wispy",
+        "curtain",
+        "side_swept",
+        "long_side",
+        "textured_forward",
+        "curly"
+      ]
+    },
+    "__schema17": {
+      "type": "object",
+      "properties": {
+        "fit": {
+          "type": "string",
+          "enum": [
+            "good",
+            "adapt",
+            "poor"
+          ]
+        },
+        "note": {
+          "$ref": "#/$defs/__schema1"
+        },
+        "daily": {
+          "type": "boolean",
+          "const": true
+        }
+      },
+      "required": [
+        "fit"
+      ],
+      "additionalProperties": false
+    },
+    "__schema18": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "__schema19": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "__schema20": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "__schema21": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "__schema22": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 60
+    },
+    "__schema23": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 60
+    },
+    "__schema24": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 26
+    },
+    "__schema25": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 26
+    },
+    "__schema26": {
+      "type": "string",
+      "enum": [
+        "crown",
+        "sides",
+        "jaw",
+        "ends",
+        "root_lift",
+        "temples",
+        "occiput"
+      ]
+    },
+    "__schema27": {
+      "type": "string",
+      "enum": [
+        "none",
+        "light",
+        "medium",
+        "heavy",
+        "internal",
+        "long_layers",
+        "face_framing",
+        "shag",
+        "chin_level"
+      ]
+    },
+    "__schema28": {
+      "type": "string",
+      "enum": [
+        "dry_shaped",
+        "razor",
+        "thinning_shears",
+        "point_cut"
+      ]
+    },
+    "__schema29": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 60
+    },
+    "__schema30": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 60
+    },
+    "__schema31": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 26
+    },
+    "__schema32": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 26
+    },
+    "__schema33": {
+      "type": "string",
+      "enum": [
+        "slick_back",
+        "comb_over",
+        "wash_and_go",
+        "air_dry_friendly",
+        "textured_top",
+        "waves",
+        "needs_blow_out",
+        "perm_dependent",
+        "curly_first",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "workplace_friendly",
+        "fine_hair_friendly",
+        "thick_hair_friendly",
+        "low_maintenance"
+      ]
+    },
+    "__schema34": {
+      "type": "string",
+      "enum": [
+        "crown",
+        "sides",
+        "jaw",
+        "ends",
+        "root_lift",
+        "temples",
+        "occiput"
+      ]
+    },
+    "__schema35": {
+      "type": "string",
+      "enum": [
+        "none",
+        "light",
+        "medium",
+        "heavy",
+        "internal",
+        "long_layers",
+        "face_framing",
+        "shag",
+        "chin_level"
+      ]
+    },
+    "__schema36": {
+      "type": "string",
+      "enum": [
+        "dry_shaped",
+        "razor",
+        "thinning_shears",
+        "point_cut"
+      ]
+    },
+    "__schema37": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 60
+    },
+    "__schema38": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 60
+    },
+    "__schema39": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 26
+    },
+    "__schema40": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 26
+    },
+    "__schema41": {
+      "type": "string",
+      "enum": [
+        "slick_back",
+        "comb_over",
+        "wash_and_go",
+        "air_dry_friendly",
+        "textured_top",
+        "waves",
+        "needs_blow_out",
+        "perm_dependent",
+        "curly_first",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "workplace_friendly",
+        "fine_hair_friendly",
+        "thick_hair_friendly",
+        "low_maintenance"
+      ]
+    },
+    "__schema42": {
+      "type": "string",
+      "enum": [
+        "front",
+        "side",
+        "back"
+      ]
+    }
+  }
+}

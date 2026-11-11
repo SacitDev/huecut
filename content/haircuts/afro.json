@@ -1,0 +1,1879 @@
+[
+  {
+    "id": "frohawk",
+    "kind": "cut",
+    "name": "Frohawk",
+    "aliases": [
+      "curly mohawk",
+      "fro-hawk",
+      "tapered mohawk"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "afro",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          7,
+          14
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          0.3,
+          2
+        ]
+      },
+      "back": {
+        "cm": [
+          0.3,
+          2
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.3,
+          2
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "not recommended"
+      },
+      "wavy": {
+        "fit": "poor"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "very fine coils lose definition on top, keep them moist"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        25,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A crown whorl may bend the strip, so shape the length around it."
+    },
+    "strand_note": "Works on defined coils and curls that stand up.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "none",
+      "products": [
+        "curl-defining custard",
+        "light oil"
+      ]
+    },
+    "grow_out": "The sides grow in over 6-8 weeks and the cut becomes a tapered curly crop.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "heavy"
+      ],
+      "silhouette": "tapered_natural",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A short cut with a strip of curls on top and close-cropped sides.",
+    "stylist": "Blend a taper or fade into a central strip about 4-6 cm wide at the temples, and keep the top at the finish length. Weight: the length is kept on top in a central strip and the sides are cropped.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a frohawk: a central strip of natural curls and coils about 4-6 cm wide on top, 7-14 cm long, blending into closely cropped sides and nape of 0.3-2 cm, with a clear taper at the temples and no fringe",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "tapered-twa",
+    "kind": "cut",
+    "name": "Tapered TWA",
+    "aliases": [
+      "tapered teeny weeny afro",
+      "tapered natural cut",
+      "tapered fro"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "afro",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          8
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          0.5,
+          2
+        ]
+      },
+      "back": {
+        "cm": [
+          0.3,
+          1.5
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.3,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "above_ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "not recommended; choose micro-pixie"
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "not recommended; choose micro-pixie"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "loose curls need a longer top; see Curly pixie"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "very fine coils show scalp at this length, so keep the top denser"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        25,
+        55
+      ],
+      "coily_pct": [
+        50,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Shape the taper around the hairline and nape whorl; short coils follow the whorl direction."
+    },
+    "strand_note": "Dense coils give the cut its shape; fine coils need more length on top.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        2,
+        5
+      ],
+      "trim_weeks": [
+        2,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "leave-in conditioner",
+        "light oil"
+      ]
+    },
+    "grow_out": "Grows into a rounded fro over about 8 weeks, then into the shaped round afro.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "curly_first",
+        "low_maintenance",
+        "wash_and_go",
+        "air_dry_friendly"
+      ],
+      "silhouette": "tapered_natural",
+      "styling_minutes": [
+        2,
+        5
+      ],
+      "trim_weeks": [
+        2,
+        4
+      ]
+    },
+    "variants": [],
+    "client": "A short, rounded natural cut with neat tapered sides. Almost wash and go.",
+    "stylist": "Define the taper at the nape, around the ears and at the temples with clippers, then cut the crown to a rounded shape, allowing for 50 percent or more shrinkage. Weight: tight at the nape and around the ears, with a rounded crown left longer.",
+    "images": {
+      "shown_on": "Shown on 4A to 4B coils",
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a tapered TWA: a short rounded natural afro of coils with the crown 3-8 cm, tight tapered sides and nape of 0.3-2 cm around the ears and temples, no fringe, a neat rounded top and a defined edge",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bouncecurl.com/blogs/news/types-of-curly-hair-cuts-plus-tips-to-find-the-right-stylist",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "shaped-round-twa",
+    "kind": "cut",
+    "name": "Shaped round crop",
+    "aliases": [
+      "rounded TWA",
+      "even-length natural crop"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "afro",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          9
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          4,
+          9
+        ]
+      },
+      "back": {
+        "cm": [
+          4,
+          9
+        ]
+      },
+      "nape": {
+        "cm": [
+          4,
+          9
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "above_ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "not recommended"
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "not recommended"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine coils show thinner areas on the sides, so keep length even"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        25,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Reshape around cowlicks or whorls so the shape stays round."
+    },
+    "strand_note": "Even coil density keeps the round shape.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        6
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "none",
+      "products": [
+        "leave-in conditioner",
+        "light oil"
+      ]
+    },
+    "grow_out": "The shape grows out into a larger round afro.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "sides"
+      ],
+      "sides_width": "medium",
+      "perimeter": "rounded",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "rounded",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        6
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "low_maintenance",
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A short natural cut with the same length all around the head, forming a neat circle.",
+    "stylist": "Cut dry, using the shortest area at the front as the guide, and carry the length evenly around the head. Check the circle from the front, side and back. Weight: the same short length all around in a round shape.",
+    "images": {
+      "shown_on": "Shown on 4A to 4B coils",
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a shaped round crop: a short natural afro cut to the same length all around the head, 4-9 cm, forming a neat rounded circle of coils with no fringe, even from the front, sides and back",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bouncecurl.com/blogs/news/types-of-curly-hair-cuts-plus-tips-to-find-the-right-stylist",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "shaped-round-afro",
+    "kind": "cut",
+    "name": "Shaped round afro",
+    "aliases": [
+      "round fro",
+      "rounded natural shape"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "afro",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          20,
+          30
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          20,
+          30
+        ]
+      },
+      "back": {
+        "cm": [
+          20,
+          30
+        ]
+      },
+      "nape": {
+        "cm": [
+          20,
+          30
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "poor"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "needs tight curls for volume"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine coils look sparse in a round shape, so keep density"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        25,
+        55
+      ],
+      "coily_pct": [
+        50,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Shape around the hairline and nape whorl so the circle stays even."
+    },
+    "strand_note": "Dense coils give the circular shape; looser coils lose it.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "rare",
+      "products": [
+        "leave-in conditioner",
+        "styling cream"
+      ]
+    },
+    "grow_out": "The shape grows out evenly, with only the perimeter needing trimming.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "sides"
+      ],
+      "sides_width": "full",
+      "perimeter": "rounded",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "weight_removal": "low",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "curly_first"
+      ],
+      "silhouette": "rounded",
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ]
+    },
+    "variants": [],
+    "client": "A full, round natural shape with even volume all the way around.",
+    "stylist": "Cut the shape dry by picking out the hair and checking the outline from every side. Weight: an even, circular outline around the head.",
+    "images": {
+      "shown_on": "Shown on 4A to 4B coils",
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a shaped round afro: full natural coils cut to an even circular outline around the head, about 10 cm of finished curl in every direction (20-30 cm stretched), with the same volume at the front, sides and back, no fringe, symmetrical from every angle",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bouncecurl.com/blogs/news/types-of-curly-hair-cuts-plus-tips-to-find-the-right-stylist",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "diamond-shape-afro",
+    "kind": "cut",
+    "name": "Diamond-shape afro",
+    "aliases": [
+      "diamond fro",
+      "tapered diamond shape"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "afro",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          20,
+          30
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          16,
+          26
+        ]
+      },
+      "back": {
+        "cm": [
+          12,
+          20
+        ]
+      },
+      "nape": {
+        "cm": [
+          12,
+          20
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "poor"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "needs tight curls; see Curly short shag"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine coils lose the diamond edges, so keep density at the cheeks"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        25,
+        55
+      ],
+      "coily_pct": [
+        50,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the temples and nape for whorls that may disturb the narrow edges."
+    },
+    "strand_note": "Dense, well-defined coils keep the diamond edges crisp; looser textures round them off.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "leave-in conditioner",
+        "styling cream"
+      ]
+    },
+    "grow_out": "The narrow areas fill in over 6-8 weeks, turning the diamond into a rounded fro; trim the temples first to keep the shape.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "sides"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "rounded",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "curly_first"
+      ]
+    },
+    "variants": [],
+    "client": "A shaped natural cut with the most width at the cheeks and a neater, narrower line at the temples and nape.",
+    "stylist": "Pick out the hair, trim the widest part at cheek level, then taper the temples and nape inward in steps. Check the silhouette from the front and side before finishing. Weight: width is greatest at the cheeks, narrowing at the temples and nape.",
+    "images": {
+      "shown_on": "Shown on 4A to 4B coils",
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a diamond-shape afro: full natural coils with about 10 cm of finished curl on top and at cheek level (20-30 cm stretched), widest at the cheeks, then narrowing in steps at the temples and nape, no fringe, a defined diamond silhouette from the front",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "afro-taper-round",
+    "kind": "cut",
+    "name": "Rounded afro with taper",
+    "aliases": [
+      "Afro taper",
+      "Taper afro",
+      "Natural afro"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "afro",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          1.5,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          1.5,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0.5,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 3,
+      "note": "Taper at the sides and nape; round shape on top."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited: waves lack the volume."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Loose curls shape into an afro with pick.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the shape smaller and rounder so the scalp shows less."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Rounded volume covers temples."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; very fine coils need extra moisture to hold shape.",
+    "glasses_note": "Sits well with most frames; keep hair above the ear short so the arms rest cleanly.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "none",
+      "products": [
+        "pick",
+        "oil"
+      ]
+    },
+    "grow_out": "Easy: the taper grows in 3-4 weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "sides"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "weight_removal": "low",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "tags": [
+        "curly_first",
+        "workplace_friendly",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "air_dry_friendly"
+      ],
+      "silhouette": "rounded",
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ]
+    },
+    "variants": [],
+    "client": "A rounded natural afro with neat tapered edges at the sides and neck.",
+    "stylist": "Pick out, shape the round outline with scissors and clipper-taper the sides and nape; avoid razor edges on tight coils.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a rounded afro with a taper: a rounded natural afro of 6-12 cm on top, shaped to an even circular outline, the sides and back tapered from #0.5 to #3 (10 mm), the nape up to #1, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://creativeheadmag.com/techniques/exauce-imbo-my-take-on-an-afro-mid-taper-fade/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "afro-blowout",
+    "kind": "cut",
+    "name": "Afro blowout",
+    "aliases": [
+      "Blowout",
+      "Fluffy afro",
+      "Big afro"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "afro",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          8,
+          15
+        ]
+      },
+      "back": {
+        "cm": [
+          8,
+          15
+        ]
+      },
+      "nape": {
+        "cm": [
+          6,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Natural",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Works with a stretched blow-dry; the finish is looser.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design.",
+        "daily": true
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep it smaller and rounder; a large blowout shows the scalp when density is low."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Volume covers temples at stage 3-4; the surrounding mass distracts from a thin crown."
+    },
+    "strand_note": null,
+    "density_note": "Thick density; fine coils lose shape.",
+    "glasses_note": "Hair may curl or drop over the arms of glasses; trim a clean channel behind the ear if frames sit on top of the hair.",
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "leave-in conditioner",
+        "pick"
+      ]
+    },
+    "grow_out": "Let it grow: a blowout can reach 20+ cm and be shaped into twists or a puff.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-garibaldi",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "sides"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "rounded",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "tags": [
+        "curly_first"
+      ]
+    },
+    "variants": [],
+    "client": "A large, soft, round afro blown out and picked. Voluminous and expressive.",
+    "stylist": "Detangle, stretch with a blow-dryer and comb, pick the volume out evenly and trim the outline with scissors. Never razor-cut dry coils.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an afro blowout: a large, soft, round afro with the top 10-20 cm, the sides and back 8-15 cm and the nape 6-12 cm, picked out evenly into a full rounded outline, no fade, a natural neckline",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "afro-burst-taper",
+    "kind": "cut",
+    "name": "Afro with burst taper",
+    "aliases": [
+      "Burst taper afro",
+      "Afro burst fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "afro",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "cm": [
+          1,
+          4
+        ]
+      },
+      "nape": {
+        "cm": [
+          1,
+          4
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0,
+      "note": "Burst arc around the ears; natural afro on top."
+    },
+    "neckline": "natural",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Works with a stretched top and curl cream.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the afro compact so the top looks full above the fade."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Fine for stage 3-4; the volume covers the temples."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick density.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "pick",
+        "oil"
+      ]
+    },
+    "grow_out": "Let the fade grow in about 4 weeks; it becomes a rounded taper afro.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "rounded",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "wash_and_go",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "An afro with a curved fade around the ears. Bold, shapely and neat.",
+    "stylist": "Arc the fade around the ear and keep the rest natural. Keep the nape longer than the sides.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an afro with a burst taper: a natural afro of 6-12 cm on top, the sides faded from skin to #2 (6 mm) in a curved arc around the ear, and the back and nape left longer at 1-4 cm, a natural neckline",
+    "sources": [
+      {
+        "url": "https://creativeheadmag.com/techniques/exauce-imbo-my-take-on-an-afro-mid-taper-fade/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "afro-puff-taper",
+    "kind": "cut",
+    "name": "Afro puff with taper",
+    "aliases": [
+      "High puff",
+      "Puff",
+      "Pineapple puff"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "afro",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          20
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 0.5,
+      "note": "Tapered sides; top gathered into a puff."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Works with a stretched top and a gel; softer puff.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Gather a smaller, looser puff and avoid pulling at the hairline."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Pulling back shows the hairline."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; the top needs enough density to gather.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "gel",
+        "elastic"
+      ]
+    },
+    "grow_out": "Let the sides grow and release the puff: it becomes a full afro in about 8 weeks.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "rounded",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "high",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "curly_first",
+        "wash_and_go",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Tapered sides and long top gathered into a puff. Practical and distinctive.",
+    "stylist": "Fade the sides to #1-#2, leave 12-20 cm on top, stretch it and gather it with a soft elastic. Keep edges free of tension.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an afro puff with a taper: a long top of 12-20 cm gathered upward into a puff, the sides and back tapered from skin to #2 (6 mm), the nape blade to #1, a tapered neckline and faded sideburns",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "shaped-fro-curly-fringe",
+    "kind": "cut",
+    "name": "Shaped fro with a curly fringe",
+    "aliases": [
+      "fringe and 'fro",
+      "round fro with bangs"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "afro",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          14,
+          24
+        ]
+      },
+      "fringe": {
+        "cm": [
+          12,
+          18
+        ]
+      },
+      "sides": {
+        "cm": [
+          12,
+          20
+        ]
+      },
+      "back": {
+        "cm": [
+          12,
+          20
+        ]
+      },
+      "nape": {
+        "cm": [
+          12,
+          20
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curly",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "not recommended"
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "not recommended"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "needs tight 3C curls for the shape"
+      },
+      "coily": {
+        "fit": "good",
+        "note": "on 4C hair the fringe stands out instead of falling"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine coils look sparse in a round shape, so keep the density"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        50,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Shape around the hairline and any cowlick so the fringe sits evenly."
+    },
+    "strand_note": "Dense 4A to 4B coils give the best shape. Fine strands look sparse.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        4,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "leave-in conditioner",
+        "styling cream"
+      ]
+    },
+    "grow_out": "The shape grows out evenly, and the fringe joins the round shape in about 8 to 10 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "sides"
+      ],
+      "sides_width": "full",
+      "perimeter": "rounded",
+      "part": "none",
+      "fringe": "curly",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "rounded",
+      "weight_removal": "low",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        4,
+        8
+      ],
+      "tags": [
+        "curly_first"
+      ]
+    },
+    "variants": [],
+    "client": "A rounded natural shape with a curly fringe, shorter in the middle and longer at the sides. Dry, the shape sits 4 to 12 cm off the head and the fringe 4 to 9 cm.",
+    "stylist": "Cut the rounded shape dry. Cut the fringe shorter at the centre and longer at the sides, and allow for shrinkage: a fringe cut at 8 cm springs back to 2-4 cm. Plan for 50-70% shrinkage, so the shape lands about 4-12 cm off the head. On 4C hair the fringe stands out instead of falling. Weight: a round shape with a fringe that stands off the forehead.",
+    "images": {
+      "shown_on": "Shown on 4A to 4B coils",
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a shaped fro with a curly fringe: a rounded natural shape that sits about 4-12 cm off the head when dry (12-24 cm stretched), the same shape at the sides and back, and a curly fringe about 4-9 cm dry (12-18 cm stretched), shorter at the centre and longer at the sides",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.bustle.com/beauty/bang-trends-2026",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.voguescandinavia.com/articles/the-best-bangs-and-trendy-fringes-to-cut",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  }
+]

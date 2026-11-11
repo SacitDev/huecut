@@ -1,0 +1,16 @@
+node_modules/
+dist/
+dist-*/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+.vite/
+*.log
+.env
+.env.*
+public/models/
+src/generated/
+tests/private/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,475 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "$ref": "#/$defs/__schema0"
+      },
+      "kind": {
+        "type": "string",
+        "const": "beard"
+      },
+      "name": {
+        "$ref": "#/$defs/__schema1"
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/__schema1"
+        }
+      },
+      "collections": {
+        "minItems": 1,
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/__schema2"
+        }
+      },
+      "zones_mm": {
+        "type": "object",
+        "properties": {
+          "cheeks": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "$ref": "#/$defs/__schema3"
+              },
+              {
+                "$ref": "#/$defs/__schema4"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "chin": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "$ref": "#/$defs/__schema5"
+              },
+              {
+                "$ref": "#/$defs/__schema6"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "moustache": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "$ref": "#/$defs/__schema7"
+              },
+              {
+                "$ref": "#/$defs/__schema8"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "neck": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "$ref": "#/$defs/__schema9"
+              },
+              {
+                "$ref": "#/$defs/__schema10"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "sideburns": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "$ref": "#/$defs/__schema11"
+              },
+              {
+                "$ref": "#/$defs/__schema12"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "required": [
+          "cheeks",
+          "chin",
+          "moustache",
+          "neck",
+          "sideburns"
+        ],
+        "additionalProperties": false
+      },
+      "cheek_line": {
+        "type": "string",
+        "enum": [
+          "natural",
+          "low",
+          "sharp"
+        ]
+      },
+      "neckline": {
+        "type": "string",
+        "enum": [
+          "natural",
+          "two_fingers",
+          "high"
+        ]
+      },
+      "growth": {
+        "type": "object",
+        "properties": {
+          "weeks_needed": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "$ref": "#/$defs/__schema13"
+              },
+              {
+                "$ref": "#/$defs/__schema14"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "note": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/__schema1"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "weeks_needed",
+          "note"
+        ],
+        "additionalProperties": false
+      },
+      "upkeep": {
+        "type": "object",
+        "properties": {
+          "trim_days": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "$ref": "#/$defs/__schema15"
+              },
+              {
+                "$ref": "#/$defs/__schema16"
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "daily_minutes": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 60
+          },
+          "products": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/__schema1"
+            }
+          }
+        },
+        "required": [
+          "trim_days",
+          "daily_minutes",
+          "products"
+        ],
+        "additionalProperties": false
+      },
+      "pairs_with": {
+        "type": "object",
+        "properties": {
+          "cuts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/__schema0"
+            }
+          }
+        },
+        "required": [
+          "cuts"
+        ],
+        "additionalProperties": false
+      },
+      "traits": {
+        "type": "object",
+        "properties": {
+          "beard_shape": {
+            "type": "string",
+            "enum": [
+              "none",
+              "fuller_sides",
+              "short_sides",
+              "short_along_jaw",
+              "full_rounded",
+              "fuller_chin",
+              "pointed_chin",
+              "ducktail",
+              "goatee",
+              "chin_strap",
+              "moustache_only"
+            ]
+          },
+          "beard_length": {
+            "type": "string",
+            "enum": [
+              "none",
+              "stubble",
+              "short",
+              "medium",
+              "long"
+            ]
+          },
+          "cheek_line": {
+            "type": "string",
+            "enum": [
+              "natural",
+              "low",
+              "sharp"
+            ]
+          },
+          "neckline": {
+            "type": "string",
+            "enum": [
+              "natural",
+              "two_fingers",
+              "high"
+            ]
+          }
+        },
+        "required": [
+          "beard_shape",
+          "beard_length",
+          "cheek_line",
+          "neckline"
+        ],
+        "additionalProperties": false
+      },
+      "client": {
+        "$ref": "#/$defs/__schema1"
+      },
+      "stylist": {
+        "$ref": "#/$defs/__schema1"
+      },
+      "images": {
+        "type": "object",
+        "properties": {
+          "model": {
+            "$ref": "#/$defs/__schema0"
+          },
+          "views": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/__schema17"
+            }
+          },
+          "shown_on": {
+            "$ref": "#/$defs/__schema1"
+          }
+        },
+        "required": [
+          "model",
+          "views"
+        ],
+        "additionalProperties": false
+      },
+      "prompt_spec": {
+        "$ref": "#/$defs/__schema1"
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "supports": {
+              "$ref": "#/$defs/__schema1"
+            },
+            "level": {
+              "type": "string",
+              "enum": [
+                "authority",
+                "research",
+                "trade_consensus",
+                "single_source",
+                "design_logic",
+                "policy"
+              ]
+            }
+          },
+          "required": [
+            "url",
+            "supports",
+            "level"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "review": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "draft",
+              "checked"
+            ]
+          },
+          "date": {
+            "type": "string",
+            "format": "date",
+            "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+          },
+          "note": {
+            "$ref": "#/$defs/__schema1"
+          }
+        },
+        "required": [
+          "status",
+          "date"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "kind",
+      "name",
+      "aliases",
+      "collections",
+      "zones_mm",
+      "cheek_line",
+      "neckline",
+      "growth",
+      "upkeep",
+      "pairs_with",
+      "traits",
+      "client",
+      "stylist",
+      "images",
+      "prompt_spec",
+      "sources",
+      "review"
+    ],
+    "additionalProperties": false
+  },
+  "$defs": {
+    "__schema0": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "__schema1": {
+      "type": "string",
+      "minLength": 1
+    },
+    "__schema2": {
+      "type": "string",
+      "enum": [
+        "salon",
+        "barbering"
+      ]
+    },
+    "__schema3": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema4": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema5": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema6": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema7": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema8": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema9": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema10": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema11": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema12": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema13": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 52
+    },
+    "__schema14": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 52
+    },
+    "__schema15": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 90
+    },
+    "__schema16": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 90
+    },
+    "__schema17": {
+      "type": "string",
+      "enum": [
+        "front",
+        "side",
+        "back"
+      ]
+    }
+  }
+}

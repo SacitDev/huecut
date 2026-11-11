@@ -1,0 +1,19 @@
+{
+  "bands": [
+    {
+      "fact": "face.proportion",
+      "from": "width_to_length",
+      "view": "frontal",
+      "cuts": [{ "below": null, "value": "longer" }, { "below": null, "value": "balanced" }, { "value": "rounder" }],
+      "margin": null
+    }
+  ],
+  "current_length_cm": {
+    "very_short": [0, 3],
+    "short": [3, 8],
+    "chin": [8, 15],
+    "shoulder": [15, 25],
+    "long": [25, 40],
+    "very_long": [40, 100]
+  }
+}

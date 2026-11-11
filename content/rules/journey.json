@@ -1,0 +1,988 @@
+[
+  {
+    "id": "lift-0-2-virgin",
+    "effect": "label",
+    "label": "plausible",
+    "when": {
+      "hair.chemical_history": {
+        "is": "none"
+      },
+      "hair.condition": {
+        "is": "healthy"
+      }
+    },
+    "on": {
+      "lift_levels": {
+        "range": [
+          0,
+          2
+        ]
+      }
+    },
+    "because": "A small step lighter on natural, healthy hair is well within reach of normal colour.",
+    "what_to_ask": "Ask for a strand test to confirm the result on your hair before the first appointment.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+      "https://cutcalcs.pages.dev/reference/hair-colour-levels"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "lift-3-4-any",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {},
+    "on": {
+      "known_lift": {
+        "range": [
+          3,
+          4
+        ]
+      }
+    },
+    "because": "Going a good deal lighter depends on your hair and its history, which a colourist needs to see.",
+    "what_to_ask": "Ask whether this lift is realistic for hair like yours, and for a strand test first.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+      "https://cutcalcs.pages.dev/reference/hair-colour-levels"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "Each region with a known level is assessed."
+    }
+  },
+  {
+    "id": "lift-5-plus-any",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {},
+    "on": {
+      "known_lift": {
+        "range": [
+          5,
+          9
+        ]
+      }
+    },
+    "because": "Going much lighter is a big change that a colourist needs to plan and watch over.",
+    "what_to_ask": "Ask how they would keep your hair in good shape through the lightening, and what result is likely.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+      "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+      "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "Each region with a known level is assessed."
+    }
+  },
+  {
+    "id": "very-dark-to-platinum",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "colour.current_level_lengths": {
+        "range": [
+          1,
+          4
+        ]
+      }
+    },
+    "on": {
+      "lightening": {
+        "in": [
+          "some",
+          "always"
+        ]
+      },
+      "target_level": {
+        "range": [
+          9,
+          10
+        ]
+      }
+    },
+    "because": "Lifting dark or medium-brown hair to the palest blondes passes through strong warm stages. It also puts the most strain on the hair.",
+    "what_to_ask": "Ask what the hair will look like on the way and how they will keep it in good condition.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+      "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+      "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "Only a look with lightener can lift to that level."
+    }
+  },
+  {
+    "id": "mid-brown-to-light-blonde",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "colour.current_level_lengths": {
+        "range": [
+          4,
+          6
+        ]
+      }
+    },
+    "on": {
+      "lightening": {
+        "in": [
+          "some",
+          "always"
+        ]
+      },
+      "target_level": {
+        "range": [
+          8,
+          9
+        ]
+      }
+    },
+    "because": "From brown or dark blonde, a light blonde is reachable for some people, but warm tones often show on the way.",
+    "what_to_ask": "Ask how much warmth to expect and whether a softer blonde would suit your starting point.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+      "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "Only a look with lightener can lift to that level."
+    }
+  },
+  {
+    "id": "go-lighter-over-dye",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "hair.chemical_history": {
+        "in": [
+          "home_dye",
+          "home_dark_dye",
+          "salon_colour",
+          "vivid",
+          "colour_remover"
+        ]
+      }
+    },
+    "on": {
+      "lengths_lift": {
+        "range": [
+          1,
+          9
+        ]
+      }
+    },
+    "because": "Dye cannot lighten dye. So a colourist first takes the old colour out, then puts the new shade on.",
+    "what_to_ask": "Ask how they would lighten or remove the old colour and what condition your hair needs to be in first.",
+    "evidence": "single_source",
+    "sources": [
+      "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+      "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "The explanation names the colour removal."
+    }
+  },
+  {
+    "id": "box-black-to-lighter",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "hair.chemical_history": {
+        "is": "home_dark_dye"
+      }
+    },
+    "on": {
+      "known_lift": {
+        "range": [
+          3,
+          9
+        ]
+      }
+    },
+    "because": "Dark box dye builds up in the lengths, so going lighter from it needs a colourist's plan.",
+    "what_to_ask": "Ask about a strand test and how a lift from dyed dark hair usually goes for hair like yours.",
+    "evidence": "single_source",
+    "sources": [
+      "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11"
+    }
+  },
+  {
+    "id": "colour-correction-tone",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "hair.chemical_history": {
+        "in": [
+          "home_dye",
+          "home_dark_dye",
+          "salon_colour",
+          "vivid"
+        ]
+      }
+    },
+    "on": {
+      "technique": {
+        "is": "colour_correction"
+      },
+      "lift_levels": {
+        "range": [
+          -9,
+          0
+        ]
+      }
+    },
+    "because": "You can often change the tone of dyed hair without going lighter. Old colour can take it unevenly.",
+    "what_to_ask": "Ask for a strand test on the coloured lengths and which tone is realistic.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "colour-correction-any",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {},
+    "on": {
+      "technique": {
+        "is": "colour_correction"
+      }
+    },
+    "because": "A colour correction is planned case by case once a colourist has seen your hair.",
+    "what_to_ask": "Ask to be seen in person first, for a strand test and for what result is realistic for your hair.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Colour correction needs professional work, so these looks are never labelled Plausible."
+    }
+  },
+  {
+    "id": "henna-plant",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "hair.chemical_history": {
+        "is": "henna_plant"
+      }
+    },
+    "on": {
+      "known_lift": {
+        "range": [
+          1,
+          9
+        ]
+      }
+    },
+    "because": "Plant henna stays in the hair and lightens unevenly and warm. Products sold as henna are not always pure. Lightening over it should be strand tested and done by a colourist.",
+    "what_to_ask": "Bring the henna product name if you can and say when you last used it. Ask for a strand test before any lightening.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "Each region with a known level is assessed."
+    }
+  },
+  {
+    "id": "henna-plant-ash",
+    "from": "henna-plant",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "hair.chemical_history": {
+        "is": "henna_plant"
+      }
+    },
+    "on": {
+      "tone": {
+        "is": "ash"
+      }
+    },
+    "because": "Plant henna leaves a red-orange base that makes cool ash tones hard to reach.",
+    "what_to_ask": "Tell your colourist about the henna and ask which tones can work over it.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "henna-plant-any",
+    "from": "henna-plant",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "hair.chemical_history": {
+        "is": "henna_plant"
+      }
+    },
+    "because": "Plant henna stays in the hair and changes how any colour over it turns out.",
+    "what_to_ask": "Tell your colourist about the henna and bring the product name if you can. Ask for a strand test before any colour.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Henna coats and stains the hair and may interact with other products."
+    }
+  },
+  {
+    "id": "metallic-salts",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "hair.chemical_history": {
+        "is": "henna_compound"
+      }
+    },
+    "because": "Some henna and products that darken hair have metal salts in them. These can react badly with salon colour and lightener.",
+    "what_to_ask": "Bring the product name if you can, and ask for a strand test before any colour.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.tapdancinglizard.com/compound-henna/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "The sources for the chemistry of metallic-salt henna are limited."
+    }
+  },
+  {
+    "id": "go-darker-modest",
+    "effect": "label",
+    "label": "plausible",
+    "when": {
+      "hair.condition": {
+        "in": [
+          "healthy",
+          "dry"
+        ]
+      }
+    },
+    "on": {
+      "lift_levels": {
+        "range": [
+          -9,
+          0
+        ]
+      },
+      "darkens_by": {
+        "range": [
+          1,
+          3
+        ]
+      }
+    },
+    "because": "Going one to three levels darker on hair in fair condition is often simple.",
+    "what_to_ask": "Ask how the darker colour will fade and how often the roots will need a refresh.",
+    "evidence": "single_source",
+    "sources": [
+      "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+      "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "one to three levels darker read region by region; a look that lifts any region is not \"darker\""
+    }
+  },
+  {
+    "id": "go-darker-over-lightened",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "hair.chemical_history": {
+        "in": [
+          "bleach",
+          "highlights",
+          "vivid",
+          "colour_remover"
+        ]
+      }
+    },
+    "on": {
+      "darkens_by": {
+        "range": [
+          1,
+          9
+        ]
+      }
+    },
+    "because": "Hair that has been lightened or had colour removed is porous. A darker shade can take unevenly, look flat or fade fast.",
+    "what_to_ask": "Ask whether your hair needs a pre-colour (filler) step first and how the darker shade will fade.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+      "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "darker read region by region"
+    }
+  },
+  {
+    "id": "go-darker-from-bleached",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "colour.current_level_lengths": {
+        "range": [
+          8,
+          10
+        ]
+      }
+    },
+    "on": {
+      "target_level": {
+        "range": [
+          1,
+          3
+        ]
+      }
+    },
+    "because": "Very light hair can take a dark colour unevenly or look flat unless lost warmth is put back first.",
+    "what_to_ask": "Ask whether your hair needs a pre-colour step and how the darker shade will fade.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+      "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "filler-before-dark",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "colour.current_level_lengths": {
+        "range": [
+          8,
+          10
+        ]
+      }
+    },
+    "on": {
+      "lengths_darken": {
+        "range": [
+          4,
+          9
+        ]
+      }
+    },
+    "because": "Very light lengths need a filler before a much darker shade. Without it the colour can turn green, flat or patchy.",
+    "what_to_ask": "Ask your colourist to fill your lengths before the darker colour.",
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the professional route for a deep shade over near-white lengths"
+    }
+  },
+  {
+    "id": "vivid-on-dark",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "colour.current_level_lengths": {
+        "range": [
+          1,
+          6
+        ]
+      }
+    },
+    "on": {
+      "vivid": {
+        "is": true
+      },
+      "prelightening": {
+        "is": true
+      }
+    },
+    "because": "Bright shades need the hair lightened first, and on darker hair that step needs a colourist's plan.",
+    "what_to_ask": "Ask how light the hair must go for this shade and how they will keep it in good condition.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+      "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-coverage-percent",
+    "effect": "label",
+    "label": "plausible",
+    "when": {},
+    "on": {
+      "technique": {
+        "is": "grey_coverage"
+      }
+    },
+    "because": "Covering grey with a shade near your natural colour is a common salon job.",
+    "what_to_ask": "Ask how often the roots will need covering and whether a softer blend would suit you.",
+    "evidence": "single_source",
+    "sources": [
+      "https://blog.wella.com/gb/node/525",
+      "https://www.madison-reed.com/gray-hair-coverage",
+      "https://clairolpro.com/inside-clairol-pro/gray-hair-coverage-solutions"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Grey coverage thresholds vary between brands and product types."
+    }
+  },
+  {
+    "id": "grey-blending-percent",
+    "from": "grey-coverage-percent",
+    "effect": "label",
+    "label": "plausible",
+    "when": {},
+    "on": {
+      "technique": {
+        "is": "grey_blending"
+      }
+    },
+    "because": "Blending grey with lights and lowlights near your natural colour is a gentle, easy choice.",
+    "what_to_ask": "Ask how the blend will grow out and when it will need a refresh.",
+    "evidence": "single_source",
+    "sources": [
+      "https://blog.wella.com/gb/node/525",
+      "https://www.madison-reed.com/gray-hair-coverage",
+      "https://clairolpro.com/inside-clairol-pro/gray-hair-coverage-solutions"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Grey coverage thresholds vary between brands and product types."
+    }
+  },
+  {
+    "id": "grey-blending-damaged",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "hair.condition": {
+        "is": "damaged"
+      }
+    },
+    "on": {
+      "technique": {
+        "is": "grey_blending"
+      }
+    },
+    "because": "Damaged hair can turn patchy with blending colour. A colourist should check it first, even with no lightening.",
+    "what_to_ask": "Ask if your hair is ready for blending colour now, or if a few weeks of care first would give an even result.",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-to-silver",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {},
+    "on": {
+      "family": {
+        "is": "grey_silver"
+      },
+      "technique": {
+        "not": [
+          "grey_blending"
+        ]
+      }
+    },
+    "because": "An even silver or grey depends on how much grey you have and how light the rest of your hair can safely go. It can mean a long grow-out or regular toning.",
+    "what_to_ask": "Ask whether to blend while you grow it out or to lighten the rest, and what each means for your hair.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://blog.wella.com/gb/node/525"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "lightener-on-straightened",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "hair.chemical_history": {
+        "in": [
+          "relaxer_perm",
+          "keratin"
+        ]
+      }
+    },
+    "on": {
+      "known_lift": {
+        "range": [
+          1,
+          9
+        ]
+      }
+    },
+    "because": "Relaxed, permed or smoothed hair has already been changed by chemicals. Lightening it needs a colourist's care.",
+    "what_to_ask": "Tell your colourist when and how your hair was straightened, and ask for a strand test.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.hairfinder.com/hair2/bleachhairrelaxer.htm",
+      "https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11"
+    }
+  },
+  {
+    "id": "colour-soon-after-chemical",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "colour.last_chemical_service": {
+        "is": "weeks_0_2"
+      }
+    },
+    "because": "Hair needs a break after a perm, relaxer or smoothing treatment. Wait at least two weeks before more chemical work.",
+    "what_to_ask": "Ask your colourist when it is safe to colour after your last chemical service.",
+    "evidence": "authority",
+    "sources": [
+      "https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes",
+      "https://www.hairfinder.com/hair2/bleachhairrelaxer.htm"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "colour-soon-after-dye",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "hair.chemical_history": {
+        "in": [
+          "home_dye",
+          "home_dark_dye",
+          "salon_colour",
+          "bleach",
+          "highlights",
+          "vivid",
+          "colour_remover"
+        ]
+      },
+      "colour.last_dye": {
+        "is": "weeks_0_2"
+      }
+    },
+    "because": "Colour put on in the last two weeks is still settling, so a colourist should look at your hair first.",
+    "what_to_ask": "Ask your colourist to look at your hair before more colour goes on.",
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "a recent dye is a colourist's assessment, never a \"safe after so many days\" rule"
+    }
+  },
+  {
+    "id": "damaged-hair",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "hair.condition": {
+        "is": "damaged"
+      }
+    },
+    "on": {
+      "known_lift": {
+        "range": [
+          1,
+          9
+        ]
+      }
+    },
+    "because": "Lightening hair that already breaks or feels gummy can harm it further.",
+    "what_to_ask": "Ask about care and trims first, and when your hair will be ready for lightening.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11"
+    }
+  },
+  {
+    "id": "scalp-skin-problem",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "safety.scalp_irritation": {
+        "is": "now"
+      }
+    },
+    "because": "Colour should not go on a scalp that is sore, irritated, sunburnt or broken.",
+    "what_to_ask": "Wait until your scalp has healed, and ask your colourist to check it before colouring.",
+    "evidence": "authority",
+    "sources": [
+      "https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes",
+      "https://www.nhs.uk/conditions/hair-dye-allergy/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "pregnancy-treatment",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "safety.health_context": {
+        "is": true
+      }
+    },
+    "because": "If you are pregnant, breastfeeding or having treatment for your health, talk to a colourist. They should plan any colour with you.",
+    "what_to_ask": "Tell your colourist, and ask your doctor if you are unsure.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "ash-from-warm-base",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "colour.current_tone": {
+        "in": [
+          "warm",
+          "copper",
+          "brassy"
+        ]
+      }
+    },
+    "on": {
+      "warmth": {
+        "is": "cool"
+      },
+      "known_lift": {
+        "range": [
+          1,
+          9
+        ]
+      }
+    },
+    "because": "Lifting warm hair passes through red and orange, so cool ash tones can be hard to reach and keep.",
+    "what_to_ask": "Ask how cool the result can be from your current colour and how often it will need toning.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://opentextbc.ca/haircolourforhairstylistslevel2/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11"
+    }
+  },
+  {
+    "id": "red-copper-fade",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "pref.colour_upkeep": {
+        "in": [
+          "low",
+          "home_only"
+        ]
+      }
+    },
+    "on": {
+      "family": {
+        "is": "red_copper"
+      }
+    },
+    "because": "Red and copper shades fade quickly, so they need more upkeep than you said suits you.",
+    "what_to_ask": "Ask how fast this shade fades on your hair and what care slows it down.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "textured-hair-lightening",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "hair.texture": {
+        "in": [
+          "curly",
+          "coily"
+        ]
+      }
+    },
+    "on": {
+      "known_lift": {
+        "range": [
+          3,
+          9
+        ]
+      }
+    },
+    "because": "Lightening can loosen curls and coils and dry the hair, so a bigger lift needs extra care.",
+    "what_to_ask": "Ask a colourist who works with curls how they would protect your pattern.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "Each region with a known level is assessed."
+    }
+  },
+  {
+    "id": "textured-hair-lightening-fine",
+    "from": "textured-hair-lightening",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "hair.strand": {
+        "is": "fine"
+      }
+    },
+    "on": {
+      "known_lift": {
+        "range": [
+          3,
+          9
+        ]
+      }
+    },
+    "because": "Fine strands take lightener quickly and can weaken with a bigger lift.",
+    "what_to_ask": "Ask how they would protect fine hair and whether a softer lift would suit it.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "Each region with a known level is assessed."
+    }
+  },
+  {
+    "id": "unknown-history",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "hair.chemical_history": {
+        "known": false
+      }
+    },
+    "because": "Without knowing what your hair has had before, nobody can say how colour will behave on it.",
+    "what_to_ask": "Tell your colourist everything your hair has had in the last two to three years, and ask for a strand test.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "unknown-current-level",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "colour.current_level_lengths": {
+        "known": false
+      }
+    },
+    "because": "Without the colour of your lengths today, the change this look needs cannot be judged.",
+    "what_to_ask": "Ask your colourist to judge how light or dark your lengths are now.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "deposit-only-lift",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {},
+    "on": {
+      "base_technique": {
+        "in": [
+          "gloss",
+          "demi_refresh"
+        ]
+      },
+      "lift_levels": {
+        "range": [
+          1,
+          9
+        ]
+      }
+    },
+    "because": "A gloss or demi cannot supply the lightening this look requires.",
+    "what_to_ask": "Ask whether this look needs a lightening step on your hair, or a shade closer to your own.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "lightening-placement-not-lighter",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {},
+    "on": {
+      "placement_not_lighter": {
+        "is": true
+      }
+    },
+    "because": "The lighter pieces in this look are no lighter than your hair is now, so they would not show as intended.",
+    "what_to_ask": "Ask your colourist which shade would show as lighter on your current colour.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

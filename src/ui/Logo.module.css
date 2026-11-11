@@ -1,0 +1,29 @@
+/* Wordmark: Bricolage 700, width 82 %, tracking -0.02em, --text; the mark bigger than the word, at least 28 px. */
+
+/* The mark is taller than the word, so the two are centred on each other. */
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: var(--text-wordmark);
+  font-weight: var(--weight-wordmark);
+  font-stretch: var(--wdth-wordmark);
+  letter-spacing: var(--tracking-wordmark);
+  line-height: var(--lh-button);
+}
+
+.mark {
+  flex: none;
+  inline-size: max(var(--logo-mark-min), var(--logo-mark-ex));
+  block-size: max(var(--logo-mark-min), var(--logo-mark-ex));
+}
+
+.strand {
+  fill: var(--logo-strand);
+}
+
+.tip {
+  fill: var(--logo-tip);
+}

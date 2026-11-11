@@ -1,0 +1,368 @@
+[
+  {
+    "id": "executive-scissor",
+    "kind": "cut",
+    "name": "Executive scissor cut",
+    "aliases": [
+      "Conservative cut",
+      "Short back and sides (scissor)",
+      "Boardroom cut"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "classic",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "sides": {
+        "cm": [
+          1,
+          3
+        ]
+      },
+      "back": {
+        "cm": [
+          1,
+          3
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.5,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Mid-ear length",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Dry-cut for curls."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Scissor cut a rounded top."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Neutral; part conceals mild recession."
+    },
+    "strand_note": null,
+    "density_note": "Any density; the length on top is easy to adjust for thinner hair.",
+    "glasses_note": "Sits well with most frames; keep hair above the ear short so the arms rest cleanly.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "none",
+      "products": [
+        "light pomade"
+      ]
+    },
+    "grow_out": "Just grow: a natural top flows from this in about 8 weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-short",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "side",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "side_sweep",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "workplace_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A classic haircut with short tidy sides and a natural top. Fits professional settings.",
+    "stylist": "All-scissor work: shear-over-comb on the sides, a point-cut top at 4-7 cm, no clipper lines. Check the ear and neckline for tidiness every visit. Tapered a little for tidiness.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an executive scissor cut: all scissor work with no clipper lines, the top 4-7 cm point-cut and parted naturally, the sides 1-3 cm and back 1-3 cm blended to 0.5-1.5 cm at the nape, mid-ear sideburns, a neat natural neckline, no fade",
+    "sources": [
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.themodestman.com/hair/crew-cut/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "short-back-sides-connected",
+    "kind": "cut",
+    "name": "Connected short back and sides",
+    "aliases": [
+      "Gentleman's cut",
+      "Traditional barber cut",
+      "Classic taper cut"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "classic",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Connected: side length graduates into the top without a ridge."
+    },
+    "neckline": "tapered",
+    "sideburns": "Mid length",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Cut with a taper on the sides and keep the top 3-4 cm for a shaped, structured finish."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "A side part conceals stage 2-3."
+    },
+    "strand_note": null,
+    "density_note": "Any density; the connected taper looks even on both fine and thick hair.",
+    "glasses_note": "Fits any frame.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "none",
+      "products": [
+        "light pomade"
+      ]
+    },
+    "grow_out": "Grow the top for 6-8 weeks and it becomes an Ivy League.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-short",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "side_sweep",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "workplace_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A classic barber cut with tidy sides that blend into a natural top. Looks smart everywhere.",
+    "stylist": "Clipper-over-comb with #3 to #1 graduation and a slide cut to remove the weight line. Neck tapered, top point-cut.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a connected short back and sides: the top 4-7 cm point-cut with a side part, the sides and back clippered from #3 (10 mm) to #1 (3 mm) and blended into the top without a ridge, the nape #1-#2, a tapered neckline and mid-length sideburns",
+    "sources": [
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.themodestman.com/hair/crew-cut/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

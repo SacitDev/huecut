@@ -1,0 +1,160 @@
+/** Try it on and Board copy: imported directly, not through `en.ts`. */
+
+export const tryOnCopy = {
+  intro: 'See your looks on you, in your own ChatGPT or Gemini. Choose how you would like them.',
+  tabs: {
+    label: 'Ways to try your looks',
+    names: { together: 'All together', single: 'One by one', pictures: 'My pictures', tips: 'Tips' },
+  },
+  cards: {
+    howMany: 'How many looks in one picture?',
+    split: (sizes: readonly number[]) => {
+      if (sizes.length === 1) return `All ${String(sizes[0] ?? 0)} together`;
+      const last = String(sizes[sizes.length - 1] ?? 0);
+      return `${sizes.slice(0, -1).map(String).join(', ')} and ${last}`;
+    },
+    title: (n: number, total: number) => (total === 1 ? 'Your card' : `Picture ${String(n)} of ${String(total)}`),
+    /** Before a look's name as the card prints it, in English, when the screen shows another language. */
+    onCard: 'On the card:',
+    steps: {
+      // The share sheet lists neither app where it is not installed, so the steps name the open buttons too.
+      touch:
+        'Tap 1, then tap 2 and choose ChatGPT or Gemini. Paste the prompt, send, and save the card it makes. No ChatGPT or Gemini in the list? Save the files there, then tap Copy and open ChatGPT or Gemini, attach them and paste.',
+      touchNoPhoto:
+        'Tap 1, then tap 2 and choose ChatGPT or Gemini. Attach your own photos there, paste the prompt, send, and save the card it makes. No ChatGPT or Gemini in the list? Save the sheet there, then tap Copy and open ChatGPT or Gemini, attach it with your photos and paste.',
+      desktop: 'Copy the prompt and open a chat. Attach your photos and the reference sheet, paste the prompt and send. Save the card it makes.',
+      desktopNoPhoto: 'Copy the prompt and open a chat. Attach your own photos and the reference sheet, paste the prompt and send. Save the card it makes.',
+    },
+    share: '2 Share photos and reference sheet',
+    shareSheet: '2 Share reference sheet',
+    downloadSheet: 'Download reference sheet',
+    downloadPhotos: 'Download my photos',
+    sheetSaved: 'The reference sheet is in your downloads.',
+    photosSaved: 'Your photos are in your downloads.',
+    shared: 'Your files went to the app you chose.',
+    downloaded: 'Your files are in your downloads. Attach them in ChatGPT or Gemini.',
+    sheetFailed: 'The reference sheet could not be made in this browser. One by one still works.',
+    disclosure: 'These are AI pictures, illustrations of the looks. AI can change a name or a face, so compare the card with this list.',
+    none: 'There is nothing to put on a card yet.',
+  },
+  handoff: {
+    steps: {
+      touch: 'Tap 1, then tap 2 and choose ChatGPT or Gemini. Paste the prompt and send. No ChatGPT or Gemini in the list? Tap Copy and open ChatGPT or Gemini, attach your photo there and paste.',
+      touchNoPhoto: 'Tap 1, then open ChatGPT or Gemini and attach your own photo there. Paste the prompt and send.',
+      desktop: 'Open a chat, attach your photo, paste the prompt and send.',
+      desktopNoPhoto: 'Open a chat, attach your own photo, paste the prompt and send.',
+    },
+    privacy:
+      'The app never uploads your photos. It hands a copy only to the app you choose when you tap Share or Download.',
+    copyPrompt: '1 Copy prompt',
+    sharePhoto: '2 Share photo',
+    openAnApp: '2 Open ChatGPT or Gemini',
+    preparing: 'Getting your photo ready',
+    downloadPhoto: 'Download photo for AI',
+    copyOpenChatGpt: 'Copy and open ChatGPT',
+    copyOpenGemini: 'Copy and open Gemini',
+    newTab: '(opens in a new tab)',
+    shared: 'Your photo went to the app you chose.',
+    downloaded: 'Your photo is in your downloads. Attach it in ChatGPT or Gemini.',
+    photoFailed: 'Your photo could not be prepared in this browser. Attach it in ChatGPT or Gemini yourself.',
+    selectAll: 'Select all',
+  },
+  keepList:
+    'We ask the AI to keep your face, skin tone, eye colour and glasses. It should also keep your hairline, density, curl pattern, beard and background.',
+  promptFailed: (code: string) => `The prompt for this look could not be made. Error code: prompt_${code}`,
+  referral: 'Best done by a colourist',
+  details: {
+    loading: 'Getting the prompts ready',
+    failed: 'The prompts could not load. They need a connection the first time.',
+    retry: 'Try again',
+  },
+  pair: { title: 'Try together' },
+  pictures: {
+    intro: 'Save each picture your chat makes and add it here. They go on your board.',
+    touchHow: 'To save a picture, press and hold it, then Save to Photos.',
+    list: 'Your looks',
+  },
+  grids: {
+    title: 'Several pictures at once',
+    intro:
+      'One prompt asks for up to 4 looks in one picture, without text. Add the picture here and the app cuts it into one picture per look.',
+    name: (n: number, total: number, count: number, kind: 'cut' | 'colour') =>
+      `Picture ${String(n)} of ${String(total)}: ${String(count)} ${kind === 'cut' ? (count === 1 ? 'cut' : 'cuts') : count === 1 ? 'colour' : 'colours'}`,
+    asks: 'Looks in this picture, left to right and top to bottom:',
+    add: 'Add this picture',
+    replace: 'Add another picture',
+    cutting: 'Cutting the picture into tiles',
+    lost: 'This picture is no longer on this device. Add it again to cut it into tiles.',
+    splitFailed: (count: number) =>
+      `This picture could not be cut into ${String(count)} tiles. Use one picture per look instead.`,
+    confirmTitle: 'Which look does each tile show?',
+    confirmHint: 'Move the names until each one sits next to its tile. Names are attached only when you confirm.',
+    tileIs: (n: number, name: string) => `Tile ${String(n)} is: ${name}`,
+    tileAlt: (n: number) => `Tile ${String(n)} of the picture`,
+    moveEarlier: 'Move earlier',
+    moveLater: 'Move later',
+    moved: (name: string, n: number) => `${name} is now tile ${String(n)}.`,
+    confirm: 'Attach these names',
+    attached: 'Names attached. Each tile is now the picture for its look, unless the look already had one.',
+    tileNamed: (n: number, name: string) => `Tile ${String(n)}: ${name}`,
+    pictureAlt: (grid: string) => `The picture you added for ${grid}`,
+    tilesWrong: 'Tiles look wrong?',
+    perIdea: 'One picture per look instead: use One by one, then the Add picture slots here.',
+  },
+  looks: {
+    intro: 'One prompt per look gives a closer picture.',
+    journey: (label: string) => `Colour: ${label}`,
+  },
+  slot: {
+    add: 'Add picture',
+    replace: 'Replace picture',
+    remove: 'Remove picture',
+    label: (name: string) => `Picture for ${name}`,
+    dropHint: 'Or paste a picture (Ctrl+V) or drop one here.',
+    alt: (name: string) => `Your AI picture for ${name}`,
+    added: (name: string) => `Picture added for ${name}.`,
+    removed: (name: string) => `Picture removed for ${name}.`,
+    notImage: 'That file is not a picture. Choose a JPEG, PNG or WebP picture.',
+    tooLarge: 'That picture is too large to open here, so add a smaller copy of it.',
+  },
+  repair: {
+    button: 'Face looks different?',
+    copied: 'Repair prompt copied. Paste it into the same chat.',
+    hint: 'Copies a short prompt for the same chat that asks the AI to start again from your photo.',
+    refused: 'This browser did not allow copying. Copy this prompt by hand:',
+    failed: (code: string) => `The repair prompt could not be made. Error code: prompt_${code}`,
+  },
+  tips: {
+    list: ['Start a new chat for each look.', 'Always attach your own photo, never an AI picture.'],
+    honest: 'AI often gives more hair or a fuller hairline than you have. Your stylist knows what your hair can do.',
+  },
+  next: 'See your pictures side by side',
+  board: {
+    empty: 'Your board is empty. Save the pictures your AI chat makes and add them on Try it on.',
+    addPictures: 'Add pictures',
+    tilesLabel: 'Your looks',
+    noPicture: 'No picture yet',
+    compare: (name: string) => `Compare ${name} with your photo`,
+    compareTitle: (name: string) => `Your photo and ${name}`,
+    compareLabel: 'Your photo or the AI picture',
+    compareValue: (n: number) => `${String(n)} percent your photo`,
+    compareHint: 'Slide left for more of the AI picture, right for more of your photo.',
+    photoAlt: 'Your photo',
+    hairOnly: 'Hair-only version',
+    hairOnlyHint: "Keeps your real skin and background, with the AI picture's hair colour.",
+    hairOnlyBusy: 'Making the hair-only version',
+    hairOnlyAlt: (name: string) => `Hair-only version of ${name} on your photo`,
+    hairOnlyOff: 'The hair-only version needs the hair outline of your photo, which is not ready on this device.',
+    hairOnlyNoHair: 'No hair was found in this AI picture, so there is no hair-only version of it.',
+    save: 'Save board',
+    saving: 'Making the board picture',
+    shared: 'Board shared.',
+    downloaded: 'Board saved to your downloads.',
+    saveFailed: 'The board picture could not be made in this browser.',
+    feedback: 'Tell us how it went',
+    feedbackHint:
+      'Opens a new issue on GitHub in a new tab. Nothing from this session goes with it: no photos and no answers.',
+    feedbackUrl: 'https://github.com/SacitDev/huecut/issues/new',
+    pictureAlt: (name: string) => `${name}, AI picture`,
+  },
+} as const;

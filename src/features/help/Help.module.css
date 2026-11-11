@@ -1,0 +1,39 @@
+/* Help: one reading column. The privacy and trademark lines stand on their own lines. */
+
+.page {
+  display: grid;
+  gap: var(--space-xl);
+  justify-items: start;
+  max-inline-size: var(--measure);
+  margin-inline: auto;
+  padding-block: var(--space-xl) var(--space-2xl);
+}
+
+.section {
+  display: grid;
+  gap: var(--space-s);
+  min-inline-size: 0;
+}
+
+.list {
+  display: grid;
+  gap: var(--space-s);
+  margin: 0;
+  padding-inline-start: var(--space-l);
+}
+
+.small {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.line {
+  font-weight: var(--weight-h3);
+}
+
+.offline:not(:empty) {
+  padding: var(--space-xs) var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--sunken);
+}

@@ -1,0 +1,375 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "bands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "fact": {
+            "$ref": "#/$defs/__schema0"
+          },
+          "from": {
+            "$ref": "#/$defs/__schema1"
+          },
+          "view": {
+            "$ref": "#/$defs/__schema2"
+          },
+          "cuts": {
+            "$ref": "#/$defs/__schema3"
+          },
+          "margin": {
+            "$ref": "#/$defs/__schema5"
+          },
+          "requires": {
+            "$ref": "#/$defs/__schema6"
+          }
+        },
+        "required": [
+          "fact",
+          "from",
+          "view",
+          "cuts",
+          "margin"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "current_length_cm": {
+      "type": "object",
+      "properties": {
+        "very_short": {
+          "$ref": "#/$defs/__schema7"
+        },
+        "short": {
+          "$ref": "#/$defs/__schema10"
+        },
+        "chin": {
+          "$ref": "#/$defs/__schema13"
+        },
+        "shoulder": {
+          "$ref": "#/$defs/__schema16"
+        },
+        "long": {
+          "$ref": "#/$defs/__schema19"
+        },
+        "very_long": {
+          "$ref": "#/$defs/__schema22"
+        }
+      },
+      "required": [
+        "very_short",
+        "short",
+        "chin",
+        "shoulder",
+        "long",
+        "very_long"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "bands",
+    "current_length_cm"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "__schema0": {
+      "type": "string",
+      "enum": [
+        "face.proportion",
+        "face.forehead_share",
+        "face.lower_share",
+        "face.jaw_vs_cheek",
+        "face.jaw_angle",
+        "face.chin_width",
+        "face.width_to_length",
+        "face.jaw_to_cheek",
+        "head.occiput",
+        "head.crown_shape",
+        "hair.texture",
+        "hair.density",
+        "hair.strand",
+        "hair.current_length",
+        "hair.resting_length",
+        "hair.cowlick_front",
+        "hair.cowlick_nape",
+        "hair.crown_whorl",
+        "hair.part_side",
+        "hair.hairline_shape",
+        "hair.recession_stage",
+        "hair.thinning_stage",
+        "hair.thinning_zone",
+        "hair.traction_signs",
+        "hair.sudden_loss",
+        "hair.condition",
+        "hair.heat_habit",
+        "hair.chemical_history",
+        "hair.style_interest",
+        "scalp.oil",
+        "scalp.marks_cover",
+        "beard.style",
+        "beard.density",
+        "beard.texture",
+        "beard.shave_close",
+        "look.glasses",
+        "look.glasses_frame",
+        "look.eye_colour",
+        "look.skin_depth",
+        "look.undertone",
+        "look.contrast",
+        "colour.natural_level",
+        "colour.current_level_lengths",
+        "colour.current_tone",
+        "colour.last_dye",
+        "colour.last_chemical_service",
+        "colour.bleach_count",
+        "colour.henna_type",
+        "colour.grey_percent",
+        "colour.grey_goal",
+        "colour.grey_pattern",
+        "colour.grey_texture",
+        "safety.dye_reaction",
+        "safety.scalp_irritation",
+        "safety.henna_tattoo",
+        "safety.health_context",
+        "pref.fringe",
+        "pref.top_length",
+        "pref.hard_lineup",
+        "pref.change_amount",
+        "pref.colour_direction",
+        "pref.colour_family",
+        "pref.colour_upkeep",
+        "pref.budget",
+        "life.styling_minutes",
+        "life.enjoys_styling",
+        "life.trim_weeks_ok",
+        "life.headwear",
+        "life.tie_back_needed",
+        "life.hair_covered_at_work",
+        "life.workplace_style",
+        "life.grow_out_goal",
+        "life.growing_out_fringe",
+        "life.swims_often",
+        "life.humid_climate",
+        "life.event_soon",
+        "wish.face_length",
+        "wish.face_width",
+        "wish.forehead",
+        "wish.cheekbones",
+        "wish.eyes",
+        "wish.nose",
+        "wish.ears",
+        "wish.jaw",
+        "wish.chin",
+        "wish.hairline",
+        "wish.height",
+        "wish.fullness",
+        "wish.contrast",
+        "wish.overall_balance",
+        "wish.liked_cuts"
+      ]
+    },
+    "__schema1": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$"
+    },
+    "__schema2": {
+      "type": "string",
+      "enum": [
+        "frontal",
+        "profile"
+      ]
+    },
+    "__schema3": {
+      "minItems": 2,
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema4"
+      }
+    },
+    "__schema4": {
+      "type": "object",
+      "properties": {
+        "below": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value": {
+          "$ref": "#/$defs/__schema1"
+        }
+      },
+      "required": [
+        "value"
+      ],
+      "additionalProperties": false
+    },
+    "__schema5": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "__schema6": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "hairline_visible"
+        ]
+      }
+    },
+    "__schema7": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "$ref": "#/$defs/__schema8"
+        },
+        {
+          "$ref": "#/$defs/__schema9"
+        }
+      ],
+      "items": false,
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "__schema8": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema9": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema10": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "$ref": "#/$defs/__schema11"
+        },
+        {
+          "$ref": "#/$defs/__schema12"
+        }
+      ],
+      "items": false,
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "__schema11": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema12": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema13": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "$ref": "#/$defs/__schema14"
+        },
+        {
+          "$ref": "#/$defs/__schema15"
+        }
+      ],
+      "items": false,
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "__schema14": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema15": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema16": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "$ref": "#/$defs/__schema17"
+        },
+        {
+          "$ref": "#/$defs/__schema18"
+        }
+      ],
+      "items": false,
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "__schema17": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema18": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema19": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "$ref": "#/$defs/__schema20"
+        },
+        {
+          "$ref": "#/$defs/__schema21"
+        }
+      ],
+      "items": false,
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "__schema20": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema21": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema22": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "$ref": "#/$defs/__schema23"
+        },
+        {
+          "$ref": "#/$defs/__schema24"
+        }
+      ],
+      "items": false,
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "__schema23": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    },
+    "__schema24": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 200
+    }
+  }
+}

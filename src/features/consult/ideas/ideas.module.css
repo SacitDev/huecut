@@ -1,0 +1,242 @@
+/*
+ * The Ideas screen: one column of idea blocks on phones, two from wide screens;
+ * inside a block the picture sits whole in its arch above the words, or beside them once the block is wide enough.
+ */
+
+.stack {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: var(--space-s);
+}
+
+.small {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.notice {
+  display: grid;
+  gap: var(--space-xs);
+  padding: var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+}
+
+.lines {
+  display: grid;
+  gap: var(--space-2xs);
+  margin: 0;
+  padding-inline-start: var(--space-l);
+}
+
+.section {
+  display: grid;
+  gap: var(--space-m);
+}
+
+.sectionTitle:focus {
+  outline: none;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 26rem), 1fr));
+  gap: var(--space-l);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* The list item is the container the card's layout queries (a container query never styles the container itself). */
+.list > li {
+  container-type: inline-size;
+  display: grid;
+  min-inline-size: 0;
+}
+
+.card {
+  display: grid;
+  align-content: start;
+  gap: var(--space-m);
+  padding: var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+}
+
+.picture {
+  inline-size: min(100%, 14rem);
+}
+
+.body {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: var(--space-s);
+  min-inline-size: 0;
+}
+
+@container (width >= 32rem) {
+  .card {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    align-items: start;
+  }
+
+  .picture {
+    inline-size: 100%;
+  }
+}
+
+.rank {
+  color: var(--accent);
+  font-size: var(--text-small);
+  font-weight: var(--weight-small);
+}
+
+.name {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-h3);
+  line-height: var(--lh-h3);
+}
+
+.name:focus {
+  outline: none;
+}
+
+.journey,
+.because,
+.depends {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-2xs);
+}
+
+/* A long "Answer ‘…’ to know" wraps and reads from the start, like the text around it. */
+.opener {
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.labelIcon {
+  inline-size: var(--icon-s);
+  block-size: var(--icon-s);
+  flex: none;
+}
+
+.rows {
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.journeyMore {
+  inline-size: 100%;
+}
+
+/* A 44 px target; the rest of the journey opens under it. */
+.journeyMoreSummary {
+  display: flex;
+  align-items: center;
+  min-block-size: var(--target-min);
+  font-weight: var(--weight-h3);
+  cursor: pointer;
+}
+
+.rows dt {
+  font-weight: var(--weight-h3);
+}
+
+.ask {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-s);
+  inline-size: 100%;
+  padding: var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--sunken);
+}
+
+.ask > :first-child {
+  inline-size: 100%;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-s);
+}
+
+/* Move earlier, Move later and Remove: quiet, in small type, on one row of their own under the card's main actions. */
+.moves {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-xs);
+  inline-size: 100%;
+}
+
+.moves button {
+  font-size: var(--text-small);
+}
+
+.pair {
+  display: grid;
+  gap: var(--space-s);
+  padding: var(--space-m);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+}
+
+.pairTitle {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-h3);
+  line-height: var(--lh-h3);
+}
+
+.questions {
+  display: grid;
+  gap: var(--space-l);
+}
+
+.promptLabel {
+  display: grid;
+  gap: var(--space-2xs);
+  inline-size: 100%;
+  font-weight: var(--weight-h3);
+}
+
+/* Its option group is a size container, which has no width of its own: this block gives it one. */
+.colourChoice {
+  display: grid;
+  gap: var(--space-s);
+  max-inline-size: 34rem;
+}
+
+.select {
+  inline-size: 100%;
+  min-block-size: var(--target-min);
+  padding-inline: var(--space-s);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-picture);
+  background-color: var(--surface);
+  color: var(--text);
+  font-weight: var(--weight-body);
+}
+
+.promptBox {
+  inline-size: 100%;
+  padding: var(--space-s);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-panel);
+  background-color: var(--sunken);
+  color: var(--text);
+  font: inherit;
+  font-weight: var(--weight-body);
+}

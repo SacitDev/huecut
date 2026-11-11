@@ -1,0 +1,62 @@
+/* Progress: the fill grows by transform only; a wait with no known share glides, on the compositor, so the main thread stays free. */
+
+.progress {
+  display: grid;
+  gap: var(--space-s);
+  inline-size: 100%;
+}
+
+.label {
+  font-variant-numeric: tabular-nums;
+}
+
+.track {
+  block-size: var(--progress-h);
+  overflow: hidden;
+  border-radius: var(--radius-pill);
+  background-color: var(--sunken);
+  color: var(--primary);
+}
+
+.fill {
+  display: block;
+  block-size: 100%;
+  background-color: var(--primary);
+  transform-origin: left center;
+  transition: transform var(--dur-move) var(--ease-standard);
+}
+
+.line {
+  display: block;
+  overflow: hidden;
+  border-radius: var(--radius-pill);
+}
+
+/*
+ * The wait's segment, two fifths of its line. Still, it rests in the middle, so it never reads as a share done; with motion allowed
+ * (the device's setting and the app's own) it glides slowly from end to end and back.
+ */
+.wait {
+  display: block;
+  inline-size: 40%;
+  block-size: 100%;
+  border-radius: inherit;
+  background-color: currentColor;
+  transform: translateX(75%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root:not([data-motion='reduce']) .wait {
+    animation: wait-glide var(--dur-wait) ease-in-out infinite alternate;
+  }
+}
+
+@keyframes wait-glide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(150%);
+  }
+}

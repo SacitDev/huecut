@@ -1,0 +1,263 @@
+/* The step screens' own parts: the drop area, the photo list, the photo guide and the Lines split. */
+
+.drop {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-s);
+  padding: var(--space-l) var(--space-m);
+  border: var(--border-control) dashed var(--line-strong);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+}
+
+.drop[data-over='true'] {
+  border-style: solid;
+  border-color: var(--primary);
+  background-color: var(--sunken);
+}
+
+/* A finger has nothing to drop: on a touch screen or a phone-sized window the buttons stand on their own, without the drop area's frame and words. */
+@media (pointer: coarse), (width < 600px) {
+  .drop {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+  }
+
+  .dropWords {
+    display: none;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-s);
+}
+
+/* The picture gate's one sentence. Empty, it stays mounted for screen readers and takes no grid gap. */
+.refused:empty {
+  position: absolute;
+}
+
+.photos {
+  display: grid;
+  gap: var(--space-s);
+  min-inline-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.photosTitle {
+  padding: 0;
+  font-size: var(--text-h3);
+  font-weight: var(--weight-h3);
+  line-height: var(--lh-h3);
+}
+
+.list {
+  display: grid;
+  gap: var(--space-s);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: var(--thumb-size) minmax(0, 1fr);
+  gap: var(--space-s) var(--space-m);
+  align-items: start;
+  /* Close to its edge, so the photo's name starts on a small phone's first screen once it is added. */
+  padding: var(--space-xs);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+  --thumb-size: calc(var(--option-h) + var(--space-l));
+}
+
+.thumb {
+  inline-size: var(--thumb-size);
+  block-size: var(--thumb-size);
+  border-radius: var(--radius-picture);
+  background-color: var(--picture-placeholder);
+  object-fit: contain;
+}
+
+.rowText {
+  display: grid;
+  gap: var(--space-2xs);
+  min-inline-size: 0;
+}
+
+.pick {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-block-size: var(--target-min);
+  font-weight: var(--weight-h3);
+  cursor: pointer;
+}
+
+.pick input {
+  inline-size: var(--icon-s);
+  block-size: var(--icon-s);
+  margin: 0;
+}
+
+.rowActions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-s);
+}
+
+.guide {
+  display: grid;
+  gap: var(--space-s);
+  min-inline-size: 0;
+}
+
+.guideGood,
+.guideAvoid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-xs);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--text-small);
+}
+
+.guideGood li {
+  display: grid;
+  gap: var(--space-xs);
+  justify-items: center;
+  align-content: start;
+  text-align: center;
+}
+
+.guideGood li > div {
+  inline-size: 100%;
+}
+
+.guideAvoidTitle {
+  margin: var(--space-xs) 0 0;
+  font-size: var(--text-small);
+  font-weight: var(--weight-button);
+}
+
+.guideAvoid {
+  color: var(--text-2);
+}
+
+.guideAvoid li {
+  display: grid;
+  gap: var(--space-xs);
+  justify-items: center;
+  align-content: start;
+  text-align: center;
+}
+
+.guideAvoid img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius-picture);
+  filter: saturate(0.7);
+}
+
+.split {
+  container-type: inline-size;
+  display: grid;
+  gap: var(--space-l);
+}
+
+.splitInner {
+  display: grid;
+  gap: var(--space-l);
+  align-items: start;
+}
+
+@container (width >= 40rem) {
+  .splitInner {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  }
+}
+
+.stack {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: var(--space-m);
+}
+
+.count {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  font-weight: var(--weight-small);
+  font-variant-numeric: tabular-nums;
+}
+
+.count:focus {
+  outline: none;
+}
+
+/* The count, the tap hint and the colour chip share a line where they fit. */
+.questionMeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2xs) var(--space-s);
+}
+
+/*
+ * A question arrives from the side it was reached from, and fades in. Only transform and opacity move, so nothing around it
+ * jumps; this box clips the slide of the question inside it (a box cannot clip its own transform, and the page scrolled sideways while
+ * it played). Under reduced motion --dur-move is 0, which leaves the 120 ms fade.
+ */
+.question {
+  overflow-x: clip;
+  margin-inline: calc(-1 * var(--space-xs));
+  padding-inline: var(--space-xs);
+}
+
+/* Presses only, so the second tap of a double tap falls through; Tab and a screen reader can still reach the question at once. */
+.arriving {
+  pointer-events: none;
+}
+
+/* Each keyframes name written where it is used: CSS Modules renames keyframes, never a name held in a custom property. */
+.question > [data-moved] {
+  animation: question-fade var(--dur-state) var(--ease-standard) backwards, question-from-end var(--dur-move) var(--ease-out) backwards;
+}
+
+.question > [data-moved='back'] {
+  animation-name: question-fade, question-from-start;
+}
+
+@keyframes question-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes question-from-end {
+  from {
+    transform: translateX(var(--space-xl));
+  }
+}
+
+@keyframes question-from-start {
+  from {
+    transform: translateX(calc(-1 * var(--space-xl)));
+  }
+}
+
+.followUp {
+  padding-inline-start: var(--space-m);
+  border-inline-start: var(--border-selected) solid var(--line-strong);
+}

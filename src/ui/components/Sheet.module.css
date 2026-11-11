@@ -1,0 +1,137 @@
+/*
+ * Bottom sheet: surface, 28 px top corners, a 40 x 5 px handle at 35 % in a 48 px header.
+ * The sheet is always 92dvh tall; peek moves it down by transform only, and pads its body by the hidden part so
+ * every line can still scroll into view. Open 320 ms on the spring, close 220 ms; no travel under reduced motion.
+ */
+
+.sheet {
+  position: fixed;
+  inset: auto 0 0;
+  inline-size: 100%;
+  max-inline-size: var(--sheet-max-w);
+  block-size: calc(var(--sheet-full) * 100dvh);
+  max-block-size: none;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-sheet) var(--radius-sheet) 0 0;
+  background-color: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow-float);
+  overscroll-behavior: contain;
+  transition: transform var(--dur-sheet-open) var(--ease-spring);
+}
+
+.sheet[open] {
+  display: flex;
+  flex-direction: column;
+  animation: rise var(--dur-sheet-open) var(--ease-out);
+}
+
+.sheet[data-snap='peek'] {
+  transform: translateY(calc((var(--sheet-full) - var(--sheet-peek)) * 100dvh));
+}
+
+.sheet[data-closing] {
+  animation: fall var(--dur-sheet-close) var(--ease-exit) forwards;
+}
+
+.sheet[data-dragging] {
+  transition: none;
+}
+
+.sheet::backdrop {
+  background-color: var(--scrim);
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100%);
+  }
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: space-between;
+  block-size: var(--sheet-header-h);
+  padding-inline: var(--space-2xs);
+  cursor: grab;
+  touch-action: none;
+}
+
+.sheet[data-dragging] .header {
+  cursor: grabbing;
+}
+
+.handle {
+  position: absolute;
+  inset-block-start: var(--space-xs);
+  inset-inline-start: 50%;
+  inline-size: var(--handle-w);
+  block-size: var(--handle-h);
+  border-radius: var(--radius-pill);
+  background-color: var(--text);
+  opacity: var(--handle-opacity);
+  translate: -50% 0;
+}
+
+.headerButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2xs);
+  min-inline-size: var(--target-min);
+  min-block-size: var(--target-min);
+  padding-inline: var(--space-s);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background-color: transparent;
+  color: var(--text);
+  font-size: var(--text-small);
+  font-weight: var(--weight-button);
+  cursor: pointer;
+}
+
+.headerButton:hover {
+  background-color: var(--sunken);
+}
+
+.icon {
+  flex: none;
+  inline-size: var(--icon-s);
+  block-size: var(--icon-s);
+}
+
+.body {
+  display: grid;
+  flex: 1;
+  align-content: start;
+  gap: var(--space-l);
+  min-block-size: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0 var(--page-margin) calc(var(--space-l) + env(safe-area-inset-bottom));
+}
+
+.sheet[data-snap='peek'] .body {
+  padding-block-end: calc(
+    (var(--sheet-full) - var(--sheet-peek)) * 100dvh + var(--space-l) + env(safe-area-inset-bottom)
+  );
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--text-sheet-title);
+  font-weight: var(--weight-h2);
+  font-stretch: var(--wdth-h2);
+  line-height: var(--lh-h2);
+}

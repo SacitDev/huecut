@@ -1,0 +1,5048 @@
+[
+  {
+    "id": "a01",
+    "group": "A",
+    "when": {
+      "wish.face_length": {
+        "is": "soften"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "volume_zone": {
+          "is": "sides"
+        }
+      },
+      {
+        "fringe": {
+          "in": [
+            "curtain",
+            "side_swept"
+          ]
+        }
+      },
+      {
+        "layers": {
+          "is": "face_framing"
+        }
+      },
+      {
+        "part": {
+          "is": "side"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "height_top": {
+          "is": "high"
+        }
+      },
+      {
+        "volume_zone": {
+          "is": "crown"
+        }
+      },
+      {
+        "layers": {
+          "is": "none"
+        },
+        "length_class": {
+          "is": "long"
+        }
+      }
+    ],
+    "reason": "You would like hair that adds fullness at the sides",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.hair.com/haircut-for-face-shape.html",
+      "https://www.samvilla.com/blogs/hair-tutorials/how-to-find-the-right-haircut-for-your-face-shape",
+      "https://cdn.behindthechair.com/behindthechair/resources/face-shape-guide-for-consultations.pdf",
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10"
+    }
+  },
+  {
+    "id": "a02",
+    "group": "A",
+    "when": {
+      "wish.face_length": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "part": {
+          "is": "centre"
+        }
+      },
+      {
+        "fringe": {
+          "is": "none"
+        }
+      },
+      {
+        "height_top": {
+          "is": "medium"
+        }
+      },
+      {
+        "layers": {
+          "is": "long_layers"
+        }
+      },
+      {
+        "covers_forehead": {
+          "is": false
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "fringe": {
+          "is": "blunt_full"
+        }
+      }
+    ],
+    "reason": "You would like hair that keeps a long line down your face",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "The stated wish controls the rule."
+    }
+  },
+  {
+    "id": "a03",
+    "group": "A",
+    "when": {
+      "wish.face_width": {
+        "is": "soften"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "height_top": {
+          "in": [
+            "medium",
+            "high"
+          ]
+        }
+      },
+      {
+        "sides_width": {
+          "is": "close"
+        }
+      },
+      {
+        "fringe": {
+          "is": "side_swept"
+        }
+      },
+      {
+        "part": {
+          "is": "deep_side"
+        }
+      },
+      {
+        "layers": {
+          "is": "long_layers"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "volume_zone": {
+          "is": "sides"
+        }
+      },
+      {
+        "fringe": {
+          "is": "blunt_full"
+        }
+      },
+      {
+        "length_class": {
+          "is": "chin"
+        },
+        "sides_width": {
+          "is": "full"
+        }
+      },
+      {
+        "height_top": {
+          "is": "high"
+        },
+        "sides_width": {
+          "is": "full"
+        }
+      }
+    ],
+    "reason": "You would like more height and closer sides",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.hair.com/haircut-for-face-shape.html",
+      "https://www.samvilla.com/blogs/hair-tutorials/how-to-find-the-right-haircut-for-your-face-shape",
+      "https://cdn.behindthechair.com/behindthechair/resources/face-shape-guide-for-consultations.pdf",
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10"
+    }
+  },
+  {
+    "id": "a04",
+    "group": "A",
+    "when": {
+      "wish.face_width": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "silhouette": {
+          "is": "bob"
+        }
+      },
+      {
+        "perimeter": {
+          "is": "rounded"
+        }
+      },
+      {
+        "volume_zone": {
+          "is": "jaw"
+        }
+      },
+      {
+        "fringe": {
+          "is": "curtain"
+        }
+      },
+      {
+        "layers": {
+          "is": "light"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You would like a soft, rounded shape around your face",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "The stated wish controls the rule."
+    }
+  },
+  {
+    "id": "a05",
+    "group": "A",
+    "when": {
+      "wish.forehead": {
+        "is": "soften"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "fringe": {
+          "in": [
+            "curtain",
+            "wispy",
+            "side_swept",
+            "textured_forward"
+          ]
+        }
+      },
+      {
+        "covers_forehead": {
+          "is": true
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "covers_forehead": {
+          "is": false
+        }
+      },
+      {
+        "height_top": {
+          "is": "high"
+        }
+      },
+      {
+        "fringe": {
+          "is": "none"
+        }
+      }
+    ],
+    "reason": "You would like hair that covers more of your forehead",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.hair.com/haircut-for-face-shape.html",
+      "https://www.samvilla.com/blogs/hair-tutorials/how-to-find-the-right-haircut-for-your-face-shape",
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10"
+    }
+  },
+  {
+    "id": "a06",
+    "group": "A",
+    "when": {
+      "wish.forehead": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "covers_forehead": {
+          "is": false
+        }
+      },
+      {
+        "fringe": {
+          "is": "none"
+        }
+      },
+      {
+        "part": {
+          "is": "centre"
+        }
+      },
+      {
+        "height_top": {
+          "is": "medium"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "fringe": {
+          "in": [
+            "blunt_full",
+            "micro"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like to show your forehead",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.hair.com/haircut-for-face-shape.html",
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "a08",
+    "group": "A",
+    "when": {
+      "wish.jaw": {
+        "is": "soften"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "perimeter": {
+          "is": "soft"
+        }
+      },
+      {
+        "layers": {
+          "is": "face_framing"
+        }
+      },
+      {
+        "fringe": {
+          "is": "curtain"
+        }
+      },
+      {
+        "length_class": {
+          "is": "shoulder"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "perimeter": {
+          "is": "blunt"
+        },
+        "length_class": {
+          "is": "chin"
+        }
+      },
+      {
+        "silhouette": {
+          "is": "geometric_bob"
+        }
+      }
+    ],
+    "reason": "You would like soft layers around your jaw",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.hair.com/haircut-for-face-shape.html",
+      "https://www.samvilla.com/blogs/hair-tutorials/how-to-find-the-right-haircut-for-your-face-shape",
+      "https://www.whowhatwear.com/best-haircuts-for-every-face-shape",
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10"
+    }
+  },
+  {
+    "id": "a09",
+    "group": "A",
+    "when": {
+      "wish.jaw": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "perimeter": {
+          "is": "blunt"
+        }
+      },
+      {
+        "length_class": {
+          "in": [
+            "chin",
+            "bob"
+          ]
+        }
+      },
+      {
+        "sides": {
+          "is": "taper"
+        }
+      },
+      {
+        "sides_width": {
+          "is": "close"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "fringe": {
+          "is": "curtain"
+        },
+        "layers": {
+          "is": "heavy"
+        }
+      }
+    ],
+    "reason": "You would like a clean line at your jaw",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.whowhatwear.com/best-haircuts-for-every-face-shape",
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10"
+    }
+  },
+  {
+    "id": "a12",
+    "group": "A",
+    "when": {
+      "wish.cheekbones": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "layers": {
+          "is": "face_framing"
+        }
+      },
+      {
+        "fringe": {
+          "is": "side_swept"
+        }
+      },
+      {
+        "part": {
+          "is": "side"
+        }
+      },
+      {
+        "volume_zone": {
+          "is": "ends"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "volume_zone": {
+          "is": "sides"
+        }
+      },
+      {
+        "fringe": {
+          "is": "blunt_full"
+        }
+      }
+    ],
+    "reason": "You would like your cheekbones to stand out",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "a13",
+    "group": "A",
+    "when": {
+      "wish.cheekbones": {
+        "is": "soften"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "volume_zone": {
+          "in": [
+            "temples",
+            "jaw"
+          ]
+        }
+      },
+      {
+        "fringe": {
+          "is": "side_swept"
+        }
+      },
+      {
+        "layers": {
+          "is": "light"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "volume_zone": {
+          "is": "sides"
+        }
+      }
+    ],
+    "reason": "You would like your cheekbones to feel softer",
+    "evidence": "single_source",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "a16",
+    "group": "A",
+    "when": {
+      "wish.eyes": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "fringe": {
+          "in": [
+            "curtain",
+            "wispy"
+          ]
+        }
+      },
+      {
+        "layers": {
+          "is": "face_framing"
+        }
+      },
+      {
+        "covers_forehead": {
+          "is": false
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "fringe": {
+          "is": "blunt_full"
+        }
+      }
+    ],
+    "reason": "You want your eyes to take centre stage",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.eyebobs.com/blogs/news/hairstyles-that-pair-well-with-glasses",
+      "https://www.lorealprofessionnel.co.uk/hair-mag-try-on-a-hair-color-before-committing"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "a17",
+    "group": "A",
+    "when": {
+      "wish.nose": {
+        "is": "soften"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "fringe": {
+          "in": [
+            "textured_forward",
+            "side_swept"
+          ]
+        }
+      },
+      {
+        "height_top": {
+          "is": "medium"
+        }
+      },
+      {
+        "volume_zone": {
+          "is": "sides"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tags": {
+          "is": "slick_back"
+        }
+      }
+    ],
+    "reason": "You would like your nose to be less of a focus",
+    "evidence": "single_source",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "a18",
+    "group": "A",
+    "when": {
+      "wish.ears": {
+        "is": "soften"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "covers_ears": {
+          "is": true
+        }
+      },
+      {
+        "sides": {
+          "in": [
+            "scissor_taper",
+            "low_fade",
+            "taper"
+          ]
+        }
+      },
+      {
+        "length_class": {
+          "in": [
+            "bob",
+            "shoulder"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "sides": {
+          "in": [
+            "high_fade",
+            "skin_fade"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like your ears to show less",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design",
+      "https://mensflair.com/high-fade-haircuts/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "a19",
+    "group": "A",
+    "when": {
+      "wish.ears": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "covers_ears": {
+          "is": false
+        }
+      },
+      {
+        "sides": {
+          "in": [
+            "undercut",
+            "taper"
+          ]
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You are happy to show your ears",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "a23",
+    "group": "A",
+    "when": {
+      "wish.hairline": {
+        "is": "soften"
+      },
+      "hair.hairline_shape": {
+        "in": [
+          "widows_peak",
+          "m_shape"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "fringe": {
+          "in": [
+            "textured_forward",
+            "side_swept",
+            "curtain"
+          ]
+        }
+      },
+      {
+        "covers_forehead": {
+          "is": true
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tags": {
+          "is": "slick_back"
+        }
+      },
+      {
+        "fringe": {
+          "is": "none"
+        }
+      }
+    ],
+    "reason": "You would like your hairline to show less",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "a24",
+    "group": "A",
+    "when": {
+      "wish.hairline": {
+        "is": "emphasise"
+      },
+      "hair.hairline_shape": {
+        "in": [
+          "widows_peak",
+          "m_shape"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tags": {
+          "is": "slick_back"
+        }
+      },
+      {
+        "covers_forehead": {
+          "is": false
+        }
+      },
+      {
+        "height_top": {
+          "is": "medium"
+        }
+      },
+      {
+        "fringe": {
+          "is": "none"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "fringe": {
+          "is": "blunt_full"
+        }
+      }
+    ],
+    "reason": "You like your natural hairline",
+    "evidence": "single_source",
+    "sources": [
+      "https://luxe.digital/style/men-haircuts-receding-hairline.md"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "a27",
+    "group": "A",
+    "when": {
+      "wish.height": {
+        "is": "soften"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "height_top": {
+          "is": "low"
+        }
+      },
+      {
+        "volume_zone": {
+          "in": [
+            "sides",
+            "jaw"
+          ]
+        }
+      },
+      {
+        "sides_width": {
+          "is": "medium"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "height_top": {
+          "is": "high"
+        }
+      },
+      {
+        "volume_zone": {
+          "is": "crown"
+        }
+      },
+      {
+        "silhouette": {
+          "in": [
+            "pompadour",
+            "quiff"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like less height on top",
+    "evidence": "single_source",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design",
+      "https://cdn.behindthechair.com/behindthechair/resources/face-shape-guide-for-consultations.pdf"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "a28",
+    "group": "A",
+    "when": {
+      "wish.height": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "height_top": {
+          "is": "high"
+        }
+      },
+      {
+        "volume_zone": {
+          "in": [
+            "crown",
+            "root_lift"
+          ]
+        }
+      },
+      {
+        "silhouette": {
+          "in": [
+            "quiff",
+            "pixie"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "sides_width": {
+          "is": "full"
+        }
+      },
+      {
+        "volume_zone": {
+          "is": "sides"
+        }
+      }
+    ],
+    "reason": "You would like a little more height on top",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design",
+      "https://www.hair.com/haircut-for-face-shape.html"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "a29",
+    "group": "A",
+    "when": {
+      "wish.chin": {
+        "is": "soften"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "length_class": {
+          "is": "shoulder"
+        }
+      },
+      {
+        "volume_zone": {
+          "is": "ends"
+        }
+      },
+      {
+        "layers": {
+          "is": "chin_level"
+        }
+      },
+      {
+        "silhouette": {
+          "is": "lob"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "length_class": {
+          "is": "chin"
+        },
+        "perimeter": {
+          "is": "blunt"
+        }
+      },
+      {
+        "sides": {
+          "is": "high_fade"
+        }
+      }
+    ],
+    "reason": "You would like hair that falls past your chin with soft ends",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "The stated wish controls the rule."
+    }
+  },
+  {
+    "id": "a30",
+    "group": "A",
+    "when": {
+      "wish.chin": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "length_class": {
+          "is": "chin"
+        }
+      },
+      {
+        "perimeter": {
+          "is": "blunt"
+        }
+      },
+      {
+        "sides": {
+          "is": "taper"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You would like hair that ends in a clean line at your chin",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "b01",
+    "group": "B",
+    "when": {
+      "hair.texture": {
+        "in": [
+          "curly",
+          "coily"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "layers": {
+          "is": "long_layers"
+        },
+        "silhouette": {
+          "not": [
+            "buzz",
+            "crew"
+          ]
+        }
+      },
+      {
+        "weight_removal": {
+          "is": "low"
+        },
+        "silhouette": {
+          "not": [
+            "buzz",
+            "crew"
+          ]
+        }
+      },
+      {
+        "cut_method": {
+          "is": "dry_shaped"
+        },
+        "silhouette": {
+          "not": [
+            "buzz",
+            "crew"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "perimeter": {
+          "is": "blunt_sleek"
+        }
+      },
+      {
+        "layers": {
+          "is": "heavy"
+        }
+      },
+      {
+        "cut_method": {
+          "is": "razor"
+        }
+      },
+      {
+        "heat_dependent": {
+          "is": true
+        }
+      }
+    ],
+    "reason": "Curls and coils keep their shape best in cuts designed around them",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.samvilla.com/blogs/hair-tutorials/how-to-cut-style-and-maintain-curly-hair",
+      "https://www.elitelearning.com/resource-center/cosmetology/cutting-and-styling-naturally-curly-hair/",
+      "https://patternbeauty.com/blogs/news/heres-the-secret-to-a-curly-hair-cut",
+      "https://myimperfectlife.com/advice/should-you-cut-curly-hair-wet-or-dry",
+      "https://issuu.com/saloncommunicationsinc/docs/salon_magazine_en_mj23/s/22997282"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10"
+    }
+  },
+  {
+    "id": "b02",
+    "group": "B",
+    "when": {
+      "hair.texture": {
+        "in": [
+          "curly",
+          "coily"
+        ]
+      },
+      "hair.current_length": {
+        "known": true
+      },
+      "hair.resting_length": {
+        "known": true
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "shrinkage_risk": {
+        "is": "high"
+      },
+      "length_class": {
+        "in": [
+          "chin",
+          "bob"
+        ]
+      }
+    },
+    "because": "Curls spring up as they dry, so this length can sit shorter than it looks when wet.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.hair.com/hair-shrinkage.html",
+      "https://www.samvilla.com/blogs/hair-tutorials/how-to-cut-style-and-maintain-curly-hair",
+      "https://myimperfectlife.com/advice/should-you-cut-curly-hair-wet-or-dry"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b03",
+    "group": "B",
+    "when": {
+      "hair.texture": {
+        "is": "coily"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "silhouette": {
+          "in": [
+            "rounded",
+            "tapered_natural",
+            "twist_out"
+          ]
+        }
+      },
+      {
+        "sides": {
+          "in": [
+            "skin_fade",
+            "bald_fade",
+            "low_fade",
+            "mid_fade",
+            "high_fade",
+            "drop_fade"
+          ]
+        },
+        "silhouette": {
+          "not": [
+            "buzz",
+            "crew"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tags": {
+          "is": "needs_blow_out"
+        }
+      },
+      {
+        "fringe": {
+          "is": "micro"
+        }
+      }
+    ],
+    "reason": "Coils look their best in shapes that follow how they grow",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.elitelearning.com/resource-center/cosmetology/cutting-and-styling-naturally-curly-hair/",
+      "https://patternbeauty.com/blogs/news/heres-the-secret-to-a-curly-hair-cut"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10"
+    }
+  },
+  {
+    "id": "b04",
+    "group": "B",
+    "when": {
+      "hair.texture": {
+        "is": "wavy"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "layers": {
+          "in": [
+            "light",
+            "long_layers"
+          ]
+        },
+        "silhouette": {
+          "not": [
+            "buzz",
+            "crew"
+          ]
+        }
+      },
+      {
+        "silhouette": {
+          "in": [
+            "lob",
+            "shag"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "perimeter": {
+          "is": "blunt_sleek"
+        }
+      }
+    ],
+    "reason": "Waves move best with light layers and soft edges",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.samvilla.com/blogs/hair-tutorials/how-to-cut-style-and-maintain-curly-hair",
+      "https://www.nzherald.co.nz/viva/beauty/how-to-choose-a-haircut-for-your-face-shape-from-bobs-to-bangs-barrel-curls/BYIODLTROVHPBFLZX2SD23JNAU"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10"
+    }
+  },
+  {
+    "id": "b05",
+    "group": "B",
+    "when": {
+      "hair.texture": {
+        "is": "straight"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "perimeter": {
+          "is": "blunt"
+        },
+        "silhouette": {
+          "not": [
+            "buzz",
+            "crew"
+          ]
+        }
+      },
+      {
+        "silhouette": {
+          "in": [
+            "bob",
+            "crop",
+            "swept_back"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tags": {
+          "in": [
+            "perm_dependent",
+            "curly_first"
+          ]
+        }
+      }
+    ],
+    "reason": "Straight hair shows clean lines well",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.hershesons.com/blogs/hair-stories/the-5-best-haircuts-for-fine-hair-according-to-our-stylists",
+      "https://www.whowhatwear.com/best-haircuts-for-thin-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10"
+    }
+  },
+  {
+    "id": "b06",
+    "group": "B",
+    "when": {
+      "hair.texture": {
+        "is": "mixed"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "layers": {
+          "in": [
+            "light",
+            "long_layers"
+          ]
+        },
+        "silhouette": {
+          "not": [
+            "buzz",
+            "crew"
+          ]
+        }
+      },
+      {
+        "silhouette": {
+          "is": "shag"
+        }
+      },
+      {
+        "perimeter": {
+          "is": "soft"
+        },
+        "silhouette": {
+          "not": [
+            "buzz",
+            "crew"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "perimeter": {
+          "is": "blunt_sleek"
+        }
+      },
+      {
+        "silhouette": {
+          "is": "one_length"
+        }
+      }
+    ],
+    "reason": "Your hair has more than one pattern, and soft layers blend it best",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "texture-poor-fit",
+    "group": "B",
+    "when": {
+      "hair.texture": {
+        "known": true
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "texture_fit": {
+        "is": "poor"
+      }
+    },
+    "because": "These cuts do not work with your hair texture, so they are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "once a strong rank rule; now a poor texture fit is left out"
+    }
+  },
+  {
+    "id": "density-poor-fit",
+    "group": "B",
+    "when": {
+      "hair.density": {
+        "known": true
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "density_fit": {
+        "is": "poor"
+      }
+    },
+    "because": "These cuts do not suit how much hair you have, so they are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "a density fit authored as poor is left out, as a poor texture fit is"
+    }
+  },
+  {
+    "id": "curl-shape-straight-hair",
+    "group": "B",
+    "when": {
+      "hair.texture": {
+        "in": [
+          "straight",
+          "wavy"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "tags": {
+        "in": [
+          "curly_first",
+          "perm_dependent"
+        ]
+      }
+    },
+    "because": "These cuts are shaped for curls or a perm, so they are left out for straight or wavy hair.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "the curl-first and perm part of the old mismatch check"
+    }
+  },
+  {
+    "id": "thick-cut-low-density",
+    "group": "B",
+    "when": {
+      "hair.density": {
+        "is": "low"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "tags": {
+        "is": "thick_hair_friendly"
+      }
+    },
+    "because": "These cuts are made for a lot of hair, so they are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "the thick-hair part of the old mismatch check; fine strands alone no longer count, since fine hair can be dense"
+    }
+  },
+  {
+    "id": "traction-high-tension",
+    "group": "B",
+    "when": {
+      "hair.traction_signs": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "tension": {
+        "is": "high"
+      }
+    },
+    "because": "Your hairline needs a rest from pulling, so styles that pull tight are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "an exclusion, since a caution beside a high-tension style contradicted itself"
+    }
+  },
+  {
+    "id": "b07",
+    "group": "B",
+    "when": {
+      "hair.texture": {
+        "in": [
+          "curly",
+          "coily"
+        ]
+      },
+      "pref.fringe": {
+        "is": "want"
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "fringe": {
+        "in": [
+          "micro",
+          "short_blunt"
+        ]
+      },
+      "length_class": {
+        "not": [
+          "buzz",
+          "very_short"
+        ]
+      }
+    },
+    "because": "Curly fringes spring up as they dry, so a very short or blunt fringe can sit higher than you expect.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.samvilla.com/blogs/hair-tutorials/how-to-cut-style-and-maintain-curly-hair",
+      "https://myimperfectlife.com/advice/should-you-cut-curly-hair-wet-or-dry"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b09",
+    "group": "B",
+    "when": {
+      "hair.strand": {
+        "is": "fine"
+      },
+      "hair.density": {
+        "is": "low"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "perimeter": {
+          "is": "blunt"
+        }
+      },
+      {
+        "layers": {
+          "in": [
+            "none",
+            "light"
+          ]
+        }
+      },
+      {
+        "length_class": {
+          "in": [
+            "bob",
+            "chin",
+            "short"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "layers": {
+          "in": [
+            "heavy",
+            "shag"
+          ]
+        }
+      },
+      {
+        "length_class": {
+          "is": "very_long"
+        },
+        "layers": {
+          "is": "none"
+        }
+      }
+    ],
+    "reason": "Your hair is fine and not very thick",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://schwarzkopf.international/insider-tips/expert-tips/understanding-fine-hair-volume-boosting-tips-and-hairstyles.html",
+      "https://www.hershesons.com/blogs/hair-stories/the-5-best-haircuts-for-fine-hair-according-to-our-stylists",
+      "https://www.whowhatwear.com/best-haircuts-for-thin-hair",
+      "https://hairfinder.com/hairquestions/finehairlayers.htm"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    },
+    "suppresses": [
+      "a28"
+    ]
+  },
+  {
+    "id": "b10",
+    "group": "B",
+    "when": {
+      "hair.strand": {
+        "is": "fine"
+      },
+      "hair.density": {
+        "is": "high"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "layers": {
+          "in": [
+            "medium",
+            "internal",
+            "long_layers"
+          ]
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "Your hair is fine but plentiful",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.whowhatwear.com/best-haircuts-for-thin-hair",
+      "https://hairfinder.com/hairquestions/finehairlayers.htm"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b11",
+    "group": "B",
+    "when": {
+      "hair.strand": {
+        "is": "coarse"
+      },
+      "hair.density": {
+        "is": "high"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "weight_removal": {
+          "is": "high"
+        }
+      },
+      {
+        "layers": {
+          "in": [
+            "internal",
+            "long_layers",
+            "medium"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "silhouette": {
+          "is": "one_length"
+        },
+        "length_class": {
+          "is": "chin"
+        }
+      },
+      {
+        "perimeter": {
+          "is": "blunt"
+        },
+        "volume_zone": {
+          "is": "ends"
+        }
+      }
+    ],
+    "reason": "Thick, plentiful hair can feel heavy",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.whowhatwear.com/best-haircuts-for-thin-hair",
+      "https://www.samvilla.com/blogs/hair-tutorials/how-to-cut-style-and-maintain-curly-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b12",
+    "group": "B",
+    "when": {
+      "hair.strand": {
+        "is": "coarse"
+      },
+      "hair.density": {
+        "is": "low"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "perimeter": {
+          "is": "blunt"
+        }
+      },
+      {
+        "layers": {
+          "is": "light"
+        }
+      },
+      {
+        "weight_removal": {
+          "is": "low"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "weight_removal": {
+          "is": "high"
+        }
+      }
+    ],
+    "reason": "Your strands are coarse but there are fewer of them",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b13",
+    "group": "B",
+    "when": {
+      "hair.density": {
+        "is": "low"
+      },
+      "wish.fullness": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "volume_zone": {
+          "is": "root_lift"
+        }
+      },
+      {
+        "perimeter": {
+          "is": "blunt"
+        }
+      },
+      {
+        "length_class": {
+          "in": [
+            "bob",
+            "chin"
+          ]
+        }
+      },
+      {
+        "layers": {
+          "is": "light"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "layers": {
+          "is": "heavy"
+        }
+      },
+      {
+        "length_class": {
+          "is": "very_long"
+        }
+      }
+    ],
+    "reason": "You would like your hair to look fuller",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://schwarzkopf.international/insider-tips/expert-tips/understanding-fine-hair-volume-boosting-tips-and-hairstyles.html",
+      "https://www.hershesons.com/blogs/hair-stories/the-5-best-haircuts-for-fine-hair-according-to-our-stylists",
+      "https://www.whowhatwear.com/best-haircuts-for-thin-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b14",
+    "group": "B",
+    "when": {
+      "hair.density": {
+        "is": "high"
+      },
+      "hair.current_length": {
+        "in": [
+          "long",
+          "very_long"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "perimeter": {
+        "is": "blunt"
+      },
+      "weight_removal": {
+        "is": "low"
+      }
+    },
+    "because": "Long, thick hair can get heavy, so cuts that lighten the inside keep it comfortable.",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b16",
+    "group": "B",
+    "when": {
+      "scalp.oil": {
+        "is": "oily"
+      },
+      "pref.fringe": {
+        "is": "want"
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "fringe": {
+        "in": [
+          "blunt_full",
+          "micro"
+        ]
+      }
+    },
+    "because": "Fringes sit on the skin and pick up oil quickly. Styles that fall to the side and can be pinned back are easiest to live with.",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b17",
+    "group": "B",
+    "when": {
+      "scalp.oil": {
+        "is": "oily"
+      },
+      "hair.strand": {
+        "is": "fine"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "length_class": {
+          "in": [
+            "short",
+            "bob",
+            "chin"
+          ]
+        }
+      },
+      {
+        "layers": {
+          "is": "light"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "length_class": {
+          "is": "very_long"
+        }
+      }
+    ],
+    "reason": "Your scalp gets oily and your strands are fine",
+    "evidence": "single_source",
+    "sources": [
+      "https://hairfinder.com/hair2/oily-hair-length.htm",
+      "https://ca.davines.com/blogs/news/hairstyles-for-greasy-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b18",
+    "group": "B",
+    "when": {
+      "hair.condition": {
+        "in": [
+          "dry",
+          "damaged"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "heat_dependent": {
+          "is": false
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "heat_dependent": {
+          "is": true
+        }
+      }
+    ],
+    "reason": "Your hair feels dry or damaged and does best with low heat",
+    "evidence": "research",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/30861299/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b19",
+    "group": "B",
+    "when": {
+      "hair.condition": {
+        "in": [
+          "dry",
+          "damaged"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "length_direction": {
+          "is": "shorter"
+        }
+      },
+      {
+        "perimeter": {
+          "is": "blunt"
+        }
+      },
+      {
+        "trim_weeks": {
+          "range": [
+            1,
+            6
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "length_class": {
+          "in": [
+            "very_long",
+            "long"
+          ]
+        }
+      }
+    ],
+    "reason": "Your hair feels dry or damaged at the moment",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/canada-hairdressing-red-seal/colour-application/lightening",
+      "https://pubmed.ncbi.nlm.nih.gov/30861299/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b20",
+    "group": "B",
+    "when": {
+      "hair.cowlick_front": {
+        "is": true
+      },
+      "pref.fringe": {
+        "is": "want"
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "fringe": {
+        "in": [
+          "blunt_full",
+          "short_blunt",
+          "micro"
+        ]
+      }
+    },
+    "because": "A front cowlick pushes a short or blunt fringe out of place, so this fringe may need daily styling.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://hji.co.uk/how-to-help-your-clients-control-cowlicks",
+      "https://www.hims.com/blog/how-to-get-rid-of-cowlicks",
+      "https://www.healthline.com/health/beauty-skin-care/cowlick",
+      "https://www.haringtons.com/what-to-consider-before-getting-a-fringe-cut"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    },
+    "suppresses": [
+      "a01",
+      "a05"
+    ]
+  },
+  {
+    "id": "b21",
+    "group": "B",
+    "when": {
+      "hair.cowlick_front": {
+        "is": true
+      },
+      "pref.fringe": {
+        "not": [
+          "want"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "silhouette": {
+          "in": [
+            "quiff",
+            "pompadour",
+            "side_sweep"
+          ]
+        }
+      },
+      {
+        "fringe": {
+          "is": "side_swept"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tags": {
+          "is": "slick_back"
+        }
+      },
+      {
+        "fringe": {
+          "is": "blunt_full"
+        }
+      }
+    ],
+    "reason": "Your front cowlick can become a feature when the hair is styled its own way",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://hji.co.uk/how-to-help-your-clients-control-cowlicks",
+      "https://www.hims.com/blog/how-to-get-rid-of-cowlicks",
+      "https://open-exam-prep.com/study-guides/canada-hairdressing-red-seal/cuts-fundamentals/growth-patterns-design"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b22",
+    "group": "B",
+    "when": {
+      "hair.crown_whorl": {
+        "is": "single"
+      },
+      "pref.top_length": {
+        "in": [
+          "very_short",
+          "short"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "top_length": {
+        "is": "short"
+      }
+    },
+    "because": "A crown whorl can make a short top stand up at the crown, so ask for a little extra length to be left over the whorl.",
+    "evidence": "single_source",
+    "sources": [
+      "https://hji.co.uk/how-to-help-your-clients-control-cowlicks",
+      "https://cursa.app/en/page/head-shape-and-growth-patterns-managing-cowlicks-flat-spots-and-swirls",
+      "https://www.healthline.com/health/beauty-skin-care/cowlick"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b23",
+    "group": "B",
+    "when": {
+      "hair.crown_whorl": {
+        "is": "double"
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "tags": {
+        "is": "slick_back"
+      }
+    },
+    "because": "A double crown makes hair split in two directions. Very short or very long tops are easiest to live with.",
+    "evidence": "single_source",
+    "sources": [
+      "https://cursa.app/en/page/head-shape-and-growth-patterns-managing-cowlicks-flat-spots-and-swirls",
+      "https://hji.co.uk/how-to-help-your-clients-control-cowlicks"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b23-b",
+    "group": "B",
+    "when": {
+      "hair.crown_whorl": {
+        "is": "double"
+      }
+    },
+    "from": "b23",
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "top_length": {
+        "is": "short"
+      }
+    },
+    "because": "A double crown makes hair split in two directions. Very short or very long tops are easiest to live with.",
+    "evidence": "single_source",
+    "sources": [
+      "https://cursa.app/en/page/head-shape-and-growth-patterns-managing-cowlicks-flat-spots-and-swirls",
+      "https://hji.co.uk/how-to-help-your-clients-control-cowlicks"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b24",
+    "group": "B",
+    "when": {
+      "hair.cowlick_nape": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "nape_style": {
+          "is": "tapered"
+        }
+      },
+      {
+        "length_class": {
+          "in": [
+            "shoulder",
+            "long"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "nape_style": {
+          "in": [
+            "undercut",
+            "blunt"
+          ]
+        }
+      },
+      {
+        "sides": {
+          "is": "skin_fade"
+        }
+      }
+    ],
+    "reason": "A nape cowlick lifts short hair",
+    "evidence": "single_source",
+    "sources": [
+      "https://hji.co.uk/how-to-help-your-clients-control-cowlicks",
+      "https://cursa.app/en/page/head-shape-and-growth-patterns-managing-cowlicks-flat-spots-and-swirls"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b25",
+    "group": "B",
+    "when": {
+      "hair.part_side": {
+        "in": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "part": {
+          "is": "side"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "part": {
+          "is": "centre"
+        }
+      }
+    ],
+    "reason": "Your hair already wants to part to one side",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/canada-hairdressing-red-seal/cuts-fundamentals/growth-patterns-design",
+      "https://hji.co.uk/how-to-help-your-clients-control-cowlicks"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b26",
+    "group": "B",
+    "when": {
+      "hair.recession_stage": {
+        "is": 2
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "fringe": {
+          "is": "textured_forward"
+        }
+      },
+      {
+        "silhouette": {
+          "in": [
+            "crop",
+            "quiff",
+            "side_sweep"
+          ]
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "Your hairline sits a little higher at the temples",
+    "evidence": "single_source",
+    "sources": [
+      "https://luxe.digital/style/men-haircuts-receding-hairline.md",
+      "https://www.manual.co/health-centre/hair-loss/norwood-scale"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b27",
+    "group": "B",
+    "when": {
+      "hair.recession_stage": {
+        "is": 3
+      },
+      "wish.hairline": {
+        "is": "soften"
+      },
+      "pref.top_length": {
+        "in": [
+          "very_short",
+          "short"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "silhouette": {
+          "in": [
+            "french_crop",
+            "caesar",
+            "crew"
+          ]
+        }
+      },
+      {
+        "fringe": {
+          "is": "textured_forward"
+        }
+      },
+      {
+        "length_class": {
+          "is": "short"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tags": {
+          "is": "slick_back"
+        }
+      },
+      {
+        "silhouette": {
+          "is": "pompadour"
+        }
+      },
+      {
+        "length_class": {
+          "is": "long"
+        }
+      }
+    ],
+    "reason": "You would like your hairline to show less and prefer a short top",
+    "evidence": "single_source",
+    "sources": [
+      "https://luxe.digital/style/men-haircuts-receding-hairline.md",
+      "https://www.manual.co/health-centre/hair-loss/norwood-scale",
+      "https://www.gentlemansgazette.com/hair-thinning-tips/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    },
+    "suppresses": [
+      "a23"
+    ]
+  },
+  {
+    "id": "b27-b",
+    "group": "B",
+    "when": {
+      "hair.recession_stage": {
+        "is": 3
+      },
+      "wish.hairline": {
+        "is": "soften"
+      },
+      "pref.top_length": {
+        "in": [
+          "medium",
+          "long"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "fringe": {
+          "is": "textured_forward"
+        }
+      },
+      {
+        "top_length": {
+          "is": "medium"
+        }
+      },
+      {
+        "tags": {
+          "is": "textured_top"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tags": {
+          "is": "slick_back"
+        }
+      },
+      {
+        "silhouette": {
+          "is": "pompadour"
+        }
+      }
+    ],
+    "reason": "You would like your hairline to show less and prefer to keep some length on top",
+    "evidence": "single_source",
+    "sources": [
+      "https://luxe.digital/style/men-haircuts-receding-hairline.md",
+      "https://www.manual.co/health-centre/hair-loss/norwood-scale",
+      "https://www.gentlemansgazette.com/hair-thinning-tips/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    },
+    "from": "b27",
+    "suppresses": [
+      "a23"
+    ]
+  },
+  {
+    "id": "b28",
+    "group": "B",
+    "when": {
+      "hair.recession_stage": {
+        "in": [
+          2,
+          3
+        ]
+      },
+      "wish.hairline": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tags": {
+          "is": "slick_back"
+        }
+      },
+      {
+        "silhouette": {
+          "in": [
+            "side_sweep",
+            "quiff"
+          ]
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You are comfortable with your hairline",
+    "evidence": "single_source",
+    "sources": [
+      "https://luxe.digital/style/men-haircuts-receding-hairline.md"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b29",
+    "group": "B",
+    "when": {
+      "hair.recession_stage": {
+        "range": [
+          4,
+          7
+        ]
+      },
+      "wish.hairline": {
+        "is": "soften"
+      },
+      "pref.top_length": {
+        "in": [
+          "very_short",
+          "short"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "length_class": {
+          "in": [
+            "buzz",
+            "very_short"
+          ]
+        }
+      },
+      {
+        "sides": {
+          "in": [
+            "taper",
+            "low_fade"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tags": {
+          "in": [
+            "comb_over",
+            "slick_back"
+          ]
+        }
+      },
+      {
+        "length_class": {
+          "is": "long"
+        }
+      }
+    ],
+    "reason": "You would like your hairline to show less and prefer a short top",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://luxe.digital/style/men-haircuts-receding-hairline.md",
+      "https://www.manual.co/health-centre/hair-loss/norwood-scale",
+      "https://www.gentlemansgazette.com/hair-thinning-tips/",
+      "https://www.themodestman.com/hairline-and-hair-loss-mistakes/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "A tidy medium crop can keep length. Combing hair across a gap can draw attention to it."
+    },
+    "suppresses": [
+      "a23"
+    ]
+  },
+  {
+    "id": "b29-b",
+    "group": "B",
+    "when": {
+      "hair.recession_stage": {
+        "range": [
+          4,
+          7
+        ]
+      },
+      "wish.hairline": {
+        "is": "soften"
+      },
+      "pref.top_length": {
+        "in": [
+          "medium",
+          "long"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "silhouette": {
+          "is": "crop"
+        }
+      },
+      {
+        "top_length": {
+          "is": "medium"
+        }
+      },
+      {
+        "tags": {
+          "is": "textured_top"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tags": {
+          "in": [
+            "comb_over",
+            "slick_back"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like your hairline to show less and prefer to keep some length on top",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://luxe.digital/style/men-haircuts-receding-hairline.md",
+      "https://www.manual.co/health-centre/hair-loss/norwood-scale",
+      "https://www.gentlemansgazette.com/hair-thinning-tips/",
+      "https://www.themodestman.com/hairline-and-hair-loss-mistakes/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    },
+    "from": "b29",
+    "suppresses": [
+      "a23"
+    ]
+  },
+  {
+    "id": "b30",
+    "group": "B",
+    "when": {
+      "hair.thinning_zone": {
+        "is": "crown"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "top_length": {
+          "in": [
+            "medium",
+            "long"
+          ]
+        }
+      },
+      {
+        "tags": {
+          "is": "textured_top"
+        }
+      },
+      {
+        "length_class": {
+          "is": "very_short"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tags": {
+          "is": "slick_back"
+        }
+      },
+      {
+        "sides": {
+          "is": "high_fade"
+        }
+      }
+    ],
+    "reason": "Your hair is thinner at the crown",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.gentlemansgazette.com/hair-thinning-tips/",
+      "https://www.manual.co/health-centre/hair-loss/norwood-scale"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b31",
+    "group": "B",
+    "when": {
+      "hair.thinning_stage": {
+        "in": [
+          1,
+          2
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "part": {
+        "is": "centre"
+      }
+    },
+    "because": "When the part looks wider, a side part usually shows less of it than a centre part like this one.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.ccjm.org/content/88/3/173.full.pdf",
+      "https://www.americanhairloss.org/women_hair_loss/introduction.html",
+      "https://www.whowhatwear.com/best-haircuts-for-thin-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b31-b",
+    "group": "B",
+    "when": {
+      "hair.thinning_stage": {
+        "in": [
+          1,
+          2
+        ]
+      }
+    },
+    "from": "b31",
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "tension": {
+        "is": "high"
+      }
+    },
+    "because": "When the part looks wider, avoid styles that pull tightly. Tension adds stress where hair is thinning.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.ccjm.org/content/88/3/173.full.pdf",
+      "https://www.americanhairloss.org/women_hair_loss/introduction.html",
+      "https://www.whowhatwear.com/best-haircuts-for-thin-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b31-c",
+    "group": "B",
+    "when": {
+      "hair.thinning_stage": {
+        "in": [
+          1,
+          2
+        ]
+      }
+    },
+    "from": "b31",
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "layers": {
+        "is": "heavy"
+      }
+    },
+    "because": "When the part looks wider, heavy layers take away fullness. Fewer layers with blunt ends often look fuller.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.ccjm.org/content/88/3/173.full.pdf",
+      "https://www.americanhairloss.org/women_hair_loss/introduction.html",
+      "https://www.whowhatwear.com/best-haircuts-for-thin-hair"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b32",
+    "group": "B",
+    "when": {
+      "hair.thinning_stage": {
+        "is": 3
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "referral",
+    "because": "Shorter, blunt cuts often make thinning hair look fuller. A doctor or skin specialist can talk you through treatment options.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.ccjm.org/content/88/3/173.full.pdf",
+      "https://www.americanhairloss.org/women_hair_loss/introduction.html"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b33",
+    "group": "B",
+    "when": {
+      "hair.traction_signs": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "because": "Your hairline needs a rest from pulling. Avoid tight ponytails, braids and other styles that pull for now.",
+    "evidence": "research",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5896661",
+      "https://practicaldermatology.com/news/tight-ponytails-braids-linked-to-traction-alopecia/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b34",
+    "group": "B",
+    "when": {
+      "hair.sudden_loss": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "referral",
+    "because": "Sudden hair loss or patches are worth a check with a doctor; a stylist can help with a cut afterwards.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.americanhairloss.org/women_hair_loss/introduction.html"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "The rule uses the listed sources."
+    }
+  },
+  {
+    "id": "b35",
+    "group": "B",
+    "when": {
+      "hair.chemical_history": {
+        "in": [
+          "bleach",
+          "relaxer_perm",
+          "keratin"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "cut_method": {
+        "is": "razor"
+      }
+    },
+    "because": "Chemically treated hair is more fragile at the ends, and a razor can fray it. Ask for the texture in this cut to be done with scissors.",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b36",
+    "group": "B",
+    "when": {
+      "hair.chemical_history": {
+        "is": "relaxer_perm"
+      },
+      "hair.style_interest": {
+        "in": [
+          "braids",
+          "weave",
+          "extensions",
+          "tight_ponytail"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "because": "Relaxed hair is more fragile under tension. Keep braids, weaves, extensions and tight ponytails loose and light.",
+    "evidence": "research",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5896661",
+      "https://practicaldermatology.com/news/tight-ponytails-braids-linked-to-traction-alopecia/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b37",
+    "group": "B",
+    "when": {
+      "hair.heat_habit": {
+        "is": "daily"
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "heat_dependent": {
+        "is": true
+      }
+    },
+    "because": "Daily heat adds up over time, and this cut is usually styled with heat.",
+    "evidence": "research",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/30861299/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    },
+    "suppresses": [
+      "b01",
+      "b04"
+    ]
+  },
+  {
+    "id": "b38",
+    "group": "B",
+    "when": {
+      "hair.heat_habit": {
+        "in": [
+          "none",
+          "rare"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "heat_dependent": {
+          "is": false
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "heat_dependent": {
+          "is": true
+        }
+      }
+    ],
+    "reason": "You prefer to skip heat",
+    "evidence": "research",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/30861299/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "The texture factor accounts for texture fit."
+    }
+  },
+  {
+    "id": "b39",
+    "group": "B",
+    "when": {
+      "hair.chemical_history": {
+        "is": "relaxer_perm"
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "perimeter": {
+        "is": "blunt_sleek"
+      }
+    },
+    "because": "Permed or relaxed hair grows out in two textures. A sleek, blunt shape like this may need extra smoothing while new growth comes through.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b40",
+    "group": "B",
+    "when": {
+      "hair.chemical_history": {
+        "is": "keratin"
+      },
+      "hair.texture": {
+        "in": [
+          "wavy",
+          "curly",
+          "coily"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "grow_out_friendly": {
+        "is": true
+      }
+    },
+    "because": "Smoothing treatments fade as hair grows, and your natural pattern slowly comes back. This shape works with both.",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "b40-b",
+    "group": "B",
+    "when": {
+      "hair.chemical_history": {
+        "is": "keratin"
+      },
+      "hair.texture": {
+        "in": [
+          "wavy",
+          "curly",
+          "coily"
+        ]
+      }
+    },
+    "from": "b40",
+    "target": "cut",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "layers": {
+        "is": "long_layers"
+      }
+    },
+    "because": "Smoothing treatments fade as hair grows, and your natural pattern slowly comes back. This shape works with both.",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "c03",
+    "group": "C",
+    "when": {
+      "life.styling_minutes": {
+        "range": [
+          20,
+          60
+        ]
+      },
+      "life.enjoys_styling": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "styling_minutes": {
+          "range": [
+            15,
+            60
+          ]
+        }
+      },
+      {
+        "tags": {
+          "is": "needs_blow_out"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You enjoy styling",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "c05",
+    "group": "C",
+    "when": {
+      "life.trim_weeks_ok": {
+        "range": [
+          1,
+          3
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "sides": {
+          "in": [
+            "skin_fade",
+            "low_fade",
+            "mid_fade",
+            "bald_fade",
+            "high_fade",
+            "drop_fade"
+          ]
+        }
+      },
+      {
+        "fringe": {
+          "is": "short_blunt"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You are happy to visit often",
+    "evidence": "single_source",
+    "sources": [
+      "https://luxe.digital/style/men-haircuts-receding-hairline.md"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "A blunt perimeter is not favoured by this rule."
+    }
+  },
+  {
+    "id": "c06",
+    "group": "C",
+    "when": {
+      "pref.budget": {
+        "is": "low"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "trim_weeks": {
+          "range": [
+            8,
+            26
+          ]
+        }
+      },
+      {
+        "tags": {
+          "is": "low_maintenance"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "trim_weeks": {
+          "range": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "heat_dependent": {
+          "is": true
+        }
+      }
+    ],
+    "reason": "You would like to keep costs down",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "c07",
+    "group": "C",
+    "when": {
+      "life.headwear": {
+        "is": "helmet"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tie_back": {
+          "is": true
+        }
+      },
+      {
+        "height_top": {
+          "in": [
+            "low",
+            "flat"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "volume_zone": {
+          "is": "crown"
+        }
+      },
+      {
+        "silhouette": {
+          "in": [
+            "quiff",
+            "pompadour"
+          ]
+        }
+      },
+      {
+        "fringe": {
+          "is": "blunt_full"
+        }
+      }
+    ],
+    "reason": "You wear a helmet often",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "This is a styling preference without a supporting source. The texture factor accounts for texture fit."
+    }
+  },
+  {
+    "id": "c08",
+    "group": "C",
+    "when": {
+      "life.headwear": {
+        "is": "hat_or_cap"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tags": {
+          "is": "textured_top"
+        }
+      },
+      {
+        "height_top": {
+          "is": "low"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "silhouette": {
+          "in": [
+            "quiff",
+            "pompadour"
+          ]
+        }
+      },
+      {
+        "tags": {
+          "is": "needs_blow_out"
+        }
+      }
+    ],
+    "reason": "Hats flatten the top",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "This is a styling preference without a supporting source. The texture factor accounts for texture fit."
+    }
+  },
+  {
+    "id": "c09",
+    "group": "C",
+    "when": {
+      "life.tie_back_needed": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "tie_back": {
+        "is": false
+      }
+    },
+    "because": "You need to tie your hair back, so cuts that cannot be tied are left out.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "no exception for hair that is short today; the conflict shows in the line that explains a short list"
+    }
+  },
+  {
+    "id": "grow-out-keeps-length",
+    "group": "C",
+    "when": {
+      "life.grow_out_goal": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "length_direction": {
+        "is": "shorter"
+      }
+    },
+    "because": "You are growing your hair, so cuts that take a length off are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "shaping at the same length stays; a whole length class off, or a visible zone cut shorter than the hair is now (such as an undercut's back or a mullet's top), is real length loss"
+    }
+  },
+  {
+    "id": "grow-out-no-short-crop",
+    "group": "C",
+    "when": {
+      "life.grow_out_goal": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "length_class": {
+        "in": [
+          "buzz",
+          "very_short"
+        ]
+      },
+      "grow_out_friendly": {
+        "is": false
+      }
+    },
+    "because": "You are growing your hair, so very short cuts that are kept short by cutting them back are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "a clipper or very short crop that does not grow out well takes length at every visit"
+    }
+  },
+  {
+    "id": "extensions-keep-length",
+    "group": "C",
+    "when": {
+      "hair.style_interest": {
+        "in": [
+          "extensions",
+          "weave"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "length_direction": {
+        "is": "shorter"
+      }
+    },
+    "because": "You want to wear extensions or a weave, which need your own length, so cuts that take a length off are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the style interest answer protects length"
+    }
+  },
+  {
+    "id": "growth-over-a-year",
+    "group": "C",
+    "when": {
+      "hair.current_length": {
+        "known": true
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "growth_weeks": {
+        "range": [
+          53,
+          1040
+        ]
+      }
+    },
+    "because": "These cuts need more than a year of growth, so they are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "the one-year growth limit holds for every future option, growing out or not"
+    }
+  },
+  {
+    "id": "event-needs-growth",
+    "group": "C",
+    "when": {
+      "life.event_soon": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "growth_weeks": {
+        "range": [
+          1,
+          1040
+        ]
+      }
+    },
+    "because": "You have an event soon, so cuts that need your hair to grow first are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "the old event check as an exclusion"
+    }
+  },
+  {
+    "id": "subtle-no-big-chop",
+    "group": "C",
+    "when": {
+      "pref.change_amount": {
+        "is": "subtle"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "length_direction": {
+        "is": "shorter"
+      },
+      "length_change": {
+        "is": "large"
+      }
+    },
+    "because": "You asked for a gentle change, so cuts that take a lot of length off are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "the old big-chop check as an exclusion"
+    }
+  },
+  {
+    "id": "c10",
+    "group": "C",
+    "when": {
+      "life.hair_covered_at_work": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "tie_back": {
+          "is": true
+        }
+      },
+      {
+        "length_class": {
+          "in": [
+            "short",
+            "shoulder"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "length_class": {
+          "is": "very_long"
+        }
+      },
+      {
+        "volume_zone": {
+          "is": "crown"
+        }
+      }
+    ],
+    "reason": "Your workplace asks for hair to be covered",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.fda.gov/food/retail-food-protection/fda-food-code"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "c11",
+    "group": "C",
+    "when": {
+      "life.workplace_style": {
+        "is": "conservative"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tags": {
+          "is": "workplace_friendly"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "sides": {
+          "is": "undercut"
+        }
+      }
+    ],
+    "reason": "Your work favours a polished classic look",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "c12",
+    "group": "C",
+    "when": {
+      "life.workplace_style": {
+        "is": "creative"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "silhouette": {
+          "in": [
+            "shag",
+            "mullet"
+          ]
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "Your work is open to creative looks",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "c13",
+    "group": "C",
+    "when": {
+      "life.grow_out_goal": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "grow_out_friendly": {
+          "is": true
+        }
+      },
+      {
+        "silhouette": {
+          "in": [
+            "long_layers",
+            "shag"
+          ]
+        }
+      },
+      {
+        "fringe": {
+          "is": "curtain"
+        }
+      },
+      {
+        "perimeter": {
+          "is": "soft"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "silhouette": {
+          "is": "crop"
+        }
+      },
+      {
+        "length_class": {
+          "is": "buzz"
+        }
+      },
+      {
+        "sides": {
+          "is": "skin_fade"
+        }
+      }
+    ],
+    "reason": "You are growing your hair out",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    },
+    "suppresses": [
+      "b19"
+    ]
+  },
+  {
+    "id": "c14",
+    "group": "C",
+    "when": {
+      "life.growing_out_fringe": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "fringe": {
+          "in": [
+            "curtain",
+            "side_swept"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "fringe": {
+          "in": [
+            "blunt_full",
+            "micro"
+          ]
+        }
+      }
+    ],
+    "reason": "You are growing out a fringe",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.haringtons.com/what-to-consider-before-getting-a-fringe-cut"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "c14-no-new-fringe",
+    "group": "C",
+    "when": {
+      "life.growing_out_fringe": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "fringe": {
+        "not": [
+          "none",
+          "curtain",
+          "side_swept",
+          "long_side"
+        ]
+      }
+    },
+    "because": "You are growing out a fringe, so cuts that bring a short fringe back are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "stylist order: what was asked, then what the hair can do, then what flatters"
+    }
+  },
+  {
+    "id": "c17",
+    "group": "C",
+    "when": {
+      "life.headwear": {
+        "is": "scarf_or_turban"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tie_back": {
+          "is": true
+        }
+      },
+      {
+        "weight_removal": {
+          "is": "high"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "height_top": {
+          "is": "high"
+        }
+      },
+      {
+        "silhouette": {
+          "is": "quiff"
+        }
+      }
+    ],
+    "reason": "You wear a head covering often",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "c18",
+    "group": "C",
+    "when": {
+      "life.swims_often": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tie_back": {
+          "is": true
+        }
+      },
+      {
+        "heat_dependent": {
+          "is": false
+        }
+      },
+      {
+        "tags": {
+          "is": "wash_and_go"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "heat_dependent": {
+          "is": true
+        }
+      },
+      {
+        "tags": {
+          "is": "needs_blow_out"
+        }
+      }
+    ],
+    "reason": "You are often in the water",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "c19",
+    "group": "C",
+    "when": {
+      "life.humid_climate": {
+        "is": true
+      },
+      "hair.texture": {
+        "in": [
+          "wavy",
+          "curly",
+          "coily"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tags": {
+          "is": "air_dry_friendly"
+        }
+      },
+      {
+        "layers": {
+          "is": "long_layers"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tags": {
+          "is": "needs_blow_out"
+        }
+      },
+      {
+        "perimeter": {
+          "is": "blunt_sleek"
+        }
+      }
+    ],
+    "reason": "Damp air brings out your natural pattern",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "This is a styling preference without a supporting source. The texture factor accounts for texture fit."
+    }
+  },
+  {
+    "id": "c20",
+    "group": "C",
+    "when": {
+      "life.event_soon": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "length_change": {
+        "is": "large"
+      }
+    },
+    "because": "With an event coming up, a big change now leaves little time to settle into it.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "c20-b",
+    "group": "C",
+    "when": {
+      "life.event_soon": {
+        "is": true
+      }
+    },
+    "from": "c20",
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "fringe": {
+        "is": "micro"
+      }
+    },
+    "because": "With an event coming up, a very short fringe leaves little time to settle into it.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "d01",
+    "group": "D",
+    "when": {
+      "beard.style": {
+        "in": [
+          "short",
+          "medium",
+          "full"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "sides": {
+          "in": [
+            "taper",
+            "low_fade",
+            "drop_fade",
+            "scissor_taper"
+          ]
+        }
+      },
+      {
+        "beard_blend": {
+          "is": true
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "sides": {
+          "is": "undercut"
+        }
+      }
+    ],
+    "reason": "You wear a beard",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/az-barber/haircutting-styling-techniques/mustache-beard-design-trimming",
+      "https://www.fashionbeans.com/article/right-beard-for-your-face-shape/",
+      "https://cremocompany.com/blog/how-to-shape-and-style-a-beard"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "A skin fade can work with a neat, short beard when the person wants contrast."
+    }
+  },
+  {
+    "id": "d01-full-beard",
+    "group": "D",
+    "when": {
+      "beard.style": {
+        "is": "full"
+      }
+    },
+    "from": "d01",
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [],
+    "disfavour": [
+      {
+        "sides": {
+          "is": "skin_fade"
+        }
+      }
+    ],
+    "reason": "You wear a full beard",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/az-barber/haircutting-styling-techniques/mustache-beard-design-trimming",
+      "https://www.fashionbeans.com/article/right-beard-for-your-face-shape/",
+      "https://cremocompany.com/blog/how-to-shape-and-style-a-beard"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "A skin fade can work with a neat, short beard when the person wants contrast."
+    }
+  },
+  {
+    "id": "d09",
+    "group": "D",
+    "when": {
+      "hair.recession_stage": {
+        "range": [
+          3,
+          7
+        ]
+      },
+      "beard.style": {
+        "in": [
+          "short",
+          "medium",
+          "full"
+        ]
+      },
+      "pref.top_length": {
+        "in": [
+          "very_short",
+          "short"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "length_class": {
+          "in": [
+            "very_short",
+            "buzz"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "top_length": {
+          "is": "long"
+        }
+      }
+    ],
+    "reason": "You wear a beard and prefer a short top",
+    "evidence": "single_source",
+    "sources": [
+      "https://luxe.digital/style/men-haircuts-receding-hairline.md"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "d10",
+    "group": "D",
+    "when": {
+      "look.glasses": {
+        "is": "daily"
+      },
+      "pref.fringe": {
+        "in": [
+          "want",
+          "open"
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "fringe": {
+          "in": [
+            "side_swept",
+            "curtain",
+            "wispy",
+            "long_side"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "fringe": {
+          "in": [
+            "blunt_full",
+            "short_blunt"
+          ]
+        }
+      }
+    ],
+    "reason": "You wear glasses every day and are open to a fringe",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.whowhatwear.com/best-hairstyles-for-glasses",
+      "https://www.hairfinder.com/hairstyling/eyeglasstips.htm",
+      "https://www.eyebobs.com/blogs/news/hairstyles-that-pair-well-with-glasses",
+      "https://www.opto-reseau.com/en/advices/trends/how-to-match-your-hairstyle-to-your-frame-style"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "A micro fringe can sit above round or small frames. Bring the glasses to the haircut."
+    }
+  },
+  {
+    "id": "d11-b",
+    "group": "D",
+    "when": {
+      "look.glasses": {
+        "is": "daily"
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "sides_width": {
+        "is": "close"
+      }
+    },
+    "because": "Glasses arms rest at ear height, so lighter, tidier hair there stops them pushing the sides out.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.hairfinder.com/hairstyling/eyeglasstips.htm"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "The rule uses the listed sources."
+    }
+  },
+  {
+    "id": "d12",
+    "group": "D",
+    "when": {
+      "look.glasses_frame": {
+        "is": "bold"
+      },
+      "look.glasses": {
+        "is": "daily"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "fringe": {
+          "in": [
+            "side_swept",
+            "wispy"
+          ]
+        }
+      },
+      {
+        "height_top": {
+          "is": "medium"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "volume_zone": {
+          "is": "sides"
+        }
+      },
+      {
+        "fringe": {
+          "is": "blunt_full"
+        }
+      }
+    ],
+    "reason": "Bold frames already add width at the eyes",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.opto-reseau.com/en/advices/trends/how-to-match-your-hairstyle-to-your-frame-style",
+      "https://www.whowhatwear.com/best-hairstyles-for-glasses"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "d14",
+    "group": "D",
+    "when": {
+      "head.occiput": {
+        "is": "flat"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "sides": {
+          "in": [
+            "low_fade",
+            "taper",
+            "scissor_taper"
+          ]
+        }
+      },
+      {
+        "nape_style": {
+          "is": "tapered"
+        }
+      },
+      {
+        "volume_zone": {
+          "is": "occiput"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "sides": {
+          "in": [
+            "high_fade",
+            "skin_fade",
+            "bald_fade"
+          ]
+        }
+      }
+    ],
+    "reason": "The back of your head is fairly flat",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design",
+      "https://cursa.app/en/page/head-shape-and-growth-patterns-managing-cowlicks-flat-spots-and-swirls",
+      "https://mensflair.com/high-fade-haircuts/",
+      "https://cursa.app/en/page/client-consultation-for-fade-haircuts-choosing-low-mid-high-or-taper"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "d15",
+    "group": "D",
+    "when": {
+      "head.occiput": {
+        "is": "prominent"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "sides": {
+          "in": [
+            "drop_fade",
+            "taper",
+            "scissor_taper"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "sides": {
+          "is": "high_fade"
+        },
+        "silhouette": {
+          "is": "flat_top"
+        }
+      }
+    ],
+    "reason": "The back of your head is clearly rounded",
+    "evidence": "single_source",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design",
+      "https://mensflair.com/drop-fade-haircuts/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "d17",
+    "group": "D",
+    "when": {
+      "head.crown_shape": {
+        "is": "flat"
+      },
+      "wish.height": {
+        "is": "emphasise"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "height_top": {
+          "in": [
+            "medium",
+            "high"
+          ]
+        }
+      },
+      {
+        "volume_zone": {
+          "is": "crown"
+        }
+      },
+      {
+        "tags": {
+          "is": "textured_top"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "height_top": {
+          "is": "flat"
+        }
+      }
+    ],
+    "reason": "You would like more shape on top",
+    "evidence": "single_source",
+    "sources": [
+      "https://cursa.app/en/page/head-shape-and-growth-patterns-managing-cowlicks-flat-spots-and-swirls"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "The rule uses the listed sources."
+    }
+  },
+  {
+    "id": "d18",
+    "group": "D",
+    "when": {
+      "scalp.marks_cover": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "length_class": {
+          "is": "short"
+        }
+      },
+      {
+        "sides": {
+          "is": "taper"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You prefer some cover over the scalp",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "scars-scalp-shows",
+    "group": "C",
+    "when": {
+      "scalp.marks_cover": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "scalp_mm": {
+        "range": [
+          0,
+          9.9
+        ]
+      }
+    },
+    "because": "You want marks on your scalp covered. So cuts with any part shorter than 10 mm, a number 3 guard, are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the shortest exposed length (zones, nape, fades and undercuts), whatever the fade is called; a scar shows at a number 2"
+    }
+  },
+  {
+    "id": "scars-thin-hair",
+    "group": "C",
+    "when": {
+      "scalp.marks_cover": {
+        "is": true
+      },
+      "hair.density": {
+        "is": "low"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "scalp_mm": {
+        "range": [
+          0,
+          14.9
+        ]
+      }
+    },
+    "because": "You want marks on your scalp covered, and your scalp shows easily. So cuts with any part under 1.5 cm are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "thin hair shows the scalp at longer lengths"
+    }
+  },
+  {
+    "id": "d19",
+    "group": "D",
+    "when": {
+      "hair.recession_stage": {
+        "range": [
+          2,
+          7
+        ]
+      },
+      "pref.hard_lineup": {
+        "is": true
+      }
+    },
+    "target": "cut",
+    "effect": "note",
+    "note": "design",
+    "because": "You asked for a sharp line-up. Your hairline sits higher at the temples, so a softer line-up that follows it is kinder. It avoids pushing the hairline back with every cut.",
+    "evidence": "single_source",
+    "sources": [
+      "https://luxe.digital/style/men-haircuts-receding-hairline.md"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "fringe-avoid",
+    "group": "C",
+    "when": {
+      "pref.fringe": {
+        "is": "avoid"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "fringe": {
+        "not": [
+          "none"
+        ]
+      }
+    },
+    "because": "You said no fringe, so cuts with a fringe are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "stylist order: what was asked, then what the hair can do, then what flatters"
+    }
+  },
+  {
+    "id": "fringe-want",
+    "group": "C",
+    "when": {
+      "pref.fringe": {
+        "is": "want"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "fringe": {
+        "is": "none"
+      }
+    },
+    "because": "You said you would like a fringe, so cuts without one are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the counterpart of no fringe"
+    }
+  },
+  {
+    "id": "wash-and-go-no-daily-shaping",
+    "group": "C",
+    "when": {
+      "life.styling_minutes": {
+        "range": [
+          0,
+          7
+        ]
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "daily_styling": {
+        "is": true
+      }
+    },
+    "because": "You want wash and go. So cuts your hair type needs shaped each day, with a pick, a product or a blow-dry, are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "wash and go read per texture from each cut's own fit data, apart from the styling-minutes trade-off"
+    }
+  },
+  {
+    "id": "side-fullness-not-close",
+    "group": "A",
+    "when": {
+      "wish.face_length": {
+        "is": "soften"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "sides_width": {
+        "is": "close"
+      }
+    },
+    "because": "You would like fullness at the sides, so cuts with close sides are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "close sides are the opposite of side fullness"
+    }
+  },
+  {
+    "id": "top-length-very-short",
+    "group": "C",
+    "when": {
+      "pref.top_length": {
+        "is": "very_short"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "top_length": {
+          "is": "very_short"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "top_length": {
+          "in": [
+            "medium",
+            "long"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like a very short top",
+    "evidence": "policy",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "top-length-short",
+    "group": "C",
+    "when": {
+      "pref.top_length": {
+        "is": "short"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "top_length": {
+          "is": "short"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "top_length": {
+          "in": [
+            "long"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like a short top",
+    "evidence": "policy",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "top-length-medium",
+    "group": "C",
+    "when": {
+      "pref.top_length": {
+        "is": "medium"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "top_length": {
+          "is": "medium"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "top_length": {
+          "in": [
+            "very_short"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like a top of medium length",
+    "evidence": "policy",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "top-length-long",
+    "group": "C",
+    "when": {
+      "pref.top_length": {
+        "is": "long"
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "top_length": {
+          "is": "long"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "top_length": {
+          "in": [
+            "very_short",
+            "short"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like a long top",
+    "evidence": "policy",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "top-length-very-short-only",
+    "group": "C",
+    "when": {
+      "pref.top_length": {
+        "is": "very_short"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "top_cm": {
+        "range": [
+          2.01,
+          100
+        ]
+      }
+    },
+    "because": "You asked for a clipper-length top, so cuts whose top is longer than 2 cm are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the cut's top range in cm must meet the answer's range (very short under 2, short 2-5, medium 5-10, long over 10)"
+    }
+  },
+  {
+    "id": "top-length-short-only",
+    "group": "C",
+    "when": {
+      "pref.top_length": {
+        "is": "short"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "top_cm": {
+        "range": [
+          5.01,
+          100
+        ]
+      }
+    },
+    "because": "You asked for a top shorter than a finger, so cuts whose top is longer than 5 cm are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the cut's top range in cm must meet the answer's range (very short under 2, short 2-5, medium 5-10, long over 10)"
+    }
+  },
+  {
+    "id": "top-length-short-not-clipper",
+    "group": "C",
+    "when": {
+      "pref.top_length": {
+        "is": "short"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "top_cm": {
+        "range": [
+          0,
+          1.99
+        ]
+      }
+    },
+    "because": "You asked for a top shorter than a finger. So clipper-short tops, under 2 cm, are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the cut's top range in cm must meet the answer's range (very short under 2, short 2-5, medium 5-10, long over 10)"
+    }
+  },
+  {
+    "id": "top-length-medium-only",
+    "group": "C",
+    "when": {
+      "pref.top_length": {
+        "is": "medium"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "top_cm": {
+        "range": [
+          0,
+          4.99
+        ]
+      }
+    },
+    "because": "You asked for a top about a finger long, so cuts whose top is under 5 cm are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the cut's top range in cm must meet the answer's range (very short under 2, short 2-5, medium 5-10, long over 10)"
+    }
+  },
+  {
+    "id": "top-length-medium-not-long",
+    "group": "C",
+    "when": {
+      "pref.top_length": {
+        "is": "medium"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "top_cm": {
+        "range": [
+          10.01,
+          100
+        ]
+      }
+    },
+    "because": "You asked for a top about a finger long, so cuts whose top is longer than 10 cm are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the cut's top range in cm must meet the answer's range (very short under 2, short 2-5, medium 5-10, long over 10)"
+    }
+  },
+  {
+    "id": "top-length-long-only",
+    "group": "C",
+    "when": {
+      "pref.top_length": {
+        "is": "long"
+      }
+    },
+    "target": "cut",
+    "effect": "exclude",
+    "on": {
+      "top_cm": {
+        "range": [
+          0,
+          9.99
+        ]
+      }
+    },
+    "because": "You asked for a top longer than a finger, so cuts whose top is under 10 cm are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the cut's top range in cm must meet the answer's range (very short under 2, short 2-5, medium 5-10, long over 10)"
+    }
+  },
+  {
+    "id": "taste-shape",
+    "group": "C",
+    "when": {
+      "wish.liked_cuts": {
+        "known": true
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "liked": {
+          "is": "silhouette"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You tapped looks you like",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "positive only; a shape not tapped loses nothing"
+    }
+  },
+  {
+    "id": "taste-length",
+    "group": "D",
+    "when": {
+      "wish.liked_cuts": {
+        "known": true
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "liked": {
+          "is": "length_class"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You tapped looks you like",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "positive only; a shape not tapped loses nothing"
+    }
+  },
+  {
+    "id": "taste-fringe",
+    "group": "D",
+    "when": {
+      "wish.liked_cuts": {
+        "known": true
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "liked": {
+          "is": "fringe"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You tapped looks you like",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "positive only; a shape not tapped loses nothing"
+    }
+  },
+  {
+    "id": "taste-height",
+    "group": "D",
+    "when": {
+      "wish.liked_cuts": {
+        "known": true
+      }
+    },
+    "target": "cut",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "liked": {
+          "is": "height_top"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You tapped looks you like",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "positive only; a shape not tapped loses nothing"
+    }
+  }
+]

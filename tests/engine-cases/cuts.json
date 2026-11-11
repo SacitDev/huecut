@@ -1,0 +1,206 @@
+[
+  {
+    "id": "tie-back-excludes",
+    "about": "A person who must tie their hair back: c09 leaves out cuts that cannot be tied. c09-b, which also left out chin and bob lengths that can be tied, was retired.",
+    "facts": { "life.tie_back_needed": true },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": {
+      "excluded": { "classic-pixie": ["c09"], "french-bob": ["c09"], "wavy-lob": [], "long-curtain-layers": [] }
+    },
+    "why": {
+      "excluded.classic-pixie": "tie_back false (c09)",
+      "excluded.french-bob": "tie_back false (c09)",
+      "excluded.wavy-lob": "it ties back at collarbone length, so nothing leaves it out (c09-b retired)",
+      "excluded.long-curtain-layers": "ties back and is long"
+    }
+  },
+  {
+    "id": "curly-shrinkage-and-feasibility",
+    "about": "Curly hair, shoulder length now, resting at the chin: b02 notes high-shrinkage chin and bob cuts; feasibility reads the length band and the texture fit.",
+    "facts": { "hair.texture": "curly", "hair.current_length": "shoulder", "hair.resting_length": "chin" },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": {
+      "notes": { "curly-bob-with-fringe": ["b02"], "curly-wolf-cut": [] },
+      "feasibility": { "curly-bob-with-fringe": "today", "tapered-twa": "needs_adapting", "long-one-length-blunt": "after_growth" }
+    },
+    "why": {
+      "notes.curly-bob-with-fringe": "shrinkage_risk high and a chin perimeter: b02's on holds and its when (texture curly, both lengths known) holds",
+      "notes.curly-wolf-cut": "high shrinkage but a shoulder perimeter, outside b02's chin and bob",
+      "feasibility.curly-bob-with-fringe": "longest zone top 13-20 cm needs 13 cm, inside the shoulder band 22-38; curly fit good",
+      "feasibility.tapered-twa": "needs 3 cm (today by length) but its curly fit is adapt",
+      "feasibility.long-one-length-blunt": "its back zone needs 48 cm, above the shoulder band's 38 (after growth wins over its curly adapt fit)"
+    }
+  },
+  {
+    "id": "fine-low-density-scores",
+    "about": "Fine strands and low density: only b09 (moderate, weight 2) scores cuts; its reason names the first two favour values the item matched.",
+    "facts": { "hair.strand": "fine", "hair.density": "low" },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": {
+      "scores": { "blunt-chin-bob": 2, "classic-pixie": 2, "wolf-cut": -2, "long-curtain-layers": 0 },
+      "reasons": { "blunt-chin-bob": ["Your hair is fine and not very thick, so this cut has blunt ends and one length without layers."] }
+    },
+    "why": {
+      "scores.blunt-chin-bob": "favour perimeter blunt (also layers none and the chin length); no disfavour: +2",
+      "scores.classic-pixie": "favour light layers and the short length class: +2",
+      "scores.wolf-cut": "no favour; disfavour layers shag: -2",
+      "scores.long-curtain-layers": "soft perimeter, long layers, long length: no match",
+      "reasons.blunt-chin-bob": "b09's reason plus the phrases of its first two matching favour values, in list order"
+    }
+  },
+  {
+    "id": "wish-counts-in-full",
+    "about": "The fullness-at-the-sides wish (a01, group A, weight 2) with no photo, beside a long trim interval: the wish acts as stated and counts in full (no group cap, no face key); c04 is gone, since the trim factor and the trim exclusion do its job.",
+    "facts": { "wish.face_length": "soften", "life.trim_weeks_ok": 12 },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": { "scores": { "long-curtain-layers": 2, "wolf-cut": 0 } },
+    "why": {
+      "scores.long-curtain-layers": "a01 favours the curtain fringe: +2, uncapped",
+      "scores.wolf-cut": "a01 favours its curtain fringe and disfavours its crown volume: 0"
+    }
+  },
+  {
+    "id": "group-a-silent-without-wish",
+    "about": "The same measured longer face with no wish: every group-A rule is wish-gated, so nothing scores.",
+    "measured": { "face.proportion": { "value": "longer", "confidence": "medium" } },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": { "scores": { "long-curtain-layers": 0, "wolf-cut": 0 } },
+    "why": {
+      "scores.long-curtain-layers": "a01, a02 and a26 need wish.face_length, which is absent",
+      "scores.wolf-cut": "as above"
+    }
+  },
+  {
+    "id": "daily-heat-suppresses-b04",
+    "about": "Wavy hair styled with heat every day: the caution b37 shows on heat-dependent cuts and suppresses b04 there, and only there.",
+    "facts": { "hair.texture": "wavy", "hair.heat_habit": "daily" },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": { "scores": { "blunt-chin-bob": 0, "wavy-lob": 2, "long-one-length-blunt": -2 }, "notes": { "blunt-chin-bob": ["b37"], "wavy-lob": [] } },
+    "why": {
+      "scores.blunt-chin-bob": "heat-dependent, so b37 applies and b04 is skipped on it",
+      "scores.wavy-lob": "not heat-dependent: b04 favours its wavy fit, long layers and lob shape: +2",
+      "scores.long-one-length-blunt": "b04 disfavours its blunt_sleek perimeter: -2 (its wavy-fit favour is gone: the texture factor owns the fit)",
+      "notes.blunt-chin-bob": "b37's on (heat_dependent true) holds",
+      "notes.wavy-lob": "no caution holds"
+    }
+  },
+  {
+    "id": "feasibility-from-chin-length",
+    "about": "Hair at the chin now (14-22 cm): cuts whose longest zone needs more than 22 cm come after growth.",
+    "facts": { "hair.current_length": "chin" },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": {
+      "feasibility": { "long-one-length-blunt": "after_growth", "wavy-lob": "after_growth", "classic-pixie": "today", "french-bob": "today" }
+    },
+    "why": {
+      "feasibility.long-one-length-blunt": "back zone 48-62 cm needs 48",
+      "feasibility.wavy-lob": "sides 27-34 cm need 27",
+      "feasibility.classic-pixie": "top 4-7 cm needs 4",
+      "feasibility.french-bob": "top 12-15 cm needs 12"
+    }
+  },
+  {
+    "id": "poor-fit-left-out",
+    "about": "Wavy hair: a cut the library marks poor for waves, or shaped for curls, is left out, not ranked down (an authored poor fit is an exclusion now; the texture factor ranks good above adapt).",
+    "facts": { "hair.texture": "wavy" },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": { "excluded": { "afro-burst-taper": ["texture-poor-fit", "curl-shape-straight-hair"], "tapered-twa": ["texture-poor-fit", "curl-shape-straight-hair"], "wavy-lob": [] }, "scores": { "wavy-lob": 2 } },
+    "why": {
+      "excluded.afro-burst-taper": "poor for waves, and a curl-first shape",
+      "excluded.tapered-twa": "as above",
+      "scores.wavy-lob": "b04 favours long layers and the lob shape: +2"
+    }
+  },
+  {
+    "id": "texture-lines-not-on-buzz-or-crew",
+    "about": "Wavy hair, a cut every 2-4 weeks: a buzz or crew cut earns no line about waves, and no 'blunt ends' reason.",
+    "facts": { "hair.texture": "wavy", "life.trim_weeks_ok": 3 },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": {
+      "scores": { "buzz-cut-women": 0, "crew-cut-classic": 0 },
+      "reasons": { "buzz-cut-women": [], "crew-cut-classic": [] }
+    },
+    "why": {
+      "scores.buzz-cut-women": "b04 skips buzz and crew shapes; c05 no longer favours blunt ends; its sides and fringe match nothing else",
+      "scores.crew-cut-classic": "its taper is not a fade c05 names; b04 skips crew shapes",
+      "reasons.buzz-cut-women": "nothing favoured it",
+      "reasons.crew-cut-classic": "nothing favoured it"
+    }
+  },
+  {
+    "id": "large-change-held-back-when-unknown",
+    "about": "Long hair, change amount not asked: the change factor (unknown row) holds a large change back, so the first pick keeps a length near hers; c15-large-change-default is gone, the factor does its job.",
+    "facts": { "hair.current_length": "long" },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": { "first_pick": { "cut": { "any_of": [ { "length_change": { "in": ["small", "medium"] } } ] } }, "scores": { "buzz-cut-women": 0 } },
+    "why": {
+      "first_pick.cut": "the unknown row gives 1 for 0-1 classes and 0.5 for three or more",
+      "scores.buzz-cut-women": "no rank rule reads the change any more"
+    }
+  },
+  {
+    "id": "large-change-held-back-when-noticeable",
+    "about": "Long hair, 'Noticeable but wearable': the change factor favours one class of change and holds a large one back (c15-large-change is gone).",
+    "facts": { "hair.current_length": "long", "pref.change_amount": "noticeable" },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": { "first_pick": { "cut": { "any_of": [ { "length_change": { "in": ["small", "medium"] } } ] } }, "scores": { "buzz-cut-women": 0, "long-curtain-layers": 0 } },
+    "why": {
+      "first_pick.cut": "the noticeable row: 1 for one class, 0.5 for three or more",
+      "scores.buzz-cut-women": "no rank rule reads the change"
+    }
+  },
+  {
+    "id": "large-change-subtle-left-out",
+    "about": "Long hair, 'Subtle': a big chop is left out (subtle-no-big-chop), a cut at her length is offered, and nothing counts the change twice.",
+    "facts": { "hair.current_length": "long", "pref.change_amount": "subtle" },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": { "excluded": { "buzz-cut-women": ["subtle-no-big-chop"], "long-curtain-layers": [] }, "first_pick": { "cut": { "any_of": [ { "length_change": { "is": "small" } } ] } } },
+    "why": {
+      "excluded.buzz-cut-women": "very_short from long is a large change shorter",
+      "first_pick.cut": "the subtle row gives 1 for no change and 0.95 for one class"
+    }
+  },
+  {
+    "id": "large-change-welcome-when-bold",
+    "about": "Long hair, 'Bold': the change factor favours two or more classes off, so the first pick is a clear change (c16 is gone, the factor does its job).",
+    "facts": { "hair.current_length": "long", "pref.change_amount": "bold" },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": { "first_pick": { "cut": { "any_of": [ { "length_change": { "in": ["medium", "large"] } } ] } }, "excluded": { "buzz-cut-women": [] } },
+    "why": {
+      "first_pick.cut": "the bold row: 1 for two classes, 0.95 for three or more, 0.5 for none",
+      "excluded.buzz-cut-women": "a big change is what was asked"
+    }
+  },
+  {
+    "id": "needs-growth-future-option-unless-growing",
+    "about": "Short hair, 'Bold', growing out not answered: cuts that need growth stay eligible as future options, after the shapes that work today and at most two, up to a year of growth (a growth wait is a trade-off for someone not growing out; it was once an exclusion; the one-year limit holds for everyone).",
+    "facts": { "hair.current_length": "short", "pref.change_amount": "bold" },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": { "excluded": { "long-curtain-layers": ["growth-over-a-year"], "curly-mullet-salon": [] }, "feasibility": { "long-curtain-layers": "after_growth", "curly-mullet-salon": "after_growth" } },
+    "why": {
+      "excluded.long-curtain-layers": "needs 42 cm, 32 cm more: more than a year of growth, left out whoever asks",
+      "excluded.curly-mullet-salon": "a shoulder-length shape needs the shoulder band's start, 22 cm: a growth wait within a year, a trade-off",
+      "feasibility.long-curtain-layers": "42 cm is above the middle of the short band, 10 cm",
+      "feasibility.curly-mullet-salon": "22 cm is above the middle of the short band, 10 cm"
+    }
+  },
+  {
+    "id": "first-pick-works-today",
+    "about": "Wavy, short hair, 'Wash and go' (a case that gave only cuts needing 26 weeks or more): our pick works today, later places may need growth.",
+    "facts": { "hair.texture": "wavy", "hair.current_length": "short", "life.styling_minutes": 5, "life.trim_weeks_ok": 12 },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": { "first_pick": { "cut": { "any_of": [{ "texture_fit": { "not": ["poor"] } }], "status": "today" } } },
+    "why": { "first_pick.cut": "an after-growth cut is never first while a cut works today by length; texture_fit poor is held back by texture-poor-fit" }
+  },
+  {
+    "id": "feasibility-unknown-length",
+    "about": "The current length is not answered: no feasibility line.",
+    "facts": { "hair.texture": "straight" },
+    "request": { "kinds": ["cut"], "collections": ["salon"], "count": 4 },
+    "expect": { "feasibility": { "wolf-cut": null, "long-one-length-blunt": null } },
+    "why": {
+      "feasibility.wolf-cut": "an unknown current length gives no feasibility line",
+      "feasibility.long-one-length-blunt": "as above"
+    }
+  }
+]

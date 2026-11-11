@@ -1,0 +1,113 @@
+[
+  {
+    "id": "direction-lighter",
+    "about": "Natural level 6, no colour history, 'Go lighter': the first pick lifts above her own level.",
+    "facts": { "pref.colour_direction": "lighter", "hair.chemical_history": ["none"], "hair.condition": "healthy", "colour.natural_level": 6, "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": {
+      "first_pick": { "colour": { "any_of": [{ "lift_levels": { "range": [1, 9] }, "vivid": { "is": false } }] } },
+      "reasons": { "copper-all-over": ["You would like to go lighter, so this look has colour a little lighter than your hair now."] }
+    },
+    "why": {
+      "first_pick.colour": "the current level is derived from natural 6 with no history: a look lightest at 7 or above lifts",
+      "reasons.copper-all-over": "target 7 is a lift of 1: direction-lighter favours lift 1 to 2, and its phrase names that"
+    }
+  },
+  {
+    "id": "direction-darker",
+    "about": "Natural level 6, 'Go darker': the first pick sits below her own level.",
+    "facts": { "pref.colour_direction": "darker", "hair.chemical_history": ["none"], "hair.condition": "healthy", "colour.natural_level": 6, "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "first_pick": { "colour": { "any_of": [{ "lift_levels": { "range": [-9, -1] }, "vivid": { "is": false } }] } } },
+    "why": { "first_pick.colour": "darker is relative to her level 6: the lightest point of the look must be below it" }
+  },
+  {
+    "id": "direction-darker-from-dyed",
+    "about": "Natural level 3 but dyed to 8, 'Go darker': darker than the hair she has now, not than her natural level.",
+    "facts": { "pref.colour_direction": "darker", "hair.chemical_history": ["salon_colour"], "hair.condition": "healthy", "colour.natural_level": 3, "colour.current_level_lengths": 8, "colour.last_chemical_service": "months_6_plus", "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "first_pick": { "colour": { "any_of": [{ "lift_levels": { "range": [-9, -1] }, "target_level": { "range": [4, 7] } }] } } },
+    "why": { "first_pick.colour": "from level 8 a look lightest at 5 to 7 is a modest step down; level 3 would be her natural level, not the first step" }
+  },
+  {
+    "id": "direction-tone",
+    "about": "'Change tone, keep the level': the first pick stays within a level of her hair.",
+    "facts": { "pref.colour_direction": "tone", "hair.chemical_history": ["none"], "hair.condition": "healthy", "colour.natural_level": 5, "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "first_pick": { "colour": { "any_of": [{ "lift_levels": { "range": [-1, 1] }, "vivid": { "is": false } }] } } },
+    "why": { "first_pick.colour": "keep the level: the look's lightest point is within one level of 5" }
+  },
+  {
+    "id": "direction-refresh",
+    "about": "'Refresh what I have', dyed to 7: the first pick stays at what she has now.",
+    "facts": { "pref.colour_direction": "refresh", "hair.chemical_history": ["salon_colour"], "hair.condition": "healthy", "colour.natural_level": 4, "colour.current_level_lengths": 7, "colour.last_chemical_service": "months_6_plus", "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "first_pick": { "colour": { "any_of": [{ "lengths_lift": { "range": [-1, 1] }, "roots_from_worn": { "range": [0, 1] }, "vivid": { "is": false } }] } } },
+    "why": { "first_pick.colour": "refresh is relative to the current 7, not the natural 4: the lengths stay within a level and the roots match the colour worn" }
+  },
+  {
+    "id": "direction-grey",
+    "about": "'Cover or blend my grey': the first pick is a grey look, near her own level.",
+    "facts": { "pref.colour_direction": "grey", "colour.grey_percent": 40, "hair.chemical_history": ["none"], "hair.condition": "healthy", "colour.natural_level": 5, "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "first_pick": { "colour": { "any_of": [{ "grey_effect": { "is": "covers" }, "lift_levels": { "range": [-3, 2] } }, { "grey_effect": { "is": "blends" }, "lift_levels": { "range": [-3, 4] } }, { "grey_effect": { "is": "tints" }, "lift_levels": { "range": [-3, 2] } }, { "grey_effect": { "is": "silver" }, "lift_levels": { "range": [-3, 2] } }] } } },
+    "why": { "first_pick.colour": "a look that covers or tints grey, or takes it to silver, within reach of level 5, or one that blends it up to four levels above (a dark base needs that contrast, stylist check), read from what the look does to grey" }
+  },
+  {
+    "id": "direction-vivid",
+    "about": "'Try a bright fashion colour': the first pick is vivid.",
+    "facts": { "pref.colour_direction": "vivid", "hair.chemical_history": ["none"], "hair.condition": "healthy", "colour.natural_level": 6, "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "first_pick": { "colour": { "any_of": [{ "vivid": { "is": true } }] } } },
+    "why": { "first_pick.colour": "direction-vivid favours vivid looks" }
+  },
+  {
+    "id": "direction-natural",
+    "about": "Natural level 4 dyed to 7, 'Return to my natural colour': the first pick is near level 4, not near what she has now.",
+    "facts": { "pref.colour_direction": "natural", "hair.chemical_history": ["salon_colour"], "hair.condition": "healthy", "colour.natural_level": 4, "colour.current_level_lengths": 7, "colour.last_chemical_service": "months_6_plus", "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "first_pick": { "colour": { "any_of": [{ "contrast_with_natural": { "is": "low" }, "vivid": { "is": false } }] } } },
+    "why": { "first_pick.colour": "low contrast with the natural level: the look's lightest point is within one level of 4" }
+  },
+  {
+    "id": "direction-men-lighter",
+    "about": "Men's Both, level 5, 'Go lighter': the same rule on the barbering looks.",
+    "facts": { "pref.colour_direction": "lighter", "hair.chemical_history": ["none"], "hair.condition": "healthy", "colour.natural_level": 5, "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["barbering"], "count": 4 },
+    "expect": { "first_pick": { "colour": { "any_of": [{ "lift_levels": { "range": [1, 9] }, "vivid": { "is": false } }] } } },
+    "why": { "first_pick.colour": "the barbering looks at level 6 lift by 1" }
+  },
+  {
+    "id": "direction-men-darker",
+    "about": "Men's Both, level 6, 'Go darker': the same rule on the barbering looks, with no grey look unless he asked for one.",
+    "facts": { "pref.colour_direction": "darker", "hair.chemical_history": ["none"], "hair.condition": "healthy", "colour.natural_level": 6, "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["barbering"], "count": 4 },
+    "expect": { "first_pick": { "colour": { "any_of": [{ "lift_levels": { "range": [-9, -1] }, "technique": { "not": ["grey_coverage", "grey_blending"] } }] } } },
+    "why": { "first_pick.colour": "brown lowlights at 4 is darker than 6; the grey coverage looks are held back because he did not ask about grey" }
+  },
+  {
+    "id": "direction-no-preference-stays-neutral",
+    "about": "'Not sure, show me ideas' stores nothing: no direction rule fires, so the scores stay as they were.",
+    "facts": { "hair.chemical_history": ["none"], "hair.condition": "healthy", "colour.natural_level": 6, "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "scores": { "copper-all-over": 0, "icy-platinum": 0, "darkest-brown-gloss": 0 }, "reasons": { "copper-all-over": [] } },
+    "why": {
+      "scores.copper-all-over": "no direction answer and no other rule's fact is known: nothing scores",
+      "scores.icy-platinum": "as above",
+      "scores.darkest-brown-gloss": "as above",
+      "reasons.copper-all-over": "nothing favoured it, so no sentence claims she asked for anything"
+    }
+  },
+  {
+    "id": "direction-keeps-the-journey-labels",
+    "about": "'Go lighter' changes the order, never the label: a lift of 3 or more on healthy virgin hair is still not plausible.",
+    "facts": { "pref.colour_direction": "lighter", "hair.chemical_history": ["none"], "hair.condition": "healthy", "colour.natural_level": 5, "safety.dye_reaction": "none", "safety.scalp_irritation": "none" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "labels": { "icy-platinum": "needs_professional", "honey-blonde-foil-highlights": "uncertain", "copper-all-over": "uncertain" } },
+    "why": {
+      "labels.icy-platinum": "target 10 from level 5 is a lift of 5: lift-5-plus-any decides it, not the direction",
+      "labels.honey-blonde-foil-highlights": "target 8 from 5 is a lift of 3: lift-3-4-any",
+      "labels.copper-all-over": "target 7 from 5 is a lift of 2, but pref.colour_upkeep is unknown and red-copper-fade is more cautious: uncertain"
+    }
+  }
+]

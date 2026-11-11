@@ -1,0 +1,125 @@
+/* Saved and the example bar: sections in one reading column, favourites as a uniform photo grid. */
+
+.page {
+  display: grid;
+  gap: var(--space-2xl);
+  max-inline-size: var(--content-max);
+  margin-inline: auto;
+  padding-block: var(--space-xl) var(--space-2xl);
+}
+
+.section {
+  display: grid;
+  gap: var(--space-m);
+  justify-items: start;
+  min-inline-size: 0;
+}
+
+.group {
+  display: grid;
+  gap: var(--space-s);
+  inline-size: 100%;
+}
+
+.empty {
+  display: grid;
+  gap: var(--space-s);
+  justify-items: start;
+  max-inline-size: var(--measure);
+}
+
+.status {
+  color: var(--text-2);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-s);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-l) var(--space-s);
+  padding: 0;
+  list-style: none;
+}
+
+.tile {
+  display: grid;
+  gap: var(--space-xs);
+  justify-items: start;
+  align-content: start;
+  min-inline-size: 0;
+}
+
+.tile :global(img) {
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.tileLink {
+  display: grid;
+  gap: var(--space-xs);
+  inline-size: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.tileName {
+  font-weight: var(--weight-h3);
+}
+
+@media (width >= 840px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 220px));
+    gap: var(--space-xl) var(--space-l);
+  }
+}
+
+/* The example's words and buttons, above the step. */
+.example {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-s);
+  max-inline-size: var(--content-max);
+  margin-inline: auto;
+}
+
+/* The badge stays visible while the step scrolls; the page keeps focused controls clear of it (WCAG 2.4.11). */
+.badge {
+  position: sticky;
+  inset-block-start: var(--space-xs);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  inline-size: fit-content;
+  min-block-size: var(--chip-h);
+  margin-block-start: var(--space-xs);
+  padding-inline: var(--space-m);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background-color: var(--surface);
+  font-size: var(--text-small);
+  font-weight: var(--weight-small);
+}
+
+:global(html):has(.badge) {
+  scroll-padding-block-start: calc(var(--chip-h) + var(--space-l));
+}
+
+.exampleText {
+  flex: 1 1 14em;
+  color: var(--text-2);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.exampleFailed {
+  display: grid;
+  gap: var(--space-s);
+  justify-items: start;
+  padding-block-start: var(--space-m);
+}

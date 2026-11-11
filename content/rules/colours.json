@@ -1,0 +1,3435 @@
+[
+  {
+    "id": "c11-colour",
+    "group": "C",
+    "when": {
+      "life.workplace_style": {
+        "is": "conservative"
+      }
+    },
+    "from": "c11",
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "contrast_with_natural": {
+          "is": "low"
+        }
+      },
+      {
+        "vivid": {
+          "is": false
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "vivid": {
+          "is": true
+        }
+      }
+    ],
+    "reason": "Your work favours a polished classic look",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "c12-colour",
+    "group": "C",
+    "when": {
+      "life.workplace_style": {
+        "is": "creative"
+      }
+    },
+    "from": "c12",
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "vivid": {
+          "is": true
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "Your work is open to creative looks",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "e01",
+    "group": "E",
+    "when": {
+      "look.undertone": {
+        "is": "warm"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "warmth": {
+          "is": "warm"
+        }
+      },
+      {
+        "tone": {
+          "in": [
+            "golden",
+            "copper",
+            "caramel",
+            "honey"
+          ]
+        }
+      },
+      {
+        "family": {
+          "is": "brunette"
+        },
+        "warmth": {
+          "is": "warm"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tone": {
+          "is": "ash"
+        }
+      }
+    ],
+    "reason": "You told us your skin leans warm",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://revlonprofessional.com/blog/decoding-skin-tones",
+      "https://hji.co.uk/how-to-choose-the-best-hair-colour-for-your-clients-skin-tone",
+      "https://www.lorealprofessionnel.co.uk/hair-mag-try-on-a-hair-color-before-committing",
+      "https://kevinmurphy.com.au/hk/en/expert-advice-on-how-to-pick-the-right-hair-color-blog.html",
+      "https://www.rush.co.uk/blog/guide-to-choosing-hair-colour-based-on-your-skin-tone-and-undertone"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e02",
+    "group": "E",
+    "when": {
+      "look.undertone": {
+        "is": "cool"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "warmth": {
+          "is": "cool"
+        }
+      },
+      {
+        "tone": {
+          "in": [
+            "ash",
+            "beige",
+            "plum",
+            "silver"
+          ]
+        }
+      },
+      {
+        "family": {
+          "is": "brunette"
+        },
+        "warmth": {
+          "is": "cool"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "tone": {
+          "in": [
+            "golden",
+            "copper"
+          ]
+        }
+      }
+    ],
+    "reason": "You told us your skin leans cool",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://revlonprofessional.com/blog/decoding-skin-tones",
+      "https://hji.co.uk/how-to-choose-the-best-hair-colour-for-your-clients-skin-tone",
+      "https://www.lorealprofessionnel.co.uk/hair-mag-try-on-a-hair-color-before-committing",
+      "https://kevinmurphy.com.au/hk/en/expert-advice-on-how-to-pick-the-right-hair-color-blog.html",
+      "https://www.rush.co.uk/blog/guide-to-choosing-hair-colour-based-on-your-skin-tone-and-undertone"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e03",
+    "group": "E",
+    "when": {
+      "look.undertone": {
+        "is": "neutral"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "warmth": {
+          "is": "neutral"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You told us your skin leans neutral",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.lorealprofessionnel.co.uk/hair-mag-try-on-a-hair-color-before-committing",
+      "https://kevinmurphy.com.au/hk/en/expert-advice-on-how-to-pick-the-right-hair-color-blog.html",
+      "https://revlonprofessional.com/blog/decoding-skin-tones"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e06",
+    "group": "E",
+    "when": {
+      "look.contrast": {
+        "is": "high"
+      },
+      "wish.contrast": {
+        "is": "soften"
+      },
+      "colour.natural_level": {
+        "range": [
+          1,
+          5
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "contrast_with_natural": {
+          "is": "medium"
+        }
+      },
+      {
+        "technique": {
+          "in": [
+            "babylights",
+            "balayage"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "target_level": {
+          "range": [
+            1,
+            2
+          ]
+        }
+      }
+    ],
+    "reason": "You would like less contrast with your skin",
+    "evidence": "single_source",
+    "sources": [
+      "https://revlonprofessional.com/blog/decoding-skin-tones",
+      "https://hji.co.uk/how-to-choose-the-best-hair-colour-for-your-clients-skin-tone"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e06-b",
+    "from": "e06",
+    "group": "E",
+    "when": {
+      "look.contrast": {
+        "is": "high"
+      },
+      "wish.contrast": {
+        "is": "soften"
+      },
+      "colour.natural_level": {
+        "range": [
+          6,
+          10
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "technique": {
+          "in": [
+            "root_shadow",
+            "lowlights"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "target_level": {
+          "range": [
+            9,
+            10
+          ]
+        }
+      }
+    ],
+    "reason": "You would like less contrast with your skin",
+    "evidence": "single_source",
+    "sources": [
+      "https://revlonprofessional.com/blog/decoding-skin-tones",
+      "https://hji.co.uk/how-to-choose-the-best-hair-colour-for-your-clients-skin-tone"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "High contrast at natural levels 6 to 10 means the skin is deeper than the hair. More depth softens that contrast."
+    }
+  },
+  {
+    "id": "e07",
+    "group": "E",
+    "when": {
+      "look.contrast": {
+        "is": "low"
+      },
+      "wish.contrast": {
+        "is": "emphasise"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "regions": {
+          "is": "face_frame"
+        }
+      },
+      {
+        "technique": {
+          "in": [
+            "foil_highlights",
+            "babylights"
+          ]
+        }
+      },
+      {
+        "contrast_with_natural": {
+          "is": "medium"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "technique": {
+          "is": "all_over"
+        },
+        "contrast_with_natural": {
+          "is": "low"
+        }
+      }
+    ],
+    "reason": "You would like your face to look more defined",
+    "evidence": "design_logic",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e08",
+    "group": "E",
+    "when": {
+      "look.eye_colour": {
+        "in": [
+          "blue",
+          "grey"
+        ]
+      },
+      "wish.eyes": {
+        "is": "emphasise"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tone": {
+          "in": [
+            "copper",
+            "golden",
+            "ash"
+          ]
+        }
+      },
+      {
+        "family": {
+          "is": "brunette"
+        },
+        "warmth": {
+          "is": "warm"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You would like your eyes to stand out",
+    "evidence": "single_source",
+    "sources": [
+      "https://hji.co.uk/how-to-choose-the-best-hair-colour-for-your-clients-skin-tone"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e09",
+    "group": "E",
+    "when": {
+      "look.eye_colour": {
+        "in": [
+          "green",
+          "hazel"
+        ]
+      },
+      "wish.eyes": {
+        "is": "emphasise"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tone": {
+          "in": [
+            "copper",
+            "red_brown",
+            "golden",
+            "chestnut"
+          ]
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You would like your eyes to stand out",
+    "evidence": "single_source",
+    "sources": [
+      "https://hji.co.uk/how-to-choose-the-best-hair-colour-for-your-clients-skin-tone"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e10",
+    "group": "E",
+    "when": {
+      "look.eye_colour": {
+        "in": [
+          "dark_brown",
+          "light_brown"
+        ]
+      },
+      "wish.eyes": {
+        "is": "emphasise"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tone": {
+          "in": [
+            "caramel",
+            "golden",
+            "chocolate",
+            "burgundy"
+          ]
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You would like your eyes to stand out",
+    "evidence": "single_source",
+    "sources": [
+      "https://hji.co.uk/how-to-choose-the-best-hair-colour-for-your-clients-skin-tone"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e11",
+    "group": "E",
+    "when": {
+      "colour.grey_percent": {
+        "range": [
+          1,
+          15
+        ]
+      },
+      "pref.colour_upkeep": {
+        "is": "low"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "technique": {
+          "in": [
+            "gloss",
+            "babylights",
+            "grey_blending",
+            "root_shadow"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "technique": {
+          "is": "all_over"
+        }
+      }
+    ],
+    "reason": "You have a little grey and prefer fewer colour visits",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.lorealprofessionnel.com/hair-mag-grey-blending-vs-grey-coverage-whats-the-difference",
+      "https://www.madison-reed.com/blog/blending-gray-hair-with-highlights-and-lowlights"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e12",
+    "group": "E",
+    "when": {
+      "colour.grey_percent": {
+        "range": [
+          15,
+          50
+        ]
+      },
+      "pref.colour_upkeep": {
+        "in": [
+          "low",
+          "medium"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "technique": {
+          "in": [
+            "grey_blending",
+            "foil_highlights",
+            "babylights",
+            "lowlights",
+            "gloss"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "upkeep_weeks": {
+          "range": [
+            4,
+            6
+          ]
+        }
+      }
+    ],
+    "reason": "You have some grey and prefer a colour that grows out softly",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.lorealprofessionnel.com/hair-mag-grey-blending-vs-grey-coverage-whats-the-difference",
+      "https://www.madison-reed.com/blog/blending-gray-hair-with-highlights-and-lowlights",
+      "https://behindthechair.com/articles/the-root-touch-up-is-evolving-a-new-approach-to-gray-coverage/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e13",
+    "group": "E",
+    "when": {
+      "colour.grey_percent": {
+        "range": [
+          50,
+          100
+        ]
+      },
+      "colour.grey_goal": {
+        "is": "cover"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "grey_effect": {
+          "is": "covers"
+        }
+      },
+      {
+        "upkeep_weeks": {
+          "range": [
+            4,
+            6
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "grey_effect": {
+          "is": "tints"
+        }
+      }
+    ],
+    "reason": "You have mostly grey hair and would like it covered",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.lorealprofessionnel.com/hair-mag-grey-blending-vs-grey-coverage-whats-the-difference",
+      "https://www.madison-reed.com/blog/blending-gray-hair-with-highlights-and-lowlights",
+      "https://us.wella.professionalstore.com/en-US/blog/hair-color/revealed-the-best-way-to-cover-gray-on-dark-hair",
+      "https://behindthechair.com/articles/the-root-touch-up-is-evolving-a-new-approach-to-gray-coverage/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11"
+    }
+  },
+  {
+    "id": "e14",
+    "group": "E",
+    "when": {
+      "colour.grey_percent": {
+        "range": [
+          50,
+          100
+        ]
+      },
+      "colour.grey_goal": {
+        "is": "embrace"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "tone": {
+          "is": "silver"
+        }
+      },
+      {
+        "grey_effect": {
+          "in": [
+            "blends",
+            "shows"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "grey_effect": {
+          "is": "silver"
+        },
+        "lightening": {
+          "is": "always"
+        }
+      }
+    ],
+    "reason": "You would like to embrace your grey",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.lorealprofessionnel.com/hair-mag-grey-blending-vs-grey-coverage-whats-the-difference"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "The rule uses the listed sources."
+    }
+  },
+  {
+    "id": "e15",
+    "group": "E",
+    "when": {
+      "colour.grey_pattern": {
+        "in": [
+          "temples",
+          "front"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "regions": {
+          "is": "face_frame"
+        }
+      },
+      {
+        "grey_effect": {
+          "is": "blends"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "Your grey sits mostly around the face",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.lorealprofessionnel.com/hair-mag-grey-blending-vs-grey-coverage-whats-the-difference",
+      "https://www.madison-reed.com/blog/blending-gray-hair-with-highlights-and-lowlights"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "disfavour \"all_over_permanent for under_30_percent\" becomes e15-low-grey: grey_percent [0, 30] in when, disfavour technique all_over; reads the authored grey effect, never a technique or family name"
+    }
+  },
+  {
+    "id": "e15-low-grey",
+    "group": "E",
+    "when": {
+      "colour.grey_pattern": {
+        "in": [
+          "temples",
+          "front"
+        ]
+      },
+      "colour.grey_percent": {
+        "range": [
+          0,
+          30
+        ]
+      }
+    },
+    "from": "e15",
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [],
+    "disfavour": [
+      {
+        "technique": {
+          "is": "all_over"
+        }
+      }
+    ],
+    "reason": "Your grey sits mostly around the face",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.lorealprofessionnel.com/hair-mag-grey-blending-vs-grey-coverage-whats-the-difference",
+      "https://www.madison-reed.com/blog/blending-gray-hair-with-highlights-and-lowlights"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "disfavour \"all_over_permanent for under_30_percent\" becomes e15-low-grey: grey_percent [0, 30] in when, disfavour technique all_over"
+    }
+  },
+  {
+    "id": "e25",
+    "group": "E",
+    "when": {
+      "pref.colour_upkeep": {
+        "is": "low"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "technique": {
+          "in": [
+            "balayage",
+            "root_shadow",
+            "gloss"
+          ]
+        }
+      },
+      {
+        "upkeep_weeks": {
+          "range": [
+            12,
+            26
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "technique": {
+          "in": [
+            "all_over",
+            "foil_highlights"
+          ]
+        }
+      },
+      {
+        "vivid": {
+          "is": true
+        }
+      }
+    ],
+    "reason": "You would like fewer colour visits",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://lorealparisusa.com/beauty-magazine/hair-color/hair-color-ideas/balayage-highlights",
+      "https://www.masterclass.com/articles/balayage-vs-highlights",
+      "https://www.hair.com/partial-balayage.html",
+      "https://www.curlcentric.com/shadow-root-vs-balayage/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e26",
+    "group": "E",
+    "when": {
+      "pref.colour_upkeep": {
+        "is": "high"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "technique": {
+          "in": [
+            "all_over",
+            "foil_highlights"
+          ]
+        }
+      },
+      {
+        "vivid": {
+          "is": true
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You do not mind regular visits",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.masterclass.com/articles/balayage-vs-highlights",
+      "https://lorealparisusa.com/beauty-magazine/hair-color/hair-color-ideas/balayage-highlights"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e27",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "vivid"
+      },
+      "life.workplace_style": {
+        "is": "conservative"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [],
+    "disfavour": [
+      {
+        "technique": {
+          "is": "vivid_all_over"
+        }
+      }
+    ],
+    "reason": "You like colour but your workplace is classic",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "This is a styling preference without a supporting source."
+    }
+  },
+  {
+    "id": "direction-lighter",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "lighter"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "lift_levels": {
+          "range": [
+            1,
+            3
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "lift_levels": {
+          "range": [
+            -9,
+            0
+          ]
+        }
+      },
+      {
+        "vivid": {
+          "is": true
+        }
+      },
+      {
+        "family": {
+          "is": "grey_silver"
+        }
+      },
+      {
+        "technique": {
+          "in": [
+            "grey_coverage"
+          ]
+        }
+      },
+      {
+        "placement_not_lighter": {
+          "is": true
+        }
+      },
+      {
+        "family": {
+          "is": "black"
+        }
+      },
+      {
+        "base_technique": {
+          "in": [
+            "gloss",
+            "demi_refresh"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like to go lighter",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "direction-darker",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "darker"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "lift_levels": {
+          "range": [
+            -3,
+            -1
+          ]
+        }
+      },
+      {
+        "darkens_by": {
+          "range": [
+            1,
+            3
+          ]
+        },
+        "lightening": {
+          "is": "none"
+        },
+        "reaches_shade": {
+          "is": true
+        },
+        "ends_darker": {
+          "is": true
+        }
+      },
+      {
+        "darkens_by": {
+          "range": [
+            4,
+            9
+          ]
+        },
+        "lightening": {
+          "is": "none"
+        },
+        "reaches_shade": {
+          "is": true
+        },
+        "ends_darker": {
+          "is": true
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "darkens_by": {
+          "range": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "vivid": {
+          "is": true
+        }
+      },
+      {
+        "family": {
+          "is": "grey_silver"
+        }
+      },
+      {
+        "technique": {
+          "in": [
+            "grey_blending"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like to go darker",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "darker is read region by region (darkens_by), and a look that lightens any region is left out by the darker exclusions; a look without lightener is named by the darkening it really makes (it reaches its shades and ends darker), beyond 3 levels with the deep-shade note"
+    }
+  },
+  {
+    "id": "direction-tone",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "tone"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "lift_levels": {
+          "range": [
+            -1,
+            1
+          ]
+        }
+      },
+      {
+        "lengths_darken": {
+          "range": [
+            0,
+            1
+          ]
+        },
+        "roots_from_worn": {
+          "range": [
+            0,
+            1
+          ]
+        },
+        "lightening": {
+          "is": "none"
+        },
+        "reaches_shade": {
+          "is": true
+        }
+      },
+      {
+        "lengths_lift": {
+          "range": [
+            -1,
+            1
+          ]
+        },
+        "lengths_darken": {
+          "range": [
+            0,
+            1
+          ]
+        },
+        "roots_from_worn": {
+          "range": [
+            0,
+            1
+          ]
+        },
+        "reaches_shade": {
+          "is": true
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "lift_levels": {
+          "range": [
+            2,
+            9
+          ]
+        },
+        "lightening": {
+          "in": [
+            "some",
+            "always"
+          ]
+        },
+        "roots_from_worn": {
+          "range": [
+            2,
+            9
+          ]
+        }
+      },
+      {
+        "lift_levels": {
+          "range": [
+            2,
+            9
+          ]
+        },
+        "lightening": {
+          "in": [
+            "some",
+            "always"
+          ]
+        },
+        "roots_from_worn": {
+          "known": false
+        }
+      },
+      {
+        "lift_levels": {
+          "range": [
+            -9,
+            -2
+          ]
+        },
+        "lightening": {
+          "in": [
+            "some",
+            "always"
+          ]
+        },
+        "roots_from_worn": {
+          "range": [
+            2,
+            9
+          ]
+        }
+      },
+      {
+        "lift_levels": {
+          "range": [
+            -9,
+            -2
+          ]
+        },
+        "lightening": {
+          "in": [
+            "some",
+            "always"
+          ]
+        },
+        "roots_from_worn": {
+          "known": false
+        }
+      },
+      {
+        "placement_not_lighter": {
+          "is": true
+        }
+      },
+      {
+        "vivid": {
+          "is": true
+        }
+      },
+      {
+        "technique": {
+          "in": [
+            "grey_coverage",
+            "grey_blending"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like a new tone at about the same depth",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "A look without lightener is named by the change it really makes. the lift a shade would need counts against a look only with lightener. a retouch within a level of the colour worn is named, with or without lightener. nothing when a level is unknown."
+    }
+  },
+  {
+    "id": "direction-refresh",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "refresh"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "lift_levels": {
+          "range": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "lengths_darken": {
+          "range": [
+            0,
+            1
+          ]
+        },
+        "roots_from_worn": {
+          "range": [
+            0,
+            1
+          ]
+        },
+        "lightening": {
+          "is": "none"
+        },
+        "reaches_shade": {
+          "is": true
+        }
+      },
+      {
+        "lengths_lift": {
+          "range": [
+            -1,
+            1
+          ]
+        },
+        "lengths_darken": {
+          "range": [
+            0,
+            1
+          ]
+        },
+        "roots_from_worn": {
+          "range": [
+            0,
+            1
+          ]
+        },
+        "reaches_shade": {
+          "is": true
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "lift_levels": {
+          "range": [
+            2,
+            9
+          ]
+        },
+        "lightening": {
+          "in": [
+            "some",
+            "always"
+          ]
+        },
+        "roots_from_worn": {
+          "range": [
+            2,
+            9
+          ]
+        }
+      },
+      {
+        "lift_levels": {
+          "range": [
+            2,
+            9
+          ]
+        },
+        "lightening": {
+          "in": [
+            "some",
+            "always"
+          ]
+        },
+        "roots_from_worn": {
+          "known": false
+        }
+      },
+      {
+        "lift_levels": {
+          "range": [
+            -9,
+            -2
+          ]
+        },
+        "lightening": {
+          "in": [
+            "some",
+            "always"
+          ]
+        },
+        "roots_from_worn": {
+          "range": [
+            2,
+            9
+          ]
+        }
+      },
+      {
+        "lift_levels": {
+          "range": [
+            -9,
+            -2
+          ]
+        },
+        "lightening": {
+          "in": [
+            "some",
+            "always"
+          ]
+        },
+        "roots_from_worn": {
+          "known": false
+        }
+      },
+      {
+        "vivid": {
+          "is": true
+        }
+      }
+    ],
+    "reason": "You would like to refresh the colour you have",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "a refresh keeps the depth: the favour asks no lift, or a retouch within a level of the colour worn, with or without lightener; a look without lightener is named by the change it really makes; the lift a shade would need counts against a look only with lightener; nothing when a level is unknown"
+    }
+  },
+  {
+    "id": "direction-grey",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "grey"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "grey_effect": {
+          "is": "covers"
+        },
+        "lift_levels": {
+          "range": [
+            -3,
+            2
+          ]
+        }
+      },
+      {
+        "grey_effect": {
+          "is": "blends"
+        },
+        "lift_levels": {
+          "range": [
+            -3,
+            4
+          ]
+        }
+      },
+      {
+        "grey_effect": {
+          "is": "tints"
+        },
+        "lift_levels": {
+          "range": [
+            -3,
+            2
+          ]
+        }
+      },
+      {
+        "grey_effect": {
+          "is": "silver"
+        },
+        "lift_levels": {
+          "range": [
+            -3,
+            2
+          ]
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You would like to cover or blend your grey",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "Reads the authored grey effect, never a technique or family name."
+    }
+  },
+  {
+    "id": "direction-vivid",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "vivid"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "vivid": {
+          "is": true
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "vivid": {
+          "is": false
+        }
+      }
+    ],
+    "reason": "You would like a bright fashion colour",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Suppresses e25, whose vivid penalty would cancel the stated direction when upkeep is low."
+    },
+    "suppresses": [
+      "e25"
+    ]
+  },
+  {
+    "id": "direction-natural",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "natural"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "contrast_with_natural": {
+          "is": "low"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "contrast_with_natural": {
+          "is": "high"
+        }
+      },
+      {
+        "vivid": {
+          "is": true
+        }
+      },
+      {
+        "contrast_with_natural": {
+          "is": "medium"
+        },
+        "lightening": {
+          "in": [
+            "some",
+            "always"
+          ]
+        }
+      }
+    ],
+    "reason": "You would like your natural colour back",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Grey coverage in the natural shade is a way back to natural, so this rule does not count it against. people without grey have direction-no-grey."
+    }
+  },
+  {
+    "id": "grey-goal-blend",
+    "group": "E",
+    "when": {
+      "colour.grey_goal": {
+        "is": "blend"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "grey_effect": {
+          "in": [
+            "blends",
+            "tints"
+          ]
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You would like your grey blended softly",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the person’s stated grey goal holds first; reads the authored grey effect, never a technique or family name"
+    }
+  },
+  {
+    "id": "grey-goal-cover",
+    "group": "E",
+    "when": {
+      "colour.grey_goal": {
+        "is": "cover"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "grey_effect": {
+          "is": "covers"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You would like your grey covered",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the person’s stated grey goal holds first; reads the authored grey effect, never a technique or family name"
+    }
+  },
+  {
+    "id": "grey-goal-embrace",
+    "group": "E",
+    "when": {
+      "colour.grey_goal": {
+        "is": "embrace"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "grey_effect": {
+          "is": "shows"
+        },
+        "family": {
+          "is": "grey_silver"
+        }
+      },
+      {
+        "grey_effect": {
+          "is": "blends"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "grey_effect": {
+          "is": "silver"
+        },
+        "lightening": {
+          "is": "always"
+        }
+      }
+    ],
+    "reason": "You want your grey to show",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "Silver toner shows existing grey. Silver that needs lightener counts against this wish. Grey blending is favoured; covering or tinting grey is excluded."
+    }
+  },
+  {
+    "id": "grey-goal-silver",
+    "group": "E",
+    "when": {
+      "colour.grey_goal": {
+        "is": "silver"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "family": {
+          "is": "grey_silver"
+        },
+        "target_level": {
+          "range": [
+            7,
+            10
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "grey_effect": {
+          "is": "covers"
+        }
+      },
+      {
+        "target_level": {
+          "range": [
+            1,
+            6
+          ]
+        }
+      }
+    ],
+    "reason": "You want to move to silver or white",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "Silver is light, so grey-silver looks at level 7 or lighter are favoured. Levels 1 to 6 and looks that cover grey are disfavoured."
+    }
+  },
+  {
+    "id": "correction-needs-colour",
+    "group": "E",
+    "when": {
+      "hair.chemical_history": {
+        "not": [
+          "home_dye",
+          "home_dark_dye",
+          "salon_colour",
+          "bleach",
+          "highlights",
+          "vivid",
+          "colour_remover",
+          "henna_plant",
+          "henna_compound"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "technique": {
+        "is": "colour_correction"
+      }
+    },
+    "because": "There is no earlier colour on your hair to correct.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "stylist order: what was asked, then what the hair can do, then what flatters"
+    }
+  },
+  {
+    "id": "no-length-to-melt",
+    "group": "E",
+    "when": {
+      "hair.current_length": {
+        "is": "very_short"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "technique": {
+        "in": [
+          "ombre",
+          "sombre",
+          "colour_melt"
+        ]
+      }
+    },
+    "because": "Hair this short has no length for a colour that melts from root to ends.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "stylist order: what was asked, then what the hair can do, then what flatters"
+    }
+  },
+  {
+    "id": "darker-no-lightening",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "darker"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lengths_lift": {
+        "range": [
+          1,
+          9
+        ]
+      }
+    },
+    "because": "You asked to go darker, so looks that make any of your hair lighter are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction"
+    }
+  },
+  {
+    "id": "darker-no-lightening-roots",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "darker"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "roots_lift": {
+        "range": [
+          1,
+          9
+        ]
+      }
+    },
+    "because": "You asked to go darker, so looks that make any of your hair lighter are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction"
+    }
+  },
+  {
+    "id": "darker-no-lighter-pieces",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "darker"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lighter_pieces": {
+        "is": true
+      }
+    },
+    "because": "You asked to go darker, so looks with lighter pieces, such as highlights, tips or a face frame, are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "lighter pieces are lighter than the hair they sit on, whatever their shade"
+    }
+  },
+  {
+    "id": "darker-no-lightener",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "darker"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lightening": {
+        "is": "always"
+      }
+    },
+    "because": "You asked to go darker, so looks that need lightener are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "a look that always uses lightener lifts some hair"
+    }
+  },
+  {
+    "id": "lighter-no-darkening",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "lighter"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lengths_darken": {
+        "range": [
+          2,
+          9
+        ]
+      }
+    },
+    "because": "You asked to go lighter, so looks that make your hair two or more levels darker are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction"
+    }
+  },
+  {
+    "id": "lighter-no-darkening-roots",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "lighter"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "roots_darken": {
+        "range": [
+          2,
+          9
+        ]
+      }
+    },
+    "because": "You asked to go lighter, so looks that make your hair two or more levels darker are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction; a root two or more levels deeper is not lighter"
+    }
+  },
+  {
+    "id": "natural-no-lighter-pieces",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "natural"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lighter_pieces": {
+        "is": true
+      }
+    },
+    "because": "You asked for your natural colour. So looks with lighter pieces, like highlights or tips, are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "lighter pieces add lightness away from one natural colour"
+    }
+  },
+  {
+    "id": "natural-not-far",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "natural"
+      },
+      "colour.grey_goal": {
+        "known": false
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "contrast_with_natural": {
+        "in": [
+          "medium",
+          "high"
+        ]
+      }
+    },
+    "because": "You asked for your natural colour, so looks two or more levels away from it are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "with no grey goal; the next two rules cover the grey goals"
+    }
+  },
+  {
+    "id": "natural-not-far-other-goal",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "natural"
+      },
+      "colour.grey_goal": {
+        "not": [
+          "embrace",
+          "silver"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "contrast_with_natural": {
+        "in": [
+          "medium",
+          "high"
+        ]
+      }
+    },
+    "because": "You asked for your natural colour, so looks two or more levels away from it are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the same with a grey goal that covers or blends"
+    }
+  },
+  {
+    "id": "natural-not-far-grey",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "natural"
+      },
+      "colour.grey_goal": {
+        "in": [
+          "embrace",
+          "silver"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "contrast_with_natural": {
+        "is": "high"
+      },
+      "lightening": {
+        "is": "always"
+      }
+    },
+    "because": "You asked for your natural colour with your grey showing, so looks that lighten your hair far from it are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the natural level is the darkest strands, so with grey on show only a big lightening is far"
+    }
+  },
+  {
+    "id": "lighter-must-lift",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "lighter"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "roots_lift": {
+        "range": [
+          -9,
+          0
+        ]
+      },
+      "lengths_lift": {
+        "range": [
+          -9,
+          0
+        ]
+      }
+    },
+    "because": "You asked to go lighter, so looks that lift none of your hair are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "left out only when no region lifts: a region the look leaves alone counts as no lift, and an unknown level keeps the look"
+    }
+  },
+  {
+    "id": "cannot-reach-shade",
+    "group": "E",
+    "when": {},
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "reaches_shade": {
+        "is": false
+      }
+    },
+    "because": "Some shades of these looks are lighter than your hair can be taken without lightener, so they are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "every shade a look needs is judged on its own, within its technique's lift on the hair it lands on"
+    }
+  },
+  {
+    "id": "lighter-needs-lightener",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "lighter"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lightening": {
+        "is": "none"
+      }
+    },
+    "because": "You asked to go lighter, so looks without lightener, which cannot lift your hair, are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "decided by what the look can do, whatever level is unknown"
+    }
+  },
+  {
+    "id": "lighter-no-lowlights",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "lighter"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "technique": {
+        "is": "lowlights"
+      }
+    },
+    "because": "You asked to go lighter, so lowlights, which add darker pieces, are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "Lowlights add darker pieces, so they do not answer a wish to go lighter."
+    }
+  },
+  {
+    "id": "darker-must-darken",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "darker"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "ends_darker": {
+        "is": false
+      }
+    },
+    "because": "You asked to go darker, so looks that take none of your hair darker are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "left out only when no region the look treats ends darker, so an unknown level keeps the look; a region is darker only where the look ends a level or more below it, so a toner at or above the hair is not darker"
+    }
+  },
+  {
+    "id": "bright-must-be-bright",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "vivid"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "vivid": {
+        "is": false
+      }
+    },
+    "because": "You asked for a bright colour, so looks that are not bright are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "a stated direction admits only looks that go that way; whether a look is bright is authored, so no level is needed"
+    }
+  },
+  {
+    "id": "grey-must-treat-grey",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "grey"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "grey_effect": {
+        "is": "shows"
+      }
+    },
+    "because": "You asked to cover or blend your grey, so looks that leave it as it is are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "read from the authored grey effect, not technique names"
+    }
+  },
+  {
+    "id": "bright-only-if-asked",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "not": [
+          "vivid"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "vivid": {
+        "is": true
+      }
+    },
+    "because": "You did not ask for a bright colour, so bright colours are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "an exclusion: bright fashion colours are offered only when asked for; while the direction is unanswered they stay"
+    }
+  },
+  {
+    "id": "deep-shade-hard-to-undo",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "not": [
+          "darker",
+          "natural"
+        ]
+      },
+      "colour.grey_goal": {
+        "known": false
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lengths_darken": {
+        "range": [
+          4,
+          9
+        ]
+      }
+    },
+    "because": "Very dark shades are hard to undo, so looks four or more levels darker than your hair are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction; a return to a dark natural colour is not left out"
+    }
+  },
+  {
+    "id": "deep-shade-hard-to-undo-roots",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "not": [
+          "darker",
+          "natural",
+          "tone",
+          "refresh"
+        ]
+      },
+      "colour.grey_goal": {
+        "known": false
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "roots_darken": {
+        "range": [
+          4,
+          9
+        ]
+      }
+    },
+    "because": "Very dark shades are hard to undo, so looks four or more levels darker than your hair are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction; a return to a dark natural colour is not left out; a root retouch to the colour worn is not left out"
+    }
+  },
+  {
+    "id": "deep-shade-not-cover",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "not": [
+          "darker",
+          "natural"
+        ]
+      },
+      "colour.grey_goal": {
+        "not": [
+          "cover"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lengths_darken": {
+        "range": [
+          4,
+          9
+        ]
+      }
+    },
+    "because": "Very dark shades are hard to undo, so looks four or more levels darker than your hair are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "full grey cover may go as deep as it needs; a return to a dark natural colour is not left out"
+    }
+  },
+  {
+    "id": "deep-shade-not-cover-roots",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "not": [
+          "darker",
+          "natural",
+          "tone",
+          "refresh"
+        ]
+      },
+      "colour.grey_goal": {
+        "not": [
+          "cover"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "roots_darken": {
+        "range": [
+          4,
+          9
+        ]
+      }
+    },
+    "because": "Very dark shades are hard to undo, so looks four or more levels darker than your hair are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "full grey cover may go as deep as it needs; a return to a dark natural colour is not left out; a root retouch to the colour worn is not left out"
+    }
+  },
+  {
+    "id": "deep-shade-small-change",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "darker"
+      },
+      "pref.change_amount": {
+        "not": [
+          "bold"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lengths_darken": {
+        "range": [
+          4,
+          9
+        ]
+      }
+    },
+    "because": "Very dark shades are hard to undo, so looks four or more levels darker than your hair are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction"
+    }
+  },
+  {
+    "id": "deep-shade-small-change-roots",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "darker"
+      },
+      "pref.change_amount": {
+        "not": [
+          "bold"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "roots_darken": {
+        "range": [
+          4,
+          9
+        ]
+      }
+    },
+    "because": "Very dark shades are hard to undo, so looks four or more levels darker than your hair are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction"
+    }
+  },
+  {
+    "id": "damaged-no-lightening-lengths",
+    "group": "E",
+    "when": {
+      "hair.condition": {
+        "is": "damaged"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lengths_lift": {
+        "range": [
+          1,
+          9
+        ]
+      }
+    },
+    "because": "Your hair is damaged, so looks that lighten the lengths are left out. Ask again after a few months of care.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "This applies to any look that needs lighter lengths, including a gloss."
+    }
+  },
+  {
+    "id": "damaged-lengths-level-unknown",
+    "group": "E",
+    "when": {
+      "hair.condition": {
+        "is": "damaged"
+      },
+      "colour.current_level_lengths": {
+        "known": false
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lightening": {
+        "in": [
+          "some",
+          "always"
+        ]
+      }
+    },
+    "because": "Your hair is damaged and the level of its lengths is not known, so looks with lightener are left out. Ask again after a few months of care.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "Without the lengths level, the lift is unknown. Lightener is excluded on damaged hair."
+    }
+  },
+  {
+    "id": "lightened-twice-no-more",
+    "group": "E",
+    "when": {
+      "colour.bleach_count": {
+        "range": [
+          2,
+          4
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lengths_lift": {
+        "range": [
+          1,
+          9
+        ]
+      }
+    },
+    "because": "The lengths you have now were lightened two or more times, so looks that lighten them again are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "This applies to any look that needs lighter lengths, including a gloss."
+    }
+  },
+  {
+    "id": "lightened-twice-level-unknown",
+    "group": "E",
+    "when": {
+      "colour.bleach_count": {
+        "range": [
+          2,
+          4
+        ]
+      },
+      "colour.current_level_lengths": {
+        "known": false
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lightening": {
+        "in": [
+          "some",
+          "always"
+        ]
+      }
+    },
+    "because": "The lengths you have now were lightened two or more times and their level is not known, so looks with lightener are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "Without the lengths level, the lift is unknown. Lightener is excluded on lengths lightened two or more times."
+    }
+  },
+  {
+    "id": "grey-goal-blend-only",
+    "group": "E",
+    "when": {
+      "colour.grey_goal": {
+        "is": "blend"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "grey_effect": {
+        "not": [
+          "blends",
+          "tints"
+        ]
+      }
+    },
+    "because": "You want your grey blended softly, so looks that cover it, leave it as it is or take you to silver are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the grey goal is judged on what each look does to grey"
+    }
+  },
+  {
+    "id": "grey-goal-shows",
+    "group": "E",
+    "when": {
+      "colour.grey_goal": {
+        "in": [
+          "embrace",
+          "silver"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "grey_effect": {
+        "in": [
+          "covers",
+          "tints"
+        ]
+      }
+    },
+    "because": "You want your grey to show, so looks that cover or tint it are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the grey goal is judged on what each look does to grey"
+    }
+  },
+  {
+    "id": "grey-goal-silver-no-colour",
+    "group": "E",
+    "when": {
+      "colour.grey_goal": {
+        "is": "silver"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "grey_effect": {
+        "is": "shows"
+      },
+      "family": {
+        "not": [
+          "grey_silver"
+        ]
+      }
+    },
+    "because": "You want to move to silver or white, so coloured looks that only leave your grey showing are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the silver goal admits silver and grey looks, not warm colours"
+    }
+  },
+  {
+    "id": "grey-goal-cover-only",
+    "group": "E",
+    "when": {
+      "colour.grey_goal": {
+        "is": "cover"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "grey_effect": {
+        "not": [
+          "covers"
+        ]
+      }
+    },
+    "because": "You want your grey covered, so looks that leave it showing are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the grey goal is judged on what each look does to grey"
+    }
+  },
+  {
+    "id": "same-depth-not-lighter",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "in": [
+          "tone",
+          "refresh"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lengths_lift": {
+        "range": [
+          2,
+          9
+        ]
+      }
+    },
+    "because": "You asked to keep your depth, so looks two or more levels lighter are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction"
+    }
+  },
+  {
+    "id": "same-depth-not-lighter-roots",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "in": [
+          "tone",
+          "refresh"
+        ]
+      },
+      "colour.current_level_lengths": {
+        "known": false
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "roots_lift": {
+        "range": [
+          2,
+          9
+        ]
+      }
+    },
+    "because": "You asked to keep your depth, so looks two or more levels lighter are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction; with the lengths level known, the colour worn is the reference, so the roots match it"
+    }
+  },
+  {
+    "id": "same-depth-no-lighter-pieces",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "tone"
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lighter_pieces": {
+        "is": true
+      }
+    },
+    "because": "You asked to keep your depth, so looks with lighter pieces, such as highlights, tips or a face frame, are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "lighter pieces change the depth"
+    }
+  },
+  {
+    "id": "refresh-no-new-pieces",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "refresh"
+      },
+      "hair.chemical_history": {
+        "not": [
+          "highlights"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lighter_pieces": {
+        "is": true
+      }
+    },
+    "because": "You asked to refresh what you have, and you have no highlights now, so looks with lighter pieces are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "a refresh keeps what the hair has; highlights already in the hair may be refreshed"
+    }
+  },
+  {
+    "id": "same-depth-not-darker",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "in": [
+          "tone",
+          "refresh"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "lengths_darken": {
+        "range": [
+          2,
+          9
+        ]
+      }
+    },
+    "because": "You asked to keep your depth, so looks two or more levels darker are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction"
+    }
+  },
+  {
+    "id": "same-depth-not-darker-roots",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "in": [
+          "tone",
+          "refresh"
+        ]
+      },
+      "colour.current_level_lengths": {
+        "known": false
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "roots_darken": {
+        "range": [
+          2,
+          9
+        ]
+      }
+    },
+    "because": "You asked to keep your depth, so looks two or more levels darker are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "each region on its own, so an unknown level elsewhere never hides a known contradiction; with the lengths level known, the colour worn is the reference, so the roots match it"
+    }
+  },
+  {
+    "id": "same-depth-roots-near-worn",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "in": [
+          "tone",
+          "refresh"
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "roots_from_worn": {
+        "range": [
+          2,
+          9
+        ]
+      }
+    },
+    "because": "You asked to keep your depth, so looks with roots two levels or more from both your own colour and the one you wear are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "with the lengths level known, the roots may match the colour worn or keep the regrowth depth, and nothing further"
+    }
+  },
+  {
+    "id": "no-grey-no-grey-looks",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "in": [
+          "lighter",
+          "darker",
+          "tone",
+          "refresh",
+          "natural"
+        ]
+      },
+      "colour.grey_percent": {
+        "range": [
+          0,
+          0
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "technique": {
+        "in": [
+          "grey_coverage",
+          "grey_blending"
+        ]
+      }
+    },
+    "because": "You have no grey, so grey cover and grey blending are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "the old fault on direction-no-grey; an unknown grey amount stays a rank-down"
+    }
+  },
+  {
+    "id": "no-grey-no-grey-looks-unasked",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "known": false
+      },
+      "colour.grey_percent": {
+        "range": [
+          0,
+          0
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "technique": {
+        "in": [
+          "grey_coverage",
+          "grey_blending"
+        ]
+      }
+    },
+    "because": "You have no grey, so grey cover and grey blending are left out.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "no grey means no grey service also while the direction is unanswered"
+    }
+  },
+  {
+    "id": "coverage-lift-limit",
+    "group": "E",
+    "when": {
+      "colour.natural_level": {
+        "known": true
+      }
+    },
+    "target": "colour",
+    "effect": "exclude",
+    "on": {
+      "technique": {
+        "is": "grey_coverage"
+      },
+      "lightening": {
+        "is": "none"
+      },
+      "roots_lift": {
+        "range": [
+          4,
+          9
+        ]
+      }
+    },
+    "because": "Grey cover cannot lift your natural shade that far, so it would turn out patchy.",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "signed, so a deeper coverage shade is never called a lift"
+    }
+  },
+  {
+    "id": "deep-shade-note",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "is": "darker"
+      }
+    },
+    "target": "colour",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "darkens_by": {
+        "range": [
+          4,
+          9
+        ]
+      }
+    },
+    "because": "Black and very dark shades are very hard to undo.",
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "A caution accompanies a look four or more levels darker."
+    }
+  },
+  {
+    "id": "direction-no-grey",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "in": [
+          "lighter",
+          "darker",
+          "tone",
+          "refresh",
+          "natural"
+        ]
+      },
+      "colour.grey_percent": {
+        "range": [
+          0,
+          0
+        ]
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [],
+    "disfavour": [
+      {
+        "family": {
+          "is": "grey_silver"
+        }
+      },
+      {
+        "technique": {
+          "in": [
+            "grey_coverage",
+            "grey_blending"
+          ]
+        }
+      }
+    ],
+    "reason": "This service is for hair with grey in it",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Grey services count against a look when the person has no grey."
+    }
+  },
+  {
+    "id": "direction-no-grey-default",
+    "group": "E",
+    "when": {
+      "pref.colour_direction": {
+        "in": [
+          "lighter",
+          "darker",
+          "tone",
+          "refresh",
+          "natural"
+        ]
+      },
+      "colour.grey_percent": {
+        "known": false
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [],
+    "disfavour": [
+      {
+        "family": {
+          "is": "grey_silver"
+        }
+      },
+      {
+        "technique": {
+          "in": [
+            "grey_coverage",
+            "grey_blending"
+          ]
+        }
+      }
+    ],
+    "reason": "This service is for hair with grey in it",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Grey services count against a look when the person has no grey."
+    }
+  },
+  {
+    "id": "e29",
+    "group": "E",
+    "when": {
+      "colour.natural_level": {
+        "range": [
+          1,
+          3
+        ]
+      },
+      "pref.change_amount": {
+        "is": "subtle"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "technique": {
+          "is": "gloss"
+        }
+      },
+      {
+        "tone": {
+          "is": "chocolate"
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "lightening": {
+          "in": [
+            "some",
+            "always"
+          ]
+        }
+      }
+    ],
+    "reason": "Your natural colour is deep and you would like a subtle change",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "e30",
+    "group": "E",
+    "when": {
+      "hair.density": {
+        "is": "low"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "favour": [
+      {
+        "technique": {
+          "in": [
+            "root_shadow",
+            "lowlights",
+            "babylights"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "technique": {
+          "is": "all_over"
+        },
+        "target_level": {
+          "range": [
+            9,
+            10
+          ]
+        }
+      }
+    ],
+    "reason": "Your hair is not very thick",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.curlcentric.com/shadow-root-vs-balayage/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "The full sentence supplies the reason."
+    }
+  },
+  {
+    "id": "e36",
+    "group": "E",
+    "when": {
+      "life.grow_out_goal": {
+        "is": true
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "moderate",
+    "favour": [
+      {
+        "technique": {
+          "in": [
+            "root_shadow",
+            "balayage",
+            "gloss"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "technique": {
+          "is": "foil_highlights"
+        }
+      }
+    ],
+    "reason": "You are growing your hair longer",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.masterclass.com/articles/balayage-vs-highlights",
+      "https://www.curlcentric.com/shadow-root-vs-balayage/",
+      "https://lorealparisusa.com/beauty-magazine/hair-color/hair-color-ideas/balayage-highlights"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "home-only-colour",
+    "group": "E",
+    "when": {
+      "pref.colour_upkeep": {
+        "is": "home_only"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "technique": {
+          "in": [
+            "all_over",
+            "gloss",
+            "grey_coverage"
+          ]
+        }
+      }
+    ],
+    "disfavour": [
+      {
+        "lightening": {
+          "is": "always"
+        }
+      },
+      {
+        "technique": {
+          "in": [
+            "foil_highlights",
+            "babylights",
+            "lowlights",
+            "balayage",
+            "foilayage",
+            "ombre",
+            "sombre",
+            "colour_melt",
+            "money_piece",
+            "peekaboo",
+            "colour_correction"
+          ]
+        }
+      }
+    ],
+    "reason": "You would rather colour your hair at home",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Home colour suits deposit work in one shade. Lightening placements and looks on a lightened base need salon work."
+    }
+  },
+  {
+    "id": "j3-silver-gloss-grey",
+    "group": "E",
+    "target": "colour",
+    "effect": "note",
+    "note": "design",
+    "when": {
+      "colour.grey_percent": {
+        "range": [
+          50,
+          100
+        ]
+      }
+    },
+    "on": {
+      "family": {
+        "is": "grey_silver"
+      },
+      "technique": {
+        "is": "gloss"
+      }
+    },
+    "because": "With this much grey, a silver gloss mostly tones the grey you already have. The label counts it as lightening from your darkest strands, so it can be more careful than you need.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "wanted-blonde",
+    "group": "E",
+    "when": {
+      "pref.colour_family": {
+        "is": "blonde"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "family": {
+          "is": "blonde"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You have this colour in mind",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "a stated preference; another family is ranked lower, never faulted"
+    }
+  },
+  {
+    "id": "wanted-brunette",
+    "group": "E",
+    "when": {
+      "pref.colour_family": {
+        "is": "brunette"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "family": {
+          "is": "brunette"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You have this colour in mind",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "a stated preference; another family is ranked lower, never faulted"
+    }
+  },
+  {
+    "id": "wanted-red-copper",
+    "group": "E",
+    "when": {
+      "pref.colour_family": {
+        "is": "red_copper"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "family": {
+          "is": "red_copper"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You have this colour in mind",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "a stated preference; another family is ranked lower, never faulted"
+    }
+  },
+  {
+    "id": "wanted-black",
+    "group": "E",
+    "when": {
+      "pref.colour_family": {
+        "is": "black"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "family": {
+          "is": "black"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You have this colour in mind",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "a stated preference; another family is ranked lower, never faulted"
+    }
+  },
+  {
+    "id": "wanted-grey-silver",
+    "group": "E",
+    "when": {
+      "pref.colour_family": {
+        "is": "grey_silver"
+      }
+    },
+    "target": "colour",
+    "effect": "rank",
+    "strength": "strong",
+    "favour": [
+      {
+        "family": {
+          "is": "grey_silver"
+        }
+      }
+    ],
+    "disfavour": [],
+    "reason": "You have this colour in mind",
+    "evidence": "policy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "a stated preference; another family is ranked lower, never faulted"
+    }
+  },
+  {
+    "id": "wiry-grey-coverage",
+    "group": "E",
+    "when": {
+      "colour.grey_texture": {
+        "is": "wiry"
+      }
+    },
+    "target": "colour",
+    "effect": "note",
+    "note": "caution",
+    "on": {
+      "grey_effect": {
+        "is": "covers"
+      }
+    },
+    "because": "Wiry grey can resist colour. Ask your colourist if it needs a softening step or more time.",
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-11",
+      "note": "the grey texture answer is read where coverage depends on it"
+    }
+  }
+]

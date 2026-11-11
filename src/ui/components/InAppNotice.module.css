@@ -1,0 +1,64 @@
+/* The in-app browser notice: --text on --surface (15.70:1), the summary as a Rosewood text link (6.41:1). */
+
+.notice {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-s);
+  padding: var(--space-m) var(--space-l);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+  color: var(--text);
+}
+
+.icon {
+  flex: none;
+  inline-size: var(--icon-m);
+  block-size: var(--icon-m);
+  margin-block-start: var(--space-2xs);
+}
+
+.content {
+  display: grid;
+  gap: var(--space-s);
+  min-inline-size: 0;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--space-xs) var(--space-l);
+}
+
+.how {
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.summary {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: var(--target-min);
+  color: var(--accent);
+  font-weight: var(--weight-button);
+  text-decoration-line: underline;
+  text-decoration-thickness: var(--underline-thin);
+  text-underline-offset: var(--underline-offset);
+  cursor: pointer;
+}
+
+.summary:hover {
+  text-decoration-thickness: var(--underline-thick);
+}
+
+.steps,
+.fallback {
+  max-inline-size: var(--measure);
+  color: var(--text);
+}
+
+.link {
+  overflow-wrap: anywhere;
+  user-select: all;
+  font-weight: var(--weight-button);
+}

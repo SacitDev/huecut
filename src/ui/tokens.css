@@ -1,0 +1,404 @@
+/*
+ * Design tokens of the "Mirror" design: colour, type, size and motion.
+ * The only file with raw colour, size, font and duration values: light in :root, dark twice (explicit and system).
+ */
+
+/*
+ * Text-font fallback: local Arial reshaped to Figtree's metrics so the swap moves text as little as possible. Liberation Sans
+ * (Linux) and Arimo (ChromeOS) share Arial's metrics, so the same overrides hold for them.
+ * Computed from figtree-latin-wght-normal.woff2 (hhea 950 / -250 / 0 on 1000 units) and Windows
+ * arial.ttf, with size-adjust from the average advance of the Home copy (Figtree 436.9 / 1000, Arial 904.9 / 2048).
+ */
+@font-face {
+  font-family: 'Figtree fallback';
+  src: local('Arial'), local('ArialMT'), local('Liberation Sans'), local('LiberationSans'), local('Arimo');
+  size-adjust: 98.87%;
+  ascent-override: 96.09%;
+  descent-override: 25.29%;
+  line-gap-override: 0%;
+}
+
+:root {
+  color-scheme: light;
+
+  /* Palette, light */
+  --ground: #fbedea;
+  --surface: #fffbfa;
+  --sunken: #f4dfda;
+  --text: #2f1c19;
+  --text-2: #6e4f4a;
+  --line: #ebd3ce;
+  --line-strong: #967069;
+  --primary: #3d2420;
+  --on-primary: #fff6f3;
+  --accent: #9c3b5a;
+  --on-accent: #ffffff;
+  --rose-soft: #f3c6d0;
+  --mark: #f7e3a0;
+  --focus: #3d2420;
+  --ok: #22673f;
+  --ok-bg: #e3efe6;
+  --warn: #835400;
+  --warn-bg: #f7ecd3;
+  --bad: #a1302a;
+  --bad-bg: #fbe3e1;
+  --fc-core: #fff6f3;
+  --fc-casing: #3d2420;
+  --fc-tag: #f3c6d0;
+  --fc-tag-text: #2f1c19;
+  --scrim: rgba(47, 28, 25, 0.36);
+  --neutral-grey: #767676;
+  --on-neutral-grey: #ffffff;
+  /* The 3D view's backdrop: a soft studio grey, the library pictures' own backdrop. */
+  --stage-glow: #e8e7e4;
+  --stage-edge: #bdbcb8;
+  /* The rooms the homepage moves through. */
+  --story-1: #fbedea;
+  --story-2: #f4d7cf;
+  --story-3: #f6e6c6;
+  --story-4: #f8e3c0;
+  --story-5: #e3d3e6;
+  --shadow-float: 0 18px 48px rgba(61, 36, 32, 0.16);
+  /* The inner ring of the double focus ring on photos: the colour that sits on --focus at 13.41:1. */
+  --focus-inner: var(--on-primary);
+  /* Logo: strand cocoa on light grounds, blush on dark; the tip is always butter. */
+  --logo-strand: #3d2420;
+  --logo-tip: #f7e3a0;
+  /* Image block before a picture loads when its data gives no average colour: the library's neutral light grey
+     seamless backdrop. Pictures normally bring their own average colour. */
+  --picture-placeholder: #d8d8d5;
+  /* Question drawings are SVG in an <img>, where the page's currentColor cannot reach them, so they
+     draw in black: kept as is on light grounds, inverted to white on dark ones. */
+  --drawing-filter: none;
+
+  /* Fonts: Bricolage Grotesque for display at 24 px and above, Figtree for text */
+  --font-display: 'Bricolage Grotesque Variable', 'Figtree fallback', system-ui, sans-serif;
+  --font-text: 'Figtree Variable', 'Figtree fallback', system-ui, sans-serif;
+
+  /* Type scale (phone / desktop px), interpolated between 375 and 1280 px wide viewports */
+  --text-display: clamp(2.75rem, 1.921rem + 3.536vw, 4.75rem);
+  --text-h1: clamp(2rem, 1.586rem + 1.768vw, 3rem);
+  --text-h2: clamp(1.5rem, 1.345rem + 0.663vw, 1.875rem);
+  --text-h3: clamp(1.125rem, 1.073rem + 0.221vw, 1.25rem);
+  --text-body-lg: 1.1875rem;
+  --text-body: 1.0625rem;
+  --text-small: clamp(0.875rem, 0.963rem - 0.11vw, 0.9375rem);
+  --text-button: 1.0625rem;
+  --text-tab: 0.8125rem;
+  --text-sheet-title: 1.5rem;
+  --text-wordmark: 1.625rem;
+  --weight-display: 700;
+  --weight-h1: 700;
+  --weight-h2: 650;
+  --weight-h3: 600;
+  --weight-body: 400;
+  --weight-small: 500;
+  --weight-button: 600;
+  --weight-tab: 600;
+  --weight-wordmark: 700;
+  --wdth-display: 80%;
+  --wdth-h1: 85%;
+  --wdth-h2: 90%;
+  --wdth-wordmark: 82%;
+  --tracking-display: -0.02em;
+  --tracking-wordmark: -0.02em;
+  --lh-display: 1;
+  --lh-h1: 1.08;
+  --lh-h2: 1.15;
+  --lh-h3: 1.3;
+  --lh-body: 1.6;
+  --lh-small: 1.45;
+  /* Room between lines when a control's words wrap (a longer language); one line sits in the control's own height either way. */
+  --lh-button: 1.25;
+  --lh-tab: 1.2;
+  --underline-offset: 0.2em;
+  --underline-thin: 1px;
+  --underline-thick: 2px;
+
+  /* Space (4-based), page margins and gutters per window class */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-s: 12px;
+  --space-m: 16px;
+  --space-l: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --page-margin: 20px;
+  --gutter: 12px;
+  --content-max: 1280px;
+  --measure: 68ch;
+  --measure-display: 14em;
+
+  /* Radius, borders and focus */
+  --radius-pill: 999px;
+  --radius-panel: 24px;
+  --radius-sheet: 28px;
+  --radius-arch-foot: 20px;
+  --radius-picture: 12px;
+  --border-control: 1.5px;
+  --border-selected: 2px;
+  --border-line: 1px;
+  --focus-width: 2px;
+  --focus-offset: 2px;
+
+  /* The arch: a semicircle crown (radius half the frame's width, in container units so it stays round at any
+     size) and an inset that keeps a 4:5 picture's top corners inside the curve, so nothing is clipped. */
+  --arch-top: 50cqi;
+  --arch-crown: 27cqi;
+  --arch-inset: 6cqi;
+
+  /* Sizes (touch targets, components) */
+  --target-min: 44px;
+  --target-primary: 48px;
+  --button-h: 52px;
+  --chip-h: 44px;
+  --option-h: 64px;
+  --tabbar-h: 56px;
+  --topbar-h: 64px;
+  --rail-w: 88px;
+  --nav-pill-w: 56px;
+  --nav-pill-h: 32px;
+  --icon-s: 20px;
+  --icon-m: 24px;
+  --logo-mark-min: 28px;
+  --logo-mark-ex: 1.6em;
+  --wall-tile: clamp(11rem, 20cqi, 20rem);
+  --mirrors-max: 34rem;
+  --cream: #fbf4ef;
+  --studio-shadow: 0 14px 40px rgba(36, 23, 20, 0.18);
+  --on-studio: #241714;
+  --on-studio-2: #4a3733;
+  --night: #1a1110;
+  --on-night: #f8eae6;
+  --on-night-2: #cdb0aa;
+  --rose-panel: #f3c6d0;
+  --text-section: clamp(2.4rem, min(5.4cqi, 9svh), 5.5rem);
+  --text-closing: clamp(3rem, min(13cqi, 24svh), 14rem);
+  --card-idea: 26rem;
+  --card-idea-h: 8.5rem;
+  --tile-h: 62svh;
+  --text-fine: 0.8125rem;
+  --text-promise: min(12.4cqi, 5.5rem);
+  /* Capped by the screen height too, so a longer language (Latvian wraps to five lines) still fits above the scroll cue on a laptop. */
+  --text-promise-mid: min(5.4cqi, 7svh);
+  --text-promise-wide: min(6.4cqi, 10svh, 8.5rem);
+  --depth: 1400px;
+  --name-strength: 0.9;
+  --sheet-header-h: 48px;
+  --sheet-peek: 0.45;
+  --sheet-full: 0.92;
+  --sheet-max-w: 640px;
+  --handle-w: 40px;
+  --handle-h: 5px;
+  --handle-opacity: 0.35;
+  --progress-h: 12px;
+  /* The moving line of a busy button or a status that is still working. */
+  --wait-line-h: 3px;
+  --stepper-value-min: 2ch;
+  /* The widest a question option's picture grows; on phones the tile is narrower than this. */
+  --option-picture-max: 160px;
+  /* Explore: the filter panel from 840 px, the detail side panel (420 px expanded, 480 px large), the
+     library's widest content, and the space a grid tile holds before it is rendered (content-visibility). */
+  --filter-panel-w: 280px;
+  --side-panel-w: 420px;
+  --side-panel-w-large: 480px;
+  --library-max: 1440px;
+  --tile-intrinsic-h: 360px;
+
+  /* Motion */
+  --dur-press: 90ms;
+  --dur-state: 160ms;
+  --dur-move: 240ms;
+  --dur-sheet-open: 320ms;
+  --dur-sheet-close: 220ms;
+  --dur-morph-forward: 360ms;
+  --dur-morph-back: 260ms;
+  --dur-draw-outline: 700ms;
+  --dur-draw-feature: 300ms;
+  --dur-draw-stagger: 80ms;
+  --dur-draw-pin: 160ms;
+  --dur-draw-cap: 1600ms;
+  /* The homepage: how the promise opens, and how long the first looks take to go round. */
+  --dur-promise: 900ms;
+  --stagger-promise: 110ms;
+  --dur-rest: 11s;
+  --dur-page: 650ms;
+  --dur-cue: 900ms;
+  /* A wait still going: one slow glide of its line from end to end; calm, so well over a second. */
+  --dur-wait: 1.6s;
+  --ease-curtain: cubic-bezier(0.7, 0, 0.15, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+  --ease-spring: var(--ease-out);
+  --press-scale: 0.98;
+  --pin-scale: 0.96;
+
+  /* Browser surfaces themed from the tokens */
+  accent-color: var(--primary);
+  caret-color: var(--primary);
+  scrollbar-color: var(--text-2) var(--ground);
+}
+
+/* The critically damped spring; --ease-out stays the value where linear() is not supported. */
+@supports (transition-timing-function: linear(0, 1)) {
+  :root {
+    --ease-spring: linear(
+      0,
+      0.054 4%,
+      0.169 8%,
+      0.304 12%,
+      0.465 17%,
+      0.602 22%,
+      0.73 28%,
+      0.833 35%,
+      0.906 43%,
+      0.952 52%,
+      0.98 63%,
+      0.993 76%,
+      1
+    );
+  }
+}
+
+/* Window classes: margins 20 / 32 / 48 px, gutters 12 / 20 px, primary buttons 52 px on phones, 48 on desktop */
+@media (width >= 600px) {
+  :root {
+    --page-margin: 32px;
+    --gutter: 20px;
+  }
+}
+
+@media (width >= 840px) {
+  :root {
+    --button-h: 48px;
+  }
+}
+
+@media (width >= 1200px) {
+  :root {
+    --page-margin: 48px;
+  }
+}
+
+::selection {
+  background-color: var(--mark);
+  color: var(--text);
+}
+
+/* Dark, chosen in Settings */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --ground: #231816;
+  --surface: #2e201d;
+  --sunken: #3a2925;
+  --text: #f8eae6;
+  --text-2: #cdb0aa;
+  --line: #4a3531;
+  --line-strong: #9a7c76;
+  --primary: #f6cfd8;
+  --on-primary: #2f1c19;
+  --accent: #f3a3b8;
+  --on-accent: #2f1c19;
+  --rose-soft: #6a3445;
+  --mark: #5c4b1a;
+  --focus: #f6cfd8;
+  --ok: #85c79d;
+  --ok-bg: #1c3123;
+  --warn: #e8b65a;
+  --warn-bg: #362a12;
+  --bad: #f39a8e;
+  --bad-bg: #3e1f1c;
+  --scrim: rgba(0, 0, 0, 0.55);
+  --shadow-float: 0 18px 48px rgba(0, 0, 0, 0.45);
+  --logo-strand: #fbedea;
+  --drawing-filter: invert(1);
+  --stage-glow: #4b4340;
+  --stage-edge: #241b19;
+  --story-1: #231815;
+  --story-2: #43202c;
+  --story-3: #4a2f18;
+  --story-4: #4f3513;
+  --story-5: #3c2547;
+  --weight-body: 430;
+  --lh-body: 1.65;
+}
+
+/* Dark, following the system unless Settings says Light */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --ground: #231816;
+    --surface: #2e201d;
+    --sunken: #3a2925;
+    --text: #f8eae6;
+    --text-2: #cdb0aa;
+    --line: #4a3531;
+    --line-strong: #9a7c76;
+    --primary: #f6cfd8;
+    --on-primary: #2f1c19;
+    --accent: #f3a3b8;
+    --on-accent: #2f1c19;
+    --rose-soft: #6a3445;
+    --mark: #5c4b1a;
+    --focus: #f6cfd8;
+    --ok: #85c79d;
+    --ok-bg: #1c3123;
+    --warn: #e8b65a;
+    --warn-bg: #362a12;
+    --bad: #f39a8e;
+    --bad-bg: #3e1f1c;
+    --scrim: rgba(0, 0, 0, 0.55);
+    --shadow-float: 0 18px 48px rgba(0, 0, 0, 0.45);
+    --logo-strand: #fbedea;
+    --drawing-filter: invert(1);
+    --stage-glow: #4b4340;
+    --stage-edge: #241b19;
+    --story-1: #231815;
+    --story-2: #43202c;
+    --story-3: #4a2f18;
+    --story-4: #4f3513;
+    --story-5: #3c2547;
+    --weight-body: 430;
+    --lh-body: 1.65;
+  }
+}
+
+/*
+ * Reduced motion, from the device or from Settings: movement stops, meaningful colour and opacity changes
+ * stay at 120 ms or less, view transitions become a 120 ms crossfade (motion.css), sheets appear without travel.
+ */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-state: 120ms;
+    --dur-move: 0ms;
+    --dur-sheet-open: 0ms;
+    --dur-sheet-close: 0ms;
+    --dur-morph-forward: 120ms;
+    --dur-morph-back: 120ms;
+    --dur-draw-outline: 0ms;
+    --dur-draw-feature: 0ms;
+    --dur-draw-stagger: 0ms;
+    --dur-draw-pin: 0ms;
+    --dur-draw-cap: 0ms;
+    --press-scale: 1;
+    --pin-scale: 1;
+  }
+}
+
+:root[data-motion='reduce'] {
+  --dur-state: 120ms;
+  --dur-move: 0ms;
+  --dur-sheet-open: 0ms;
+  --dur-sheet-close: 0ms;
+  --dur-morph-forward: 120ms;
+  --dur-morph-back: 120ms;
+  --dur-draw-outline: 0ms;
+  --dur-draw-feature: 0ms;
+  --dur-draw-stagger: 0ms;
+  --dur-draw-pin: 0ms;
+  --dur-draw-cap: 0ms;
+  --press-scale: 1;
+  --pin-scale: 1;
+}

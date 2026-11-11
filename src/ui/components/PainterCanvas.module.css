@@ -1,0 +1,15 @@
+/* The painter's canvas: the full width of its container, in the picture's radius. */
+
+/* The full width even where its parent aligns items to the start: the canvas has no width of its own until it is measured. */
+.stage {
+  inline-size: 100%;
+  min-inline-size: 0;
+}
+
+.canvas {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  border-radius: var(--radius-picture);
+  touch-action: manipulation;
+}

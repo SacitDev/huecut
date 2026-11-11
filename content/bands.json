@@ -1,0 +1,56 @@
+{
+  "bands": [
+    {
+      "fact": "face.proportion",
+      "from": "width_to_length",
+      "view": "frontal",
+      "cuts": [{ "below": 0.78, "value": "longer" }, { "below": 0.88, "value": "balanced" }, { "value": "rounder" }],
+      "margin": 0.03
+    },
+    {
+      "fact": "face.forehead_share",
+      "from": "forehead_share",
+      "view": "frontal",
+      "cuts": [{ "below": 0.88, "value": "shorter" }, { "below": 1.12, "value": "similar" }, { "value": "longer" }],
+      "margin": 0.05,
+      "requires": ["hairline_visible"]
+    },
+    {
+      "fact": "face.lower_share",
+      "from": "lower_share",
+      "view": "frontal",
+      "cuts": [{ "below": 0.88, "value": "shorter" }, { "below": 1.12, "value": "similar" }, { "value": "longer" }],
+      "margin": 0.05,
+      "requires": ["hairline_visible"]
+    },
+    {
+      "fact": "face.jaw_vs_cheek",
+      "from": "jaw_to_cheek",
+      "view": "frontal",
+      "cuts": [{ "below": 0.8, "value": "narrower" }, { "below": 0.9, "value": "similar" }, { "value": "wider" }],
+      "margin": 0.02
+    },
+    {
+      "fact": "face.jaw_angle",
+      "from": "jaw_angle",
+      "view": "frontal",
+      "cuts": [{ "below": 125, "value": "defined" }, { "below": 140, "value": "moderate" }, { "value": "soft" }],
+      "margin": 3
+    },
+    {
+      "fact": "face.chin_width",
+      "from": "chin_to_jaw",
+      "view": "frontal",
+      "cuts": [{ "below": 0.33, "value": "narrow" }, { "below": 0.43, "value": "similar" }, { "value": "broad" }],
+      "margin": 0.02
+    }
+  ],
+  "current_length_cm": {
+    "very_short": [0, 6],
+    "short": [6, 14],
+    "chin": [14, 22],
+    "shoulder": [22, 38],
+    "long": [38, 60],
+    "very_long": [60, 100]
+  }
+}

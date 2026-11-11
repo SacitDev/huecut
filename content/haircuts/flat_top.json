@@ -1,0 +1,372 @@
+[
+  {
+    "id": "high-top-fade",
+    "kind": "cut",
+    "name": "High-top fade",
+    "aliases": [
+      "High top",
+      "Hi-top",
+      "Block top"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "flat_top",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          15
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "high",
+      "start_mm": 0,
+      "note": "High fade to skin; the top left tall."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited: use a flat top with straight hair and wax."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited: waves lack the standing volume."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Works with defined curls 10+ cm; use a pick and gel.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the block lower so it looks filled."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "High fade exposes the hairline; avoid past stage 3."
+    },
+    "strand_note": null,
+    "density_note": "Thick density; fine coils cannot hold the height.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": [
+        "pick",
+        "light oil"
+      ]
+    },
+    "grow_out": "Fade grows to a taper in 3 weeks; top grows to an afro.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-short-boxed",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "flat_top",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": true,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "curly_first",
+        "wash_and_go",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Very short sides with a tall flat-ish top. A retro statement that shows off texture.",
+    "stylist": "Fade high to skin, shape the top with a pick and clippers into a tidy block, and keep the angle square.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a high-top fade: a tall top of 8-15 cm shaped into a tidy square block, the sides and back faded high from skin to #2 (6 mm), the nape blade to #0.5, a tapered neckline, faded sideburns",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://luxe.digital/style/black-men-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "flat-top",
+    "kind": "cut",
+    "name": "Flat top",
+    "aliases": [
+      "Flat top fade",
+      "Square top"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "flat_top",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          6
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          1.5,
+          9
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          1.5,
+          9
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0.5,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 3,
+      "note": "Low or mid taper; top is squared flat."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "adapt",
+        "note": "Straight hair can stand with wax.",
+        "daily": true
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "Hard to hold; use wax and a short top.",
+        "daily": true
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Works with a short, firm curl: needs product and a pick.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design.",
+        "daily": true
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the flat top short so the plane looks filled."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Squared front line shows the hairline."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick coarse hair stands up for the flat plane.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": [
+        "pick"
+      ]
+    },
+    "grow_out": "Grow the top for 6-8 weeks and it becomes a rounded afro or short crop.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-faded-full",
+        "beard-goatee"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "flat_top",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "medium",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": true,
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A flat, squared top with short sides. Distinctive and military-inspired.",
+    "stylist": "Brush the top up, clip a flat plane using a comb guide and check it from the front and sides. Keep the fade neat.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a flat top: the top 3-6 cm brushed up and cut into a squared, level plane with a squared front of 3-6 cm, the sides and back at a low to mid taper from #0.5 to #3 (9 mm), the nape up to #1, a tapered neckline, faded sideburns",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/how-to-get-360-waves",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://luxe.digital/style/black-men-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

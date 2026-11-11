@@ -1,0 +1,14 @@
+[
+  {
+    "id": "d02",
+    "group": "D",
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "when": { "hair.texture": { "in": ["curly", "coily"] } },
+    "on": { "beard_length": { "is": "short" } },
+    "because": "A short beard keeps curly beard hair neat with little trimming.",
+    "evidence": "single_source",
+    "review": { "status": "checked", "date": "2026-11-08" }
+  }
+]

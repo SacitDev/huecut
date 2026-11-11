@@ -1,0 +1,988 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "weights": {
+      "type": "object",
+      "properties": {
+        "weak": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "moderate": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "strong": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "weak",
+        "moderate",
+        "strong"
+      ],
+      "additionalProperties": false
+    },
+    "count": {
+      "type": "object",
+      "properties": {
+        "min": {
+          "$ref": "#/$defs/__schema0"
+        },
+        "default": {
+          "$ref": "#/$defs/__schema1"
+        },
+        "max": {
+          "$ref": "#/$defs/__schema2"
+        }
+      },
+      "required": [
+        "min",
+        "default",
+        "max"
+      ],
+      "additionalProperties": false
+    },
+    "both_split": {
+      "type": "string",
+      "const": "cut_first_half"
+    },
+    "grid_max_tiles": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4
+    },
+    "max_per_silhouette": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20
+    },
+    "min_distinct_silhouettes_share": {
+      "$ref": "#/$defs/__schema3"
+    },
+    "low_upkeep": {
+      "type": "object",
+      "properties": {
+        "max_styling_minutes": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 60
+        },
+        "min_trim_weeks": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 26
+        }
+      },
+      "required": [
+        "max_styling_minutes",
+        "min_trim_weeks"
+      ],
+      "additionalProperties": false
+    },
+    "max_reasons": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "reason_group_order": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema4"
+      }
+    },
+    "pool_size": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "change_span": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "length_span": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "colour_variety": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "upkeep_stack": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "growth_cm_per_month": {
+      "anyOf": [
+        {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "suitability": {
+      "type": "object",
+      "properties": {
+        "rules": {
+          "type": "object",
+          "properties": {
+            "tau": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "cap": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          },
+          "required": [
+            "tau",
+            "cap"
+          ],
+          "additionalProperties": false
+        },
+        "texture_fit": {
+          "type": "object",
+          "properties": {
+            "good": {
+              "type": "number",
+              "minimum": 0
+            },
+            "adapt": {
+              "type": "number",
+              "minimum": 0
+            },
+            "poor": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "good",
+            "adapt",
+            "poor"
+          ],
+          "additionalProperties": false
+        },
+        "density_fit": {
+          "type": "object",
+          "properties": {
+            "good": {
+              "type": "number",
+              "minimum": 0
+            },
+            "adapt": {
+              "type": "number",
+              "minimum": 0
+            },
+            "poor": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "good",
+            "adapt",
+            "poor"
+          ],
+          "additionalProperties": false
+        },
+        "trim": {
+          "type": "object",
+          "properties": {
+            "power": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "floor": {
+              "$ref": "#/$defs/__schema3"
+            },
+            "miss": {
+              "$ref": "#/$defs/__schema3"
+            }
+          },
+          "required": [
+            "power",
+            "floor",
+            "miss"
+          ],
+          "additionalProperties": false
+        },
+        "styling": {
+          "type": "object",
+          "properties": {
+            "grace_minutes": {
+              "type": "number",
+              "minimum": 0
+            },
+            "power": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "floor": {
+              "$ref": "#/$defs/__schema3"
+            },
+            "miss": {
+              "$ref": "#/$defs/__schema3"
+            }
+          },
+          "required": [
+            "grace_minutes",
+            "power",
+            "floor",
+            "miss"
+          ],
+          "additionalProperties": false
+        },
+        "growth_weeks": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "change": {
+          "type": "object",
+          "properties": {
+            "subtle": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/__schema3"
+              }
+            },
+            "noticeable": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/__schema3"
+              }
+            },
+            "bold": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/__schema3"
+              }
+            },
+            "unknown": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/__schema3"
+              }
+            }
+          },
+          "required": [
+            "subtle",
+            "noticeable",
+            "bold",
+            "unknown"
+          ],
+          "additionalProperties": false
+        },
+        "frame": {
+          "type": "object",
+          "properties": {
+            "balance": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "jaw_balance": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "sigma": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "jaw_sigma": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "floor": {
+              "$ref": "#/$defs/__schema3"
+            },
+            "emphasise": {
+              "type": "number",
+              "minimum": 0
+            },
+            "no_wish_aims": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/__schema5"
+              }
+            },
+            "sides": {
+              "type": "object",
+              "properties": {
+                "close": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "medium": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "full": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "close",
+                "medium",
+                "full"
+              ],
+              "additionalProperties": false
+            },
+            "height": {
+              "type": "object",
+              "properties": {
+                "flat": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "low": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "medium": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "high": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "flat",
+                "low",
+                "medium",
+                "high"
+              ],
+              "additionalProperties": false
+            },
+            "length": {
+              "type": "object",
+              "properties": {
+                "buzz": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "very_short": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "short": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "chin": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "bob": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "shoulder": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "long": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "very_long": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "buzz",
+                "very_short",
+                "short",
+                "chin",
+                "bob",
+                "shoulder",
+                "long",
+                "very_long"
+              ],
+              "additionalProperties": false
+            },
+            "fringe": {
+              "type": "object",
+              "properties": {
+                "none": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "micro": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "short_blunt": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "blunt_full": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "bottleneck": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "wispy": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "curtain": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "side_swept": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "long_side": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "textured_forward": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "curly": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "none",
+                "micro",
+                "short_blunt",
+                "blunt_full",
+                "bottleneck",
+                "wispy",
+                "curtain",
+                "side_swept",
+                "long_side",
+                "textured_forward",
+                "curly"
+              ],
+              "additionalProperties": false
+            },
+            "zones": {
+              "type": "object",
+              "properties": {
+                "sides": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "temples": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "crown": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "jaw": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "ends": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "sides",
+                "temples",
+                "crown",
+                "jaw",
+                "ends"
+              ],
+              "additionalProperties": false
+            },
+            "texture": {
+              "type": "object",
+              "properties": {
+                "straight": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "wavy": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "curly": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "coily": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "mixed": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "straight",
+                "wavy",
+                "curly",
+                "coily",
+                "mixed"
+              ],
+              "additionalProperties": false
+            },
+            "jaw_clear": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "$ref": "#/$defs/__schema6"
+                },
+                {
+                  "$ref": "#/$defs/__schema7"
+                }
+              ],
+              "items": false,
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "thirds": {
+              "type": "object",
+              "properties": {
+                "miss": {
+                  "$ref": "#/$defs/__schema3"
+                },
+                "heavy_fringes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "none",
+                      "micro",
+                      "short_blunt",
+                      "blunt_full",
+                      "bottleneck",
+                      "wispy",
+                      "curtain",
+                      "side_swept",
+                      "long_side",
+                      "textured_forward",
+                      "curly"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "miss",
+                "heavy_fringes"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "balance",
+            "jaw_balance",
+            "sigma",
+            "jaw_sigma",
+            "floor",
+            "emphasise",
+            "no_wish_aims",
+            "sides",
+            "height",
+            "length",
+            "fringe",
+            "zones",
+            "texture",
+            "jaw_clear",
+            "thirds"
+          ],
+          "additionalProperties": false
+        },
+        "colour": {
+          "type": "object",
+          "properties": {
+            "tau": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "cap": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "lift_step": {
+              "type": "number",
+              "minimum": 0
+            },
+            "label": {
+              "type": "object",
+              "properties": {
+                "plausible": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "uncertain": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "needs_professional": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "plausible",
+                "uncertain",
+                "needs_professional"
+              ],
+              "additionalProperties": false
+            },
+            "harmony": {
+              "type": "object",
+              "properties": {
+                "sigma": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "lightness": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "targets": {
+                  "type": "object",
+                  "properties": {
+                    "warm": {
+                      "type": "number"
+                    },
+                    "neutral": {
+                      "type": "number"
+                    },
+                    "olive": {
+                      "type": "number"
+                    },
+                    "cool": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "warm",
+                    "neutral",
+                    "olive",
+                    "cool"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "sigma",
+                "lightness",
+                "targets"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "tau",
+            "cap",
+            "lift_step",
+            "label",
+            "harmony"
+          ],
+          "additionalProperties": false
+        },
+        "slate": {
+          "type": "object",
+          "properties": {
+            "lambda": {
+              "$ref": "#/$defs/__schema3"
+            },
+            "floor": {
+              "$ref": "#/$defs/__schema3"
+            },
+            "weights": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            }
+          },
+          "required": [
+            "lambda",
+            "floor",
+            "weights"
+          ],
+          "additionalProperties": false
+        },
+        "beards": {
+          "type": "object",
+          "properties": {
+            "scale_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "sigma": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "shown": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 18
+            },
+            "patchy": {
+              "type": "object",
+              "properties": {
+                "full_mm": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "full": {
+                  "$ref": "#/$defs/__schema3"
+                },
+                "some_mm": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "some": {
+                  "$ref": "#/$defs/__schema3"
+                }
+              },
+              "required": [
+                "full_mm",
+                "full",
+                "some_mm",
+                "some"
+              ],
+              "additionalProperties": false
+            },
+            "not_paired": {
+              "$ref": "#/$defs/__schema3"
+            },
+            "wish_note": {
+              "type": "number",
+              "minimum": 1
+            },
+            "short_chin_mm": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "scale_mm",
+            "sigma",
+            "shown",
+            "patchy",
+            "not_paired",
+            "wish_note",
+            "short_chin_mm"
+          ],
+          "additionalProperties": false
+        },
+        "because": {
+          "type": "object",
+          "properties": {
+            "trim": {
+              "$ref": "#/$defs/__schema8"
+            },
+            "styling": {
+              "$ref": "#/$defs/__schema8"
+            },
+            "density": {
+              "$ref": "#/$defs/__schema8"
+            },
+            "does": {
+              "type": "object",
+              "properties": {
+                "adds_height": {
+                  "$ref": "#/$defs/__schema8"
+                },
+                "keeps_top_low": {
+                  "$ref": "#/$defs/__schema8"
+                },
+                "sides_close": {
+                  "$ref": "#/$defs/__schema8"
+                },
+                "adds_width": {
+                  "$ref": "#/$defs/__schema8"
+                },
+                "fringe_line": {
+                  "$ref": "#/$defs/__schema8"
+                },
+                "balanced": {
+                  "$ref": "#/$defs/__schema8"
+                }
+              },
+              "required": [
+                "adds_height",
+                "keeps_top_low",
+                "sides_close",
+                "adds_width",
+                "fringe_line",
+                "balanced"
+              ],
+              "additionalProperties": false
+            },
+            "aim": {
+              "type": "object",
+              "properties": {
+                "soften": {
+                  "$ref": "#/$defs/__schema8"
+                },
+                "between": {
+                  "$ref": "#/$defs/__schema8"
+                },
+                "preserve": {
+                  "$ref": "#/$defs/__schema8"
+                },
+                "emphasise": {
+                  "$ref": "#/$defs/__schema8"
+                }
+              },
+              "required": [
+                "soften",
+                "between",
+                "preserve",
+                "emphasise"
+              ],
+              "additionalProperties": false
+            },
+            "decisive_ratio": {
+              "type": "number",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "trim",
+            "styling",
+            "density",
+            "does",
+            "aim",
+            "decisive_ratio"
+          ],
+          "additionalProperties": false
+        },
+        "sources": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/__schema8"
+          }
+        }
+      },
+      "required": [
+        "rules",
+        "texture_fit",
+        "density_fit",
+        "trim",
+        "styling",
+        "growth_weeks",
+        "change",
+        "frame",
+        "colour",
+        "slate",
+        "beards",
+        "because",
+        "sources"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "weights",
+    "count",
+    "both_split",
+    "grid_max_tiles",
+    "max_per_silhouette",
+    "min_distinct_silhouettes_share",
+    "low_upkeep",
+    "max_reasons",
+    "reason_group_order",
+    "pool_size",
+    "change_span",
+    "length_span",
+    "colour_variety",
+    "upkeep_stack",
+    "growth_cm_per_month"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "__schema0": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20
+    },
+    "__schema1": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20
+    },
+    "__schema2": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20
+    },
+    "__schema3": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "__schema4": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    "__schema5": {
+      "type": "string",
+      "enum": [
+        "soften",
+        "between",
+        "preserve",
+        "emphasise"
+      ]
+    },
+    "__schema6": {
+      "type": "number",
+      "minimum": 0.5,
+      "maximum": 1.3
+    },
+    "__schema7": {
+      "type": "number",
+      "minimum": 0.5,
+      "maximum": 1.3
+    },
+    "__schema8": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

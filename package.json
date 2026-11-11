@@ -1,0 +1,67 @@
+{
+  "name": "huecut",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Choose a haircut and a hair colour that suit your hair, in your browser. Free, open source, no uploads.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run content:build && vite build",
+    "preview": "vite preview",
+    "models": "node scripts/models.ts",
+    "licences": "node scripts/licences.ts",
+    "content:check": "node scripts/content/check.ts",
+    "content:build": "node scripts/content/build.ts",
+    "i18n:export": "node scripts/i18n/export.ts",
+    "i18n:import": "node scripts/i18n/import.ts",
+    "typecheck": "tsc -p tsconfig.domain.json && tsc -p tsconfig.worker.json && tsc -p tsconfig.app.json && tsc -p tsconfig.node.json",
+    "lint": "eslint . --max-warnings 0",
+    "test": "vitest run",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "5.3.0",
+    "@fontsource-variable/figtree": "5.3.0",
+    "@huggingface/transformers": "4.3.2",
+    "@mediapipe/tasks-vision": "1.2.2",
+    "comlink": "4.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.187.0",
+    "xstate": "5.33.4"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@eslint/js": "10.0.1",
+    "@phosphor-icons/core": "2.1.1",
+    "@playwright/test": "1.65.0",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.187.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "eslint": "10.14.0",
+    "eslint-plugin-boundaries": "7.4.2",
+    "eslint-plugin-import-x": "4.18.0",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "17.14.0",
+    "prettier": "3.9.10",
+    "sharp": "0.35.5",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1",
+    "vite": "8.3.6",
+    "vitest": "5.1.0",
+    "zod": "4.6.7"
+  },
+  "overrides": {
+    "eslint-plugin-jsx-a11y": {
+      "eslint": "$eslint"
+    },
+    "minimatch@^10.0.0": "^11.0.1"
+  }
+}

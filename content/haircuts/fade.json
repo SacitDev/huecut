@@ -1,0 +1,2609 @@
+[
+  {
+    "id": "scissor-taper-classic",
+    "kind": "cut",
+    "name": "Classic scissor taper",
+    "aliases": [
+      "All-scissor taper",
+      "Short back and sides (scissor)",
+      "Barber's taper"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "sides": {
+        "cm": [
+          0.5,
+          2.5
+        ]
+      },
+      "back": {
+        "cm": [
+          0.5,
+          2.5
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.3,
+          1
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "scissor_taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Scissor-over-comb taper at the ears and neck only; no skin."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered, mid-ear length",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Stay on the longer end of the range so curls can drop."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Use a comb and cut dry at 3-4 cm."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": "Cowlicks follow the natural fall.",
+      "note": "Neutral; a natural side part conceals mild recession."
+    },
+    "strand_note": null,
+    "density_note": "Any; thin hair needs a bit more length on top.",
+    "glasses_note": "Neat ears and sides leave frames clear.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "none",
+      "products": [
+        "light pomade",
+        "water-based gel"
+      ]
+    },
+    "grow_out": "Easy to grow out into a side part.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-short",
+        "beard-mustache-only"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "side_sweep",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "workplace_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A traditional tidy cut: short around the ears and neck, enough length on top to part and comb. Soft finish.",
+    "stylist": "Hand-cut the sides with scissor-over-comb from #1-equivalent at the nape to about 2.5 cm; join to top with a vertical channel cut. Edge neckline lightly. Soft taper into natural neck.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a classic scissor taper: the top 4-7 cm left long enough to part and comb, the sides and back scissor-tapered from about 2.5 cm down to 0.3-1 cm at the nape over the ears and neck only, no skin, a soft natural neckline and tapered mid-ear sideburns",
+    "sources": [
+      {
+        "url": "https://www.themodestman.com/taper-vs-fade/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.themodestman.com/hair/crew-cut/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "low-taper-fade",
+    "kind": "cut",
+    "name": "Low taper fade",
+    "aliases": [
+      "Low taper",
+      "Business fade",
+      "Subtle fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "fringe": {
+        "cm": [
+          3,
+          7
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0.5,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0.5,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0.5,
+      "note": "Begins just above the ear and nape; lengthens into a #2-#3 section."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered and lined",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Great for curls; preserves top volume."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Common for tight curls; defines the shape without a hard line."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Doesn't expose temples; works to stage 4 with a side part or fringe."
+    },
+    "strand_note": null,
+    "density_note": "Any; the neat low fade works for fine and thick alike.",
+    "glasses_note": "Fits any frames; fade is well below the arms.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "clay",
+        "pomade"
+      ]
+    },
+    "grow_out": "Grows out to scissor taper quickly.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-faded-full",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "workplace_friendly",
+        "recession_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "Short around the ears and neck, blending smoothly into a longer top. Works for office and weekend.",
+    "stylist": "Start fade at ear height with #0.5, blend up with #1, #2 and #3, slightly shorter at the nape. Use scissor-over-comb at the corners to avoid a line.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a low taper fade: the top 4-8 cm with the front at 3-7 cm, combed off a natural or soft side part, the sides and back blended from #0.5 up to #3 (6 mm) starting just above the ear and nape, a tapered neckline and lined sideburns",
+    "sources": [
+      {
+        "url": "https://www.themodestman.com/taper-vs-fade/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mid-taper-fade",
+    "kind": "cut",
+    "name": "Mid taper fade",
+    "aliases": [
+      "Mid taper",
+      "Taper-fade (UK)"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "fringe": {
+        "cm": [
+          3,
+          7
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          1.5,
+          9
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          1.5,
+          9
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0.5,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "mid",
+      "start_mm": 1.5,
+      "note": "Begins at the middle of the side (eyebrow height) and keeps some length."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Ok to stage 4 when top is long enough to sweep to the side."
+    },
+    "strand_note": null,
+    "density_note": "Any density works; the clipper blend is gentler than a skin fade, so fine hair does not look see-through.",
+    "glasses_note": "Keep blend above the temple tips to prevent a hard line near the glasses arm.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "clay",
+        "pomade"
+      ]
+    },
+    "grow_out": "Eased into a taper by week 4.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "recession_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "Shorter on the sides with a clear fade, a little more modern than a low taper.",
+    "stylist": "Start the blend at about 3 cm above the ear. Lever the clipper outwards to avoid a ridge; refine with trimmers around the ear.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a mid taper fade: the top 4-8 cm with the front at 3-7 cm, the sides and back blended from #0.5 up to #3 (9 mm), the fade starting around eyebrow height about 3 cm above the ear, a tapered neckline, a natural or side part",
+    "sources": [
+      {
+        "url": "https://www.themodestman.com/taper-vs-fade/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "low-skin-fade",
+    "kind": "cut",
+    "name": "Low skin fade",
+    "aliases": [
+      "Low bald fade",
+      "Low zero fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          7
+        ]
+      },
+      "fringe": {
+        "cm": [
+          2,
+          6
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "skin",
+      "height": "low",
+      "start_mm": 0,
+      "note": "Skin at the ear and nape, rising to #2 about 3-4 cm up."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded to skin",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Curls stay put above the fade line."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Strong contrast; ask for a line-up."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 5,
+      "whorl_note": "Crown thinning is unaffected.",
+      "note": "Doesn't expose the temples; works from stage 3-5."
+    },
+    "strand_note": null,
+    "density_note": "Any; fine hair shows scalp at the fade, which looks fine to most.",
+    "glasses_note": "Close-faded sides: ensure arms sit comfortably.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": [
+        "clay",
+        "pomade"
+      ]
+    },
+    "grow_out": "Takes 3-4 weeks to grow into a taper.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-short-boxed",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "recession_friendly",
+        "wash_and_go",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "Very short around the ears and neck, fading to skin; top left long enough to style.",
+    "stylist": "Zero-gap blade at the base, flicking up through #0.5, #1 and #2. Check the symmetry with comb over the ear line. Skin-faded neckline.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a low skin fade: the top 3-7 cm with the front at 2-6 cm, the sides and back faded from skin at the ear and nape rising to #2 (6 mm) about 3-4 cm up, a low even fade line, skin-faded neckline and sideburns, a soft side part or none",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.themodestman.com/taper-vs-fade/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mid-skin-fade",
+    "kind": "cut",
+    "name": "Mid skin fade",
+    "aliases": [
+      "Mid bald fade",
+      "Mid fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          8
+        ]
+      },
+      "fringe": {
+        "cm": [
+          2,
+          6
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "mid",
+      "start_mm": 0,
+      "note": "Skin at the base, mid-temple height start."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Good to stage 4; fringe or sweep keeps the temples covered."
+    },
+    "strand_note": null,
+    "density_note": "Any density; fine or thin hair on the sides shows slightly more scalp than coarse hair.",
+    "glasses_note": "OK; trim around the arm for comfort.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": [
+        "clay",
+        "pomade"
+      ]
+    },
+    "grow_out": "Grows to mid taper in 3 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-short-boxed",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "recession_friendly",
+        "wash_and_go",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "Medium-height fade down to skin that suits most tops. Clean and sharp.",
+    "stylist": "Skin fade to #1.5 then to #3 near the parietal. Keep the blend line even, 90 degrees to the head.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a mid skin fade: the top 3-8 cm with the front at 2-6 cm, the sides and back faded from skin at the base to #2 (6 mm), the fade line starting at mid-temple height and running level around the head, a tapered neckline, faded sideburns",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.themodestman.com/taper-vs-fade/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "high-skin-fade",
+    "kind": "cut",
+    "name": "High skin fade",
+    "aliases": [
+      "High bald fade",
+      "High fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          8
+        ]
+      },
+      "fringe": {
+        "cm": [
+          2,
+          6
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "high",
+      "start_mm": 0,
+      "note": "Skin to #2 from the ears up to about the temple."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Creates a strong contrast with curls."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Strong with high top or twists."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "The bare sides draw the eye to the top; keep the top textured or choose a mid fade."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Exposes temples; not recommended beyond stage 3."
+    },
+    "strand_note": null,
+    "density_note": "Needs medium to thick density on top, because the bare sides draw the eye to the top mass.",
+    "glasses_note": "Frames visible; sides bare.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": [
+        "clay",
+        "pomade"
+      ]
+    },
+    "grow_out": "A week-4 high fade becomes a mid taper.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-short-boxed",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "wash_and_go",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "Sides are very short and rise high on the head; leaves the top long and noticeable.",
+    "stylist": "Fade starts at the temple or just above, skin base to #2. Blend with trimmers around the temple, use the clipper over comb on the corners.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a high skin fade: the top 3-8 cm with the front at 2-6 cm, the sides and back faded from skin to #2 (6 mm), the fade line high at the temple and running level around the head, a tapered neckline and faded sideburns, with the top left noticeably longer",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "drop-fade",
+    "kind": "cut",
+    "name": "Drop fade",
+    "aliases": [
+      "Dropped fade",
+      "Curved fade",
+      "Arc fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          8
+        ]
+      },
+      "fringe": {
+        "cm": [
+          2,
+          6
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "drop",
+      "height": null,
+      "start_mm": 0,
+      "note": "Fade line starts high at the temple and drops in an arc behind the ear to the nape."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": {
+      "kind": "textured_forward",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Beautiful with curls; frames the back of the head."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Flatters rounded heads."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": "Check that the drop doesn't cross the crown.",
+      "note": "Hairline is less exposed than a high fade; ok to stage 4."
+    },
+    "strand_note": null,
+    "density_note": "Any density; the arc is easier to read on thick hair, but fine hair also works.",
+    "glasses_note": "Arm sits where the fade drops; check comfort.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": [
+        "clay",
+        "pomade"
+      ]
+    },
+    "grow_out": "Fades into a taper at 3-4 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-short-boxed",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "textured_forward",
+      "layers": [
+        "light"
+      ],
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "tags": [
+        "recession_friendly",
+        "textured_top"
+      ],
+      "silhouette": "crop",
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ]
+    },
+    "variants": [],
+    "client": "A short textured top with sides that fade to the skin and curve down behind the ear.",
+    "stylist": "Draw an arc from the temple behind the ear to the nape, blend through #0.5 to #3. Keep the outer edge cleaner than the top. Curved neckline follows the drop.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a drop fade with a short textured top: 3-8 cm on top styled forward with matte texture; the sides faded from about 6 mm down to the skin, the fade line high at the temple and curving down behind the ear to the nape",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.themodestman.com/taper-vs-fade/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "burst-fade",
+    "kind": "cut",
+    "name": "Burst fade",
+    "aliases": [
+      "Burst taper",
+      "Bursting fade",
+      "Ear arc fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          10
+        ]
+      },
+      "fringe": {
+        "cm": [
+          3,
+          8
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "cm": [
+          1,
+          3
+        ]
+      },
+      "nape": {
+        "cm": [
+          1,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0,
+      "note": "Fade curves in a half circle around the ear; back stays longer."
+    },
+    "neckline": "natural",
+    "sideburns": "Faded",
+    "fringe": {
+      "kind": "textured_forward",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Frames the shape of the ear."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the back fuller and the top textured so neither looks sparse."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Hairline at the temple is faded; ok to stage 4."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine hair looks sparse.",
+    "glasses_note": "The curve sits near the arm; keep tidy.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "clay",
+        "pomade"
+      ]
+    },
+    "grow_out": "Back length stays even; fade needs touch ups every 3 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-full-natural",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "textured_forward",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "recession_friendly",
+        "wash_and_go",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "A rounded fade around the ear while the back is left longer. A modern look often worn with a mullet.",
+    "stylist": "Use a #0.5 at the outer ring and widen the radius with #1 and #2. Keep the back length at least 2 cm. Back of the head is not faded; only a tidy outline.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a burst fade: the top 4-10 cm with a fringe of 3-8 cm, the sides faded from skin to #2 (6 mm) in a half circle curving around the ear, the back left longer at 1-3 cm and the nape 1-3 cm, a natural neckline with a tidy outline only",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://behindthechair.com/articles/what-men-are-actually-asking-their-hairdressers-for-in-2026/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "temple-fade",
+    "kind": "cut",
+    "name": "Temple fade",
+    "aliases": [
+      "Brooklyn fade",
+      "Edge-up taper",
+      "Temple taper"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "fringe": {
+        "cm": [
+          3,
+          8
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          9
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          9
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 3,
+      "note": "Fade confined to the sideburns and temple; the rest keeps length."
+    },
+    "neckline": "natural",
+    "sideburns": "Faded to skin or #1",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Often paired with a shape-up and short natural top."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 2,
+      "whorl_note": null,
+      "note": "Brings emphasis to the temple area; not advised if temples recede beyond stage 2."
+    },
+    "strand_note": null,
+    "density_note": "Any density; the fade is small, so the difference between thin and thick hair is minor.",
+    "glasses_note": "Check sideburn length vs the frame arm.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "clay"
+      ]
+    },
+    "grow_out": "No growing needed: the rest of the head keeps its length, and the temple blend softens in about 3 weeks.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-full-natural",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A neat fade only at the temples and sideburns so the cut stays longer elsewhere.",
+    "stylist": "Fade about 3 cm up from the sideburn with trimmer or clipper. Square the edges lightly; no hard line at the nape. Back tidy but not faded.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a temple fade: the top 4-8 cm with the front at 3-8 cm, the fade confined to the sideburns and temples, from skin to #3 (9 mm) about 3 cm up, the sides and back kept at #1-#3 (3-9 mm), the nape #1-#2, a natural tidy neckline",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "shadow-fade",
+    "kind": "cut",
+    "name": "Shadow fade",
+    "aliases": [
+      "Stubble fade",
+      "Soft skin fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          8
+        ]
+      },
+      "fringe": {
+        "cm": [
+          2,
+          6
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          1,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          1,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          1,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "mid",
+      "start_mm": 1,
+      "note": "Like a skin fade but leaves a light stubble (1 mm) at the base."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded softly",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Very good at keeping the scalp from showing."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 5,
+      "whorl_note": null,
+      "note": "Soft fade blends into the temples; ok to stage 5."
+    },
+    "strand_note": null,
+    "density_note": "Any; thin hair more forgiving than a skin fade.",
+    "glasses_note": "Fine; soft base never leaves a hard skin line around the arms.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "clay"
+      ]
+    },
+    "grow_out": "Grows out gently without a visible edge.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-faded-full",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "recession_friendly",
+        "wash_and_go",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "A fade that stays a little fuzzy rather than going to bare skin. Soft but neat.",
+    "stylist": "Start at #0.5, blend in a quarter-turn; do not use zero-gap. Check evenness with the comb.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a shadow fade: the top 3-8 cm with the front at 2-6 cm, the sides and back faded softly from a 1 mm stubble base (#0.5) up to #2 (6 mm), never bare skin, the nape 1-3 mm, an even blend and a tapered neckline with softly faded sideburns",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-taper-defined",
+    "kind": "cut",
+    "name": "Taper with defined curls",
+    "aliases": [
+      "Curly taper",
+      "Low taper curly top",
+      "Curl top with taper"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          1.5,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          1.5,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0.5,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Low taper that shortens only the sideburns, ears and nape; the curl mass stays intact above."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered, lined optional",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Straight hair will not hold curl definition; choose a textured crop."
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "Loose waves form soft curls at 7+ cm; use cream and a diffuser."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design: cut dry so curl spring is visible."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Works at 5-7 cm with twist-out or sponge definition; moisturise."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use a volumising curl product and keep the top at the shorter end."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": "A crown whorl makes curls swirl; leave 1 cm extra length there.",
+      "note": "Curl volume sits forward and can cover stage 3-4 temples; keep length on the front and avoid a hard line-up."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick works best; fine, low-density curls look flat without volume product.",
+    "glasses_note": "Tapered sides leave the arms clear; curls above the ear can lift frames, so thin the area.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "rare",
+      "products": [
+        "curl cream",
+        "leave-in conditioner"
+      ]
+    },
+    "grow_out": "Moves to a curly flow in 8-10 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-full-natural",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "tapered_natural",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Short around the ears and neck while the top keeps its natural curls. Defined and easy to maintain.",
+    "stylist": "Cut the top dry curl-by-curl, leaving 5-9 cm; clipper taper with #1-#3 at the sides. Avoid razor on tight curls; blend the outline with scissors. Soft taper into a natural or lightly rounded neckline.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a taper with defined curls: natural defined curls of 5-9 cm left intact on top with the front at 4-7 cm, the sides and back tapered low from #3 (10 mm) to #0.5, shortening only the sideburns, ears and nape (#1 at the nape), a soft tapered neckline",
+    "sources": [
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/curly-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-skin-fade-top",
+    "kind": "cut",
+    "name": "Curly top with mid skin fade",
+    "aliases": [
+      "Curls with skin fade",
+      "Fade and curls",
+      "Curly fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "mid",
+      "start_mm": 0,
+      "note": "Skin at the base, rising to #2 at about eyebrow height."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Straight hair will not curl on top; choose a textured crop."
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "Waves of 7+ cm form soft curls."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design; high contrast on tight coils."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Ask for a taper instead of skin so the top looks fuller."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Mid fade keeps the temples; curls fall forward to cover stage 3-4."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; strong contrast reveals thin spots on top.",
+    "glasses_note": "Tight sides; glasses frames show clearly.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "rare",
+      "products": [
+        "curl cream",
+        "gel"
+      ]
+    },
+    "grow_out": "Fade becomes a taper at week 4.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-short-boxed",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "tapered_natural",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Very short sides faded to skin and a curly top. Sharp, modern and quick to style.",
+    "stylist": "Skin to #2 fade; do the top dry. Leave 8 cm on top; leave a tiny weight line to help curl clumps.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly top with a mid skin fade: natural defined curls of 6-10 cm on top with the front at 4-8 cm, the sides and back faded from skin up to #2 (6 mm) at about eyebrow height, the nape blade to #0.5, a tapered neckline and faded sideburns",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/curly-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-drop-fade",
+    "kind": "cut",
+    "name": "Curly drop fade",
+    "aliases": [
+      "Drop fade curls",
+      "Curly arc fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "drop",
+      "height": null,
+      "start_mm": 0,
+      "note": "The fade arcs behind the ear and drops to the nape, with curls untouched above."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited: use a regular drop fade with a textured top instead."
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "Waves at 7 cm form soft curls."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the curls shorter and use a light mousse for volume."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Hairline untouched; curls cover stage 3-4."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine curls lose volume at the top.",
+    "glasses_note": "Check comfort at the arm.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "rare",
+      "products": [
+        "curl cream"
+      ]
+    },
+    "grow_out": "Fades into a taper in 3-4 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-short-boxed",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "medium",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "air_dry_friendly"
+      ],
+      "silhouette": "tapered_natural",
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ]
+    },
+    "variants": [],
+    "client": "Natural curls on top with a fade that curves down behind the ear to the neck.",
+    "stylist": "Draw an arc from the temple behind the ear to the nape, blending through #1.5 and #2. Keep the curl clumps unclipped. Curved neckline.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly drop fade: natural defined curls about 5-9 cm on top, the sides faded from about 6 mm down to the skin, the fade line arcing behind the ear and dropping to the nape",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-burst-fade",
+    "kind": "cut",
+    "name": "Curly burst fade",
+    "aliases": [
+      "Burst fade curls",
+      "Curly ear arc"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fade",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "cm": [
+          1,
+          4
+        ]
+      },
+      "nape": {
+        "cm": [
+          1,
+          4
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0,
+      "note": "Fade curves around the ear while the back stays longer."
+    },
+    "neckline": "natural",
+    "sideburns": "Faded",
+    "fringe": {
+      "kind": "curly",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited: use a straight-hair textured crop with burst fade."
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "Waves form soft curls."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the burst small and the curls compact."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Fine for stage 3-4, the curls cover the temples."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick density; fine curls look sparse over a fade.",
+    "glasses_note": "Fine; the arc curves round the arm.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "rare",
+      "products": [
+        "curl cream"
+      ]
+    },
+    "grow_out": "Allow the sides to fill: the burst softens into a taper in about 4 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "curly",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "tapered_natural",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A curly top with a curved fade around the ears and some length at the back. Bold, textured and tidy.",
+    "stylist": "Draw a clean ear arc with a trimmer, blend it through #0.5-#2 and keep the nape at 2-3 cm. Cut the top dry in curl clumps.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly burst fade: natural defined curls of 5-10 cm on top with a fringe of 4-8 cm, the sides faded from skin to #2 (6 mm) in a half circle around the ear, and the back and nape left longer at 1-4 cm, a natural neckline",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

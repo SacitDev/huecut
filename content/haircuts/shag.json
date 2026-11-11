@@ -1,0 +1,2101 @@
+[
+  {
+    "id": "midi-shag",
+    "kind": "cut",
+    "name": "Shoulder-length shag",
+    "aliases": [
+      "modern shag",
+      "shoulder shag",
+      "Midi shag"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "shag",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          14,
+          26
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "sides": {
+        "cm": [
+          24,
+          34
+        ]
+      },
+      "back": {
+        "cm": [
+          28,
+          36
+        ]
+      },
+      "nape": {
+        "cm": [
+          28,
+          36
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "wispy",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "cut dry and use a diffuser"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut layers slightly longer for tighter curls"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair becomes too thin when shattered, so keep it softly layered"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Crown layers will emphasise a double crown, so avoid stacking there."
+    },
+    "strand_note": "Medium to thick strands support heavy texture; fine strands need softer layers.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising spray",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Grows into a long shag with fewer trims needed.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "A layered, shaggy cut that looks lived-in. It works well with waves and a curtain fringe.",
+    "stylist": "Cut graduated layers at the crown and crown-to-ear line, then point cut for texture. Keep the lengths longer than a classic shag to keep a wearable shape. Weight: shorter, textured layers on top, long wispy lengths around the sides and back.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a shoulder-length shag: shoulder length with short textured layers at the crown (14-26 cm), long wispy sides of 24-34 cm and back of 28-36 cm, point-cut ends and a curtain fringe of 10-18 cm at the cheekbones, a lived-in tousled finish",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/medium-hairstyles/medium-length-layered-haircuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "classic-shag",
+    "kind": "cut",
+    "name": "Classic 70s shag",
+    "aliases": [
+      "rock shag",
+      "vintage shag"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "shag",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          14
+        ]
+      },
+      "fringe": {
+        "cm": [
+          8,
+          14
+        ]
+      },
+      "sides": {
+        "cm": [
+          14,
+          24
+        ]
+      },
+      "back": {
+        "cm": [
+          22,
+          32
+        ]
+      },
+      "nape": {
+        "cm": [
+          22,
+          32
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "brow",
+      "options": [
+        "wispy",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "keep the top layers longer on 3A curls"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut dry in the curl pattern; see Curly short shag"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "very fine hair needs a lighter shag"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A crown whorl or cowlick complicates the short top layers."
+    },
+    "strand_note": "Medium to thick strands give the shag its volume; fine strands look wispy.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising spray",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Grows into a long shag in about 3 months, and the layers stay useful the whole time.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light",
+        "medium",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "A heavily layered, shaggy cut with plenty of movement and volume at the crown. A 70s look that still reads cool.",
+    "stylist": "Cut short layers over the crown and top, graduate them through the sides and keep the nape long and thin. Point cut the ends so the layers separate. Weight: heavy layers on top and sides, with feathered, thinner ends.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a classic 70s shag: heavy shaggy layers with the top 6-14 cm for height at the crown, the sides 14-24 cm graduated, a curtain fringe of 8-14 cm at the brow, and a long thin nape of 22-32 cm, point-cut feathered ends reaching the shoulders",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "short-shag",
+    "kind": "cut",
+    "name": "Short shag",
+    "aliases": [
+      "cropped shag",
+      "ear-to-jaw shag"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "shag",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          7,
+          12
+        ]
+      },
+      "back": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "nape": {
+        "cm": [
+          6,
+          10
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "brow",
+      "options": [
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "keep the top layers 1-2 cm longer so they do not stand upright"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut dry in the curl pattern; Curly short shag is the full curl version"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "very fine hair looks wispy if every layer is shattered, so keep some solid length"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "thick hair gives the shag its volume"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A crown whorl pushes the short top layers up, so leave them longer there."
+    },
+    "strand_note": "Medium to thick strands give the shag its lift; fine strands need softer layering.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "rare",
+      "products": [
+        "texture spray",
+        "light paste"
+      ]
+    },
+    "grow_out": "Becomes a shaggy bob within about 2 months without losing its shape.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "tags": [
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "A cropped, shaggy cut with lots of texture on top and softly feathered sides.",
+    "stylist": "Cut short layers over the crown on a high elevation, graduate through the sides, and point cut the ends for movement. Weight: weight stacked in the crown, with light feathered sides and nape.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a short shag: a cropped, jaw-length shaggy cut with stacked weight at the crown, the top 5-10 cm, the sides 7-12 cm and the back 6-10 cm in feathered layers, and a curtain fringe of 6-12 cm at the brow, a textured piecey finish",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "chelsea-cut",
+    "kind": "cut",
+    "name": "Chelsea cut",
+    "aliases": [
+      "Chelsea shag",
+      "punk crop"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "shag",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "sides": {
+        "cm": [
+          3,
+          6
+        ]
+      },
+      "back": {
+        "cm": [
+          4,
+          9
+        ]
+      },
+      "nape": {
+        "cm": [
+          4,
+          9
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "wispy",
+      "landmark": "brow",
+      "options": [
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "use curly-short-shag instead"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "use curly-short-shag instead"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair becomes see-through when cut choppy"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The longer nape needs a clear hairline; low nape growth or whorls change the finish."
+    },
+    "strand_note": "Coarse to medium strands hold the choppy texture best.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        8
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "rare",
+      "products": [
+        "texture paste",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Becomes a shaggy pixie and then a shag bob.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "wispy",
+      "layers": [
+        "light",
+        "heavy"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        8
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "A cropped, choppy shag with a longer nape. It looks edgy and a little retro.",
+    "stylist": "Take the sides short, leave a longer back and crown, and cut the top with deep point cutting to produce short, separate pieces. Weight: choppy crown layers over cropped sides, with a longer wispy back.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a Chelsea cut: cropped sides of 3-6 cm over the ears with a choppy crown of 4-9 cm, a wispy fringe of 5-10 cm at the brow and a longer wispy back and nape of 4-9 cm, deeply point-cut into short separate pieces",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-shag",
+    "kind": "cut",
+    "name": "Long shag",
+    "aliases": [
+      "long layered shag",
+      "shaggy long layers"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "shag",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          20
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "sides": {
+        "cm": [
+          28,
+          44
+        ]
+      },
+      "back": {
+        "cm": [
+          40,
+          56
+        ]
+      },
+      "nape": {
+        "cm": [
+          40,
+          56
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "wispy",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry in the curl pattern"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "see Curly long shag"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair loses density at the thin ends, so keep the ends fuller"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Short crown layers highlight a double crown or cowlick."
+    },
+    "strand_note": "Thick hair benefits from the layers; fine hair looks sparse if over-layered.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising spray",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Grows into a long layered cut as the crown layers lengthen, so only the face and top layers need refreshing every 10-12 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light",
+        "long_layers",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "A long cut with plenty of shaggy layers on top.",
+    "stylist": "Cut a high crown layer, graduate to the sides and keep length at the back. Weight: short crown layers merge into long, thin lengths.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long shag: hair reaching the shoulder blades with short crown layers of 8-20 cm, a curtain fringe of 10-20 cm at the cheekbones, sides of 28-44 cm and a long thin back of 40-56 cm, shaggy layers on top and feathered ends",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "shaggy-lob",
+    "kind": "cut",
+    "name": "Shaggy lob",
+    "aliases": [
+      "shag lob",
+      "layered lob with fringe",
+      "collarbone soft shag"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "shag",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "sides": {
+        "cm": [
+          22,
+          30
+        ]
+      },
+      "back": {
+        "cm": [
+          24,
+          32
+        ]
+      },
+      "nape": {
+        "cm": [
+          24,
+          32
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "collarbone"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "cut dry and use a diffuser"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut dry and keep layers longer for curls"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair needs fewer layers"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "thick hair gains movement"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Crown layers highlight a whorl, so keep the layers around it longer than elsewhere."
+    },
+    "strand_note": "Medium to thick strands hold the layers; fine strands need a lighter touch.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising spray",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Grows into a midi shag as the perimeter lengthens, so the crown layers need refreshing before the ends do.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light",
+        "long_layers",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "A lob with shaggy layers that suit waves.",
+    "stylist": "Cut short crown layers over a collarbone base and point cut the ends. Weight: crown layers over a collarbone-length perimeter, with ends broken.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a shaggy lob: short crown layers of 10-20 cm over a collarbone-length perimeter, the sides 22-30 cm and the back 24-32 cm, with broken ends and a curtain fringe of 10-18 cm falling to the cheekbones, a loose wavy finish",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/medium-hairstyles/medium-length-layered-haircuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-short-shag",
+    "kind": "cut",
+    "name": "Curly short shag",
+    "aliases": [
+      "curly shag crop",
+      "layered curl crop"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "shag",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          14
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          7,
+          14
+        ]
+      },
+      "back": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          6,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "brow",
+      "options": [
+        "curly"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need styling to hold the volume",
+        "daily": true
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls can look sparse, so keep layers connected"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Crown whorls change how the curls spiral, so cut layers longer around them."
+    },
+    "strand_note": "Dense curls give the volume; fine curls need soft layers.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "light gel"
+      ]
+    },
+    "grow_out": "The crown layers lengthen into a curly shag bob; refresh the sides first, as they lose shape sooner.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "full",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light",
+        "medium",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut",
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A short layered curly cut with plenty of volume.",
+    "stylist": "Cut layers dry curl by curl, leaving the top fuller and feathering the sides. Weight: layered curls stacked in the crown with lighter sides and nape.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly short shag: a jaw-length layered cut of defined curls stacked in the crown, the top 8-14 cm, a curly curtain fringe of 6-12 cm at the brow, the sides 7-14 cm and the nape 6-12 cm lighter and feathered, with plenty of volume",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.bustle.com/style/short-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.devacurl.com/us/the-deva-blog/devadaily/the-devacut-a-game-changer-for-curls",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-long-shag",
+    "kind": "cut",
+    "name": "Curly long shag",
+    "aliases": [
+      "long curly layers shag",
+      "shaggy curls"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "shag",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          25
+        ]
+      },
+      "fringe": {
+        "cm": [
+          12,
+          22
+        ]
+      },
+      "sides": {
+        "cm": [
+          28,
+          42
+        ]
+      },
+      "back": {
+        "cm": [
+          38,
+          54
+        ]
+      },
+      "nape": {
+        "cm": [
+          38,
+          54
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "curly"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need styling"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls lose density in the ends, so keep the ends fuller"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Short crown layers highlight whorls and double crowns, so lengthen the layers around them."
+    },
+    "strand_note": "Medium to thick curls form layers well; fine curls need fewer layers.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "leave-in conditioner"
+      ]
+    },
+    "grow_out": "The crown layers lengthen gradually into a long layered curl cut, so trims can be 12 weeks apart.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light",
+        "long_layers",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut",
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Shaggy curls that land at the shoulders when dry, with shorter layers on top for volume and movement. Pulled straight, they reach the shoulder blades.",
+    "stylist": "Cut the crown layers dry, curl by curl, graduating to the length at the sides and back; keep the perimeter dense so the ends do not look thin. Weight: short crown layers over long curls, with feathered ends. Tight coils shrink more and land nearer the collarbone.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly long shag: defined curls that land at the shoulders when dry, with short layers at the crown of 12-25 cm stretched, a curly curtain fringe of 12-22 cm stretched at the cheekbones, the sides 28-42 cm and the back 38-54 cm stretched, feathered ends and a dense perimeter",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.devacurl.com/us/the-deva-blog/devadaily/the-devacut-a-game-changer-for-curls",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "fine-hair-wispy-shag",
+    "kind": "cut",
+    "name": "Wispy shag for fine hair",
+    "aliases": [
+      "light shag",
+      "soft feathered shag"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "shag",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "sides": {
+        "cm": [
+          22,
+          30
+        ]
+      },
+      "back": {
+        "cm": [
+          24,
+          32
+        ]
+      },
+      "nape": {
+        "cm": [
+          24,
+          32
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "collarbone"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and keep layers long"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut dry and keep extra length for shrinkage"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "poor",
+        "note": "too much layering for thick hair, choose midi-shag"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A crown whorl can give lift or a parting problem; layers there should be cut long."
+    },
+    "strand_note": "Fine strands need layers that are long and soft, with ends left intact so the cut does not look sparse.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "rare",
+      "products": [
+        "volumising mousse",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Grows into a long layered cut with the same density at the ends.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "blunt",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "medium",
+        "long_layers",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "fine_hair_friendly",
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "A shaggy cut that gives fine hair body and movement without looking thin at the ends.",
+    "stylist": "Cut a few high layers at the crown, point cut only the face pieces and keep the perimeter blunt; avoid razoring. Weight: restrained crown layers with solid ends, so volume sits high and the perimeter stays full.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a wispy shag: collarbone length with restrained high layers at the crown of 10-18 cm, a curtain fringe of 10-18 cm at the cheekbones, the sides 22-30 cm and the back 24-32 cm, with a solid blunt perimeter so the ends stay full",
+    "sources": [
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "shag-modern",
+    "kind": "cut",
+    "name": "Modern men's shag",
+    "aliases": [
+      "Textured shag",
+      "Indie rock layers",
+      "Layered grunge"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "shag",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          15
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          4,
+          10
+        ]
+      },
+      "back": {
+        "cm": [
+          5,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          4,
+          10
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Blended",
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "A good fit."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Cut dry to see curl."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Short layers."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use fewer, longer layers so it does not look wispy."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Messy fringe covers stage 3."
+    },
+    "strand_note": null,
+    "density_note": "Medium; thin hair looks wispy.",
+    "glasses_note": "Good, but trim around the ears so hair does not catch on frame arms.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "heat": "none",
+      "products": [
+        "sea-salt spray",
+        "paste"
+      ]
+    },
+    "grow_out": "Easy: let the layers grow and it merges into a flow.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-full-natural",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut",
+        "razor"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "tags": [
+        "wash_and_go",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "Layered mid-length hair with a lived-in, rock-style finish. Looks styled even when it is not.",
+    "stylist": "Use point cutting and razor work to build layers; keep weight at the crown and remove weight from the ends.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a modern shag: layered mid-length hair with the top 8-15 cm and a fringe of 6-12 cm, the sides 4-10 cm and back 5-12 cm, weight kept at the crown and ends point-cut and razored, an optional centre part, a lived-in, textured finish",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-mens-hair-trends-fall-winter/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bosshunting.com.au/style/grooming/best-long-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-shag",
+    "kind": "cut",
+    "name": "Curly shag",
+    "aliases": [
+      "Layered curls",
+      "Curl layers"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "shag",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "back": {
+        "cm": [
+          8,
+          14
+        ]
+      },
+      "nape": {
+        "cm": [
+          8,
+          14
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Blended",
+    "fringe": {
+      "kind": "curly",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited: use a modern shag."
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Needs shorter layers; shape with a pick.",
+        "daily": true
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use fewer, longer layers so it does not look wispy."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Curls cover temples at stage 3-4."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; thin hair looks wispy.",
+    "glasses_note": "Hair may curl or drop over the arms of glasses; trim a clean channel behind the ear if frames sit on top of the hair.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream"
+      ]
+    },
+    "grow_out": "Let the layers grow; it becomes a longer curly shag in about 4 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-stubble-medium",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "curly",
+      "layers": [
+        "light",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "wash_and_go",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Curly layers with a messy fringe. Soft, volume-rich and relaxed.",
+    "stylist": "Cut dry in curl clumps, layer to prevent a pyramid shape and keep the perimeter at ear or collar.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly shag: layered natural curls with the top 10-18 cm and a messy curly fringe of 6-12 cm, the sides 6-12 cm and the back and nape 8-14 cm, layered to avoid a pyramid shape, perimeter at ear or collar level, no fade",
+    "sources": [
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/curly-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

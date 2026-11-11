@@ -1,0 +1,200 @@
+{
+  "barbering-straight-wavy/base-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 200000
+  },
+  "barbering-straight-wavy/base-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 201000
+  },
+  "barbering-straight-wavy/base-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 202000
+  },
+  "barbering-straight-wavy/beard-short-boxed-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 203000
+  },
+  "barbering-straight-wavy/mid-drop-fade-textured-crop-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 204000
+  },
+  "barbering-straight-wavy/mid-drop-fade-textured-crop-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 205000
+  },
+  "barbering-straight-wavy/mid-drop-fade-textured-crop-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 206000
+  },
+  "barbering-straight-wavy/skin-fade-textured-crop-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 207000
+  },
+  "barbering-straight-wavy/skin-fade-textured-crop-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 208000
+  },
+  "barbering-straight-wavy/skin-fade-textured-crop-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 209000
+  },
+  "salon-straight-wavy/base-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 210000
+  },
+  "salon-straight-wavy/base-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 211000
+  },
+  "salon-straight-wavy/base-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 212000
+  },
+  "salon-straight-wavy/chin-bob-curtain-fringe-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 213000
+  },
+  "salon-straight-wavy/chin-bob-curtain-fringe-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 214000
+  },
+  "salon-straight-wavy/chin-bob-curtain-fringe-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 215000
+  },
+  "salon-straight-wavy/copper-balayage-prelightened-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 216000
+  },
+  "salon-straight-wavy/copper-with-silver-ends-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6b5a4c",
+    "bytes": 217000
+  }
+}

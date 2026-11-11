@@ -1,0 +1,15 @@
+/* A native checkbox shown as a switch: the whole label is the 44 px target. */
+.switch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-block-size: var(--target-min);
+  font-weight: var(--weight-h3);
+  cursor: pointer;
+}
+
+.switch input {
+  inline-size: var(--icon-s);
+  block-size: var(--icon-s);
+  margin: 0;
+}

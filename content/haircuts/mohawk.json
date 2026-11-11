@@ -1,0 +1,569 @@
+[
+  {
+    "id": "mohawk-classic",
+    "kind": "cut",
+    "name": "Mohawk",
+    "aliases": [
+      "Mohican",
+      "Punk mohawk",
+      "Strip cut"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "mohawk",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          10
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "skin",
+      "height": null,
+      "start_mm": 0,
+      "note": "Skin or #0.5 at the sides; strip about 4 cm wide down the centre."
+    },
+    "neckline": "tapered",
+    "sideburns": "Removed",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Keep length 5+ cm."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Beautiful and bold with curls."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Good with shape-up."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the strip shorter and a little wider so it looks filled."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "The strip draws attention to the hairline; best avoided when the temples sit higher."
+    },
+    "strand_note": null,
+    "density_note": "Needs medium density in the strip.",
+    "glasses_note": "Bare sides leave the arms and frame hinges fully on view; choose narrow temples.",
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": [
+        "gel",
+        "pomade"
+      ]
+    },
+    "grow_out": "Grow out is awkward; go via a faux hawk.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-van-dyke",
+        "beard-goatee"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "root_lift"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "quiff",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "Hair left only in a strip down the middle with bare sides. Bold and high-maintenance.",
+    "stylist": "Mark the strip width (3-5 cm) from forehead to nape, clip the sides to skin or #0.5 with a clean outline, and shape the strip with scissors or a guard graduation.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a mohawk: a central strip about 4 cm wide running from forehead to nape, 4-12 cm long and styled up, with the sides and back clipped to skin or #1 (up to 3 mm) and a clean outline, no sideburns and a tapered neckline",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-short-hairstyles-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "faux-hawk-fade",
+    "kind": "cut",
+    "name": "Faux hawk with fade",
+    "aliases": [
+      "Fohawk",
+      "Fauxhawk"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "mohawk",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          9
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "mid",
+      "start_mm": 0.5,
+      "note": "Mid fade; the top is pushed to the middle to form a ridge."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Great with curls."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Good with twists."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use a strong matte clay to hold the ridge."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": "Ridge draws eyes upward.",
+      "note": "Hair pushed toward the centre pulls the front hairline in, so it can look fuller at stage 3-4 (blend high near the temple)."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick density holds the central ridge; fine hair needs a strong clay or paste.",
+    "glasses_note": "The fade starts above the arm; trim the hair tightly behind the ear for comfort.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "clay",
+        "gel"
+      ]
+    },
+    "grow_out": "Stops being a faux hawk in about 4 weeks as the fade grows; the top becomes a textured crop.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-goatee"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "root_lift"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "quiff",
+      "weight_removal": "high",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "wash_and_go",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "Short sides with a central ridge of hair on top, styled up. More casual than a full mohawk.",
+    "stylist": "Fade sides to #1, blend into the temple; scissor top to a central ridge. Finish with texturiser.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a faux hawk with a mid fade: the top 4-9 cm with the front at 4-9 cm pushed to the centre and styled up into a ridge, the sides and back faded from skin (#0.5) to #2 (6 mm) with the fade starting at mid-temple, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/20-haircuts-tips-for-men-with-a-receding-hairline",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.fashionbeans.com/article/mens-short-hairstyles-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-mohawk-fade",
+    "kind": "cut",
+    "name": "Curly mohawk fade",
+    "aliases": [
+      "Curl hawk",
+      "Curly fohawk"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "mohawk",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "skin",
+      "height": null,
+      "start_mm": 0,
+      "note": "Skin fade with curls left in the central strip."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited: use a faux hawk."
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "Waves of 8 cm lift with a pick.",
+        "daily": true
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the strip wider and the curls shorter."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": "Strip draws eyes upward.",
+      "note": "Hair in the centre draws attention up; ok at stage 3-4."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; the strip needs density.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        6,
+        6
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "gel"
+      ]
+    },
+    "grow_out": "Allow the sides to grow, then reshape as a curly crop in about 8 weeks.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "root_lift"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "quiff",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        6,
+        6
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Faded sides with curls rising down the middle. Loud, tall and distinctive.",
+    "stylist": "Fade the sides to skin and shape the strip with a pick and scissors; keep the front at 5-6 cm.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly mohawk with a skin fade: a central strip of natural curls 6-12 cm long and about 5 cm wide, with the front at 6-10 cm, the sides and back faded from skin to #1 (3 mm), the nape blade to #0.5, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-short-hairstyles-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

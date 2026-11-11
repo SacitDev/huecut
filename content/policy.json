@@ -1,0 +1,246 @@
+{
+  "weights": {
+    "weak": 1,
+    "moderate": 2,
+    "strong": 3
+  },
+  "count": {
+    "min": 1,
+    "default": 4,
+    "max": 8
+  },
+  "both_split": "cut_first_half",
+  "grid_max_tiles": 4,
+  "max_per_silhouette": 2,
+  "min_distinct_silhouettes_share": 0.5,
+  "low_upkeep": {
+    "max_styling_minutes": 10,
+    "min_trim_weeks": 8
+  },
+  "max_reasons": 3,
+  "reason_group_order": [
+    "B",
+    "C",
+    "D",
+    "A",
+    "E"
+  ],
+  "pool_size": 10,
+  "change_span": 2,
+  "length_span": 0.6,
+  "colour_variety": 2,
+  "upkeep_stack": 8,
+  "growth_cm_per_month": 1,
+  "suitability": {
+    "rules": {
+      "tau": 6,
+      "cap": 6
+    },
+    "texture_fit": {
+      "good": 1,
+      "adapt": 0.7,
+      "poor": 0.15
+    },
+    "density_fit": {
+      "good": 1,
+      "adapt": 0.8,
+      "poor": 0.3
+    },
+    "trim": {
+      "power": 3,
+      "floor": 0.05,
+      "miss": 0.85
+    },
+    "styling": {
+      "grace_minutes": 5,
+      "power": 3,
+      "floor": 0.2,
+      "miss": 0.6
+    },
+    "growth_weeks": 52,
+    "change": {
+      "subtle": [
+        1,
+        0.95,
+        0.6,
+        0.25
+      ],
+      "noticeable": [
+        0.75,
+        1,
+        0.9,
+        0.5
+      ],
+      "bold": [
+        0.5,
+        0.8,
+        1,
+        0.95
+      ],
+      "unknown": [
+        1,
+        1,
+        0.85,
+        0.5
+      ]
+    },
+    "frame": {
+      "balance": 0.83,
+      "jaw_balance": 0.85,
+      "sigma": 0.09,
+      "jaw_sigma": 0.14,
+      "floor": 0.25,
+      "emphasise": 0.5,
+      "no_wish_aims": [
+        "between",
+        "soften",
+        "preserve"
+      ],
+      "sides": {
+        "close": 0,
+        "medium": 0.02,
+        "full": 0.05
+      },
+      "height": {
+        "flat": 0,
+        "low": 0.03,
+        "medium": 0.07,
+        "high": 0.13
+      },
+      "length": {
+        "buzz": 0,
+        "very_short": 0,
+        "short": 0,
+        "chin": 0,
+        "bob": 0.03,
+        "shoulder": 0.05,
+        "long": 0.07,
+        "very_long": 0.08
+      },
+      "fringe": {
+        "none": 0,
+        "micro": 0.02,
+        "short_blunt": 0.1,
+        "blunt_full": 0.14,
+        "bottleneck": 0.09,
+        "wispy": 0.05,
+        "curtain": 0.05,
+        "side_swept": 0.05,
+        "long_side": 0.06,
+        "textured_forward": 0.08,
+        "curly": 0.08
+      },
+      "zones": {
+        "sides": 0.02,
+        "temples": 0.01,
+        "crown": 0.02,
+        "jaw": 0.03,
+        "ends": 0.01
+      },
+      "texture": {
+        "straight": 1,
+        "wavy": 1.15,
+        "curly": 1.35,
+        "coily": 1.5,
+        "mixed": 1.25
+      },
+      "jaw_clear": [
+        0.78,
+        0.93
+      ],
+      "thirds": {
+        "miss": 0.6,
+        "heavy_fringes": [
+          "micro",
+          "short_blunt",
+          "blunt_full",
+          "bottleneck"
+        ]
+      }
+    },
+    "colour": {
+      "tau": 2,
+      "cap": 9,
+      "lift_step": 0.03,
+      "label": {
+        "plausible": 1,
+        "uncertain": 0.5,
+        "needs_professional": 0.15
+      },
+      "harmony": {
+        "sigma": 9,
+        "lightness": 0.22,
+        "targets": {
+          "warm": 12,
+          "neutral": -3,
+          "olive": -6,
+          "cool": -14
+        }
+      }
+    },
+    "slate": {
+      "lambda": 0.7,
+      "floor": 0.5,
+      "weights": {
+        "silhouette": 3,
+        "length_class": 3,
+        "fringe": 2,
+        "height_top": 1,
+        "sides_width": 1,
+        "perimeter": 1,
+        "family": 3,
+        "base_technique": 2,
+        "warmth": 1,
+        "level_band": 2
+      }
+    },
+    "beards": {
+      "scale_mm": 190,
+      "sigma": 0.05,
+      "shown": 3,
+      "patchy": {
+        "full_mm": 12,
+        "full": 0.2,
+        "some_mm": 6,
+        "some": 0.6
+      },
+      "not_paired": 0.6,
+      "wish_note": 1.3,
+      "short_chin_mm": 20
+    },
+    "because": {
+      "trim": "You said “{said}” for trims, and this cut can go about {longest} between trims.",
+      "styling": "You said “{said}” for styling, and this cut can take as little as {fastest}.",
+      "density": "This cut is a good match for your hair density.",
+      "does": {
+        "adds_height": "adds height",
+        "keeps_top_low": "keeps the top low",
+        "sides_close": "keeps the sides close",
+        "adds_width": "adds width at the sides",
+        "fringe_line": "brings a soft line across the forehead",
+        "balanced": "keeps an even shape around the face"
+      },
+      "aim": {
+        "soften": "That is this app’s own styling preference for your proportions.",
+        "between": "That is this app’s own styling preference for your proportions.",
+        "preserve": "It keeps your own proportions, this app’s own styling preference.",
+        "emphasise": "It plays up your own proportions, this app’s own styling preference."
+      },
+      "decisive_ratio": 1.25
+    },
+    "sources": {
+      "rules": "Chosen, not measured: 6 points of rule score move the order by a factor of e; every rule that fires counts once on this scale, wishes and taste included; the bound keeps a long list of small wins from outweighing the practical fit.",
+      "texture_fit": "Chosen, not measured.",
+      "density_fit": "Chosen, not measured.",
+      "trim": "Chosen, not measured: a cut whose longest trim interval falls short of the stated one is never left out for it; it is a trade-off, offered only to complete a short list, smallest miss first, with a line that names the miss (never a promise about durability). A cut lasting half the stated interval loses a factor of 8 after a step for any miss, down to the floor.",
+      "styling": "Chosen, not measured: the 5-minute grace keeps a one-minute miss from counting much, after a step for any miss.",
+      "growth_weeks": "Chosen, not measured.",
+      "change": "Chosen, not measured; with the amount of change unknown the row stays cautious: one length class off costs nothing, two cost a little and three or more halve the fit.",
+      "frame": "House styling preference, disclosed in the app, not a claim about faces. balance is the centre of the balanced band; the sides, height and fringe tables are trade convention, chosen, not measured; texture scales what the sides, the height and the volume zones add, not the fringe or the length. The whole face (width to length, the jaw at high confidence or outside jaw_clear at medium, the forehead and lower third) shares one factor worth one moderate rule; thirds.miss is chosen, not measured. length (hair falling past the chin reads as length) and short_chin_mm are chosen, not measured.",
+      "colour": "A written policy, chosen, not measured: one moderate or strong preference outweighs the step from Plausible to Uncertain; two strong ones outweigh the step to Best done by a colourist; at equal preference and label the smaller change in level comes first. Harmony is a tie-break from a confirmed undertone.",
+      "slate": "Chosen, not measured: relevance 0.7 against diversity 0.3 after the first pick, never below half the best suitability unless the slate cannot fill.",
+      "beards": "The 190 mm face scale and the tolerance are assumptions, chosen, not measured, for a stylist to check.",
+      "because": "Written to a house rule: these lines say what the cut does, never that a face needs changing."
+    }
+  }
+}

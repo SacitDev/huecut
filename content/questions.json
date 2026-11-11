@@ -1,0 +1,2995 @@
+{
+  "questions": [
+    {
+      "id": "colour-natural-level",
+      "fact": "colour.natural_level",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "What colour does your hair grow at the roots, before any dye?",
+      "help": "Look at new growth. Between two? Choose the darker. If you have grey, go by the darkest hair you see. These shades are a guide, not a measurement.",
+      "options": [
+        {
+          "value": 1,
+          "label": "Black",
+          "illustration": "q-swatch-1"
+        },
+        {
+          "value": 2,
+          "label": "Very dark brown or off-black",
+          "illustration": "q-swatch-2"
+        },
+        {
+          "value": 3,
+          "label": "Dark brown",
+          "illustration": "q-swatch-3"
+        },
+        {
+          "value": 4,
+          "label": "Medium brown",
+          "illustration": "q-swatch-4"
+        },
+        {
+          "value": 5,
+          "label": "Light brown",
+          "illustration": "q-swatch-5"
+        },
+        {
+          "value": 6,
+          "label": "Dark blonde",
+          "illustration": "q-swatch-6"
+        },
+        {
+          "value": 7,
+          "label": "Medium blonde",
+          "illustration": "q-swatch-7"
+        },
+        {
+          "value": 8,
+          "label": "Light blonde",
+          "illustration": "q-swatch-8"
+        },
+        {
+          "value": 9,
+          "label": "Very light blonde",
+          "illustration": "q-swatch-9"
+        },
+        {
+          "value": 10,
+          "label": "Pale or platinum natural blonde",
+          "illustration": "q-swatch-10"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "colour-current-level-lengths",
+      "fact": "colour.current_level_lengths",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How light or dark is the rest of your hair today, away from the roots?",
+      "help": "Sun and dye can change it. Between two? Choose the darker. These shades are a guide, not a measurement.",
+      "show_if": {
+        "hair.chemical_history": {
+          "not": [
+            "none"
+          ]
+        }
+      },
+      "options": [
+        {
+          "value": 1,
+          "label": "Black or very dark",
+          "illustration": "q-swatch-1"
+        },
+        {
+          "value": 3,
+          "label": "Dark brown to medium brown",
+          "illustration": "q-swatch-3"
+        },
+        {
+          "value": 5,
+          "label": "Light brown to dark blonde",
+          "illustration": "q-swatch-5"
+        },
+        {
+          "value": 7,
+          "label": "Medium to light blonde",
+          "illustration": "q-swatch-7"
+        },
+        {
+          "value": 9,
+          "label": "Very light or near white",
+          "illustration": "q-swatch-9"
+        },
+        {
+          "value": null,
+          "label": "It varies a lot, or not sure"
+        }
+      ]
+    },
+    {
+      "id": "colour-current-tone",
+      "fact": "colour.current_tone",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "What tone does your hair have today?",
+      "help": "Think of how it looks in daylight.",
+      "options": [
+        {
+          "value": "warm",
+          "label": "Warm, golden or yellow",
+          "illustration": "q-swatch-tone-warm"
+        },
+        {
+          "value": "copper",
+          "label": "Orange, copper or red",
+          "illustration": "q-swatch-tone-copper"
+        },
+        {
+          "value": "neutral",
+          "label": "Neutral",
+          "illustration": "q-swatch-tone-neutral"
+        },
+        {
+          "value": "cool",
+          "label": "Cool, ash or grey",
+          "illustration": "q-swatch-tone-cool"
+        },
+        {
+          "value": "brassy",
+          "label": "Faded or brassy",
+          "illustration": "q-swatch-tone-brassy"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-chemical-history",
+      "fact": "hair.chemical_history",
+      "type": "multi",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Which of these have been on your hair in the last 2-3 years, or are still in it?",
+      "help": "Tick everything that applies. Long hair can still hold colour from years ago, so count anything that has not been cut off yet.",
+      "options": [
+        {
+          "value": "none",
+          "label": "Nothing, natural hair"
+        },
+        {
+          "value": "home_dye",
+          "label": "Home dye or box dye, any kind"
+        },
+        {
+          "value": "home_dark_dye",
+          "label": "Home dye in black or very dark"
+        },
+        {
+          "value": "salon_colour",
+          "label": "Colour done at a salon"
+        },
+        {
+          "value": "bleach",
+          "label": "Bleach or lightener"
+        },
+        {
+          "value": "highlights",
+          "label": "Highlights or balayage (lighter streaks)"
+        },
+        {
+          "value": "vivid",
+          "label": "Bright colour, such as pink or blue"
+        },
+        {
+          "value": "colour_remover",
+          "label": "Colour remover, to take dye out"
+        },
+        {
+          "value": "henna_plant",
+          "label": "Plant henna (red-orange powder)"
+        },
+        {
+          "value": "henna_compound",
+          "label": "Black or coloured henna, or a product that darkens grey"
+        },
+        {
+          "value": "relaxer_perm",
+          "label": "Perm, relaxer or chemical straightening"
+        },
+        {
+          "value": "keratin",
+          "label": "Keratin or smoothing treatment"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "colour-last-dye",
+      "fact": "colour.last_dye",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "When was your last colour or bleach?",
+      "options": [
+        {
+          "value": "weeks_0_2",
+          "label": "Under 2 weeks ago"
+        },
+        {
+          "value": "weeks_2_8",
+          "label": "2-8 weeks ago"
+        },
+        {
+          "value": "months_2_6",
+          "label": "2-6 months ago"
+        },
+        {
+          "value": "months_6_plus",
+          "label": "More than 6 months ago"
+        },
+        {
+          "value": "never",
+          "label": "Never coloured"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "colour-last-chemical-service",
+      "fact": "colour.last_chemical_service",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "When did you last have a perm, relaxer, keratin or other straightening?",
+      "show_if": {
+        "hair.chemical_history": {
+          "in": [
+            "relaxer_perm",
+            "keratin"
+          ]
+        }
+      },
+      "options": [
+        {
+          "value": "weeks_0_2",
+          "label": "Under 2 weeks ago"
+        },
+        {
+          "value": "weeks_2_8",
+          "label": "2-8 weeks ago"
+        },
+        {
+          "value": "months_2_6",
+          "label": "2-6 months ago"
+        },
+        {
+          "value": "months_6_plus",
+          "label": "More than 6 months ago"
+        },
+        {
+          "value": "never",
+          "label": "Never"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "colour-bleach-count",
+      "fact": "colour.bleach_count",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How many times have the lengths you have now been bleached or lightened?",
+      "help": "Count highlights and balayage too, but not hair that has since been cut off.",
+      "show_if": {
+        "hair.chemical_history": {
+          "in": [
+            "bleach",
+            "highlights",
+            "vivid",
+            "colour_remover"
+          ]
+        }
+      },
+      "options": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 1,
+          "label": "Once"
+        },
+        {
+          "value": 3,
+          "label": "2-3 times"
+        },
+        {
+          "value": 4,
+          "label": "4 or more"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "colour-henna-type",
+      "fact": "colour.henna_type",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "If you used henna: what kind?",
+      "help": "Asked when there may be henna on your hair. A black henna tattoo has its own question.",
+      "show_if": {
+        "hair.chemical_history": {
+          "in": [
+            "henna_plant",
+            "henna_compound"
+          ]
+        }
+      },
+      "options": [
+        {
+          "value": "plant",
+          "label": "Plant henna, red-orange powder"
+        },
+        {
+          "value": "compound",
+          "label": "A coloured or \"black\" henna product"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-condition",
+      "fact": "hair.condition",
+      "type": "single",
+      "goals": [
+        "cut",
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How is your hair feeling at the moment?",
+      "help": "Damaged means it breaks or snaps easily, feels gummy or stretchy when wet, or colour will not hold. Dry means rough, straw-like or with lots of split ends.",
+      "options": [
+        {
+          "value": "healthy",
+          "label": "Healthy, it behaves well"
+        },
+        {
+          "value": "dry",
+          "label": "Dry, rough or with split ends"
+        },
+        {
+          "value": "damaged",
+          "label": "Damaged: breaks, feels gummy or will not hold colour"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-texture",
+      "fact": "hair.texture",
+      "type": "single",
+      "goals": [
+        "cut",
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How does your hair dry if you leave it alone?",
+      "help": "Let it dry with no products. Go by most of your hair. Straight falls flat, wavy bends in loose S shapes, curly makes loops, coily makes tight zigzags or tiny coils.",
+      "options": [
+        {
+          "value": "straight",
+          "label": "Straight",
+          "illustration": "q-texture-straight"
+        },
+        {
+          "value": "wavy",
+          "label": "Wavy",
+          "illustration": "q-texture-wavy"
+        },
+        {
+          "value": "curly",
+          "label": "Curly",
+          "illustration": "q-texture-curly"
+        },
+        {
+          "value": "coily",
+          "label": "Coily",
+          "illustration": "q-texture-coily"
+        },
+        {
+          "value": "mixed",
+          "label": "A mix"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-strand",
+      "fact": "hair.strand",
+      "type": "single",
+      "goals": [
+        "cut",
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How thick are your individual strands?",
+      "help": "Roll one hair between your fingers: fine is hard to feel, coarse feels like thread.",
+      "options": [
+        {
+          "value": "fine",
+          "label": "Fine",
+          "illustration": "q-strand-fine"
+        },
+        {
+          "value": "medium",
+          "label": "Medium",
+          "illustration": "q-strand-medium"
+        },
+        {
+          "value": "coarse",
+          "label": "Coarse",
+          "illustration": "q-strand-coarse"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "grey-amount",
+      "fact": "colour.grey_percent",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How much grey or white hair do you have, roughly?",
+      "help": "Roots and all over combined.",
+      "options": [
+        {
+          "value": 0,
+          "label": "None",
+          "illustration": "q-swatch-grey-0"
+        },
+        {
+          "value": 5,
+          "label": "A few strands, up to about 10%",
+          "illustration": "q-swatch-grey-10",
+          "follow_up": "colour-grey-goal"
+        },
+        {
+          "value": 20,
+          "label": "Some, about 10-30%",
+          "illustration": "q-swatch-grey-20",
+          "follow_up": "colour-grey-goal"
+        },
+        {
+          "value": 40,
+          "label": "A fair amount, about 30-50%",
+          "illustration": "q-swatch-grey-40",
+          "follow_up": "colour-grey-goal"
+        },
+        {
+          "value": 62.5,
+          "label": "Mostly grey, about 50-75%",
+          "illustration": "q-swatch-grey-60",
+          "follow_up": "colour-grey-goal"
+        },
+        {
+          "value": 87.5,
+          "label": "Almost all grey or white",
+          "illustration": "q-swatch-grey-90",
+          "follow_up": "colour-grey-goal"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "colour-grey-goal",
+      "fact": "colour.grey_goal",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "What would you like to do about grey?",
+      "show_if": {
+        "colour.grey_percent": {
+          "range": [
+            1,
+            100
+          ]
+        }
+      },
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cover it fully",
+          "illustration": "q-swatch-grey-goal-cover"
+        },
+        {
+          "value": "blend",
+          "label": "Blend it softly",
+          "illustration": "q-swatch-grey-goal-blend"
+        },
+        {
+          "value": "embrace",
+          "label": "Show it, make it look intentional",
+          "illustration": "q-swatch-grey-goal-embrace"
+        },
+        {
+          "value": "silver",
+          "label": "Move to silver or white",
+          "illustration": "q-swatch-grey-goal-silver"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "colour-grey-texture",
+      "fact": "colour.grey_texture",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Does your grey feel different from the rest of your hair?",
+      "show_if": {
+        "colour.grey_percent": {
+          "range": [
+            1,
+            100
+          ]
+        }
+      },
+      "options": [
+        {
+          "value": "same",
+          "label": "Same as the rest"
+        },
+        {
+          "value": "wiry",
+          "label": "Wirier or coarser"
+        },
+        {
+          "value": "dry",
+          "label": "Drier or frizzier"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "look-skin-depth",
+      "fact": "look.skin_depth",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How would you describe your skin depth?",
+      "help": "Choose the closest. There is no right or wrong answer.",
+      "options": [
+        {
+          "value": "very_light",
+          "label": "Very light",
+          "illustration": "q-swatch-skin-very-light"
+        },
+        {
+          "value": "light",
+          "label": "Light",
+          "illustration": "q-swatch-skin-light"
+        },
+        {
+          "value": "medium",
+          "label": "Medium",
+          "illustration": "q-swatch-skin-medium"
+        },
+        {
+          "value": "tan_olive",
+          "label": "Tan or olive",
+          "illustration": "q-swatch-skin-tan-olive"
+        },
+        {
+          "value": "deep",
+          "label": "Deep",
+          "illustration": "q-swatch-skin-deep"
+        },
+        {
+          "value": "very_deep",
+          "label": "Very deep",
+          "illustration": "q-swatch-skin-very-deep"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "look-undertone",
+      "fact": "look.undertone",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Does your skin lean warm, cool or neutral?",
+      "help": "Rough clues: gold jewellery tends to suit warm skin and silver cool skin. Veins on the inner wrist look greener on warm skin and bluer on cool skin. Skin that tans easily often leans warm. Your own answer is what we use.",
+      "options": [
+        {
+          "value": "warm",
+          "label": "Warm",
+          "illustration": "q-swatch-undertone-warm"
+        },
+        {
+          "value": "cool",
+          "label": "Cool",
+          "illustration": "q-swatch-undertone-cool"
+        },
+        {
+          "value": "neutral",
+          "label": "Neutral",
+          "illustration": "q-swatch-undertone-neutral"
+        },
+        {
+          "value": "olive",
+          "label": "Olive",
+          "illustration": "q-swatch-undertone-olive"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "look-eye-colour",
+      "fact": "look.eye_colour",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "What is your eye colour?",
+      "options": [
+        {
+          "value": "dark_brown",
+          "label": "Dark brown",
+          "illustration": "q-swatch-eye-dark-brown"
+        },
+        {
+          "value": "light_brown",
+          "label": "Light brown or amber",
+          "illustration": "q-swatch-eye-light-brown"
+        },
+        {
+          "value": "hazel",
+          "label": "Hazel",
+          "illustration": "q-swatch-eye-hazel"
+        },
+        {
+          "value": "green",
+          "label": "Green",
+          "illustration": "q-swatch-eye-green"
+        },
+        {
+          "value": "blue",
+          "label": "Blue",
+          "illustration": "q-swatch-eye-blue"
+        },
+        {
+          "value": "grey",
+          "label": "Grey",
+          "illustration": "q-swatch-eye-grey"
+        },
+        {
+          "value": "other",
+          "label": "Other or it varies"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "pref-colour-direction",
+      "fact": "pref.colour_direction",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "What would you like your colour to do?",
+      "options": [
+        {
+          "value": "lighter",
+          "label": "Go lighter",
+          "illustration": "q-swatch-direction-lighter",
+          "follow_up": "colour-wanted"
+        },
+        {
+          "value": "darker",
+          "label": "Go darker",
+          "illustration": "q-swatch-direction-darker",
+          "follow_up": "colour-wanted"
+        },
+        {
+          "value": "tone",
+          "label": "Same depth, warmer or cooler",
+          "illustration": "q-swatch-direction-tone",
+          "follow_up": "colour-wanted"
+        },
+        {
+          "value": "refresh",
+          "label": "Refresh what I have",
+          "illustration": "q-swatch-direction-refresh"
+        },
+        {
+          "value": "grey",
+          "label": "Cover or blend my grey",
+          "illustration": "q-swatch-direction-grey",
+          "follow_up": "colour-grey-goal"
+        },
+        {
+          "value": "vivid",
+          "label": "Try a bright colour",
+          "illustration": "q-swatch-direction-vivid"
+        },
+        {
+          "value": "natural",
+          "label": "Go back to my natural colour",
+          "illustration": "q-swatch-direction-natural"
+        },
+        {
+          "value": null,
+          "label": "Not sure, show me ideas",
+          "follow_up": "colour-wanted"
+        }
+      ]
+    },
+    {
+      "id": "colour-wanted",
+      "fact": "pref.colour_family",
+      "type": "multi",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Which is closest to what you have in mind?",
+      "help": "Tap one or two.",
+      "max": 2,
+      "options": [
+        {
+          "value": "blonde",
+          "label": "Blonde",
+          "illustration": "q-swatch-family-blonde"
+        },
+        {
+          "value": "brunette",
+          "label": "Brown",
+          "illustration": "q-swatch-family-brunette"
+        },
+        {
+          "value": "red_copper",
+          "label": "Red or copper",
+          "illustration": "q-swatch-family-red-copper",
+          "note": {
+            "barbering": "We have no men's looks in this colour yet."
+          }
+        },
+        {
+          "value": "black",
+          "label": "Black",
+          "illustration": "q-swatch-family-black"
+        },
+        {
+          "value": "grey_silver",
+          "label": "Grey or silver",
+          "illustration": "q-swatch-family-grey-silver"
+        },
+        {
+          "value": null,
+          "label": "Any, or not sure"
+        }
+      ]
+    },
+    {
+      "id": "pref-change-amount",
+      "fact": "pref.change_amount",
+      "type": "single",
+      "goals": [
+        "cut",
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How different do you want to look?",
+      "options": [
+        {
+          "value": "subtle",
+          "label": "Much the same, just fresher"
+        },
+        {
+          "value": "noticeable",
+          "label": "Clearly different, still easy to wear"
+        },
+        {
+          "value": "bold",
+          "label": "A big change"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "pref-colour-upkeep",
+      "fact": "pref.colour_upkeep",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How often are you willing to visit a salon for colour?",
+      "options": [
+        {
+          "value": "high",
+          "label": "Every 6 weeks or more often"
+        },
+        {
+          "value": "medium",
+          "label": "Every 7-11 weeks"
+        },
+        {
+          "value": "low",
+          "label": "Every 3 months or less often"
+        },
+        {
+          "value": "home_only",
+          "label": "I would rather do it at home"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "pref-budget",
+      "fact": "pref.budget",
+      "type": "single",
+      "goals": [
+        "cut",
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "What budget per visit feels right?",
+      "help": "Compared with what you usually spend on a visit.",
+      "options": [
+        {
+          "value": "low",
+          "label": "Keep it low"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "high",
+          "label": "Happy to invest"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "dye-reaction",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Has hair dye or a black henna tattoo ever made your skin react? And is your scalp sore now?",
+      "help": "Redness, a rash, itching, swelling, blisters or trouble breathing are all reactions.",
+      "options": [
+        {
+          "label": "No reaction, and my scalp is fine",
+          "sets": {
+            "safety.dye_reaction": "none",
+            "safety.scalp_irritation": "none"
+          },
+          "follow_up": "henna-tattoo"
+        },
+        {
+          "label": "No reaction, but my scalp is sore, itchy, sunburnt or broken now",
+          "sets": {
+            "safety.dye_reaction": "none",
+            "safety.scalp_irritation": "now"
+          },
+          "follow_up": "henna-tattoo"
+        },
+        {
+          "label": "Yes, a mild reaction",
+          "sets": {
+            "safety.dye_reaction": "mild"
+          },
+          "follow_up": "henna-tattoo"
+        },
+        {
+          "label": "Yes, a serious reaction",
+          "sets": {
+            "safety.dye_reaction": "serious"
+          },
+          "follow_up": "henna-tattoo"
+        },
+        {
+          "value": null,
+          "label": "Not sure",
+          "follow_up": "henna-tattoo"
+        }
+      ]
+    },
+    {
+      "id": "henna-tattoo",
+      "fact": "safety.henna_tattoo",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Have you ever had a black henna tattoo?",
+      "help": "A black henna tattoo is a painted tattoo that fades in a few weeks. It can make a reaction to hair dye more likely.",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "safety-health-context",
+      "fact": "safety.health_context",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Is any of this true right now: pregnant, breastfeeding or medical treatment?",
+      "help": "You can skip this. We don't give medical advice.",
+      "options": [
+        {
+          "value": false,
+          "label": "None of these"
+        },
+        {
+          "value": true,
+          "label": "One or more apply"
+        },
+        {
+          "value": null,
+          "label": "Skip"
+        }
+      ]
+    },
+    {
+      "id": "hair-current-length",
+      "fact": "hair.current_length",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How far does your hair reach when you gently pull it straight?",
+      "help": "Go by the longest part. Curls count stretched out.",
+      "options": [
+        {
+          "value": "very_short",
+          "label": "A few centimetres",
+          "illustration": "q-length-very-short",
+          "follow_up": "life-grow-out-goal"
+        },
+        {
+          "value": "short",
+          "label": "Above my chin",
+          "illustration": "q-length-short",
+          "follow_up": "life-grow-out-goal"
+        },
+        {
+          "value": "chin",
+          "label": "To my chin",
+          "illustration": "q-length-chin",
+          "follow_up": "life-grow-out-goal"
+        },
+        {
+          "value": "shoulder",
+          "label": "To my shoulders",
+          "illustration": "q-length-shoulder",
+          "follow_up": "life-grow-out-goal"
+        },
+        {
+          "value": "long",
+          "label": "Past my shoulders",
+          "illustration": "q-length-long",
+          "follow_up": "life-grow-out-goal"
+        },
+        {
+          "value": "very_long",
+          "label": "Halfway down my back or longer",
+          "illustration": "q-length-very-long",
+          "follow_up": "life-grow-out-goal"
+        },
+        {
+          "value": null,
+          "label": "Not sure",
+          "follow_up": "life-grow-out-goal"
+        }
+      ]
+    },
+    {
+      "id": "hair-resting-length",
+      "fact": "hair.resting_length",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Now where does it sit when it is dry and you leave it alone?",
+      "help": "Curls spring up, so this is often shorter. Don't pull it.",
+      "show_if": {
+        "hair.texture": {
+          "in": [
+            "curly",
+            "coily"
+          ]
+        },
+        "hair.current_length": {
+          "not": [
+            "very_short"
+          ]
+        }
+      },
+      "options": [
+        {
+          "value": "very_short",
+          "label": "A few centimetres",
+          "illustration": "q-length-very-short"
+        },
+        {
+          "value": "short",
+          "label": "Above my chin",
+          "illustration": "q-length-short"
+        },
+        {
+          "value": "chin",
+          "label": "To my chin",
+          "illustration": "q-length-chin"
+        },
+        {
+          "value": "shoulder",
+          "label": "To my shoulders",
+          "illustration": "q-length-shoulder"
+        },
+        {
+          "value": "long",
+          "label": "Past my shoulders",
+          "illustration": "q-length-long"
+        },
+        {
+          "value": "very_long",
+          "label": "Halfway down my back or longer",
+          "illustration": "q-length-very-long"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "taste-cuts",
+      "fact": "wish.liked_cuts",
+      "type": "multi",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Tap the looks you like.",
+      "help": "Pick up to 3, or none. Don't worry about whether they would suit you.",
+      "max": 3,
+      "options": [
+        {
+          "value": "classic-pixie",
+          "label": "Classic pixie",
+          "picture": {
+            "salon": "salon-straight-wavy/classic-pixie-front"
+          }
+        },
+        {
+          "value": "french-bob",
+          "label": "French bob",
+          "picture": {
+            "salon": "salon-straight-wavy/french-bob-front"
+          }
+        },
+        {
+          "value": "collarbone-lob-blunt",
+          "label": "Blunt collarbone lob",
+          "picture": {
+            "salon": "salon-straight-wavy/collarbone-lob-blunt-front"
+          }
+        },
+        {
+          "value": "classic-shag",
+          "label": "Classic 70s shag",
+          "picture": {
+            "salon": "salon-straight-wavy/classic-shag-front"
+          }
+        },
+        {
+          "value": "long-u-layers",
+          "label": "Long U-shape layers",
+          "picture": {
+            "salon": "salon-straight-wavy/long-u-layers-front"
+          }
+        },
+        {
+          "value": "long-wolf-cut",
+          "label": "Long wolf cut",
+          "picture": {
+            "salon": "salon-straight-wavy/long-wolf-cut-front"
+          }
+        },
+        {
+          "value": "tapered-twa",
+          "label": "Tapered TWA",
+          "picture": {
+            "salon": "salon-curly-coily/tapered-twa-front"
+          }
+        },
+        {
+          "value": "shaped-round-afro",
+          "label": "Shaped round afro",
+          "picture": {
+            "salon": "salon-curly-coily/shaped-round-afro-front"
+          }
+        },
+        {
+          "value": "curly-bob-rounded",
+          "label": "Rounded curly bob",
+          "picture": {
+            "salon": "salon-curly-coily/curly-bob-rounded-front"
+          }
+        },
+        {
+          "value": "curly-lob-rounded",
+          "label": "Rounded curly lob",
+          "picture": {
+            "salon": "salon-curly-coily/curly-lob-rounded-front"
+          }
+        },
+        {
+          "value": "curly-long-shag",
+          "label": "Curly long shag",
+          "picture": {
+            "salon": "salon-curly-coily/curly-long-shag-front"
+          }
+        },
+        {
+          "value": "long-curly-wolf-cut",
+          "label": "Long curly wolf cut",
+          "picture": {
+            "salon": "salon-curly-coily/long-curly-wolf-cut-front"
+          }
+        },
+        {
+          "value": "buzz-tapered",
+          "label": "Tapered buzz cut",
+          "picture": {
+            "barbering": "barbering-straight-wavy/buzz-tapered-front"
+          }
+        },
+        {
+          "value": "textured-crop-low-taper",
+          "label": "Textured crop with low taper",
+          "picture": {
+            "barbering": "barbering-straight-wavy/textured-crop-low-taper-front"
+          }
+        },
+        {
+          "value": "side-part-classic",
+          "label": "Classic side part",
+          "picture": {
+            "barbering": "barbering-straight-wavy/side-part-classic-front"
+          }
+        },
+        {
+          "value": "quiff-classic",
+          "label": "Classic quiff",
+          "picture": {
+            "barbering": "barbering-straight-wavy/quiff-classic-front"
+          }
+        },
+        {
+          "value": "flow-medium",
+          "label": "Medium flow",
+          "picture": {
+            "barbering": "barbering-straight-wavy/flow-medium-front"
+          }
+        },
+        {
+          "value": "curtains-middle-part",
+          "label": "Curtains (middle part)",
+          "picture": {
+            "barbering": "barbering-straight-wavy/curtains-middle-part-front"
+          }
+        },
+        {
+          "value": "curly-taper-defined",
+          "label": "Taper with defined curls",
+          "picture": {
+            "barbering": "barbering-curly-coily/curly-taper-defined-front"
+          }
+        },
+        {
+          "value": "afro-taper-round",
+          "label": "Rounded afro with taper",
+          "picture": {
+            "barbering": "barbering-curly-coily/afro-taper-round-front"
+          }
+        },
+        {
+          "value": "curly-quiff",
+          "label": "Curly quiff",
+          "picture": {
+            "barbering": "barbering-curly-coily/curly-quiff-front"
+          }
+        },
+        {
+          "value": "short-twists-fade",
+          "label": "Short twists with fade",
+          "picture": {
+            "barbering": "barbering-curly-coily/short-twists-fade-front"
+          }
+        },
+        {
+          "value": "curly-flow",
+          "label": "Curly flow",
+          "picture": {
+            "barbering": "barbering-curly-coily/curly-flow-front"
+          }
+        },
+        {
+          "value": "waves-360",
+          "label": "360 waves",
+          "picture": {
+            "barbering": "barbering-curly-coily/waves-360-front"
+          }
+        },
+        {
+          "value": null,
+          "label": "None of these, or not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-density",
+      "fact": "hair.density",
+      "type": "single",
+      "goals": [
+        "cut",
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How much hair do you have?",
+      "help": "Part your hair or pull it back in good light: if the scalp shows easily, choose less hair. If your hair is very short, think of how thick it grows when longer.",
+      "options": [
+        {
+          "value": "low",
+          "label": "Less hair, the scalp shows easily",
+          "illustration": "q-density-low",
+          "follow_up": "hair-strand"
+        },
+        {
+          "value": "medium",
+          "label": "In between",
+          "illustration": "q-density-medium",
+          "follow_up": "hair-strand"
+        },
+        {
+          "value": "high",
+          "label": "A lot of hair",
+          "illustration": "q-density-high",
+          "follow_up": "hair-strand"
+        },
+        {
+          "value": null,
+          "label": "Not sure",
+          "follow_up": "hair-strand"
+        }
+      ]
+    },
+    {
+      "id": "styling-time",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How long do you want to spend on your hair each day?",
+      "options": [
+        {
+          "label": "Wash and go, about 5 minutes",
+          "sets": {
+            "life.styling_minutes": 7
+          },
+          "follow_up": "trim-interval"
+        },
+        {
+          "label": "About 10 minutes",
+          "sets": {
+            "life.styling_minutes": 12
+          },
+          "follow_up": "trim-interval"
+        },
+        {
+          "label": "Up to 20 minutes",
+          "sets": {
+            "life.styling_minutes": 20
+          },
+          "follow_up": "trim-interval"
+        },
+        {
+          "label": "I enjoy styling, as long as it takes",
+          "sets": {
+            "life.styling_minutes": 60,
+            "life.enjoys_styling": true
+          },
+          "follow_up": "trim-interval"
+        },
+        {
+          "value": null,
+          "label": "Not sure",
+          "follow_up": "trim-interval"
+        }
+      ]
+    },
+    {
+      "id": "trim-interval",
+      "fact": "life.trim_weeks_ok",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How often do you want a cut or a trim?",
+      "options": [
+        {
+          "value": 2,
+          "label": "Every 2 to 4 weeks"
+        },
+        {
+          "value": 4,
+          "label": "Every 4 to 6 weeks"
+        },
+        {
+          "value": 6,
+          "label": "Every 6 to 8 weeks"
+        },
+        {
+          "value": 12,
+          "label": "About every 3 months"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "pref-fringe",
+      "fact": "pref.fringe",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Would you like a fringe?",
+      "options": [
+        {
+          "value": "want",
+          "label": "Yes, I would like one",
+          "picture": {
+            "salon": "salon-straight-wavy/blunt-full-fringe-long-front",
+            "barbering": "barbering-straight-wavy/textured-crop-low-taper-front"
+          }
+        },
+        {
+          "value": "open",
+          "label": "Maybe, show me some",
+          "picture": {
+            "salon": "salon-straight-wavy/long-curtain-layers-front",
+            "barbering": "barbering-straight-wavy/curtains-middle-part-front"
+          }
+        },
+        {
+          "value": "avoid",
+          "label": "No fringe, please",
+          "picture": {
+            "salon": "salon-straight-wavy/long-u-layers-front",
+            "barbering": "barbering-straight-wavy/quiff-classic-front"
+          }
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ],
+      "help": "A fringe (bangs) is hair cut to fall over your forehead."
+    },
+    {
+      "id": "pref-top-length",
+      "fact": "pref.top_length",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "barbering"
+      ],
+      "prompt": "How long would you like the hair on top?",
+      "options": [
+        {
+          "value": "very_short",
+          "label": "Very short, clipper length",
+          "picture": {
+            "barbering": "barbering-straight-wavy/buzz-tapered-front"
+          }
+        },
+        {
+          "value": "short",
+          "label": "Short, up to about 5 cm",
+          "picture": {
+            "barbering": "barbering-straight-wavy/textured-crop-low-taper-front"
+          }
+        },
+        {
+          "value": "medium",
+          "label": "Medium, about 5-10 cm",
+          "picture": {
+            "barbering": "barbering-straight-wavy/quiff-classic-front"
+          }
+        },
+        {
+          "value": "long",
+          "label": "Long, over 10 cm",
+          "picture": {
+            "barbering": "barbering-straight-wavy/flow-medium-front"
+          }
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ],
+      "help": "A finger is about 7 cm long."
+    },
+    {
+      "id": "pref-hard-lineup",
+      "fact": "pref.hard_lineup",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "barbering"
+      ],
+      "prompt": "Would you like a sharp line-up at the front?",
+      "help": "A line-up is a crisp, squared edge cut along the hairline.",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "look-glasses",
+      "fact": "look.glasses",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Do you wear glasses?",
+      "options": [
+        {
+          "value": "none",
+          "label": "No"
+        },
+        {
+          "value": "sometimes",
+          "label": "Sometimes"
+        },
+        {
+          "value": "daily",
+          "label": "Every day"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "look-glasses-frame",
+      "fact": "look.glasses_frame",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "What kind of frames do you wear most?",
+      "show_if": {
+        "look.glasses": {
+          "is": "daily"
+        }
+      },
+      "options": [
+        {
+          "value": "bold",
+          "label": "Bold or thick frames",
+          "illustration": "q-glasses-bold"
+        },
+        {
+          "value": "thin",
+          "label": "Thin or half-rim frames",
+          "illustration": "q-glasses-thin"
+        },
+        {
+          "value": "rimless",
+          "label": "Rimless",
+          "illustration": "q-glasses-rimless"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "beard-style",
+      "fact": "beard.style",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "barbering"
+      ],
+      "prompt": "What facial hair do you have now?",
+      "options": [
+        {
+          "value": "none",
+          "label": "Clean shaven, or only a moustache or goatee",
+          "illustration": "q-beard-none"
+        },
+        {
+          "value": "stubble",
+          "label": "Stubble",
+          "illustration": "q-beard-stubble"
+        },
+        {
+          "value": "short",
+          "label": "A short beard",
+          "illustration": "q-beard-short"
+        },
+        {
+          "value": "medium",
+          "label": "A medium beard",
+          "illustration": "q-beard-medium"
+        },
+        {
+          "value": "full",
+          "label": "A full beard",
+          "illustration": "q-beard-full"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "beard-density",
+      "fact": "beard.density",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "barbering"
+      ],
+      "prompt": "How does your beard grow?",
+      "show_if": {
+        "beard.style": {
+          "not": [
+            "none"
+          ]
+        }
+      },
+      "options": [
+        {
+          "value": "even",
+          "label": "Evenly",
+          "illustration": "q-beard-short"
+        },
+        {
+          "value": "patchy",
+          "label": "With gaps or patches",
+          "illustration": "q-beard-patchy"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "beard-texture",
+      "fact": "beard.texture",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "barbering"
+      ],
+      "prompt": "What is your beard hair like?",
+      "show_if": {
+        "beard.style": {
+          "not": [
+            "none"
+          ]
+        }
+      },
+      "options": [
+        {
+          "value": "straight",
+          "label": "Straight",
+          "illustration": "q-beard-texture-straight"
+        },
+        {
+          "value": "wavy",
+          "label": "Wavy",
+          "illustration": "q-beard-texture-wavy"
+        },
+        {
+          "value": "curly",
+          "label": "Curly",
+          "illustration": "q-beard-texture-curly"
+        },
+        {
+          "value": "coily",
+          "label": "Tightly coiled",
+          "illustration": "q-beard-texture-coily"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "beard-shave-close",
+      "fact": "beard.shave_close",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "barbering"
+      ],
+      "prompt": "Do you like a very close shave on the cheeks or neck?",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "head-occiput",
+      "fact": "head.occiput",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "What is the back of your head like?",
+      "help": "Feel the back of your head above the neck, or ask someone to look from the side.",
+      "options": [
+        {
+          "value": "flat",
+          "label": "Fairly flat",
+          "illustration": "q-occiput-flat"
+        },
+        {
+          "value": "rounded",
+          "label": "Gently rounded",
+          "illustration": "q-occiput-rounded"
+        },
+        {
+          "value": "prominent",
+          "label": "Clearly rounded out",
+          "illustration": "q-occiput-prominent"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "head-crown-shape",
+      "fact": "head.crown_shape",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Is the top of your head flat or rounded?",
+      "options": [
+        {
+          "value": "flat",
+          "label": "Fairly flat",
+          "illustration": "q-crown-flat"
+        },
+        {
+          "value": "rounded",
+          "label": "Rounded",
+          "illustration": "q-crown-rounded"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-cowlick-front",
+      "fact": "hair.cowlick_front",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Does the hair at your front hairline grow in a swirl or stand up on its own?",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-cowlick-nape",
+      "fact": "hair.cowlick_nape",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Does the hair at the nape of your neck grow upwards or to one side?",
+      "help": "Feel it with your fingers, or ask someone to look.",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-crown-whorl",
+      "fact": "hair.crown_whorl",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How does the hair grow at your crown?",
+      "help": "Use a photo from above, or ask someone to look.",
+      "options": [
+        {
+          "value": "none",
+          "label": "No clear swirl",
+          "illustration": "q-whorl-none"
+        },
+        {
+          "value": "single",
+          "label": "One swirl",
+          "illustration": "q-whorl-single"
+        },
+        {
+          "value": "double",
+          "label": "Two swirls",
+          "illustration": "q-whorl-double"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-part-side",
+      "fact": "hair.part_side",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Where does your hair part on its own?",
+      "options": [
+        {
+          "value": "left",
+          "label": "On the left",
+          "illustration": "q-part-left"
+        },
+        {
+          "value": "right",
+          "label": "On the right",
+          "illustration": "q-part-right"
+        },
+        {
+          "value": "centre",
+          "label": "In the centre",
+          "illustration": "q-part-centre"
+        },
+        {
+          "value": "none",
+          "label": "It does not part",
+          "illustration": "q-part-none"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-hairline-shape",
+      "fact": "hair.hairline_shape",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Which drawing is closest to your front hairline?",
+      "options": [
+        {
+          "value": "straight",
+          "label": "Straight across",
+          "illustration": "q-hairline-straight"
+        },
+        {
+          "value": "rounded",
+          "label": "Rounded",
+          "illustration": "q-hairline-rounded"
+        },
+        {
+          "value": "widows_peak",
+          "label": "A point in the middle",
+          "illustration": "q-hairline-peak"
+        },
+        {
+          "value": "m_shape",
+          "label": "Higher at the temples",
+          "illustration": "q-hairline-m"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-recession-stage",
+      "fact": "hair.recession_stage",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "barbering"
+      ],
+      "prompt": "Which drawing is closest to your hairline and crown?",
+      "help": "Look straight into a mirror, or use a photo from above.",
+      "options": [
+        {
+          "value": 1,
+          "label": "Full hairline",
+          "illustration": "q-recession-1"
+        },
+        {
+          "value": 2,
+          "label": "A little higher at the temples",
+          "illustration": "q-recession-2"
+        },
+        {
+          "value": 3,
+          "label": "Clearly higher at the temples",
+          "illustration": "q-recession-3",
+          "follow_up": "wish-hairline"
+        },
+        {
+          "value": 4,
+          "label": "Higher at the temples, a small thin patch on the crown",
+          "illustration": "q-recession-4",
+          "follow_up": "wish-hairline"
+        },
+        {
+          "value": 5,
+          "label": "Higher at the temples, a larger thin patch on the crown",
+          "illustration": "q-recession-5",
+          "follow_up": "wish-hairline"
+        },
+        {
+          "value": 6,
+          "label": "Bare on top, hair around the sides and back",
+          "illustration": "q-recession-6",
+          "follow_up": "wish-hairline"
+        },
+        {
+          "value": 7,
+          "label": "A narrow band of hair around the sides and back",
+          "illustration": "q-recession-7",
+          "follow_up": "wish-hairline"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "wish-hairline",
+      "fact": "wish.hairline",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "barbering"
+      ],
+      "prompt": "Would you like your hairline to show less?",
+      "options": [
+        {
+          "value": "soften",
+          "label": "Yes, show it less"
+        },
+        {
+          "value": "emphasise",
+          "label": "No, I am happy to show it"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-thinning-stage",
+      "fact": "hair.thinning_stage",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon"
+      ],
+      "prompt": "Which drawing is closest to your parting from above?",
+      "help": "Use a photo of the top of your head taken from above.",
+      "options": [
+        {
+          "value": 1,
+          "label": "Narrow parting",
+          "illustration": "q-thinning-1"
+        },
+        {
+          "value": 2,
+          "label": "Wider parting",
+          "illustration": "q-thinning-2"
+        },
+        {
+          "value": 3,
+          "label": "Wide parting, more scalp shows",
+          "illustration": "q-thinning-3"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-thinning-zone",
+      "fact": "hair.thinning_zone",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Is your hair thinner anywhere?",
+      "options": [
+        {
+          "value": "none",
+          "label": "No"
+        },
+        {
+          "value": "crown",
+          "label": "At the crown",
+          "illustration": "q-thinning-crown"
+        },
+        {
+          "value": "front",
+          "label": "At the front",
+          "illustration": "q-thinning-front"
+        },
+        {
+          "value": "part",
+          "label": "Along the parting",
+          "illustration": "q-thinning-2"
+        },
+        {
+          "value": "diffuse",
+          "label": "All over",
+          "illustration": "q-thinning-diffuse"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-traction-signs",
+      "fact": "hair.traction_signs",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Is your hairline sore, or thinner where tight styles pull?",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-sudden-loss",
+      "fact": "hair.sudden_loss",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Have you lost hair suddenly or in patches?",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-heat-habit",
+      "fact": "hair.heat_habit",
+      "type": "single",
+      "goals": [
+        "cut",
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How often do you use heat to style your hair?",
+      "help": "Hair dryers on high, straighteners and curling tongs all count.",
+      "options": [
+        {
+          "value": "none",
+          "label": "Never"
+        },
+        {
+          "value": "rare",
+          "label": "Now and then"
+        },
+        {
+          "value": "weekly",
+          "label": "Most weeks"
+        },
+        {
+          "value": "daily",
+          "label": "Every day"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-interest",
+      "fact": "hair.style_interest",
+      "type": "multi",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Do you wear, or plan to wear, any of these?",
+      "options": [
+        {
+          "value": "braids",
+          "label": "Braids"
+        },
+        {
+          "value": "weave",
+          "label": "A weave"
+        },
+        {
+          "value": "extensions",
+          "label": "Extensions"
+        },
+        {
+          "value": "tight_ponytail",
+          "label": "A tight ponytail or bun"
+        },
+        {
+          "none_of_these": true,
+          "label": "None of these"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "scalp-oil",
+      "fact": "scalp.oil",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "How does your scalp feel a day after washing?",
+      "options": [
+        {
+          "value": "oily",
+          "label": "Oily"
+        },
+        {
+          "value": "balanced",
+          "label": "Fine"
+        },
+        {
+          "value": "dry",
+          "label": "Dry or tight"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "scalp-marks-cover",
+      "fact": "scalp.marks_cover",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Would you like scars or marks on your scalp kept covered?",
+      "help": "You can skip this.",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Skip"
+        }
+      ]
+    },
+    {
+      "id": "colour-grey-pattern",
+      "fact": "colour.grey_pattern",
+      "type": "single",
+      "goals": [
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Where is most of your grey?",
+      "show_if": {
+        "colour.grey_percent": {
+          "range": [
+            1,
+            100
+          ]
+        }
+      },
+      "options": [
+        {
+          "value": "even",
+          "label": "Spread evenly",
+          "illustration": "q-swatch-grey-pattern-even"
+        },
+        {
+          "value": "temples",
+          "label": "At the temples",
+          "illustration": "q-swatch-grey-pattern-temples"
+        },
+        {
+          "value": "front",
+          "label": "At the front",
+          "illustration": "q-swatch-grey-pattern-front"
+        },
+        {
+          "value": "patches",
+          "label": "In patches",
+          "illustration": "q-swatch-grey-pattern-patches"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "life-headwear",
+      "fact": "life.headwear",
+      "type": "multi",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Do you often wear any of these?",
+      "options": [
+        {
+          "value": "hat_or_cap",
+          "label": "A hat, cap or hard hat"
+        },
+        {
+          "value": "helmet",
+          "label": "A helmet"
+        },
+        {
+          "value": "scarf_or_turban",
+          "label": "A head scarf or turban"
+        },
+        {
+          "none_of_these": true,
+          "label": "None of these"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "life-tie-back-needed",
+      "fact": "life.tie_back_needed",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Do you need to be able to tie your hair back, for work or sport?",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "life-hair-covered-at-work",
+      "fact": "life.hair_covered_at_work",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Does your work ask for your hair to be covered with a net or cap?",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "life-workplace-style",
+      "fact": "life.workplace_style",
+      "type": "single",
+      "goals": [
+        "cut",
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Does your work or daily life set any limits on how your hair looks?",
+      "options": [
+        {
+          "value": "no_limits",
+          "label": "No limits"
+        },
+        {
+          "value": "creative",
+          "label": "Creative looks are welcome"
+        },
+        {
+          "value": "conservative",
+          "label": "A classic, polished look is expected"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "life-grow-out-goal",
+      "fact": "life.grow_out_goal",
+      "type": "single",
+      "goals": [
+        "cut",
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Are you letting your hair grow longer?",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes, I am growing it"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "life-growing-out-fringe",
+      "fact": "life.growing_out_fringe",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Are you growing out a fringe?",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "life-swims-often",
+      "fact": "life.swims_often",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Do you swim, or spend a lot of time in the sea or a pool?",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "life-humid-climate",
+      "fact": "life.humid_climate",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Does humid weather change how your hair behaves?",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "life-event-soon",
+      "fact": "life.event_soon",
+      "type": "single",
+      "goals": [
+        "cut"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Do you have a big event in the next few weeks?",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        },
+        {
+          "value": null,
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "wishes",
+      "type": "wishes",
+      "goals": [
+        "cut",
+        "colour"
+      ],
+      "collections": [
+        "salon",
+        "barbering"
+      ],
+      "prompt": "Is there anything you would like your hair to do for your face?",
+      "help": "Choose any, or none. We only use these if you pick them.",
+      "options": [
+        {
+          "label": "Hair that adds fullness at the sides",
+          "fact": "wish.face_length",
+          "value": "soften"
+        },
+        {
+          "label": "Hair that keeps a long line down my face",
+          "fact": "wish.face_length",
+          "value": "emphasise"
+        },
+        {
+          "label": "Hair with more height and closer sides",
+          "fact": "wish.face_width",
+          "value": "soften"
+        },
+        {
+          "label": "Hair with a soft, rounded shape around my face",
+          "fact": "wish.face_width",
+          "value": "emphasise"
+        },
+        {
+          "label": "Hair that covers more of my forehead",
+          "fact": "wish.forehead",
+          "value": "soften"
+        },
+        {
+          "label": "Hair that leaves my forehead open",
+          "fact": "wish.forehead",
+          "value": "emphasise"
+        },
+        {
+          "label": "Show off my cheekbones",
+          "fact": "wish.cheekbones",
+          "value": "emphasise"
+        },
+        {
+          "label": "Soften my cheekbones",
+          "fact": "wish.cheekbones",
+          "value": "soften"
+        },
+        {
+          "label": "Draw attention to my eyes",
+          "fact": "wish.eyes",
+          "value": "emphasise"
+        },
+        {
+          "label": "Make my nose less of a focus",
+          "fact": "wish.nose",
+          "value": "soften"
+        },
+        {
+          "label": "Make my ears show less",
+          "fact": "wish.ears",
+          "value": "soften"
+        },
+        {
+          "label": "Happy to show my ears",
+          "fact": "wish.ears",
+          "value": "emphasise"
+        },
+        {
+          "label": "Hair with a clean line at my jaw",
+          "fact": "wish.jaw",
+          "value": "emphasise"
+        },
+        {
+          "label": "Hair with soft layers around my jaw",
+          "fact": "wish.jaw",
+          "value": "soften"
+        },
+        {
+          "label": "Hair that ends in a clean line at my chin",
+          "fact": "wish.chin",
+          "value": "emphasise"
+        },
+        {
+          "label": "Hair that falls past my chin with soft ends",
+          "fact": "wish.chin",
+          "value": "soften"
+        },
+        {
+          "label": "Make my hairline show less",
+          "fact": "wish.hairline",
+          "value": "soften"
+        },
+        {
+          "label": "Show my hairline",
+          "fact": "wish.hairline",
+          "value": "emphasise"
+        },
+        {
+          "label": "Less height on top",
+          "fact": "wish.height",
+          "value": "soften"
+        },
+        {
+          "label": "More height on top",
+          "fact": "wish.height",
+          "value": "emphasise"
+        },
+        {
+          "label": "Make my hair look fuller",
+          "fact": "wish.fullness",
+          "value": "emphasise"
+        },
+        {
+          "label": "Soften the contrast with my skin",
+          "fact": "wish.contrast",
+          "value": "soften"
+        },
+        {
+          "label": "More contrast with my skin",
+          "fact": "wish.contrast",
+          "value": "emphasise"
+        },
+        {
+          "label": "A shape that evens out my proportions",
+          "fact": "wish.overall_balance",
+          "value": "soften"
+        },
+        {
+          "label": "A shape that keeps my own proportions",
+          "fact": "wish.overall_balance",
+          "value": "preserve"
+        },
+        {
+          "label": "A shape that plays up my own proportions",
+          "fact": "wish.overall_balance",
+          "value": "emphasise"
+        }
+      ]
+    }
+  ],
+  "core_sets": {
+    "cut/salon": [
+      "hair-texture",
+      "hair-current-length",
+      "hair-resting-length",
+      "taste-cuts",
+      "hair-density",
+      "pref-fringe",
+      "pref-change-amount",
+      "life-grow-out-goal",
+      "styling-time",
+      "wishes"
+    ],
+    "cut/barbering": [
+      "hair-texture",
+      "hair-current-length",
+      "hair-resting-length",
+      "taste-cuts",
+      "pref-top-length",
+      "pref-fringe",
+      "styling-time",
+      "hair-recession-stage",
+      "scalp-marks-cover",
+      "beard-style",
+      "wishes"
+    ],
+    "colour/any": [
+      "pref-colour-direction",
+      "colour-natural-level",
+      "hair-chemical-history",
+      "colour-henna-type",
+      "colour-bleach-count",
+      "colour-current-level-lengths",
+      "colour-last-chemical-service",
+      "hair-condition",
+      "grey-amount",
+      "look-undertone",
+      "pref-colour-upkeep",
+      "dye-reaction"
+    ],
+    "both/salon": [
+      "hair-texture",
+      "hair-current-length",
+      "hair-resting-length",
+      "taste-cuts",
+      "hair-density",
+      "styling-time",
+      "pref-colour-direction",
+      "colour-natural-level",
+      "hair-chemical-history",
+      "colour-henna-type",
+      "colour-bleach-count",
+      "colour-current-level-lengths",
+      "hair-condition",
+      "dye-reaction"
+    ],
+    "both/barbering": [
+      "hair-texture",
+      "hair-current-length",
+      "hair-resting-length",
+      "taste-cuts",
+      "pref-top-length",
+      "styling-time",
+      "scalp-marks-cover",
+      "pref-colour-direction",
+      "colour-natural-level",
+      "hair-chemical-history",
+      "colour-henna-type",
+      "colour-bleach-count",
+      "colour-current-level-lengths",
+      "hair-condition",
+      "dye-reaction"
+    ]
+  }
+}

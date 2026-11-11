@@ -1,0 +1,39 @@
+[
+  {
+    "id": "b01",
+    "group": "B",
+    "target": "cut",
+    "effect": "rank",
+    "strength": "strong",
+    "when": { "hair.texture": { "known": true } },
+    "favour": [{ "texture_fit": { "is": "good" } }],
+    "disfavour": [{ "texture_fit": { "is": "poor" } }],
+    "reason": "You told us your hair texture",
+    "evidence": "trade_consensus",
+    "sources": ["https://example.org/texture-fit"],
+    "review": { "status": "checked", "date": "2026-11-08" }
+  },
+  {
+    "id": "b02",
+    "group": "B",
+    "target": "cut",
+    "effect": "note",
+    "note": "caution",
+    "when": { "hair.texture": { "in": ["curly", "coily"] } },
+    "on": { "shrinkage_risk": { "is": "high" }, "length_class": { "in": ["chin", "bob"] } },
+    "because": "Curls spring up as they dry, so this length can sit shorter than it looks when wet.",
+    "evidence": "trade_consensus",
+    "review": { "status": "checked", "date": "2026-11-08" }
+  },
+  {
+    "id": "c80",
+    "group": "C",
+    "target": "cut",
+    "effect": "exclude",
+    "when": { "hair.chemical_history": { "is": "relaxer_perm" } },
+    "on": { "cut_method": { "is": "razor" } },
+    "because": "Razor cutting can fray relaxed ends, so razor cuts are left out.",
+    "evidence": "design_logic",
+    "review": { "status": "checked", "date": "2026-11-08" }
+  }
+]

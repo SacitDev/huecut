@@ -1,0 +1,97 @@
+# Secret scans over the full history, every quality check, then the browser tests in Chromium and in WebKit, on each push and pull request.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  secret-scan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Download and verify the scanners
+        working-directory: ${{ runner.temp }}
+        run: |
+          curl -fsSLO https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz
+          echo "551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  gitleaks_8.30.1_linux_x64.tar.gz" | sha256sum -c -
+          curl -fsSLO https://github.com/betterleaks/betterleaks/releases/download/v1.9.0/betterleaks_1.9.0_linux_x64.tar.gz
+          echo "f8b185a39ffcece2a1ca82bf3a4e7435cd81963ffd16b7a9128daf75f35f6de7  betterleaks_1.9.0_linux_x64.tar.gz" | sha256sum -c -
+          tar -xzf gitleaks_8.30.1_linux_x64.tar.gz gitleaks
+          tar -xzf betterleaks_1.9.0_linux_x64.tar.gz betterleaks
+      - name: Scan the full history
+        run: |
+          "$RUNNER_TEMP/gitleaks" git . --redact --ignore-gitleaks-allow --no-banner
+          "$RUNNER_TEMP/betterleaks" git . --redact --ignore-gitleaks-allow --no-banner
+      - name: Scan the files
+        run: |
+          "$RUNNER_TEMP/gitleaks" dir . --redact --ignore-gitleaks-allow --no-banner
+          "$RUNNER_TEMP/betterleaks" dir . --redact --ignore-gitleaks-allow --no-banner
+
+  quality:
+    runs-on: ubuntu-24.04
+    # Provisional limit, like the e2e one below: no run on Linux has been measured yet.
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Keep the verified model files between runs
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: public/models
+          key: models-${{ hashFiles('models.manifest.json') }}
+      - name: Download the model files and check every SHA-256
+        run: npm run models
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run content:check
+      - run: npm run build
+
+  # One job per browser, each building the site itself. The Edge project never runs here (it needs HUECUT_E2E_EDGE=1).
+  e2e:
+    needs: quality
+    runs-on: ubuntu-24.04
+    # Playwright's own image, pinned by digest, carries the browsers and every system library they need, so the run never installs
+    # packages from Ubuntu's servers. Keep its tag equal to @playwright/test in package-lock.json.
+    container:
+      image: mcr.microsoft.com/playwright:v1.65.0-noble@sha256:6e3fb709361521eb27161606e6da6d2674e5e89fa16516cb37d6fdd91372273d
+      options: --user 1001
+    # Provisional limit: no run on Linux has been measured yet.
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chromium, webkit]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Keep the verified model files between runs
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: public/models
+          key: models-${{ hashFiles('models.manifest.json') }}
+      - name: Download the model files and check every SHA-256
+        run: npm run models
+      - run: npm run build
+      - run: npx playwright test --project=${{ matrix.browser }}

@@ -1,0 +1,198 @@
+/*
+ * My look's layout: one column on phones with a sticky bottom action bar above the tab
+ * bar; from 840 px two columns, the photo sticky on the left and the step on the right, up to the content width.
+ */
+
+.route {
+  max-inline-size: var(--content-max);
+  margin-inline: auto;
+  padding-block: var(--space-m) var(--space-2xl);
+}
+
+.header {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-xs);
+  margin-block-end: var(--space-l);
+}
+
+.title {
+  max-inline-size: var(--measure);
+}
+
+/* What `StepNotice` holds, between the heading and the step. */
+.header + :not(.layout) {
+  margin-block-end: var(--space-l);
+}
+
+.layout {
+  display: grid;
+  gap: var(--space-l);
+}
+
+.content {
+  display: grid;
+  align-content: start;
+  gap: var(--space-l);
+  min-inline-size: 0;
+  max-inline-size: var(--measure);
+}
+
+.content[data-wide='true'] {
+  max-inline-size: none;
+}
+
+/* Shown beside the step from 840 px; on phones only where the step says so. */
+.aside {
+  display: none;
+  min-inline-size: 0;
+}
+
+.aside[data-phones='true'] {
+  display: block;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-s);
+}
+
+@media (width >= 840px) {
+  .layout[data-aside='true'] {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    align-items: start;
+    gap: var(--space-2xl);
+  }
+
+  .layout[data-aside='true'][data-at='end'] {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  }
+
+  /* The actions under the content, in its column. */
+  .layout[data-aside='true'] > .actions {
+    grid-column: 2;
+  }
+
+  .layout[data-aside='true'][data-at='end'] > .actions {
+    grid-column: 1;
+  }
+
+  .aside {
+    display: block;
+    position: sticky;
+    inset-block-start: var(--space-l);
+  }
+}
+
+/* Phones (and medium in portrait): the primary action sits in a bar stuck above the tab bar, in the thumb zone. */
+@media (width < 600px), (width < 840px) and (orientation: portrait) {
+  /* Closer chrome, so the step's first control and its first answer start on the first screen. */
+  .route {
+    padding-block-start: var(--space-xs);
+  }
+
+  .header,
+  .header + :not(.layout) {
+    margin-block-end: var(--space-m);
+  }
+
+  /*
+   * Right on the tab bar, whose top edge is its border line: above it, never over it. Thin above and below its pill, so the
+   * photo just added starts on a 320 x 640 screen under the saving notice.
+   */
+  .actions {
+    position: sticky;
+    inset-block-end: calc(var(--tabbar-h) + var(--border-line) + env(safe-area-inset-bottom));
+    z-index: 1;
+    margin-inline: calc(-1 * var(--page-margin));
+    padding: var(--space-xs) var(--page-margin);
+    border-block-start: var(--border-line) solid var(--line);
+    background-color: var(--surface);
+  }
+
+  /*
+   * One row, so the bar keeps one button's height: the actions share the row equally, and where it is narrow each wraps its own
+   * words onto two lines rather than dropping to a row of its own; a lone action takes the whole row. The small padding leaves
+   * "Choose what to change" two lines at 320 px, clear of the pill's edge.
+   */
+  .actions > :is(button, a) {
+    flex: 1 1 0;
+    padding: var(--space-xs);
+  }
+
+  /* A second action is the quieter one: small type, so its words take two lines at most beside the step's own. */
+  .actions > :is(button, a):not(:first-child) {
+    font-size: var(--text-small);
+  }
+
+  /*
+   * The bar must not hide the focused element (WCAG 2.4.11): scrolling into view keeps clear of bar and tab bar. A bar button may take
+   * two lines of words (a longer language), so it counts as tall as that, with a little more where an engine rounds its lines up (WebKit).
+   */
+  :global(html):has(.actions) {
+    --bar-button-h: max(var(--button-h), 2 * var(--text-button) * var(--lh-button) + 2 * var(--space-xs) + var(--space-2xs));
+
+    scroll-padding-block-end: calc(var(--tabbar-h) + var(--bar-button-h) + 2 * var(--space-xs) + 2 * var(--border-line) + env(safe-area-inset-bottom));
+  }
+}
+
+/*
+ * Under 360 px Latvian's longer words would take three lines in half a row ("Saglabāt manu sejas kartīti"): two actions stack, each the
+ * whole width, and the scroll padding keeps clear of both.
+ */
+@media (width < 360px) {
+  :lang(lv) .actions > :is(button, a) {
+    flex-basis: 100%;
+  }
+
+  :global(html:lang(lv)):has(.actions > :nth-child(2)) {
+    scroll-padding-block-end: calc(var(--tabbar-h) + 2 * var(--bar-button-h) + 3 * var(--space-xs) + 2 * var(--border-line) + env(safe-area-inset-bottom));
+  }
+}
+
+.notice {
+  display: grid;
+  gap: var(--space-s);
+  padding: var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+}
+
+.notice[data-tone='warn'] {
+  background-color: var(--warn-bg);
+}
+
+.noticeActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-s);
+}
+
+.small {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: var(--chip-h);
+  padding-inline: var(--space-m);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-small);
+  font-weight: var(--weight-small);
+}
+
+.figure {
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.figure img {
+  inline-size: 100%;
+  border-radius: var(--radius-picture);
+}

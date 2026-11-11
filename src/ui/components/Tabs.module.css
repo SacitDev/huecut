@@ -1,0 +1,90 @@
+/* Tabs: a sunken pill holding the tabs; the chosen one sits on the surface with a 2 px edge, never colour alone. */
+
+.tabs {
+  display: inline-flex;
+  justify-self: start;
+  max-inline-size: 100%;
+  gap: var(--space-2xs);
+  padding: var(--space-2xs);
+  overflow-x: auto;
+  border-radius: var(--radius-pill);
+  background-color: var(--sunken);
+}
+
+.fit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  justify-self: stretch;
+  overflow-x: visible;
+  border-radius: var(--radius-panel);
+}
+
+.fit .tab {
+  flex: 1 1 auto;
+  padding-inline: var(--space-s);
+  font-size: var(--text-small);
+}
+
+/*
+ * On a phone the tabs sit two by two, each the same width, so a longer language never leaves one alone on a row. A cell
+ * has a fixed width, so a label wraps between its words, and inside a word only when that word alone is wider than the cell.
+ */
+@media (width < 600px) {
+  .fit {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .fit .tab {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    text-wrap: balance;
+  }
+}
+
+@media (width >= 600px) {
+  .fit {
+    justify-self: start;
+    border-radius: var(--radius-pill);
+  }
+
+  .fit .tab {
+    padding-inline: var(--space-l);
+    font-size: var(--text-button);
+  }
+}
+
+/* Each tab keeps its words' width: when they run longer than the row, the row scrolls (above) rather than the words overlapping. */
+.tab {
+  flex: none;
+  min-block-size: var(--target-min);
+  min-inline-size: var(--target-min);
+  padding-inline: var(--space-m);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background-color: transparent;
+  color: var(--text);
+  font-weight: var(--weight-button);
+  line-height: var(--lh-button);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.tab:hover {
+  background-color: var(--surface);
+}
+
+.tab[aria-selected='true'] {
+  background-color: var(--surface);
+  box-shadow: inset 0 0 0 var(--border-selected) var(--primary);
+}
+
+/* Forced colours drop the shadow and repaint backgrounds and borders alike, so the chosen tab asks for the system's own selected pair. */
+@media (forced-colors: active) {
+  .tab[aria-selected='true'] {
+    forced-color-adjust: none;
+    background-color: Highlight;
+    color: HighlightText;
+  }
+}

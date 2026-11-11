@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.avif binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.woff2 binary
+*.mp4 binary
+*.wasm binary
+*.onnx binary
+*.task binary
+*.tflite binary
+*.ico binary

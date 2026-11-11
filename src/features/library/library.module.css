@@ -1,0 +1,715 @@
+/*
+ * Explore, phone first: title, tabs, the sticky chip row and a
+ * 2-column grid of arches; 3 columns from 600 px; from 840 px the 280 px filter panel and 3-4 columns; from 1200 px
+ * 4-5 columns up to 1440 px. The detail is a bottom sheet on phones and a side panel with rounded inner corners from
+ * 840 px. Breakpoints are literals because a custom property cannot be used in a media query; values are tokens.
+ */
+
+.explore {
+  display: grid;
+  gap: var(--space-l);
+  max-inline-size: var(--library-max);
+  margin-inline: auto;
+  padding-block: var(--space-m) var(--space-2xl);
+}
+
+.head {
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.illustrations,
+.quiet {
+  color: var(--text-2);
+}
+
+.illustrations {
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.tabPanel {
+  min-inline-size: 0;
+}
+
+.layout {
+  display: grid;
+  gap: var(--space-l);
+}
+
+@media (width >= 840px) {
+  .layout {
+    grid-template-columns: var(--filter-panel-w) minmax(0, 1fr);
+    align-items: start;
+  }
+}
+
+/* At least a screen tall: if a search shortened the page, the browser would scroll it and move the field being typed in. */
+.results {
+  display: grid;
+  align-content: start;
+  gap: var(--space-m);
+  min-block-size: 100lvh;
+  min-inline-size: 0;
+}
+
+/* ── Filters ── */
+
+.filterPanel {
+  position: sticky;
+  inset-block-start: var(--space-m);
+  display: grid;
+  gap: var(--space-l);
+  justify-items: start;
+  max-block-size: calc(100dvh - 2 * var(--space-m));
+  overflow-y: auto;
+  padding: var(--space-2xs);
+}
+
+.filterTitle {
+  font-size: var(--text-sheet-title);
+}
+
+.group {
+  min-inline-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* A legend sits outside its fieldset's content box, so a gap on the fieldset never reaches it: the space is its own. */
+.legend {
+  margin-block-end: var(--space-s);
+  padding: 0;
+  font-size: var(--text-h3);
+  font-weight: var(--weight-h3);
+  line-height: var(--lh-h3);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+/* Long options ("Works with a hairline higher at the temples") wrap inside their chip instead of leaving the panel, clear of its edge and corners. */
+.chips > button {
+  padding-block: var(--space-xs);
+  border-radius: calc(var(--chip-h) / 2);
+  text-align: start;
+  text-wrap: balance;
+  white-space: normal;
+}
+
+/* The quick-chip row scrolls sideways and stays at the top while the grid scrolls (phones). */
+.chipBar {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 1;
+  display: flex;
+  gap: var(--space-xs);
+  margin-inline: calc(-1 * var(--page-margin));
+  padding: var(--space-xs) var(--page-margin);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  background-color: var(--ground);
+}
+
+.allFilters {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: var(--space-2xs);
+  min-block-size: var(--chip-h);
+  padding-inline: var(--space-m);
+  border: var(--border-control) solid var(--primary);
+  border-radius: var(--radius-pill);
+  background-color: var(--surface);
+  color: var(--text);
+  font-size: var(--text-small);
+  font-weight: var(--weight-button);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.allFilters:hover {
+  background-color: var(--sunken);
+}
+
+.badge {
+  min-inline-size: var(--icon-s);
+  padding-inline: var(--space-2xs);
+  border-radius: var(--radius-pill);
+  background-color: var(--primary);
+  color: var(--on-primary);
+  font-variant-numeric: tabular-nums;
+  line-height: var(--lh-small);
+  text-align: center;
+}
+
+.sheetActions {
+  position: sticky;
+  inset-block-end: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  padding-block: var(--space-s);
+  background-color: var(--surface);
+}
+
+/* "Show": native radios inside pill labels; the chosen one is cocoa with a check icon. */
+.show {
+  display: grid;
+  gap: var(--space-2xs);
+  min-inline-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.showLegend {
+  padding: 0;
+  color: var(--text-2);
+  font-size: var(--text-small);
+  font-weight: var(--weight-button);
+  line-height: var(--lh-small);
+}
+
+.showOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.showOption {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  min-block-size: var(--chip-h);
+  padding-inline: var(--space-m);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  color: var(--text);
+  font-size: var(--text-small);
+  font-weight: var(--weight-button);
+  cursor: pointer;
+}
+
+.showOption:hover {
+  background-color: var(--sunken);
+}
+
+.showOption:has(:checked) {
+  border-color: var(--primary);
+  background-color: var(--primary);
+  color: var(--on-primary);
+}
+
+.showOption:has(:focus-visible) {
+  outline: var(--focus-width) solid var(--focus);
+  outline-offset: var(--focus-offset);
+}
+
+.count {
+  min-block-size: 1lh;
+  font-weight: var(--weight-button);
+  font-variant-numeric: tabular-nums;
+}
+
+.noResults {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-s);
+  max-inline-size: var(--measure);
+  padding-block: var(--space-l);
+}
+
+.removeActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+/* ── Grid ── */
+
+.gridFrame {
+  container: library-grid / inline-size;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-l) var(--gutter);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (600px <= width < 840px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (840px <= width < 1200px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  @container library-grid (width >= 45rem) {
+    .grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+}
+
+@media (width >= 1200px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  @container library-grid (width >= 62rem) {
+    .grid {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+}
+
+/*
+ * A tile renders only near the viewport (content-visibility). Its paint containment would clip focus rings at its
+ * edge, so the tile pads itself by the ring's reach and gives that space back with a negative margin.
+ */
+.tile {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  align-content: start;
+  row-gap: var(--space-2xs);
+  /* Two to a row on a phone: a long word (Latvian has many, and a browser may know no Latvian hyphenation) breaks inside the tile rather than over the next. */
+  overflow-wrap: anywhere;
+  hyphens: manual;
+  margin: calc(-1 * (var(--focus-width) + var(--focus-offset)));
+  padding: calc(var(--focus-width) + var(--focus-offset));
+  content-visibility: auto;
+  contain-intrinsic-size: auto var(--tile-intrinsic-h);
+}
+
+.tileLink {
+  display: grid;
+  grid-row: 1 / span 2;
+  grid-column: 1;
+  grid-template-rows: subgrid;
+  color: var(--text);
+  text-decoration: none;
+  border-radius: var(--radius-arch-foot);
+}
+
+.tileArch {
+  display: block;
+}
+
+.tileName {
+  padding-block-start: var(--space-2xs);
+  font-weight: var(--weight-h3);
+  line-height: var(--lh-small);
+}
+
+.tileLink:hover .tileName {
+  text-decoration-line: underline;
+  text-decoration-thickness: var(--underline-thick);
+  text-underline-offset: var(--underline-offset);
+}
+
+.tileMeta,
+.tileModel {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+  /* The tile itself keeps its words whole (above); its paragraphs are running text to the page rule, so they say so too. */
+  hyphens: manual;
+}
+
+/* The save heart: a 44 px circle in the arch's bottom corner, light with a dark edge so it reads on any picture. */
+.heart {
+  display: grid;
+  grid-row: 1;
+  grid-column: 1;
+  place-items: center;
+  align-self: end;
+  justify-self: end;
+  z-index: 1;
+  inline-size: var(--target-min);
+  block-size: var(--target-min);
+  margin: 0 var(--space-xs) var(--space-xs) 0;
+  border: var(--border-control) solid var(--primary);
+  border-radius: var(--radius-pill);
+  background-color: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.heart[aria-pressed='true'] {
+  background-color: var(--accent);
+  color: var(--on-accent);
+}
+
+.heartIcon,
+.icon {
+  flex: none;
+  inline-size: var(--icon-s);
+  block-size: var(--icon-s);
+}
+
+/* ── Detail ── */
+
+/* A dialog that arrived by the arch morph has no entrance of its own: the hero arch carried the motion. */
+:global(dialog[data-morphed]:not([data-closing])) {
+  animation: none;
+}
+
+.panel {
+  position: fixed;
+  inset: 0 0 0 auto;
+  inline-size: var(--side-panel-w);
+  max-inline-size: 100vw;
+  block-size: 100dvh;
+  max-block-size: 100dvh;
+  margin: 0 0 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-sheet) 0 0 var(--radius-sheet);
+  background-color: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow-float);
+  overscroll-behavior: contain;
+}
+
+@media (width >= 1200px) {
+  .panel {
+    inline-size: var(--side-panel-w-large);
+  }
+}
+
+.panel[open] {
+  display: flex;
+  animation: panel-in var(--dur-sheet-open) var(--ease-spring);
+}
+
+.panel[data-closing] {
+  animation: panel-out var(--dur-sheet-close) var(--ease-exit) forwards;
+}
+
+.panel::backdrop {
+  background-color: var(--scrim);
+}
+
+@keyframes panel-in {
+  from {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes panel-out {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* The dialog's only child fills it, so a click that reaches the dialog element itself came from the backdrop. */
+.panelFrame {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-block-size: 0;
+  min-inline-size: 0;
+}
+
+.panelHeader {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-s);
+  padding: var(--space-xs) var(--space-xs) var(--space-xs) var(--space-l);
+  border-block-end: var(--border-line) solid var(--line);
+}
+
+.panelTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-sheet-title);
+  font-weight: var(--weight-h2);
+  font-stretch: var(--wdth-h2);
+  line-height: var(--lh-h2);
+}
+
+.panelBody {
+  flex: 1;
+  min-block-size: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: var(--space-l);
+}
+
+.iconButton {
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+  inline-size: var(--target-min);
+  block-size: var(--target-min);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background-color: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.iconButton:hover {
+  background-color: var(--sunken);
+}
+
+.detail {
+  display: grid;
+  align-content: start;
+  gap: var(--space-l);
+  min-inline-size: 0;
+}
+
+.viewer {
+  display: grid;
+  gap: var(--space-s);
+  margin: 0;
+}
+
+/* The morph's target: the same name the tapped tile's arch had (only one of the two is ever rendered). */
+.hero {
+  justify-self: center;
+  inline-size: min(100%, 26rem);
+  view-transition-name: library-hero;
+}
+
+/* In the side panel the picture leaves room for the name, description and Copy prompt on a laptop screen. */
+@media (width >= 840px) {
+  .hero {
+    inline-size: min(100%, 20rem);
+  }
+}
+
+.viewerControls {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.viewerPosition {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+  text-align: center;
+}
+
+.detailMeta {
+  color: var(--text-2);
+}
+
+.detailActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.saveButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-block-size: var(--button-h);
+  padding-inline: var(--space-l);
+  border: var(--border-control) solid var(--primary);
+  border-radius: var(--radius-pill);
+  background-color: transparent;
+  color: var(--text);
+  font-size: var(--text-button);
+  font-weight: var(--weight-button);
+  line-height: var(--lh-button);
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  background-color: var(--sunken);
+}
+
+.saveButton[aria-pressed='true'] {
+  background-color: var(--rose-soft);
+}
+
+.prompt {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-xs);
+}
+
+.steps,
+.status {
+  max-inline-size: var(--measure);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.steps {
+  color: var(--text-2);
+}
+
+.problem {
+  color: var(--bad);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.promptText {
+  inline-size: 100%;
+}
+
+.summary {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: var(--target-min);
+  color: var(--accent);
+  font-weight: var(--weight-button);
+  cursor: pointer;
+}
+
+.promptBox {
+  inline-size: 100%;
+  padding: var(--space-s);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-picture);
+  background-color: var(--sunken);
+  color: var(--text);
+  line-height: var(--lh-small);
+  resize: vertical;
+}
+
+.problemBox {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-xs);
+  max-inline-size: var(--measure);
+  padding: var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--bad-bg);
+  color: var(--text);
+}
+
+.problemTitle {
+  font-weight: var(--weight-h3);
+}
+
+.code {
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.infoSection {
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.infoHeading {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-h3);
+  line-height: var(--lh-h3);
+}
+
+.rows {
+  display: grid;
+  gap: var(--space-xs);
+  margin: 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  gap: var(--space-s);
+}
+
+.row dt {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  font-weight: var(--weight-small);
+  line-height: var(--lh-small);
+}
+
+.row dd {
+  font-variant-numeric: tabular-nums;
+}
+
+.works {
+  display: grid;
+  gap: var(--space-2xs);
+  margin: 0;
+  padding-inline-start: var(--space-l);
+}
+
+.pairings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-m);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pairings a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: var(--target-min);
+}
+
+/* ── Search ── */
+
+.search {
+  display: grid;
+  gap: var(--space-2xs);
+  max-inline-size: var(--measure);
+}
+
+.searchLabel {
+  font-weight: var(--weight-button);
+}
+
+.searchBox {
+  position: relative;
+}
+
+/*
+ * The text stays at body size: an iPhone zooms the page on a field below 16 px. The end padding is always there, so
+ * nothing moves when the clear button appears.
+ */
+.searchInput {
+  inline-size: 100%;
+  min-block-size: var(--button-h);
+  padding-inline: var(--space-m) calc(var(--target-min) + var(--space-2xs));
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background-color: var(--sunken);
+  appearance: none;
+}
+
+/* The browser's own small clear button would sit beside the 44 px one. */
+.searchInput::-webkit-search-cancel-button {
+  display: none;
+}
+
+.searchClear {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-end: var(--space-2xs);
+  margin-block: auto;
+}
+
+/* After `.iconButton:hover`, whose fill is the field's own colour. */
+.searchClear:hover {
+  background-color: var(--surface);
+}

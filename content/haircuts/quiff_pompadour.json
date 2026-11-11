@@ -1,0 +1,965 @@
+[
+  {
+    "id": "quiff-classic",
+    "kind": "cut",
+    "name": "Classic quiff",
+    "aliases": [
+      "Quiff",
+      "Tapered quiff",
+      "Retro quiff"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "quiff_pompadour",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          7,
+          11
+        ]
+      },
+      "fringe": {
+        "cm": [
+          7,
+          11
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          13
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          13
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Tapered sides, graduated into a quiff top."
+    },
+    "neckline": "tapered",
+    "sideburns": "Mid-length, tapered",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good",
+        "daily": true
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Dry with the quiff direction.",
+        "daily": true
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Use blow-dry and cream to avoid frizz.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "Needs relaxed or very loose coils; consider a high-top instead."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the front shorter and blow-dry with a volumising product."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": "Crown whorl may twist the quiff to one side.",
+      "note": "Brushing up highlights the front hairline; avoid beyond stage 3."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; thin hair collapses at the front.",
+    "glasses_note": "Raised front adds to apparent forehead height; thick frames balance.",
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        4,
+        5
+      ],
+      "heat": "daily",
+      "products": [
+        "pomade",
+        "hair dryer",
+        "light hairspray"
+      ]
+    },
+    "grow_out": "Becomes a pompadour or flow in 8-10 weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "root_lift"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "quiff",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        4,
+        5
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "Lifted front brushed up and slightly back, with tidy sides. Needs a bit of styling time.",
+    "stylist": "Leave front 8-10 cm, thin out sides, graduate to the crown. Dry with a brush from the front back.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a classic quiff: the front left 7-11 cm and brushed up and slightly back, graduating to the crown, the sides and back tapered from #4 (13 mm) down to #1 (3 mm), mid-length tapered sideburns, a tapered neckline, with a polished lifted finish",
+    "sources": [
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "quiff-textured-messy",
+    "kind": "cut",
+    "name": "Textured quiff",
+    "aliases": [
+      "Messy quiff",
+      "Low soft quiff",
+      "Casual volume"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "quiff_pompadour",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          1.5,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          1.5,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0.5,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": "low",
+      "start_mm": 3,
+      "note": "Low taper with a loose, piecey top."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Natural movement does the work."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Great with curl cream and diffuser."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Use fingers to lift; shorten 1-2 cm."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use texturising powder at the roots."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": "Texture covers cowlicks.",
+      "note": "Messier texture covers mild recession up to stage 3."
+    },
+    "strand_note": null,
+    "density_note": "Medium; fine hair needs powder.",
+    "glasses_note": "Casual styling with most frames.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        4,
+        5
+      ],
+      "heat": "rare",
+      "products": [
+        "clay",
+        "salt spray"
+      ]
+    },
+    "grow_out": "Easy; continues to a flow.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-short-boxed",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "root_lift"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "quiff",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut",
+        "razor"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        4,
+        5
+      ],
+      "tags": [
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "A relaxed, lifted top with a lived-in finish. Less polished than a classic quiff.",
+    "stylist": "Point cut for movement; razor in the lengths for a messy outline. Blend sides with a clipper.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a textured quiff: a loose, piecey top of 5-9 cm lifted at the front to 5-9 cm, the sides and back at a low taper from #3 (10 mm) down to #0.5 (1.5 mm), the nape from blade to #1, a tapered neckline, a messy matte finish",
+    "sources": [
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://behindthechair.com/articles/what-men-are-actually-asking-their-hairdressers-for-in-2026/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "pompadour-classic",
+    "kind": "cut",
+    "name": "Classic pompadour",
+    "aliases": [
+      "Pomp",
+      "Rockabilly pompadour",
+      "Greaser pompadour"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "quiff_pompadour",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          14
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          14
+        ]
+      },
+      "sides": {
+        "cm": [
+          0.5,
+          4
+        ]
+      },
+      "back": {
+        "cm": [
+          0.5,
+          4
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.3,
+          1
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "scissor_taper",
+      "height": null,
+      "start_mm": 3,
+      "note": "Scissor-over-comb or clipper taper; the short sides contrast with a high top."
+    },
+    "neckline": "tapered",
+    "sideburns": "Medium-length, squared",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good",
+        "daily": true
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Add heat for lift.",
+        "daily": true
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Longer length (8 cm+) and a blow-dry are essential.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "Needs relaxed texture or a different design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "poor",
+        "note": "A classic pompadour needs thick hair for its height; a textured quiff is closer."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 2,
+      "whorl_note": "Crown thinning is exposed by the back-comb.",
+      "note": "Brushes the front back; exposes recession; not for stage 3+."
+    },
+    "strand_note": null,
+    "density_note": "Needs thick density for volume; thin hair is a poor candidate.",
+    "glasses_note": "A high wave makes the forehead look taller; chunky frames suit.",
+    "upkeep": {
+      "styling_minutes": [
+        15,
+        15
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "daily",
+      "products": [
+        "pomade",
+        "hair dryer",
+        "hairspray"
+      ]
+    },
+    "grow_out": "Takes months to grow back.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-van-dyke"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "root_lift"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "pompadour",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        15,
+        15
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A big wave swept up and back with tight sides. Takes time to style; always draws attention.",
+    "stylist": "Hold 10-12 cm at the front, graduate back; sides clipped tight. Blow-dry upward, comb back and hold with a strong pomade. Neat taper, sometimes blocked.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a classic pompadour: 8-14 cm on top with a front of 10-14 cm swept up and back into a high, glossy wave, the sides and back clipped tight at 0.5-4 cm tapering to 0.3-1 cm at the nape, a neat tapered neckline and squared sideburns",
+    "sources": [
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "pompadour-modern",
+    "kind": "cut",
+    "name": "Modern pompadour with fade",
+    "aliases": [
+      "Pomp fade",
+      "Fade pompadour",
+      "Brushed-up fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "quiff_pompadour",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          11
+        ]
+      },
+      "fringe": {
+        "cm": [
+          8,
+          11
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "mid",
+      "start_mm": 0.5,
+      "note": "Mid skin fade with a higher top."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good",
+        "daily": true
+      },
+      "wavy": {
+        "fit": "good",
+        "daily": true
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Use curl cream and diffuse; keep top 7+ cm.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Use a high-top form instead of back-combing."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the front lower and use a volumising pre-styler."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": "Crown thinning shows through the swept hair.",
+      "note": "Exposes the temples when brushed back; keep front slightly forward for stage 3."
+    },
+    "strand_note": null,
+    "density_note": "Needs medium to thick density to hold the shape; fine hair needs a strong spray.",
+    "glasses_note": "Raised front pairs with bold frames.",
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "daily",
+      "products": [
+        "pomade",
+        "texture powder"
+      ]
+    },
+    "grow_out": "Fade grows out in 3 weeks; top stays.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-short-boxed",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "root_lift"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "tags": [
+        "needs_blow_out"
+      ],
+      "silhouette": "pompadour",
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ]
+    },
+    "variants": [],
+    "client": "A tall, swept-back top over faded sides. Polished and bold, with daily styling.",
+    "stylist": "Skin to #2 blend; leave 6-10 cm on top. Cut the top with a graduation that angles back and up.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a modern pompadour: 6-11 cm on top swept up and back into a tall, polished pompadour with a little shine; a mid skin fade on the sides from about 6 mm down to the skin; a tidy tapered neckline",
+    "sources": [
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://behindthechair.com/articles/what-men-are-actually-asking-their-hairdressers-for-in-2026/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-quiff",
+    "kind": "cut",
+    "name": "Curly quiff",
+    "aliases": [
+      "Curly pompadour",
+      "Curl-up top",
+      "Lifted curls"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "quiff_pompadour",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          13
+        ]
+      },
+      "fringe": {
+        "cm": [
+          8,
+          13
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          9
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          9
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "mid",
+      "start_mm": 0.5,
+      "note": "Mid fade or tight taper to emphasise the top volume."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded or tapered",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited: choose a classic quiff."
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "Waves of 10 cm+ lift with a blow-dry.",
+        "daily": true
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Needs 10+ cm; style with a pick.",
+        "daily": true
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the front shorter so the curls hold their lift."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Lifts the front; not advised past stage 3."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine curls collapse.",
+    "glasses_note": "Raised front pairs with bold frames.",
+    "upkeep": {
+      "styling_minutes": [
+        6,
+        6
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "rare",
+      "products": [
+        "curl cream",
+        "light hold gel"
+      ]
+    },
+    "grow_out": "It flows into a curly medium style in about 3 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [
+        "crown",
+        "root_lift"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "quiff",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        6,
+        6
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "curly_first"
+      ]
+    },
+    "variants": [],
+    "client": "Natural curls lifted at the front and kept short at the sides. Voluminous and confident.",
+    "stylist": "Leave 10-13 cm at the front, graduate length to the back and fade the sides. Dry with a diffuser and pick the root lift.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly quiff: natural curls lifted at the front to 10-13 cm and graduating back, the top 8-13 cm, the sides and back at a mid fade or tight taper from skin to #3 (9 mm), the nape blade to #1, a tapered neckline, full root volume",
+    "sources": [
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/curly-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

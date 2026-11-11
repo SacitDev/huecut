@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "$ref": "#/$defs/__schema0"
+      },
+      "collection": {
+        "$ref": "#/$defs/__schema1"
+      },
+      "hair_group": {
+        "$ref": "#/$defs/__schema2"
+      },
+      "label": {
+        "$ref": "#/$defs/__schema3"
+      },
+      "shown_on": {
+        "$ref": "#/$defs/__schema3"
+      },
+      "base_pictures": {
+        "$ref": "#/$defs/__schema4"
+      },
+      "example": {
+        "$ref": "#/$defs/__schema5"
+      },
+      "licence": {
+        "$ref": "#/$defs/__schema3"
+      }
+    },
+    "required": [
+      "id",
+      "collection",
+      "hair_group",
+      "label",
+      "shown_on",
+      "base_pictures",
+      "example",
+      "licence"
+    ],
+    "additionalProperties": false
+  },
+  "$defs": {
+    "__schema0": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "__schema1": {
+      "type": "string",
+      "enum": [
+        "salon",
+        "barbering"
+      ]
+    },
+    "__schema2": {
+      "type": "string",
+      "enum": [
+        "straight_wavy",
+        "curly_coily"
+      ]
+    },
+    "__schema3": {
+      "type": "string",
+      "minLength": 1
+    },
+    "__schema4": {
+      "type": "object",
+      "properties": {
+        "front": {
+          "type": "string"
+        },
+        "side": {
+          "type": "string"
+        },
+        "back": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "front",
+        "side",
+        "back"
+      ],
+      "additionalProperties": false
+    },
+    "__schema5": {
+      "type": "string",
+      "pattern": "^examples\\/[a-z0-9-]+\\.json$"
+    }
+  }
+}

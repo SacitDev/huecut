@@ -1,0 +1,384 @@
+/*
+ * Try it on and Board: panels and cards on the petal ground, the final card with its
+ * sample pictures, the looks one by one, picture slots, the tile-order rows, the slider and the board's row of arches.
+ * Every picture is shown whole (object-fit: contain).
+ */
+
+.section,
+.stack,
+.prompt {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: var(--space-s);
+  min-inline-size: 0;
+}
+
+.section {
+  gap: var(--space-l);
+}
+
+.section > * {
+  min-inline-size: 0;
+  inline-size: 100%;
+}
+
+.splits {
+  max-inline-size: 34rem;
+}
+
+.cardLayout {
+  display: grid;
+  gap: var(--space-l);
+  inline-size: 100%;
+}
+
+@media (width >= 840px) {
+  .cardLayout {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    align-items: start;
+  }
+}
+
+.samples {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-m) var(--space-s);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Two to a row on a small phone, in every language: three columns there are too narrow for a name and its upkeep line. */
+@media (width <= 360px) {
+  .samples {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.sample {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2xs);
+  min-inline-size: 0;
+  /* Three to a row on a phone: a long word (Latvian has many) breaks inside its column rather than widening it over the next. */
+  overflow-wrap: anywhere;
+  hyphens: manual;
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.sampleFrame {
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: var(--radius-picture);
+  background-color: var(--picture-placeholder);
+}
+
+.sampleFrame img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+
+.looks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 24rem), 1fr));
+  gap: var(--space-m);
+  align-items: start;
+}
+
+.lookCard {
+  display: grid;
+  gap: var(--space-m);
+  min-inline-size: 0;
+  padding: var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+}
+
+.lookHead {
+  display: grid;
+  grid-template-columns: minmax(0, 7rem) minmax(0, 1fr);
+  align-items: start;
+  gap: var(--space-m);
+}
+
+.lookPictures {
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.panel,
+.card,
+.notice {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-s);
+  inline-size: 100%;
+  padding: var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+}
+
+.notice {
+  background-color: var(--warn-bg);
+}
+
+.notice:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-s);
+}
+
+.list {
+  display: grid;
+  gap: var(--space-2xs);
+  margin: 0;
+  padding-inline-start: var(--space-l);
+}
+
+.small,
+.status {
+  max-inline-size: var(--measure);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.small {
+  color: var(--text-2);
+}
+
+.strong {
+  font-weight: var(--weight-h3);
+}
+
+.problem {
+  color: var(--bad);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.referral {
+  display: grid;
+  gap: var(--space-2xs);
+  padding: var(--space-s) var(--space-m);
+  border-radius: var(--radius-picture);
+  background-color: var(--sunken);
+}
+
+.promptText {
+  inline-size: 100%;
+}
+
+.promptText[open] {
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.summary {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: var(--target-min);
+  color: var(--accent);
+  font-weight: var(--weight-button);
+  cursor: pointer;
+}
+
+.promptBox {
+  inline-size: 100%;
+  padding: var(--space-s);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-picture);
+  background-color: var(--sunken);
+  color: var(--text);
+  font: inherit;
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+  resize: vertical;
+}
+
+.slot {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-s);
+  inline-size: 100%;
+  padding: var(--space-m);
+  border: var(--border-control) dashed var(--line-strong);
+  border-radius: var(--radius-picture);
+}
+
+.slot[data-over='true'] {
+  border-style: solid;
+  border-color: var(--primary);
+  background-color: var(--sunken);
+}
+
+.slotPicture,
+.gridPicture {
+  inline-size: min(100%, 20rem);
+  border-radius: var(--radius-picture);
+  background-color: var(--picture-placeholder);
+  object-fit: contain;
+}
+
+.gridPicture {
+  inline-size: min(100%, 28rem);
+}
+
+.card h3:focus {
+  outline: none;
+}
+
+.rows {
+  display: grid;
+  gap: var(--space-s);
+  inline-size: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: var(--tile-thumb) minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-xs) var(--space-m);
+  --tile-thumb: calc(var(--option-h) * 2);
+}
+
+.row > .buttons {
+  grid-column: 1 / -1;
+}
+
+.tile {
+  inline-size: var(--tile-thumb);
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius-picture);
+  background-color: var(--picture-placeholder);
+  object-fit: contain;
+}
+
+.compare {
+  display: grid;
+  inline-size: min(100%, 28rem);
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: var(--radius-picture);
+  background-color: var(--neutral-grey);
+}
+
+.compareLayer {
+  grid-area: 1 / 1;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+
+.compareControl {
+  display: grid;
+  gap: var(--space-xs);
+  inline-size: min(100%, 28rem);
+  font-weight: var(--weight-h3);
+}
+
+.compareControl input {
+  inline-size: 100%;
+  min-block-size: var(--target-min);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr));
+  gap: var(--space-l) var(--gutter);
+  inline-size: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Two to a row on a phone too, so the pictures really sit side by side, as the button that leads here says. */
+@media (width < 600px) {
+  .board {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.boardTile {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: var(--space-s);
+  min-inline-size: 0;
+}
+
+/* The arch is a size container, so it has no width of its own: `start` from .stack would shrink it to nothing. */
+.boardTile > figure {
+  justify-items: stretch;
+  inline-size: 100%;
+}
+
+.tileButton {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+.tileButton img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+
+.noPicture {
+  display: grid;
+  place-items: center;
+  block-size: 100%;
+  padding: var(--space-s);
+  /* Dark ink in both themes: the placeholder grey stays light in the dark theme too, where the theme's text was 1.22:1 on it. */
+  color: var(--on-studio);
+  font-size: var(--text-small);
+  text-align: center;
+}
+
+.caption {
+  display: grid;
+  gap: var(--space-2xs);
+}
+
+.switchRow {
+  display: grid;
+  gap: var(--space-2xs);
+}
+
+.switch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-block-size: var(--target-min);
+  font-weight: var(--weight-h3);
+  cursor: pointer;
+}
+
+.switch input {
+  inline-size: var(--icon-s);
+  block-size: var(--icon-s);
+  margin: 0;
+}
+
+.link {
+  color: var(--accent);
+  font-weight: var(--weight-button);
+  text-decoration-thickness: var(--underline-thin);
+  text-underline-offset: var(--underline-offset);
+}

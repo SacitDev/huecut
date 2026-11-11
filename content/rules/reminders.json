@@ -1,0 +1,140 @@
+[
+  {
+    "id": "patch-test",
+    "kind": "reminder",
+    "text": "Always do the allergy skin test that the colour maker and your colourist say you need. Do it even if you have used the colour before. Tell them if you have ever had a black henna tattoo.",
+    "applies_to": "every_colour_look",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "strand-test",
+    "kind": "reminder",
+    "text": "Ask for a strand test before any lightening, so you and your colourist can see how your hair takes it.",
+    "on": {
+      "lightening": {
+        "in": [
+          "some",
+          "always"
+        ]
+      }
+    },
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "session-count-policy",
+    "kind": "reminder",
+    "text": "Nobody can promise how many visits a colour change will take. Your colourist judges it as they go.",
+    "applies_to": "every_colour_look",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "black-henna-reaction",
+    "kind": "referral",
+    "when": {
+      "safety.dye_reaction": {
+        "in": [
+          "mild",
+          "serious"
+        ]
+      }
+    },
+    "text": "You told us hair dye or black henna has made your skin react before. Please ask a doctor or allergy clinic before you colour your hair. Do not test hair colour on your skin yourself.",
+    "replaces_suggestions": true,
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "black-henna-tattoo",
+    "kind": "referral",
+    "when": {
+      "safety.henna_tattoo": {
+        "is": true
+      }
+    },
+    "text": "A black henna tattoo can make a reaction to hair dye more likely. Please ask a doctor or allergy clinic before you colour your hair.",
+    "replaces_suggestions": true,
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "tattoo exposure asked on its own, whatever the hair history"
+    }
+  },
+  {
+    "id": "henna-compound",
+    "kind": "referral",
+    "when": {
+      "hair.chemical_history": {
+        "is": "henna_compound"
+      }
+    },
+    "text": "Some henna and hair darkeners hold metal salts. These can react with salon colour and bleach. Please ask a colourist for a strand test before any colour.",
+    "replaces_suggestions": true,
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "compound henna is a referral, no colour ideas or prompts"
+    }
+  },
+  {
+    "id": "henna-compound-type",
+    "kind": "referral",
+    "when": {
+      "colour.henna_type": {
+        "is": "compound"
+      }
+    },
+    "text": "Some henna and hair darkeners hold metal salts. These can react with salon colour and bleach. Please ask a colourist for a strand test before any colour.",
+    "replaces_suggestions": true,
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "the most cautious answer wins when the follow-up says compound"
+    }
+  },
+  {
+    "id": "henna-type-unknown",
+    "kind": "referral",
+    "when": {
+      "hair.chemical_history": {
+        "is": "henna_plant"
+      },
+      "colour.henna_type": {
+        "known": false
+      }
+    },
+    "text": "You told us there is henna on your hair, but not which kind. Some henna and hair darkeners hold metal salts. These can react with salon colour and bleach. Please ask a colourist for a strand test before any colour.",
+    "replaces_suggestions": true,
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "henna of unknown type is a referral until the follow-up says plant henna"
+    }
+  },
+  {
+    "id": "scalp-sore-now",
+    "kind": "referral",
+    "when": {
+      "safety.scalp_irritation": {
+        "is": "now"
+      }
+    },
+    "text": "Your scalp is sore or broken now, and colour can make that worse. Wait until it heals, then ask a colourist.",
+    "replaces_suggestions": true,
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "a scalp irritated now is a referral"
+    }
+  }
+]

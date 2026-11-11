@@ -1,0 +1,30 @@
+[
+  {
+    "id": "salon-straight-wavy",
+    "collection": "salon",
+    "hair_group": "straight_wavy",
+    "label": "Straight to wavy hair",
+    "shown_on": "Shown on wavy 2B hair",
+    "base_pictures": {
+      "front": "salon-straight-wavy/base-front",
+      "side": "salon-straight-wavy/base-side",
+      "back": "salon-straight-wavy/base-back"
+    },
+    "example": "examples/salon-straight-wavy.json",
+    "licence": "same as the repository"
+  },
+  {
+    "id": "barbering-straight-wavy",
+    "collection": "barbering",
+    "hair_group": "straight_wavy",
+    "label": "Straight to wavy hair",
+    "shown_on": "Shown on straight hair",
+    "base_pictures": {
+      "front": "barbering-straight-wavy/base-front",
+      "side": "barbering-straight-wavy/base-side",
+      "back": "barbering-straight-wavy/base-back"
+    },
+    "example": "examples/barbering-straight-wavy.json",
+    "licence": "same as the repository"
+  }
+]

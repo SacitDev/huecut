@@ -1,0 +1,9420 @@
+{
+  "barbering-curly-coily/afro-blowout-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#807c7b",
+    "bytes": 189150
+  },
+  "barbering-curly-coily/afro-blowout-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8e827e",
+    "bytes": 153686
+  },
+  "barbering-curly-coily/afro-blowout-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#928884",
+    "bytes": 146527
+  },
+  "barbering-curly-coily/afro-burst-taper-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958f8f",
+    "bytes": 142506
+  },
+  "barbering-curly-coily/afro-burst-taper-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39893",
+    "bytes": 117463
+  },
+  "barbering-curly-coily/afro-burst-taper-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca19d",
+    "bytes": 110920
+  },
+  "barbering-curly-coily/afro-puff-taper-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#908a88",
+    "bytes": 178285
+  },
+  "barbering-curly-coily/afro-puff-taper-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a0948f",
+    "bytes": 130579
+  },
+  "barbering-curly-coily/afro-puff-taper-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49995",
+    "bytes": 134914
+  },
+  "barbering-curly-coily/afro-taper-round-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9696",
+    "bytes": 134715,
+    "quality": 51
+  },
+  "barbering-curly-coily/afro-taper-round-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99d99",
+    "bytes": 114986
+  },
+  "barbering-curly-coily/afro-taper-round-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea49f",
+    "bytes": 105061
+  },
+  "barbering-curly-coily/box-braids-short-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9a98",
+    "bytes": 134541,
+    "quality": 51
+  },
+  "barbering-curly-coily/box-braids-short-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9f9b",
+    "bytes": 105751
+  },
+  "barbering-curly-coily/box-braids-short-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea4a0",
+    "bytes": 99979
+  },
+  "barbering-curly-coily/brown-lowlights-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a59f",
+    "bytes": 99461
+  },
+  "barbering-curly-coily/caramel-tips-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b3a6a1",
+    "bytes": 109282
+  },
+  "barbering-curly-coily/charcoal-grey-all-over-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a5a1",
+    "bytes": 104596
+  },
+  "barbering-curly-coily/cornrows-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aaa2a0",
+    "bytes": 134704
+  },
+  "barbering-curly-coily/cornrows-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b5a9a4",
+    "bytes": 92830
+  },
+  "barbering-curly-coily/cornrows-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#bcb0ab",
+    "bytes": 95772
+  },
+  "barbering-curly-coily/curly-burst-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9a99",
+    "bytes": 133085
+  },
+  "barbering-curly-coily/curly-burst-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada29e",
+    "bytes": 109519
+  },
+  "barbering-curly-coily/curly-burst-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a5a0",
+    "bytes": 107095
+  },
+  "barbering-curly-coily/curly-drop-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49d9b",
+    "bytes": 138048
+  },
+  "barbering-curly-coily/curly-drop-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a5a1",
+    "bytes": 106458
+  },
+  "barbering-curly-coily/curly-drop-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b4a9a4",
+    "bytes": 88074
+  },
+  "barbering-curly-coily/curly-flow-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#999494",
+    "bytes": 121529
+  },
+  "barbering-curly-coily/curly-flow-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39893",
+    "bytes": 129205
+  },
+  "barbering-curly-coily/curly-flow-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a59b98",
+    "bytes": 117416
+  },
+  "barbering-curly-coily/curly-fringe-forward-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09a99",
+    "bytes": 130294
+  },
+  "barbering-curly-coily/curly-fringe-forward-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca19d",
+    "bytes": 95787
+  },
+  "barbering-curly-coily/curly-fringe-forward-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a5a1",
+    "bytes": 101246
+  },
+  "barbering-curly-coily/curly-long-natural-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#878485",
+    "bytes": 145307,
+    "quality": 51
+  },
+  "barbering-curly-coily/curly-long-natural-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a8e8a",
+    "bytes": 135792
+  },
+  "barbering-curly-coily/curly-long-natural-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09693",
+    "bytes": 116342
+  },
+  "barbering-curly-coily/curly-mohawk-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada6a3",
+    "bytes": 127165
+  },
+  "barbering-curly-coily/curly-mohawk-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b3a9a5",
+    "bytes": 97271
+  },
+  "barbering-curly-coily/curly-mohawk-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b7aca6",
+    "bytes": 98758
+  },
+  "barbering-curly-coily/curly-mullet-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#939090",
+    "bytes": 150277
+  },
+  "barbering-curly-coily/curly-mullet-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89c97",
+    "bytes": 117533
+  },
+  "barbering-curly-coily/curly-mullet-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99e9a",
+    "bytes": 114629
+  },
+  "barbering-curly-coily/curly-quiff-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19b99",
+    "bytes": 134308
+  },
+  "barbering-curly-coily/curly-quiff-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aba09b",
+    "bytes": 102347
+  },
+  "barbering-curly-coily/curly-quiff-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b4a9a5",
+    "bytes": 105016
+  },
+  "barbering-curly-coily/curly-shag-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#969291",
+    "bytes": 138487
+  },
+  "barbering-curly-coily/curly-shag-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19692",
+    "bytes": 136749
+  },
+  "barbering-curly-coily/curly-shag-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39995",
+    "bytes": 121726
+  },
+  "barbering-curly-coily/curly-side-part-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49d9b",
+    "bytes": 115162,
+    "quality": 51
+  },
+  "barbering-curly-coily/curly-side-part-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a5a0",
+    "bytes": 95682
+  },
+  "barbering-curly-coily/curly-side-part-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b7aba6",
+    "bytes": 95161
+  },
+  "barbering-curly-coily/curly-skin-fade-top-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a69f9c",
+    "bytes": 127126
+  },
+  "barbering-curly-coily/curly-skin-fade-top-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea29d",
+    "bytes": 105049
+  },
+  "barbering-curly-coily/curly-skin-fade-top-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b5aaa5",
+    "bytes": 98245
+  },
+  "barbering-curly-coily/curly-taper-defined-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09a9a",
+    "bytes": 132600
+  },
+  "barbering-curly-coily/curly-taper-defined-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa4a0",
+    "bytes": 102916
+  },
+  "barbering-curly-coily/curly-taper-defined-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a6a1",
+    "bytes": 103270
+  },
+  "barbering-curly-coily/finger-coils-taper-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9998",
+    "bytes": 131347
+  },
+  "barbering-curly-coily/finger-coils-taper-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aba09c",
+    "bytes": 112971
+  },
+  "barbering-curly-coily/finger-coils-taper-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a5a1",
+    "bytes": 91819
+  },
+  "barbering-curly-coily/flat-top-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29c9a",
+    "bytes": 137441
+  },
+  "barbering-curly-coily/flat-top-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a6a1",
+    "bytes": 97492
+  },
+  "barbering-curly-coily/flat-top-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b5aba6",
+    "bytes": 101962
+  },
+  "barbering-curly-coily/golden-highlights-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a39e",
+    "bytes": 94720
+  },
+  "barbering-curly-coily/grey-blend-short-brown-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a59f",
+    "bytes": 115141
+  },
+  "barbering-curly-coily/grey-blend-translucent-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2a6a1",
+    "bytes": 107017
+  },
+  "barbering-curly-coily/grey-coverage-black-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a5a0",
+    "bytes": 93867
+  },
+  "barbering-curly-coily/grey-coverage-brown-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a49f",
+    "bytes": 112353
+  },
+  "barbering-curly-coily/high-top-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39b98",
+    "bytes": 141467
+  },
+  "barbering-curly-coily/high-top-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca09b",
+    "bytes": 97024
+  },
+  "barbering-curly-coily/high-top-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b3a8a3",
+    "bytes": 102296
+  },
+  "barbering-curly-coily/locs-freeform-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#898686",
+    "bytes": 174585
+  },
+  "barbering-curly-coily/locs-freeform-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968b87",
+    "bytes": 148997
+  },
+  "barbering-curly-coily/locs-freeform-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19793",
+    "bytes": 136627
+  },
+  "barbering-curly-coily/locs-long-tied-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b9595",
+    "bytes": 133876
+  },
+  "barbering-curly-coily/locs-long-tied-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada19c",
+    "bytes": 110087
+  },
+  "barbering-curly-coily/locs-long-tied-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aba09c",
+    "bytes": 100813
+  },
+  "barbering-curly-coily/long-two-strand-twists-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8e8c8d",
+    "bytes": 153696,
+    "quality": 51
+  },
+  "barbering-curly-coily/long-two-strand-twists-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d938f",
+    "bytes": 125851
+  },
+  "barbering-curly-coily/long-two-strand-twists-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39a97",
+    "bytes": 117493
+  },
+  "barbering-curly-coily/midnight-blue-short-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca29f",
+    "bytes": 94958
+  },
+  "barbering-curly-coily/model-base-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b9796",
+    "bytes": 129409
+  },
+  "barbering-curly-coily/model-base-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca19c",
+    "bytes": 94611
+  },
+  "barbering-curly-coily/model-base-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aaa09c",
+    "bytes": 96184
+  },
+  "barbering-curly-coily/natural-silver-gloss-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b7aba7",
+    "bytes": 108723
+  },
+  "barbering-curly-coily/platinum-blonde-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#bbb0ab",
+    "bytes": 107118
+  },
+  "barbering-curly-coily/sandy-tips-crop-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a49f",
+    "bytes": 96227
+  },
+  "barbering-curly-coily/short-twists-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49e9c",
+    "bytes": 130779
+  },
+  "barbering-curly-coily/short-twists-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2a7a3",
+    "bytes": 103294
+  },
+  "barbering-curly-coily/short-twists-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b5aba6",
+    "bytes": 92173
+  },
+  "barbering-curly-coily/soft-black-gloss-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea4a0",
+    "bytes": 103232
+  },
+  "barbering-curly-coily/sponge-twists-taper-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9a99",
+    "bytes": 125153
+  },
+  "barbering-curly-coily/sponge-twists-taper-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea39f",
+    "bytes": 93886
+  },
+  "barbering-curly-coily/sponge-twists-taper-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2a7a3",
+    "bytes": 89203
+  },
+  "barbering-curly-coily/starter-locs-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a7a09e",
+    "bytes": 133355
+  },
+  "barbering-curly-coily/starter-locs-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2a6a1",
+    "bytes": 102229
+  },
+  "barbering-curly-coily/starter-locs-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b7aca7",
+    "bytes": 96388,
+    "quality": 51
+  },
+  "barbering-curly-coily/wave-caesar-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19c9b",
+    "bytes": 132719
+  },
+  "barbering-curly-coily/wave-caesar-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b3a8a3",
+    "bytes": 98850
+  },
+  "barbering-curly-coily/wave-caesar-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b3a9a5",
+    "bytes": 92206
+  },
+  "barbering-curly-coily/waves-360-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39e9d",
+    "bytes": 127621
+  },
+  "barbering-curly-coily/waves-360-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a5a1",
+    "bytes": 100204
+  },
+  "barbering-curly-coily/waves-360-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b6aba7",
+    "bytes": 91784
+  },
+  "barbering-straight-wavy/beard-anchor-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9e9a",
+    "bytes": 114207
+  },
+  "barbering-straight-wavy/beard-balbo-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9e9a",
+    "bytes": 116411
+  },
+  "barbering-straight-wavy/beard-chin-strap-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca09c",
+    "bytes": 124171
+  },
+  "barbering-straight-wavy/beard-circle-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ac9f9b",
+    "bytes": 124185
+  },
+  "barbering-straight-wavy/beard-clean-shaven-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada09b",
+    "bytes": 121813
+  },
+  "barbering-straight-wavy/beard-ducktail-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79b97",
+    "bytes": 118323
+  },
+  "barbering-straight-wavy/beard-faded-full-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9e99",
+    "bytes": 130504
+  },
+  "barbering-straight-wavy/beard-full-long-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29895",
+    "bytes": 126205
+  },
+  "barbering-straight-wavy/beard-full-natural-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89c98",
+    "bytes": 122121
+  },
+  "barbering-straight-wavy/beard-garibaldi-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29794",
+    "bytes": 124296
+  },
+  "barbering-straight-wavy/beard-goatee-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada09b",
+    "bytes": 111254,
+    "quality": 51
+  },
+  "barbering-straight-wavy/beard-mustache-only-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada09b",
+    "bytes": 125340
+  },
+  "barbering-straight-wavy/beard-mutton-chops-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9e9a",
+    "bytes": 117446
+  },
+  "barbering-straight-wavy/beard-short-boxed-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99d99",
+    "bytes": 115538
+  },
+  "barbering-straight-wavy/beard-soul-patch-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9f9b",
+    "bytes": 103916
+  },
+  "barbering-straight-wavy/beard-stubble-medium-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ac9f9b",
+    "bytes": 134538
+  },
+  "barbering-straight-wavy/beard-stubble-short-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9e9a",
+    "bytes": 109095
+  },
+  "barbering-straight-wavy/beard-van-dyke-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99e99",
+    "bytes": 111288
+  },
+  "barbering-straight-wavy/blunt-fringe-taper-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e9795",
+    "bytes": 135474
+  },
+  "barbering-straight-wavy/blunt-fringe-taper-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99e9a",
+    "bytes": 110131
+  },
+  "barbering-straight-wavy/blunt-fringe-taper-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa4a0",
+    "bytes": 106393
+  },
+  "barbering-straight-wavy/bowl-cut-modern-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b9493",
+    "bytes": 132711
+  },
+  "barbering-straight-wavy/bowl-cut-modern-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89d99",
+    "bytes": 119897
+  },
+  "barbering-straight-wavy/bowl-cut-modern-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aaa09c",
+    "bytes": 111712
+  },
+  "barbering-straight-wavy/bro-flow-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#948e8d",
+    "bytes": 136231
+  },
+  "barbering-straight-wavy/bro-flow-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79a96",
+    "bytes": 120601
+  },
+  "barbering-straight-wavy/bro-flow-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89d99",
+    "bytes": 108810
+  },
+  "barbering-straight-wavy/brown-lowlights-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea19c",
+    "bytes": 109852
+  },
+  "barbering-straight-wavy/brush-back-natural-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#999392",
+    "bytes": 134245
+  },
+  "barbering-straight-wavy/brush-back-natural-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9f9b",
+    "bytes": 104785,
+    "quality": 51
+  },
+  "barbering-straight-wavy/brush-back-natural-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aba09c",
+    "bytes": 106672
+  },
+  "barbering-straight-wavy/burst-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9594",
+    "bytes": 138614
+  },
+  "barbering-straight-wavy/burst-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca09b",
+    "bytes": 123665
+  },
+  "barbering-straight-wavy/burst-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea29e",
+    "bytes": 112625
+  },
+  "barbering-straight-wavy/buzz-1-uniform-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9997",
+    "bytes": 130054
+  },
+  "barbering-straight-wavy/buzz-1-uniform-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a49f",
+    "bytes": 98825
+  },
+  "barbering-straight-wavy/buzz-1-uniform-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b4a9a5",
+    "bytes": 92639,
+    "quality": 51
+  },
+  "barbering-straight-wavy/buzz-2-uniform-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9795",
+    "bytes": 129132,
+    "quality": 51
+  },
+  "barbering-straight-wavy/buzz-2-uniform-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa29e",
+    "bytes": 123908
+  },
+  "barbering-straight-wavy/buzz-2-uniform-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a5a2",
+    "bytes": 94327
+  },
+  "barbering-straight-wavy/buzz-4-uniform-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9695",
+    "bytes": 132836
+  },
+  "barbering-straight-wavy/buzz-4-uniform-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea19d",
+    "bytes": 95410,
+    "quality": 51
+  },
+  "barbering-straight-wavy/buzz-4-uniform-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea39f",
+    "bytes": 96723
+  },
+  "barbering-straight-wavy/buzz-longer-front-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09998",
+    "bytes": 131467
+  },
+  "barbering-straight-wavy/buzz-longer-front-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa39f",
+    "bytes": 98151
+  },
+  "barbering-straight-wavy/buzz-longer-front-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2a7a4",
+    "bytes": 97993
+  },
+  "barbering-straight-wavy/buzz-skin-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a59e9c",
+    "bytes": 136398
+  },
+  "barbering-straight-wavy/buzz-skin-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a4a0",
+    "bytes": 97910
+  },
+  "barbering-straight-wavy/buzz-skin-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b9ada9",
+    "bytes": 103003
+  },
+  "barbering-straight-wavy/buzz-tapered-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9997",
+    "bytes": 127093
+  },
+  "barbering-straight-wavy/buzz-tapered-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a4a0",
+    "bytes": 103922
+  },
+  "barbering-straight-wavy/buzz-tapered-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b3a8a3",
+    "bytes": 99524
+  },
+  "barbering-straight-wavy/caesar-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d9796",
+    "bytes": 130273
+  },
+  "barbering-straight-wavy/caesar-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea29e",
+    "bytes": 123953
+  },
+  "barbering-straight-wavy/caesar-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a5a0",
+    "bytes": 106790
+  },
+  "barbering-straight-wavy/caramel-tips-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea29d",
+    "bytes": 127015
+  },
+  "barbering-straight-wavy/charcoal-grey-all-over-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aba09d",
+    "bytes": 119702
+  },
+  "barbering-straight-wavy/comb-over-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29a98",
+    "bytes": 131566
+  },
+  "barbering-straight-wavy/comb-over-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2a5a1",
+    "bytes": 113701
+  },
+  "barbering-straight-wavy/comb-over-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b4a8a4",
+    "bytes": 102416
+  },
+  "barbering-straight-wavy/crew-cut-classic-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09a98",
+    "bytes": 128562
+  },
+  "barbering-straight-wavy/crew-cut-classic-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa39f",
+    "bytes": 100824
+  },
+  "barbering-straight-wavy/crew-cut-classic-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2a6a2",
+    "bytes": 111703
+  },
+  "barbering-straight-wavy/crew-cut-long-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d9695",
+    "bytes": 135981
+  },
+  "barbering-straight-wavy/crew-cut-long-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada19d",
+    "bytes": 117662
+  },
+  "barbering-straight-wavy/crew-cut-long-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea3a0",
+    "bytes": 105633
+  },
+  "barbering-straight-wavy/crew-messy-textured-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9897",
+    "bytes": 129681
+  },
+  "barbering-straight-wavy/crew-messy-textured-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa39f",
+    "bytes": 116980
+  },
+  "barbering-straight-wavy/crew-messy-textured-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2a7a3",
+    "bytes": 106106
+  },
+  "barbering-straight-wavy/crown-sweep-even-top-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9997",
+    "bytes": 129432
+  },
+  "barbering-straight-wavy/crown-sweep-even-top-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa29e",
+    "bytes": 100100
+  },
+  "barbering-straight-wavy/crown-sweep-even-top-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a6a2",
+    "bytes": 103586
+  },
+  "barbering-straight-wavy/curtains-middle-part-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#979190",
+    "bytes": 140271
+  },
+  "barbering-straight-wavy/curtains-middle-part-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89d98",
+    "bytes": 118990,
+    "quality": 51
+  },
+  "barbering-straight-wavy/curtains-middle-part-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89d99",
+    "bytes": 121905
+  },
+  "barbering-straight-wavy/curtains-taper-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9594",
+    "bytes": 139319
+  },
+  "barbering-straight-wavy/curtains-taper-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99d99",
+    "bytes": 115823
+  },
+  "barbering-straight-wavy/curtains-taper-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89d9a",
+    "bytes": 100536
+  },
+  "barbering-straight-wavy/drop-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29b99",
+    "bytes": 128293
+  },
+  "barbering-straight-wavy/drop-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa39f",
+    "bytes": 115628
+  },
+  "barbering-straight-wavy/drop-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b3a8a3",
+    "bytes": 100683
+  },
+  "barbering-straight-wavy/executive-scissor-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a9493",
+    "bytes": 137889
+  },
+  "barbering-straight-wavy/executive-scissor-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ac9f9b",
+    "bytes": 116281
+  },
+  "barbering-straight-wavy/executive-scissor-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aba19d",
+    "bytes": 112593
+  },
+  "barbering-straight-wavy/faux-hawk-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29b99",
+    "bytes": 132047
+  },
+  "barbering-straight-wavy/faux-hawk-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a4a0",
+    "bytes": 121060
+  },
+  "barbering-straight-wavy/faux-hawk-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b5a8a4",
+    "bytes": 103235,
+    "quality": 51
+  },
+  "barbering-straight-wavy/flow-medium-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#928b8a",
+    "bytes": 141714
+  },
+  "barbering-straight-wavy/flow-medium-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49792",
+    "bytes": 120663
+  },
+  "barbering-straight-wavy/flow-medium-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89c98",
+    "bytes": 120565
+  },
+  "barbering-straight-wavy/french-crop-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b9493",
+    "bytes": 119848,
+    "quality": 51
+  },
+  "barbering-straight-wavy/french-crop-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca09c",
+    "bytes": 105675
+  },
+  "barbering-straight-wavy/french-crop-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a5a1",
+    "bytes": 110472
+  },
+  "barbering-straight-wavy/golden-highlights-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada19d",
+    "bytes": 117445
+  },
+  "barbering-straight-wavy/grey-blend-short-brown-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa39e",
+    "bytes": 123067
+  },
+  "barbering-straight-wavy/grey-blend-translucent-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa39e",
+    "bytes": 125014
+  },
+  "barbering-straight-wavy/grey-coverage-black-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9f9b",
+    "bytes": 115230
+  },
+  "barbering-straight-wavy/grey-coverage-brown-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9e9a",
+    "bytes": 118401
+  },
+  "barbering-straight-wavy/hard-part-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29b99",
+    "bytes": 133202
+  },
+  "barbering-straight-wavy/hard-part-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa39e",
+    "bytes": 111701
+  },
+  "barbering-straight-wavy/hard-part-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b4a8a3",
+    "bytes": 101556,
+    "quality": 51
+  },
+  "barbering-straight-wavy/high-and-tight-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89f9d",
+    "bytes": 138520
+  },
+  "barbering-straight-wavy/high-and-tight-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a49f",
+    "bytes": 100844
+  },
+  "barbering-straight-wavy/high-and-tight-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b8aca8",
+    "bytes": 108495
+  },
+  "barbering-straight-wavy/high-skin-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49c9a",
+    "bytes": 135123
+  },
+  "barbering-straight-wavy/high-skin-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa29d",
+    "bytes": 108472
+  },
+  "barbering-straight-wavy/high-skin-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b3a7a2",
+    "bytes": 98042
+  },
+  "barbering-straight-wavy/ivy-league-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9695",
+    "bytes": 127531
+  },
+  "barbering-straight-wavy/ivy-league-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea29d",
+    "bytes": 102596
+  },
+  "barbering-straight-wavy/ivy-league-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada29f",
+    "bytes": 104164
+  },
+  "barbering-straight-wavy/long-layers-natural-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#807876",
+    "bytes": 135831,
+    "quality": 51
+  },
+  "barbering-straight-wavy/long-layers-natural-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958681",
+    "bytes": 128855
+  },
+  "barbering-straight-wavy/long-layers-natural-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968a86",
+    "bytes": 133693
+  },
+  "barbering-straight-wavy/low-skin-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19a98",
+    "bytes": 128300
+  },
+  "barbering-straight-wavy/low-skin-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea19d",
+    "bytes": 102771
+  },
+  "barbering-straight-wavy/low-skin-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b5aaa5",
+    "bytes": 98510
+  },
+  "barbering-straight-wavy/low-taper-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9694",
+    "bytes": 135245
+  },
+  "barbering-straight-wavy/low-taper-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ac9f9b",
+    "bytes": 115480
+  },
+  "barbering-straight-wavy/low-taper-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a5a2",
+    "bytes": 105614
+  },
+  "barbering-straight-wavy/man-bun-classic-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a9492",
+    "bytes": 129519
+  },
+  "barbering-straight-wavy/man-bun-classic-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada19d",
+    "bytes": 103178
+  },
+  "barbering-straight-wavy/man-bun-classic-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada39f",
+    "bytes": 108793
+  },
+  "barbering-straight-wavy/mid-skin-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19a98",
+    "bytes": 136698
+  },
+  "barbering-straight-wavy/mid-skin-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada19d",
+    "bytes": 107986
+  },
+  "barbering-straight-wavy/mid-skin-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b5a9a4",
+    "bytes": 104934
+  },
+  "barbering-straight-wavy/mid-taper-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e9795",
+    "bytes": 133022
+  },
+  "barbering-straight-wavy/mid-taper-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca09b",
+    "bytes": 108544
+  },
+  "barbering-straight-wavy/mid-taper-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a5a0",
+    "bytes": 112981
+  },
+  "barbering-straight-wavy/midnight-blue-short-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99f9d",
+    "bytes": 118139
+  },
+  "barbering-straight-wavy/mod-fringe-90s-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a9493",
+    "bytes": 130015
+  },
+  "barbering-straight-wavy/mod-fringe-90s-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49995",
+    "bytes": 117945
+  },
+  "barbering-straight-wavy/mod-fringe-90s-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a69d99",
+    "bytes": 109450
+  },
+  "barbering-straight-wavy/model-base-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#979190",
+    "bytes": 131133
+  },
+  "barbering-straight-wavy/model-base-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99d99",
+    "bytes": 113804
+  },
+  "barbering-straight-wavy/model-base-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79c98",
+    "bytes": 108514
+  },
+  "barbering-straight-wavy/mohawk-classic-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aba3a0",
+    "bytes": 136409
+  },
+  "barbering-straight-wavy/mohawk-classic-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b4a7a3",
+    "bytes": 114466
+  },
+  "barbering-straight-wavy/mohawk-classic-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b8aba6",
+    "bytes": 120017
+  },
+  "barbering-straight-wavy/mullet-burst-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#948e8e",
+    "bytes": 150574
+  },
+  "barbering-straight-wavy/mullet-burst-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a59995",
+    "bytes": 103309,
+    "quality": 49
+  },
+  "barbering-straight-wavy/mullet-burst-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99d99",
+    "bytes": 122172
+  },
+  "barbering-straight-wavy/mullet-classic-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8c8786",
+    "bytes": 155427
+  },
+  "barbering-straight-wavy/mullet-classic-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29591",
+    "bytes": 135285,
+    "quality": 51
+  },
+  "barbering-straight-wavy/mullet-classic-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19692",
+    "bytes": 127588
+  },
+  "barbering-straight-wavy/mullet-soft-short-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#969090",
+    "bytes": 140445
+  },
+  "barbering-straight-wavy/mullet-soft-short-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79b97",
+    "bytes": 124424
+  },
+  "barbering-straight-wavy/mullet-soft-short-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99e9a",
+    "bytes": 110121
+  },
+  "barbering-straight-wavy/natural-silver-gloss-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2a7a3",
+    "bytes": 116090
+  },
+  "barbering-straight-wavy/perm-curls-men-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a9492",
+    "bytes": 131077
+  },
+  "barbering-straight-wavy/perm-curls-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9e9a",
+    "bytes": 116472
+  },
+  "barbering-straight-wavy/perm-curls-men-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9f9b",
+    "bytes": 113183
+  },
+  "barbering-straight-wavy/platinum-blonde-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b6aaa5",
+    "bytes": 104300
+  },
+  "barbering-straight-wavy/pompadour-classic-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#989190",
+    "bytes": 131847
+  },
+  "barbering-straight-wavy/pompadour-classic-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ac9f9a",
+    "bytes": 118401
+  },
+  "barbering-straight-wavy/pompadour-classic-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca09c",
+    "bytes": 100951
+  },
+  "barbering-straight-wavy/pompadour-modern-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09896",
+    "bytes": 140628
+  },
+  "barbering-straight-wavy/pompadour-modern-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada19d",
+    "bytes": 124235
+  },
+  "barbering-straight-wavy/pompadour-modern-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a4a0",
+    "bytes": 99929
+  },
+  "barbering-straight-wavy/quiff-classic-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a9392",
+    "bytes": 129143
+  },
+  "barbering-straight-wavy/quiff-classic-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ac9f9b",
+    "bytes": 110951
+  },
+  "barbering-straight-wavy/quiff-classic-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada29f",
+    "bytes": 101215
+  },
+  "barbering-straight-wavy/quiff-textured-messy-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b9493",
+    "bytes": 138899
+  },
+  "barbering-straight-wavy/quiff-textured-messy-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea19d",
+    "bytes": 119426
+  },
+  "barbering-straight-wavy/quiff-textured-messy-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca19d",
+    "bytes": 106932
+  },
+  "barbering-straight-wavy/sandy-tips-crop-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada09c",
+    "bytes": 103265
+  },
+  "barbering-straight-wavy/scissor-taper-classic-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a9493",
+    "bytes": 134655
+  },
+  "barbering-straight-wavy/scissor-taper-classic-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ac9f9b",
+    "bytes": 114120
+  },
+  "barbering-straight-wavy/scissor-taper-classic-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca19d",
+    "bytes": 107800
+  },
+  "barbering-straight-wavy/shadow-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e9796",
+    "bytes": 137873
+  },
+  "barbering-straight-wavy/shadow-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada09c",
+    "bytes": 109675
+  },
+  "barbering-straight-wavy/shadow-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a5a1",
+    "bytes": 110581,
+    "quality": 51
+  },
+  "barbering-straight-wavy/shag-modern-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#948e8d",
+    "bytes": 135273,
+    "quality": 51
+  },
+  "barbering-straight-wavy/shag-modern-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49894",
+    "bytes": 134426
+  },
+  "barbering-straight-wavy/shag-modern-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29894",
+    "bytes": 127078
+  },
+  "barbering-straight-wavy/shaved-head-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b6aaa6",
+    "bytes": 105696
+  },
+  "barbering-straight-wavy/shaved-head-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b7aaa5",
+    "bytes": 96947
+  },
+  "barbering-straight-wavy/shaved-head-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#c2b5af",
+    "bytes": 78488
+  },
+  "barbering-straight-wavy/short-back-sides-connected-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9695",
+    "bytes": 136351
+  },
+  "barbering-straight-wavy/short-back-sides-connected-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea29e",
+    "bytes": 129174
+  },
+  "barbering-straight-wavy/short-back-sides-connected-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa4a1",
+    "bytes": 99301
+  },
+  "barbering-straight-wavy/side-part-classic-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a9493",
+    "bytes": 128692
+  },
+  "barbering-straight-wavy/side-part-classic-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada09c",
+    "bytes": 111929
+  },
+  "barbering-straight-wavy/side-part-classic-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea39f",
+    "bytes": 105644
+  },
+  "barbering-straight-wavy/slick-back-classic-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a9493",
+    "bytes": 134151
+  },
+  "barbering-straight-wavy/slick-back-classic-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca09b",
+    "bytes": 105631
+  },
+  "barbering-straight-wavy/slick-back-classic-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada3a0",
+    "bytes": 104210
+  },
+  "barbering-straight-wavy/slick-back-undercut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19a99",
+    "bytes": 132169
+  },
+  "barbering-straight-wavy/slick-back-undercut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa29e",
+    "bytes": 98031
+  },
+  "barbering-straight-wavy/slick-back-undercut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a5a1",
+    "bytes": 100320
+  },
+  "barbering-straight-wavy/soft-black-gloss-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9f9a",
+    "bytes": 110630
+  },
+  "barbering-straight-wavy/temple-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9594",
+    "bytes": 134385
+  },
+  "barbering-straight-wavy/temple-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa39e",
+    "bytes": 113333
+  },
+  "barbering-straight-wavy/temple-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a5a1",
+    "bytes": 112024
+  },
+  "barbering-straight-wavy/textured-crop-low-taper-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b9594",
+    "bytes": 134061
+  },
+  "barbering-straight-wavy/textured-crop-low-taper-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9f9b",
+    "bytes": 102424
+  },
+  "barbering-straight-wavy/textured-crop-low-taper-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea29e",
+    "bytes": 100423
+  },
+  "barbering-straight-wavy/textured-crop-mid-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09998",
+    "bytes": 130813
+  },
+  "barbering-straight-wavy/textured-crop-mid-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca19d",
+    "bytes": 106232,
+    "quality": 51
+  },
+  "barbering-straight-wavy/textured-crop-mid-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b3a7a3",
+    "bytes": 105634
+  },
+  "barbering-straight-wavy/top-heavy-fade-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19a98",
+    "bytes": 141436
+  },
+  "barbering-straight-wavy/top-heavy-fade-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9e9a",
+    "bytes": 114933
+  },
+  "barbering-straight-wavy/top-heavy-fade-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b1a4a0",
+    "bytes": 115590
+  },
+  "barbering-straight-wavy/top-knot-undercut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39c9a",
+    "bytes": 115366,
+    "quality": 51
+  },
+  "barbering-straight-wavy/top-knot-undercut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa39e",
+    "bytes": 104827
+  },
+  "barbering-straight-wavy/top-knot-undercut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b5a9a5",
+    "bytes": 107192
+  },
+  "barbering-straight-wavy/two-block-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#999291",
+    "bytes": 132153,
+    "quality": 51
+  },
+  "barbering-straight-wavy/two-block-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79b98",
+    "bytes": 111464
+  },
+  "barbering-straight-wavy/two-block-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9f9b",
+    "bytes": 114917
+  },
+  "barbering-straight-wavy/undercut-disconnected-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b9593",
+    "bytes": 139266
+  },
+  "barbering-straight-wavy/undercut-disconnected-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca09b",
+    "bytes": 113971
+  },
+  "barbering-straight-wavy/undercut-disconnected-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea29e",
+    "bytes": 111808
+  },
+  "barbering-straight-wavy/undercut-side-part-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09897",
+    "bytes": 130235
+  },
+  "barbering-straight-wavy/undercut-side-part-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea19d",
+    "bytes": 104558
+  },
+  "barbering-straight-wavy/undercut-side-part-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b6aaa5",
+    "bytes": 104806
+  },
+  "barbering-straight-wavy/wolf-cut-men-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8e8989",
+    "bytes": 156589
+  },
+  "barbering-straight-wavy/wolf-cut-men-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e938f",
+    "bytes": 137062
+  },
+  "barbering-straight-wavy/wolf-cut-men-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29794",
+    "bytes": 134180
+  },
+  "salon-curly-coily/ash-blonde-root-shadow-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29b99",
+    "bytes": 178310,
+    "quality": 51
+  },
+  "salon-curly-coily/ash-brown-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8e8988",
+    "bytes": 181024
+  },
+  "salon-curly-coily/asymmetric-coily-taper-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#918b8a",
+    "bytes": 154624
+  },
+  "salon-curly-coily/asymmetric-coily-taper-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09793",
+    "bytes": 115969,
+    "quality": 51
+  },
+  "salon-curly-coily/asymmetric-coily-taper-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a69c98",
+    "bytes": 102212
+  },
+  "salon-curly-coily/auburn-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#928580",
+    "bytes": 183268
+  },
+  "salon-curly-coily/auburn-money-piece-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c8c86",
+    "bytes": 156186
+  },
+  "salon-curly-coily/beige-blonde-colour-correction-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aba19a",
+    "bytes": 196480
+  },
+  "salon-curly-coily/beige-blonde-money-piece-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a2948d",
+    "bytes": 159421
+  },
+  "salon-curly-coily/black-brown-money-piece-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#918885",
+    "bytes": 147976
+  },
+  "salon-curly-coily/black-burgundy-melt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#898282",
+    "bytes": 170971
+  },
+  "salon-curly-coily/bronde-balayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#988e89",
+    "bytes": 193653
+  },
+  "salon-curly-coily/caramel-balayage-chocolate-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#938984",
+    "bytes": 178249,
+    "quality": 51
+  },
+  "salon-curly-coily/caramel-ombre-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978d86",
+    "bytes": 183823
+  },
+  "salon-curly-coily/carved-sliced-curl-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7d7877",
+    "bytes": 155417,
+    "quality": 51
+  },
+  "salon-curly-coily/carved-sliced-curl-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8c827f",
+    "bytes": 149384
+  },
+  "salon-curly-coily/carved-sliced-curl-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#99908c",
+    "bytes": 125387
+  },
+  "salon-curly-coily/champagne-babylights-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e948e",
+    "bytes": 214935
+  },
+  "salon-curly-coily/charcoal-grey-all-over-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968f8c",
+    "bytes": 140430,
+    "quality": 51
+  },
+  "salon-curly-coily/cherry-cola-gloss-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#898180",
+    "bytes": 164991,
+    "quality": 51
+  },
+  "salon-curly-coily/cherry-red-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#977c7f",
+    "bytes": 188794
+  },
+  "salon-curly-coily/chestnut-demi-refresh-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#908581",
+    "bytes": 193731
+  },
+  "salon-curly-coily/chocolate-caramel-melt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#908682",
+    "bytes": 194785
+  },
+  "salon-curly-coily/chocolate-colour-correction-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8d8583",
+    "bytes": 175559
+  },
+  "salon-curly-coily/cinnamon-foilayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#908681",
+    "bytes": 193137
+  },
+  "salon-curly-coily/coily-blunt-ended-midi-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#827f7e",
+    "bytes": 156858,
+    "quality": 49
+  },
+  "salon-curly-coily/coily-blunt-ended-midi-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8e8480",
+    "bytes": 154210
+  },
+  "salon-curly-coily/coily-blunt-ended-midi-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#98908d",
+    "bytes": 127468
+  },
+  "salon-curly-coily/coily-layered-midi-stacked-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#837e7d",
+    "bytes": 166466,
+    "quality": 51
+  },
+  "salon-curly-coily/coily-layered-midi-stacked-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8d837f",
+    "bytes": 150770
+  },
+  "salon-curly-coily/coily-layered-midi-stacked-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#99908c",
+    "bytes": 124086
+  },
+  "salon-curly-coily/coily-length-preserving-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6f6b6a",
+    "bytes": 194657
+  },
+  "salon-curly-coily/coily-length-preserving-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#827773",
+    "bytes": 139757,
+    "quality": 49
+  },
+  "salon-curly-coily/coily-length-preserving-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8c837f",
+    "bytes": 148519
+  },
+  "salon-curly-coily/coily-sculpted-chin-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#898483",
+    "bytes": 162386,
+    "quality": 51
+  },
+  "salon-curly-coily/coily-sculpted-chin-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958c88",
+    "bytes": 143074
+  },
+  "salon-curly-coily/coily-sculpted-chin-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9692",
+    "bytes": 118148
+  },
+  "salon-curly-coily/copper-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a3887e",
+    "bytes": 205183
+  },
+  "salon-curly-coily/copper-balayage-root-shadow-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#988881",
+    "bytes": 200133
+  },
+  "salon-curly-coily/copper-colour-melt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f8a81",
+    "bytes": 197853
+  },
+  "salon-curly-coily/copper-ombre-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b8680",
+    "bytes": 194613
+  },
+  "salon-curly-coily/curl-by-curl-dry-cut-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7f7a79",
+    "bytes": 185698
+  },
+  "salon-curly-coily/curl-by-curl-dry-cut-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8d837f",
+    "bytes": 161784
+  },
+  "salon-curly-coily/curl-by-curl-dry-cut-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968e8a",
+    "bytes": 137466
+  },
+  "salon-curly-coily/curly-a-line-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8c8785",
+    "bytes": 161811
+  },
+  "salon-curly-coily/curly-a-line-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b918d",
+    "bytes": 144940
+  },
+  "salon-curly-coily/curly-a-line-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9692",
+    "bytes": 125555
+  },
+  "salon-curly-coily/curly-asymmetric-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8a8483",
+    "bytes": 169661
+  },
+  "salon-curly-coily/curly-asymmetric-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978e8a",
+    "bytes": 137387,
+    "quality": 51
+  },
+  "salon-curly-coily/curly-asymmetric-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9592",
+    "bytes": 131027
+  },
+  "salon-curly-coily/curly-bangs-long-curls-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#736e6d",
+    "bytes": 177412
+  },
+  "salon-curly-coily/curly-bangs-long-curls-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#847975",
+    "bytes": 163828
+  },
+  "salon-curly-coily/curly-bangs-long-curls-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#908782",
+    "bytes": 141030
+  },
+  "salon-curly-coily/curly-bixie-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#979290",
+    "bytes": 152111
+  },
+  "salon-curly-coily/curly-bixie-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39a96",
+    "bytes": 123754
+  },
+  "salon-curly-coily/curly-bixie-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a59c98",
+    "bytes": 107982
+  },
+  "salon-curly-coily/curly-bob-rounded-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#888381",
+    "bytes": 168755
+  },
+  "salon-curly-coily/curly-bob-rounded-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978c88",
+    "bytes": 144578
+  },
+  "salon-curly-coily/curly-bob-rounded-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9691",
+    "bytes": 125419
+  },
+  "salon-curly-coily/curly-bob-with-fringe-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#878281",
+    "bytes": 171509
+  },
+  "salon-curly-coily/curly-bob-with-fringe-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#928884",
+    "bytes": 155030
+  },
+  "salon-curly-coily/curly-bob-with-fringe-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e9591",
+    "bytes": 118968
+  },
+  "salon-curly-coily/curly-bowl-crop-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#999492",
+    "bytes": 142535
+  },
+  "salon-curly-coily/curly-bowl-crop-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39b97",
+    "bytes": 119714
+  },
+  "salon-curly-coily/curly-bowl-crop-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49c98",
+    "bytes": 105412
+  },
+  "salon-curly-coily/curly-butterfly-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#716c6b",
+    "bytes": 175968,
+    "quality": 51
+  },
+  "salon-curly-coily/curly-butterfly-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7e746f",
+    "bytes": 155577
+  },
+  "salon-curly-coily/curly-butterfly-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#928986",
+    "bytes": 137810
+  },
+  "salon-curly-coily/curly-curtain-fringe-shoulder-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7b7777",
+    "bytes": 178654
+  },
+  "salon-curly-coily/curly-curtain-fringe-shoulder-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8d837f",
+    "bytes": 152312
+  },
+  "salon-curly-coily/curly-curtain-fringe-shoulder-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#918985",
+    "bytes": 137597
+  },
+  "salon-curly-coily/curly-face-frame-length-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6e6967",
+    "bytes": 166066,
+    "quality": 51
+  },
+  "salon-curly-coily/curly-face-frame-length-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#80746f",
+    "bytes": 154805
+  },
+  "salon-curly-coily/curly-face-frame-length-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#857c77",
+    "bytes": 161556
+  },
+  "salon-curly-coily/curly-hidden-undercut-midi-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7b7877",
+    "bytes": 175150
+  },
+  "salon-curly-coily/curly-hidden-undercut-midi-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8e8581",
+    "bytes": 145598
+  },
+  "salon-curly-coily/curly-hidden-undercut-midi-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#928a86",
+    "bytes": 132536
+  },
+  "salon-curly-coily/curly-lob-rounded-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7a7575",
+    "bytes": 179146
+  },
+  "salon-curly-coily/curly-lob-rounded-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#897f7b",
+    "bytes": 154536
+  },
+  "salon-curly-coily/curly-lob-rounded-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968d8a",
+    "bytes": 133669
+  },
+  "salon-curly-coily/curly-long-shag-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#726d6c",
+    "bytes": 176551
+  },
+  "salon-curly-coily/curly-long-shag-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#827873",
+    "bytes": 164105
+  },
+  "salon-curly-coily/curly-long-shag-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8d8481",
+    "bytes": 155324
+  },
+  "salon-curly-coily/curly-mullet-salon-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8b8888",
+    "bytes": 156552
+  },
+  "salon-curly-coily/curly-mullet-salon-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e9591",
+    "bytes": 138753
+  },
+  "salon-curly-coily/curly-mullet-salon-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29894",
+    "bytes": 111873
+  },
+  "salon-curly-coily/curly-pixie-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d9795",
+    "bytes": 128352
+  },
+  "salon-curly-coily/curly-pixie-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79e9a",
+    "bytes": 115819
+  },
+  "salon-curly-coily/curly-pixie-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aaa19d",
+    "bytes": 102175
+  },
+  "salon-curly-coily/curly-short-shag-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8f8a88",
+    "bytes": 167079
+  },
+  "salon-curly-coily/curly-short-shag-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978d8a",
+    "bytes": 130085,
+    "quality": 51
+  },
+  "salon-curly-coily/curly-short-shag-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09793",
+    "bytes": 115327
+  },
+  "salon-curly-coily/curly-u-shape-long-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#706b6a",
+    "bytes": 182204
+  },
+  "salon-curly-coily/curly-u-shape-long-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#817671",
+    "bytes": 163371
+  },
+  "salon-curly-coily/curly-u-shape-long-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8f8581",
+    "bytes": 149074
+  },
+  "salon-curly-coily/curly-wedge-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8b8685",
+    "bytes": 159441
+  },
+  "salon-curly-coily/curly-wedge-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b918d",
+    "bytes": 138959
+  },
+  "salon-curly-coily/curly-wedge-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29996",
+    "bytes": 116840
+  },
+  "salon-curly-coily/curly-wolf-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7f7a7a",
+    "bytes": 178034
+  },
+  "salon-curly-coily/curly-wolf-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#918783",
+    "bytes": 143801
+  },
+  "salon-curly-coily/curly-wolf-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#948c88",
+    "bytes": 126438
+  },
+  "salon-curly-coily/darkest-brown-gloss-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#84807f",
+    "bytes": 168714
+  },
+  "salon-curly-coily/diamond-shape-afro-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#898484",
+    "bytes": 183270
+  },
+  "salon-curly-coily/diamond-shape-afro-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978d89",
+    "bytes": 145404
+  },
+  "salon-curly-coily/diamond-shape-afro-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9692",
+    "bytes": 124920
+  },
+  "salon-curly-coily/espresso-soft-caramel-balayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8e8683",
+    "bytes": 179235
+  },
+  "salon-curly-coily/fine-curl-light-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7a7574",
+    "bytes": 190429
+  },
+  "salon-curly-coily/fine-curl-light-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#877d79",
+    "bytes": 168650
+  },
+  "salon-curly-coily/fine-curl-light-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#928986",
+    "bytes": 147921
+  },
+  "salon-curly-coily/frohawk-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49e9c",
+    "bytes": 138931
+  },
+  "salon-curly-coily/frohawk-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa6a2",
+    "bytes": 106529
+  },
+  "salon-curly-coily/frohawk-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a6a1",
+    "bytes": 92052
+  },
+  "salon-curly-coily/ginger-balayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a28f84",
+    "bytes": 193404,
+    "quality": 51
+  },
+  "salon-curly-coily/golden-blonde-foilayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9c8f",
+    "bytes": 196110,
+    "quality": 51
+  },
+  "salon-curly-coily/grey-blend-blonde-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f938d",
+    "bytes": 171885
+  },
+  "salon-curly-coily/grey-blend-brunette-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#988e89",
+    "bytes": 159991
+  },
+  "salon-curly-coily/grey-coverage-chocolate-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8d8582",
+    "bytes": 184843
+  },
+  "salon-curly-coily/grey-coverage-light-brown-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958d89",
+    "bytes": 189158
+  },
+  "salon-curly-coily/grey-coverage-soft-black-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#848181",
+    "bytes": 169134
+  },
+  "salon-curly-coily/honey-blonde-foil-highlights-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9088",
+    "bytes": 201863,
+    "quality": 51
+  },
+  "salon-curly-coily/icy-platinum-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b7b2b1",
+    "bytes": 184105
+  },
+  "salon-curly-coily/jet-black-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#838282",
+    "bytes": 171629
+  },
+  "salon-curly-coily/lavender-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea3af",
+    "bytes": 190096
+  },
+  "salon-curly-coily/lavender-ombre-blonde-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79d9e",
+    "bytes": 186064
+  },
+  "salon-curly-coily/long-coily-blunt-shape-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#747171",
+    "bytes": 187316
+  },
+  "salon-curly-coily/long-coily-blunt-shape-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#837a76",
+    "bytes": 169467
+  },
+  "salon-curly-coily/long-coily-blunt-shape-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#928986",
+    "bytes": 146209
+  },
+  "salon-curly-coily/long-curls-light-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#6a6563",
+    "bytes": 167776
+  },
+  "salon-curly-coily/long-curls-light-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7c716c",
+    "bytes": 166019
+  },
+  "salon-curly-coily/long-curls-light-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#887f7b",
+    "bytes": 149727
+  },
+  "salon-curly-coily/long-curls-tapered-side-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7d7877",
+    "bytes": 162510
+  },
+  "salon-curly-coily/long-curls-tapered-side-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8b807b",
+    "bytes": 159180
+  },
+  "salon-curly-coily/long-curls-tapered-side-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#918680",
+    "bytes": 149690
+  },
+  "salon-curly-coily/long-curly-wolf-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7b7775",
+    "bytes": 172656
+  },
+  "salon-curly-coily/long-curly-wolf-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8c837f",
+    "bytes": 151717
+  },
+  "salon-curly-coily/long-curly-wolf-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#99908b",
+    "bytes": 132045
+  },
+  "salon-curly-coily/mahogany-demi-refresh-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#887f7f",
+    "bytes": 168901
+  },
+  "salon-curly-coily/midnight-blue-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7f7e81",
+    "bytes": 164371
+  },
+  "salon-curly-coily/milk-chocolate-sombre-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#918782",
+    "bytes": 187049
+  },
+  "salon-curly-coily/mocha-soft-babylights-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8e8784",
+    "bytes": 179396
+  },
+  "salon-curly-coily/model-base-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#85807e",
+    "bytes": 173988
+  },
+  "salon-curly-coily/model-base-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#918783",
+    "bytes": 155032
+  },
+  "salon-curly-coily/model-base-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#99918d",
+    "bytes": 121356
+  },
+  "salon-curly-coily/mushroom-blonde-melt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9591",
+    "bytes": 196478
+  },
+  "salon-curly-coily/natural-silver-gloss-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a9a09d",
+    "bytes": 165639
+  },
+  "salon-curly-coily/pastel-pink-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#bea5aa",
+    "bytes": 199092
+  },
+  "salon-curly-coily/peach-apricot-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#c2a397",
+    "bytes": 181583,
+    "quality": 51
+  },
+  "salon-curly-coily/peachy-rose-melt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2988f",
+    "bytes": 199524
+  },
+  "salon-curly-coily/pearl-blonde-gloss-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2a6a2",
+    "bytes": 183548
+  },
+  "salon-curly-coily/platinum-root-shadow-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b5aea9",
+    "bytes": 177411
+  },
+  "salon-curly-coily/plum-ombre-ends-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8b8285",
+    "bytes": 176526
+  },
+  "salon-curly-coily/plum-violet-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8c7d86",
+    "bytes": 189504
+  },
+  "salon-curly-coily/rose-gold-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b6a199",
+    "bytes": 197619
+  },
+  "salon-curly-coily/round-layer-shoulder-curls-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7a7574",
+    "bytes": 191118
+  },
+  "salon-curly-coily/round-layer-shoulder-curls-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#877d79",
+    "bytes": 157910
+  },
+  "salon-curly-coily/round-layer-shoulder-curls-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#948b87",
+    "bytes": 140142
+  },
+  "salon-curly-coily/sandy-blonde-lowlights-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19790",
+    "bytes": 213074
+  },
+  "salon-curly-coily/sectional-even-length-curl-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7a7675",
+    "bytes": 192991
+  },
+  "salon-curly-coily/sectional-even-length-curl-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8d847f",
+    "bytes": 154533
+  },
+  "salon-curly-coily/sectional-even-length-curl-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978f8b",
+    "bytes": 133912
+  },
+  "salon-curly-coily/shaped-fro-curly-fringe-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#807c7a",
+    "bytes": 182807
+  },
+  "salon-curly-coily/shaped-fro-curly-fringe-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8a817e",
+    "bytes": 161954
+  },
+  "salon-curly-coily/shaped-fro-curly-fringe-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978f8b",
+    "bytes": 129403
+  },
+  "salon-curly-coily/shaped-round-afro-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#837e7d",
+    "bytes": 192471
+  },
+  "salon-curly-coily/shaped-round-afro-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8f8581",
+    "bytes": 161808
+  },
+  "salon-curly-coily/shaped-round-afro-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a918c",
+    "bytes": 134283
+  },
+  "salon-curly-coily/shaped-round-twa-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#989493",
+    "bytes": 143085
+  },
+  "salon-curly-coily/shaped-round-twa-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79d99",
+    "bytes": 122889
+  },
+  "salon-curly-coily/shaped-round-twa-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a8a09d",
+    "bytes": 105588
+  },
+  "salon-curly-coily/silver-babylights-blend-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29f9e",
+    "bytes": 207392
+  },
+  "salon-curly-coily/silver-white-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b5b3b3",
+    "bytes": 183570
+  },
+  "salon-curly-coily/soft-black-gloss-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#928a87",
+    "bytes": 158534
+  },
+  "salon-curly-coily/strawberry-blonde-balayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa978f",
+    "bytes": 196436
+  },
+  "salon-curly-coily/tapered-curly-crop-long-top-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d9795",
+    "bytes": 139761
+  },
+  "salon-curly-coily/tapered-curly-crop-long-top-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79d9a",
+    "bytes": 110407
+  },
+  "salon-curly-coily/tapered-curly-crop-long-top-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aba19d",
+    "bytes": 96326
+  },
+  "salon-curly-coily/tapered-twa-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9998",
+    "bytes": 146249
+  },
+  "salon-curly-coily/tapered-twa-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada3a0",
+    "bytes": 105610
+  },
+  "salon-curly-coily/tapered-twa-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aba29d",
+    "bytes": 108394
+  },
+  "salon-curly-coily/teal-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7d9291",
+    "bytes": 191026
+  },
+  "salon-curly-coily/vanilla-blonde-sombre-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99e95",
+    "bytes": 201216
+  },
+  "salon-straight-wavy/a-line-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d938e",
+    "bytes": 142019
+  },
+  "salon-straight-wavy/a-line-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89a93",
+    "bytes": 130829
+  },
+  "salon-straight-wavy/a-line-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea099",
+    "bytes": 105133
+  },
+  "salon-straight-wavy/a-line-lob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#988d87",
+    "bytes": 153379
+  },
+  "salon-straight-wavy/a-line-lob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a1928a",
+    "bytes": 138953
+  },
+  "salon-straight-wavy/a-line-lob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79991",
+    "bytes": 116248
+  },
+  "salon-straight-wavy/ash-blonde-root-shadow-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39d9b",
+    "bytes": 153931
+  },
+  "salon-straight-wavy/ash-brown-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#918b88",
+    "bytes": 152775
+  },
+  "salon-straight-wavy/asymmetric-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e938d",
+    "bytes": 152002
+  },
+  "salon-straight-wavy/asymmetric-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a3968f",
+    "bytes": 147621
+  },
+  "salon-straight-wavy/asymmetric-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99d96",
+    "bytes": 114937
+  },
+  "salon-straight-wavy/asymmetric-lob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b908a",
+    "bytes": 162707
+  },
+  "salon-straight-wavy/asymmetric-lob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19289",
+    "bytes": 151601
+  },
+  "salon-straight-wavy/asymmetric-lob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79991",
+    "bytes": 119591
+  },
+  "salon-straight-wavy/asymmetric-pixie-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39995",
+    "bytes": 141071
+  },
+  "salon-straight-wavy/asymmetric-pixie-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9d97",
+    "bytes": 134575
+  },
+  "salon-straight-wavy/asymmetric-pixie-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9f98",
+    "bytes": 109029
+  },
+  "salon-straight-wavy/auburn-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#95837e",
+    "bytes": 150995
+  },
+  "salon-straight-wavy/auburn-money-piece-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a08e86",
+    "bytes": 166099
+  },
+  "salon-straight-wavy/baby-bang-pixie-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39995",
+    "bytes": 139602
+  },
+  "salon-straight-wavy/baby-bang-pixie-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9f9a",
+    "bytes": 118618
+  },
+  "salon-straight-wavy/baby-bang-pixie-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa29c",
+    "bytes": 100087
+  },
+  "salon-straight-wavy/baby-bangs-long-hair-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978981",
+    "bytes": 149288
+  },
+  "salon-straight-wavy/baby-bangs-long-hair-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39187",
+    "bytes": 131816
+  },
+  "salon-straight-wavy/baby-bangs-long-hair-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a4948b",
+    "bytes": 116312
+  },
+  "salon-straight-wavy/beige-blonde-colour-correction-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea49d",
+    "bytes": 148253
+  },
+  "salon-straight-wavy/beige-blonde-money-piece-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a6968c",
+    "bytes": 159431
+  },
+  "salon-straight-wavy/bevelled-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f948e",
+    "bytes": 134711
+  },
+  "salon-straight-wavy/bevelled-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a59790",
+    "bytes": 135959
+  },
+  "salon-straight-wavy/bevelled-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9e97",
+    "bytes": 106551
+  },
+  "salon-straight-wavy/bixie-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19792",
+    "bytes": 146189
+  },
+  "salon-straight-wavy/bixie-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a69a94",
+    "bytes": 139530
+  },
+  "salon-straight-wavy/bixie-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99c95",
+    "bytes": 117975
+  },
+  "salon-straight-wavy/black-brown-money-piece-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#948984",
+    "bytes": 141844
+  },
+  "salon-straight-wavy/black-burgundy-melt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#857c7d",
+    "bytes": 145385
+  },
+  "salon-straight-wavy/blowout-layers-90s-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#91857e",
+    "bytes": 189497
+  },
+  "salon-straight-wavy/blowout-layers-90s-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#99887e",
+    "bytes": 168622
+  },
+  "salon-straight-wavy/blowout-layers-90s-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09188",
+    "bytes": 143406
+  },
+  "salon-straight-wavy/blunt-chin-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29792",
+    "bytes": 134001
+  },
+  "salon-straight-wavy/blunt-chin-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79992",
+    "bytes": 136164
+  },
+  "salon-straight-wavy/blunt-chin-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ac9f97",
+    "bytes": 107844
+  },
+  "salon-straight-wavy/blunt-full-fringe-long-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b8d84",
+    "bytes": 119243
+  },
+  "salon-straight-wavy/blunt-full-fringe-long-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8e85",
+    "bytes": 121282
+  },
+  "salon-straight-wavy/blunt-full-fringe-long-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a7978f",
+    "bytes": 107216
+  },
+  "salon-straight-wavy/bottleneck-bang-long-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968881",
+    "bytes": 160330
+  },
+  "salon-straight-wavy/bottleneck-bang-long-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c8a80",
+    "bytes": 148021
+  },
+  "salon-straight-wavy/bottleneck-bang-long-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a2928a",
+    "bytes": 139630
+  },
+  "salon-straight-wavy/bronde-balayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e938d",
+    "bytes": 153160,
+    "quality": 51
+  },
+  "salon-straight-wavy/buzz-cut-women-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89f9b",
+    "bytes": 130292
+  },
+  "salon-straight-wavy/buzz-cut-women-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a29c",
+    "bytes": 123179
+  },
+  "salon-straight-wavy/buzz-cut-women-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b3a7a1",
+    "bytes": 98672
+  },
+  "salon-straight-wavy/c-curve-midi-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978c86",
+    "bytes": 156922
+  },
+  "salon-straight-wavy/c-curve-midi-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8f87",
+    "bytes": 153229
+  },
+  "salon-straight-wavy/c-curve-midi-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a1938c",
+    "bytes": 127028
+  },
+  "salon-straight-wavy/caramel-balayage-chocolate-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978982",
+    "bytes": 155347
+  },
+  "salon-straight-wavy/caramel-ombre-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a8c84",
+    "bytes": 156180
+  },
+  "salon-straight-wavy/champagne-babylights-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89c94",
+    "bytes": 161466
+  },
+  "salon-straight-wavy/charcoal-grey-all-over-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#948b88",
+    "bytes": 146453
+  },
+  "salon-straight-wavy/chelsea-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9692",
+    "bytes": 154120
+  },
+  "salon-straight-wavy/chelsea-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a59892",
+    "bytes": 142199
+  },
+  "salon-straight-wavy/chelsea-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99d95",
+    "bytes": 123194
+  },
+  "salon-straight-wavy/cherry-cola-gloss-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#867d7c",
+    "bytes": 145979
+  },
+  "salon-straight-wavy/cherry-red-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b787d",
+    "bytes": 153028,
+    "quality": 51
+  },
+  "salon-straight-wavy/chestnut-demi-refresh-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#91837c",
+    "bytes": 159749
+  },
+  "salon-straight-wavy/chocolate-caramel-melt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#90847f",
+    "bytes": 150428
+  },
+  "salon-straight-wavy/chocolate-colour-correction-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8b8481",
+    "bytes": 146180
+  },
+  "salon-straight-wavy/choppy-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19691",
+    "bytes": 151384
+  },
+  "salon-straight-wavy/choppy-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89992",
+    "bytes": 151826
+  },
+  "salon-straight-wavy/choppy-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab9e97",
+    "bytes": 115213
+  },
+  "salon-straight-wavy/cinnamon-foilayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968982",
+    "bytes": 161328
+  },
+  "salon-straight-wavy/classic-pixie-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39995",
+    "bytes": 132761
+  },
+  "salon-straight-wavy/classic-pixie-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9e98",
+    "bytes": 118290,
+    "quality": 51
+  },
+  "salon-straight-wavy/classic-pixie-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea19b",
+    "bytes": 112996
+  },
+  "salon-straight-wavy/classic-shag-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#938882",
+    "bytes": 190510
+  },
+  "salon-straight-wavy/classic-shag-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a8a81",
+    "bytes": 175234
+  },
+  "salon-straight-wavy/classic-shag-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e9087",
+    "bytes": 149619
+  },
+  "salon-straight-wavy/collarbone-lob-blunt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968c87",
+    "bytes": 134454
+  },
+  "salon-straight-wavy/collarbone-lob-blunt-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a2938c",
+    "bytes": 129588
+  },
+  "salon-straight-wavy/collarbone-lob-blunt-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a6978f",
+    "bytes": 107123
+  },
+  "salon-straight-wavy/copper-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ab8c7c",
+    "bytes": 180213
+  },
+  "salon-straight-wavy/copper-balayage-root-shadow-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b8881",
+    "bytes": 161302
+  },
+  "salon-straight-wavy/copper-colour-melt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a18a80",
+    "bytes": 173617
+  },
+  "salon-straight-wavy/copper-ombre-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8880",
+    "bytes": 165906
+  },
+  "salon-straight-wavy/curtain-fringe-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f938d",
+    "bytes": 154417
+  },
+  "salon-straight-wavy/curtain-fringe-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a1938b",
+    "bytes": 142167
+  },
+  "salon-straight-wavy/curtain-fringe-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89a94",
+    "bytes": 112545
+  },
+  "salon-straight-wavy/curtain-fringe-lob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968b84",
+    "bytes": 175639
+  },
+  "salon-straight-wavy/curtain-fringe-lob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8f86",
+    "bytes": 151338
+  },
+  "salon-straight-wavy/curtain-fringe-lob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a0928a",
+    "bytes": 137419
+  },
+  "salon-straight-wavy/darkest-brown-gloss-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#817d7c",
+    "bytes": 155003
+  },
+  "salon-straight-wavy/espresso-soft-caramel-balayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8b827f",
+    "bytes": 151614
+  },
+  "salon-straight-wavy/eton-crop-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a69e9a",
+    "bytes": 124217
+  },
+  "salon-straight-wavy/eton-crop-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a49f",
+    "bytes": 114271
+  },
+  "salon-straight-wavy/eton-crop-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b3a6a0",
+    "bytes": 94032
+  },
+  "salon-straight-wavy/face-frame-only-shoulder-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958b85",
+    "bytes": 160843
+  },
+  "salon-straight-wavy/face-frame-only-shoulder-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09188",
+    "bytes": 149268
+  },
+  "salon-straight-wavy/face-frame-only-shoulder-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a1938b",
+    "bytes": 118554
+  },
+  "salon-straight-wavy/feathered-shoulder-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978b85",
+    "bytes": 173507
+  },
+  "salon-straight-wavy/feathered-shoulder-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d8e86",
+    "bytes": 170327
+  },
+  "salon-straight-wavy/feathered-shoulder-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a3958d",
+    "bytes": 125662,
+    "quality": 51
+  },
+  "salon-straight-wavy/fine-hair-weighted-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09590",
+    "bytes": 134450
+  },
+  "salon-straight-wavy/fine-hair-weighted-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a59690",
+    "bytes": 143719
+  },
+  "salon-straight-wavy/fine-hair-weighted-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ac9f98",
+    "bytes": 106476
+  },
+  "salon-straight-wavy/fine-hair-wispy-shag-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#938984",
+    "bytes": 169659
+  },
+  "salon-straight-wavy/fine-hair-wispy-shag-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c8d85",
+    "bytes": 140424,
+    "quality": 51
+  },
+  "salon-straight-wavy/fine-hair-wispy-shag-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e9189",
+    "bytes": 129354
+  },
+  "salon-straight-wavy/french-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f948d",
+    "bytes": 151736
+  },
+  "salon-straight-wavy/french-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a1938c",
+    "bytes": 151453
+  },
+  "salon-straight-wavy/french-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99b94",
+    "bytes": 118130
+  },
+  "salon-straight-wavy/full-fringe-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b908a",
+    "bytes": 145876,
+    "quality": 51
+  },
+  "salon-straight-wavy/full-fringe-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f918a",
+    "bytes": 151233
+  },
+  "salon-straight-wavy/full-fringe-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49891",
+    "bytes": 119861
+  },
+  "salon-straight-wavy/full-fringe-shoulder-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978d87",
+    "bytes": 141933
+  },
+  "salon-straight-wavy/full-fringe-shoulder-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c8f88",
+    "bytes": 142294
+  },
+  "salon-straight-wavy/full-fringe-shoulder-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a3968f",
+    "bytes": 114024
+  },
+  "salon-straight-wavy/ginger-balayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79084",
+    "bytes": 171015
+  },
+  "salon-straight-wavy/golden-blonde-foilayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b2a194",
+    "bytes": 163093
+  },
+  "salon-straight-wavy/graduated-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f948e",
+    "bytes": 156774
+  },
+  "salon-straight-wavy/graduated-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a59790",
+    "bytes": 147802
+  },
+  "salon-straight-wavy/graduated-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99d96",
+    "bytes": 112864
+  },
+  "salon-straight-wavy/graduated-lob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#988c86",
+    "bytes": 159448
+  },
+  "salon-straight-wavy/graduated-lob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09188",
+    "bytes": 150363
+  },
+  "salon-straight-wavy/graduated-lob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a2948c",
+    "bytes": 127192
+  },
+  "salon-straight-wavy/grey-blend-blonde-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a4958d",
+    "bytes": 165702
+  },
+  "salon-straight-wavy/grey-blend-brunette-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f918a",
+    "bytes": 155274,
+    "quality": 51
+  },
+  "salon-straight-wavy/grey-coverage-chocolate-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8b827e",
+    "bytes": 153813
+  },
+  "salon-straight-wavy/grey-coverage-light-brown-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a908a",
+    "bytes": 158126
+  },
+  "salon-straight-wavy/grey-coverage-soft-black-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#838181",
+    "bytes": 151216
+  },
+  "salon-straight-wavy/hime-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#988c86",
+    "bytes": 123334
+  },
+  "salon-straight-wavy/hime-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c9089",
+    "bytes": 133623
+  },
+  "salon-straight-wavy/hime-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f928b",
+    "bytes": 112545
+  },
+  "salon-straight-wavy/honey-blonde-foil-highlights-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a7978c",
+    "bytes": 174184
+  },
+  "salon-straight-wavy/hug-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#998e88",
+    "bytes": 150707
+  },
+  "salon-straight-wavy/hug-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d8d83",
+    "bytes": 140397
+  },
+  "salon-straight-wavy/hug-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09088",
+    "bytes": 126994
+  },
+  "salon-straight-wavy/hush-lob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a918c",
+    "bytes": 154751
+  },
+  "salon-straight-wavy/hush-lob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a0928b",
+    "bytes": 147674
+  },
+  "salon-straight-wavy/hush-lob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49791",
+    "bytes": 124847
+  },
+  "salon-straight-wavy/hush-midi-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978e89",
+    "bytes": 147248,
+    "quality": 51
+  },
+  "salon-straight-wavy/hush-midi-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a0928b",
+    "bytes": 152773
+  },
+  "salon-straight-wavy/hush-midi-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a69891",
+    "bytes": 126419
+  },
+  "salon-straight-wavy/icy-platinum-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#bab7b6",
+    "bytes": 139895
+  },
+  "salon-straight-wavy/invisible-layer-lob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958b85",
+    "bytes": 151695
+  },
+  "salon-straight-wavy/invisible-layer-lob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d8f87",
+    "bytes": 145518
+  },
+  "salon-straight-wavy/invisible-layer-lob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a3958d",
+    "bytes": 120044
+  },
+  "salon-straight-wavy/invisible-layers-shoulder-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978b85",
+    "bytes": 168416
+  },
+  "salon-straight-wavy/invisible-layers-shoulder-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8e86",
+    "bytes": 153916
+  },
+  "salon-straight-wavy/invisible-layers-shoulder-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a4958e",
+    "bytes": 121377
+  },
+  "salon-straight-wavy/italian-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d938d",
+    "bytes": 149439
+  },
+  "salon-straight-wavy/italian-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a4958e",
+    "bytes": 147361
+  },
+  "salon-straight-wavy/italian-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9c95",
+    "bytes": 116913
+  },
+  "salon-straight-wavy/jellyfish-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#998e88",
+    "bytes": 154436
+  },
+  "salon-straight-wavy/jellyfish-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19189",
+    "bytes": 144480
+  },
+  "salon-straight-wavy/jellyfish-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a0928a",
+    "bytes": 131735
+  },
+  "salon-straight-wavy/jet-black-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7e7d7d",
+    "bytes": 148277
+  },
+  "salon-straight-wavy/lavender-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b6adb7",
+    "bytes": 152062
+  },
+  "salon-straight-wavy/lavender-ombre-blonde-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a9a0a1",
+    "bytes": 154607
+  },
+  "salon-straight-wavy/long-a-line-shape-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958880",
+    "bytes": 141813,
+    "quality": 51
+  },
+  "salon-straight-wavy/long-a-line-shape-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8c82",
+    "bytes": 145930
+  },
+  "salon-straight-wavy/long-a-line-shape-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f8f86",
+    "bytes": 136773
+  },
+  "salon-straight-wavy/long-butterfly-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958981",
+    "bytes": 168344
+  },
+  "salon-straight-wavy/long-butterfly-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a897f",
+    "bytes": 152170
+  },
+  "salon-straight-wavy/long-butterfly-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9087",
+    "bytes": 135247
+  },
+  "salon-straight-wavy/long-curtain-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#81756d",
+    "bytes": 171908
+  },
+  "salon-straight-wavy/long-curtain-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#897970",
+    "bytes": 174891
+  },
+  "salon-straight-wavy/long-curtain-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e9088",
+    "bytes": 134566
+  },
+  "salon-straight-wavy/long-feathered-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958880",
+    "bytes": 163778
+  },
+  "salon-straight-wavy/long-feathered-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a8980",
+    "bytes": 143364
+  },
+  "salon-straight-wavy/long-feathered-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9189",
+    "bytes": 133651
+  },
+  "salon-straight-wavy/long-hidden-undercut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#93857d",
+    "bytes": 149513
+  },
+  "salon-straight-wavy/long-hidden-undercut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8c82",
+    "bytes": 140752
+  },
+  "salon-straight-wavy/long-hidden-undercut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a29289",
+    "bytes": 127561
+  },
+  "salon-straight-wavy/long-hush-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#998e87",
+    "bytes": 146538
+  },
+  "salon-straight-wavy/long-hush-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19189",
+    "bytes": 133142
+  },
+  "salon-straight-wavy/long-hush-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a4948c",
+    "bytes": 138897
+  },
+  "salon-straight-wavy/long-one-length-blunt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e9088",
+    "bytes": 118154
+  },
+  "salon-straight-wavy/long-one-length-blunt-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a6948a",
+    "bytes": 125657
+  },
+  "salon-straight-wavy/long-one-length-blunt-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a7978e",
+    "bytes": 110239,
+    "quality": 51
+  },
+  "salon-straight-wavy/long-shag-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8b7e77",
+    "bytes": 185889
+  },
+  "salon-straight-wavy/long-shag-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8c7c72",
+    "bytes": 196514
+  },
+  "salon-straight-wavy/long-shag-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d8d83",
+    "bytes": 143700
+  },
+  "salon-straight-wavy/long-shaved-side-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958a84",
+    "bytes": 151870
+  },
+  "salon-straight-wavy/long-shaved-side-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d8d83",
+    "bytes": 140945,
+    "quality": 51
+  },
+  "salon-straight-wavy/long-shaved-side-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a5958d",
+    "bytes": 130934
+  },
+  "salon-straight-wavy/long-sleek-face-frame-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a8f88",
+    "bytes": 127150
+  },
+  "salon-straight-wavy/long-sleek-face-frame-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8e85",
+    "bytes": 131321
+  },
+  "salon-straight-wavy/long-sleek-face-frame-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a4958d",
+    "bytes": 114897
+  },
+  "salon-straight-wavy/long-soft-face-frame-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#91857d",
+    "bytes": 150436
+  },
+  "salon-straight-wavy/long-soft-face-frame-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d8c82",
+    "bytes": 143352
+  },
+  "salon-straight-wavy/long-soft-face-frame-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8f87",
+    "bytes": 129352
+  },
+  "salon-straight-wavy/long-step-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a8d84",
+    "bytes": 124296,
+    "quality": 51
+  },
+  "salon-straight-wavy/long-step-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a08e85",
+    "bytes": 133837
+  },
+  "salon-straight-wavy/long-step-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a2938b",
+    "bytes": 120255
+  },
+  "salon-straight-wavy/long-top-side-swept-pixie-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a49b96",
+    "bytes": 147103
+  },
+  "salon-straight-wavy/long-top-side-swept-pixie-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9e97",
+    "bytes": 138196
+  },
+  "salon-straight-wavy/long-top-side-swept-pixie-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada09a",
+    "bytes": 113292
+  },
+  "salon-straight-wavy/long-u-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#95877e",
+    "bytes": 143398,
+    "quality": 51
+  },
+  "salon-straight-wavy/long-u-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b897e",
+    "bytes": 146934
+  },
+  "salon-straight-wavy/long-u-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a1928a",
+    "bytes": 127239
+  },
+  "salon-straight-wavy/long-v-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#83766d",
+    "bytes": 170452,
+    "quality": 51
+  },
+  "salon-straight-wavy/long-v-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#887970",
+    "bytes": 180874
+  },
+  "salon-straight-wavy/long-v-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f938e",
+    "bytes": 144610
+  },
+  "salon-straight-wavy/long-wolf-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958982",
+    "bytes": 169754
+  },
+  "salon-straight-wavy/long-wolf-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8e85",
+    "bytes": 152142
+  },
+  "salon-straight-wavy/long-wolf-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a1938b",
+    "bytes": 131422
+  },
+  "salon-straight-wavy/mahogany-demi-refresh-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#887c7c",
+    "bytes": 151759
+  },
+  "salon-straight-wavy/micro-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a59b95",
+    "bytes": 126510
+  },
+  "salon-straight-wavy/micro-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9d97",
+    "bytes": 130115
+  },
+  "salon-straight-wavy/micro-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a39c",
+    "bytes": 101351
+  },
+  "salon-straight-wavy/micro-pixie-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a69d99",
+    "bytes": 137813
+  },
+  "salon-straight-wavy/micro-pixie-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca09a",
+    "bytes": 123945
+  },
+  "salon-straight-wavy/micro-pixie-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b0a49d",
+    "bytes": 95790
+  },
+  "salon-straight-wavy/mid-back-soft-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#93867e",
+    "bytes": 149756
+  },
+  "salon-straight-wavy/mid-back-soft-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8c7c72",
+    "bytes": 179586
+  },
+  "salon-straight-wavy/mid-back-soft-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c8f87",
+    "bytes": 142204
+  },
+  "salon-straight-wavy/midi-butterfly-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#908680",
+    "bytes": 172759
+  },
+  "salon-straight-wavy/midi-butterfly-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c8e86",
+    "bytes": 162488
+  },
+  "salon-straight-wavy/midi-butterfly-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f928a",
+    "bytes": 140442
+  },
+  "salon-straight-wavy/midi-shag-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#948983",
+    "bytes": 187418
+  },
+  "salon-straight-wavy/midi-shag-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d8d85",
+    "bytes": 161718
+  },
+  "salon-straight-wavy/midi-shag-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9188",
+    "bytes": 150623
+  },
+  "salon-straight-wavy/midnight-blue-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#7a7b81",
+    "bytes": 142244
+  },
+  "salon-straight-wavy/milk-chocolate-sombre-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958982",
+    "bytes": 161148
+  },
+  "salon-straight-wavy/mocha-soft-babylights-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8e8682",
+    "bytes": 148355
+  },
+  "salon-straight-wavy/model-base-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#948a84",
+    "bytes": 173598
+  },
+  "salon-straight-wavy/model-base-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a8c84",
+    "bytes": 163553
+  },
+  "salon-straight-wavy/model-base-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a0938b",
+    "bytes": 125445
+  },
+  "salon-straight-wavy/modern-mullet-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a908b",
+    "bytes": 163395
+  },
+  "salon-straight-wavy/modern-mullet-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a3948e",
+    "bytes": 151889
+  },
+  "salon-straight-wavy/modern-mullet-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a3958e",
+    "bytes": 131199
+  },
+  "salon-straight-wavy/mushroom-blonde-melt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e9793",
+    "bytes": 158321
+  },
+  "salon-straight-wavy/mushroom-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e958f",
+    "bytes": 146715
+  },
+  "salon-straight-wavy/mushroom-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a1948d",
+    "bytes": 150282
+  },
+  "salon-straight-wavy/mushroom-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79a94",
+    "bytes": 113778
+  },
+  "salon-straight-wavy/nape-undercut-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d938d",
+    "bytes": 149439
+  },
+  "salon-straight-wavy/nape-undercut-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79991",
+    "bytes": 138616
+  },
+  "salon-straight-wavy/nape-undercut-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ac9e97",
+    "bytes": 103551,
+    "quality": 51
+  },
+  "salon-straight-wavy/natural-silver-gloss-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aca19c",
+    "bytes": 153960
+  },
+  "salon-straight-wavy/one-length-shoulder-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#998e88",
+    "bytes": 147556
+  },
+  "salon-straight-wavy/one-length-shoulder-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a2938b",
+    "bytes": 134301,
+    "quality": 51
+  },
+  "salon-straight-wavy/one-length-shoulder-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79991",
+    "bytes": 112435
+  },
+  "salon-straight-wavy/pageboy-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f958f",
+    "bytes": 140523
+  },
+  "salon-straight-wavy/pageboy-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a0948e",
+    "bytes": 135867
+  },
+  "salon-straight-wavy/pageboy-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a69b94",
+    "bytes": 102743
+  },
+  "salon-straight-wavy/pastel-pink-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#c6adb4",
+    "bytes": 155120
+  },
+  "salon-straight-wavy/peach-apricot-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#c6a89c",
+    "bytes": 152237
+  },
+  "salon-straight-wavy/peachy-rose-melt-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b59a92",
+    "bytes": 158163
+  },
+  "salon-straight-wavy/pearl-blonde-gloss-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b7adab",
+    "bytes": 155529
+  },
+  "salon-straight-wavy/pixie-mullet-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a19894",
+    "bytes": 153792
+  },
+  "salon-straight-wavy/pixie-mullet-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79b94",
+    "bytes": 140839
+  },
+  "salon-straight-wavy/pixie-mullet-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9d96",
+    "bytes": 122658
+  },
+  "salon-straight-wavy/platinum-root-shadow-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#bab3b0",
+    "bytes": 140229
+  },
+  "salon-straight-wavy/plum-ombre-ends-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8d7e83",
+    "bytes": 142745,
+    "quality": 51
+  },
+  "salon-straight-wavy/plum-violet-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#8f7988",
+    "bytes": 140677,
+    "quality": 49
+  },
+  "salon-straight-wavy/retro-set-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e948f",
+    "bytes": 146341
+  },
+  "salon-straight-wavy/retro-set-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a1948e",
+    "bytes": 140607
+  },
+  "salon-straight-wavy/retro-set-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99c95",
+    "bytes": 103201,
+    "quality": 51
+  },
+  "salon-straight-wavy/rose-gold-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#baa49c",
+    "bytes": 161188
+  },
+  "salon-straight-wavy/rounded-cap-crop-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09691",
+    "bytes": 140235
+  },
+  "salon-straight-wavy/rounded-cap-crop-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79a94",
+    "bytes": 134150
+  },
+  "salon-straight-wavy/rounded-cap-crop-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99d96",
+    "bytes": 111813
+  },
+  "salon-straight-wavy/sandy-blonde-lowlights-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99e97",
+    "bytes": 167322
+  },
+  "salon-straight-wavy/see-through-fringe-shoulder-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968b85",
+    "bytes": 148441
+  },
+  "salon-straight-wavy/see-through-fringe-shoulder-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9088",
+    "bytes": 138495
+  },
+  "salon-straight-wavy/see-through-fringe-shoulder-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a6978f",
+    "bytes": 122448
+  },
+  "salon-straight-wavy/shaggy-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d938d",
+    "bytes": 168281
+  },
+  "salon-straight-wavy/shaggy-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a1938c",
+    "bytes": 145017,
+    "quality": 51
+  },
+  "salon-straight-wavy/shaggy-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79a92",
+    "bytes": 120648
+  },
+  "salon-straight-wavy/shaggy-lob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958983",
+    "bytes": 185882
+  },
+  "salon-straight-wavy/shaggy-lob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9d8e85",
+    "bytes": 166236
+  },
+  "salon-straight-wavy/shaggy-lob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a09289",
+    "bytes": 144397
+  },
+  "salon-straight-wavy/shaggy-pixie-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9590",
+    "bytes": 142169,
+    "quality": 51
+  },
+  "salon-straight-wavy/shaggy-pixie-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a69993",
+    "bytes": 140009
+  },
+  "salon-straight-wavy/shaggy-pixie-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9d96",
+    "bytes": 116075
+  },
+  "salon-straight-wavy/shingle-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a39993",
+    "bytes": 139575
+  },
+  "salon-straight-wavy/shingle-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89b94",
+    "bytes": 136203
+  },
+  "salon-straight-wavy/shingle-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada099",
+    "bytes": 107921
+  },
+  "salon-straight-wavy/short-shag-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f958f",
+    "bytes": 135844,
+    "quality": 49
+  },
+  "salon-straight-wavy/short-shag-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a3968f",
+    "bytes": 146823
+  },
+  "salon-straight-wavy/short-shag-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79992",
+    "bytes": 126057
+  },
+  "salon-straight-wavy/side-swept-fringe-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e938e",
+    "bytes": 146491
+  },
+  "salon-straight-wavy/side-swept-fringe-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a2948d",
+    "bytes": 151746
+  },
+  "salon-straight-wavy/side-swept-fringe-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89a93",
+    "bytes": 115462
+  },
+  "salon-straight-wavy/side-swept-fringe-long-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#93877f",
+    "bytes": 156126
+  },
+  "salon-straight-wavy/side-swept-fringe-long-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b8a80",
+    "bytes": 144272
+  },
+  "salon-straight-wavy/side-swept-fringe-long-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8e86",
+    "bytes": 146899
+  },
+  "salon-straight-wavy/silver-babylights-blend-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a6a3a4",
+    "bytes": 174487
+  },
+  "salon-straight-wavy/silver-white-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#bbb9ba",
+    "bytes": 138964
+  },
+  "salon-straight-wavy/soft-black-gloss-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#938884",
+    "bytes": 145045
+  },
+  "salon-straight-wavy/soft-bowl-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a0958f",
+    "bytes": 147332
+  },
+  "salon-straight-wavy/soft-bowl-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a2948d",
+    "bytes": 143150
+  },
+  "salon-straight-wavy/soft-bowl-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9d96",
+    "bytes": 116938
+  },
+  "salon-straight-wavy/soft-layered-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e938e",
+    "bytes": 155894
+  },
+  "salon-straight-wavy/soft-layered-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a3958e",
+    "bytes": 143974
+  },
+  "salon-straight-wavy/soft-layered-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a99d96",
+    "bytes": 110881,
+    "quality": 51
+  },
+  "salon-straight-wavy/soft-wolf-lite-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968b86",
+    "bytes": 167917
+  },
+  "salon-straight-wavy/soft-wolf-lite-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8f87",
+    "bytes": 138848,
+    "quality": 51
+  },
+  "salon-straight-wavy/soft-wolf-lite-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9189",
+    "bytes": 133720
+  },
+  "salon-straight-wavy/stacked-inverted-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9590",
+    "bytes": 142829
+  },
+  "salon-straight-wavy/stacked-inverted-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79992",
+    "bytes": 130083,
+    "quality": 51
+  },
+  "salon-straight-wavy/stacked-inverted-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#ada099",
+    "bytes": 111526
+  },
+  "salon-straight-wavy/strawberry-blonde-balayage-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#b09990",
+    "bytes": 160422
+  },
+  "salon-straight-wavy/sweeping-fringe-midi-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#948a85",
+    "bytes": 176171
+  },
+  "salon-straight-wavy/sweeping-fringe-midi-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b8c84",
+    "bytes": 158614
+  },
+  "salon-straight-wavy/sweeping-fringe-midi-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a2938c",
+    "bytes": 132382
+  },
+  "salon-straight-wavy/teal-all-over-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#789596",
+    "bytes": 165385
+  },
+  "salon-straight-wavy/textured-lob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978c86",
+    "bytes": 167814
+  },
+  "salon-straight-wavy/textured-lob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9e8e86",
+    "bytes": 158739
+  },
+  "salon-straight-wavy/textured-lob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a7978f",
+    "bytes": 128906
+  },
+  "salon-straight-wavy/thick-hair-debulked-lob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968b85",
+    "bytes": 170001
+  },
+  "salon-straight-wavy/thick-hair-debulked-lob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9088",
+    "bytes": 148078
+  },
+  "salon-straight-wavy/thick-hair-debulked-lob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a4968e",
+    "bytes": 118605
+  },
+  "salon-straight-wavy/thick-hair-long-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#91857d",
+    "bytes": 161692
+  },
+  "salon-straight-wavy/thick-hair-long-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b897e",
+    "bytes": 151553
+  },
+  "salon-straight-wavy/thick-hair-long-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f8f88",
+    "bytes": 132746
+  },
+  "salon-straight-wavy/tiered-bi-level-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b908b",
+    "bytes": 160019
+  },
+  "salon-straight-wavy/tiered-bi-level-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a4958d",
+    "bytes": 145066
+  },
+  "salon-straight-wavy/tiered-bi-level-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79a93",
+    "bytes": 121441
+  },
+  "salon-straight-wavy/u-shape-midi-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968b85",
+    "bytes": 170258
+  },
+  "salon-straight-wavy/u-shape-midi-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9088",
+    "bytes": 152349
+  },
+  "salon-straight-wavy/u-shape-midi-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a3958d",
+    "bytes": 125534
+  },
+  "salon-straight-wavy/undercut-pixie-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a59b96",
+    "bytes": 144248
+  },
+  "salon-straight-wavy/undercut-pixie-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9e98",
+    "bytes": 131177
+  },
+  "salon-straight-wavy/undercut-pixie-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#afa39d",
+    "bytes": 102786
+  },
+  "salon-straight-wavy/vanilla-blonde-sombre-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aea299",
+    "bytes": 158275
+  },
+  "salon-straight-wavy/waist-length-one-length-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#968c87",
+    "bytes": 97520
+  },
+  "salon-straight-wavy/waist-length-one-length-front": {
+    "widthPx": 1024,
+    "heightPx": 1536,
+    "widths": [
+      480,
+      960,
+      1024
+    ],
+    "average": "#8b817b",
+    "bytes": 133054
+  },
+  "salon-straight-wavy/waist-length-one-length-side": {
+    "widthPx": 1024,
+    "heightPx": 1536,
+    "widths": [
+      480,
+      960,
+      1024
+    ],
+    "average": "#a39a96",
+    "bytes": 105390
+  },
+  "salon-straight-wavy/wavy-beach-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a0948e",
+    "bytes": 158468
+  },
+  "salon-straight-wavy/wavy-beach-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a4968e",
+    "bytes": 154233
+  },
+  "salon-straight-wavy/wavy-beach-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a89a93",
+    "bytes": 119147
+  },
+  "salon-straight-wavy/wavy-cascade-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#91857e",
+    "bytes": 161340
+  },
+  "salon-straight-wavy/wavy-cascade-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c8a80",
+    "bytes": 147620
+  },
+  "salon-straight-wavy/wavy-cascade-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a1928a",
+    "bytes": 124361
+  },
+  "salon-straight-wavy/wavy-lob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#978c85",
+    "bytes": 171678
+  },
+  "salon-straight-wavy/wavy-lob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f8e86",
+    "bytes": 160754
+  },
+  "salon-straight-wavy/wavy-lob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a3948c",
+    "bytes": 131539
+  },
+  "salon-straight-wavy/wavy-midi-layers-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#958a83",
+    "bytes": 168460
+  },
+  "salon-straight-wavy/wavy-midi-layers-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9c8c84",
+    "bytes": 157138
+  },
+  "salon-straight-wavy/wavy-midi-layers-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a0928a",
+    "bytes": 132122
+  },
+  "salon-straight-wavy/wedge-bob-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9f9591",
+    "bytes": 153288
+  },
+  "salon-straight-wavy/wedge-bob-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a79993",
+    "bytes": 145625
+  },
+  "salon-straight-wavy/wedge-bob-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#aa9d97",
+    "bytes": 104251,
+    "quality": 51
+  },
+  "salon-straight-wavy/wispy-brow-fringe-long-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#95877e",
+    "bytes": 159207
+  },
+  "salon-straight-wavy/wispy-brow-fringe-long-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9a8980",
+    "bytes": 142555
+  },
+  "salon-straight-wavy/wispy-brow-fringe-long-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#a2928a",
+    "bytes": 137692
+  },
+  "salon-straight-wavy/wolf-cut-back": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#938882",
+    "bytes": 173970,
+    "quality": 51
+  },
+  "salon-straight-wavy/wolf-cut-front": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b8c84",
+    "bytes": 164465
+  },
+  "salon-straight-wavy/wolf-cut-side": {
+    "widthPx": 1086,
+    "heightPx": 1448,
+    "widths": [
+      480,
+      960,
+      1086
+    ],
+    "average": "#9b8d86",
+    "bytes": 147843
+  }
+}

@@ -1,0 +1,3174 @@
+[
+  {
+    "id": "platinum-blonde",
+    "kind": "shade",
+    "name": "Platinum blonde",
+    "aliases": [
+      "white blonde",
+      "ultra blonde",
+      "bleach blonde"
+    ],
+    "family": "blonde",
+    "level": [
+      10,
+      10
+    ],
+    "tone": "neutral",
+    "warmth": "neutral",
+    "tone_description": "Near-white blonde with only a trace of pale yellow, toned so it reads clean rather than yellow.",
+    "swatch": {
+      "root": "#cdbfa6",
+      "mids": "#ede7d8",
+      "ends": "#f4efe4"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        4,
+        6
+      ],
+      "retouch_weeks": [
+        4,
+        6
+      ],
+      "regrowth_visibility": "high",
+      "upkeep_level": 5
+    },
+    "risks": [
+      "Breakage and dryness from heavy lightening",
+      "Yellow or brassy drift between toner visits",
+      "Visible regrowth within weeks",
+      "Uneven or patchy result on previously coloured hair",
+      "Scalp sensitivity during lightening"
+    ],
+    "vivid": false,
+    "client": "A very light, almost white blonde that looks bright and cool. It needs regular salon visits to stay that way.",
+    "stylist": "Final level depends on how much pigment is left after lightening and on the hair's condition; the last stage is usually toning. Needs in-person assessment and strand testing; sessions are not promised.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "icy-blonde",
+    "kind": "shade",
+    "name": "Icy blonde",
+    "aliases": [
+      "ice blonde",
+      "cool white blonde",
+      "arctic blonde"
+    ],
+    "family": "blonde",
+    "level": [
+      9,
+      10
+    ],
+    "tone": "ash",
+    "warmth": "cool",
+    "tone_description": "Very light blonde with a cool, slightly silvery-violet cast and no visible gold.",
+    "swatch": {
+      "root": "#c7c1b4",
+      "mids": "#e4e2dd",
+      "ends": "#eeecea"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        3,
+        5
+      ],
+      "retouch_weeks": [
+        4,
+        6
+      ],
+      "regrowth_visibility": "high",
+      "upkeep_level": 5
+    },
+    "risks": [
+      "Cool toners fade quickly and turn yellow",
+      "Can look flat or dull on warm skin",
+      "Same lightening risks as platinum",
+      "Purple-toned care products can over-tone"
+    ],
+    "vivid": false,
+    "client": "A very pale blonde toned cool, with an ash or violet reflect and no yellow. It needs regular toning to stay icy.",
+    "stylist": "Tone is carried mostly by toner on a clean pale base; toner life is short, so a gloss interval is part of the plan. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "pearl-blonde",
+    "kind": "shade",
+    "name": "Pearl blonde",
+    "aliases": [
+      "pearlescent blonde",
+      "iridescent blonde",
+      "opal blonde"
+    ],
+    "family": "blonde",
+    "level": [
+      9,
+      10
+    ],
+    "tone": "pearl",
+    "warmth": "cool",
+    "tone_description": "Pale blonde with a soft, creamy-lilac shimmer rather than a hard silver or gold.",
+    "swatch": {
+      "root": "#cdc2c4",
+      "mids": "#ebe2e6",
+      "ends": "#f3edf0"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        3,
+        5
+      ],
+      "retouch_weeks": [
+        5,
+        7
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 5
+    },
+    "risks": [
+      "Pearly toner fades to plain yellow-beige",
+      "Needs a very pale base",
+      "Heavy lightening risks"
+    ],
+    "vivid": false,
+    "client": "A soft, shimmery pale blonde with a hint of pink-lilac. It looks glowy and gentle rather than stark.",
+    "stylist": "Pearl is mainly a toning choice on a level 9-10 base; too much violet-pink reads as lilac. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "champagne-blonde",
+    "kind": "shade",
+    "name": "Champagne blonde",
+    "aliases": [
+      "light beige-gold blonde",
+      "soft champagne"
+    ],
+    "family": "blonde",
+    "level": [
+      8,
+      9
+    ],
+    "tone": "beige",
+    "warmth": "warm",
+    "tone_description": "Light blonde with a warm-neutral, creamy gold-beige glow; softer than platinum, warmer than ash.",
+    "swatch": {
+      "root": "#b49a78",
+      "mids": "#dcc8a4",
+      "ends": "#e8d8b8"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        6,
+        8
+      ],
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Can turn brassy-yellow as toner fades",
+      "Lightening damage on dark starts"
+    ],
+    "vivid": false,
+    "client": "A light, creamy blonde with a soft gold-beige glow.",
+    "stylist": "A good bridge shade for clients who want blonde but not stark; allows a longer toner interval than cool blondes. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "vanilla-blonde",
+    "kind": "shade",
+    "name": "Vanilla blonde",
+    "aliases": [
+      "creamy blonde",
+      "soft vanilla",
+      "buttery blonde"
+    ],
+    "family": "blonde",
+    "level": [
+      8,
+      9
+    ],
+    "tone": "beige",
+    "warmth": "neutral",
+    "tone_description": "Very light creamy blonde that is neither golden nor ashy, brighter than champagne.",
+    "swatch": {
+      "root": "#bda98a",
+      "mids": "#e6d6b4",
+      "ends": "#f0e4c8"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        5,
+        8
+      ],
+      "retouch_weeks": [
+        5,
+        9
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Can drift to a flat yellow",
+      "Needs lightening on most bases"
+    ],
+    "vivid": false,
+    "client": "A soft, buttery blonde that looks bright and friendly.",
+    "stylist": "Sits between golden and platinum; usually a light-level base with a pale gold-cream toner. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beige-blonde",
+    "kind": "shade",
+    "name": "Beige blonde",
+    "aliases": [
+      "neutral blonde",
+      "soft beige blonde"
+    ],
+    "family": "blonde",
+    "level": [
+      7,
+      8
+    ],
+    "tone": "beige",
+    "warmth": "neutral",
+    "tone_description": "Medium to light blonde that is neither golden nor ashy, a calm sandy-beige.",
+    "swatch": {
+      "root": "#8e7a5f",
+      "mids": "#bda77f",
+      "ends": "#d2bf98"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        6,
+        9
+      ],
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 3
+    },
+    "risks": [
+      "Can look muddy if the base is too warm",
+      "Orange or yellow bounce-back on dark starts"
+    ],
+    "vivid": false,
+    "client": "A soft blonde balanced between warm and cool, so it reads natural rather than golden or ashy.",
+    "stylist": "Neutral targets still need the underlying warmth neutralised; use a gentle toner so the base does not look flat. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "sandy-blonde",
+    "kind": "shade",
+    "name": "Sandy blonde",
+    "aliases": [
+      "dirty blonde",
+      "natural blonde",
+      "light ash-beige"
+    ],
+    "family": "blonde",
+    "level": [
+      6,
+      8
+    ],
+    "tone": "neutral",
+    "warmth": "neutral",
+    "tone_description": "A lived-in, slightly muted blonde like natural hair that has lightened in the sun.",
+    "swatch": {
+      "root": "#6f5e48",
+      "mids": "#a38e6c",
+      "ends": "#c0ab86"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        8,
+        12
+      ],
+      "retouch_weeks": [
+        8,
+        14
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 2
+    },
+    "risks": [
+      "Can look dull if too muted",
+      "Less impactful for clients wanting a clear change"
+    ],
+    "vivid": false,
+    "client": "A soft, natural blonde that looks like it came with you. Easy to live with.",
+    "stylist": "Good for clients near level 5-7 who want a low-maintenance lift; often combined with root shadow for an easy grow-out. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "ash-blonde",
+    "kind": "shade",
+    "name": "Ash blonde",
+    "aliases": [
+      "cool blonde",
+      "silver blonde",
+      "smoky blonde"
+    ],
+    "family": "blonde",
+    "level": [
+      7,
+      9
+    ],
+    "tone": "ash",
+    "warmth": "cool",
+    "tone_description": "Light to medium blonde with a cool, smoky, slightly grey look and no warmth.",
+    "swatch": {
+      "root": "#6f6a60",
+      "mids": "#a69e8c",
+      "ends": "#c9c2b2"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        4,
+        6
+      ],
+      "retouch_weeks": [
+        5,
+        8
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Cool toner fades fast and warms up",
+      "Can look dull or greenish on porous hair",
+      "Flat on very warm complexions"
+    ],
+    "vivid": false,
+    "client": "A cool, smoky blonde with no gold in it. It looks modern and crisp.",
+    "stylist": "Ash is a reflect, not a lightness: warmth must be neutralised first and the porosity of the hair strongly affects how it holds. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "honey-blonde",
+    "kind": "shade",
+    "name": "Honey blonde",
+    "aliases": [
+      "warm blonde",
+      "golden honey",
+      "amber blonde"
+    ],
+    "family": "blonde",
+    "level": [
+      7,
+      8
+    ],
+    "tone": "honey",
+    "warmth": "warm",
+    "tone_description": "Medium to light blonde with warm gold and a hint of amber, like runny honey.",
+    "swatch": {
+      "root": "#8a6a3e",
+      "mids": "#c09a58",
+      "ends": "#d8b578"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        8,
+        10
+      ],
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 3
+    },
+    "risks": [
+      "Can look brassy or orange if the tone is off",
+      "Can look yellow against very fair skin"
+    ],
+    "vivid": false,
+    "client": "A glowing, warm blonde with golden-amber depth. It looks sunny and rich.",
+    "stylist": "Warmth is the goal, so it is more forgiving than cool blondes, but the gold should be even rather than orange. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "golden-blonde",
+    "kind": "shade",
+    "name": "Golden blonde",
+    "aliases": [
+      "gold blonde",
+      "sunlit blonde",
+      "wheat blonde"
+    ],
+    "family": "blonde",
+    "level": [
+      7,
+      9
+    ],
+    "tone": "golden",
+    "warmth": "warm",
+    "tone_description": "A bright blonde with a clear yellow-gold glow.",
+    "swatch": {
+      "root": "#9b7b3c",
+      "mids": "#d3b063",
+      "ends": "#e5c67e"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        6,
+        9
+      ],
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 3
+    },
+    "risks": [
+      "Can read yellow or brassy",
+      "Warm gold fades toward pale yellow"
+    ],
+    "vivid": false,
+    "client": "A bright sun-warmed blonde with golden shine.",
+    "stylist": "Needs enough lift to clear orange before the gold is deposited; the toner decides whether it reads clear gold or brass. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "dark-blonde",
+    "kind": "shade",
+    "name": "Dark blonde",
+    "aliases": [
+      "light brown blonde",
+      "deep blonde",
+      "level 6 blonde"
+    ],
+    "family": "blonde",
+    "level": [
+      6,
+      6
+    ],
+    "tone": "neutral",
+    "warmth": "neutral",
+    "tone_description": "A deep, honest blonde at the edge of light brown, with subtle shine.",
+    "swatch": {
+      "root": "#4f4030",
+      "mids": "#82694a",
+      "ends": "#a3896a"
+    },
+    "maintenance": {
+      "fade_speed": "slow",
+      "gloss_weeks": [
+        8,
+        12
+      ],
+      "retouch_weeks": [
+        10,
+        16
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 2
+    },
+    "risks": [
+      "May look flat without dimension",
+      "Gold or orange can show on darker starts"
+    ],
+    "vivid": false,
+    "client": "A deeper blonde that sits halfway to light brown. Easy to wear and easy to grow out.",
+    "stylist": "Often used as a base before adding dimension with babylights or balayage. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "strawberry-blonde",
+    "kind": "shade",
+    "name": "Strawberry blonde",
+    "aliases": [
+      "peach blonde",
+      "copper blonde"
+    ],
+    "family": "blonde",
+    "level": [
+      7,
+      8
+    ],
+    "tone": "copper",
+    "warmth": "warm",
+    "tone_description": "A light blonde with a soft peachy-copper blush.",
+    "swatch": {
+      "root": "#8a5e46",
+      "mids": "#c99673",
+      "ends": "#e0b08e"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        4,
+        6
+      ],
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Copper-pink fades faster than gold",
+      "May emphasise redness in very pink skin",
+      "Can turn plain orange or yellow"
+    ],
+    "vivid": false,
+    "client": "A light blonde with a peachy copper glow. It looks soft and warm.",
+    "stylist": "Copper-pink tones tend to fade early; an in-between gloss helps. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "bronde",
+    "kind": "shade",
+    "name": "Bronde",
+    "aliases": [
+      "brown-blonde",
+      "bronze blonde",
+      "brunette-blonde blend"
+    ],
+    "family": "blonde",
+    "level": [
+      5,
+      7
+    ],
+    "tone": "neutral",
+    "warmth": "neutral",
+    "tone_description": "A blend of brown depth and soft blonde light, usually dimensional rather than flat.",
+    "swatch": {
+      "root": "#3e2f22",
+      "mids": "#7c6446",
+      "ends": "#a48a63"
+    },
+    "maintenance": {
+      "fade_speed": "slow",
+      "gloss_weeks": [
+        8,
+        12
+      ],
+      "retouch_weeks": [
+        10,
+        20
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 2
+    },
+    "risks": [
+      "Can go muddy or brassy without toning",
+      "Results depend on how dark the starting hair is"
+    ],
+    "vivid": false,
+    "client": "The best of brown and blonde: depth at the root with softer light through the lengths.",
+    "stylist": "A combination of shade and technique in clients' minds; in this library bronde is the colour result and balayage or babylights are the placement. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "light-brown",
+    "kind": "shade",
+    "name": "Light brown",
+    "aliases": [
+      "natural light brown",
+      "level 5 brown",
+      "toffee-neutral"
+    ],
+    "family": "brunette",
+    "level": [
+      5,
+      5
+    ],
+    "tone": "neutral",
+    "warmth": "neutral",
+    "tone_description": "Light to medium brown with no obvious warmth or coolness.",
+    "swatch": {
+      "root": "#4b3b2c",
+      "mids": "#6b5441",
+      "ends": "#85694e"
+    },
+    "maintenance": {
+      "fade_speed": "slow",
+      "gloss_weeks": [
+        10,
+        16
+      ],
+      "retouch_weeks": [
+        10,
+        20
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 1
+    },
+    "risks": [
+      "Can look flat without dimension"
+    ],
+    "vivid": false,
+    "client": "A natural mid-light brown that goes with almost everything.",
+    "stylist": "A good deposit-only shade for many bases; check the underlying warmth when the starting hair is lighter and needs refilling. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "ash-brown",
+    "kind": "shade",
+    "name": "Ash brown",
+    "aliases": [
+      "cool brown",
+      "cold brown",
+      "smoky brown"
+    ],
+    "family": "brunette",
+    "level": [
+      4,
+      5
+    ],
+    "tone": "ash",
+    "warmth": "cool",
+    "tone_description": "Medium brown with a cool, smoky reflect and no red or gold.",
+    "swatch": {
+      "root": "#3b3630",
+      "mids": "#625b52",
+      "ends": "#7e7568"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        6,
+        10
+      ],
+      "retouch_weeks": [
+        8,
+        14
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 2
+    },
+    "risks": [
+      "Fades to warm brown or reddish in the sun",
+      "Can look dull or greenish on porous hair"
+    ],
+    "vivid": false,
+    "client": "A cool, smoky brown with no warmth. It looks sleek and modern.",
+    "stylist": "Cool reflect is a thin layer; porous mid-lengths and ends may need an extra toning step. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mushroom-brown",
+    "kind": "shade",
+    "name": "Mushroom brown",
+    "aliases": [
+      "taupe brown",
+      "greige brown",
+      "cool beige brown"
+    ],
+    "family": "brunette",
+    "level": [
+      5,
+      6
+    ],
+    "tone": "ash",
+    "warmth": "cool",
+    "tone_description": "A soft grey-beige brown that avoids red and gold, muted like a mushroom cap.",
+    "swatch": {
+      "root": "#443b33",
+      "mids": "#6e6258",
+      "ends": "#8d8174"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        6,
+        10
+      ],
+      "retouch_weeks": [
+        8,
+        14
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 3
+    },
+    "risks": [
+      "Muted toning fades fast",
+      "Can look muddy if the base is too warm"
+    ],
+    "vivid": false,
+    "client": "A soft, grey-toned brown with a smoky, luxe feel.",
+    "stylist": "Hardest on warm bases; neutralising underlying red-orange is the main job. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mushroom-blonde",
+    "kind": "shade",
+    "name": "Mushroom blonde",
+    "aliases": [
+      "taupe blonde",
+      "greige blonde",
+      "smoky beige blonde"
+    ],
+    "family": "blonde",
+    "level": [
+      7,
+      8
+    ],
+    "tone": "ash",
+    "warmth": "cool",
+    "tone_description": "A muted, smoky blonde with grey-beige softness, between ash and beige.",
+    "swatch": {
+      "root": "#625850",
+      "mids": "#93877b",
+      "ends": "#b2a598"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        4,
+        7
+      ],
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Needs an even, well-lightened base",
+      "Fades to plain beige-yellow quickly"
+    ],
+    "vivid": false,
+    "client": "A hazy, grey-beige blonde that looks rich and subtle.",
+    "stylist": "Needs clean lift before the muted tone is placed; hair that is yellow will push it toward olive. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "chocolate-brown",
+    "kind": "shade",
+    "name": "Chocolate brown",
+    "aliases": [
+      "dark chocolate",
+      "rich brown",
+      "level 3-4 brown"
+    ],
+    "family": "brunette",
+    "level": [
+      3,
+      4
+    ],
+    "tone": "chocolate",
+    "warmth": "warm",
+    "tone_description": "A deep brown with a smooth, rich look and a hint of warmth.",
+    "swatch": {
+      "root": "#2e1f16",
+      "mids": "#4a3223",
+      "ends": "#5e442f"
+    },
+    "maintenance": {
+      "fade_speed": "slow",
+      "gloss_weeks": [
+        10,
+        16
+      ],
+      "retouch_weeks": [
+        8,
+        12
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 1
+    },
+    "risks": [
+      "Dark dye is harder to lift later",
+      "Can look heavy on very fine hair",
+      "Roots can show on lighter hair"
+    ],
+    "vivid": false,
+    "client": "A rich, deep brown with a gentle warmth and plenty of shine.",
+    "stylist": "Deposit-only; easy to apply on lighter bases, but remember it is harder to go lighter again. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "milk-chocolate",
+    "kind": "shade",
+    "name": "Milk chocolate",
+    "aliases": [
+      "medium chocolate",
+      "soft brown",
+      "mocha-milk brown"
+    ],
+    "family": "brunette",
+    "level": [
+      4,
+      5
+    ],
+    "tone": "chocolate",
+    "warmth": "warm",
+    "tone_description": "A lighter, softer chocolate brown with a hint of warm gold.",
+    "swatch": {
+      "root": "#3f2b1e",
+      "mids": "#65472f",
+      "ends": "#7e5e40"
+    },
+    "maintenance": {
+      "fade_speed": "slow",
+      "gloss_weeks": [
+        10,
+        16
+      ],
+      "retouch_weeks": [
+        10,
+        16
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 1
+    },
+    "risks": [
+      "Warm tone can turn orange-brown as it fades"
+    ],
+    "vivid": false,
+    "client": "A soft, creamy brown that is warm but not red.",
+    "stylist": "A helpful 'brown with glow' choice for clients lightening gently from dark. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "chestnut-brown",
+    "kind": "shade",
+    "name": "Chestnut brown",
+    "aliases": [
+      "warm brown",
+      "chestnut"
+    ],
+    "family": "brunette",
+    "level": [
+      4,
+      5
+    ],
+    "tone": "chestnut",
+    "warmth": "warm",
+    "tone_description": "A warm brown with soft red-gold lights, like the shell of a chestnut.",
+    "swatch": {
+      "root": "#3b2216",
+      "mids": "#6b3f26",
+      "ends": "#86563a"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        8,
+        12
+      ],
+      "retouch_weeks": [
+        8,
+        12
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 2
+    },
+    "risks": [
+      "Red-gold fades faster than neutral brown",
+      "Can turn orange"
+    ],
+    "vivid": false,
+    "client": "A warm brown with a red-gold depth that catches the light. It suits a natural-looking change.",
+    "stylist": "Red pigment fades early; plan a refresher gloss if it matters. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "espresso-brown",
+    "kind": "shade",
+    "name": "Espresso",
+    "aliases": [
+      "very dark brown",
+      "black coffee"
+    ],
+    "family": "brunette",
+    "level": [
+      2,
+      2
+    ],
+    "tone": "neutral",
+    "warmth": "cool",
+    "tone_description": "A very dark brown close to black with a faint cool depth.",
+    "swatch": {
+      "root": "#1a1716",
+      "mids": "#2a2422",
+      "ends": "#38302d"
+    },
+    "maintenance": {
+      "fade_speed": "slow",
+      "gloss_weeks": [
+        12,
+        20
+      ],
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 1
+    },
+    "risks": [
+      "Hard to lighten later",
+      "Heavy on very fine hair",
+      "Visible regrowth on lighter hair"
+    ],
+    "vivid": false,
+    "client": "A deep, shiny dark brown that reads nearly black in low light and lighter in sun.",
+    "stylist": "Deep dyed levels do not lift cleanly later; mention this in planning. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mocha-brown",
+    "kind": "shade",
+    "name": "Mocha",
+    "aliases": [
+      "coffee brown",
+      "cappuccino brown",
+      "dark neutral brown"
+    ],
+    "family": "brunette",
+    "level": [
+      3,
+      4
+    ],
+    "tone": "neutral",
+    "warmth": "neutral",
+    "tone_description": "A balanced coffee brown that is neither red nor ashy.",
+    "swatch": {
+      "root": "#352920",
+      "mids": "#5a4635",
+      "ends": "#725c47"
+    },
+    "maintenance": {
+      "fade_speed": "slow",
+      "gloss_weeks": [
+        10,
+        16
+      ],
+      "retouch_weeks": [
+        8,
+        12
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 1
+    },
+    "risks": [
+      "Can feel flat without dimension"
+    ],
+    "vivid": false,
+    "client": "A smooth coffee brown that works on many people.",
+    "stylist": "A good default for 'natural brunette' requests; add babylights for movement. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "caramel-brown",
+    "kind": "shade",
+    "name": "Caramel",
+    "aliases": [
+      "caramel brunette",
+      "toffee brown"
+    ],
+    "family": "brunette",
+    "level": [
+      5,
+      6
+    ],
+    "tone": "caramel",
+    "warmth": "warm",
+    "tone_description": "A medium to light warm brown with golden caramel lights.",
+    "swatch": {
+      "root": "#4d3220",
+      "mids": "#85592f",
+      "ends": "#a8793f"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        8,
+        10
+      ],
+      "retouch_weeks": [
+        8,
+        14
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 2
+    },
+    "risks": [
+      "Can turn orange on dark bases",
+      "Warm tones fade"
+    ],
+    "vivid": false,
+    "client": "A warm golden brown, like caramel, that brightens brown hair without going blonde.",
+    "stylist": "Often placed as highlights or balayage on a brown base; deposit alone on dark hair mostly shows in sunlight. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "cinnamon-brown",
+    "kind": "shade",
+    "name": "Cinnamon brown",
+    "aliases": [
+      "spiced brown",
+      "copper brown",
+      "warm cinnamon"
+    ],
+    "family": "brunette",
+    "level": [
+      4,
+      5
+    ],
+    "tone": "copper",
+    "warmth": "warm",
+    "tone_description": "A brown with a soft spiced copper glow.",
+    "swatch": {
+      "root": "#3e2316",
+      "mids": "#7a4528",
+      "ends": "#984f2f"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        6,
+        10
+      ],
+      "retouch_weeks": [
+        8,
+        12
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 2
+    },
+    "risks": [
+      "Copper fades and turns orange",
+      "Can show more on lighter starts"
+    ],
+    "vivid": false,
+    "client": "A warm, spiced brown with a coppery glow.",
+    "stylist": "A mid-way option for clients curious about red without committing. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "golden-brown",
+    "kind": "shade",
+    "name": "Golden brown",
+    "aliases": [
+      "honey brown",
+      "warm light brown",
+      "bronze brown"
+    ],
+    "family": "brunette",
+    "level": [
+      5,
+      6
+    ],
+    "tone": "golden",
+    "warmth": "warm",
+    "tone_description": "A medium-light brown with a clear golden warmth.",
+    "swatch": {
+      "root": "#47331d",
+      "mids": "#89692e",
+      "ends": "#a8894a"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        8,
+        12
+      ],
+      "retouch_weeks": [
+        8,
+        14
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 2
+    },
+    "risks": [
+      "Can turn brassy",
+      "Less subtle than neutral brown"
+    ],
+    "vivid": false,
+    "client": "A bright, warm brown with gold in it.",
+    "stylist": "Gold on level 5-6 is straightforward on a similar base; dark bases need lift to show it. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "auburn",
+    "kind": "shade",
+    "name": "Auburn",
+    "aliases": [
+      "red-brown",
+      "warm red-brown",
+      "brownish red"
+    ],
+    "family": "red_copper",
+    "level": [
+      4,
+      5
+    ],
+    "tone": "red_brown",
+    "warmth": "warm",
+    "tone_description": "A deep reddish brown with visible red tones, warm in daylight.",
+    "swatch": {
+      "root": "#3b1a12",
+      "mids": "#6c2c1b",
+      "ends": "#8a3b24"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        4,
+        6
+      ],
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Red pigment fades faster than other tones",
+      "Can stain towels and pillowcases",
+      "Dark starts need lifting to show brighter red"
+    ],
+    "vivid": false,
+    "client": "A brown with a clear red warmth, softer than a bright copper.",
+    "stylist": "Red fades early, so a regular gloss interval is normal; mention this in the upkeep conversation. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "copper",
+    "kind": "shade",
+    "name": "Copper",
+    "aliases": [
+      "natural copper",
+      "ginger copper",
+      "orange-red"
+    ],
+    "family": "red_copper",
+    "level": [
+      6,
+      7
+    ],
+    "tone": "copper",
+    "warmth": "warm",
+    "tone_description": "A medium-light warm orange-red like polished copper.",
+    "swatch": {
+      "root": "#6b3318",
+      "mids": "#b4592b",
+      "ends": "#ce7240"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        3,
+        5
+      ],
+      "retouch_weeks": [
+        4,
+        8
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Fades fast to a dull orange or peach",
+      "Needs lightening on dark bases",
+      "Orange fades unevenly on porous hair"
+    ],
+    "vivid": false,
+    "client": "A bright, warm copper with an orange-red glow. It is eye-catching and fades quickly, so it needs regular glosses.",
+    "stylist": "Brightness depends on a clean warm base; depositing copper over dark hair gives only a subtle tint. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "ginger",
+    "kind": "shade",
+    "name": "Ginger",
+    "aliases": [
+      "light copper",
+      "ginger-blonde-red",
+      "orange ginger"
+    ],
+    "family": "red_copper",
+    "level": [
+      7,
+      8
+    ],
+    "tone": "copper",
+    "warmth": "warm",
+    "tone_description": "A light, golden orange-red, brighter and softer than copper.",
+    "swatch": {
+      "root": "#8b4a22",
+      "mids": "#cf7a3a",
+      "ends": "#e19a57"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        3,
+        5
+      ],
+      "retouch_weeks": [
+        4,
+        8
+      ],
+      "regrowth_visibility": "high",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Fades quickly",
+      "Lighter ends fade differently from roots",
+      "Needs a clean light base"
+    ],
+    "vivid": false,
+    "client": "A bright, golden orange that looks sunny and playful.",
+    "stylist": "Needs enough lift to avoid muddy orange; light copper tones fade very fast. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "cherry-cola",
+    "kind": "shade",
+    "name": "Cherry cola",
+    "aliases": [
+      "dark cherry",
+      "cherry brown"
+    ],
+    "family": "red_copper",
+    "level": [
+      3,
+      4
+    ],
+    "tone": "red",
+    "warmth": "cool",
+    "tone_description": "A deep brown with dark cherry-red shine, noticeable in light.",
+    "swatch": {
+      "root": "#2c1218",
+      "mids": "#4a1b25",
+      "ends": "#612634"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        4,
+        6
+      ],
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 3
+    },
+    "risks": [
+      "Fades to reddish-brown or dull",
+      "Staining on light fabrics"
+    ],
+    "vivid": false,
+    "client": "A dark brown with a juicy cherry shine that shows in the light.",
+    "stylist": "A depositing red-violet over brown; red fading is typical, so give a gloss interval. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mahogany",
+    "kind": "shade",
+    "name": "Mahogany",
+    "aliases": [
+      "red-violet brown",
+      "plum brown",
+      "dark mahogany"
+    ],
+    "family": "red_copper",
+    "level": [
+      3,
+      4
+    ],
+    "tone": "mahogany",
+    "warmth": "cool",
+    "tone_description": "A rich, dark reddish-violet brown, deeper and cooler than auburn.",
+    "swatch": {
+      "root": "#2a1214",
+      "mids": "#4d1f22",
+      "ends": "#63292c"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        5,
+        8
+      ],
+      "retouch_weeks": [
+        8,
+        12
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 3
+    },
+    "risks": [
+      "Fades toward brown or orange",
+      "Needs even porosity for even tone"
+    ],
+    "vivid": false,
+    "client": "A deep, plummy red-brown with a luxe glow.",
+    "stylist": "Violet-red pigment holds better than orange-red but still fades; a reflective gloss keeps it fresh. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "burgundy-wine",
+    "kind": "shade",
+    "name": "Burgundy",
+    "aliases": [
+      "wine red",
+      "deep red-violet",
+      "merlot"
+    ],
+    "family": "red_copper",
+    "level": [
+      2,
+      3
+    ],
+    "tone": "burgundy",
+    "warmth": "cool",
+    "tone_description": "A very dark red-violet like red wine, visible in light.",
+    "swatch": {
+      "root": "#250c18",
+      "mids": "#47152e",
+      "ends": "#5e1c3d"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        4,
+        6
+      ],
+      "retouch_weeks": [
+        8,
+        12
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 3
+    },
+    "risks": [
+      "Fades quickly and unevenly",
+      "Stains fabrics and towels",
+      "Lifting out later can be hard"
+    ],
+    "vivid": false,
+    "client": "A deep wine red that looks dramatic in sunlight and nearly brown indoors.",
+    "stylist": "A depositing or semi-vivid tone on a dark base; deeper reds are less forgiving to remove. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "soft-black",
+    "kind": "shade",
+    "name": "Soft black",
+    "aliases": [
+      "natural black",
+      "warm black"
+    ],
+    "family": "black",
+    "level": [
+      1,
+      2
+    ],
+    "tone": "neutral",
+    "warmth": "neutral",
+    "tone_description": "A deep black that is not harsh, with a subtle brown softness in the light.",
+    "swatch": {
+      "root": "#101010",
+      "mids": "#1a1512",
+      "ends": "#241c18"
+    },
+    "maintenance": {
+      "fade_speed": "slow",
+      "gloss_weeks": [
+        12,
+        20
+      ],
+      "retouch_weeks": [
+        4,
+        6
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 1
+    },
+    "risks": [
+      "Very hard to lighten later",
+      "Visible regrowth on lighter natural hair",
+      "Can look heavy or flat in photos"
+    ],
+    "vivid": false,
+    "client": "A deep, soft black that looks natural and shiny.",
+    "stylist": "Dark artificial pigment does not lift cleanly; any later colour change should be assessed in person. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "jet-black",
+    "kind": "shade",
+    "name": "Jet black",
+    "aliases": [
+      "true black",
+      "black-black",
+      "deep black"
+    ],
+    "family": "black",
+    "level": [
+      1,
+      1
+    ],
+    "tone": "neutral",
+    "warmth": "cool",
+    "tone_description": "The darkest black with high shine and almost no warmth.",
+    "swatch": {
+      "root": "#080808",
+      "mids": "#0f0f10",
+      "ends": "#161617"
+    },
+    "maintenance": {
+      "fade_speed": "slow",
+      "gloss_weeks": [
+        12,
+        20
+      ],
+      "retouch_weeks": [
+        4,
+        6
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 1
+    },
+    "risks": [
+      "Can look flat",
+      "Difficult to remove later",
+      "Fades to a warm brown in the sun"
+    ],
+    "vivid": false,
+    "client": "A deep black with a glossy shine. It is dramatic and bold.",
+    "stylist": "Dark pigment often sits in the hair for a long time; bear this in mind before recommending. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "blue-black",
+    "kind": "shade",
+    "name": "Blue-black",
+    "aliases": [
+      "black with blue reflect",
+      "midnight black",
+      "raven"
+    ],
+    "family": "black",
+    "level": [
+      1,
+      1
+    ],
+    "tone": "blue",
+    "warmth": "cool",
+    "tone_description": "Black with a subtle blue shimmer that shows in the light.",
+    "swatch": {
+      "root": "#07090f",
+      "mids": "#0d1220",
+      "ends": "#14192a"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        6,
+        10
+      ],
+      "retouch_weeks": [
+        4,
+        6
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 2
+    },
+    "risks": [
+      "Blue sheen fades to plain or warm black",
+      "Hard to remove later"
+    ],
+    "vivid": false,
+    "client": "A black with a cool blue shine, like a raven's wing.",
+    "stylist": "The blue reflect is a surface effect and fades first; the base remains dark pigment that needs careful removal planning. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "darkest-brown",
+    "kind": "shade",
+    "name": "Darkest brown",
+    "aliases": [
+      "off-black",
+      "black-brown",
+      "level 2 brown"
+    ],
+    "family": "brunette",
+    "level": [
+      2,
+      2
+    ],
+    "tone": "neutral",
+    "warmth": "neutral",
+    "tone_description": "A brown so dark it reads as black indoors, with soft warm depth in the light.",
+    "swatch": {
+      "root": "#17110f",
+      "mids": "#251b15",
+      "ends": "#32241c"
+    },
+    "maintenance": {
+      "fade_speed": "slow",
+      "gloss_weeks": [
+        12,
+        20
+      ],
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 1
+    },
+    "risks": [
+      "Hard to lighten later"
+    ],
+    "vivid": false,
+    "client": "A near-black brown that is softer than black.",
+    "stylist": "A useful 'natural dark' option when a true black feels too hard. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "silver-white",
+    "kind": "shade",
+    "name": "Silver white",
+    "aliases": [
+      "silver",
+      "white silver",
+      "bright silver"
+    ],
+    "family": "grey_silver",
+    "level": [
+      9,
+      10
+    ],
+    "tone": "silver",
+    "warmth": "cool",
+    "tone_description": "A bright, clean silver-white with a cool finish, as if the hair is naturally white.",
+    "swatch": {
+      "root": "#c8c8cc",
+      "mids": "#e5e5e8",
+      "ends": "#f0f0f2"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        2,
+        4
+      ],
+      "retouch_weeks": [
+        4,
+        6
+      ],
+      "regrowth_visibility": "high",
+      "upkeep_level": 5
+    },
+    "risks": [
+      "Same lightening risks as platinum",
+      "Toner turns yellow quickly",
+      "Dull on porous hair"
+    ],
+    "vivid": false,
+    "client": "A clean, bright silver that looks bold and chic.",
+    "stylist": "Done by lightening to a very pale base and toning with cool pigments; natural grey usually needs toning too, as it can be yellowed. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://blog.wella.com/gb/node/525",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.madison-reed.com/gray-hair-coverage",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://clairolpro.com/inside-clairol-pro/gray-hair-coverage-solutions",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "steel-grey",
+    "kind": "shade",
+    "name": "Steel grey",
+    "aliases": [
+      "mid grey",
+      "metallic grey",
+      "gunmetal"
+    ],
+    "family": "grey_silver",
+    "level": [
+      6,
+      8
+    ],
+    "tone": "silver",
+    "warmth": "cool",
+    "tone_description": "A medium cool grey with a metallic finish and a hint of blue.",
+    "swatch": {
+      "root": "#5e626a",
+      "mids": "#8b909a",
+      "ends": "#a9aeb7"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        3,
+        5
+      ],
+      "retouch_weeks": [
+        4,
+        8
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Dull on warm bases",
+      "Fades to yellow or beige",
+      "Needs pre-lightening"
+    ],
+    "vivid": false,
+    "client": "A modern grey with a cool metallic shine.",
+    "stylist": "Needs a clean pale base, then pigment is layered; uneven porosity causes a patchy look. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://blog.wella.com/gb/node/525",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.madison-reed.com/gray-hair-coverage",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://clairolpro.com/inside-clairol-pro/gray-hair-coverage-solutions",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "charcoal-grey",
+    "kind": "shade",
+    "name": "Charcoal grey",
+    "aliases": [
+      "dark grey",
+      "smoky grey",
+      "slate grey"
+    ],
+    "family": "grey_silver",
+    "level": [
+      3,
+      5
+    ],
+    "tone": "silver",
+    "warmth": "cool",
+    "tone_description": "A deep, smoky grey with dark depth.",
+    "swatch": {
+      "root": "#2d2e31",
+      "mids": "#464850",
+      "ends": "#5c5f68"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        3,
+        5
+      ],
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Needs pre-lightening on dark hair",
+      "Fades toward brown or blonde"
+    ],
+    "vivid": false,
+    "client": "A moody, dark grey that feels fashion-forward.",
+    "stylist": "Typically lighter bases are toned grey; dark bases need to be lifted first. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://blog.wella.com/gb/node/525",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.madison-reed.com/gray-hair-coverage",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://clairolpro.com/inside-clairol-pro/gray-hair-coverage-solutions",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "blonde-grey-blend",
+    "kind": "shade",
+    "name": "Grey blend: blonde",
+    "aliases": [
+      "blonde grey blending",
+      "grey camouflage blonde",
+      "silver-blonde blend"
+    ],
+    "family": "grey_silver",
+    "level": [
+      7,
+      9
+    ],
+    "tone": "beige",
+    "warmth": "neutral",
+    "tone_description": "Soft blonde strands and lights woven through to blur grey roots into a blend.",
+    "swatch": {
+      "root": "#c0b8ac",
+      "mids": "#d8cfbe",
+      "ends": "#e5dccb"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        8,
+        12
+      ],
+      "retouch_weeks": [
+        10,
+        20
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 2
+    },
+    "risks": [
+      "Grey can still stand out at the parting",
+      "Needs the right mix of lights and toner"
+    ],
+    "vivid": false,
+    "client": "Blonde lights that soften grey so there is no hard regrowth line.",
+    "stylist": "Often paired with lowlights. Grey texture and percentage change how much lift or toner is needed. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://blog.wella.com/gb/node/525",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.madison-reed.com/gray-hair-coverage",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://clairolpro.com/inside-clairol-pro/gray-hair-coverage-solutions",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "brunette-grey-blend",
+    "kind": "shade",
+    "name": "Grey blend: brunette",
+    "aliases": [
+      "grey blending brown",
+      "babylights over grey",
+      "grey camouflage brunette"
+    ],
+    "family": "grey_silver",
+    "level": [
+      4,
+      6
+    ],
+    "tone": "neutral",
+    "warmth": "neutral",
+    "tone_description": "Brown or soft caramel tones placed through to blur grey into the base.",
+    "swatch": {
+      "root": "#4a4036",
+      "mids": "#78685a",
+      "ends": "#95867a"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        8,
+        12
+      ],
+      "retouch_weeks": [
+        10,
+        20
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 2
+    },
+    "risks": [
+      "Percentage and texture of grey vary the result",
+      "May need a toner"
+    ],
+    "vivid": false,
+    "client": "Brown lights and lowlights that merge with natural grey, so the grey looks softer and grows out gently.",
+    "stylist": "Placement and tone selection depend on grey percentage; a well-blended result grows out gently. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://blog.wella.com/gb/node/525",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.madison-reed.com/gray-hair-coverage",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://clairolpro.com/inside-clairol-pro/gray-hair-coverage-solutions",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "natural-silver-grow-out",
+    "kind": "shade",
+    "name": "Natural grey, enhanced",
+    "aliases": [
+      "grey transition",
+      "growing out grey",
+      "silver grow-out"
+    ],
+    "family": "grey_silver",
+    "level": [
+      7,
+      10
+    ],
+    "tone": "silver",
+    "warmth": "cool",
+    "tone_description": "Natural grey and white hair kept bright and glossy with gloss and shaping, rather than colour.",
+    "swatch": {
+      "root": "#9a9a9e",
+      "mids": "#b8b8bc",
+      "ends": "#c8c8cc"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": [
+        8,
+        16
+      ],
+      "retouch_weeks": null,
+      "regrowth_visibility": "low",
+      "upkeep_level": 1
+    },
+    "risks": [
+      "Yellowing from sun and heat",
+      "Dye grow-out period shows lines",
+      "Needs smooth edges and shine"
+    ],
+    "vivid": false,
+    "client": "Letting your own grey show and keeping it bright. The grow-out phase can be bridged with lights.",
+    "stylist": "The transition from dyed hair to natural grey often involves blending lights and a gloss. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://blog.wella.com/gb/node/525",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.madison-reed.com/gray-hair-coverage",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://clairolpro.com/inside-clairol-pro/gray-hair-coverage-solutions",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "pastel-pink",
+    "kind": "shade",
+    "name": "Pastel pink",
+    "aliases": [
+      "baby pink",
+      "cotton candy",
+      "rose pink pastel"
+    ],
+    "family": "vivid",
+    "level": [
+      9,
+      10
+    ],
+    "tone": "pink",
+    "warmth": "cool",
+    "tone_description": "A soft, milky pink that needs a very pale canvas.",
+    "swatch": {
+      "root": "#e5b7c3",
+      "mids": "#f0c6d0",
+      "ends": "#f5d6db"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": null,
+      "retouch_weeks": [
+        4,
+        6
+      ],
+      "regrowth_visibility": "high",
+      "upkeep_level": 5
+    },
+    "risks": [
+      "Fades in a few washes",
+      "Stains towels",
+      "Needs bleached hair"
+    ],
+    "vivid": true,
+    "client": "A soft candy pink on very light hair. It fades fast and needs the hair lightened first.",
+    "stylist": "Pastels need a pale-yellow level 9-10 base; fading is faster than saturated tones. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "rose-gold",
+    "kind": "shade",
+    "name": "Rose gold",
+    "aliases": [
+      "rose blonde",
+      "pink-gold",
+      "blush gold"
+    ],
+    "family": "vivid",
+    "level": [
+      8,
+      9
+    ],
+    "tone": "rose",
+    "warmth": "warm",
+    "tone_description": "A soft blonde glowing pink-gold, like blush mixed with copper.",
+    "swatch": {
+      "root": "#b88a7d",
+      "mids": "#d9aa9c",
+      "ends": "#e7c0b0"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        3,
+        5
+      ],
+      "retouch_weeks": [
+        4,
+        8
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Pink fades quickly toward gold or plain peach",
+      "Needs a light base"
+    ],
+    "vivid": true,
+    "client": "A blonde with a soft pink-gold shimmer.",
+    "stylist": "A mix of pale base and soft depositing pink-copper; the tone may stay pastel and gradually soften. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "lavender",
+    "kind": "shade",
+    "name": "Lavender",
+    "aliases": [
+      "pastel lilac",
+      "lilac",
+      "soft violet"
+    ],
+    "family": "vivid",
+    "level": [
+      9,
+      10
+    ],
+    "tone": "lavender",
+    "warmth": "cool",
+    "tone_description": "A powdery lilac with a cool-purple tint.",
+    "swatch": {
+      "root": "#b7a4c9",
+      "mids": "#c9b7d8",
+      "ends": "#d8c8e3"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": null,
+      "retouch_weeks": [
+        4,
+        6
+      ],
+      "regrowth_visibility": "high",
+      "upkeep_level": 5
+    },
+    "risks": [
+      "Fades in weeks",
+      "Needs a very pale base",
+      "Can look grey or dull if faded"
+    ],
+    "vivid": true,
+    "client": "A soft, dreamy lilac that is playful and delicate.",
+    "stylist": "Violet fades to silver-grey or beige; on blonde bases it can leave a lasting tint. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "teal",
+    "kind": "shade",
+    "name": "Teal",
+    "aliases": [
+      "blue-green",
+      "peacock teal",
+      "turquoise"
+    ],
+    "family": "vivid",
+    "level": [
+      7,
+      9
+    ],
+    "tone": "teal",
+    "warmth": "cool",
+    "tone_description": "A saturated blue-green that looks bold and eye-catching.",
+    "swatch": {
+      "root": "#0b6a6e",
+      "mids": "#1f9e9a",
+      "ends": "#52bdb5"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": null,
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 5
+    },
+    "risks": [
+      "Fades to pale green or blue",
+      "Stains fabrics",
+      "Needs lightening on most bases"
+    ],
+    "vivid": true,
+    "client": "A rich blue-green that looks bold and artistic.",
+    "stylist": "Blue and green deposit differently; the base's yellow pushes toward green, so base level matters. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "cherry-red",
+    "kind": "shade",
+    "name": "Cherry red",
+    "aliases": [
+      "bright red",
+      "true red",
+      "vivid red"
+    ],
+    "family": "vivid",
+    "level": [
+      4,
+      5
+    ],
+    "tone": "red",
+    "warmth": "cool",
+    "tone_description": "A bright, true red with a slightly cool, glossy finish.",
+    "swatch": {
+      "root": "#5a0f18",
+      "mids": "#9a1024",
+      "ends": "#b92033"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": [
+        4,
+        6
+      ],
+      "retouch_weeks": [
+        4,
+        6
+      ],
+      "regrowth_visibility": "high",
+      "upkeep_level": 5
+    },
+    "risks": [
+      "Fades fast and can bleed in washing",
+      "Stains skin and fabrics",
+      "Dark starts need lightening for brightness"
+    ],
+    "vivid": true,
+    "client": "A vivid, shiny red that looks confident and bold.",
+    "stylist": "Red pigment is vivid but fades; regular glossing, cool washes and fewer heat tools matter. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "midnight-blue",
+    "kind": "shade",
+    "name": "Midnight blue",
+    "aliases": [
+      "navy",
+      "deep blue",
+      "ink blue"
+    ],
+    "family": "vivid",
+    "level": [
+      2,
+      4
+    ],
+    "tone": "blue",
+    "warmth": "cool",
+    "tone_description": "A very deep blue that reads almost black indoors and blue in light.",
+    "swatch": {
+      "root": "#0c1426",
+      "mids": "#16264a",
+      "ends": "#1f3a6b"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": null,
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "low",
+      "upkeep_level": 3
+    },
+    "risks": [
+      "Fades to dull blue-green on lighter hair",
+      "Hard to remove from light hair",
+      "May stain"
+    ],
+    "vivid": true,
+    "client": "A deep ink-blue that shows in the sun and stays subtle indoors.",
+    "stylist": "On dark natural hair it shows as a tint; bright blue needs lightening. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "peach-apricot",
+    "kind": "shade",
+    "name": "Peach apricot",
+    "aliases": [
+      "pastel coral",
+      "peachy copper",
+      "apricot"
+    ],
+    "family": "vivid",
+    "level": [
+      8,
+      10
+    ],
+    "tone": "copper",
+    "warmth": "warm",
+    "tone_description": "A soft peachy pink-orange that glows.",
+    "swatch": {
+      "root": "#d7977b",
+      "mids": "#ebb192",
+      "ends": "#f3c7a9"
+    },
+    "maintenance": {
+      "fade_speed": "fast",
+      "gloss_weeks": null,
+      "retouch_weeks": [
+        4,
+        6
+      ],
+      "regrowth_visibility": "high",
+      "upkeep_level": 5
+    },
+    "risks": [
+      "Fades quickly",
+      "Needs a light base"
+    ],
+    "vivid": true,
+    "client": "A sunny, soft coral-peach that feels fresh.",
+    "stylist": "Pastel orange fades to blonde-ish gold; careful lightening is needed. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "plum-violet",
+    "kind": "shade",
+    "name": "Plum violet",
+    "aliases": [
+      "deep purple",
+      "grape",
+      "violet"
+    ],
+    "family": "vivid",
+    "level": [
+      3,
+      5
+    ],
+    "tone": "plum",
+    "warmth": "cool",
+    "tone_description": "A deep purple-plum with a glossy shine.",
+    "swatch": {
+      "root": "#2e1236",
+      "mids": "#5e2b7a",
+      "ends": "#7a3e98"
+    },
+    "maintenance": {
+      "fade_speed": "medium",
+      "gloss_weeks": null,
+      "retouch_weeks": [
+        6,
+        10
+      ],
+      "regrowth_visibility": "medium",
+      "upkeep_level": 4
+    },
+    "risks": [
+      "Fades to grey-lilac",
+      "Stains fabrics and skin",
+      "Dark bases need lifting for brightness"
+    ],
+    "vivid": true,
+    "client": "A rich purple with a velvety shine.",
+    "stylist": "Violet deposits well on a lightened base; on dark bases it shows only subtly. Chemical plans need an in-person appointment and a strand test.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://cutcalcs.pages.dev/reference/hair-colour-levels",
+        "supports": "the level and tone description of the shade",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+        "supports": "the level and tone description of the shade",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

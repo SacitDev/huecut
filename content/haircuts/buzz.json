@@ -1,0 +1,1138 @@
+[
+  {
+    "id": "buzz-cut-women",
+    "kind": "cut",
+    "name": "Buzz cut",
+    "aliases": [
+      "shaved cut",
+      "close crop"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "buzz",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "guard_mm": [
+          3,
+          12
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          3,
+          12
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          12
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "above_ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "very fine hair may show the scalp"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Clipper marks show the growth direction at whorls and the hairline; cut with the grain on the first pass."
+    },
+    "strand_note": "Strands show their natural density; fine hair can reveal scalp.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        0,
+        1
+      ],
+      "trim_weeks": [
+        2,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "scalp moisturiser",
+        "sunscreen"
+      ]
+    },
+    "grow_out": "Grows to a micro pixie in about 4 weeks.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "flat",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "blunt",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "buzz",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        0,
+        1
+      ],
+      "trim_weeks": [
+        2,
+        4
+      ],
+      "tags": [
+        "low_maintenance",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A very short, even crop that needs almost no care. Dramatic, bold and easy.",
+    "stylist": "Use one guard all over, or a slightly longer guard on top; blend around the ears and nape with a lever. Weight: none; one clipper length all over.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a buzz cut: one even clipper length of 3-12 mm all over the top, sides and nape, with no fringe, blended neatly around the ears and nape, the ears and the shape of the head fully visible",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/pixie-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/pixie-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "buzz-1-uniform",
+    "kind": "cut",
+    "name": "Buzz cut, #1 all over",
+    "aliases": [
+      "Number 1 buzz",
+      "Induction cut",
+      "Military buzz"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "buzz",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "guard_mm": [
+          3,
+          3
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          3,
+          3
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          3
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Same guard, squared lightly",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Hair lies close; curl pattern reads as a texture, not as shape."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Very short coils sit flat; check scalp for razor bumps and use a guard no shorter than #1 if it irritates."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 7,
+      "whorl_note": "A crown whorl is invisible at 3 mm; a cowlick may stand slightly.",
+      "note": "Covers recession well because top and sides are the same length; works at every stage of recession."
+    },
+    "strand_note": null,
+    "density_note": "Suits any density; thin hair shows scalp because there is no length to cover it. Coarse hair feels bristly at 3 mm.",
+    "glasses_note": "Nothing to manage around the arms; glasses frames become the main feature.",
+    "upkeep": {
+      "styling_minutes": [
+        0,
+        0
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": []
+    },
+    "grow_out": "Grows into a rough crew in about 6 weeks; stop at #3 then add scissor top.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-short-boxed",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "flat",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "workplace_friendly",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "wash_and_go",
+        "low_maintenance"
+      ],
+      "silhouette": "buzz",
+      "styling_minutes": [
+        0,
+        0
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ]
+    },
+    "variants": [
+      {
+        "id": "buzz-2-uniform",
+        "name": "Buzz cut, #2 all over",
+        "changes": {
+          "zones": {
+            "top": {
+              "guard_mm": [
+                6,
+                6
+              ]
+            },
+            "sides": {
+              "guard_mm": [
+                6,
+                6
+              ]
+            },
+            "back": {
+              "guard_mm": [
+                6,
+                6
+              ]
+            },
+            "nape": {
+              "guard_mm": [
+                6,
+                6
+              ]
+            }
+          },
+          "traits": {
+            "trim_weeks": [
+              2,
+              4
+            ]
+          }
+        },
+        "prompt_spec": "a #2 buzz cut: one even 6 mm guard all over the top, sides, back and nape, no fade and no fringe, a natural soft neckline and sideburns matching the guard, trimmer-edged, a neat even finish with no styling",
+        "client": "The same short length everywhere, about 6 mm. Tidy, quick and needs no styling at all."
+      },
+      {
+        "id": "buzz-4-uniform",
+        "name": "Buzz cut, #4 all over",
+        "changes": {
+          "zones": {
+            "top": {
+              "guard_mm": [
+                13,
+                13
+              ]
+            },
+            "sides": {
+              "guard_mm": [
+                13,
+                13
+              ]
+            },
+            "back": {
+              "guard_mm": [
+                13,
+                13
+              ]
+            },
+            "nape": {
+              "guard_mm": [
+                13,
+                13
+              ]
+            }
+          },
+          "traits": {
+            "styling_minutes": [
+              1,
+              1
+            ],
+            "trim_weeks": [
+              3,
+              4
+            ]
+          }
+        },
+        "prompt_spec": "a #4 buzz cut: one even 13 mm guard all over the top, sides, back and nape, no skin showing, no fringe, the front line softened with the clipper, a natural neckline, a short soft even finish with no styling",
+        "client": "A short but soft buzz, about 5 mm longer than a military cut. Easy to live with."
+      }
+    ],
+    "client": "The same very short length all over, about 3 mm. No styling at all.",
+    "stylist": "Clipper bare (no comb) with a #1 guard, against the grain with light pressure; check the back of the crown for patchy passes. Edge the hairline lightly. Leave the natural edge; only clean the strays.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a #1 buzz cut: one even 3 mm guard all over the top, sides, back and nape, no fade and no fringe, the natural neckline left soft with only stray hairs cleaned and the sideburns squared lightly, a flat, even finish",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/haircut-numbers/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.fashionbeans.com/article/mens-short-hairstyles-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "buzz-tapered",
+    "kind": "cut",
+    "name": "Tapered buzz cut",
+    "aliases": [
+      "Buzz with taper",
+      "Soft-edge buzz",
+      "Cropped buzz taper"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "buzz",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "guard_mm": [
+          9,
+          13
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 3,
+      "note": "Taper from #2 down to #1 or blade over the last 2-3 cm at ears and neck; no skin."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered to #1",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Cleaner on coily hair than a blunt buzz; tapered edge shows the line-up."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 6,
+      "whorl_note": "No special handling.",
+      "note": "Works well up to stage 5-6; keep the front guard the same as the top so the hairline stays soft."
+    },
+    "strand_note": null,
+    "density_note": "Works at any density; thin hair benefits from the longer top.",
+    "glasses_note": "Clean around the arms; the taper stays below the frame line.",
+    "upkeep": {
+      "styling_minutes": [
+        0,
+        0
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": []
+    },
+    "grow_out": "Becomes a crew cut in about 5 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "flat",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "buzz",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        0,
+        0
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "workplace_friendly",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "Short all over with the sides and neckline neatly tapered shorter. Very tidy, no styling.",
+    "stylist": "Top #3 to #4, sides #2 fading to #1 or blade over the lower third. Blend in a C-shape around the ear, soften the sideburn without lining it. Tapered into the natural neck edge.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a tapered buzz cut: the top about 9-13 mm (#3-#4) and the sides 6 mm tapering to 3 mm (#2 to #1) over the last 2-3 cm at the ears, with the nape tapering from #1 to blade, no skin fade, a C-shaped blend around the ear and a tapered natural neckline",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-short-hairstyles-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "buzz-skin-fade",
+    "kind": "cut",
+    "name": "Buzz cut with skin fade",
+    "aliases": [
+      "Skin fade buzz",
+      "Bald fade with buzz top",
+      "Zero fade buzz"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "buzz",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "guard_mm": [
+          6,
+          10
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "skin",
+      "height": null,
+      "start_mm": 0,
+      "note": "Skin up to #2 across 3-5 cm; top matches #2 so the blend is smooth."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded to skin",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Strong contrast on coily hair; shape-up with a trimmer sharpens it."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 6,
+      "whorl_note": null,
+      "note": "Good for stage 3-6 as it removes contrast between thin and dense areas."
+    },
+    "strand_note": null,
+    "density_note": "Any; thin hair shows scalp at the faded area but not on top.",
+    "glasses_note": "Fade sits above the arms; check no hair is left poking out behind the ear.",
+    "upkeep": {
+      "styling_minutes": [
+        0,
+        0
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": []
+    },
+    "grow_out": "Grows into a #2 buzz with taper in 3-4 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-short-boxed",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "flat",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "buzz",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        0,
+        0
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "Very short on top with the sides faded right down to skin. Sharp and very low effort.",
+    "stylist": "Foil shaver or zero-gap blade for the skin area; flick out to #1 then #2 and hold the blend line level. Keep top at #2 to avoid a hard line. Skin-faded neckline, rounded or squared on request.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a buzz cut with a skin fade: the top an even 6-10 mm (#2), the sides and nape faded from skin up to #2 across 3-5 cm with a smooth blend into the top, a tapered neckline, no fringe, sideburns faded to skin, a sharp clean finish",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "shaved-head",
+    "kind": "cut",
+    "name": "Shaved head (razor or foil)",
+    "aliases": [
+      "Bald",
+      "Clean shave",
+      "Razor head"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "buzz",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "guard_mm": [
+          0,
+          2
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          0,
+          0.5
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          0.5
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          0.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Removed",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Razor bumps are common on tight coils; use a shave-friendly cream and rest the skin."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 7,
+      "whorl_note": "No whorl visible.",
+      "note": "Ends the conversation about hairline; common choice for stage 5-7."
+    },
+    "strand_note": null,
+    "density_note": "Density does not matter: this works at any density and removes the contrast between thin and dense areas.",
+    "glasses_note": "Frames sit on a clean canvas.",
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        1,
+        1
+      ],
+      "heat": "none",
+      "products": [
+        "shave cream",
+        "moisturiser",
+        "SPF"
+      ]
+    },
+    "grow_out": "About 3 weeks to a #1-length buzz, 8 weeks to a crew-length top.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-garibaldi",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "flat",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "buzz",
+      "weight_removal": "low",
+      "cut_method": [
+        "razor"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        4,
+        12
+      ],
+      "tags": [
+        "recession_friendly",
+        "thinning_crown_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Completely smooth head. Shaved every few days, kept moisturised, with sun protection.",
+    "stylist": "Clippers first at #0, then foil or razor with warm towels and pre-shave oil. Never against the grain on sensitive scalp; finish with cold towel and balm. Smooth all the way down.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a shaved head: the whole scalp, sides, back and nape shaved to one even skin level with razor-smooth finish, no hair left on top, no fade line, no fringe and no sideburns, the skin smooth right down the neck",
+    "sources": [
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/20-haircuts-tips-for-men-with-a-receding-hairline",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.beardbrand.com/blogs/urbanbeardsman/the-best-haircuts-to-wear-when-experiencing-hair-loss",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "buzz-longer-front",
+    "kind": "cut",
+    "name": "Buzz with longer front",
+    "aliases": [
+      "Buzz with soft front",
+      "Softened hairline buzz"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "buzz",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "guard_mm": [
+          6,
+          15
+        ]
+      },
+      "fringe": {
+        "guard_mm": [
+          10,
+          15
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Short",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 6,
+      "whorl_note": null,
+      "note": "Front is a touch longer than the rest; avoids a harsh trimmer line on a hairline that is higher at the temples."
+    },
+    "strand_note": null,
+    "density_note": "Thin to medium hair; works with a hairline that is higher at the temples or a thin crown.",
+    "glasses_note": "No interaction with the arms; short sides leave frames clear.",
+    "upkeep": {
+      "styling_minutes": [
+        0,
+        0
+      ],
+      "trim_weeks": [
+        2,
+        4
+      ],
+      "heat": "none",
+      "products": []
+    },
+    "grow_out": "Grow the whole top for 4 weeks and it becomes a crew cut.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "flat",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "buzz",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        0,
+        0
+      ],
+      "trim_weeks": [
+        2,
+        4
+      ],
+      "tags": [
+        "workplace_friendly",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A short buzz that leaves the front slightly longer so the hairline looks soft.",
+    "stylist": "Do not line up the front with trimmers; blend with the clipper and a guard one number higher.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a buzz with a longer front: the top 6-15 mm, blended gradually forward so the front sits slightly longer at 10-15 mm without a lined edge, the sides and back #1-#2 (3-6 mm), the nape #1, a natural neckline, no part",
+    "sources": [
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/20-haircuts-tips-for-men-with-a-receding-hairline",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

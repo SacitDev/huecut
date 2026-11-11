@@ -1,0 +1,13 @@
+/* Layout of the simple pages in routes.tsx: the route stubs and Not found. */
+
+.page {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-m);
+  max-inline-size: var(--measure);
+  padding-block: var(--space-xl) var(--space-2xl);
+}
+
+.body {
+  color: var(--text-2);
+}

@@ -1,0 +1,167 @@
+/*
+ * Option tiles: 1.5 px --line-strong edge (4.24:1 on surface); selected adds rose-soft, a 2 px --primary edge
+ * (13.88:1 on surface, because rose-soft against surface is only 1.48:1) and the check icon.
+ */
+
+.group {
+  container-type: inline-size;
+  display: grid;
+  gap: var(--space-m);
+  min-inline-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* A legend is not a grid item of its fieldset: the space under it has to be its own (padding, because Safari ignores its margin). */
+.legend {
+  padding: 0 0 var(--space-m);
+  font-size: var(--text-h3);
+  font-weight: var(--weight-h3);
+  line-height: var(--lh-h3);
+  text-wrap: balance;
+}
+
+/* The question of a screen: set as an H2, with room between it and its answers. */
+.large {
+  gap: var(--space-l);
+}
+
+.large .legend {
+  padding-block-end: var(--space-l);
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  font-weight: var(--weight-h2);
+  font-stretch: var(--wdth-h2);
+  line-height: var(--lh-h2);
+}
+
+/* A hint belongs to its legend, so it sits close under it and the answers keep their distance. */
+.hint {
+  margin-block-start: calc(-1 * var(--space-s));
+  color: var(--text-2);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.options {
+  display: grid;
+  gap: var(--space-s);
+}
+
+@container (width >= 20rem) {
+  .two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Pictures compare best side by side, and a picture needs no room for words: two to a row on a 360 px phone too. */
+@container (width >= 17rem) {
+  .two:has(.picture) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* "None of these, or not sure" has no picture: it takes the whole row under them. */
+  .two:has(.picture) > :not(:has(.picture)) {
+    grid-column: 1 / -1;
+  }
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-s);
+  min-block-size: var(--option-h);
+  padding: var(--space-s) var(--space-m);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.tile:hover {
+  border-color: var(--primary);
+}
+
+.tile:has(:checked) {
+  border-color: var(--primary);
+  background-color: var(--rose-soft);
+  box-shadow: inset 0 0 0 calc(var(--border-selected) - var(--border-control)) var(--primary);
+}
+
+/* The native input is hidden, so the tile carries the focus ring. */
+.tile:has(:focus-visible) {
+  outline: var(--focus-width) solid var(--focus);
+  outline-offset: var(--focus-offset);
+}
+
+/* A tile with a picture: the picture on its own row, the label and the check icon under it. */
+.tile:has(> .picture) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-content: start;
+}
+
+/* Centred: one to a row on a narrow phone, a picture at its 160 px cap would leave the tile's far side empty. */
+.picture {
+  grid-column: 1 / -1;
+  justify-self: center;
+  inline-size: 100%;
+  max-inline-size: var(--option-picture-max);
+  block-size: auto;
+  border-radius: var(--radius-picture);
+  background-color: var(--picture-placeholder);
+}
+
+/* A drawing inside an <img> cannot see the page's currentColor, so it draws black; the token inverts it in dark. A swatch is the real colour, and has its own card. */
+.picture[src$='.svg']:not([src*='q-swatch']) {
+  background-color: transparent;
+  filter: var(--drawing-filter);
+}
+
+/* Eleven swatches would be six rows at 3:4, so a swatch sits beside its label in a row of its own. */
+.tile:has(> .picture[src*='q-swatch']) {
+  display: flex;
+  justify-content: start;
+}
+
+.picture[src*='q-swatch'] {
+  flex: none;
+  inline-size: 5.5rem;
+  aspect-ratio: 2;
+  background-color: transparent;
+}
+
+.tile:has(> .picture[src*='q-swatch']) .check {
+  margin-inline-start: auto;
+}
+
+.text {
+  font-weight: var(--weight-small);
+}
+
+.range {
+  white-space: nowrap;
+}
+
+.note {
+  display: block;
+  color: var(--text-2);
+  font-size: var(--text-small);
+  font-weight: normal;
+}
+
+.check {
+  flex: none;
+  inline-size: var(--icon-m);
+  block-size: var(--icon-m);
+  animation: check-in var(--dur-state) var(--ease-out);
+}
+
+@keyframes check-in {
+  from {
+    opacity: 0;
+  }
+}

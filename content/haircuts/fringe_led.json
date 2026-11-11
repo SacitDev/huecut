@@ -1,0 +1,561 @@
+[
+  {
+    "id": "bowl-cut-modern",
+    "kind": "cut",
+    "name": "Modern bowl cut",
+    "aliases": [
+      "Textured bowl",
+      "Round fringe cut",
+      "Pageboy (men's)"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fringe_led",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": "low",
+      "start_mm": 3,
+      "note": "Low taper under the round fringe."
+    },
+    "neckline": "tapered",
+    "sideburns": "Short",
+    "fringe": {
+      "kind": "blunt_full",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Works as a short curly bowl with a taper; keep the top 5 cm so curls do not puff."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Works as a short rounded top with a sponge finish; keep the taper tight.",
+        "daily": true
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the fringe blunt and full; texturising makes it look wispy."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Rounded fringe covers temples."
+    },
+    "strand_note": null,
+    "density_note": "Thick to medium; thin hair looks wispy at the fringe.",
+    "glasses_note": "A heavy rounded fringe can touch the top rim of frames; keep the fringe 1 cm above it.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "none",
+      "products": [
+        "paste"
+      ]
+    },
+    "grow_out": "Easy: a fuller bowl becomes a curtain style in 3 months.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-short-boxed",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "blunt_full",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "high",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "wash_and_go",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "A rounded fringe with short sides. Retro and low maintenance, with a modern textured top.",
+    "stylist": "Cut the round shape with scissors over the comb, texturise the ends and keep the fringe soft.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a modern bowl cut: a rounded fringe of 4-8 cm sitting above the brow with a textured top of 5-9 cm, the sides and back at a low taper from #3 (10 mm) to #1 (3 mm) under the round line, a tapered neckline, soft textured ends",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-short-hairstyles-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "blunt-fringe-taper",
+    "kind": "cut",
+    "name": "Blunt fringe with taper",
+    "aliases": [
+      "Edgar cut",
+      "Takuache cut",
+      "Straight fringe taper"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fringe_led",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "fringe": {
+        "cm": [
+          2.5,
+          5
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0.5,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0.5,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0.5,
+      "note": "Low taper or fade."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": {
+      "kind": "blunt_full",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Cut with the curls dry and keep the fringe at the shorter end."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Keep the fringe short (2-3 cm) and shape the line with a trimmer."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the fringe shorter and solid; a blunt line shows gaps on low density."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Straight fringe covers a stage 3-4 front."
+    },
+    "strand_note": null,
+    "density_note": "Thick, straight hair works best.",
+    "glasses_note": "Keep the fringe clear of the frame.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "paste"
+      ]
+    },
+    "grow_out": "Let the fade grow and the fringe lengthen: it becomes a French crop in about 6 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-short-boxed",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "blunt_full",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A straight horizontal fringe with faded sides. Graphic, neat and easy to keep sharp.",
+    "stylist": "Cut the fringe straight with scissors, fade sides from #0.5 to #2 and soften the front edges with a point cut.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a blunt fringe with a taper: a top of 4-7 cm and a straight horizontal fringe of 2.5-5 cm cut at the brow, softened by a point-cut edge, the sides and back at a low fade from blade (#0.5) to #2 (6 mm), a tapered neckline and faded sideburns",
+    "sources": [
+      {
+        "url": "https://www.bosshunting.com.au/style/grooming/french-crop-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.reuzel.com/blogs/news/how-to-style-a-textured-crop-the-complete-2026-guide",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "two-block",
+    "kind": "cut",
+    "name": "Two-block cut",
+    "aliases": [
+      "Korean two-block",
+      "Comma hair",
+      "Soft two-block"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "fringe_led",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": null,
+    "neckline": "tapered",
+    "sideburns": "Short",
+    "fringe": {
+      "kind": "textured_forward",
+      "landmark": "brow",
+      "options": [
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Works with a loose curl; keep the upper block 6-8 cm."
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "Not typical; choose a taper with a defined top instead."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the upper block shorter and use a volumising spray."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Fringe covers the forehead."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine hair loses the soft comma shape.",
+    "glasses_note": "The fringe should sit above the frame top so it does not catch on the rim.",
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        8
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "rare",
+      "products": [
+        "light wax"
+      ]
+    },
+    "grow_out": "Keep the upper block and stop disconnecting the lower: it becomes a short flow in 2-3 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-clean-shaven",
+        "beard-stubble-short",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "textured_forward",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        8
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "Short sides with a soft longer top that falls onto the forehead. Light, youthful and low maintenance.",
+    "stylist": "Section above the ear, disconnect the lower block with a #1-#3, then point cut the upper block for a soft comma shape.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a two-block cut: a soft longer upper block of 6-12 cm with a fringe of 5-10 cm falling onto the forehead in a comma shape, disconnected above the ear from short sides and back of #1-#3 (3-10 mm), the nape #1-#2, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://www.pallmallbarbers.com/pmb-news/trending-haircuts-to-start-2026-strong/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

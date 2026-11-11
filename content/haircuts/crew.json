@@ -1,0 +1,934 @@
+[
+  {
+    "id": "crew-cut-classic",
+    "kind": "cut",
+    "name": "Classic crew cut",
+    "aliases": [
+      "Crew",
+      "Military taper",
+      "College cut"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crew",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          1.5,
+          3
+        ]
+      },
+      "fringe": {
+        "cm": [
+          1.5,
+          3
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 3,
+      "note": "Gentle taper from #3 at the top of the side down to #1 at the ears and nape."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered, kept short",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Keep top at the 3 cm end so curls stay controlled."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Pick the 2 cm end; brush upward for a short natural top."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the top at the shorter end and texture it so less scalp shows."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 5,
+      "whorl_note": "Cowlick at the front needs the longer end of the range.",
+      "note": "Brushed-up front shows the hairline; a messy variation is easier on stage 4-5 (see 'Messy textured crew')."
+    },
+    "strand_note": null,
+    "density_note": "Good for medium to thick; fine hair shows scalp through the top.",
+    "glasses_note": "Short sides leave the arms clear; confirm no bulky blend sits behind the ear.",
+    "upkeep": {
+      "styling_minutes": [
+        2,
+        2
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "matte clay or paste"
+      ]
+    },
+    "grow_out": "Grows to a rough Ivy League over 8-10 weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-short",
+        "beard-short-boxed",
+        "beard-circle"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crew",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        2,
+        2
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "workplace_friendly",
+        "recession_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "Short on the sides, a little longer on top that can stand up or be brushed forward. Very low effort.",
+    "stylist": "Clipper with comb, #3 to #1 taper; scissor-over-comb on the top, leaving about 2 cm at the front. Graduate the length so the top does not look flat. Natural taper into the neck.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a classic crew cut: the top 1.5-3 cm, about 2 cm at the front, standing up or brushed forward, the sides and back tapered from #3 (10 mm) at the top of the side down to #1 (3 mm) at the ears and nape, a natural tapered neckline",
+    "sources": [
+      {
+        "url": "https://www.themodestman.com/hair/crew-cut/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "crew-cut-long",
+    "kind": "cut",
+    "name": "Long crew cut",
+    "aliases": [
+      "Longer crew",
+      "Flat-lay crew"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crew",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          5
+        ]
+      },
+      "fringe": {
+        "cm": [
+          2.5,
+          4
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          13
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          13
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Taper from #4 to #2 on the sides, more length on the top."
+    },
+    "neckline": "tapered",
+    "sideburns": "Short, tapered",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Leave the top slightly shorter so the curls bounce rather than puff."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "3-4 cm lets the top form soft tight curls; style with curl cream."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use a texturising powder so the top does not lie flat."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": "Longer top covers a thin crown mildly; trim cowlicks shorter.",
+      "note": "Brushing forward keeps temples covered at stage 3-4; avoid brushing straight up."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine hair needs a texturising powder to avoid collapse.",
+    "glasses_note": "Fits any frame; keep sideburns narrow.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        4,
+        5
+      ],
+      "heat": "rare",
+      "products": [
+        "matte clay",
+        "sea-salt spray (optional)"
+      ]
+    },
+    "grow_out": "Moves to Ivy League in 3-4 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crew",
+      "weight_removal": "high",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        4,
+        5
+      ],
+      "tags": [
+        "workplace_friendly",
+        "recession_friendly",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "A relaxed crew cut with enough length on top to style forward or up. Short sides and a tidy outline.",
+    "stylist": "Slide cut the top with scissors over comb to remove bulk, point cut the front for texture. Check balance at the corners.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long crew cut: the top 3-5 cm with the front at 2.5-4 cm, textured and slide-cut, the sides and back tapered from #4 (13 mm) down to #2 (6 mm) at the ears and nape, a tidy outline, a soft side part optional, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/long-crew-cut/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "ivy-league",
+    "kind": "cut",
+    "name": "Ivy League cut",
+    "aliases": [
+      "Princeton cut",
+      "Ivy",
+      "Harvard clip",
+      "Harvard cut"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crew",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          6,
+          13
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          6,
+          13
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          6,
+          10
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Taper only; sides lightly blended, never skin."
+    },
+    "neckline": "tapered",
+    "sideburns": "Clean, mid-ear length",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Dry-cut the top so curls can be assessed before final length."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "A short 'Ivy' reads as a neat top with taper; shape top with a brush."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Wear a soft natural part; a sharp part line shows the scalp."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": "A crown cowlick may break the part; choose the part side to suit it.",
+      "note": "Combed forward or to the side, works up to stage 3 (high hairline visible when brushed back)."
+    },
+    "strand_note": null,
+    "density_note": "Needs medium to thick density to hold a part.",
+    "glasses_note": "Works with almost any frame; round glasses give a collegiate look.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "rare",
+      "products": [
+        "light pomade",
+        "water-based paste"
+      ]
+    },
+    "grow_out": "Easy to grow to a side-part flow.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-short",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crew",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "workplace_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A neat longer crew cut that can be brushed to the side or forward. The look is tidy and traditional.",
+    "stylist": "Scissor-over-comb the sides; tapered neckline, top left 5-6 cm and point cut. Check the part is where the hair naturally falls. Neat taper into a rounded or natural neck.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an Ivy League cut: the top 4-7 cm, left about 5-6 cm and point-cut, brushed to the side or forward off a natural part, the sides and back lightly tapered from #4 (13 mm) to #2 (6 mm), never skin, a neat tapered neckline and mid-ear sideburns",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-short-hairstyles-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.themodestman.com/hair/crew-cut/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "high-and-tight",
+    "kind": "cut",
+    "name": "High and tight",
+    "aliases": [
+      "Marine cut",
+      "Military high-and-tight",
+      "Regulation high tight"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crew",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          0.6,
+          2
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          1.5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "high",
+      "start_mm": 0,
+      "note": "Skin or #1 from the ears up to just above the temple; short block of hair left on top."
+    },
+    "neckline": "tapered",
+    "sideburns": "Removed or very short",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Top block is 1-2 cm; moisten and brush down."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the top block at the longer end so it looks filled."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 5,
+      "whorl_note": "Crown whorl visible on top if hair is longer than 1 cm.",
+      "note": "Brings the eye up; a front hairline that is higher at the temples is clearly visible at stage 4 and above."
+    },
+    "strand_note": null,
+    "density_note": "Needs enough density on top to look filled; thin hair looks sparse.",
+    "glasses_note": "Sides are bare, so frames read very prominently.",
+    "upkeep": {
+      "styling_minutes": [
+        0,
+        0
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": []
+    },
+    "grow_out": "Quick path to a crew cut in 4-5 weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-short-boxed",
+        "beard-goatee"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crew",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        0,
+        0
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "recession_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "Very short sides with a tight patch of hair on top. A strict, no-fuss look.",
+    "stylist": "Use zero-gap at the lower area, then #1 and #2 climbing to the temple line. Keep the transition level and don't flatten the top. Tapered to skin or nearly skin.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a high and tight: the sides and back clipped from skin to #1 (3 mm) from the ears up to just above the temples with a high, level fade line, a short block of hair 0.6-2 cm left on top, no fringe, a tapered neckline close to skin",
+    "sources": [
+      {
+        "url": "https://www.themodestman.com/hair/crew-cut/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "crew-messy-textured",
+    "kind": "cut",
+    "name": "Messy textured crew",
+    "aliases": [
+      "Textured crew",
+      "Choppy crew",
+      "Rugged crew"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crew",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          2.5,
+          4
+        ]
+      },
+      "fringe": {
+        "cm": [
+          2,
+          4
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Clipper taper, #3 to #1."
+    },
+    "neckline": "tapered",
+    "sideburns": "Short",
+    "fringe": {
+      "kind": "textured_forward",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Cut slightly longer on top (3-4 cm) so curls can lie forward."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Keep a short 2-3 cm top with a defined edge."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 5,
+      "whorl_note": "Choppy top disguises a thin crown.",
+      "note": "Choppy forward-pushed fringe softens stage 3-5 recession."
+    },
+    "strand_note": null,
+    "density_note": "Fine to medium; texture adds visual density.",
+    "glasses_note": "Sits well with most frames; keep hair above the ear short so the arms rest cleanly.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "none",
+      "products": [
+        "matte clay"
+      ]
+    },
+    "grow_out": "Let it grow for 6-8 weeks and it becomes a longer textured crop.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-stubble-short"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "textured_forward",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crew",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "workplace_friendly",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "wash_and_go",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "A short, textured crew cut with a forward top that falls over a hairline that is higher at the temples.",
+    "stylist": "Point cut the front and top forward, avoid straight lines at the hairline and fade the sides lightly.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a messy textured crew: a short forward top of 2.5-4 cm with a point-cut, textured fringe of 2-4 cm and no straight line at the front hairline, the sides and back tapered from #3 (10 mm) to #1 (3 mm), the nape #1-#2, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/20-haircuts-tips-for-men-with-a-receding-hairline",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

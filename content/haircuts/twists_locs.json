@@ -1,0 +1,1618 @@
+[
+  {
+    "id": "sponge-twists-taper",
+    "kind": "cut",
+    "name": "Sponge twists with taper",
+    "aliases": [
+      "Sponge curls",
+      "Coil sponge top",
+      "Twist sponge"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "twists_locs",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          8
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          1.5,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          1.5,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0.5,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 3,
+      "note": "Low or mid taper; top sponged into tight coils."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered, lined",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Straight hair will not form coils."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Waves do not hold twist."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Loose curls of 4+ cm can coil with a sponge and cream.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design; needs 3+ cm of hair."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "The coils will be smaller; keep the top at the shorter end."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": "Dense coils cover a thin crown.",
+      "note": "Coils add visual volume that covers stage 3-4."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; very fine hair makes weak coils.",
+    "glasses_note": "Fine; the taper stays below the arm.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "twist sponge"
+      ]
+    },
+    "grow_out": "Stop sponging and the coils loosen into a short afro in about 4 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "twist_out",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "wash_and_go",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Short coils across the top, spiral-formed with a small sponge. Quick to refresh.",
+    "stylist": "Hydrate, apply cream, rub the sponge in small circles in one direction. Keep the taper clean.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "sponge twists with a taper: the top 3-8 cm formed into tight spiral coils across the crown, the sides and back at a low to mid taper from #0.5 to #3 (10 mm), the nape up to #1, a tapered neckline and lined sideburns",
+    "sources": [
+      {
+        "url": "https://creativeheadmag.com/techniques/exauce-imbo-my-take-on-an-afro-mid-taper-fade/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "finger-coils-taper",
+    "kind": "cut",
+    "name": "Finger coils with taper",
+    "aliases": [
+      "Coil twists",
+      "Finger coils",
+      "Coil top"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "twists_locs",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          1.5,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          1.5,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0.5,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 3,
+      "note": "Taper; defined top."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited: use a textured crop."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited: waves do not hold coils."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Loose curls need gel to coil."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design; needs 5+ cm."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Gaps show between coils; keep the top shorter."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Coils cover temples at stage 3-4."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; very fine strands are too slippery to hold a coil.",
+    "glasses_note": "Sits well with most frames; keep hair above the ear short so the arms rest cleanly.",
+    "upkeep": {
+      "styling_minutes": [
+        30,
+        30
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "twisting cream",
+        "gel"
+      ]
+    },
+    "grow_out": "Releases to a short afro in about 2-3 weeks; re-form every week or two.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "twist_out",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        30,
+        30
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Hand-formed coils on top with neat sides. Looks planned and full of texture.",
+    "stylist": "Moisturise, section the top and wrap each curl around a finger with gel or twisting cream; let it set before releasing.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "finger coils with a taper: the top 5-10 cm in hand-formed, defined coils across the crown, the sides and back at a low to mid taper from #0.5 to #3 (10 mm), the nape blade to #1, a tapered neckline, tapered lined sideburns",
+    "sources": [
+      {
+        "url": "https://creativeheadmag.com/techniques/exauce-imbo-my-take-on-an-afro-mid-taper-fade/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "short-twists-fade",
+    "kind": "cut",
+    "name": "Short twists with fade",
+    "aliases": [
+      "Twists with fade",
+      "Two-strand twists short",
+      "Twist-out fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "twists_locs",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0.5,
+      "note": "Low or temple fade under the twists."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited: waves do not hold twists."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Loose curls hold twists poorly."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Twist larger sections and keep the edges loose."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Avoid tight twists at thin temples (traction)."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine hair needs a rope-style twist to hold.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "twisting butter",
+        "oil"
+      ]
+    },
+    "grow_out": "Twists loosen into a twist-out in about 2 weeks; they can be re-twisted every 1-2 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "twist_out",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "low",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Short twists on top with faded sides. Defined and neat; easy to maintain.",
+    "stylist": "Section and twist with butter or cream, leave the edges looser to protect the hairline and fade the sides low.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "short twists with a fade: the top 6-12 cm in short twists, edges left slightly looser at the hairline, the sides and back at a low or temple fade from skin to #2 (6 mm), the nape up to #1, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://luxe.digital/style/black-men-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-two-strand-twists",
+    "kind": "cut",
+    "name": "Long two-strand twists",
+    "aliases": [
+      "Twists",
+      "Rope twists",
+      "Medium twists"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "twists_locs",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          15,
+          30
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "sides": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "back": {
+        "cm": [
+          12,
+          25
+        ]
+      },
+      "nape": {
+        "cm": [
+          12,
+          25
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "collarbone"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Natural",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Works with defined curls and twisting cream; twists will be looser."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Twist larger sections with soft edges; the parts will show."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Tight at the edges can cause traction; keep edges soft."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; very fine hair may unravel.",
+    "glasses_note": "Hair may curl or drop over the arms of glasses; trim a clean channel behind the ear if frames sit on top of the hair.",
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "none",
+      "products": [
+        "twisting butter"
+      ]
+    },
+    "grow_out": "Twists last 2-4 weeks and grow into longer locs if left.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-full-long",
+        "beard-garibaldi"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "twist_out",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "low",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Twists past ear length, loose or defined. Protects the hair, stays tidy and styles many ways.",
+    "stylist": "Section evenly, twist with butter or cream and keep the edges soft to protect the hairline.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long two-strand twists: evenly sectioned twists with the top 15-30 cm and the front at 10-20 cm, the sides 10-20 cm and the back and nape 12-25 cm, loose or defined, soft edges at the hairline, no fade, a natural neckline, an optional part",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "starter-locs-fade",
+    "kind": "cut",
+    "name": "Starter locs with fade",
+    "aliases": [
+      "Short locs",
+      "Comb coils fade",
+      "Loc starts"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "twists_locs",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          8
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0.5,
+      "note": "Low or mid fade."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Works with curl-coils; a loctician decides."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Start fewer, larger locs; ask a loctician about the size."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Tight installs at thin temples can cause traction."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; very fine hair may unravel.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "none",
+      "products": [
+        "loc gel",
+        "oil"
+      ]
+    },
+    "grow_out": "Locs mature over 6-12 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "tapered_natural",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "low",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "curly_first",
+        "wash_and_go",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Short locs starting on top with a faded back and sides. Low-key and fresh.",
+    "stylist": "Grid the scalp, start with coils or two-strand twists and fade the sides. Re-twist every 4-6 weeks.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "starter locs with a fade: the top 3-8 cm in short locs started on a grid of parts, the sides and back at a low or mid fade from skin to #2 (6 mm), the nape blade to #1, a tapered neckline (hair shape only)",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "locs-freeform",
+    "kind": "cut",
+    "name": "Freeform locs",
+    "aliases": [
+      "Free locs",
+      "Organic locs"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "twists_locs",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          30
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          10,
+          25
+        ]
+      },
+      "back": {
+        "cm": [
+          10,
+          30
+        ]
+      },
+      "nape": {
+        "cm": [
+          10,
+          25
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Natural",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Possible, but locs may not form evenly."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Natural locs cover recession."
+    },
+    "strand_note": null,
+    "density_note": "Any density; very fine hair forms thinner locs.",
+    "glasses_note": "Hair may curl or drop over the arms of glasses; trim a clean channel behind the ear if frames sit on top of the hair.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        12,
+        24
+      ],
+      "heat": "none",
+      "products": [
+        "shampoo",
+        "oil"
+      ]
+    },
+    "grow_out": "Locs take years to mature.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-full-long",
+        "beard-garibaldi"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        12,
+        24
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "wash_and_go",
+        "air_dry_friendly",
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "Locs that form on their own, with no parting. Natural and low effort, but not tidy.",
+    "stylist": "Teach washing and scalp care, avoid heavy wax and let new growth form its own pattern; a loctician can tidy the roots if wanted.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "freeform locs: locs forming naturally without parting, the top 10-30 cm, the sides 10-25 cm and the back and nape 10-30 cm, organic and uneven in thickness, no fade, a natural neckline (hair shape only)",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "locs-long-tied",
+    "kind": "cut",
+    "name": "Long locs tied back",
+    "aliases": [
+      "Long locs",
+      "Loc bun",
+      "Loc ponytail"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "twists_locs",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          20,
+          40
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          20,
+          40
+        ]
+      },
+      "back": {
+        "cm": [
+          25,
+          50
+        ]
+      },
+      "nape": {
+        "cm": [
+          25,
+          50
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Natural",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Possible, but locs may not form evenly."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Tie loosely; long locs are heavy on sparse roots."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Pulling back exposes the hairline."
+    },
+    "strand_note": null,
+    "density_note": "Any density.",
+    "glasses_note": "Hair may curl or drop over the arms of glasses; trim a clean channel behind the ear if frames sit on top of the hair.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "none",
+      "products": [
+        "loc gel"
+      ]
+    },
+    "grow_out": "Locs grow; ties relieve weight.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-full-long",
+        "beard-garibaldi"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "occiput"
+      ],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "low",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "wash_and_go",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Long locs tied in a bun or ponytail. Practical, bold and low-fuss.",
+    "stylist": "Retwist new growth, avoid tight ties at the hairline and trim only if the client asks. Check weight on the scalp.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long locs tied back: long locs of 20-40 cm on top, the sides 20-40 cm and the back and nape 25-50 cm, gathered into a bun or ponytail at the back, no fade, a natural neckline (hair shape only)",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "cornrows-fade",
+    "kind": "cut",
+    "name": "Cornrows with fade",
+    "aliases": [
+      "Braids with fade",
+      "Straight-back cornrows"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "twists_locs",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          12
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "low",
+      "start_mm": 0,
+      "note": "Low or mid fade around braids."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Possible with defined curls; shorter braids."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Braid wider rows with low tension; the scalp shows between rows."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Tight braiding at thin temples causes traction; keep the front looser."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; thin spots may show between rows.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        2,
+        2
+      ],
+      "trim_weeks": [
+        2,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "oil"
+      ]
+    },
+    "grow_out": "Braids last 2-3 weeks; after that the hair grows out into a short afro.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-faded-full"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "tapered_natural",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "high",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        2,
+        2
+      ],
+      "trim_weeks": [
+        2,
+        4
+      ],
+      "tags": [
+        "curly_first",
+        "wash_and_go",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Short braids along the scalp with faded sides. Neat, easy to keep and kind to your hair.",
+    "stylist": "Braid straight back at medium tension, keep the hairline looser to avoid traction and fade the sides low or mid.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "cornrows with a fade: the top 5-12 cm braided close to the scalp in straight lines running back, a fringe of 4-8 cm, the sides and back at a low to mid fade from skin to #2 (6 mm), the nape up to #1, a tapered neckline (hair shape only)",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "box-braids-short",
+    "kind": "cut",
+    "name": "Short box braids",
+    "aliases": [
+      "Box braids",
+      "Braids"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "twists_locs",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "fringe": {
+        "cm": [
+          8,
+          15
+        ]
+      },
+      "sides": {
+        "cm": [
+          8,
+          18
+        ]
+      },
+      "back": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "nape": {
+        "cm": [
+          10,
+          20
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Natural",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Possible with defined curls."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use smaller, lighter braids and low tension at the hairline."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Tight installs can cause traction."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; thin hair needs lighter braids.",
+    "glasses_note": "Hair may curl or drop over the arms of glasses; trim a clean channel behind the ear if frames sit on top of the hair.",
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "none",
+      "products": [
+        "oil"
+      ]
+    },
+    "grow_out": "Braids last 4-6 weeks; take down before matting.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-garibaldi"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "twist_out",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "high",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Chin-length box braids. Protects the hair, is easy to style and wears many ways.",
+    "stylist": "Grid the hair into squares, braid with light tension at the hairline and moisturise the scalp between installs.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "short box braids: box braids from a grid of squares with the top 10-20 cm and the front at 8-15 cm, the sides 8-18 cm and the back and nape 10-20 cm, falling loose at medium length, no fade, a natural neckline (hair shape only)",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-haircuts-black-men/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

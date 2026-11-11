@@ -1,0 +1,96 @@
+/* The saving control: readable, wrapping text and native radios. The status row holds its height so a new status moves nothing below it. */
+
+.box {
+  display: grid;
+  gap: var(--space-2xs);
+  inline-size: 100%;
+  max-inline-size: var(--measure);
+  min-inline-size: 0;
+  padding: var(--space-xs) var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+}
+
+/*
+ * Room for three lines and for a button: beside its action a status takes three lines at 320 px, and every status fits (saved-default.spec.ts
+ * measures this). The row wraps: an action keeps its words on one line beside the status where both fit, under it where they do not.
+ */
+.row {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-s);
+  min-block-size: var(--button-h);
+  min-block-size: max(var(--button-h), 3lh);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+/*
+ * The status keeps at least 7rem beside its action: at 320 px "Change saving" and "Replace it" stay beside it with every status in three
+ * lines, a longer action (Latvian "Mainīt saglabāšanu") goes under it.
+ */
+.line {
+  flex: 1 1 7rem;
+  min-inline-size: 0;
+  font-weight: var(--weight-h3);
+}
+
+/* The status row's action, its words on one line; a pill's padding is small, so "Replace it" leaves the status its three lines. */
+.action {
+  flex: none;
+  padding-inline: var(--space-xs);
+  font-size: var(--text-small);
+  white-space: nowrap;
+  line-height: var(--lh-small);
+  text-align: center;
+}
+
+/* A text link has no padding of its own, so under the status it starts where the status's words start. */
+.link {
+  padding-inline: 0;
+}
+
+/* "Find my look" keeps its words on one line, beside the status or under it. */
+.start {
+  flex: none;
+  white-space: nowrap;
+}
+
+/* While a save is under way: a short line glides under the status, inside the row's own height, so nothing moves. */
+.saving {
+  position: absolute;
+  inset-inline: 0;
+  inset-block-end: 0;
+  block-size: var(--wait-line-h);
+  color: var(--primary);
+}
+
+.told {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+/* Two to a row on a phone, where a mode's words take two lines inside its 44 px; all three in one row where there is room. */
+.modes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+  gap: 0 var(--space-m);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-inline-size: 0;
+}
+
+.mode {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-block-size: var(--target-min);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+  cursor: pointer;
+}

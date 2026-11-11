@@ -1,0 +1,22 @@
+[
+  {
+    "id": "beard-short-boxed",
+    "kind": "beard",
+    "name": "Short boxed beard",
+    "aliases": ["boxed beard"],
+    "collections": ["barbering"],
+    "zones_mm": { "cheeks": [6, 9], "chin": [9, 12], "moustache": [6, 9], "neck": [0, 0], "sideburns": [6, 9] },
+    "cheek_line": "low",
+    "neckline": "two_fingers",
+    "growth": { "weeks_needed": [3, 5], "note": "Needs even growth on the cheeks." },
+    "upkeep": { "trim_days": [5, 10], "daily_minutes": 3, "products": ["beard oil"] },
+    "pairs_with": { "cuts": ["mid-drop-fade-textured-crop"] },
+    "traits": { "beard_shape": "short_along_jaw", "beard_length": "short", "cheek_line": "low", "neckline": "two_fingers" },
+    "client": "A short, neat beard kept close along the jaw.",
+    "stylist": "Trim the cheeks to 6-9 mm with a low line; keep the neckline two fingers above the throat.",
+    "images": { "model": "barbering-straight-wavy", "views": ["front"] },
+    "prompt_spec": "a short boxed beard, about 6-9 mm on the cheeks and 9-12 mm at the chin, low cheek line",
+    "sources": [],
+    "review": { "status": "draft", "date": "2026-11-08", "note": "Front picture not checked yet." }
+  }
+]

@@ -1,0 +1,163 @@
+/*
+ * Your face card: the facts as full-width tiles, the unread sentence with the
+ * photo smaller under it, Move the lines' stage with its two-tone dots and arrows, and the list of more with the photo.
+ */
+
+.section {
+  display: grid;
+  align-content: start;
+  gap: var(--space-m);
+  min-inline-size: 0;
+}
+
+.stack {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-s);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-s);
+}
+
+.small,
+.status {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+/* The sentence that says why a photo cannot be read comes first, at reading size, above the fold on a phone. */
+.lead {
+  font-size: var(--text-h3);
+  line-height: var(--lh-h3);
+  max-inline-size: var(--measure);
+}
+
+/* The photo under the unread sentence: whole, and smaller than the card's. */
+.photo {
+  inline-size: min(100%, 14rem);
+}
+
+.facts {
+  display: grid;
+  gap: var(--space-s);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fact {
+  display: grid;
+  gap: var(--space-2xs);
+  padding: var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+}
+
+.factName {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  font-weight: var(--weight-h3);
+  line-height: var(--lh-small);
+}
+
+.factTitle {
+  font-weight: var(--weight-h3);
+}
+
+/* Move the lines: a 4:5 canvas the face fills; dots sit over it by percentage and never take the pointer. */
+.stage {
+  position: relative;
+  inline-size: 100%;
+  max-inline-size: var(--side-panel-w-large);
+  touch-action: none;
+  cursor: crosshair;
+}
+
+.canvas {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  border-radius: var(--radius-picture);
+}
+
+.marker {
+  position: absolute;
+  inline-size: var(--space-m);
+  block-size: var(--space-m);
+  border: var(--border-selected) solid var(--fc-casing);
+  border-radius: var(--radius-pill);
+  background-color: var(--fc-core);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* The picked part's dot is larger and filled with the tag colour, so it never rests on colour alone. */
+.marker[data-selected='true'] {
+  inline-size: var(--icon-m);
+  block-size: var(--icon-m);
+  background-color: var(--fc-tag);
+  box-shadow: 0 0 0 var(--border-selected) var(--fc-core);
+}
+
+.nudges {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: var(--space-xs);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@media (width >= 600px) {
+  .nudges {
+    grid-template-columns: repeat(4, max-content);
+  }
+}
+
+.items {
+  display: grid;
+  gap: var(--space-m);
+  margin: 0;
+  padding: var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--surface);
+  list-style: none;
+}
+
+.item {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-2xs);
+}
+
+.itemName {
+  font-weight: var(--weight-h3);
+}
+
+.hints {
+  display: grid;
+  gap: var(--space-xs);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hint {
+  display: flex;
+  align-items: center;
+  gap: var(--space-s);
+}
+
+/* The sampled colour itself (data, like a picture's placeholder colour); the words beside it carry the meaning. */
+.swatch {
+  flex: none;
+  inline-size: var(--icon-m);
+  block-size: var(--icon-m);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-pill);
+}

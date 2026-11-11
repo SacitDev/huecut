@@ -1,0 +1,2490 @@
+[
+  {
+    "id": "icy-platinum",
+    "kind": "colour",
+    "name": "Icy platinum blonde",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "icy-blonde",
+      "technique": "all_over"
+    },
+    "placements": [],
+    "required_base_level": 10,
+    "grey": "covers",
+    "client": "A very pale, cool blonde from root to tip with no yellow warmth. It is bright and striking, and it needs regular toning to stay icy.",
+    "stylist": "Full lightening to a pale, even base, then a violet-blue toner for a cool finish. Plan regrowth care, toner refreshes and bond protection.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "an icy platinum blonde all over, from root to ends, a very light cool silvery-white blonde with no yellow, even and glossy at the roots, through the mid-lengths and at the ends",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "platinum-root-shadow",
+    "kind": "colour",
+    "name": "Platinum blonde with a soft root shadow",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "platinum-blonde",
+      "technique": "all_over"
+    },
+    "placements": [
+      {
+        "technique": "root_shadow",
+        "shade": "mushroom-blonde",
+        "region": "root"
+      }
+    ],
+    "required_base_level": 10,
+    "grey": "covers",
+    "client": "Bright platinum lengths with a softly deeper root, so regrowth looks planned and the colour grows out gently.",
+    "stylist": "Lighten the lengths to a pale base and tone to platinum, then smudge a muted ash-beige root shadow to soften the regrowth line.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a platinum blonde with a soft root shadow: the roots a muted ash-beige that blends smoothly into pale platinum through the mid-lengths, with the ends a bright cool platinum, the transition soft and soft",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "pearl-blonde-gloss",
+    "kind": "colour",
+    "name": "Pearl blonde gloss",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "pearl-blonde",
+      "technique": "gloss"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "tints",
+    "client": "A soft, shiny pearly blonde tone that freshens lighter hair and calms brassy warmth. It leaves a glassy finish.",
+    "stylist": "A toning gloss over hair that is already light, to even the tone and add shine: pearly beige with a faint violet reflect. Refresh the gloss as the tone fades.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "light blonde hair with a soft pearl gloss all over: roots, mids and ends all the same creamy pearl blonde with a soft beige-violet sheen, shiny and even, with no yellow",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "champagne-babylights",
+    "kind": "colour",
+    "name": "Champagne babylights",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "champagne-blonde",
+      "technique": "none",
+      "on": "dark-blonde",
+      "on_words": [
+        "a dark blonde base"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "babylights",
+        "shade": "champagne-blonde",
+        "region": "highlights"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "blends",
+    "client": "Very fine, creamy champagne lights woven through the hair. They give a soft, sun-kissed glow and grow out easily.",
+    "stylist": "Micro-fine weaves from close to the root through the top and sides, toned to a creamy gold-beige. The base shows between the fine lights, so regrowth is soft.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "very fine champagne-blonde babylights woven from close to the roots to the ends all over the head, over a dark blonde base that shows between them, creamy gold-beige and subtle, soft all-over brightness rather than stripes",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "honey-blonde-foil-highlights",
+    "kind": "colour",
+    "name": "Honey blonde foil highlights",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "honey-blonde",
+      "technique": "none",
+      "on": "light-brown",
+      "on_words": [
+        "a light brown base",
+        "the brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "foil_highlights",
+        "shade": "honey-blonde",
+        "region": "highlights"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "blends",
+    "client": "Woven honey-gold highlights that add warm, bright dimension across the whole head.",
+    "stylist": "Foiled weaves from near the root with a softened start, toned to a clear golden honey rather than brass. Suits clients who are happy to keep up root visits.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "honey blonde foil highlights woven through the whole head from close to the roots to the ends over a light brown base, evenly spaced warm golden-honey strands with the brown showing between them, clear and bright",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "golden-blonde-foilayage",
+    "kind": "colour",
+    "name": "Golden blonde foilayage with a root shadow",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "golden-blonde",
+      "technique": "none",
+      "on": "dark-blonde",
+      "on_words": []
+    },
+    "placements": [
+      {
+        "technique": "root_shadow",
+        "shade": "dark-blonde",
+        "region": "root"
+      },
+      {
+        "technique": "foilayage",
+        "shade": "golden-blonde",
+        "region": "mids"
+      },
+      {
+        "technique": "foilayage",
+        "shade": "golden-blonde",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "tints",
+    "client": "Painted golden blonde that brightens towards the ends. The softer root lets it grow out gently.",
+    "stylist": "Foilayage gives stronger lift than open-air balayage, with a dark-blonde root smudge to blend the regrowth. Tone to a clear gold, not brass.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a soft dark-blonde root shadow at the roots melting into golden blonde through the mid-lengths and a bright, clear golden blonde at the ends, hand-painted and softly blended, warm and luminous",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "ash-blonde-root-shadow",
+    "kind": "colour",
+    "name": "Ash blonde with a root shadow",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "ash-blonde",
+      "technique": "all_over"
+    },
+    "placements": [
+      {
+        "technique": "root_shadow",
+        "shade": "dark-blonde",
+        "region": "root"
+      }
+    ],
+    "required_base_level": 9,
+    "grey": "covers",
+    "client": "A cool, smoky ash blonde with a deeper root that keeps the colour looking soft and grown-in.",
+    "stylist": "Lighten to a pale, even base and tone to ash, with a muted dark-blonde root shadow. Ash fades towards warmth, so plan toner refreshes.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a smoky dark-blonde root shadow at the roots blending into cool ash blonde through the mid-lengths and a lighter ash blonde at the ends, a cool smoky blonde with no yellow or gold",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "vanilla-blonde-sombre",
+    "kind": "colour",
+    "name": "Vanilla blonde sombre",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "vanilla-blonde",
+      "technique": "none",
+      "on": "dark-blonde",
+      "on_words": [
+        "dark blonde"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "sombre",
+        "shade": "beige-blonde",
+        "region": "mids"
+      },
+      {
+        "technique": "sombre",
+        "shade": "vanilla-blonde",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "A gentle step from your natural root to soft, creamy vanilla blonde at the ends. It looks natural and grows out with little fuss.",
+    "stylist": "A soft gradient lightening a few levels towards the ends, toned to a warm-neutral cream. Keep the root natural for low upkeep.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "dark blonde at the roots, softly blending into a beige blonde through the mid-lengths and creamy vanilla blonde at the ends, a gentle gradient with no hard line",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "strawberry-blonde-balayage",
+    "kind": "colour",
+    "name": "Strawberry blonde balayage",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "strawberry-blonde",
+      "technique": "none",
+      "on": "light-brown",
+      "on_words": [
+        "light brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "balayage",
+        "shade": "strawberry-blonde",
+        "region": "mids"
+      },
+      {
+        "technique": "balayage",
+        "shade": "strawberry-blonde",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "Light blonde with a touch of copper-pink warmth, hand-painted through the lengths.",
+    "stylist": "Hand-painted balayage in a light blonde with copper-pink warmth, heavier at the ends. A gloss keeps the warmth clear; warm tones fade faster.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "light brown at the roots, then hand-painted strawberry blonde through the mid-lengths and a lighter, rosier strawberry blonde at the ends, soft and blended, a warm peachy glow",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "sandy-blonde-lowlights",
+    "kind": "colour",
+    "name": "Sandy blonde lights and lowlights",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "sandy-blonde",
+      "technique": "none",
+      "on": "dark-blonde",
+      "on_words": [
+        "a dark blonde base"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "babylights",
+        "shade": "sandy-blonde",
+        "region": "highlights"
+      },
+      {
+        "technique": "lowlights",
+        "shade": "dark-blonde",
+        "region": "lowlights"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "blends",
+    "client": "A natural sandy blonde with fine lighter and deeper strands that give depth without a bold change.",
+    "stylist": "Fine sandy babylights with a few dark-blonde lowlights between them for depth, in muted, slightly warm tones. Lowlights add depth only on hair that is already dark blonde or lighter; on light brown the person's own colour gives the depth.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "natural sandy blonde dimension over a dark blonde base: fine light sandy-blonde strands woven from close to the roots to the ends, with a few deeper dark-blonde strands between them, muted and natural, no stripes",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beige-blonde-money-piece",
+    "kind": "colour",
+    "name": "Champagne money piece",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "beige-blonde",
+      "technique": "none",
+      "on": "light-brown",
+      "on_words": [
+        "light brown hair"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "money_piece",
+        "shade": "champagne-blonde",
+        "region": "face_frame"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "Bright, creamy sections at the front frame the face while the rest of your colour stays as it is.",
+    "stylist": "Face-framing sections lightened to a creamy champagne beige, heavier at the front and finer behind. A contained service that suits a refresh.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "light brown hair at the roots, mids and ends, with bright creamy champagne-blonde sections at the front hairline framing the face on both sides, heaviest at the front and finer behind",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "bronde-balayage",
+    "kind": "colour",
+    "name": "Bronde balayage",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "bronde",
+      "technique": "none",
+      "on": "light-brown",
+      "on_words": [
+        "a brown base"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "balayage",
+        "shade": "bronde",
+        "region": "mids"
+      },
+      {
+        "technique": "balayage",
+        "shade": "beige-blonde",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "A blend of brown and blonde: brown at the root, with soft golden-beige through the lengths.",
+    "stylist": "Balayage that keeps a brown root and moves through bronde to a soft beige blonde, toned neutral to warm. Gloss to keep it from turning brassy.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a brown base at the roots, blending into a brown-and-blonde bronde through the mid-lengths and soft beige blonde at the ends, hand-painted, multi-tonal and soft",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mushroom-blonde-melt",
+    "kind": "colour",
+    "name": "Mushroom blonde colour melt",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "mushroom-blonde",
+      "technique": "none",
+      "on": "mushroom-brown",
+      "on_words": []
+    },
+    "placements": [
+      {
+        "technique": "colour_melt",
+        "shade": "mushroom-brown",
+        "region": "root"
+      },
+      {
+        "technique": "colour_melt",
+        "shade": "mushroom-blonde",
+        "region": "mids"
+      },
+      {
+        "technique": "colour_melt",
+        "shade": "mushroom-blonde",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": 9,
+    "grey": "covers",
+    "client": "A muted, ash-beige colour that melts from a deeper root into a soft grey-toned blonde with no hard lines.",
+    "stylist": "Lighten the lengths to a pale, even base, then melt a mushroom-brown root into mushroom blonde through the lengths. Cool, muted tones; a gloss helps hold the cool cast.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a muted mushroom-brown root melting smoothly into soft ash-beige mushroom blonde through the mid-lengths and a lighter, muted mushroom blonde at the ends, no lines, cool and muted",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beige-blonde-colour-correction",
+    "kind": "colour",
+    "name": "Beige blonde colour correction",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "beige-blonde",
+      "technique": "colour_correction"
+    },
+    "placements": [],
+    "required_base_level": 8,
+    "grey": "covers",
+    "client": "A colourist-led plan for blonde that has turned brassy, patchy or uneven. The aim is an even, soft beige blonde.",
+    "stylist": "Assessment-led correction towards an even neutral beige blonde, which may involve neutralising or removing earlier colour first. Agree the plan after a strand test.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "an even, soft beige blonde all over, the same neutral tone from root to ends with no brassy yellow, orange patches or bands, smooth and healthy-looking",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "chestnut-demi-refresh",
+    "kind": "colour",
+    "name": "Chestnut brown refresh",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "chestnut-brown",
+      "technique": "demi_refresh"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "tints",
+    "client": "A tone-on-tone refresh that revives warm chestnut brown and adds shine without a big change.",
+    "stylist": "A demi-permanent refresh over the whole head or lengths to renew depth and warmth. It fades gradually, without a hard regrowth line.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "rich warm chestnut brown all over, with the roots, mids and ends all the same glossy red-gold brown, shiny, healthy-looking and even, with no banding",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mocha-soft-babylights",
+    "kind": "colour",
+    "name": "Soft caramel-brown babylights",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "mocha-brown",
+      "technique": "none",
+      "on": "mocha-brown",
+      "on_words": [
+        "mocha brown hair",
+        "the brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "babylights",
+        "shade": "caramel-brown",
+        "region": "highlights"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "blends",
+    "client": "Your brown stays rich and natural, with fine caramel strands that catch the light.",
+    "stylist": "Fine caramel babylights through the top and sides over a natural mocha base. Soft regrowth and low contrast.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "mocha brown hair with very fine caramel-brown babylights woven from close to the roots to the ends, the brown showing between them, a subtle golden shimmer, low contrast",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "caramel-balayage-chocolate",
+    "kind": "colour",
+    "name": "Caramel and golden-brown balayage",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "chocolate-brown",
+      "technique": "none",
+      "on": "chocolate-brown",
+      "on_words": [
+        "rich chocolate brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "balayage",
+        "shade": "caramel-brown",
+        "region": "mids"
+      },
+      {
+        "technique": "balayage",
+        "shade": "golden-brown",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "Warm caramel painted through rich chocolate brown, softly brighter at the ends.",
+    "stylist": "Hand-painted balayage with a soft root, caramel through the mids and a golden brown at the ends. Gloss to keep the warmth glossy.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "rich chocolate brown at the roots, softly blending into warm caramel brown through the mid-lengths and a brighter golden-brown at the ends, hand-painted and softly blended",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "espresso-soft-caramel-balayage",
+    "kind": "colour",
+    "name": "Soft milk-chocolate and caramel balayage",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "espresso-brown",
+      "technique": "none",
+      "on": "espresso-brown",
+      "on_words": [
+        "very dark espresso brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "balayage",
+        "shade": "milk-chocolate",
+        "region": "mids"
+      },
+      {
+        "technique": "balayage",
+        "shade": "caramel-brown",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "A natural-looking warmth on very dark brown hair, kept soft so the contrast stays gentle.",
+    "stylist": "A restrained lift on a very dark base, aiming for milk chocolate through the mids and a caramel brown at the ends. Keep the root dark and plan toning.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "very dark espresso brown at the roots, softly warming into milk-chocolate brown through the mid-lengths and a gentle caramel brown at the ends, natural and understated, no stark contrast",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "ash-brown-all-over",
+    "kind": "colour",
+    "name": "Cool ash brown",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "ash-brown",
+      "technique": "all_over"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "A cool, smoky brown for a calm, modern finish.",
+    "stylist": "An all-over cool brown with a grey-green or blue-violet reflect. Ash fades towards warmth, so a gloss helps hold the tone.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a cool ash brown all over, roots, mids and ends the same smoky brown with a cool reflect, no red or orange warmth, even and glossy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "milk-chocolate-sombre",
+    "kind": "colour",
+    "name": "Milk chocolate sombre",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "milk-chocolate",
+      "technique": "none",
+      "on": "milk-chocolate",
+      "on_words": [
+        "warm milk-chocolate brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "sombre",
+        "shade": "milk-chocolate",
+        "region": "mids"
+      },
+      {
+        "technique": "sombre",
+        "shade": "caramel-brown",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "A very soft step from your root to a lighter, warm brown at the ends, with no hard lines.",
+    "stylist": "A subtle gradient over a warm-neutral brown, lifting the ends a little towards caramel. Low contrast, grows out gently.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "warm milk-chocolate brown at the roots, then milk-chocolate brown through the mid-lengths, softly lightening to caramel brown at the ends, a very subtle gradient",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "cinnamon-foilayage",
+    "kind": "colour",
+    "name": "Cinnamon brown foilayage",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "cinnamon-brown",
+      "technique": "none",
+      "on": "milk-chocolate",
+      "on_words": [
+        "natural brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "foilayage",
+        "shade": "cinnamon-brown",
+        "region": "mids"
+      },
+      {
+        "technique": "foilayage",
+        "shade": "golden-brown",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "Warm brown with a hint of copper, painted brighter through the ends for a glow in the light.",
+    "stylist": "Painted and wrapped sections for a little more lift than open balayage, in a warm copper-tinged brown with a golden brown at the ends.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "natural brown at the roots, then a warm, spicy cinnamon brown through the mid-lengths and a lighter golden brown at the ends, painted sections that glow in the light",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "caramel-ombre",
+    "kind": "colour",
+    "name": "Caramel to honey ombre",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "chocolate-brown",
+      "technique": "none",
+      "on": "chocolate-brown",
+      "on_words": [
+        "rich chocolate brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "ombre",
+        "shade": "caramel-brown",
+        "region": "mids"
+      },
+      {
+        "technique": "ombre",
+        "shade": "honey-blonde",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "A clear, graceful fade from a brown root into warm caramel and light honey at the ends.",
+    "stylist": "A defined gradient from the mid-lengths with the natural root zone left, caramel moving to honey at the ends. The ends take the most lightening, so check their condition; a toning gloss keeps the warmth clear.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "rich chocolate brown at the roots and upper lengths, with a clear, smooth gradient into warm caramel brown through the mid-lengths and a light honey blonde at the ends, a visible but soft fade",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "chocolate-caramel-melt",
+    "kind": "colour",
+    "name": "Chocolate and caramel colour melt",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "chocolate-brown",
+      "technique": "none",
+      "on": "chocolate-brown",
+      "on_words": []
+    },
+    "placements": [
+      {
+        "technique": "colour_melt",
+        "shade": "chocolate-brown",
+        "region": "root"
+      },
+      {
+        "technique": "colour_melt",
+        "shade": "milk-chocolate",
+        "region": "mids"
+      },
+      {
+        "technique": "colour_melt",
+        "shade": "caramel-brown",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "Brown that moves from deep chocolate to warm caramel in one smooth, soft blend.",
+    "stylist": "Blend a chocolate root through milk chocolate to caramel at the ends. Tones sit close together so the transition is soft.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "deep chocolate brown roots melting smoothly into milk-chocolate brown through the mid-lengths and warm caramel brown at the ends, no lines or stripes, a continuous soft gradient",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "darkest-brown-gloss",
+    "kind": "colour",
+    "name": "Deep brown shine gloss",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "darkest-brown",
+      "technique": "gloss"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "tints",
+    "client": "A rich, glassy gloss that deepens very dark brown and brings out its shine.",
+    "stylist": "A clear or tinted gloss to even the tone and add reflect on very dark brown hair. A simple colour refresh with little change in shade.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a neutral deep dark brown, nearly black, all over from root to ends, rich and very glossy with a smooth light-catching shine",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "chocolate-colour-correction",
+    "kind": "colour",
+    "name": "Chocolate brown colour correction",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "chocolate-brown",
+      "technique": "colour_correction"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "A colourist-led plan for patchy, banded or off-tone dyed hair. The aim is an even, rich brown.",
+    "stylist": "Assessment-led correction towards an even chocolate brown, which may involve removing earlier colour, pre-filling lighter or porous sections, or neutralising tone first. Agree the plan after a strand test.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "an even, rich chocolate brown all over, the same glossy neutral-warm chocolate brown from root to ends with no patches, bands or orange or green cast",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "copper-balayage-root-shadow",
+    "kind": "colour",
+    "name": "Copper balayage with a root shadow",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "copper",
+      "technique": "none",
+      "on": "chestnut-brown",
+      "on_words": []
+    },
+    "placements": [
+      {
+        "technique": "root_shadow",
+        "shade": "chestnut-brown",
+        "region": "root"
+      },
+      {
+        "technique": "balayage",
+        "shade": "auburn",
+        "region": "mids"
+      },
+      {
+        "technique": "balayage",
+        "shade": "copper",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "tints",
+    "client": "A warm copper that glows through the lengths, over a soft brown root so it grows out gently.",
+    "stylist": "A chestnut root shadow with balayage moving from auburn through the mids to a brighter copper at the ends. Copper fades fast, so plan glosses.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a soft chestnut-brown root shadow at the roots, melting into warm auburn through the mid-lengths and a brighter copper at the ends, a hand-painted, softly blended copper balayage",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "auburn-all-over",
+    "kind": "colour",
+    "name": "Auburn all over",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "auburn",
+      "technique": "all_over"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "A rich brown with a clear red warmth, even from root to tip.",
+    "stylist": "An all-over auburn at a brown level, warm and slightly red. Red-leaning tones fade faster, so a gloss helps the shine.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a rich auburn all over, with the roots, mids and ends all the same warm auburn carrying a clear red warmth, glossy, healthy-looking and even, with no banding",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "copper-all-over",
+    "kind": "colour",
+    "name": "Copper all over",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "copper",
+      "technique": "all_over"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "A bright, warm orange-red copper from root to ends.",
+    "stylist": "An all-over bright copper. On natural hair near a copper level the colour lifts and tones together; earlier dye needs its own plan, because colour does not lift colour. It fades quickly, so plan gloss visits and gentle care.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a bright warm copper all over, with the roots, mids and ends all the same bright natural orange-red copper, glossy, healthy-looking and even, with no banding",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "ginger-balayage",
+    "kind": "colour",
+    "name": "Ginger balayage",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "ginger",
+      "technique": "none",
+      "on": "light-brown",
+      "on_words": [
+        "light brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "balayage",
+        "shade": "copper",
+        "region": "mids"
+      },
+      {
+        "technique": "balayage",
+        "shade": "ginger",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "Golden-orange ginger painted softly through the lengths, bright at the ends.",
+    "stylist": "Balayage from copper through the mids to a light golden-orange ginger at the ends, with the natural root left. It needs lightening and warm tones fade, so plan glosses.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "light brown at the roots, then a warm copper through the mid-lengths and a light golden-orange ginger at the ends, hand-painted and soft, bright and warm",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "cherry-cola-gloss",
+    "kind": "colour",
+    "name": "Cherry cola gloss",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "cherry-cola",
+      "technique": "gloss"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "tints",
+    "client": "A dark brown with a flash of cherry red that shows in the light.",
+    "stylist": "A tinted gloss to add cherry-red reflect to a dark brown base. Subtle indoors, richer in sunlight. Refresh as it fades.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a dark brown all over with a rich cherry-red reflect, roots, mids and ends all the same, glossy and subtle, red showing in the light",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mahogany-demi-refresh",
+    "kind": "colour",
+    "name": "Mahogany refresh",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "mahogany",
+      "technique": "demi_refresh"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "tints",
+    "client": "A deep brown with a red-violet depth, refreshed so it looks rich and glossy.",
+    "stylist": "A demi-permanent refresh to renew a red-violet brown. Depth and shine with a gentle fade and no hard regrowth line.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a deep mahogany brown all over with a red-violet depth, with the roots, mids and ends all the same, rich, glossy, healthy-looking and even, with no banding",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "auburn-money-piece",
+    "kind": "colour",
+    "name": "Copper money piece",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "auburn",
+      "technique": "none",
+      "on": "auburn",
+      "on_words": [
+        "auburn brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "money_piece",
+        "shade": "copper",
+        "region": "face_frame"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "Your auburn stays as it is, with brighter copper sections at the front that frame the face.",
+    "stylist": "Face-framing sections lightened to copper over an auburn base, heavier at the front. Gloss keeps the brightness from fading.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "auburn brown at the roots, mids and ends, with bright warm copper sections at the front hairline framing the face on both sides, heaviest at the front and finer behind",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "copper-ombre",
+    "kind": "colour",
+    "name": "Copper ombre",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "auburn",
+      "technique": "none",
+      "on": "auburn",
+      "on_words": [
+        "natural auburn-brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "ombre",
+        "shade": "auburn",
+        "region": "mids"
+      },
+      {
+        "technique": "ombre",
+        "shade": "copper",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "A graceful fade from auburn into bright copper at the ends.",
+    "stylist": "A defined gradient from the mid-lengths, auburn moving to copper. The natural root zone stays, so regrowth is easy.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "natural auburn-brown at the roots and upper lengths, then auburn through the mid-lengths in a clear, smooth gradient to a bright copper at the ends",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "copper-colour-melt",
+    "kind": "colour",
+    "name": "Auburn to ginger colour melt",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "auburn",
+      "technique": "none",
+      "on": "auburn",
+      "on_words": []
+    },
+    "placements": [
+      {
+        "technique": "colour_melt",
+        "shade": "auburn",
+        "region": "root"
+      },
+      {
+        "technique": "colour_melt",
+        "shade": "copper",
+        "region": "mids"
+      },
+      {
+        "technique": "colour_melt",
+        "shade": "ginger",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "Warm tones that melt from auburn through copper to a light ginger in one smooth blend.",
+    "stylist": "Blend auburn at the root into copper mids and ginger ends, with no demarcation. Warm tones fade fast, so plan glosses.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "auburn brown roots melting smoothly into warm copper through the mid-lengths and a light golden-orange ginger at the ends, no lines or stripes, a continuous glowing gradient",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "soft-black-gloss",
+    "kind": "colour",
+    "name": "Soft black shine gloss",
+    "collections": [
+      "salon",
+      "barbering"
+    ],
+    "base": {
+      "shade": "soft-black",
+      "technique": "gloss"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "tints",
+    "client": "A deep, soft black with a glassy finish that gives dark hair real shine.",
+    "stylist": "A gloss over black or very dark hair to even the tone and add reflect. Neutral to slightly warm black with no lightening.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily",
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "a soft neutral black all over, roots, mids and ends the same, deep and very glossy with a smooth light-catching shine",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "jet-black-all-over",
+    "kind": "colour",
+    "name": "Jet black all over",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "jet-black",
+      "technique": "all_over"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "A solid, cool jet black from root to ends. It is a long-term choice, because black is hard to lighten later.",
+    "stylist": "An all-over cool jet black. A strong colour that is hard to lighten later, so confirm the long-term plan first.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a solid, cool jet black all over, roots, mids and ends the same, deep and even with a glassy neutral shine and no blue or red cast",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "black-brown-money-piece",
+    "kind": "colour",
+    "name": "Mocha money piece",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "soft-black",
+      "technique": "none",
+      "on": "soft-black",
+      "on_words": [
+        "soft black hair"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "money_piece",
+        "shade": "mocha-brown",
+        "region": "face_frame"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "Soft black hair with a lighter mocha brown around the face to brighten it gently.",
+    "stylist": "Face-framing sections lifted to a mocha brown over natural black, heavier at the front. A restrained contrast that suits dark hair; lifting dyed black is a correction and needs its own plan.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "soft black hair at the roots, mids and ends, with soft mocha-brown sections at the front hairline framing the face on both sides, a restrained gentle contrast",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "black-burgundy-melt",
+    "kind": "colour",
+    "name": "Black to burgundy colour melt",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "soft-black",
+      "technique": "none",
+      "on": "soft-black",
+      "on_words": []
+    },
+    "placements": [
+      {
+        "technique": "colour_melt",
+        "shade": "soft-black",
+        "region": "root"
+      },
+      {
+        "technique": "colour_melt",
+        "shade": "cherry-cola",
+        "region": "mids"
+      },
+      {
+        "technique": "colour_melt",
+        "shade": "burgundy-wine",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "Black at the root that deepens into a dark, rich wine tone at the ends, subtle until it catches the light.",
+    "stylist": "Melt a soft black root through a dark cherry to a deep burgundy at the ends. Dark enough to stay wearable, with a red-violet sheen.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "soft black roots melting smoothly into a dark cherry-brown through the mid-lengths and a deep burgundy wine at the ends, subtle until the light catches it, soft",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "silver-white-all-over",
+    "kind": "colour",
+    "name": "Silver white",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "silver-white",
+      "technique": "all_over"
+    },
+    "placements": [],
+    "required_base_level": 10,
+    "grey": "silver",
+    "client": "A cool, bright white-silver from root to tip. The hair is lightened to its palest first, and it needs regular toning to stay silver.",
+    "stylist": "Full lightening to a very pale base, then a cool silver toner. High upkeep: plan regrowth care, toner refreshes and bond protection.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a cool silvery-white all over, with the roots, mids and ends all the same bright white-silver, no yellow anywhere, smooth, glossy and even, with no banding",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "charcoal-grey-all-over",
+    "kind": "colour",
+    "name": "Charcoal grey",
+    "collections": [
+      "salon",
+      "barbering"
+    ],
+    "base": {
+      "shade": "charcoal-grey",
+      "technique": "all_over"
+    },
+    "placements": [],
+    "required_base_level": 8,
+    "grey": "silver",
+    "client": "A dark, cool grey with a smoky, modern depth.",
+    "stylist": "Lighten to a pale enough base that the grey reads as grey rather than ash brown, then deposit a dark cool-neutral grey. Grey tones fade and warm up, so plan toning.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily",
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "a dark, cool charcoal grey all over, roots, mids and ends the same smoky grey with a faint blue cast, even and glossy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-blend-blonde",
+    "kind": "colour",
+    "name": "Grey blending with blonde",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "blonde-grey-blend",
+      "technique": "none",
+      "on": "dark-blonde",
+      "on_words": [
+        "dark blonde hair"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "grey_blending",
+        "shade": "blonde-grey-blend",
+        "region": "highlights"
+      },
+      {
+        "technique": "grey_blending",
+        "shade": "dark-blonde",
+        "region": "lowlights"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "blends",
+    "client": "Soft blonde lights and deeper strands that merge with your natural grey. Regrowth shows less, and the grey looks planned.",
+    "stylist": "Fine lights and dark-blonde lowlights around the root zone and through the surface to blend natural grey. Low-contrast and suits longer gaps between visits.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "dark blonde hair with my own natural grey, if any, in its existing amount and distribution, blended with fine blonde lights and a few deeper dark-blonde lowlights woven from the roots to the ends, so the grey, blonde and deeper strands merge with no regrowth line, soft and low contrast",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "The front view shows the blended grey more clearly than the back view."
+    }
+  },
+  {
+    "id": "grey-blend-brunette",
+    "kind": "colour",
+    "name": "Grey blending with brown",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "brunette-grey-blend",
+      "technique": "none",
+      "on": "milk-chocolate",
+      "on_words": [
+        "brown hair"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "grey_blending",
+        "shade": "light-brown",
+        "region": "highlights"
+      },
+      {
+        "technique": "grey_blending",
+        "shade": "chocolate-brown",
+        "region": "lowlights"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "blends",
+    "client": "Brown strands and soft lights that blend with your natural grey for a lived-in look and an easy grow-out.",
+    "stylist": "Brown lowlights and lights that merge with the grey, instead of covering it. Reduces the contrast at the root and suits a gradual approach.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "brown hair with my own natural grey, if any, in its existing amount and distribution, blended with fine light-brown strands and a few deeper chocolate-brown lowlights woven from the roots to the ends, so the grey merges with no regrowth line, soft and low contrast",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "The front view shows the blended grey more clearly than the back view."
+    }
+  },
+  {
+    "id": "natural-silver-gloss",
+    "kind": "colour",
+    "name": "Natural silver with a toning gloss",
+    "collections": [
+      "salon",
+      "barbering"
+    ],
+    "base": {
+      "shade": "natural-silver-grow-out",
+      "technique": "gloss"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "Your natural grey and white, with a clear, silvery shine that softens yellow tones.",
+    "stylist": "A toning gloss over natural grey and white hair to remove yellow and add shine. A good finish for a grey grow-out.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily",
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "bring out the grey I already have, preserving its amount and distribution and my existing pigmented base; a cool toning gloss reduces yellowing on existing grey and white strands and adds shine",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "silver-babylights-blend",
+    "kind": "colour",
+    "name": "Silver-white babylights",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "natural-silver-grow-out",
+      "technique": "none",
+      "on": "natural-silver-grow-out",
+      "on_words": [
+        "natural grey and white hair"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "babylights",
+        "shade": "silver-white",
+        "region": "highlights"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "blends",
+    "client": "Fine silver lights that blend with your natural grey for a soft, sparkling finish while you grow it out.",
+    "stylist": "Fine silver babylights through a natural grey base to even out the pattern of white and grey, then a cool toner.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "natural grey and white hair with fine bright silver-white babylights woven from close to the roots to the ends, softening the darker strands, silver-white lights blending with my existing base and whatever natural grey I already have, with no hard lines",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-coverage-light-brown",
+    "kind": "colour",
+    "name": "Light brown grey coverage",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "light-brown",
+      "technique": "grey_coverage"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "A natural-looking light brown chosen to cover grey from root to tip. Very resistant grey can need extra steps.",
+    "stylist": "Permanent colour to cover grey in a neutral light brown, with the roots refreshed at each visit. A neutral shade gives the most even result.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "an even neutral light brown all over, roots, mids and ends the same natural brown with no grey showing at the roots, soft and healthy-looking",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-coverage-chocolate",
+    "kind": "colour",
+    "name": "Chocolate brown grey coverage",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "chocolate-brown",
+      "technique": "grey_coverage"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "A rich, warm chocolate brown chosen to cover grey evenly.",
+    "stylist": "Permanent colour to cover grey in a rich neutral-warm chocolate brown, with root touch-ups. Ensure the lengths are refreshed with care.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a rich neutral-warm chocolate brown all over, roots, mids and ends the same glossy brown with no grey showing at the roots, even and natural",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-coverage-soft-black",
+    "kind": "colour",
+    "name": "Soft black grey coverage",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "soft-black",
+      "technique": "grey_coverage"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "A soft, natural black chosen to cover grey evenly.",
+    "stylist": "Permanent colour to cover grey in a soft black. Regrowth shows more on dark hair, so plan root visits.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a soft natural black all over, roots, mids and ends the same, deep and even with no grey showing at the roots, glossy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "pastel-pink-all-over",
+    "kind": "colour",
+    "name": "Pastel pink",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "pastel-pink",
+      "technique": "vivid_all_over"
+    },
+    "placements": [],
+    "required_base_level": 10,
+    "grey": "covers",
+    "client": "A soft, candy pink all over on very light hair. It is a bold change that needs regular touch-ups.",
+    "stylist": "Pastel pink over a fully lightened base. Pastels fade quickly, so plan colour-safe care and refreshes.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a soft pastel pink all over, with the roots, mids and ends all the same light candy pink, even and glossy, with no darker roots and no banding",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "rose-gold-all-over",
+    "kind": "colour",
+    "name": "Rose gold",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "rose-gold",
+      "technique": "vivid_all_over"
+    },
+    "placements": [],
+    "required_base_level": 9,
+    "grey": "covers",
+    "client": "A blonde with a warm copper-pink glow, soft rather than bright.",
+    "stylist": "A copper-pink gloss over a lifted blonde base. Fades towards a soft blonde, so plan refreshes.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a rose gold all over, roots, mids and ends the same light blonde with a warm copper-pink glow, soft and glossy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "lavender-all-over",
+    "kind": "colour",
+    "name": "Lavender",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "lavender",
+      "technique": "vivid_all_over"
+    },
+    "placements": [],
+    "required_base_level": 10,
+    "grey": "covers",
+    "client": "A soft violet-lilac across the whole head on very light hair.",
+    "stylist": "A pastel violet over a fully lightened base. Pastels fade quickly, so plan colour-safe care and refreshes.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a soft lavender all over, with the roots, mids and ends all the same pale lilac, even and glossy, with no darker roots and no banding",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "teal-all-over",
+    "kind": "colour",
+    "name": "Teal",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "teal",
+      "technique": "vivid_all_over"
+    },
+    "placements": [],
+    "required_base_level": 9,
+    "grey": "covers",
+    "client": "A saturated blue-green all over, bold and bright.",
+    "stylist": "A saturated teal over a lifted base. Blue-greens are strong when new, fade to a lighter aqua and can stain lightened hair, so plan how it will be removed or covered later.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a saturated blue-green teal all over, with the roots, mids and ends all the same rich teal, vivid and glossy, with no darker roots and no banding",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "cherry-red-all-over",
+    "kind": "colour",
+    "name": "Cherry red",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "cherry-red",
+      "technique": "vivid_all_over"
+    },
+    "placements": [],
+    "required_base_level": 6,
+    "grey": "covers",
+    "client": "A saturated, blue-toned red from root to ends.",
+    "stylist": "A cool, saturated red over a lifted base. Reds fade quickly and stain, so plan colour-safe care.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a saturated blue-based cherry red all over, with the roots, mids and ends all the same rich red, vivid and glossy, with no darker roots and no banding",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "midnight-blue-all-over",
+    "kind": "colour",
+    "name": "Midnight blue",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "midnight-blue",
+      "technique": "vivid_all_over"
+    },
+    "placements": [],
+    "required_base_level": 7,
+    "grey": "covers",
+    "client": "A very dark blue that reads as near-black indoors and shows blue in daylight.",
+    "stylist": "A deep blue over a base lightened enough for the blue to read; the warmth left in darker hair turns blue towards brown-black. Subtle and wearable, with a shift of colour in the light.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a very dark midnight blue all over, roots, mids and ends the same deep blue that reads almost black, with a clear blue sheen in the light",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "peach-apricot-all-over",
+    "kind": "colour",
+    "name": "Peach apricot",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "peach-apricot",
+      "technique": "vivid_all_over"
+    },
+    "placements": [],
+    "required_base_level": 9,
+    "grey": "covers",
+    "client": "A soft peach-orange pastel across the whole head.",
+    "stylist": "A pastel peach over a pale, evenly lightened base; the last trace of warmth suits peach. Pastels fade fast, so plan refreshes and colour-safe care.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a soft peach apricot all over, with the roots, mids and ends all the same pastel peach-orange, even and glossy, with no darker roots and no banding",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "plum-violet-all-over",
+    "kind": "colour",
+    "name": "Plum violet",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "plum-violet",
+      "technique": "vivid_all_over"
+    },
+    "placements": [],
+    "required_base_level": 7,
+    "grey": "covers",
+    "client": "A rich purple-plum from root to ends.",
+    "stylist": "A saturated plum over a base lightened enough for the violet to read; on a darker, warmer base it turns red-brown. Violet fades towards a muted purple, so plan glosses.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "a saturated purple plum violet all over, with the roots, mids and ends all the same deep rich plum, vivid and glossy, with no banding",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "plum-ombre-ends",
+    "kind": "colour",
+    "name": "Plum ombre ends",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "plum-violet",
+      "technique": "none",
+      "on": "chocolate-brown",
+      "on_words": [
+        "dark brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "ombre",
+        "shade": "plum-violet",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": 7,
+    "grey": "shows",
+    "client": "Your natural roots fade into rich plum at the ends. It is a bold colour that is easy to wear.",
+    "stylist": "An ombre that keeps the natural root zone and lifts the lengths to carry a saturated plum at the ends. Grows out without a visible line.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "dark brown at the roots and mid-lengths, blending softly into a saturated purple-plum through the lower lengths and ends, vivid and glossy",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "peachy-rose-melt",
+    "kind": "colour",
+    "name": "Peach and rose gold colour melt",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "rose-gold",
+      "technique": "none",
+      "on": "strawberry-blonde",
+      "on_words": []
+    },
+    "placements": [
+      {
+        "technique": "colour_melt",
+        "shade": "strawberry-blonde",
+        "region": "root"
+      },
+      {
+        "technique": "colour_melt",
+        "shade": "rose-gold",
+        "region": "mids"
+      },
+      {
+        "technique": "colour_melt",
+        "shade": "peach-apricot",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": 9,
+    "grey": "covers",
+    "client": "A soft glow that melts from warm blonde through rose gold to peach at the ends.",
+    "stylist": "Melt a strawberry blonde root into rose gold and peach ends over a lightened base. Pastel pink-orange tones fade fast, so plan refreshes.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "warm strawberry-blonde roots melting smoothly into a warm pink rose gold through the mid-lengths and a soft peach apricot at the ends, no lines, a continuous pastel glow",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "lavender-ombre-blonde",
+    "kind": "colour",
+    "name": "Lavender ombre on blonde",
+    "collections": [
+      "salon"
+    ],
+    "base": {
+      "shade": "ash-blonde",
+      "technique": "none",
+      "on": "dark-blonde",
+      "on_words": [
+        "dark blonde"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "ombre",
+        "shade": "ash-blonde",
+        "region": "mids"
+      },
+      {
+        "technique": "ombre",
+        "shade": "lavender",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": 10,
+    "grey": "shows",
+    "client": "Cool blonde that softly fades into lavender at the ends.",
+    "stylist": "An ombre from ash blonde to a pastel lavender at the ends over lightened lengths. Pastels fade fast, so plan refreshes.",
+    "images": {
+      "models": [
+        "salon-straight-wavy",
+        "salon-curly-coily"
+      ],
+      "view": "back"
+    },
+    "prompt_spec": "dark blonde at the roots, then cool ash blonde through the mid-lengths fading smoothly into soft pastel lavender at the ends, a clear gradient with no hard line",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-blend-short-brown-men",
+    "kind": "colour",
+    "name": "Grey blending for short hair",
+    "collections": [
+      "barbering"
+    ],
+    "base": {
+      "shade": "brunette-grey-blend",
+      "technique": "none",
+      "on": "milk-chocolate",
+      "on_words": [
+        "short brown hair"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "grey_blending",
+        "shade": "light-brown",
+        "region": "highlights"
+      },
+      {
+        "technique": "grey_blending",
+        "shade": "mocha-brown",
+        "region": "lowlights"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "blends",
+    "client": "Soft light and deeper brown strands that blend with your grey on short hair, so the grey looks natural rather than covered.",
+    "stylist": "Fine lights and lowlights through the top, and through the sides where the hair is long enough to weave, blending the grey instead of covering it. Low-contrast and easy to grow out.",
+    "images": {
+      "models": [
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "short brown hair with my own natural grey, if any, in its existing amount and distribution, with fine light-brown strands and a few deeper mocha strands through the top that merge with the grey, soft and low contrast, on the existing short haircut",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-coverage-brown-men",
+    "kind": "colour",
+    "name": "Natural brown grey coverage",
+    "collections": [
+      "barbering"
+    ],
+    "base": {
+      "shade": "mocha-brown",
+      "technique": "grey_coverage"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "A natural, even brown chosen to cover grey on short hair.",
+    "stylist": "Permanent colour in a neutral brown to cover grey, with regular root touch-ups. A neutral shade reads most naturally on a short cut.",
+    "images": {
+      "models": [
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "an even natural mocha brown across the whole head, roots, top and sides the same, with no grey showing, soft and natural-looking, on the existing short haircut",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-coverage-black-men",
+    "kind": "colour",
+    "name": "Soft black grey coverage for short hair",
+    "collections": [
+      "barbering"
+    ],
+    "base": {
+      "shade": "soft-black",
+      "technique": "grey_coverage"
+    },
+    "placements": [],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "A soft, natural black chosen to cover grey evenly on short hair.",
+    "stylist": "Permanent colour to cover grey in a soft black; a shade a little softer than the original natural colour keeps it from looking flat. Regrowth shows sooner on short dark hair, so plan root visits.",
+    "images": {
+      "models": [
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "a soft natural black across the whole head, roots, top and sides the same, with no grey showing, deep and even, on the existing short haircut",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-blend-translucent-men",
+    "kind": "colour",
+    "name": "Translucent grey blend",
+    "collections": [
+      "barbering"
+    ],
+    "base": {
+      "shade": "brunette-grey-blend",
+      "technique": "none",
+      "on": "milk-chocolate",
+      "on_words": [
+        "short brown hair"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "grey_blending",
+        "shade": "brunette-grey-blend",
+        "region": "root"
+      },
+      {
+        "technique": "grey_blending",
+        "shade": "brunette-grey-blend",
+        "region": "mids"
+      },
+      {
+        "technique": "grey_blending",
+        "shade": "brunette-grey-blend",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "tints",
+    "client": "A see-through brown tone that softens grey instead of covering it. Some grey still shows and regrowth stays gentle.",
+    "stylist": "A translucent deposit over the whole head that tones down grey without full coverage, leaving a natural salt-and-pepper. Choose a shade at or a little lighter than the natural brown so it does not look flat.",
+    "images": {
+      "models": [
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "short brown hair with my own natural grey, if any, in its existing amount and distribution, the grey softened to a gentle silvery brown with some grey still showing, a natural salt-and-pepper look with no flat dyed effect, on the existing short haircut",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "platinum-blonde-men",
+    "kind": "colour",
+    "name": "Bright platinum blonde",
+    "collections": [
+      "barbering"
+    ],
+    "base": {
+      "shade": "platinum-blonde",
+      "technique": "all_over"
+    },
+    "placements": [],
+    "required_base_level": 10,
+    "grey": "covers",
+    "client": "A bright, near-white blonde across the whole head. It is a big change that needs regular toning and root visits to stay clean.",
+    "stylist": "Full lightening to a pale, even base, then a toner for a clean platinum. On short hair the lightener sits on the scalp, so check the scalp first, and plan regrowth care and bond protection.",
+    "images": {
+      "models": [
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "a bright, clean platinum blonde across the whole head, roots, top and sides the same pale near-white blonde with no yellow, even and smooth, the eyebrows and any beard left their natural colour, on the existing short haircut",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "caramel-tips-men",
+    "kind": "colour",
+    "name": "Caramel tips",
+    "collections": [
+      "barbering"
+    ],
+    "base": {
+      "shade": "mocha-brown",
+      "technique": "none",
+      "on": "mocha-brown",
+      "on_words": [
+        "natural mocha brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "balayage",
+        "shade": "caramel-brown",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "A lighter caramel finish on the tips of the top, with the sides left natural.",
+    "stylist": "Painted caramel on the ends of the top section only, with the sides left natural. Soft grow-out; suits a textured cut.",
+    "images": {
+      "models": [
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "natural mocha brown on the sides and at the roots, with warm caramel-brown painted on the tips of the top, the lighter tips catching the light, soft and blended, on the existing short haircut",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "sandy-tips-crop-men",
+    "kind": "colour",
+    "name": "Sandy blonde tips",
+    "collections": [
+      "barbering"
+    ],
+    "base": {
+      "shade": "chocolate-brown",
+      "technique": "none",
+      "on": "chocolate-brown",
+      "on_words": [
+        "natural chocolate-brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "foilayage",
+        "shade": "sandy-blonde",
+        "region": "ends"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "shows",
+    "client": "Sandy blonde tips on the top, with the sides and roots left natural for a lived-in contrast.",
+    "stylist": "Painted and wrapped sections on the top tips for stronger lift, in a muted sandy blonde. Leave the sides natural and tone to avoid brass.",
+    "images": {
+      "models": [
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "natural chocolate-brown at the roots and sides, with muted sandy blonde painted on the tips of the top, softly contrasting, on the existing short haircut",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "golden-highlights-men",
+    "kind": "colour",
+    "name": "Soft golden highlights",
+    "collections": [
+      "barbering"
+    ],
+    "base": {
+      "shade": "mocha-brown",
+      "technique": "none",
+      "on": "mocha-brown",
+      "on_words": [
+        "natural mocha brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "foil_highlights",
+        "shade": "golden-brown",
+        "region": "highlights"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "blends",
+    "client": "A few soft golden-brown highlights that add light and texture to short hair.",
+    "stylist": "Foiled weaves through the top in a soft golden brown, kept subtle on a short cut. Suits clients who want a gentle lift.",
+    "images": {
+      "models": [
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "natural mocha brown across the whole head, with soft golden-brown highlights woven through the top only, the shorter sides left natural, subtle and warm, adding light and texture, on the existing short haircut",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "brown-lowlights-men",
+    "kind": "colour",
+    "name": "Deeper chocolate-brown lowlights",
+    "collections": [
+      "barbering"
+    ],
+    "base": {
+      "shade": "light-brown",
+      "technique": "none",
+      "on": "light-brown",
+      "on_words": [
+        "natural neutral light brown"
+      ]
+    },
+    "placements": [
+      {
+        "technique": "lowlights",
+        "shade": "chocolate-brown",
+        "region": "lowlights"
+      }
+    ],
+    "required_base_level": null,
+    "grey": "blends",
+    "client": "Deeper brown strands that add depth and shape to lighter brown hair.",
+    "stylist": "Fine chocolate-brown lowlights through the top, and the sides where the hair is long enough, to add depth and break up flat colour. Low upkeep.",
+    "images": {
+      "models": [
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "natural neutral light brown across the whole head, with fine deeper chocolate-brown strands through the top, adding depth and definition, subtle and natural, on the existing short haircut",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "midnight-blue-short-men",
+    "kind": "colour",
+    "name": "Midnight blue on short hair",
+    "collections": [
+      "barbering"
+    ],
+    "base": {
+      "shade": "midnight-blue",
+      "technique": "vivid_all_over"
+    },
+    "placements": [],
+    "required_base_level": 7,
+    "grey": "covers",
+    "client": "A very dark blue that reads as near-black indoors and shows blue in daylight.",
+    "stylist": "A deep blue over a base lightened enough for the blue to read. On short hair the lightener sits on the scalp, so check the scalp first; regrowth shows quickly.",
+    "images": {
+      "models": [
+        "barbering-straight-wavy",
+        "barbering-curly-coily"
+      ],
+      "view": "front"
+    },
+    "prompt_spec": "a very dark midnight blue across the whole head, roots, top and sides the same deep blue that reads almost black, with a clear blue sheen in the light, on the existing short haircut",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

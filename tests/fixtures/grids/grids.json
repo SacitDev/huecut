@@ -1,0 +1,47 @@
+[
+  {
+    "file": "grid-1.jpg",
+    "kind": "cut",
+    "rows": 1,
+    "columns": 2,
+    "ideas": [
+      "shingle-bob",
+      "blunt-full-fringe-long"
+    ]
+  },
+  {
+    "file": "grid-2.jpg",
+    "kind": "cut",
+    "rows": 1,
+    "columns": 3,
+    "ideas": [
+      "french-crop",
+      "ivy-league",
+      "buzz-skin-fade"
+    ]
+  },
+  {
+    "file": "grid-3.jpg",
+    "kind": "cut",
+    "rows": 2,
+    "columns": 2,
+    "ideas": [
+      "curly-bob-rounded",
+      "curly-short-shag",
+      "shaped-round-afro",
+      "curly-butterfly"
+    ]
+  },
+  {
+    "file": "grid-4.jpg",
+    "kind": "colour",
+    "rows": 2,
+    "columns": 2,
+    "ideas": [
+      "honey-blonde-foil-highlights",
+      "bronde-balayage",
+      "strawberry-blonde-balayage",
+      "ash-blonde-root-shadow"
+    ]
+  }
+]

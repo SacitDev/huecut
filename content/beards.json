@@ -1,0 +1,1889 @@
+[
+  {
+    "id": "beard-clean-shaven",
+    "kind": "beard",
+    "name": "Clean shaven",
+    "aliases": [
+      "Smooth face",
+      "No beard"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        0,
+        0
+      ],
+      "chin": [
+        0,
+        0
+      ],
+      "moustache": [
+        0,
+        0
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        0,
+        0
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "natural",
+    "growth": {
+      "weeks_needed": [
+        0,
+        0
+      ],
+      "note": "No growth needed."
+    },
+    "upkeep": {
+      "trim_days": [
+        1,
+        2
+      ],
+      "daily_minutes": 5,
+      "products": [
+        "shave cream",
+        "balm"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "two-block",
+        "perm-curls-men"
+      ]
+    },
+    "traits": {
+      "beard_shape": "none",
+      "beard_length": "none",
+      "cheek_line": "natural",
+      "neckline": "natural"
+    },
+    "client": "No facial hair. Smooth, formal and quick to maintain, though shaving daily takes time.",
+    "stylist": "Pre-shave oil or warm towel, shave with the grain first. Moisturise afterwards; flag razor-bump-prone skin and suggest a longer stubble instead.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "clean shaven, 0-0 mm",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://gillette.com/en-us/shaving-tips/facial-hair-styles/beard-styles",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-stubble-short",
+    "kind": "beard",
+    "name": "Short stubble",
+    "aliases": [
+      "Five o'clock shadow",
+      "Designer stubble",
+      "Three-day growth"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        1,
+        2
+      ],
+      "chin": [
+        1,
+        2
+      ],
+      "moustache": [
+        1,
+        2
+      ],
+      "neck": [
+        0,
+        1
+      ],
+      "sideburns": [
+        1,
+        2
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "natural",
+    "growth": {
+      "weeks_needed": [
+        0,
+        1
+      ],
+      "note": "Any growth, even patchy."
+    },
+    "upkeep": {
+      "trim_days": [
+        3,
+        5
+      ],
+      "daily_minutes": 2,
+      "products": [
+        "trimmer",
+        "balm"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "crew-cut-classic",
+        "ivy-league",
+        "scissor-taper-classic",
+        "side-part-classic",
+        "executive-scissor",
+        "short-back-sides-connected",
+        "two-block",
+        "crew-messy-textured",
+        "french-crop",
+        "mod-fringe-90s"
+      ]
+    },
+    "traits": {
+      "beard_shape": "short_along_jaw",
+      "beard_length": "stubble",
+      "cheek_line": "natural",
+      "neckline": "natural"
+    },
+    "client": "A light shadow of beard, trimmed every few days. Rugged but tidy and good for patchy growth.",
+    "stylist": "Trimmer with a 1-2 mm guard (about #1 on most trimmers), keep the cheek line natural and clean the neck line 2 cm above the Adam's apple.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a short stubble beard: an even light shadow of 1-2 mm over the cheeks, jaw, chin and upper lip, a natural cheek line, a natural neckline cleaned about 2 cm above the Adam's apple, no defined shape",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://gillette.com/en-us/shaving-tips/facial-hair-styles/beard-styles",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-stubble-medium",
+    "kind": "beard",
+    "name": "Medium stubble",
+    "aliases": [
+      "Heavy stubble",
+      "Ten-day growth"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        3,
+        5
+      ],
+      "chin": [
+        3,
+        5
+      ],
+      "moustache": [
+        3,
+        5
+      ],
+      "neck": [
+        0,
+        1
+      ],
+      "sideburns": [
+        3,
+        5
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "natural",
+    "growth": {
+      "weeks_needed": [
+        0,
+        2
+      ],
+      "note": "Needs fairly even growth."
+    },
+    "upkeep": {
+      "trim_days": [
+        5,
+        7
+      ],
+      "daily_minutes": 3,
+      "products": [
+        "trimmer",
+        "beard oil (optional)"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "buzz-1-uniform",
+        "buzz-tapered",
+        "buzz-skin-fade",
+        "crew-cut-long",
+        "high-and-tight",
+        "french-crop",
+        "caesar-cut",
+        "textured-crop-low-taper",
+        "textured-crop-mid-fade",
+        "mid-taper-fade",
+        "low-skin-fade",
+        "mid-skin-fade",
+        "drop-fade",
+        "burst-fade",
+        "temple-fade",
+        "shadow-fade",
+        "undercut-disconnected",
+        "quiff-classic",
+        "quiff-textured-messy",
+        "faux-hawk-fade",
+        "hard-part-fade",
+        "brush-back-natural",
+        "curtains-middle-part",
+        "curtains-taper",
+        "flow-medium",
+        "bro-flow",
+        "shag-modern",
+        "mod-fringe-90s",
+        "mullet-classic",
+        "mullet-soft-short",
+        "mullet-burst-fade",
+        "wolf-cut-men",
+        "bowl-cut-modern",
+        "blunt-fringe-taper",
+        "perm-curls-men",
+        "crew-messy-textured",
+        "crown-sweep-even-top",
+        "buzz-longer-front",
+        "curly-taper-defined",
+        "curly-fringe-forward",
+        "curly-drop-fade",
+        "curly-flow",
+        "curly-mullet",
+        "sponge-twists-taper",
+        "finger-coils-taper",
+        "waves-360",
+        "wave-caesar",
+        "curly-shag",
+        "executive-scissor",
+        "short-back-sides-connected",
+        "ivy-league",
+        "low-taper-fade",
+        "comb-over-fade",
+        "undercut-side-part"
+      ]
+    },
+    "traits": {
+      "beard_shape": "short_along_jaw",
+      "beard_length": "stubble",
+      "cheek_line": "natural",
+      "neckline": "natural"
+    },
+    "client": "A few days beyond a light stubble: short, even and dense, about 3 to 5 mm all over.",
+    "stylist": "Trim to 3-5 mm with a guard, fade the cheek line up into a natural line and clean the neck. Check for gaps on the cheeks.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a medium stubble beard: a short, dense, even growth of 3-5 mm over the cheeks, jaw, chin and upper lip, the cheek line faded up to a natural line, a clean natural neckline just above the Adam's apple",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-short-boxed",
+    "kind": "beard",
+    "name": "Short boxed beard",
+    "aliases": [
+      "Boxed beard",
+      "Short beard",
+      "Tidy beard",
+      "Corporate beard",
+      "Business beard"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        6,
+        9
+      ],
+      "chin": [
+        9,
+        12
+      ],
+      "moustache": [
+        6,
+        9
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        6,
+        9
+      ]
+    },
+    "cheek_line": "low",
+    "neckline": "two_fingers",
+    "growth": {
+      "weeks_needed": [
+        2,
+        5
+      ],
+      "note": "Needs fairly even growth."
+    },
+    "upkeep": {
+      "trim_days": [
+        7,
+        10
+      ],
+      "daily_minutes": 5,
+      "products": [
+        "beard balm",
+        "comb"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "buzz-1-uniform",
+        "buzz-tapered",
+        "buzz-skin-fade",
+        "shaved-head",
+        "crew-cut-classic",
+        "crew-cut-long",
+        "ivy-league",
+        "high-and-tight",
+        "french-crop",
+        "caesar-cut",
+        "textured-crop-low-taper",
+        "textured-crop-mid-fade",
+        "top-heavy-fade",
+        "scissor-taper-classic",
+        "low-taper-fade",
+        "mid-taper-fade",
+        "low-skin-fade",
+        "mid-skin-fade",
+        "high-skin-fade",
+        "drop-fade",
+        "burst-fade",
+        "temple-fade",
+        "shadow-fade",
+        "undercut-disconnected",
+        "undercut-side-part",
+        "quiff-classic",
+        "quiff-textured-messy",
+        "pompadour-classic",
+        "pompadour-modern",
+        "faux-hawk-fade",
+        "slick-back-classic",
+        "slick-back-undercut",
+        "side-part-classic",
+        "hard-part-fade",
+        "comb-over-fade",
+        "brush-back-natural",
+        "executive-scissor",
+        "short-back-sides-connected",
+        "curtains-middle-part",
+        "curtains-taper",
+        "flow-medium",
+        "bro-flow",
+        "shag-modern",
+        "man-bun-classic",
+        "top-knot-undercut",
+        "mod-fringe-90s",
+        "mullet-classic",
+        "mullet-soft-short",
+        "mullet-burst-fade",
+        "wolf-cut-men",
+        "bowl-cut-modern",
+        "blunt-fringe-taper",
+        "two-block",
+        "perm-curls-men",
+        "crew-messy-textured",
+        "crown-sweep-even-top",
+        "buzz-longer-front",
+        "curly-taper-defined",
+        "curly-fringe-forward",
+        "curly-skin-fade-top",
+        "curly-drop-fade",
+        "curly-burst-fade",
+        "curly-quiff",
+        "curly-flow",
+        "curly-mullet",
+        "curly-mohawk-fade",
+        "sponge-twists-taper",
+        "finger-coils-taper",
+        "short-twists-fade",
+        "high-top-fade",
+        "flat-top",
+        "afro-taper-round",
+        "afro-blowout",
+        "afro-burst-taper",
+        "afro-puff-taper",
+        "waves-360",
+        "wave-caesar",
+        "starter-locs-fade",
+        "cornrows-fade",
+        "box-braids-short",
+        "curly-side-part",
+        "curly-shag"
+      ]
+    },
+    "traits": {
+      "beard_shape": "short_along_jaw",
+      "beard_length": "short",
+      "cheek_line": "low",
+      "neckline": "two_fingers"
+    },
+    "client": "A short, tidy beard about 6 to 12 mm long. It is shaped along the jaw with a clean, low cheek line and a neat neckline.",
+    "stylist": "Trim the cheeks and moustache to 6-9 mm and the chin to 9-12 mm; set a low, natural cheek line and a neckline about two fingers above the Adam's apple.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a short boxed beard: about 6-9 mm on the cheeks and 9-12 mm at the chin, a matching short moustache, a low natural cheek line and a clean neckline about two fingers above the Adam's apple",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://gillette.com/en-us/shaving-tips/facial-hair-styles/beard-styles",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.braun.com/en-us/male-grooming-tips/facial-hair-styles/the-most-popular-beard-styles-for-men",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-full-natural",
+    "kind": "beard",
+    "name": "Full beard, natural",
+    "aliases": [
+      "Full beard",
+      "Natural beard",
+      "Medium beard"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        20,
+        30
+      ],
+      "chin": [
+        30,
+        40
+      ],
+      "moustache": [
+        20,
+        30
+      ],
+      "neck": [
+        0,
+        5
+      ],
+      "sideburns": [
+        20,
+        30
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "two_fingers",
+    "growth": {
+      "weeks_needed": [
+        5,
+        16
+      ],
+      "note": "Needs full coverage on cheeks and chin."
+    },
+    "upkeep": {
+      "trim_days": [
+        14,
+        28
+      ],
+      "daily_minutes": 6,
+      "products": [
+        "beard oil",
+        "balm",
+        "comb"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "buzz-1-uniform",
+        "shaved-head",
+        "textured-crop-low-taper",
+        "top-heavy-fade",
+        "high-skin-fade",
+        "burst-fade",
+        "temple-fade",
+        "undercut-disconnected",
+        "undercut-side-part",
+        "quiff-classic",
+        "quiff-textured-messy",
+        "pompadour-classic",
+        "pompadour-modern",
+        "mohawk-classic",
+        "slick-back-classic",
+        "slick-back-undercut",
+        "brush-back-natural",
+        "curtains-middle-part",
+        "curtains-taper",
+        "flow-medium",
+        "bro-flow",
+        "shag-modern",
+        "long-layers-natural",
+        "man-bun-classic",
+        "top-knot-undercut",
+        "mullet-classic",
+        "mullet-soft-short",
+        "mullet-burst-fade",
+        "wolf-cut-men",
+        "bowl-cut-modern",
+        "buzz-longer-front",
+        "curly-taper-defined",
+        "curly-skin-fade-top",
+        "curly-burst-fade",
+        "curly-quiff",
+        "curly-flow",
+        "curly-mullet",
+        "curly-mohawk-fade",
+        "finger-coils-taper",
+        "short-twists-fade",
+        "long-two-strand-twists",
+        "high-top-fade",
+        "afro-taper-round",
+        "afro-blowout",
+        "afro-burst-taper",
+        "afro-puff-taper",
+        "waves-360",
+        "wave-caesar",
+        "starter-locs-fade",
+        "locs-freeform",
+        "locs-long-tied",
+        "cornrows-fade",
+        "box-braids-short",
+        "curly-side-part",
+        "curly-shag",
+        "curly-long-natural",
+        "buzz-tapered",
+        "crew-cut-long",
+        "crown-sweep-even-top",
+        "curly-fringe-forward"
+      ]
+    },
+    "traits": {
+      "beard_shape": "full_rounded",
+      "beard_length": "medium",
+      "cheek_line": "natural",
+      "neckline": "two_fingers"
+    },
+    "client": "A full beard of about 2 to 4 cm, kept even and rounded. It has a natural cheek line and a tidy neckline.",
+    "stylist": "Shape to an even rounded outline, 2-3 cm on the cheeks and up to 4 cm at the chin; keep the cheek line natural and clean the neck below a line two fingers above the Adam's apple.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a full natural beard: about 2-3 cm, even and well kept, a full moustache, a natural cheek line and a tidy neckline",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.braun.com/en-us/male-grooming-tips/facial-hair-styles/the-most-popular-beard-styles-for-men",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-full-long",
+    "kind": "beard",
+    "name": "Long full beard",
+    "aliases": [
+      "Viking beard",
+      "Long beard",
+      "Lumberjack beard"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        50,
+        80
+      ],
+      "chin": [
+        80,
+        150
+      ],
+      "moustache": [
+        30,
+        50
+      ],
+      "neck": [
+        0,
+        10
+      ],
+      "sideburns": [
+        50,
+        80
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "two_fingers",
+    "growth": {
+      "weeks_needed": [
+        14,
+        52
+      ],
+      "note": "Needs full coverage and time."
+    },
+    "upkeep": {
+      "trim_days": [
+        28,
+        56
+      ],
+      "daily_minutes": 10,
+      "products": [
+        "beard wash",
+        "oil",
+        "balm",
+        "brush"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "long-layers-natural",
+        "long-two-strand-twists",
+        "locs-freeform",
+        "locs-long-tied",
+        "curly-long-natural"
+      ]
+    },
+    "traits": {
+      "beard_shape": "fuller_chin",
+      "beard_length": "long",
+      "cheek_line": "natural",
+      "neckline": "two_fingers"
+    },
+    "client": "A long, full beard of several centimetres. A strong, rugged statement that needs regular care.",
+    "stylist": "Shape the outline with scissors, shorten the sides slightly and keep the neckline natural. Condition and comb; trim split ends.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a long full beard: about 5-15 cm at the chin, thick and combed, the sides shortened slightly, a natural cheek line and a natural neckline trimmed above the collar, a full moustache and an outline shaped with scissors",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-garibaldi",
+    "kind": "beard",
+    "name": "Garibaldi",
+    "aliases": [
+      "Wide full beard",
+      "Rounded full beard"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        40,
+        60
+      ],
+      "chin": [
+        60,
+        80
+      ],
+      "moustache": [
+        30,
+        50
+      ],
+      "neck": [
+        0,
+        10
+      ],
+      "sideburns": [
+        40,
+        60
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "two_fingers",
+    "growth": {
+      "weeks_needed": [
+        11,
+        32
+      ],
+      "note": "Needs full coverage."
+    },
+    "upkeep": {
+      "trim_days": [
+        21,
+        35
+      ],
+      "daily_minutes": 8,
+      "products": [
+        "oil",
+        "balm"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "shaved-head",
+        "long-layers-natural",
+        "man-bun-classic",
+        "long-two-strand-twists",
+        "afro-blowout",
+        "locs-freeform",
+        "locs-long-tied",
+        "box-braids-short",
+        "curly-long-natural"
+      ]
+    },
+    "traits": {
+      "beard_shape": "full_rounded",
+      "beard_length": "long",
+      "cheek_line": "natural",
+      "neckline": "two_fingers"
+    },
+    "client": "A full, wide beard with a rounded bottom edge. Classic and generous.",
+    "stylist": "Round the bottom edge, leave the cheeks natural and blend into the sideburns. Keep the moustache separate from the lip.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a Garibaldi beard: a full, wide beard of about 4-8 cm with a rounded bottom edge, natural cheeks blending into the sideburns, a full moustache kept separate from the lip, and a rounded neckline",
+    "sources": [
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-goatee",
+    "kind": "beard",
+    "name": "Goatee",
+    "aliases": [
+      "Chin beard",
+      "True goatee"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        0,
+        0
+      ],
+      "chin": [
+        5,
+        15
+      ],
+      "moustache": [
+        0,
+        0
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        0,
+        0
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "high",
+    "growth": {
+      "weeks_needed": [
+        2,
+        6
+      ],
+      "note": "Chin growth only."
+    },
+    "upkeep": {
+      "trim_days": [
+        5,
+        10
+      ],
+      "daily_minutes": 4,
+      "products": [
+        "trimmer",
+        "shaving oil"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "high-and-tight",
+        "mohawk-classic",
+        "faux-hawk-fade",
+        "flat-top"
+      ]
+    },
+    "traits": {
+      "beard_shape": "goatee",
+      "beard_length": "short",
+      "cheek_line": "natural",
+      "neckline": "high"
+    },
+    "client": "Hair on the chin only, with no moustache and clean-shaven cheeks.",
+    "stylist": "Keep the chin hair at 5-15 mm and about as wide as the mouth; shave the upper lip, cheeks and neck and keep both sides even.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a goatee: a chin beard only, 5-15 mm long and about as wide as the mouth, with no moustache, the upper lip, cheeks and neck clean-shaven and a defined outline",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-van-dyke",
+    "kind": "beard",
+    "name": "Van Dyke",
+    "aliases": [
+      "Pointed goatee",
+      "Chin beard and separate mustache"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        0,
+        0
+      ],
+      "chin": [
+        10,
+        20
+      ],
+      "moustache": [
+        5,
+        15
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        0,
+        0
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "high",
+    "growth": {
+      "weeks_needed": [
+        1,
+        8
+      ],
+      "note": "Chin and moustache growth only."
+    },
+    "upkeep": {
+      "trim_days": [
+        5,
+        10
+      ],
+      "daily_minutes": 6,
+      "products": [
+        "wax (optional)",
+        "oil"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "pompadour-classic",
+        "mohawk-classic"
+      ]
+    },
+    "traits": {
+      "beard_shape": "goatee",
+      "beard_length": "medium",
+      "cheek_line": "natural",
+      "neckline": "high"
+    },
+    "client": "A pointed chin beard and a separate moustache with clean cheeks. A sharp, theatrical look.",
+    "stylist": "Keep the moustache and chin hair separate with a small gap at the mouth corners, shape the chin to a soft point and shave the cheeks clean.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a Van Dyke beard: a pointed chin beard of 5-20 mm shaped to a soft point with a separate moustache, a small gap at each corner of the mouth, and clean-shaven cheeks and neck",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-balbo",
+    "kind": "beard",
+    "name": "Balbo",
+    "aliases": [
+      "Balbo beard",
+      "Mustache and chin beard"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        0,
+        0
+      ],
+      "chin": [
+        8,
+        20
+      ],
+      "moustache": [
+        5,
+        15
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        0,
+        0
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "high",
+    "growth": {
+      "weeks_needed": [
+        1,
+        8
+      ],
+      "note": "Chin, moustache and soul patch."
+    },
+    "upkeep": {
+      "trim_days": [
+        5,
+        10
+      ],
+      "daily_minutes": 6,
+      "products": [
+        "wax",
+        "trimmer"
+      ]
+    },
+    "pairs_with": {
+      "cuts": []
+    },
+    "traits": {
+      "beard_shape": "goatee",
+      "beard_length": "medium",
+      "cheek_line": "natural",
+      "neckline": "high"
+    },
+    "client": "A moustache and a chin beard with a gap between them, plus clean cheeks. Distinctive and crisp.",
+    "stylist": "Keep the moustache wide and separate, shape the chin beard as an inverted rectangle and shave around the mouth corners.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a Balbo beard: a wide separate moustache and a chin beard shaped as an inverted rectangle, 5-20 mm long, with a clear gap between them, the mouth corners shaved clean and the cheeks and neck clean-shaven",
+    "sources": [
+      {
+        "url": "https://www.philips.co.nz/c-e/mens-grooming-tips/beard/beard-styles-and-what-to-call-them.html",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-chin-strap",
+    "kind": "beard",
+    "name": "Chin strap",
+    "aliases": [
+      "Chinstrap",
+      "Jawline beard"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        3,
+        6
+      ],
+      "chin": [
+        5,
+        10
+      ],
+      "moustache": [
+        0,
+        0
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        3,
+        6
+      ]
+    },
+    "cheek_line": "sharp",
+    "neckline": "high",
+    "growth": {
+      "weeks_needed": [
+        0,
+        4
+      ],
+      "note": "Even jaw growth."
+    },
+    "upkeep": {
+      "trim_days": [
+        4,
+        7
+      ],
+      "daily_minutes": 5,
+      "products": [
+        "trimmer",
+        "razor"
+      ]
+    },
+    "pairs_with": {
+      "cuts": []
+    },
+    "traits": {
+      "beard_shape": "chin_strap",
+      "beard_length": "short",
+      "cheek_line": "sharp",
+      "neckline": "high"
+    },
+    "client": "A thin, sharp line of beard that follows the jaw from ear to ear, with no moustache.",
+    "stylist": "Keep a narrow band of 3-6 mm along the jawline and 5-10 mm at the chin; razor the cheek and neck edges sharp and shave the moustache.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a chin strap beard: a thin, razor-sharp line of beard 3-10 mm long following the jawline from sideburn to sideburn and across the chin, consistent in width and symmetrical, with a defined neckline, the cheeks clean-shaven",
+    "sources": [
+      {
+        "url": "https://www.philips.co.nz/c-e/mens-grooming-tips/beard/beard-styles-and-what-to-call-them.html",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-anchor",
+    "kind": "beard",
+    "name": "Anchor beard",
+    "aliases": [
+      "Anchor",
+      "Pointed jaw-line with mustache"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        3,
+        6
+      ],
+      "chin": [
+        10,
+        25
+      ],
+      "moustache": [
+        5,
+        15
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        0,
+        0
+      ]
+    },
+    "cheek_line": "sharp",
+    "neckline": "high",
+    "growth": {
+      "weeks_needed": [
+        1,
+        10
+      ],
+      "note": "Chin and jaw growth."
+    },
+    "upkeep": {
+      "trim_days": [
+        5,
+        10
+      ],
+      "daily_minutes": 6,
+      "products": [
+        "trimmer"
+      ]
+    },
+    "pairs_with": {
+      "cuts": []
+    },
+    "traits": {
+      "beard_shape": "pointed_chin",
+      "beard_length": "medium",
+      "cheek_line": "sharp",
+      "neckline": "high"
+    },
+    "client": "A thin line along the jaw that meets a pointed chin patch and a moustache, shaped like an anchor.",
+    "stylist": "Use a trimmer for the jawline, keep the chin patch pointed and the moustache joined or separate to taste.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "an anchor beard: a thin defined line of 5-25 mm along the jaw meeting a pointed chin patch and a moustache, the cheeks and neck clean-shaven, a narrow defined cheek line and a defined neckline",
+    "sources": [
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-circle",
+    "kind": "beard",
+    "name": "Circle beard",
+    "aliases": [
+      "Circle",
+      "Full goatee",
+      "Classic goatee"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        0,
+        0
+      ],
+      "chin": [
+        3,
+        12
+      ],
+      "moustache": [
+        3,
+        10
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        0,
+        0
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "high",
+    "growth": {
+      "weeks_needed": [
+        0,
+        5
+      ],
+      "note": "Chin and moustache growth."
+    },
+    "upkeep": {
+      "trim_days": [
+        5,
+        10
+      ],
+      "daily_minutes": 4,
+      "products": [
+        "trimmer"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "crew-cut-classic",
+        "caesar-cut"
+      ]
+    },
+    "traits": {
+      "beard_shape": "goatee",
+      "beard_length": "short",
+      "cheek_line": "natural",
+      "neckline": "high"
+    },
+    "client": "A moustache and chin hair joined into a ring around the mouth. Neat and compact.",
+    "stylist": "Join moustache and chin hair, keep the circle even, round the corners and shave the cheeks.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a circle beard: a moustache and chin hair of 3-12 mm joined into an even ring around the mouth with rounded corners, neat and compact, the cheeks and neck clean-shaven with no cheek line",
+    "sources": [
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-ducktail",
+    "kind": "beard",
+    "name": "Ducktail",
+    "aliases": [
+      "Tapered full beard",
+      "Pointed full beard"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        15,
+        30
+      ],
+      "chin": [
+        40,
+        70
+      ],
+      "moustache": [
+        15,
+        30
+      ],
+      "neck": [
+        0,
+        5
+      ],
+      "sideburns": [
+        15,
+        30
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "two_fingers",
+    "growth": {
+      "weeks_needed": [
+        8,
+        28
+      ],
+      "note": "Needs full coverage."
+    },
+    "upkeep": {
+      "trim_days": [
+        14,
+        28
+      ],
+      "daily_minutes": 8,
+      "products": [
+        "oil",
+        "balm",
+        "comb"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "slick-back-classic"
+      ]
+    },
+    "traits": {
+      "beard_shape": "ducktail",
+      "beard_length": "long",
+      "cheek_line": "natural",
+      "neckline": "two_fingers"
+    },
+    "client": "A full beard that tapers to a gentle point at the chin. Strong and elegant.",
+    "stylist": "Taper the cheeks and shape the bottom to a soft point, clean the neckline and check for balance.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a ducktail beard: a full beard of about 3-7 cm with the cheeks tapered and the bottom shaped to a soft point at the chin, a natural cheek line, a clean natural neckline and a full moustache",
+    "sources": [
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-mustache-only",
+    "kind": "beard",
+    "name": "Moustache only",
+    "aliases": [
+      "Moustache",
+      "Stache"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        0,
+        0
+      ],
+      "chin": [
+        0,
+        0
+      ],
+      "moustache": [
+        3,
+        20
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        0,
+        0
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "natural",
+    "growth": {
+      "weeks_needed": [
+        0,
+        8
+      ],
+      "note": "Upper lip growth."
+    },
+    "upkeep": {
+      "trim_days": [
+        5,
+        10
+      ],
+      "daily_minutes": 4,
+      "products": [
+        "wax",
+        "comb",
+        "scissors"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "scissor-taper-classic",
+        "side-part-classic"
+      ]
+    },
+    "traits": {
+      "beard_shape": "moustache_only",
+      "beard_length": "short",
+      "cheek_line": "natural",
+      "neckline": "natural"
+    },
+    "client": "Hair on the upper lip only. A classic look with its own style.",
+    "stylist": "Trim the lip line, comb downward, shape the edges and keep it a steady width; use wax for handlebar styles.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a moustache only: hair on the upper lip alone, 3-20 mm long, combed downward and kept a steady width with neat edges, the cheeks, chin, jaw and neck all clean-shaven, no cheek line",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-soul-patch",
+    "kind": "beard",
+    "name": "Soul patch",
+    "aliases": [
+      "Mouche",
+      "Chin tuft"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        0,
+        0
+      ],
+      "chin": [
+        5,
+        15
+      ],
+      "moustache": [
+        0,
+        0
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        0,
+        0
+      ]
+    },
+    "cheek_line": "natural",
+    "neckline": "high",
+    "growth": {
+      "weeks_needed": [
+        1,
+        6
+      ],
+      "note": "Small chin patch."
+    },
+    "upkeep": {
+      "trim_days": [
+        5,
+        10
+      ],
+      "daily_minutes": 2,
+      "products": [
+        "trimmer"
+      ]
+    },
+    "pairs_with": {
+      "cuts": []
+    },
+    "traits": {
+      "beard_shape": "goatee",
+      "beard_length": "short",
+      "cheek_line": "natural",
+      "neckline": "high"
+    },
+    "client": "A small patch of hair under the lower lip. Playful and minimal.",
+    "stylist": "Define the patch width to the edges of the lip, keep it neat and shave around it.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a soul patch: a small neat patch of 5-15 mm hair under the lower lip, no wider than the edges of the lip, with the shaved skin around it and the cheeks, chin, jaw and upper lip all clean-shaven",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-mutton-chops",
+    "kind": "beard",
+    "name": "Mutton chops",
+    "aliases": [
+      "Sideburn beard",
+      "Chops"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        10,
+        40
+      ],
+      "chin": [
+        0,
+        0
+      ],
+      "moustache": [
+        0,
+        20
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        10,
+        40
+      ]
+    },
+    "cheek_line": "low",
+    "neckline": "high",
+    "growth": {
+      "weeks_needed": [
+        2,
+        16
+      ],
+      "note": "Good sideburn growth."
+    },
+    "upkeep": {
+      "trim_days": [
+        7,
+        14
+      ],
+      "daily_minutes": 6,
+      "products": [
+        "oil",
+        "brush"
+      ]
+    },
+    "pairs_with": {
+      "cuts": []
+    },
+    "traits": {
+      "beard_shape": "fuller_sides",
+      "beard_length": "medium",
+      "cheek_line": "low",
+      "neckline": "high"
+    },
+    "client": "Long sideburns joined to the jaw, with a clean chin. A bold retro look.",
+    "stylist": "Shape the sideburns as long wedges, shave the chin and trim the moustache. Keep the outline symmetric.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "mutton chops: long sideburns of 1-4 cm widened into wedges and joined along the jaw, a clean-shaven chin with the moustache optional and trimmed, a symmetrical outline, and a clean neckline",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.realmenrealstyle.com/beard-styles/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "beard-faded-full",
+    "kind": "beard",
+    "name": "Faded full beard",
+    "aliases": [
+      "Skin-faded beard",
+      "Beard fade",
+      "Blended beard"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "zones_mm": {
+      "cheeks": [
+        0,
+        8
+      ],
+      "chin": [
+        8,
+        12
+      ],
+      "moustache": [
+        6,
+        10
+      ],
+      "neck": [
+        0,
+        0
+      ],
+      "sideburns": [
+        0,
+        3
+      ]
+    },
+    "cheek_line": "low",
+    "neckline": "two_fingers",
+    "growth": {
+      "weeks_needed": [
+        2,
+        5
+      ],
+      "note": "Needs fairly even growth."
+    },
+    "upkeep": {
+      "trim_days": [
+        7,
+        14
+      ],
+      "daily_minutes": 6,
+      "products": [
+        "oil",
+        "trimmer",
+        "balm"
+      ]
+    },
+    "pairs_with": {
+      "cuts": [
+        "buzz-skin-fade",
+        "textured-crop-mid-fade",
+        "top-heavy-fade",
+        "low-taper-fade",
+        "mid-taper-fade",
+        "low-skin-fade",
+        "mid-skin-fade",
+        "high-skin-fade",
+        "drop-fade",
+        "shadow-fade",
+        "pompadour-modern",
+        "slick-back-undercut",
+        "hard-part-fade",
+        "comb-over-fade",
+        "top-knot-undercut",
+        "blunt-fringe-taper",
+        "curly-skin-fade-top",
+        "curly-drop-fade",
+        "curly-burst-fade",
+        "curly-quiff",
+        "curly-mohawk-fade",
+        "sponge-twists-taper",
+        "short-twists-fade",
+        "high-top-fade",
+        "flat-top",
+        "afro-taper-round",
+        "afro-burst-taper",
+        "afro-puff-taper",
+        "starter-locs-fade",
+        "cornrows-fade",
+        "curly-side-part"
+      ]
+    },
+    "traits": {
+      "beard_shape": "short_sides",
+      "beard_length": "short",
+      "cheek_line": "low",
+      "neckline": "two_fingers"
+    },
+    "client": "A full beard that fades from skin on the cheeks and neck to length at the chin. Sharp and modern.",
+    "stylist": "Fade from skin at the neck and cheeks to 8-12 mm at the chin, blend the sideburn into the head fade and keep the cheek line soft.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front"
+      ]
+    },
+    "prompt_spec": "a faded full beard: fading from skin at the sideburns and upper cheeks to about 8-12 mm at the chin, a matching short moustache, the sideburns blended into the head fade, a soft cheek line and the neck faded to skin",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-beard-styles-guide/",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://wisebarber.com/types-of-fades",
+        "supports": "the beard style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

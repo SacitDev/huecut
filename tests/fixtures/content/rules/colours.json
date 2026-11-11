@@ -1,0 +1,15 @@
+[
+  {
+    "id": "e40",
+    "group": "E",
+    "target": "colour",
+    "effect": "rank",
+    "strength": "weak",
+    "when": { "hair.chemical_history": { "is": "none" } },
+    "favour": [{ "lightening": { "in": ["none", "some"] } }],
+    "disfavour": [{ "prelightening": { "is": true } }],
+    "reason": "Your hair has no colour history yet",
+    "evidence": "design_logic",
+    "review": { "status": "draft", "date": "2026-11-08", "note": "Wording to be checked." }
+  }
+]

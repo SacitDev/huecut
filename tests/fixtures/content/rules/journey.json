@@ -1,0 +1,125 @@
+[
+  {
+    "id": "balayage-virgin",
+    "effect": "label",
+    "label": "plausible",
+    "when": {
+      "hair.chemical_history": {
+        "is": "none"
+      }
+    },
+    "on": {
+      "technique": {
+        "is": "balayage"
+      }
+    },
+    "because": "Hair with no colour history usually takes a soft balayage well.",
+    "what_to_ask": "Ask how the lighter pieces will grow out on your hair.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-08"
+    }
+  },
+  {
+    "id": "lift-5-plus-any",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "hair.chemical_history": {
+        "known": true
+      }
+    },
+    "on": {
+      "lift_levels": {
+        "range": [
+          5,
+          9
+        ]
+      }
+    },
+    "because": "Going five or more levels lighter needs a colourist's plan.",
+    "what_to_ask": "Ask how many visits a lift of this size usually takes for hair like yours.",
+    "evidence": "single_source",
+    "sources": [
+      "https://example.org/lift-levels"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-08"
+    }
+  },
+  {
+    "id": "metallic-salts",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "hair.chemical_history": {
+        "is": "henna_compound"
+      }
+    },
+    "because": "Compound henna can react with colour products, so a colourist needs to test a strand first.",
+    "what_to_ask": "Ask for a strand test before any colour goes on.",
+    "evidence": "single_source",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-08"
+    }
+  },
+  {
+    "id": "scalp-skin-problem",
+    "effect": "label",
+    "label": "needs_professional",
+    "when": {
+      "safety.scalp_irritation": {
+        "is": "now"
+      }
+    },
+    "because": "Colour should wait until a sore or broken scalp has healed.",
+    "what_to_ask": "Ask when it is safe to colour after your scalp has healed.",
+    "evidence": "authority",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-08"
+    }
+  },
+  {
+    "id": "unknown-history",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "hair.chemical_history": {
+        "known": false
+      }
+    },
+    "because": "Without your colour history the outcome is hard to judge.",
+    "what_to_ask": "Tell your colourist what your hair has had in the last few years.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-08"
+    }
+  },
+  {
+    "id": "lightening-placement-not-lighter",
+    "effect": "label",
+    "label": "uncertain",
+    "when": {
+      "hair.chemical_history": {
+        "known": true
+      }
+    },
+    "on": {
+      "placement_not_lighter": {
+        "is": true
+      }
+    },
+    "because": "These placements are meant to be lighter than your hair, and this shade is not lighter than yours.",
+    "what_to_ask": "Ask whether this shade will show on your hair or whether the placement needs a lighter shade.",
+    "evidence": "design_logic",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-08"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "dye-reaction-referral",
+    "about": "A past mild reaction to hair dye: the referral replaces every colour suggestion and no colour prompt is built.",
+    "facts": { "safety.dye_reaction": "mild", "hair.chemical_history": ["none"], "colour.natural_level": 5, "hair.condition": "healthy" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "referral": "black-henna-reaction", "colour_prompts": false },
+    "why": {
+      "referral": "black-henna-reaction applies when safety.dye_reaction is mild or serious",
+      "colour_prompts": "after the referral no colour prompt is built"
+    }
+  },
+  {
+    "id": "black-henna-tattoo-referral",
+    "about": "A black henna tattoo, asked on its own question (the henna type lost its tattoo option after a stylist's review): the tattoo referral applies even without a remembered reaction.",
+    "facts": { "safety.dye_reaction": "none", "safety.scalp_irritation": "none", "hair.chemical_history": ["none"], "safety.henna_tattoo": true },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "referral": "black-henna-tattoo", "colour_prompts": false },
+    "why": {
+      "referral": "black-henna-tattoo applies when safety.henna_tattoo is true; black-henna-reaction does not (no reaction)",
+      "colour_prompts": "after the referral no colour prompt is built"
+    }
+  },
+  {
+    "id": "scalp-sore-now",
+    "about": "No reaction, but the scalp is sore now: the referral, so no colour ideas to try and no colour prompts; every look is labelled best done by a colourist.",
+    "facts": { "safety.dye_reaction": "none", "safety.scalp_irritation": "now", "hair.chemical_history": ["none"], "colour.natural_level": 6, "hair.condition": "healthy", "colour.current_tone": "neutral", "hair.texture": "straight", "hair.strand": "medium", "pref.colour_upkeep": "high" },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "referral": "scalp-sore-now", "labels": { "darkest-brown-gloss": "needs_professional", "auburn-money-piece": "needs_professional" } },
+    "why": {
+      "referral": "safety.scalp_irritation now is a referral (scalp-sore-now)",
+      "labels.darkest-brown-gloss": "scalp-skin-problem (safety.scalp_irritation now) applies to every look",
+      "labels.auburn-money-piece": "after the referral every look is labelled best done by a colourist"
+    }
+  },
+  {
+    "id": "relaxer-two-weeks-ago",
+    "about": "A relaxer under two weeks ago on coily hair: colour-soon-after-chemical applies to every look; lifting also meets lightener-on-straightened.",
+    "facts": {
+      "hair.chemical_history": ["relaxer_perm"], "colour.natural_level": 2, "colour.current_level_lengths": 2, "colour.last_chemical_service": "weeks_0_2",
+      "hair.condition": "healthy", "safety.dye_reaction": "none", "safety.scalp_irritation": "none", "colour.current_tone": "neutral",
+      "hair.texture": "coily", "hair.strand": "medium", "pref.colour_upkeep": "high"
+    },
+    "request": { "kinds": ["colour"], "collections": ["salon"], "count": 4 },
+    "expect": { "labels": { "soft-black-gloss": "needs_professional", "caramel-balayage-chocolate": "needs_professional" } },
+    "why": {
+      "labels.soft-black-gloss": "lift 0, but colour-soon-after-chemical (last chemical service weeks_0_2) has no on",
+      "labels.caramel-balayage-chocolate": "lift 4: colour-soon-after-chemical, lightener-on-straightened and lift-3-4-any; the most cautious wins"
+    }
+  }
+]

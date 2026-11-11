@@ -1,0 +1,3155 @@
+{
+ "strings": {
+  "app.name": "Huecut",
+  "app.homeLink": "Huecut, sākums",
+  "app.skipToContent": "Pāriet uz saturu",
+  "app.opening.explore": "Atver sadaļu «Pārlūkot»",
+  "app.opening.saved": "Atver sadaļu «Saglabātie»",
+  "app.opening.help": "Atver sadaļu «Palīdzība»",
+  "nav.label": "Galvenā",
+  "nav.explore": "Pārlūkot",
+  "nav.myLook": "Mans tēls",
+  "nav.saved": "Saglabātie",
+  "nav.help": "Palīdzība",
+  "nav.settings": "Iestatījumi",
+  "sheet.close": "Aizvērt",
+  "sheet.expand": "Izvērst",
+  "sheet.collapse": "Sakļaut",
+  "settings.title": "Iestatījumi",
+  "settings.theme": "Noformējums",
+  "settings.themes.system": "Sistēmas",
+  "settings.themes.light": "Gaišais",
+  "settings.themes.dark": "Tumšais",
+  "settings.motion": "Kustība",
+  "settings.motionHint": "Iestatījums «Samazināt» izslēdz kustības lietotnē, pat ja ierīcē tās ir atļautas.",
+  "settings.motions.device": "Pielāgot ierīcei",
+  "settings.motions.reduce": "Samazināt",
+  "home.promiseLines.0": "Atrodi griezumu un krāsu,",
+  "home.promiseLines.1": "kas der taviem matiem,",
+  "home.promiseLines.2": "un uzzini, kāpēc.",
+  "home.subline": "Ieteikumi pēc tava foto un atbildēm. Bez maksas. Lietotne nekad neaugšupielādē tavas fotogrāfijas.",
+  "home.expectations": "Tavas bildes ar katru tēlu top tavā ChatGPT vai Gemini. Lietotne sagatavo vaicājumus un sakārto rezultātus.",
+  "home.findMyLook": "Atrast savu tēlu",
+  "home.continueLook": "Turpināt no vietas, kur paliki",
+  "home.startAgain.action": "Sākt no jauna",
+  "home.startAgain.title": "Sākt no jauna?",
+  "home.startAgain.body": "Tas aizstās šajā ierīcē saglabāto sesiju. Iepriekšējā paliks neskarta, līdz saglabāsi pirmo jauno atbildi vai fotogrāfiju.",
+  "home.startAgain.yes": "Jā, sākt no jauna",
+  "home.startAgain.no": "Paturēt esošo sesiju",
+  "home.explore": "Pārlūkot griezumus un krāsas",
+  "home.scrollCue": "Ritini",
+  "home.example": "Vispirms apskatīt piemēru",
+  "home.answersOnly": "Nav foto? Iegūsti idejas tikai pēc atbildēm",
+  "home.wallTitle": "Vairāk nekā 200 griezumu un ap 70 krāsu tēlu sievietēm un vīriešiem.",
+  "home.looks.frenchBob": "Franču bobs",
+  "home.looks.auburnMoneyPiece": "Kastaņbrūns money piece",
+  "home.looks.modernPompadour": "Modernais pompadūrs",
+  "home.looks.silverGloss": "Sudraba gloss",
+  "home.looks.italianBob": "Itāļu bobs",
+  "home.looks.afroBlowout": "Afro blowout",
+  "home.looks.curlyBobFringe": "Cirtains bobs ar priekšmatiem",
+  "home.looks.classicScissorTaper": "Klasiskais šķēru taper",
+  "home.looks.wolfCut": "Wolf cut",
+  "home.looks.burstFade": "Burst fade",
+  "home.looks.curtainFringeLob": "Lobs ar aizkaru priekšmatiem",
+  "home.looks.charcoalGrey": "Ogļu pelēks",
+  "home.looks.greyBlendBlonde": "Sirmo matu iepludināšana ar blondo toni",
+  "home.looks.modernPompadourFade": "Modernais pompadūrs ar fade",
+  "home.looks.longButterfly": "Garais butterfly griezums",
+  "home.looks.classicPixie": "Klasiskais pixie",
+  "home.lines.title": "Viss sākas ar tavas sejas līnijām.",
+  "home.lines.points.0": "Matu augšanas līnija, uzacis, žokļa līnija: iezīmētas tavā fotogrāfijā, tavā ierīcē.",
+  "home.lines.points.1": "Nekādu vērtējumu. Tikai tas, kam uzmanību pievērstu stilists.",
+  "home.lines.points.2": "Pēc tam — tieši taviem matiem piemeklēti griezumi un krāsas, katrs ar savu pamatojumu.",
+  "home.colour.title": "Godīga atbilde par katru matu krāsu.",
+  "home.colour.body": "Pie katras krāsu idejas uzzināsi, cik tā ir reāla taviem matiem, kāpēc tā ir un ko pajautāt savam koloristam.",
+  "home.colour.examples.0.name": "Zeltainais blonds",
+  "home.colour.examples.0.label": "Reālistiski",
+  "home.colour.examples.0.why": "Līdz diviem toņiem gaišāks uz veselīgiem, nekrāsotiem matiem.",
+  "home.colour.examples.1.name": "Plūmju violetais",
+  "home.colour.examples.1.label": "Vislabāk uzticēt koloristam",
+  "home.colour.examples.1.why": "Tik tumši mati vispirms ir jāpadara gaišāki, lai violetais tonis vispār būtu redzams.",
+  "home.colour.examples.2.name": "Mahagons",
+  "home.colour.examples.2.label": "Reālistiski",
+  "home.colour.examples.2.why": "Tas ir tuvu tavam pašreizējam toņa dziļumam, tāpēc mati nav jāpadara gaišāki.",
+  "home.colour.examples.3.name": "Bēšais blonds",
+  "home.colour.examples.3.label": "Nav pārliecības",
+  "home.colour.examples.3.why": "Trīs vai četrus toņus gaišāks, tāpēc tas ir atkarīgs no tavu matu vēstures.",
+  "home.closing.title": "Pēc tam ieraugi, kā tas izskatās tev.",
+  "home.closing.body": "Nokopē vaicājumu savā ChatGPT vai Gemini un salīdzini rezultātus blakus.",
+  "home.privacy": "Lietotne nekad neaugšupielādē tavas fotogrāfijas. Tā nodod kopiju vienīgi tavai izvēlētajai lietotnei, kad pieskaries «Kopīgot» vai «Lejupielādēt».",
+  "home.trademark": "ChatGPT ir OpenAI preču zīme, un Gemini ir Google preču zīme; Huecut nav saistīts ne ar vienu no tām.",
+  "inAppBrowser.message": "Šī lapa ir atvērta citā lietotnē. Fotogrāfijas, saglabāšana un kopīgošana labāk darbojas pārlūkā Safari vai Chrome.",
+  "inAppBrowser.copyLink": "Kopēt saiti",
+  "inAppBrowser.linkCopied": "Saite nokopēta",
+  "inAppBrowser.copyFailed": "Šī lietotne neļauj kopēt. Nospied un paturi saiti, lai to nokopētu:",
+  "inAppBrowser.howToOpen": "Kā to atvērt",
+  "inAppBrowser.howToOpenSteps": "Pieskaries šīs lietotnes izvēlnei (bieži tie ir trīs punktiņi vai kopīgošanas ikona). Pēc tam izvēlies «Atvērt pārlūkā», «Atvērt Safari» vai «Atvērt Chrome».",
+  "error.title": "Šo ekrānu neizdevās parādīt",
+  "error.body": "Kāda lietotnes daļa negaidīti pārstāja darboties. Lapas pārlādēšana parasti palīdz.",
+  "error.action": "Pārlādēt lapu",
+  "error.code": "Kļūdas kods: screen_failed",
+  "notFound.title": "Šajā adresē nav lapas",
+  "notFound.body": "Iespējams, saite ir novecojusi.",
+  "notFound.action": "Uz sākumu",
+  "explore.title": "Pārlūkot griezumus un krāsas",
+  "explore.illustrations": "Attēlos redzamie modeļi ir izdomāti. Attēli ir veidoti kā ilustrācijas.",
+  "explore.tabsLabel": "Ko vēlies apskatīt",
+  "explore.tabs.styles": "Griezumi",
+  "explore.tabs.colours": "Krāsas",
+  "explore.tabs.beards": "Bārdas",
+  "explore.showLegend": "Rādīt",
+  "explore.shows.salon": "Sieviešu griezumi",
+  "explore.shows.barbering": "Vīriešu griezumi",
+  "explore.shows.all": "Visi",
+  "explore.filters": "Filtri",
+  "explore.quickFilters": "Ātrie filtri",
+  "explore.allFilters": "Visi filtri",
+  "explore.clearFilters": "Noņemt filtrus",
+  "explore.searchLabel": "Meklēt pēc nosaukuma",
+  "explore.clearSearch": "Notīrīt meklēto",
+  "explore.groups.styles.length": "Garums",
+  "explore.groups.styles.texture": "Tekstūra",
+  "explore.groups.styles.fringe": "Priekšmati",
+  "explore.groups.styles.upkeep": "Uzturēšana",
+  "explore.groups.styles.works": "Piemērots",
+  "explore.groups.colours.family": "Krāsu gamma",
+  "explore.groups.colours.technique": "Tehnika",
+  "explore.groups.colours.upkeep": "Uzturēšana",
+  "explore.groups.beards.length": "Garums",
+  "explore.groups.beards.shape": "Forma",
+  "explore.options.length.short": "Īsi",
+  "explore.options.length.medium": "Pusgari",
+  "explore.options.length.long": "Gari",
+  "explore.options.texture.straight": "Taisni",
+  "explore.options.texture.wavy": "Viļņaini",
+  "explore.options.texture.curly": "Cirtaini",
+  "explore.options.texture.coily": "Sīki cirtaini",
+  "explore.options.fringe.fringe": "Ar priekšmatiem",
+  "explore.options.fringe.none": "Bez priekšmatiem",
+  "explore.options.upkeep.low": "Viegli uzturēt",
+  "explore.options.works.hairline": "Piemērots augstākai matu līnijai pie deniņiem",
+  "explore.options.works.fine": "Piemērots smalkiem matiem",
+  "explore.options.family.blonde": "Blondie toņi",
+  "explore.options.family.brunette": "Brūnie toņi",
+  "explore.options.family.red_copper": "Rudie un vara toņi",
+  "explore.options.family.black": "Melnie toņi",
+  "explore.options.family.grey_silver": "Pelēkie un sudraba toņi",
+  "explore.options.family.vivid": "Košie toņi",
+  "explore.options.beardLength.none": "Bez bārdas",
+  "explore.options.beardLength.stubble": "Rugāji",
+  "explore.options.beardLength.short": "Īsa",
+  "explore.options.beardLength.medium": "Vidēja garuma",
+  "explore.options.beardLength.long": "Gara",
+  "explore.options.shape.none": "Bez bārdas",
+  "explore.options.shape.fuller_sides": "Biezāka sānos",
+  "explore.options.shape.short_sides": "Īsāka sānos",
+  "explore.options.shape.short_along_jaw": "Īsa gar žokļa līniju",
+  "explore.options.shape.full_rounded": "Kupla un noapaļota",
+  "explore.options.shape.fuller_chin": "Biezāka pie zoda",
+  "explore.options.shape.pointed_chin": "Smaila pie zoda",
+  "explore.options.shape.ducktail": "Ducktail",
+  "explore.options.shape.goatee": "Kazbārdiņa",
+  "explore.options.shape.chin_strap": "Chin strap",
+  "explore.options.shape.moustache_only": "Tikai ūsas",
+  "explore.what.styles": "griezumi",
+  "explore.what.colours": "krāsojumi",
+  "explore.what.beards": "bārdas",
+  "explore.loading": "Ielādē katalogu",
+  "explore.empty.styles": "Katalogā vēl nav neviena griezuma.",
+  "explore.empty.colours": "Katalogā vēl nav neviena krāsojuma.",
+  "explore.empty.beards": "Katalogā vēl nav nevienas bārdas.",
+  "explore.caption.anyTexture": "jebkura tekstūra",
+  "explore.caption.textures.straight": "taisni",
+  "explore.caption.textures.wavy": "viļņaini",
+  "explore.caption.textures.curly": "cirtaini",
+  "explore.caption.textures.coily": "sīki cirtaini",
+  "explore.caption.beardShape.none": "bez bārdas",
+  "explore.caption.beardShape.fuller_sides": "biezāka sānos",
+  "explore.caption.beardShape.short_sides": "īsāka sānos",
+  "explore.caption.beardShape.short_along_jaw": "veidota gar žokļa līniju",
+  "explore.caption.beardShape.full_rounded": "kupla un noapaļota",
+  "explore.caption.beardShape.fuller_chin": "biezāka pie zoda",
+  "explore.caption.beardShape.pointed_chin": "smaila pie zoda",
+  "explore.caption.beardShape.ducktail": "«ducktail» forma",
+  "explore.caption.beardShape.goatee": "kazbārdiņa",
+  "explore.caption.beardShape.chin_strap": "«chin strap» stils",
+  "explore.caption.beardShape.moustache_only": "tikai ūsas",
+  "explore.views.front": "Skats no priekšas",
+  "explore.views.side": "Skats no sāniem",
+  "explore.views.back": "Skats no aizmugures",
+  "explore.models.straight_wavy": "taisni līdz viļņaini",
+  "explore.models.curly_coily": "cirtaini līdz sīki cirtaini",
+  "explore.detail.loading": "Ielādē aprakstu",
+  "explore.detail.picturesLabel": "Attēli",
+  "explore.detail.previous": "Iepriekšējais",
+  "explore.detail.next": "Nākamais",
+  "explore.detail.lengths": "Garumi",
+  "explore.detail.fade": "Fade",
+  "explore.detail.upkeep": "Uzturēšana",
+  "explore.detail.colour": "Matu krāsa",
+  "explore.detail.worksIf": "Piemērots taviem matiem, ja…",
+  "explore.detail.worksIfBeard": "Piemērots tavai bārdai, ja…",
+  "explore.detail.works.hairline": "tava matu līnija ir augstāka pie deniņiem",
+  "explore.detail.works.fine": "mati ir smalki",
+  "explore.detail.works.thick": "mati ir biezi",
+  "explore.detail.works.crown": "mati ir plānāki galvvidū",
+  "explore.detail.densities.low": "zems",
+  "explore.detail.densities.medium": "vidējs",
+  "explore.detail.densities.high": "augsts",
+  "explore.detail.beardZones.cheeks": "Vaigi",
+  "explore.detail.beardZones.chin": "Zods",
+  "explore.detail.beardZones.moustache": "Ūsas",
+  "explore.detail.beardZones.neck": "Kakls",
+  "explore.detail.beardZones.sideburns": "Bakbārdas",
+  "explore.detail.cheekLine": "Vaigu līnija",
+  "explore.detail.neckline": "Kakla līnija",
+  "explore.detail.cheekLines.natural": "Dabiska",
+  "explore.detail.cheekLines.low": "Zema",
+  "explore.detail.cheekLines.sharp": "Izteikta",
+  "explore.detail.necklines.natural": "Dabiska",
+  "explore.detail.necklines.two_fingers": "Divi pirksti virs ādamābola",
+  "explore.detail.necklines.high": "Augsta",
+  "explore.detail.trim": "Pielīdzināšana",
+  "explore.detail.daily": "Ikdienā",
+  "explore.detail.products": "Līdzekļi",
+  "explore.detail.pairs.beards": "Bārdas, kas piestāv",
+  "explore.detail.pairs.cuts": "Griezumi, kas piestāv",
+  "explore.detail.copyPrompt": "Kopēt uzvedni",
+  "explore.detail.promptCopied": "Uzvedne nokopēta",
+  "explore.detail.promptCopiedLive": "Uzvedne nokopēta. Tagad atver ChatGPT vai Gemini un ielīmē to.",
+  "explore.detail.promptSteps": "Ielīmē to parastā mākslīgā intelekta čatā kopā ar savu foto. Iegūto attēlu vari saglabāt šeit.",
+  "explore.detail.promptPreparing": "Sagatavo uzvedni",
+  "explore.detail.showPrompt": "Rādīt uzvedni",
+  "explore.detail.promptLabel": "Uzvedne",
+  "explore.detail.copyRefused": "Šī pārlūkprogramma neļāva nokopēt. Uzvedne ir iezīmēta lodziņā zemāk — nokopē to no turienes.",
+  "explore.detail.promptFailed": "Šim tēlam neizdevās izveidot uzvedni no kataloga.",
+  "explore.detail.showStylist": "Parādīt stilistam",
+  "explore.detail.save": "Saglabāt",
+  "explore.detail.findMyLook": "Atrast savu tēlu ar šo griezumu",
+  "explore.detail.adding": "Pievieno sadaļai «Mans tēls»",
+  "explore.detail.listFull": "Tavā sarakstā ir 8 idejas — tas ir maksimālais skaits. Noņem kādu, lai pievienotu šo.",
+  "explore.detail.addFailed": "Neizdevās atvērt sadaļu «Mans tēls». Pārlādē lapu, lai mēģinātu vēlreiz.",
+  "explore.detail.notFound.title": "Nav katalogā",
+  "explore.detail.notFound.body": "Šis tēls nav katalogā. Iespējams, tas ir pārdēvēts vai izņemts.",
+  "explore.detail.notFound.action": "Atpakaļ uz izpēti",
+  "explore.stylist.picturesLabel": "Tēla attēli no kataloga",
+  "explore.stylist.copyText": "Kopēt kā tekstu",
+  "explore.stylist.textCopied": "Lapa nokopēta",
+  "explore.stylist.textCopiedLive": "Stilista lapa nokopēta kā teksts.",
+  "explore.stylist.copyRefused": "Šī pārlūkprogramma neļāva nokopēt. Tā vietā izmanto «Saglabāt kā attēlu».",
+  "explore.stylist.saveImage": "Saglabāt kā attēlu",
+  "explore.stylist.saving": "Veido attēlu",
+  "explore.stylist.shared": "Stilista lapa kopīgota.",
+  "explore.stylist.downloaded": "Stilista lapa saglabāta lejupielādēs.",
+  "explore.stylist.saveFailed": "Šajā pārlūkprogrammā neizdevās izveidot attēlu. Joprojām vari izmantot «Kopēt kā tekstu».",
+  "explore.errors.not_built.title": "Šajā versijā nav iekļauts katalogs",
+  "explore.errors.not_built.body": "Šī lietotnes versija ir izveidota bez satura.",
+  "explore.errors.offline.title": "Esi bezsaistē",
+  "explore.errors.offline.body": "Šī kataloga daļa šajā ierīcē vēl nav atvērta. Pieslēdzies internetam, lai mēģinātu vēlreiz.",
+  "explore.errors.missing.title": "Trūkst daļas no kataloga",
+  "explore.errors.missing.body": "Katalogam nepieciešamais fails netika atrasts. Pārlādējot lapu, tiks ielādēta jaunākā versija.",
+  "explore.errors.failed.title": "Neizdevās ielādēt katalogu",
+  "explore.errors.failed.body": "Fails lejupielādes laikā tika bojāts. Mēģinot vēlreiz, parasti izdodas.",
+  "explore.errors.retry": "Mēģināt vēlreiz",
+  "consult.back": "Atpakaļ",
+  "consult.continue": "Turpināt",
+  "consult.starting": "Atver sadaļu «Mans tēls»",
+  "consult.notLoaded": "Neizdevās atvērt sadaļu «Mans tēls». Pirmajā reizē nepieciešams interneta savienojums.",
+  "consult.photoAlt": "Tavs galvenais foto",
+  "consult.steps.photo": "Pievieno savu foto",
+  "consult.steps.face": "Tava sejas kartīte",
+  "consult.steps.goal": "Tavs mērķis",
+  "consult.steps.questions": "Daži jautājumi",
+  "consult.steps.ideas": "Tavas idejas",
+  "consult.steps.try-on": "Pielaiko",
+  "consult.steps.board": "Tēlu dēlis",
+  "consult.tools.firstTime": "Tikai pirmajā reizē: tiek lejupielādēti sejas rīki (aptuveni 38 MB). Vislabāk ar Wi-Fi.",
+  "consult.tools.gettingReady": "Sagatavo sejas rīkus",
+  "consult.tools.cancel": "Atcelt lejupielādi",
+  "consult.tools.ready": "Sejas rīki ir gatavi",
+  "consult.tools.failed": "Neizdevās ielādēt sejas rīkus.",
+  "consult.tools.tryAgain": "Mēģināt vēlreiz",
+  "consult.tools.stopped": "Lejupielāde pārtrūka. Lejupielādēt vēlreiz?",
+  "consult.tools.stalled": "Lejupielāde apstājās. Lejupielādēt vēlreiz?",
+  "consult.tools.downloadAgain": "Lejupielādēt vēlreiz",
+  "consult.tools.bootFailed": "Neizdevās palaist sejas rīkus. Pārlādē lapu, lai iegūtu jaunāko versiju.",
+  "consult.tools.reload": "Pārlādēt lapu",
+  "consult.tools.unsupported": "Šajā pārlūkprogrammā sejas rīki nedarbojas. Idejas vari iegūt no savām atbildēm.",
+  "consult.tools.answersOnly": "Turpināt tikai ar atbildēm",
+  "consult.tools.missing.segmenter": "Matu kontūras noteikšana šajā ierīcē nav pieejama.",
+  "consult.tools.missing.hand": "Roku pārbaude šajā ierīcē nav pieejama.",
+  "consult.tools.missing.pose": "Ķermeņa pozas noteikšana šajā ierīcē nav pieejama.",
+  "consult.photo.guide.title": "Foto, kas der vislabāk",
+  "consult.photo.guide.lead": "Pietiek ar vienu skaidru foto no priekšpuses, bet vari pievienot arī citus leņķus. Nostājies aptuveni 1,5 m attālumā maigā dienasgaismā vai palūdz kādam tevi nofotografēt.",
+  "consult.photo.guide.good.front": "No priekšpuses",
+  "consult.photo.guide.good.side": "No sāniem",
+  "consult.photo.guide.good.back": "No aizmugures",
+  "consult.photo.guide.good.distance": "No lielāka attāluma",
+  "consult.photo.guide.avoidTitle": "Centies izvairīties",
+  "consult.photo.guide.avoid.close": "Pārāk tuvu",
+  "consult.photo.guide.avoid.hand": "Roka priekšā sejai",
+  "consult.photo.guide.avoid.turned": "Pagriezta galva",
+  "consult.photo.guide.avoid.hidden": "Mati aizsedz matu augšanas līniju",
+  "consult.photo.choose": "Izvēlies foto",
+  "consult.photo.camera": "Uzņem foto",
+  "consult.photo.drop": "Vari arī ievilkt foto šeit vai kādu ielīmēt.",
+  "consult.photo.privacy": "Lietotne nekad neaugšupielādē tavas fotogrāfijas. Tā nodod kopiju vienīgi tavai izvēlētajai lietotnei, kad pieskaries «Kopīgot» vai «Lejupielādēt».",
+  "consult.photo.withoutPhoto": "Turpināt bez foto",
+  "consult.photo.reloaded": "Šeit nav atvērts neviens foto.",
+  "consult.photo.clearest": "Mēs apskatījām tavus 15 skaidrākos foto. Pārējie paliek šeit — iestati kādu par galveno foto, lai to analizētu.",
+  "consult.photo.adding": "Pievienojam tavu foto",
+  "consult.photo.notPhoto": "Lietotnē var pievienot tikai foto, kas saglabāti JPEG, PNG, WebP vai HEIC formātā.",
+  "consult.photo.tooLarge": "Šis foto ir pārāk liels, lai to šeit atvērtu, tāpēc pievieno mazāka izmēra kopiju.",
+  "consult.photo.listTitle": "Tavi foto",
+  "consult.photo.main": "Galvenais foto",
+  "consult.photo.removeYes": "Noņemt foto",
+  "consult.photo.removeNo": "Paturēt foto",
+  "consult.photo.status.waiting": "Gaida analīzi",
+  "consult.photo.status.analysing": "Nosaka sejas punktus",
+  "consult.photo.status.listed": "Vēl nav analizēts. Iestati kā galveno foto, lai to analizētu.",
+  "consult.photo.status.ready": "Sejas punkti noteikti",
+  "consult.photo.issues.no_face": "Šajā foto neizdevās atrast seju. Iespējams, seja ir pārāk pagriezta vai aizsegta. Izmēģini foto ar skatu pret kameru.",
+  "consult.photo.issues.several_faces": "Šajā foto ir vairākas sejas. Izvēlies foto, kurā esi tikai tu.",
+  "consult.photo.issues.face_too_small": "Šajā foto tava seja ir par mazu. Tuvāk uzņemts foto sniegs precīzākus rezultātus.",
+  "consult.photo.issues.blurred": "Šis foto ir nedaudz izplūdis. Asāks foto sniegs stabilākus rezultātus.",
+  "consult.photo.issues.turned": "Šajā foto tava galva ir pagriezta, tāpēc nevaram noteikt sejas proporcijas. Izmēģini foto ar skatu pret kameru, aptuveni rokas stiepiena vai lielākā attālumā.",
+  "consult.photo.issues.hand_over_face": "Roka aizsedz daļu sejas. Vislabāk der foto, kurā seja ir skaidri redzama.",
+  "consult.photo.issues.big_smile": "Plats smaids nedaudz maina sejas formu. Atslābināta sejas izteiksme sniegs precīzākus rezultātus.",
+  "consult.photo.issues.close_selfie": "Uzņemts tuvplānā, tāpēc rezultāti ir aptuveni (tuvplāna foto). Foto no aptuveni 1,5 m attāluma sniegs precīzākus rezultātus.",
+  "consult.photo.issues.hairline_hidden": "Šajā foto matu augšanas līnija ir aizsegta, tāpēc ieteikumi, kuriem tā nepieciešama, tiek izlaisti.",
+  "consult.photo.errors.decode_failed": "Šajā pārlūkprogrammā neizdevās atvērt šo foto. Tā vietā pievieno JPEG kopiju. iPhone tālrunī to var iestatīt kameras opcijā «Most Compatible».",
+  "consult.photo.errors.out_of_memory": "Ierīcei pietrūka atmiņas, lai apstrādātu šo foto. Izmēģini mazāku foto.",
+  "consult.photo.errors.other": "Šo foto neizdevās analizēt. Izmēģini citu foto.",
+  "consult.colour.open": "Izmēģini matu krāsu savā foto",
+  "consult.colour.ready": "Tavs foto ir gatavs: izmēģini matu krāsu",
+  "consult.colour.title": "Izmēģini matu krāsu savā foto",
+  "consult.colour.realistic": "Vai tas ir reāli iespējams taviem matiem? To noskaidrosim ar dažiem jautājumiem.",
+  "consult.goal.goalLegend": "Ko tu vēlētos mainīt?",
+  "consult.goal.goals.cut": "Griezums",
+  "consult.goal.goals.colour": "Matu krāsa",
+  "consult.goal.goals.both": "Abus",
+  "consult.goal.collectionLegend": "Rādīt",
+  "consult.goal.collections.salon": "Sieviešu griezumi",
+  "consult.goal.collections.barbering": "Vīriešu griezumi",
+  "consult.goal.collections.all": "Visi",
+  "consult.goal.needBoth": "Izvēlies, ko mainīt un ko rādīt, un tad turpini.",
+  "consult.questions.next": "Nākamais jautājums",
+  "consult.questions.skip": "Pāriet uz manām idejām",
+  "consult.questions.tapHint": "Pieskaries atbildei, lai turpinātu",
+  "consult.questions.none": "Šai izvēlei jautājumu nav.",
+  "help.title": "Palīdzība",
+  "help.all": "Visa palīdzība",
+  "help.topicsLabel": "Palīdzības tēmas",
+  "help.topics.privacy": "Privātums",
+  "help.topics.method": "Kā tas tiek mērīts",
+  "help.topics.prompts": "Promptu lietošana",
+  "help.topics.credits": "Pateicības un licences",
+  "help.how.heading": "Kā tas darbojas",
+  "help.how.steps.0": "Pievieno foto. Lietotne tavā ierīcē nosaka sejas punktus un matu kontūru.",
+  "help.how.steps.1": "Atbildi uz dažiem jautājumiem par saviem matiem un ikdienas kopšanu.",
+  "help.how.steps.2": "Apskati idejas, kas piemērotas taviem matiem, ar skaidrojumu un jautājumiem, ko uzdot savam stilistam.",
+  "help.how.steps.3": "Pielaiko tās. Lietotne sagatavo promptus, un tavi attēli top tavā ChatGPT vai Gemini. Pievieno tos savam dēlim.",
+  "help.feedback.heading": "Atsauksmes",
+  "help.feedback.body": "Pastāsti, kas izdevās un kas ne. Tas noderēs nākamajiem lietotājiem.",
+  "help.privacy.metricsHeading": "Ko lietotne nedara",
+  "help.privacy.noAccounts": "Šeit nav ne analītikas, ne lietotāju kontu.",
+  "help.privacy.metrics": "Rīkam MediaPipe, kas nosaka sejas punktus, ir iebūvēta lietojuma metrika. Lietotne to bloķē, tāpēc dati nekad netiek nosūtīti.",
+  "help.privacy.blockedUnknown": "Šīs sesijas rādījumu neizdevās nolasīt.",
+  "help.privacy.storedHeading": "Kas un kur tiek glabāts",
+  "help.privacy.stored.0.what": "Tava saglabātā sesija",
+  "help.privacy.stored.0.where": "Saglabāšana notiek automātiski. Atverot Huecut, par tevi nekas netiek saglabāts. Saglabāšana sākas tikai ar pirmo atbildi vai fotoattēlu. Tiek saglabātas tavas atbildes, idejas, AI attēli un viens samazināts tavas sejas fotoattēls. Šim fotoattēlam nav kameras datu un norāžu par uzņemšanas vietu. Viss tiek glabāts tavā pārlūkā šajā ierīcē. Pēc noklusējuma dati paliek, līdz tos izdzēs vai tavs pārlūks tos iztīra, tāpēc tā nav rezerves kopija. Ja izvēlies «Glabāt 24 stundas», tie tiek dzēsti nākamajā lietotnes atvēršanas reizē pēc 24 stundām. Ja izvēlies «Dzēst un nesaglabāt», visas saglabātās kopijas tiek dzēstas. Nekas cits netiek saglabāts, kamēr no jauna neizvēlies glabāšanas laiku.",
+  "help.privacy.stored.1.what": "Tavi pārējie fotoattēli, priekšskatījumi un matu maskas",
+  "help.privacy.stored.1.where": "Tikai šajā lapā. Tie pazūd, tiklīdz tos noņem, sāc no jauna vai aizver cilni.",
+  "help.privacy.stored.2.what": "Izlase un iestatījumi",
+  "help.privacy.stored.2.where": "Saglabāto vienumu nosaukumi, tēmas un animāciju iestatījumi, kā arī pēdējie sadaļas «Atklāj» filtri tavā pārlūkā. Nekā personīga. Tie paliek, līdz tos izdzēs.",
+  "help.privacy.stored.3.what": "Lietotnes faili, apskatītie bibliotēkas attēli un sejas rīki",
+  "help.privacy.stored.3.where": "Tavā pārlūkā, lai lietotne atvērtos ātri un darbotos bezsaistē. Tie glabājas, līdz tos izdzēs vai pārlūks tos iztīra.",
+  "help.privacy.deleteHint": "Poga «Dzēst manus datus» sadaļā «Saglabātais» to visu izdzēš.",
+  "help.privacy.safari": "Safari var iztīrīt saglabātos datus, ja lapa nav apmeklēta 7 dienas.",
+  "help.privacy.sharedOrigin": "Šī vietne dala tīmekļa adresi ar citām šī paša autora nelielajām vietnēm. Vietnes ar vienu adresi var nolasīt viena otras pārlūka krātuvi un mainīt šīs lietotnes bezsaistes kopiju. Ja nevēlies, lai tava sesija šeit tiktu saglabāta, izvēlies «Dzēst un nesaglabāt»; tas neaizsargā bezsaistes kopiju.",
+  "help.privacy.testHeading": "Pārbaudi pats",
+  "help.privacy.airplane": "Kad sejas rīki ir vienreiz ielādējušies, ieslēdz lidojuma režīmu. Lietotne joprojām atvērsies un nolasīs tavu fotoattēlu. Attēliem un papildu rīkiem, kurus vēl neesi atvēris, būs nepieciešams interneta pieslēgums.",
+  "help.privacy.offline": "Pēc pirmā apmeklējuma viss, ko jau esi izmantojis, darbojas bezsaistē.",
+  "help.method.intro": "Lietotne tavā ierīcē nosaka sejas punktus un matu kontūru, pārvēršot tos dažās proporcijās. Tās tiek salīdzinātas tikai ar tavu seju, nekad ar kādu citu.",
+  "help.method.estimatesHeading": "Aptuvens novērtējums",
+  "help.method.estimates": "Katrs skaitlis ir tikai aptuvens. Bez kameras datiem nevaram noteikt, cik tālu tā atradās, tāpēc uztver šos rādījumus kā labu minējumu. Tuvplānā uzņemts fotoattēls izkropļo proporcijas. Kad to spējam pamanīt, rādījumā ir teikts «aptuveni (tuvplāna foto)». Uztver katru rezultātu kā viedokli, ko pārrunāt ar savu stilistu.",
+  "help.method.hintsHeading": "Norādes",
+  "help.method.hints": "Matu krāsas rādījumi ir tikai orientējoši, jo apgaismojums fotoattēlā tos maina. Tavs ādas apakštonis vienmēr ir tava atbilde — no fotoattēla tas nekad netiek nolasīts.",
+  "help.method.preferenceHeading": "Mūsu stila pieeja",
+  "help.method.preference": "Tavi mati, tava ikdiena un tavas vēlmes ir pirmajā vietā. Kad fotoattēls sniedz sejas proporciju datus, lietotne atlasītos griezumus sarindo arī pēc tā, kā katrs griezums izskatās ap tavu seju. Tā ir šīs lietotnes pašas stila pieeja, un nevienai sejai nekas nav jāmaina. Ja pastāsti, ko vēlies, vari savas proporcijas saglabāt, akcentēt vai līdzsvarot. Ja īpašu vēlmju nav, saņemsi ieteikumus no visa pa druskai.",
+  "help.method.phonesHeading": "Tālruņi un planšetdatori",
+  "help.method.phones": "Šajā versijā 3D skats un funkcija «Precizēt matu kontūru» darbojas tikai datoros. Testā, kurā dators tika mākslīgi palēnināts, lai atdarinātu tālruni, šīs funkcijas patērēja pārāk daudz atmiņas vai darbojās pārāk lēni. Šis tests ir provizorisks, un lietotne nav pārbaudīta uz īstiem tālruņiem.",
+  "help.method.labelsHeading": "Krāsu norādes",
+  "help.method.labels": "Katrai matu krāsas idejai ir viena no trim norādēm: «Reālistiski», «Nav pārliecības» vai «Vislabāk uzticēt koloristam». Katra no tām paskaidro iemeslu un to, ko jautāt. Norāde «Reālistiski» nekad netiek rādīta pēc minējuma. Ja trūkstoša atbilde to varētu mainīt, būs redzama norāde «Nav pārliecības», līdz atbildēsi.",
+  "help.method.silver": "Ja mati lielākoties ir sirmi, sudraba gloss galvenokārt tonē tavus esošos sirmos matus. Norāde to aprēķina kā gaišināšanu no tavām tumšākajām šķipsnām, tāpēc tā var būt piesardzīgāka, nekā patiesībā nepieciešams.",
+  "help.method.toolsHeading": "Rīki šajā ierīcē",
+  "help.method.toolOn": "Darbojas šajā ierīcē.",
+  "help.method.tools.depth": "Skatīt 3D",
+  "help.method.tools.sam": "Precizēt matu kontūru",
+  "help.method.toolsReading": "Pārbauda šo ierīci.",
+  "help.prompts.stepsHeading": "No prompta līdz attēlam",
+  "help.prompts.steps.0": "Pie idejas spied «Kopēt promptu».",
+  "help.prompts.steps.1": "Atver ChatGPT vai Gemini un sāc jaunu čatu.",
+  "help.prompts.steps.2": "Pievieno savu fotoattēlu un ielīmē promptu.",
+  "help.prompts.steps.3": "Saglabā izveidoto attēlu, atgriezies šeit un pievieno to sadaļā «Pielaiko».",
+  "help.prompts.tipsHeading": "Padomi",
+  "help.prompts.tips.0": "Katram tēlam sāc jaunu čatu.",
+  "help.prompts.tips.1": "Vienmēr pievieno savu īsto fotoattēlu, nekad AI attēlu.",
+  "help.prompts.tips.2": "Mēs lūdzam AI saglabāt tavus sejas pantus, ādas toni, acu krāsu un brilles. Tam jāsaglabā arī tava matu augšanas līnija, biezums, loku forma, bārda un fons.",
+  "help.prompts.tips.3": "Ja seja izskatās citāda, poga «Seja izskatās citādi?» nokopē īsu labošanas promptu tam pašam čatam.",
+  "help.prompts.tips.4": "AI nereti parāda biezākus matus vai pilnīgāku matu augšanas līniju, nekā tev ir. Tavs stilists zina, ko ar taviem matiem patiesībā var panākt.",
+  "help.credits.authorHeading": "Izstrādāja Michael",
+  "help.credits.author": "Huecut dizainu un izstrādi veidojis Michael (SacitDev vietnē GitHub).",
+  "help.credits.keepNotice": "Ja atkārtoti izmanto vai maini šo kodu, saskaņā ar MIT licenci tev jāsaglabā šis paziņojums. Copyright (c) 2026 Michael (SacitDev)",
+  "help.credits.app": "Huecut ir bezmaksas un atvērtā pirmkoda lietotne saskaņā ar MIT licenci.",
+  "help.credits.pictures": "Bibliotēkā redzamie modeļi ir izdomāti. To attēli ir veidoti kā ilustrācijas. Tiem ir tāda pati licence kā lietotnei.",
+  "help.credits.heading": "Rīki un fonti, ko izmanto lietotne",
+  "help.credits.items.0": "MediaPipe Tasks Vision ar sejas, roku, pozu un matu modeļiem: Apache 2.0.",
+  "help.credits.items.1": "ONNX Runtime Web: MIT.",
+  "help.credits.items.2": "Transformers.js: Apache 2.0.",
+  "help.credits.items.3": "Depth Anything V2 Small: Apache 2.0.",
+  "help.credits.items.4": "SAM 2.1 Hiera Tiny: Apache 2.0.",
+  "help.credits.items.5": "React, XState un Three.js: MIT.",
+  "help.credits.items.6": "Comlink: Apache 2.0.",
+  "help.credits.items.7": "Fonti Bricolage Grotesque un Figtree: SIL Open Font License 1.1.",
+  "help.credits.items.8": "Phosphor ikonas: MIT.",
+  "help.credits.more": "Visas licences pilnā apjomā:",
+  "help.credits.licenceLinks.thirdParty": "rīki, fonti un modeļi",
+  "help.credits.licenceLinks.own": "Huecut (MIT)",
+  "help.install.heading": "Lieto kā lietotni",
+  "help.install.body": "Vari pievienot Huecut savam tālrunim vai datoram un atvērt to kā lietotni. Arī instalēta lietotne datus glabā tikai šajā ierīcē, tāpēc tā nav rezerves kopija. iPhone instalēšana samazina iespēju, ka pārlūks izdzēsīs tavus datus, taču tas joprojām var notikt.",
+  "help.install.button": "Instalēt Huecut",
+  "help.install.ios": "«Kopīgot», pēc tam «Pievienot sākuma ekrānam»",
+  "help.offline": "Tu esi bezsaistē. Sadaļa «Atklāj» un viss, ko jau esi izmantojis, joprojām darbojas.",
+  "save.heading": "Šīs sesijas saglabāšana",
+  "save.shared": "Saglabājot tiek paturētas tavas atbildes un mazāks sejas fotoattēls. Tos var redzēt ikviens šī pārlūka lietotājs, tāpēc neizmanto šo iespēju koplietošanas datorā.",
+  "save.told": "Kad saglabāšana ir ieslēgta, tiek saglabātas arī tavas idejas un visas pievienotās AI bildes. Tās paliek šīs ierīces pārlūkā, līdz tās izdzēs vai pārlūks tās iztīra. Tāpēc tā nav rezerves kopija.",
+  "save.more": "Kas tiek saglabāts",
+  "save.choose": "Cik ilgi glabāt šo sesiju",
+  "save.modes.until_deleted": "Glabāt, līdz izdzēšu",
+  "save.modes.day": "Glabāt 24 stundas",
+  "save.modes.off": "Dzēst un nesaglabāt",
+  "save.rules": "Izvēloties «Glabāt 24 stundas», dati tiek dzēsti nākamajā lietotnes atvēršanas reizē pēc 24 stundām. Izvēloties «Dzēst un nesaglabāt», saglabātā kopija tiek tūlīt neatgriezeniski dzēsta. Pēc tam nekas netiek saglabāts, kamēr no jauna neizvēlies termiņu.",
+  "save.change": "Mainīt saglabāšanu",
+  "save.hide": "Aizvērt",
+  "save.replace": "Aizstāt",
+  "save.start": "Atrast savu tēlu",
+  "save.example": "Tu skaties piemēru, tāpēc nekas netiek saglabāts.",
+  "save.status.nothing": "Pagaidām nekas nav saglabāts.",
+  "save.status.saving": "Saglabā...",
+  "save.status.untilDeleted": "Saglabāts šajā ierīcē, līdz to izdzēsīsi.",
+  "save.status.underAnHour": "Atlicis mazāk par stundu.",
+  "save.status.off": "Šajā ierīcē nav saglabāts.",
+  "save.status.undeleted": "Neizdevās izdzēst. Aizver citas cilnes un pārlādē lapu.",
+  "save.status.lastGood": "Neizdevās saglabāt. Pēdējais saglabātais variants joprojām ir šeit.",
+  "save.status.notSaved": "Neizdevās saglabāt. Paturi šo cilni atvērtu.",
+  "save.status.taken": "Šeit jau ir saglabāta cita sesija. Vai aizstāt to?",
+  "saved.title": "Saglabātie",
+  "saved.favourites.heading": "Tava izlase",
+  "saved.favourites.groups.cut": "Griezumi",
+  "saved.favourites.groups.colour": "Krāsojumi",
+  "saved.favourites.groups.beard": "Bārdas",
+  "saved.favourites.empty": "Izlasē vēl nekā nav. Sadaļā «Atklāj» pieskaries sirsniņai pie griezuma, krāsu tēla vai bārdas, lai saglabātu to šeit.",
+  "saved.favourites.explore": "Pārlūkot griezumus un krāsas",
+  "saved.favourites.failed": "Neizdevās parādīt tavu izlasi. Pirmajā reizē ir nepieciešams interneta savienojums.",
+  "saved.session.heading": "Šī sesija",
+  "saved.data.heading": "Tavi dati šajā ierīcē",
+  "saved.data.delete": "Dzēst manus datus",
+  "saved.data.ask": "Tas dzēsīs tavu izlasi, kā arī motīva un kustību iestatījumus. Tiks dzēsta tava saglabātā sesija ar fotoattēlu un bildēm, kā arī tava saglabāšanas izvēle. Tiks dzēstas arī bibliotēkā apskatītās bildes un lejupielādētie sejas rīki. Tiks noņemti arī fotoattēli, kas atvērti sadaļā «Mans tēls». Ja izvēlējies «Dzēst un nesaglabāt», šī izvēle paliks spēkā, tāpēc nekas netiks saglabāts, kamēr no jauna neizvēlēsies termiņu.",
+  "saved.data.yes": "Jā, dzēst manus datus",
+  "saved.data.no": "Paturēt manus datus",
+  "saved.data.busy": "Dzēš tavus datus",
+  "saved.data.done": "Tavi dati no šīs ierīces ir izdzēsti.",
+  "saved.data.partly": "Daļu tavu datu neizdevās izdzēst. Aizver citas šīs lietotnes cilnes un mēģini vēlreiz.",
+  "saved.example.badge": "Piemērs",
+  "saved.example.another": "Izmēģināt citu modeli",
+  "saved.example.mine": "Sākt ar savu fotoattēlu",
+  "saved.example.failed": "Neizdevās atvērt piemēru. Pirmajā reizē ir nepieciešams interneta savienojums.",
+  "saved.example.tryAgain": "Mēģināt vēlreiz",
+  "tryOn.intro": "Ieraugi, kā šie tēli izskatās tev, savā ChatGPT vai Gemini. Izvēlies, kā vēlies tos apskatīt.",
+  "tryOn.tabs.label": "Veidi, kā pielaikot tēlus",
+  "tryOn.tabs.names.together": "Visus kopā",
+  "tryOn.tabs.names.single": "Pa vienam",
+  "tryOn.tabs.names.pictures": "Manas bildes",
+  "tryOn.tabs.names.tips": "Padomi",
+  "tryOn.cards.howMany": "Cik tēlu vienā bildē?",
+  "tryOn.cards.onCard": "Uz kartītes:",
+  "tryOn.cards.steps.touch": "Nospied 1, pēc tam 2 un izvēlies ChatGPT vai Gemini. Ielīmē uzvedni, nosūti un saglabā izveidoto kartīti. Sarakstā nav ChatGPT vai Gemini? Saglabā failus turpat, pēc tam nospied «Kopēt», atver ChatGPT vai Gemini, pievieno tos un ielīmē.",
+  "tryOn.cards.steps.touchNoPhoto": "Nospied 1, pēc tam 2 un izvēlies ChatGPT vai Gemini. Pievieno tur savus fotoattēlus, ielīmē uzvedni, nosūti un saglabā izveidoto kartīti. Sarakstā nav ChatGPT vai Gemini? Saglabā lapu turpat, pēc tam nospied «Kopēt», atver ChatGPT vai Gemini, pievieno to kopā ar saviem fotoattēliem un ielīmē.",
+  "tryOn.cards.steps.desktop": "Nokopē uzvedni un atver čatu. Pievieno savus fotoattēlus un paraugu lapu, ielīmē uzvedni un nosūti. Saglabā izveidoto kartīti.",
+  "tryOn.cards.steps.desktopNoPhoto": "Nokopē uzvedni un atver čatu. Pievieno savus fotoattēlus un paraugu lapu, ielīmē uzvedni un nosūti. Saglabā izveidoto kartīti.",
+  "tryOn.cards.share": "2 Kopīgot fotoattēlus un paraugu lapu",
+  "tryOn.cards.shareSheet": "2 Kopīgot paraugu lapu",
+  "tryOn.cards.downloadSheet": "Lejupielādēt paraugu lapu",
+  "tryOn.cards.downloadPhotos": "Lejupielādēt manus fotoattēlus",
+  "tryOn.cards.sheetSaved": "Paraugu lapa ir tavās lejupielādēs.",
+  "tryOn.cards.photosSaved": "Tavi fotoattēli ir tavās lejupielādēs.",
+  "tryOn.cards.shared": "Tavi faili tika nosūtīti uz izvēlēto lietotni.",
+  "tryOn.cards.downloaded": "Tavi faili ir tavās lejupielādēs. Pievieno tos ChatGPT vai Gemini.",
+  "tryOn.cards.sheetFailed": "Šajā pārlūkā neizdevās izveidot paraugu lapu. Joprojām vari mēģināt pa vienam.",
+  "tryOn.cards.disclosure": "Šīs ir mākslīgā intelekta bildes – tēlu ilustrācijas. Mākslīgais intelekts var mainīt nosaukumu vai seju, tāpēc salīdzini kartīti ar šo sarakstu.",
+  "tryOn.cards.none": "Pagaidām nav nekā, ko iekļaut kartītē.",
+  "tryOn.handoff.steps.touch": "Nospied 1, pēc tam 2 un izvēlies ChatGPT vai Gemini. Ielīmē uzvedni un nosūti. Sarakstā nav ChatGPT vai Gemini? Nospied «Kopēt», atver ChatGPT vai Gemini, pievieno tur savu fotoattēlu un ielīmē.",
+  "tryOn.handoff.steps.touchNoPhoto": "Nospied 1, tad atver ChatGPT vai Gemini un pievieno tur savu foto. Ielīmē uzvedni un nosūti.",
+  "tryOn.handoff.steps.desktop": "Atver čatu, pievieno foto, ielīmē uzvedni un nosūti.",
+  "tryOn.handoff.steps.desktopNoPhoto": "Atver čatu, pievieno savu foto, ielīmē uzvedni un nosūti.",
+  "tryOn.handoff.privacy": "Lietotne nekad neaugšupielādē tavas fotogrāfijas. Tā nodod kopiju vienīgi tavai izvēlētajai lietotnei, kad pieskaries «Kopīgot» vai «Lejupielādēt».",
+  "tryOn.handoff.copyPrompt": "1 Kopēt uzvedni",
+  "tryOn.handoff.sharePhoto": "2 Kopīgot foto",
+  "tryOn.handoff.openAnApp": "2 Atvērt ChatGPT vai Gemini",
+  "tryOn.handoff.preparing": "Sagatavojam tavu foto",
+  "tryOn.handoff.downloadPhoto": "Lejupielādēt foto mākslīgajam intelektam",
+  "tryOn.handoff.copyOpenChatGpt": "Kopēt un atvērt ChatGPT",
+  "tryOn.handoff.copyOpenGemini": "Kopēt un atvērt Gemini",
+  "tryOn.handoff.newTab": "(atveras jaunā cilnē)",
+  "tryOn.handoff.shared": "Tavs foto ir nosūtīts uz izvēlēto lietotni.",
+  "tryOn.handoff.downloaded": "Tavs foto ir lejupielādēs. Pievieno to ChatGPT vai Gemini.",
+  "tryOn.handoff.photoFailed": "Šajā pārlūkprogrammā neizdevās sagatavot tavu foto. Pievieno to ChatGPT vai Gemini manuāli.",
+  "tryOn.handoff.selectAll": "Atlasīt visu",
+  "tryOn.keepList": "Mēs lūdzam AI saglabāt tavus sejas pantus, ādas toni, acu krāsu un brilles. Tam jāsaglabā arī tava matu augšanas līnija, biezums, loku forma, bārda un fons.",
+  "tryOn.referral": "Vislabāk uzticēt koloristam",
+  "tryOn.details.loading": "Sagatavojam uzvednes",
+  "tryOn.details.failed": "Neizdevās ielādēt uzvednes. Pirmajā reizē ir vajadzīgs interneta savienojums.",
+  "tryOn.details.retry": "Mēģināt vēlreiz",
+  "tryOn.pair.title": "Pielaikot kopā",
+  "tryOn.pictures.intro": "Saglabā katru čatā izveidoto bildi un pievieno to šeit. Tās nonāks tavā tēlu dēlī.",
+  "tryOn.pictures.touchHow": "Lai saglabātu bildi, nospied un paturi to, pēc tam izvēlies «Saglabāt fotoattēlos».",
+  "tryOn.pictures.list": "Tavi tēli",
+  "tryOn.grids.title": "Vairākas bildes uzreiz",
+  "tryOn.grids.intro": "Viena uzvedne lūdz izveidot līdz 4 tēliem vienā bildē bez teksta. Pievieno šo bildi šeit, un lietotne to sadalīs pa vienai bildei katram tēlam.",
+  "tryOn.grids.asks": "Tēli šajā bildē: no kreisās uz labo un no augšas uz leju:",
+  "tryOn.grids.add": "Pievienot šo bildi",
+  "tryOn.grids.replace": "Pievienot citu bildi",
+  "tryOn.grids.cutting": "Sadalām bildi daļās",
+  "tryOn.grids.lost": "Šī bilde vairs nav šajā ierīcē. Pievieno to vēlreiz, lai sadalītu daļās.",
+  "tryOn.grids.confirmTitle": "Kuru tēlu attēlo katra daļa?",
+  "tryOn.grids.confirmHint": "Pārvieto nosaukumus, līdz katrs atrodas pie savas daļas. Nosaukumi tiks piesaistīti tikai tad, kad apstiprināsi.",
+  "tryOn.grids.moveEarlier": "Pārvietot atpakaļ",
+  "tryOn.grids.moveLater": "Pārvietot tālāk",
+  "tryOn.grids.confirm": "Piesaistīt šos nosaukumus",
+  "tryOn.grids.attached": "Nosaukumi piesaistīti. Katra daļa tagad ir sava tēla bilde, ja vien tēlam jau nebija savas bildes.",
+  "tryOn.grids.tilesWrong": "Daļas neizskatās, kā vajadzētu?",
+  "tryOn.grids.perIdea": "Ja vēlies atsevišķu bildi katram tēlam, izmanto «Pa vienam» un pievieno bildes šeit paredzētajās vietās.",
+  "tryOn.looks.intro": "Viena uzvedne katram tēlam ļauj iegūt tuvāku bildi.",
+  "tryOn.slot.add": "Pievienot bildi",
+  "tryOn.slot.replace": "Aizstāt bildi",
+  "tryOn.slot.remove": "Noņemt bildi",
+  "tryOn.slot.dropHint": "Vai ielīmē bildi (Ctrl+V) vai ievelc to šeit.",
+  "tryOn.slot.notImage": "Šis fails nav bilde. Izvēlies JPEG, PNG vai WebP bildi.",
+  "tryOn.slot.tooLarge": "Šī bilde ir pārāk liela, lai to šeit atvērtu, tāpēc pievieno mazāku kopiju.",
+  "tryOn.repair.button": "Seja izskatās citāda?",
+  "tryOn.repair.copied": "Labojuma uzvedne nokopēta. Ielīmē to tajā pašā čatā.",
+  "tryOn.repair.hint": "Nokopē īsu uzvedni tam pašam čatam, lūdzot mākslīgajam intelektam sākt no jauna ar tavu foto.",
+  "tryOn.repair.refused": "Šī pārlūkprogramma neļāva nokopēt. Nokopē šo uzvedni manuāli:",
+  "tryOn.tips.list.0": "Katram tēlam sāc jaunu čatu.",
+  "tryOn.tips.list.1": "Vienmēr pievieno savu īsto fotoattēlu, nekad AI attēlu.",
+  "tryOn.tips.honest": "AI nereti parāda biezākus matus vai pilnīgāku matu augšanas līniju, nekā tev ir. Tavs stilists zina, ko ar taviem matiem patiesībā var panākt.",
+  "tryOn.next": "Skatīt bildes līdzās",
+  "tryOn.board.empty": "Tavs tēlu dēlis ir tukšs. Saglabā mākslīgā intelekta čatā izveidotās bildes un pievieno tās sadaļā «Pielaikot».",
+  "tryOn.board.addPictures": "Pievienot bildes",
+  "tryOn.board.tilesLabel": "Tavi tēli",
+  "tryOn.board.noPicture": "Bildes vēl nav",
+  "tryOn.board.compareLabel": "Tavs foto vai mākslīgā intelekta bilde",
+  "tryOn.board.compareHint": "Velc pa kreisi, lai redzētu vairāk mākslīgā intelekta bildes, pa labi – lai redzētu vairāk sava foto.",
+  "tryOn.board.photoAlt": "Tavs foto",
+  "tryOn.board.hairOnly": "Tikai matu versija",
+  "tryOn.board.hairOnlyHint": "Saglabā tavu dabisko sejas ādu un fonu, piešķirot mākslīgā intelekta bildes matu krāsu.",
+  "tryOn.board.hairOnlyBusy": "Veidojam tikai matu versiju",
+  "tryOn.board.hairOnlyOff": "Tikai matu versijai ir nepieciešama matu kontūra no tava foto, kas šajā ierīcē vēl nav sagatavota.",
+  "tryOn.board.hairOnlyNoHair": "Šajā mākslīgā intelekta bildē netika atrasti mati, tāpēc tikai matu versija nav pieejama.",
+  "tryOn.board.save": "Saglabāt tēlu dēli",
+  "tryOn.board.saving": "Veidojam tēlu dēļa bildi",
+  "tryOn.board.shared": "Tēlu dēlis ir kopīgots.",
+  "tryOn.board.downloaded": "Tēlu dēlis saglabāts tavās lejupielādēs.",
+  "tryOn.board.saveFailed": "Šajā pārlūkprogrammā neizdevās izveidot tēlu dēļa bildi.",
+  "tryOn.board.feedback": "Pastāsti, kā tev veicās",
+  "tryOn.board.feedbackHint": "Jaunā cilnē atver jaunu pieteikumu GitHub. Nekas no šīs sesijas netiek nosūtīts: ne foto, ne atbildes.",
+  "ideas.count.label": "Cik ideju?",
+  "ideas.count.fewer": "Mazāk",
+  "ideas.count.more": "Vairāk",
+  "ideas.count.unit": "idejas",
+  "ideas.count.bothHint": "Puse ir griezumi un pārējie – krāsu tēli; nepāra skaita gadījumā būs par vienu griezumu vairāk.",
+  "ideas.colours.legend": "Matu krāsa tavos rezultātos",
+  "ideas.colours.hint": "Katrai idejai, uzvednei un kartītei zemāk.",
+  "ideas.colours.modes.keep": "Saglabāt manu matu krāsu",
+  "ideas.colours.modes.one": "Viena krāsa visiem",
+  "ideas.colours.modes.pick": "Izvēlēties krāsas manā vietā",
+  "ideas.colours.which": "Kuru krāsu?",
+  "ideas.colours.noneFits": "Neviena no šīm krāsām neatbilst tam, ko norādīji, tāpēc tavas idejas paliek tavā pašreizējā matu krāsā.",
+  "ideas.colours.referralKept": "Tāpēc tavas idejas paliek tavā pašreizējā matu krāsā.",
+  "ideas.colours.keep": "Saglabāt manu matu krāsu",
+  "ideas.sections.cut": "Griezumi",
+  "ideas.sections.colour": "Krāsas",
+  "ideas.rank.ourPick": "Mūsu izvēle",
+  "ideas.rank.alsoWorth": "Arī vērts izmēģināt",
+  "ideas.rank.yours": "Tu to pievienoji",
+  "ideas.because": "Jo…",
+  "ideas.feasibility.today": "Piemērots taviem matiem jau šodien",
+  "ideas.feasibility.poorFit": "Nav labākā izvēle tavai matu tekstūrai",
+  "ideas.feasibility.adaptingFor.texture": "tavai matu tekstūrai",
+  "ideas.feasibility.adaptingFor.density": "tavam matu biezumam",
+  "ideas.nouns.hair.texture": "matu tekstūra",
+  "ideas.nouns.hair.current_length": "pašreizējais garums",
+  "ideas.nouns.hair.density": "matu biezums",
+  "ideas.nouns.hair.strand": "mata biezums",
+  "ideas.nouns.hair.condition": "matu stāvoklis",
+  "ideas.nouns.hair.chemical_history": "krāsošanas vēsture",
+  "ideas.nouns.colour.natural_level": "dabīgais toņa līmenis",
+  "ideas.nouns.colour.current_level_lengths": "toņa līmenis matu garumā",
+  "ideas.nouns.colour.current_tone": "matu tonis šobrīd",
+  "ideas.nouns.look.undertone": "apakštonis",
+  "ideas.nouns.pref.colour_upkeep": "krāsas uzturēšana",
+  "ideas.nouns.pref.fringe": "priekšmatu izvēle",
+  "ideas.nouns.life.styling_minutes": "ieveidošanas laiks",
+  "ideas.closeQuestion": "Gatavs",
+  "ideas.answersUpdated": "Tavas idejas ir atjauninātas.",
+  "ideas.excluded": "Šis neatbilst tam, ko mums pastāstīji:",
+  "ideas.excludedKeep": "Tas paliks tavā sarakstā, ja vien to neizņemsi.",
+  "ideas.beforeAnyColour": "Pirms krāsošanas",
+  "ideas.moreAboutLook": "Vairāk",
+  "ideas.detailsLoading": "Sagatavojam detaļas",
+  "ideas.detailsFailed": "Neizdevās ielādēt šīs idejas detaļas. Parasti palīdz lapas pārlādēšana.",
+  "ideas.seeItOnMe": "Pielaiko sev",
+  "ideas.remove": "Noņemt",
+  "ideas.moveEarlier": "Pārvietot atpakaļ",
+  "ideas.moveLater": "Pārvietot tālāk",
+  "ideas.addFromExplore": "Pievienot no «Atklāj»",
+  "ideas.listFull": "Tavā sarakstā ir 8 idejas — tas ir maksimālais skaits. Noņem kādu, lai pievienotu šo.",
+  "ideas.together.open": "Apvieno griezumu ar krāsu",
+  "ideas.together.title": "Apvieno griezumu ar krāsu",
+  "ideas.together.hint": "Izvēlies vienu griezumu un vienu krāsojumu, lai izmēģinātu tos vienā attēlā.",
+  "ideas.together.cut": "Griezums",
+  "ideas.together.colour": "Matu krāsa",
+  "ideas.together.set": "Izmēģini kopā",
+  "ideas.together.change": "Mainīt",
+  "ideas.together.remove": "Noņemt",
+  "ideas.together.saved": "Kombinācija saglabāta. Tā būs pirmā sadaļā «Pielaiko».",
+  "ideas.together.removed": "Kombinācija noņemta.",
+  "ideas.improve.open": "Uzlabot manas idejas",
+  "ideas.improve.title": "Uzlabot manas idejas",
+  "ideas.improve.hint": "Papildu jautājumi. Tavas idejas atjaunosies līdz ar atbildēm.",
+  "ideas.improve.none": "Tavai izvēlei vairāk jautājumu nav.",
+  "ideas.improve.showAll": "Rādīt visu",
+  "ideas.shortfall.answers": "Tavas atbildes izslēdz šos variantus:",
+  "ideas.shortfall.unmet": "Neviena no šīm idejām neatbilst tam, ko vēlējies:",
+  "ideas.shortfall.kinds.cut": "griezumi",
+  "ideas.shortfall.kinds.colour": "krāsojumi",
+  "ideas.aiPick.hint": "Nokopē uzvedni, pēc tam ielīmē to ChatGPT vai Gemini kopā ar savu fotoattēlu.",
+  "ideas.aiPick.copied": "Uzvedne nokopēta",
+  "ideas.aiPick.copiedLive": "Uzvedne nokopēta. Tagad atver ChatGPT vai Gemini, pievieno savu fotoattēlu un ielīmē uzvedni.",
+  "ideas.aiPick.refused": "Šī pārlūkprogramma neļāva nokopēt. Uzvedne ir iezīmēta lodziņā zemāk — nokopē to no turienes.",
+  "ideas.aiPick.selectAll": "Atlasīt visu",
+  "ideas.aiPick.promptLabel": "Uzvedne",
+  "ideas.faceCard": "Apskatīt manu sejas kartīti",
+  "ideas.worthAsking.title": "Vērts pajautāt koloristam",
+  "ideas.worthAsking.intro": "Šie varianti pilnībā neatbilst tam, ko vēlējies, taču kolorists var pateikt, vai tie tev derētu.",
+  "ideas.worthAsking.why.salon_look": "Šī krāsa ir no sadaļas «Sieviešu griezumi», attēlā redzama garākos matos. Tas ir vienots tonis visā garumā, tāpēc pajautā koloristam, kā tas izskatītos tavos matos.",
+  "ideas.worthAsking.add": "Pievienot manām idejām",
+  "ideas.addPhoto": "Pievienot fotoattēlu",
+  "ideas.addAnother": "Pievienot vēl vienu fotoattēlu",
+  "ideas.next": "Pielaiko",
+  "face.next": "Izvēlies, ko mainīt",
+  "face.backToIdeas": "Atpakaļ pie manām idejām",
+  "face.reading": "Nolasām tavu fotoattēlu.",
+  "face.wait": "Vari turpināt. Tava kartīte tevi pagaidīs.",
+  "face.noneRead": "Nevienu no taviem fotoattēliem neizdevās nolasīt, tāpēc idejas piemeklēsim pēc tavām atbildēm.",
+  "face.chooseAnother": "Izvēlies citu fotoattēlu",
+  "face.addAnother": "Pievienot vēl vienu fotoattēlu",
+  "face.save.button": "Saglabāt manu sejas kartīti",
+  "face.save.saving": "Top tava sejas kartīte",
+  "face.save.shareTitle": "Mana sejas kartīte",
+  "face.save.shared": "Sejas kartīte kopīgota.",
+  "face.save.downloaded": "Sejas kartīte saglabāta lejupielādēs.",
+  "face.save.failed": "Šajā pārlūkprogrammā neizdevās izveidot sejas kartīti.",
+  "face.more.heading": "Vairāk iespēju ar tavu fotoattēlu",
+  "face.more.refine": "Precizēt matu kontūru",
+  "face.more.threeD": "Skatīt 3D",
+  "face.more.blocked.computer_only": "Pieejams datorā",
+  "face.more.blocked.no_webgl2": "3D skatam nepieciešams WebGL, kas šajā pārlūkprogrammā ir izslēgts. Tava sejas kartīte ir gatava arī bez tā.",
+  "face.more.blocked.low_memory": "3D skatam nepieciešams vairāk atmiņas, nekā ir šai ierīcei. Tava sejas kartīte ir gatava arī bez tā.",
+  "face.more.blocked.crashed_last_time": "Iepriekšējā reizē šis rīks apturēja lapas darbību, tāpēc šajā ierīcē tas pagaidām ir izslēgts.",
+  "face.more.blocked.out_of_memory": "Šai ierīcei divreiz beidzās atmiņa, tāpēc šis rīks ir izslēgts, līdz sāksi no jauna.",
+  "face.extra.downloading": "Sagatavojam šo rīku. Tikai pirmajā reizē.",
+  "face.extra.threeDName": "Tava fotoattēla 3D skats — tikai apskatei, nevis mērījumiem.",
+  "face.explain.button": "Kopēt uzvedni sejas kartītes skaidrojumam",
+  "face.explain.hint": "Ielīmē to ChatGPT vai Gemini. Lietotne atbildi nelasa.",
+  "face.explain.copied": "Uzvedne nokopēta",
+  "face.explain.copiedLive": "Uzvedne nokopēta. Tagad atver ChatGPT vai Gemini un ielīmē to.",
+  "face.explain.refused": "Šī pārlūkprogramma neļāva nokopēt. Uzvedne ir iezīmēta lodziņā zemāk — nokopē to no turienes.",
+  "face.explain.box": "Uzvedne",
+  "face.explain.selectAll": "Atlasīt visu",
+  "face.colour.heading": "Krāsu norādes",
+  "face.colour.intro": "Noteiktas pēc tava fotoattēla esošajā apgaismojumā, tāpēc tās ir tikai norādes.",
+  "face.mover.ask": "Vai līnijas nav īstajā vietā?",
+  "face.mover.open": "Pārvietot līnijas",
+  "face.mover.intro": "Pārvelc punktu uz īsto vietu vai izvēlies sejas daļu un izmanto bultiņas. Kreisā un labā puse ir tā, kā redzi fotoattēlā. Dati atjaunojas darba gaitā.",
+  "face.mover.canvas": "Tavs fotoattēls ar līnijām un punktu uz katras daļas, ko vari pārvietot",
+  "face.mover.partLegend": "Pārvietojamā daļa",
+  "face.mover.parts.hairline": "Matu augšanas līnija",
+  "face.mover.parts.chin": "Zods",
+  "face.mover.parts.cheek_left": "Kreisais vaigs",
+  "face.mover.parts.cheek_right": "Labais vaigs",
+  "face.mover.parts.jaw_left": "Kreisais žoklis",
+  "face.mover.parts.jaw_right": "Labais žoklis",
+  "face.mover.nudge.up": "Uz augšu",
+  "face.mover.nudge.down": "Uz leju",
+  "face.mover.nudge.left": "Pa kreisi",
+  "face.mover.nudge.right": "Pa labi",
+  "face.mover.putAllBack": "Atgriezt visas līnijas, kā bija",
+  "face.mover.allBackDone": "Visas līnijas ir atgrieztas, kā bija.",
+  "face.mover.done": "Gatavs",
+  "extras.notReady": "Šis rīks vēl nav pieejams.",
+  "extras.preview.label": "Aptuvens priekšskatījums",
+  "extras.preview.placed": "Tavs kolorists izvieto šķipsnas",
+  "extras.preview.busy": "Ieklājam šo krāsu tavos matos",
+  "extras.preview.familyLabel": "Krāsu gamma",
+  "extras.preview.looksLabel": "Krāsojumi",
+  "extras.preview.noLooks": "Pagaidām nav krāsojumu, ko parādīt.",
+  "extras.preview.notShowable": "Šis krāsojums tiek veidots ar roku, tāpēc aptuvenajā priekšskatījumā to nevar parādīt. Tavs kolorists varēs parādīt, kā tas izskatīsies.",
+  "extras.preview.neutral": "Neitrāli pelēks skats",
+  "extras.preview.neutralHint": "Vienmērīgi pelēks fons — tā, kā krāsu vērtē koloristi.",
+  "extras.preview.compare": "Pirms un pēc",
+  "extras.preview.noBefore": "Tavu fotoattēlu šeit neizdevās parādīt, tāpēc nav ar ko salīdzināt.",
+  "extras.preview.compareHint": "Bīdi pa labi, lai vairāk redzētu savu fotoattēlu.",
+  "extras.preview.failed": "Neizdevās izveidot priekšskatījumu.",
+  "extras.preview.tryAgain": "Mēģināt vēlreiz",
+  "extras.refine.open": "Pieskaries matiem, lai pielāgotu priekšskatījumu",
+  "extras.refine.back": "Atpakaļ uz priekšskatījumu",
+  "extras.refine.computerOnly": "Pielāgot priekšskatījumu, pieskaroties matiem, vari datorā.",
+  "extras.tap.intro": "Pieskaries matiem, lai pievienotu tos kontūrai, vai izvēlies «Nav mati» un pieskaries tam, ko vēlies noņemt.",
+  "extras.tap.photo": "Tavs fotoattēls ar matu kontūru. Izmanto pogas zemāk, lai atzīmētu punktu bez pieskāriena.",
+  "extras.tap.add": "Mati",
+  "extras.tap.remove": "Nav mati",
+  "extras.tap.modeLabel": "Ko atzīmē pieskāriens",
+  "extras.tap.move.up": "Uz augšu",
+  "extras.tap.move.down": "Uz leju",
+  "extras.tap.move.left": "Pa kreisi",
+  "extras.tap.move.right": "Pa labi",
+  "extras.tap.moveLabel": "Pārvietot punktu",
+  "extras.tap.mark": "Atzīmēt šo punktu",
+  "extras.tap.busy": "Apstrādājam pieskārienu. Pirmajā reizē tas aizņem dažas sekundes.",
+  "extras.tap.updated": "Matu kontūra atjaunināta.",
+  "extras.tap.failed": "Šo pieskārienu neizdevās nolasīt. Mēģini vēlreiz.",
+  "extras.tap.use": "Izmantot šo kontūru",
+  "extras.tap.reset": "Sākt no jauna",
+  "extras.gate.failed": "Šo rīku neizdevās ielādēt. Viss pārējais turpina darboties arī bez tā.",
+  "extras.threeD.busy": "Nosakām tava fotoattēla dziļumu",
+  "extras.threeD.stage": "Tavs fotoattēls 3D",
+  "extras.threeD.left": "Pagriezt pa kreisi",
+  "extras.threeD.right": "Pagriezt pa labi",
+  "extras.threeD.up": "Sasvērt uz augšu",
+  "extras.threeD.down": "Sasvērt uz leju",
+  "extras.threeD.reset": "Atiestatīt",
+  "extras.threeD.controls": "Pārvietot skatu",
+  "extras.threeD.failed": "Šajā pārlūkprogrammā neizdevās atvērt 3D skatu. Tava sejas karte ir gatava arī bez tā.",
+  "extras.threeD.lost": "3D skats pārstāja darboties. Aizver šo logu, lai sāktu no jauna.",
+  "language.legend": "Valoda",
+  "language.failed": "Neizdevās ielādēt tekstu latviešu valodā, tāpēc lietotne pagaidām ir angliski. Pārlādē lapu, lai mēģinātu vēlreiz.",
+  "language.safetyInEnglish": "Daļa drošības informācijas joprojām ir angļu valodā.",
+  "copy.footer.app": "Huecut",
+  "copy.faceCard.heading": "Ko parāda šis fotoattēls",
+  "copy.faceCard.footerNote": "Aptuvens novērtējums pēc tava fotoattēla, veikts tavā ierīcē.",
+  "copy.faceCard.closeUpLine": "Uzņemts tuvplānā, tāpēc rādītāji ir aptuveni (tuvplāna fotoattēls).",
+  "copy.faceCard.lines.face_outline": "Sejas ovāls",
+  "copy.faceCard.lines.hairline": "Matu augšanas līnija",
+  "copy.faceCard.lines.brows": "Uzacis",
+  "copy.faceCard.lines.eye_line": "Acu līnija",
+  "copy.faceCard.lines.nose_width": "Deguna platums",
+  "copy.faceCard.lines.lip_line": "Lūpu līnija",
+  "copy.faceCard.lines.jaw": "Žoklis",
+  "copy.faceCard.lines.chin": "Zods",
+  "copy.faceCard.sureness.steady": "drošs novērtējums",
+  "copy.faceCard.sureness.estimate": "novērtējums",
+  "copy.faceCard.sureness.rough": "aptuvens novērtējums",
+  "copy.faceCard.cannotRead": "nevar ticami nolasīt",
+  "copy.faceCard.months.0": "Janvāris",
+  "copy.faceCard.months.1": "Februāris",
+  "copy.faceCard.months.2": "Marts",
+  "copy.faceCard.months.3": "Aprīlis",
+  "copy.faceCard.months.4": "Maijs",
+  "copy.faceCard.months.5": "Jūnijs",
+  "copy.faceCard.months.6": "Jūlijs",
+  "copy.faceCard.months.7": "Augusts",
+  "copy.faceCard.months.8": "Septembris",
+  "copy.faceCard.months.9": "Oktobris",
+  "copy.faceCard.months.10": "Novembris",
+  "copy.faceCard.months.11": "Decembris",
+  "copy.faceNotes.face.proportion.name": "Garums un platums",
+  "copy.faceNotes.face.proportion.values.longer.words": "izteikti garāka nekā plata",
+  "copy.faceNotes.face.proportion.values.longer.hair": "Apjoms sānos vizuāli paplašina seju.",
+  "copy.faceNotes.face.proportion.values.balanced.words": "nedaudz garāka nekā plata",
+  "copy.faceNotes.face.proportion.values.balanced.hair": "Pacēlums virspusē vizuāli pagarina seju, bet apjoms sānos to paplašina.",
+  "copy.faceNotes.face.proportion.values.rounder.words": "gandrīz tikpat plata, cik gara",
+  "copy.faceNotes.face.proportion.values.rounder.hair": "Pacēlums virspusē vizuāli pagarina seju.",
+  "copy.faceNotes.face.forehead_share.name": "Piere",
+  "copy.faceNotes.face.forehead_share.values.longer.words": "garāka par pārējām divām daļām",
+  "copy.faceNotes.face.forehead_share.values.longer.hair": "Priekšmati vizuāli saīsina pieri.",
+  "copy.faceNotes.face.forehead_share.values.similar.words": "aptuveni vienāda ar pārējām divām daļām",
+  "copy.faceNotes.face.forehead_share.values.similar.hair": "Priekšmati nosedz daļu pieres, bet atsegti mati priekšpusē to parāda pilnībā.",
+  "copy.faceNotes.face.forehead_share.values.shorter.words": "īsāka par pārējām divām daļām",
+  "copy.faceNotes.face.forehead_share.values.shorter.hair": "Atsegti mati priekšpusē parāda visu pieri.",
+  "copy.faceNotes.face.lower_share.name": "No deguna līdz zodam",
+  "copy.faceNotes.face.lower_share.values.longer.words": "garāka par pārējām divām daļām",
+  "copy.faceNotes.face.lower_share.values.longer.hair": "Apjoms žokļa zonā vizuāli paplašina sejas apakšdaļu.",
+  "copy.faceNotes.face.lower_share.values.similar.words": "aptuveni vienāda ar pārējām divām daļām",
+  "copy.faceNotes.face.lower_share.values.similar.hair": "Vieta, kur beidzas mati, piesaista skatienu tieši šim līmenim.",
+  "copy.faceNotes.face.lower_share.values.shorter.words": "īsāka par pārējām divām daļām",
+  "copy.faceNotes.face.lower_share.values.shorter.hair": "Matu garums zem zoda vērš skatienu uz leju.",
+  "copy.faceNotes.face.jaw_vs_cheek.name": "Žoklis",
+  "copy.faceNotes.face.jaw_vs_cheek.values.narrower.words": "izteikti šaurāks par vaigu kauliem",
+  "copy.faceNotes.face.jaw_vs_cheek.values.narrower.hair": "Matu apjoms žokļa līnijā vizuāli paplašina žokli.",
+  "copy.faceNotes.face.jaw_vs_cheek.values.similar.words": "nedaudz šaurāks par vaigu kauliem",
+  "copy.faceNotes.face.jaw_vs_cheek.values.similar.hair": "Maigas pakāpes mīkstina žokļa līniju, bet taisni gali to izceļ.",
+  "copy.faceNotes.face.jaw_vs_cheek.values.wider.words": "aptuveni tikpat plats, cik vaigu kauli",
+  "copy.faceNotes.face.jaw_vs_cheek.values.wider.hair": "Pacēlums virspusē un maigas līnijas pie vaigu kauliem vērš skatienu uz augšu.",
+  "copy.facts.hair.texture.label": "Tekstūra",
+  "copy.facts.hair.texture.values.straight": "taisni",
+  "copy.facts.hair.texture.values.wavy": "viļņaini",
+  "copy.facts.hair.texture.values.curly": "cirtaini",
+  "copy.facts.hair.texture.values.coily": "sīki cirtaini",
+  "copy.facts.hair.texture.values.mixed": "jaukti — viļņaini un cirtaini",
+  "copy.facts.hair.density.label": "Blīvums",
+  "copy.facts.hair.density.values.low": "zems",
+  "copy.facts.hair.density.values.medium": "vidējs",
+  "copy.facts.hair.density.values.high": "augsts",
+  "copy.facts.hair.strand.label": "Mata stiebrs",
+  "copy.facts.hair.strand.values.fine": "smalks",
+  "copy.facts.hair.strand.values.medium": "vidējs",
+  "copy.facts.hair.strand.values.coarse": "biezs",
+  "copy.facts.hair.current_length.label": "Pašreizējais garums",
+  "copy.facts.hair.current_length.values.very_short": "ļoti īsi",
+  "copy.facts.hair.current_length.values.short": "īsi",
+  "copy.facts.hair.current_length.values.chin": "līdz zodam",
+  "copy.facts.hair.current_length.values.shoulder": "līdz pleciem",
+  "copy.facts.hair.current_length.values.long": "gari",
+  "copy.facts.hair.current_length.values.very_long": "ļoti gari",
+  "copy.facts.colour.natural_level.label": "Dabīgais toņa līmenis",
+  "copy.facts.hair.chemical_history.label": "Krāsošanas vēsture pēdējos 2–3 gados",
+  "copy.facts.hair.chemical_history.none": "neviens no šiem",
+  "copy.facts.hair.chemical_history.values.none": "nekas",
+  "copy.facts.hair.chemical_history.values.home_dye": "mājas matu krāsa",
+  "copy.facts.hair.chemical_history.values.home_dark_dye": "tumša mājas matu krāsa",
+  "copy.facts.hair.chemical_history.values.salon_colour": "salona matu krāsa",
+  "copy.facts.hair.chemical_history.values.bleach": "balinātājs",
+  "copy.facts.hair.chemical_history.values.highlights": "šķipsnas",
+  "copy.facts.hair.chemical_history.values.vivid": "košie toņi",
+  "copy.facts.hair.chemical_history.values.colour_remover": "krāsas noņēmējs",
+  "copy.facts.hair.chemical_history.values.henna_plant": "augu henna",
+  "copy.facts.hair.chemical_history.values.henna_compound": "henna ar piejaukumiem",
+  "copy.facts.hair.chemical_history.values.relaxer_perm": "ķīmiskā taisnošana vai ilgviļņi",
+  "copy.facts.hair.chemical_history.values.keratin": "keratīna procedūra",
+  "copy.facts.colour.current_level_lengths.label": "Pašreizējais toņa līmenis matu garumā",
+  "copy.facts.colour.last_dye.label": "Pēdējā krāsošana",
+  "copy.facts.colour.last_dye.values.weeks_0_2": "pēdējo 2 nedēļu laikā",
+  "copy.facts.colour.last_dye.values.weeks_2_8": "Pirms 2–8 nedēļām",
+  "copy.facts.colour.last_dye.values.months_2_6": "Pirms 2–6 mēnešiem",
+  "copy.facts.colour.last_dye.values.months_6_plus": "pirms vairāk nekā 6 mēnešiem",
+  "copy.facts.colour.last_dye.values.never": "nekad",
+  "copy.facts.colour.last_chemical_service.label": "Pēdējā ķīmiskā procedūra",
+  "copy.facts.colour.last_chemical_service.values.weeks_0_2": "pēdējo 2 nedēļu laikā",
+  "copy.facts.colour.last_chemical_service.values.weeks_2_8": "Pirms 2–8 nedēļām",
+  "copy.facts.colour.last_chemical_service.values.months_2_6": "Pirms 2–6 mēnešiem",
+  "copy.facts.colour.last_chemical_service.values.months_6_plus": "pirms vairāk nekā 6 mēnešiem",
+  "copy.facts.colour.last_chemical_service.values.never": "nekad",
+  "copy.facts.colour.bleach_count.label": "Balināšanas reižu skaits",
+  "copy.facts.colour.grey_percent.label": "Sirmo matu daudzums",
+  "copy.facts.colour.grey_texture.label": "Sirmo matu tekstūra",
+  "copy.facts.colour.grey_texture.values.same": "tāda pati kā pārējiem",
+  "copy.facts.colour.grey_texture.values.wiry": "raupja",
+  "copy.facts.colour.grey_texture.values.dry": "sausa",
+  "copy.sheet.headings.lengths": "Garumi",
+  "copy.sheet.headings.fade": "Fade",
+  "copy.sheet.headings.fringe": "Priekšmati",
+  "copy.sheet.headings.layers": "Pakāpes",
+  "copy.sheet.headings.yourHair": "Maniem matiem",
+  "copy.sheet.headings.upkeep": "Uzturēšana",
+  "copy.sheet.headings.stylist": "Stilistam",
+  "copy.sheet.headings.growOut": "Ataudzēšana",
+  "copy.sheet.headings.colour": "Matu krāsa",
+  "copy.sheet.headings.journey": "Pirms pieraksties",
+  "copy.sheet.headings.colourist": "Koloristam",
+  "copy.sheet.headings.aboutMyHair": "Par maniem matiem",
+  "copy.sheet.zones.top": "Augšpuse",
+  "copy.sheet.zones.fringe": "Priekšmati",
+  "copy.sheet.zones.sides": "Sāni",
+  "copy.sheet.zones.back": "Aizmugure",
+  "copy.sheet.zones.nape": "Pakausis",
+  "copy.sheet.zones.perimeter": "Garums",
+  "copy.sheet.zones.basis": "Mērīts",
+  "copy.sheet.basisNote": "sausi un izstiepti",
+  "copy.sheet.landmarks.above_ear": "virs auss",
+  "copy.sheet.landmarks.ear": "līdz ausij",
+  "copy.sheet.landmarks.jaw": "līdz žoklim",
+  "copy.sheet.landmarks.chin": "līdz zodam",
+  "copy.sheet.landmarks.collarbone": "līdz atslēgas kaulam",
+  "copy.sheet.landmarks.shoulder": "līdz pleciem",
+  "copy.sheet.landmarks.shoulder_blade": "līdz lāpstiņām",
+  "copy.sheet.landmarks.mid_back": "līdz muguras vidum",
+  "copy.sheet.landmarks.waist": "līdz viduklim",
+  "copy.sheet.fringeLandmarks.brow": "līdz uzacīm",
+  "copy.sheet.fringeLandmarks.above_brow": "nedaudz virs uzacīm",
+  "copy.sheet.fringeLandmarks.lash": "līdz skropstām",
+  "copy.sheet.fringeLandmarks.cheekbone": "līdz vaigu kauliem",
+  "copy.sheet.fadeKinds.fade": "fade",
+  "copy.sheet.fadeKinds.skin": "skin fade",
+  "copy.sheet.fadeKinds.bald": "bald fade",
+  "copy.sheet.fadeKinds.drop": "drop fade",
+  "copy.sheet.fadeKinds.taper": "taper",
+  "copy.sheet.fadeKinds.scissor_taper": "scissor taper",
+  "copy.sheet.fadeKinds.undercut": "undercut",
+  "copy.sheet.fadeHeights.low": "Zems",
+  "copy.sheet.fadeHeights.mid": "Vidējs",
+  "copy.sheet.fadeHeights.high": "Augsts",
+  "copy.sheet.necklines.natural": "dabiska",
+  "copy.sheet.necklines.tapered": "iztušēta",
+  "copy.sheet.necklines.blocked": "taisna",
+  "copy.sheet.necklines.rounded": "noapaļota",
+  "copy.sheet.fringes.none": "Bez priekšmatiem",
+  "copy.sheet.fringes.micro": "Mikro priekšmati",
+  "copy.sheet.fringes.short_blunt": "Īsi, taisni priekšmati",
+  "copy.sheet.fringes.blunt_full": "Biezi, taisni priekšmati",
+  "copy.sheet.fringes.bottleneck": "Bottleneck priekšmati",
+  "copy.sheet.fringes.wispy": "Gaisīgi priekšmati",
+  "copy.sheet.fringes.curtain": "Aizkarveida priekšmati",
+  "copy.sheet.fringes.side_swept": "Slīpie priekšmati",
+  "copy.sheet.fringes.long_side": "Gari slīpie priekšmati",
+  "copy.sheet.fringes.textured_forward": "Teksturēti priekšmati uz priekšu",
+  "copy.sheet.fringes.curly": "Cirtaini priekšmati",
+  "copy.sheet.layers.none": "bez pakāpēm",
+  "copy.sheet.layers.light": "vieglas pakāpes",
+  "copy.sheet.layers.medium": "vidējas pakāpes",
+  "copy.sheet.layers.heavy": "izteiktas pakāpes",
+  "copy.sheet.layers.internal": "iekšējās pakāpes",
+  "copy.sheet.layers.long_layers": "garas pakāpes",
+  "copy.sheet.layers.face_framing": "seju ierāmējošas pakāpes",
+  "copy.sheet.layers.shag": "shag pakāpes",
+  "copy.sheet.layers.chin_level": "pakāpes līdz zodam",
+  "copy.sheet.fits.good": "der tāds, kā griezts",
+  "copy.sheet.fits.adapt": "jāpielāgo",
+  "copy.sheet.fits.poor": "grūtāk pielāgojams",
+  "copy.sheet.heat.none": "bez karstajiem rīkiem",
+  "copy.sheet.heat.rare": "karstie rīki šad tad",
+  "copy.sheet.heat.weekly": "karstie rīki apmēram reizi nedēļā",
+  "copy.sheet.heat.daily": "karstie rīki gandrīz katru dienu",
+  "copy.sheet.regions.root": "Saknes",
+  "copy.sheet.regions.mids": "Matu vidusdaļa",
+  "copy.sheet.regions.ends": "Gali",
+  "copy.sheet.regions.face_frame": "Seju ierāmējošās šķipsnas",
+  "copy.sheet.regions.highlights": "Smalkas gaišās šķipsnas",
+  "copy.sheet.regions.lowlights": "Smalkas tumšās šķipsnas",
+  "copy.sheet.journeyLabels.plausible": "Reālistiski",
+  "copy.sheet.journeyLabels.uncertain": "Nav pārliecības",
+  "copy.sheet.journeyLabels.needs_professional": "Vislabāk uzticēt koloristam",
+  "copy.sheet.rows.kind": "Fade",
+  "copy.sheet.rows.start": "Sākas pie",
+  "copy.sheet.rows.note": "Piezīme",
+  "copy.sheet.rows.neckline": "Kakla līnija",
+  "copy.sheet.rows.sideburns": "Bakbārdas",
+  "copy.sheet.rows.sits": "Sniedzas līdz",
+  "copy.sheet.rows.alsoWorks": "Der arī kā",
+  "copy.sheet.rows.layers": "Pakāpes",
+  "copy.sheet.rows.texture": "Tekstūra",
+  "copy.sheet.rows.density": "Blīvums",
+  "copy.sheet.rows.strand": "Mata stiebrs",
+  "copy.sheet.rows.growth": "Augšanas virziens",
+  "copy.sheet.rows.whorl": "Pakauša virpulis",
+  "copy.sheet.rows.glasses": "Brilles",
+  "copy.sheet.rows.shrinkage": "Saraušanās",
+  "copy.sheet.rows.styling": "Veidošana",
+  "copy.sheet.rows.trim": "Pielīdzināšana",
+  "copy.sheet.rows.heatUse": "Karstie rīki",
+  "copy.sheet.rows.products": "Līdzekļi",
+  "copy.sheet.rows.base": "Bāze",
+  "copy.sheet.rows.lightenFirst": "Vispirms jābalina",
+  "copy.sheet.rows.visits": "Vizītes",
+  "copy.sheet.rows.label": "Ceļš līdz mērķim",
+  "copy.sheet.rows.why": "Kāpēc",
+  "copy.sheet.rows.ask": "Ko jautāt",
+  "copy.sheet.rows.reminder": "Atgādinājums",
+  "copy.sheet.rows.notes": "Piezīmes",
+  "copy.sheet.rows.framing": "Sejas ierāmējums",
+  "copy.sheet.rows.tradeOff": "Kompromiss",
+  "copy.sheet.tones.ash": "pelnu",
+  "copy.sheet.tones.beige": "bēšs",
+  "copy.sheet.tones.pearl": "pērļu",
+  "copy.sheet.tones.silver": "sudraba",
+  "copy.sheet.tones.neutral": "neitrāls",
+  "copy.sheet.tones.golden": "zeltains",
+  "copy.sheet.tones.honey": "medus",
+  "copy.sheet.tones.caramel": "karameļu",
+  "copy.sheet.tones.copper": "vara",
+  "copy.sheet.tones.red": "sarkans",
+  "copy.sheet.tones.red_brown": "sarkanbrūns",
+  "copy.sheet.tones.chestnut": "kastaņbrūns",
+  "copy.sheet.tones.chocolate": "šokolādes",
+  "copy.sheet.tones.mahogany": "mahagons",
+  "copy.sheet.tones.burgundy": "bordo",
+  "copy.sheet.tones.plum": "plūmju",
+  "copy.sheet.tones.rose": "rožu",
+  "copy.sheet.tones.pink": "rozā",
+  "copy.sheet.tones.lavender": "lavandas",
+  "copy.sheet.tones.teal": "zilganzaļš",
+  "copy.sheet.tones.blue": "zils",
+  "copy.sheet.ownBase": "Tava matu krāsa saglabājas visur, kur mati netiek krāsoti",
+  "copy.sheet.openAnswers": "Vēl trūkst dažu atbilžu, kas to varētu mainīt.",
+  "copy.sheet.noRecord": "Tavas atbildes vēl nenosaka šo tēlu.",
+  "copy.sheet.healthLine": "Ja esi stāvoklī, baro bērnu ar krūti vai saņem medicīnisku ārstēšanu, vispirms pasaki savam koloristam.",
+  "copy.sheet.aiLabel": "Mākslīgā intelekta attēls, tēla ilustrācija",
+  "copy.board.title": "Mani tēli",
+  "copy.board.aiLabel": "Mākslīgā intelekta attēls, tēla ilustrācija",
+  "copy.prompts.needs.label": "Kas man vajadzīgs",
+  "copy.prompts.needs.growOut": "audzēju matus",
+  "copy.prompts.needs.scars": "nosegt galvas ādas rētas",
+  "copy.prompts.needs.tieBack": "lai var saņemt matus",
+  "copy.prompts.needs.fringe.want": "priekšmatus",
+  "copy.prompts.needs.fringe.open": "varbūt priekšmatus",
+  "copy.prompts.needs.fringe.avoid": "bez priekšmatiem",
+  "copy.prompts.needs.top.very_short": "ļoti īsi augšpusē",
+  "copy.prompts.needs.top.short": "īsi augšpusē",
+  "copy.prompts.needs.top.medium": "vidēji gari augšpusē",
+  "copy.prompts.needs.top.long": "gari augšpusē",
+  "copy.prompts.needs.change.subtle": "nelielas pārmaiņas",
+  "copy.prompts.needs.change.noticeable": "pamanāmas pārmaiņas",
+  "copy.prompts.needs.change.bold": "lielas pārmaiņas",
+  "copy.prompts.needs.wishes.wish.face_length:soften": "apjoms sānos",
+  "copy.prompts.needs.wishes.wish.face_length:emphasise": "pagarināta līnija gar seju",
+  "copy.prompts.needs.wishes.wish.face_width:soften": "apjoms augšpusē un piekļautāki sāni",
+  "copy.prompts.needs.wishes.wish.face_width:emphasise": "maiga, noapaļota forma",
+  "copy.prompts.needs.wishes.wish.forehead:soften": "vairāk nosegta piere",
+  "copy.prompts.needs.wishes.wish.forehead:emphasise": "atvērta piere",
+  "copy.prompts.needs.wishes.wish.jaw:emphasise": "tīra līnija pie žokļa",
+  "copy.prompts.needs.wishes.wish.jaw:soften": "maigas pakāpes pie žokļa",
+  "copy.prompts.needs.wishes.wish.chin:emphasise": "tīra līnija pie zoda",
+  "copy.prompts.needs.wishes.wish.chin:soften": "maigi gali zem zoda",
+  "copy.prompts.needs.wishes.wish.height:soften": "mazāk apjoma augšpusē",
+  "copy.prompts.needs.wishes.wish.height:emphasise": "vairāk apjoma augšpusē",
+  "copy.prompts.needs.wishes.wish.fullness:emphasise": "vizuāli biezāki mati",
+  "copy.prompts.needs.wishes.wish.ears:soften": "nosegtas ausis",
+  "copy.prompts.needs.wishes.wish.ears:emphasise": "atsegtas ausis",
+  "copy.prompts.needs.wishes.wish.hairline:soften": "mazāk redzama matu augšanas līnija",
+  "copy.prompts.tradeOffs.youSaid": "tu teici",
+  "copy.prompts.tradeOffs.iSaid": "es teicu"
+ },
+ "functions": {
+  "explore.allFiltersOn": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "forms": {
+      "zero": "Ieslēgti visi {n} filtri",
+      "one": "Ieslēgts {n} filtrs",
+      "other": "Ieslēgti visi {n} filtri"
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "explore.showResults": {
+   "params": [
+    "count"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Rādīt {count}"
+    }
+   ]
+  },
+  "explore.count.styles": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "forms": {
+      "zero": "{n} griezumu",
+      "one": "{n} griezums",
+      "other": "{n} griezumi"
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "explore.count.colours": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "forms": {
+      "zero": "{n} krāsojumu",
+      "one": "{n} krāsojums",
+      "other": "{n} krāsojumi"
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "explore.count.beards": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "forms": {
+      "zero": "{n} bārdu",
+      "one": "{n} bārda",
+      "other": "{n} bārdas"
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "explore.noResults": {
+   "params": [
+    "what",
+    "filters"
+   ],
+   "cases": [
+    {
+     "when": {
+      "filters": 1
+     },
+     "text": "Šim filtram neatbilst neviens {what}."
+    },
+    {
+     "when": {
+      "filters": 2
+     },
+     "text": "Abiem filtriem neatbilst neviens {what}."
+    },
+    {
+     "when": {},
+     "text": "Visiem {filters} filtriem neatbilst neviens {what}."
+    }
+   ]
+  },
+  "explore.noSearchResults": {
+   "params": [
+    "what",
+    "search",
+    "withFilters"
+   ],
+   "cases": [
+    {
+     "when": {
+      "withFilters": true
+     },
+     "text": "Ar šiem filtriem meklējumam ‘{search}’ neatbilst neviens {what}."
+    },
+    {
+     "when": {
+      "withFilters": false
+     },
+     "text": "Meklējumam ‘{search}’ neatbilst neviens {what}."
+    }
+   ]
+  },
+  "explore.removeQuestion": {
+   "params": [
+    "labels"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Noņemt ‘{labels}’?"
+    }
+   ],
+   "or": [
+    "labels"
+   ]
+  },
+  "explore.remove": {
+   "params": [
+    "label"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Noņemt {label}"
+    }
+   ]
+  },
+  "explore.save": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Saglabāt {name}"
+    }
+   ]
+  },
+  "explore.caption.range": {
+   "params": [
+    "from",
+    "to"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "No {from} līdz {to}"
+    }
+   ]
+  },
+  "explore.caption.and": {
+   "params": [
+    "items"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{items}"
+    }
+   ]
+  },
+  "explore.alt": {
+   "params": [
+    "view",
+    "name",
+    "model"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{view}: {name}, uz modeļa {model}."
+    }
+   ]
+  },
+  "explore.detail.position": {
+   "params": [
+    "what",
+    "n",
+    "total"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{what}, {n} no {total}"
+    }
+   ]
+  },
+  "explore.detail.onModel": {
+   "params": [
+    "model"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Uz modeļa {model}"
+    }
+   ]
+  },
+  "explore.detail.works.textures": {
+   "params": [
+    "list"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "mati ir {list}"
+    }
+   ]
+  },
+  "explore.detail.works.adapt": {
+   "params": [
+    "texture",
+    "note"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "mati ir {texture}: {note}"
+    }
+   ]
+  },
+  "explore.detail.works.density": {
+   "params": [
+    "list"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "matu biezums ir {list}"
+    }
+   ]
+  },
+  "explore.detail.works.growth": {
+   "params": [
+    "min",
+    "max"
+   ],
+   "cases": [
+    {
+     "when": {
+      "min": 0,
+      "max": 0
+     },
+     "text": "vispirms var augt 0 nedēļu"
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "vispirms var augt {min}–{max} nedēļu",
+      "one": "vispirms var augt {min}–{max} nedēļu",
+      "other": "vispirms var augt {min}–{max} nedēļas"
+     }
+    }
+   ],
+   "count": "max"
+  },
+  "explore.detail.or": {
+   "params": [
+    "items"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{items}"
+    }
+   ],
+   "or": [
+    "items"
+   ]
+  },
+  "explore.detail.trimDays": {
+   "params": [
+    "min",
+    "max"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "forms": {
+      "zero": "ik pēc {min}–{max} dienām",
+      "one": "ik pēc {min}–{max} dienas",
+      "other": "ik pēc {min}–{max} dienām"
+     }
+    }
+   ],
+   "count": "max"
+  },
+  "explore.detail.dailyMinutes": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "forms": {
+      "zero": "{n} minūšu dienā",
+      "one": "{n} minūte dienā",
+      "other": "{n} minūtes dienā"
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "explore.errors.code": {
+   "params": [
+    "code"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Kļūdas kods: {code}"
+    }
+   ]
+  },
+  "consult.tools.code": {
+   "params": [
+    "code"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Kļūdas kods: {code}"
+    }
+   ]
+  },
+  "consult.photo.added": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "forms": {
+      "zero": "Pievienots {n} fotoattēlu.",
+      "one": "Pievienots {n} fotoattēls.",
+      "other": "Pievienoti {n} fotoattēli."
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "consult.photo.name": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Fotoattēls {n}"
+    }
+   ]
+  },
+  "consult.photo.makeMain": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Iestatīt {name} kā galveno fotoattēlu"
+    }
+   ]
+  },
+  "consult.photo.remove": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Noņemt {name}"
+    }
+   ]
+  },
+  "consult.photo.removeAsk": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Noņemt {name}? Tas tiks noņemts no šīs sesijas."
+    }
+   ]
+  },
+  "consult.questions.count": {
+   "params": [
+    "n",
+    "total"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{n}. jautājums no {total}"
+    }
+   ]
+  },
+  "consult.questions.limit": {
+   "params": [
+    "refused",
+    "n",
+    "max"
+   ],
+   "cases": [
+    {
+     "when": {
+      "refused": true
+     },
+     "text": "Vari izvēlēties līdz {max}. Noņem atzīmi vienam, lai izvēlētos citu."
+    },
+    {
+     "when": {
+      "refused": false,
+      "n": 0
+     }
+    },
+    {
+     "when": {
+      "refused": false
+     },
+     "forms": {
+      "zero": "Izvēlēts {n} no maksimāli {max}",
+      "one": "Izvēlēts {n} no maksimāli {max}",
+      "other": "Izvēlēti {n} no maksimāli {max}"
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "help.privacy.blocked": {
+   "params": [
+    "count"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Šajā sesijā bloķēts: {count}."
+    }
+   ]
+  },
+  "help.method.toolLine": {
+   "params": [
+    "name",
+    "state"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{name}: {state}"
+    }
+   ]
+  },
+  "save.status.day": {
+   "params": [
+    "left"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Saglabāts šajā ierīcē. {left}"
+    }
+   ]
+  },
+  "save.status.hoursLeft": {
+   "params": [
+    "hours"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "forms": {
+      "zero": "Atlicis aptuveni {hours} stundu.",
+      "one": "Atlikusi aptuveni {hours} stunda.",
+      "other": "Atlikušas aptuveni {hours} stundas."
+     }
+    }
+   ],
+   "count": "hours"
+  },
+  "saved.favourites.remove": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Noņemt {name}"
+    }
+   ]
+  },
+  "saved.favourites.removed": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{name} noņemts no saglabātajiem."
+    }
+   ]
+  },
+  "saved.example.on": {
+   "params": [
+    "model",
+    "collection"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Uz izdomāta modeļa: {model}, {collection}."
+    }
+   ],
+   "lower": [
+    "model",
+    "collection"
+   ]
+  },
+  "tryOn.cards.split": {
+   "params": [
+    "sizes"
+   ],
+   "cases": [
+    {
+     "when": {
+      "sizes": 1
+     },
+     "text": "Visi {sizes} kopā"
+    },
+    {
+     "when": {},
+     "text": "{sizes}"
+    }
+   ]
+  },
+  "tryOn.cards.title": {
+   "params": [
+    "n",
+    "total"
+   ],
+   "cases": [
+    {
+     "when": {
+      "total": 1
+     },
+     "text": "Tava kartīte"
+    },
+    {
+     "when": {},
+     "text": "{n}. attēls no {total}"
+    }
+   ]
+  },
+  "tryOn.promptFailed": {
+   "params": [
+    "code"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Neizdevās izveidot vaicājumu šim tēlam. Kļūdas kods: prompt_{code}"
+    }
+   ]
+  },
+  "tryOn.grids.name": {
+   "params": [
+    "n",
+    "total",
+    "count",
+    "kind"
+   ],
+   "cases": [
+    {
+     "when": {
+      "kind": "cut"
+     },
+     "forms": {
+      "zero": "{n}. attēls no {total}: {count} griezumu",
+      "one": "{n}. attēls no {total}: {count} griezums",
+      "other": "{n}. attēls no {total}: {count} griezumi"
+     }
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "{n}. attēls no {total}: {count} krāsu",
+      "one": "{n}. attēls no {total}: {count} krāsa",
+      "other": "{n}. attēls no {total}: {count} krāsas"
+     }
+    }
+   ],
+   "count": "count"
+  },
+  "tryOn.grids.splitFailed": {
+   "params": [
+    "count"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "forms": {
+      "zero": "Šo attēlu neizdevās sadalīt {count} rūtiņās. Tā vietā izmanto vienu attēlu katram tēlam.",
+      "one": "Šo attēlu neizdevās sadalīt {count} rūtiņā. Tā vietā izmanto vienu attēlu katram tēlam.",
+      "other": "Šo attēlu neizdevās sadalīt {count} rūtiņās. Tā vietā izmanto vienu attēlu katram tēlam."
+     }
+    }
+   ],
+   "count": "count"
+  },
+  "tryOn.grids.tileIs": {
+   "params": [
+    "n",
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{n}. rūtiņa ir: {name}"
+    }
+   ]
+  },
+  "tryOn.grids.tileAlt": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Attēla {n}. rūtiņa"
+    }
+   ]
+  },
+  "tryOn.grids.moved": {
+   "params": [
+    "name",
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{name} tagad ir {n}. rūtiņā."
+    }
+   ]
+  },
+  "tryOn.grids.tileNamed": {
+   "params": [
+    "n",
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{n}. rūtiņa: {name}"
+    }
+   ]
+  },
+  "tryOn.grids.pictureAlt": {
+   "params": [
+    "grid"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Attēls, ko pievienoji režģim {grid}"
+    }
+   ]
+  },
+  "tryOn.looks.journey": {
+   "params": [
+    "label"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Krāsa: {label}"
+    }
+   ]
+  },
+  "tryOn.slot.label": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Attēls tēlam {name}"
+    }
+   ]
+  },
+  "tryOn.slot.alt": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Tavs MI attēls tēlam {name}"
+    }
+   ]
+  },
+  "tryOn.slot.added": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Pievienots attēls tēlam {name}."
+    }
+   ]
+  },
+  "tryOn.slot.removed": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Noņemts attēls tēlam {name}."
+    }
+   ]
+  },
+  "tryOn.repair.failed": {
+   "params": [
+    "code"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Neizdevās izveidot labojuma vaicājumu. Kļūdas kods: prompt_{code}"
+    }
+   ]
+  },
+  "tryOn.board.compare": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Salīdzini {name} ar savu foto"
+    }
+   ]
+  },
+  "tryOn.board.compareTitle": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Tavs foto un {name}"
+    }
+   ]
+  },
+  "tryOn.board.compareValue": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{n}% no tava foto"
+    }
+   ]
+  },
+  "tryOn.board.hairOnlyAlt": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Tēla {name} versija tikai ar matiem uz tava foto"
+    }
+   ]
+  },
+  "tryOn.board.pictureAlt": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{name}, MI attēls"
+    }
+   ]
+  },
+  "ideas.colours.withColour": {
+   "params": [
+    "name",
+    "label"
+   ],
+   "cases": [
+    {
+     "when": {
+      "label": ""
+     },
+     "text": "Vaicājumā un kartītē: {name}. Attēlā saglabājas paša modeļa matu krāsa."
+    },
+    {
+     "when": {},
+     "text": "Vaicājumā un kartītē: {name} ({label}). Attēlā saglabājas paša modeļa matu krāsa."
+    }
+   ]
+  },
+  "ideas.feasibility.growth": {
+   "params": [
+    "cm",
+    "weeks"
+   ],
+   "cases": [
+    {
+     "when": {
+      "weeks": null,
+      "cm": "<=5"
+     },
+     "text": "Vajadzīgi vēl līdz aptuveni 5 cm garuma"
+    },
+    {
+     "when": {
+      "weeks": null,
+      "cm": "<=10"
+     },
+     "text": "Vajadzīgi vēl aptuveni 5 līdz 10 cm garuma"
+    },
+    {
+     "when": {
+      "weeks": null,
+      "cm": "<=20"
+     },
+     "text": "Vajadzīgi vēl aptuveni 10 līdz 20 cm garuma"
+    },
+    {
+     "when": {
+      "weeks": null
+     },
+     "text": "Vajadzīgi vēl vairāk nekā 20 cm garuma"
+    },
+    {
+     "when": {
+      "weeks": "<=26",
+      "cm": "<=5"
+     },
+     "text": "Vajadzīgi vēl līdz aptuveni 5 cm garuma, jāaudzē daži mēneši"
+    },
+    {
+     "when": {
+      "weeks": "<=26",
+      "cm": "<=10"
+     },
+     "text": "Vajadzīgi vēl aptuveni 5 līdz 10 cm garuma, jāaudzē daži mēneši"
+    },
+    {
+     "when": {
+      "weeks": "<=26",
+      "cm": "<=20"
+     },
+     "text": "Vajadzīgi vēl aptuveni 10 līdz 20 cm garuma, jāaudzē daži mēneši"
+    },
+    {
+     "when": {
+      "weeks": "<=26"
+     },
+     "text": "Vajadzīgi vēl vairāk nekā 20 cm garuma, jāaudzē daži mēneši"
+    },
+    {
+     "when": {
+      "weeks": "<=52",
+      "cm": "<=5"
+     },
+     "text": "Vajadzīgi vēl līdz aptuveni 5 cm garuma, jāaudzē līdz pat gadam"
+    },
+    {
+     "when": {
+      "weeks": "<=52",
+      "cm": "<=10"
+     },
+     "text": "Vajadzīgi vēl aptuveni 5 līdz 10 cm garuma, jāaudzē līdz pat gadam"
+    },
+    {
+     "when": {
+      "weeks": "<=52",
+      "cm": "<=20"
+     },
+     "text": "Vajadzīgi vēl aptuveni 10 līdz 20 cm garuma, jāaudzē līdz pat gadam"
+    },
+    {
+     "when": {
+      "weeks": "<=52"
+     },
+     "text": "Vajadzīgi vēl vairāk nekā 20 cm garuma, jāaudzē līdz pat gadam"
+    },
+    {
+     "when": {
+      "cm": "<=5"
+     },
+     "text": "Vajadzīgi vēl līdz aptuveni 5 cm garuma, jāaudzē vairāk nekā gadu"
+    },
+    {
+     "when": {
+      "cm": "<=10"
+     },
+     "text": "Vajadzīgi vēl aptuveni 5 līdz 10 cm garuma, jāaudzē vairāk nekā gadu"
+    },
+    {
+     "when": {
+      "cm": "<=20"
+     },
+     "text": "Vajadzīgi vēl aptuveni 10 līdz 20 cm garuma, jāaudzē vairāk nekā gadu"
+    },
+    {
+     "when": {},
+     "text": "Vajadzīgi vēl vairāk nekā 20 cm garuma, jāaudzē vairāk nekā gadu"
+    }
+   ]
+  },
+  "ideas.feasibility.adapting": {
+   "params": [
+    "notes"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Jāpielāgo: {notes}"
+    }
+   ]
+  },
+  "ideas.answerToKnow": {
+   "params": [
+    "prompt"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Atbildi uz ‘{prompt}’, lai to precizētu"
+    }
+   ]
+  },
+  "ideas.dependsOn": {
+   "params": [
+    "noun"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Atkarīgs no tava {noun}"
+    }
+   ]
+  },
+  "ideas.dependsOnAnswer": {
+   "params": [
+    "prompt"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Atkarīgs no tavas atbildes uz ‘{prompt}’"
+    }
+   ]
+  },
+  "ideas.answer": {
+   "params": [
+    "prompt"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Atbildi uz ‘{prompt}’"
+    }
+   ]
+  },
+  "ideas.removed": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{name} noņemts no tava saraksta."
+    }
+   ]
+  },
+  "ideas.moved": {
+   "params": [
+    "name",
+    "n",
+    "total"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{name} pārvietots uz {n}. vietu no {total}."
+    }
+   ]
+  },
+  "ideas.improve.couldChange": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {
+      "n": 1
+     },
+     "text": "Tava atbilde varētu mainīt 1 no tavām idejām."
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "Tava atbilde varētu mainīt līdz pat {n} no tavām idejām.",
+      "one": "Tava atbilde varētu mainīt līdz pat {n} no tavām idejām.",
+      "other": "Tava atbilde varētu mainīt līdz pat {n} no tavām idejām."
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "ideas.shortfall.found": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {
+      "n": 0
+     },
+     "text": "Šobrīd taviem matiem un visām atbildēm neatbilst neviena ideja, tāpēc pamaini kādu atbildi vai pievieno jaunu no sadaļas «Izpēti»."
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "Atradām {n} variantu, kas atbilst taviem matiem un ierobežojumiem.",
+      "one": "Atradām {n} variantu, kas atbilst taviem matiem un ierobežojumiem.",
+      "other": "Atradām {n} variantus, kas atbilst taviem matiem un ierobežojumiem."
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "ideas.shortfall.removed": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "forms": {
+      "zero": "Tu noņēmi {n} ideju.",
+      "one": "Tu noņēmi {n} ideju.",
+      "other": "Tu noņēmi {n} idejas."
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "ideas.shortfall.library": {
+   "params": [
+    "what"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Bibliotēkā vairs nav {what}, kas atbilstu tavai izvēlei."
+    }
+   ]
+  },
+  "ideas.aiPick.action": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {
+      "n": 1
+     },
+     "text": "Ļauj ChatGPT vai Gemini izvēlēties tev labāko variantu"
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "Ļauj ChatGPT vai Gemini piemeklēt tev {n} labāko variantu",
+      "one": "Ļauj ChatGPT vai Gemini piemeklēt tev {n} labāko variantu",
+      "other": "Ļauj ChatGPT vai Gemini piemeklēt tev {n} labākos variantus"
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "ideas.aiPick.failed": {
+   "params": [
+    "code"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Neizdevās izveidot vaicājumu. Kļūdas kods: {code}"
+    }
+   ]
+  },
+  "ideas.worthAsking.added": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{name} pievienots tavam sarakstam."
+    }
+   ]
+  },
+  "ideas.givesWay": {
+   "params": [
+    "way",
+    "atEnd"
+   ],
+   "cases": [
+    {
+     "when": {
+      "way": "grey_goal",
+      "grey": true
+     },
+     "text": "Tavi mati jau ir tik gaiši, cik vien iespējams, tāpēc neviena krāsa šeit nevar padarīt tos vēl gaišākus."
+    },
+    {
+     "when": {
+      "way": "grey_goal",
+      "grey": false
+     },
+     "text": "Tavi mati jau ir tik gaiši, cik vien iespējams, tāpēc neviena krāsa šeit nevar padarīt tos vēl gaišākus."
+    },
+    {
+     "when": {
+      "way": "darker",
+      "grey": true
+     },
+     "text": "Tavi mati jau ir tik tumši, cik vien iespējams, tāpēc neviena krāsa šeit nevar padarīt tos vēl tumšākus."
+    },
+    {
+     "when": {
+      "way": "darker",
+      "grey": false
+     },
+     "text": "Tavi mati jau ir tik tumši, cik vien iespējams, tāpēc neviena krāsa šeit nevar padarīt tos vēl tumšākus."
+    },
+    {
+     "when": {
+      "way": "lighter",
+      "grey": true
+     },
+     "text": "Tavi mati jau ir tik gaiši, cik vien iespējams, tāpēc neviena krāsa šeit nevar padarīt tos vēl gaišākus."
+    },
+    {
+     "when": {
+      "way": "lighter",
+      "grey": false
+     },
+     "text": "Tavi mati jau ir tik gaiši, cik vien iespējams, tāpēc neviena krāsa šeit nevar padarīt tos vēl gaišākus."
+    }
+   ]
+  },
+  "face.canvas": {
+   "params": [
+    "names"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Tavs foto ar līnijām uz {names}."
+    }
+   ],
+   "lower": [
+    "names"
+   ]
+  },
+  "face.more.refineHint": {
+   "params": [
+    "mb"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Pieskaries matiem, lai kontūra tiem labāk atbilstu; pirmajā reizē aptuveni {mb} MB."
+    }
+   ]
+  },
+  "face.more.threeDHint": {
+   "params": [
+    "mb"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Apskatei, nevis mērīšanai; pirmajā reizē aptuveni {mb} MB."
+    }
+   ]
+  },
+  "face.explain.failed": {
+   "params": [
+    "code"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Neizdevās izveidot vaicājumu tavas sejas kartītes skaidrojumam. Kļūdas kods: prompt_{code}"
+    }
+   ]
+  },
+  "face.colour.hair": {
+   "params": [
+    "shade"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Matu krāsa: aptuveni {shade} (norāde)"
+    }
+   ]
+  },
+  "face.colour.skin": {
+   "params": [
+    "depth"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Ādas tonis: {depth} (norāde)"
+    }
+   ],
+   "lower": [
+    "depth"
+   ]
+  },
+  "face.colour.undertone": {
+   "params": [
+    "answer"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Apakštonis: {answer} (tava atbilde)"
+    }
+   ],
+   "lower": [
+    "answer"
+   ]
+  },
+  "face.mover.moveLabel": {
+   "params": [
+    "part"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Pārvieto {part}"
+    }
+   ],
+   "lower": [
+    "part"
+   ]
+  },
+  "face.mover.moved": {
+   "params": [
+    "part"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{part} pārvietots"
+    }
+   ]
+  },
+  "face.mover.putBack": {
+   "params": [
+    "part"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Atliec {part} atpakaļ"
+    }
+   ],
+   "lower": [
+    "part"
+   ]
+  },
+  "face.mover.putBackDone": {
+   "params": [
+    "part"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{part} ir atpakaļ sākotnējā vietā."
+    }
+   ]
+  },
+  "extras.preview.shown": {
+   "params": [
+    "name"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{name}, aptuvens priekšskatījums uz tava foto"
+    }
+   ]
+  },
+  "extras.preview.compareValue": {
+   "params": [
+    "percent"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Redzami {percent} procenti no tava paša foto"
+    }
+   ]
+  },
+  "extras.refine.hint": {
+   "params": [
+    "mb"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Lejupielādē pieskāriena rīku, pirmajā reizē aptuveni {mb} MB."
+    }
+   ]
+  },
+  "extras.tap.spot": {
+   "params": [
+    "across",
+    "down"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Punkts {across} procentus no kreisās puses un {down} procentus no augšas."
+    }
+   ]
+  },
+  "extras.threeD.facing": {
+   "params": [
+    "yaw",
+    "tilt"
+   ],
+   "cases": [
+    {
+     "when": {
+      "yaw": 0,
+      "tilt": 0
+     },
+     "text": "Pavērsts uz priekšu."
+    },
+    {
+     "when": {
+      "yaw": "<0",
+      "tilt": 0
+     },
+     "text": "Pagriezts par {yaw} grādiem pa kreisi."
+    },
+    {
+     "when": {
+      "yaw": ">0",
+      "tilt": 0
+     },
+     "text": "Pagriezts par {yaw} grādiem pa labi."
+    },
+    {
+     "when": {
+      "yaw": 0,
+      "tilt": ">0"
+     },
+     "text": "Pacelts par {tilt} grādiem uz augšu."
+    },
+    {
+     "when": {
+      "yaw": 0,
+      "tilt": "<0"
+     },
+     "text": "Noliekts par {tilt} grādiem uz leju."
+    },
+    {
+     "when": {
+      "yaw": "<0",
+      "tilt": ">0"
+     },
+     "text": "Pagriezts par {yaw} grādiem pa kreisi, pacelts par {tilt} grādiem uz augšu."
+    },
+    {
+     "when": {
+      "yaw": "<0",
+      "tilt": "<0"
+     },
+     "text": "Pagriezts par {yaw} grādiem pa kreisi, noliekts par {tilt} grādiem uz leju."
+    },
+    {
+     "when": {
+      "yaw": ">0",
+      "tilt": ">0"
+     },
+     "text": "Pagriezts par {yaw} grādiem pa labi, pacelts par {tilt} grādiem uz augšu."
+    },
+    {
+     "when": {
+      "yaw": ">0",
+      "tilt": "<0"
+     },
+     "text": "Pagriezts par {yaw} grādiem pa labi, noliekts par {tilt} grādiem uz leju."
+    }
+   ],
+   "abs": [
+    "yaw",
+    "tilt"
+   ]
+  },
+  "copy.faceCard.date": {
+   "params": [
+    "day",
+    "month",
+    "year"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{day} {month} {year}"
+    }
+   ]
+  },
+  "copy.faceNotes.face.proportion.says": {
+   "params": [
+    "words"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Šajā fotoattēlā tava seja ir {words}"
+    }
+   ]
+  },
+  "copy.faceNotes.face.proportion.number": {
+   "params": [
+    "ratio"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Tava seja ir apmēram {ratio} reizes garāka nekā plata"
+    }
+   ],
+   "decimals": {
+    "ratio": 2
+   }
+  },
+  "copy.faceNotes.face.forehead_share.says": {
+   "params": [
+    "words"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Šajā fotoattēlā tava pieres daļa ir {words}"
+    }
+   ]
+  },
+  "copy.faceNotes.face.forehead_share.number": {
+   "params": [
+    "upper",
+    "middle"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Šī daļa aizņem apmēram {upper}% no tavas sejas augstuma. Vidusdaļa — apmēram {middle}%"
+    }
+   ]
+  },
+  "copy.faceNotes.face.lower_share.says": {
+   "params": [
+    "words"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Šajā fotoattēlā sejas daļa no deguna līdz zodam ir {words}"
+    }
+   ]
+  },
+  "copy.faceNotes.face.lower_share.number": {
+   "params": [
+    "lower"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Šī daļa aizņem apmēram {lower}% no tavas sejas augstuma"
+    }
+   ]
+  },
+  "copy.faceNotes.face.jaw_vs_cheek.says": {
+   "params": [
+    "words"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Šajā fotoattēlā tavs žoklis ir {words}"
+    }
+   ]
+  },
+  "copy.faceNotes.face.jaw_vs_cheek.number": {
+   "params": [
+    "jaw"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Tavs žoklis ir aptuveni {jaw}% no vaigu platuma"
+    }
+   ]
+  },
+  "copy.facts.colour.natural_level.value": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{n}. līmenis no 10"
+    }
+   ]
+  },
+  "copy.facts.colour.current_level_lengths.value": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{n}. līmenis no 10"
+    }
+   ]
+  },
+  "copy.facts.colour.bleach_count.value": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {
+      "n": 0
+     },
+     "text": "nekad"
+    },
+    {
+     "when": {
+      "n": 1
+     },
+     "text": "vienu reizi"
+    },
+    {
+     "when": {
+      "n": ">=4"
+     },
+     "text": "4 vai vairāk reizes"
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "{n} reižu",
+      "one": "{n} reizi",
+      "other": "{n} reizes"
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "copy.facts.colour.grey_percent.value": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "aptuveni {n}%"
+    }
+   ]
+  },
+  "copy.sheet.cm": {
+   "params": [
+    "min",
+    "max"
+   ],
+   "cases": [
+    {
+     "when": {
+      "min": "=max"
+     },
+     "text": "{max} cm"
+    },
+    {
+     "when": {},
+     "text": "{min}-{max} cm"
+    }
+   ]
+  },
+  "copy.sheet.guard": {
+   "params": [
+    "guard",
+    "mm"
+   ],
+   "cases": [
+    {
+     "when": {
+      "mm": 0
+     },
+     "text": "līdz ādai, 0 mm"
+    },
+    {
+     "when": {},
+     "text": "#{guard}, {mm} mm"
+    }
+   ],
+   "decimals": {
+    "guard": 1
+   }
+  },
+  "copy.sheet.guards": {
+   "params": [
+    "from",
+    "to"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "No {from} līdz {to}"
+    }
+   ]
+  },
+  "copy.sheet.textureFor": {
+   "params": [
+    "texture"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Piemērots: {texture} mati"
+    }
+   ]
+  },
+  "copy.sheet.minutes": {
+   "params": [
+    "min",
+    "max"
+   ],
+   "cases": [
+    {
+     "when": {
+      "min": "=max"
+     },
+     "forms": {
+      "zero": "{max} minūšu dienā",
+      "one": "{max} minūte dienā",
+      "other": "{max} minūtes dienā"
+     }
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "{min}-{max} minūšu dienā",
+      "one": "{min}-{max} minūte dienā",
+      "other": "{min}-{max} minūtes dienā"
+     }
+    }
+   ],
+   "count": "max"
+  },
+  "copy.sheet.weeks": {
+   "params": [
+    "min",
+    "max"
+   ],
+   "cases": [
+    {
+     "when": {
+      "min": 1,
+      "max": 1
+     },
+     "text": "katru nedēļu"
+    },
+    {
+     "when": {
+      "min": "=max"
+     },
+     "forms": {
+      "zero": "ik pēc {max} nedēļām",
+      "one": "ik pēc {max} nedēļas",
+      "other": "ik pēc {max} nedēļām"
+     }
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "ik pēc {min}-{max} nedēļām",
+      "one": "ik pēc {min}-{max} nedēļas",
+      "other": "ik pēc {min}-{max} nedēļām"
+     }
+    }
+   ],
+   "count": "max"
+  },
+  "copy.sheet.percent": {
+   "params": [
+    "min",
+    "max"
+   ],
+   "cases": [
+    {
+     "when": {
+      "min": "=max"
+     },
+     "text": "aptuveni {max}% izžūstot"
+    },
+    {
+     "when": {},
+     "text": "aptuveni {min}-{max}% izžūstot"
+    }
+   ]
+  },
+  "copy.sheet.shade": {
+   "params": [
+    "name",
+    "min",
+    "max",
+    "tone"
+   ],
+   "cases": [
+    {
+     "when": {
+      "min": "=max"
+     },
+     "text": "{name}, {max}. līmenis, {tone} tonis"
+    },
+    {
+     "when": {},
+     "text": "{name}, {min}.-{max}. līmenis, {tone} tonis"
+    }
+   ]
+  },
+  "copy.sheet.applied": {
+   "params": [
+    "technique",
+    "shade"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{technique} tonī {shade}"
+    }
+   ]
+  },
+  "copy.sheet.lightenTo": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "līdz {n}. līmenim pirms toņu uzklāšanas"
+    }
+   ]
+  },
+  "copy.sheet.pairTitle": {
+   "params": [
+    "cut",
+    "colour"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Kopā: {cut}, ar {colour}"
+    }
+   ]
+  },
+  "copy.board.pairName": {
+   "params": [
+    "cut",
+    "colour"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "Kopā: {cut}, ar {colour}"
+    }
+   ]
+  },
+  "copy.board.lookName": {
+   "params": [
+    "cut",
+    "colour"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{cut} tonī {colour}"
+    }
+   ]
+  },
+  "copy.prompts.needs.trim": {
+   "params": [
+    "weeks"
+   ],
+   "cases": [
+    {
+     "when": {
+      "weeks": 2
+     },
+     "text": "apgriešana ik pēc 2-4 nedēļām"
+    },
+    {
+     "when": {
+      "weeks": 4
+     },
+     "text": "apgriešana ik pēc 4-6 nedēļām"
+    },
+    {
+     "when": {
+      "weeks": 6
+     },
+     "text": "apgriešana ik pēc 6-8 nedēļām"
+    },
+    {
+     "when": {
+      "weeks": 12
+     },
+     "text": "apgriešana aptuveni ik pēc 3 mēnešiem"
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "apgriešana ik pēc {weeks} nedēļām",
+      "one": "apgriešana ik pēc {weeks} nedēļas",
+      "other": "apgriešana ik pēc {weeks} nedēļām"
+     }
+    }
+   ],
+   "count": "weeks"
+  },
+  "copy.prompts.needs.styling": {
+   "params": [
+    "minutes"
+   ],
+   "cases": [
+    {
+     "when": {
+      "minutes": 7
+     },
+     "text": "aptuveni 5 minūtes ieveidošanai"
+    },
+    {
+     "when": {
+      "minutes": 12
+     },
+     "text": "aptuveni 10 minūtes ieveidošanai"
+    },
+    {
+     "when": {
+      "minutes": 20
+     },
+     "text": "līdz 20 minūtēm ieveidošanai"
+    },
+    {
+     "when": {
+      "minutes": 60
+     },
+     "text": "Man patīk ieveidot matus"
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "{minutes} minūšu ieveidošanai dienā",
+      "one": "{minutes} minūte ieveidošanai dienā",
+      "other": "{minutes} minūtes ieveidošanai dienā"
+     }
+    }
+   ],
+   "count": "minutes"
+  },
+  "copy.prompts.tradeOffs.styling": {
+   "params": [
+    "minutes"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "forms": {
+      "zero": "{minutes} minūšu ieveidošanai",
+      "one": "{minutes} minūte ieveidošanai",
+      "other": "{minutes} minūtes ieveidošanai"
+     }
+    }
+   ],
+   "count": "minutes"
+  },
+  "copy.prompts.tradeOffs.trim": {
+   "params": [
+    "min",
+    "max"
+   ],
+   "cases": [
+    {
+     "when": {
+      "min": "=max"
+     },
+     "forms": {
+      "zero": "apgriešana ik pēc {max} nedēļām",
+      "one": "apgriešana ik pēc {max} nedēļas",
+      "other": "apgriešana ik pēc {max} nedēļām"
+     }
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "apgriešana ik pēc {min} līdz {max} nedēļām",
+      "one": "apgriešana ik pēc {min} līdz {max} nedēļas",
+      "other": "apgriešana ik pēc {min} līdz {max} nedēļām"
+     }
+    }
+   ],
+   "count": "max"
+  },
+  "copy.prompts.tradeOffs.growth": {
+   "params": [
+    "weeks"
+   ],
+   "cases": [
+    {
+     "when": {
+      "weeks": null
+     },
+     "text": "vispirms ataudzēt garumu"
+    },
+    {
+     "when": {
+      "weeks": "<=26"
+     },
+     "text": "daži mēneši ataudzēšanai"
+    },
+    {
+     "when": {
+      "weeks": "<=52"
+     },
+     "text": "līdz pat gadam ataudzēšanai"
+    },
+    {
+     "when": {},
+     "text": "vairāk nekā gads ataudzēšanai"
+    }
+   ]
+  },
+  "copy.prompts.tradeOffs.sentence": {
+   "params": [
+    "growth",
+    "limits",
+    "said"
+   ],
+   "cases": [
+    {
+     "when": {
+      "limits": 0
+     },
+     "text": "Vajadzēs {growth}"
+    },
+    {
+     "when": {
+      "growth": null,
+      "limits": 1
+     },
+     "text": "Vajadzēs {limits}, vairāk nekā {said}"
+    },
+    {
+     "when": {
+      "growth": null,
+      "limits": 2
+     },
+     "text": "Vajadzēs {limits}, abi vairāk nekā {said}"
+    },
+    {
+     "when": {
+      "limits": 1
+     },
+     "text": "Vajadzēs {growth}, kā arī {limits}, vairāk nekā {said}"
+    },
+    {
+     "when": {
+      "limits": 2
+     },
+     "text": "Vajadzēs {growth}, kā arī {limits}, abi vairāk nekā {said}"
+    }
+   ]
+  },
+  "copy.prompts.ownBase": {
+   "params": [
+    "level"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "mana {level}. līmeņa matu krāsa"
+    }
+   ]
+  },
+  "reasons.reason": {
+   "params": [
+    "reason",
+    "kind",
+    "phrases"
+   ],
+   "cases": [
+    {
+     "when": {
+      "phrases": 0
+     },
+     "text": "{reason}."
+    },
+    {
+     "when": {
+      "kind": "cut"
+     },
+     "text": "{reason}, tāpēc šim griezumam ir {phrases}."
+    },
+    {
+     "when": {
+      "kind": "colour"
+     },
+     "text": "{reason}, tāpēc šim tēlam ir {phrases}."
+    },
+    {
+     "when": {
+      "kind": "beard"
+     },
+     "text": "{reason}, tāpēc šai bārdai ir {phrases}."
+    }
+   ]
+  },
+  "reasons.both": {
+   "params": [
+    "parts"
+   ],
+   "cases": [
+    {
+     "when": {},
+     "text": "{parts}"
+    }
+   ]
+  },
+  "reasons.weeks": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {
+      "n": 1
+     },
+     "text": "1 nedēļa"
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "{n} nedēļu",
+      "one": "{n} nedēļa",
+      "other": "{n} nedēļas"
+     }
+    }
+   ],
+   "count": "n"
+  },
+  "reasons.minutes": {
+   "params": [
+    "n"
+   ],
+   "cases": [
+    {
+     "when": {
+      "n": 1
+     },
+     "text": "1 minūte"
+    },
+    {
+     "when": {},
+     "forms": {
+      "zero": "{n} minūšu",
+      "one": "{n} minūte",
+      "other": "{n} minūtes"
+     }
+    }
+   ],
+   "count": "n"
+  }
+ },
+ "held": 1
+}

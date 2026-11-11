@@ -1,0 +1,155 @@
+/*
+ * The rough preview, tap-to-select and the 3D view. The photo always shows whole; the neutral
+ * surround is the shared mid-grey viewing mode, with white text on it.
+ */
+
+.stack {
+  display: grid;
+  align-content: start;
+  gap: var(--space-m);
+  min-inline-size: 0;
+}
+
+.small {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+/* One row that scrolls sideways, so the picture above it stays in view. */
+.chipRow {
+  display: flex;
+  gap: var(--space-xs);
+  padding-block: var(--space-2xs);
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.chipRow > * {
+  flex: none;
+}
+
+/* Held at the top of the sheet: tapping a look must show on the picture at once. */
+.surface {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 1;
+  display: grid;
+  gap: var(--space-s);
+  padding: var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--sunken);
+}
+
+.surface[data-neutral='true'] {
+  background-color: var(--neutral-grey);
+  color: var(--on-neutral-grey);
+}
+
+.surface[data-neutral='true'] .small {
+  color: var(--on-neutral-grey);
+}
+
+.label {
+  justify-self: start;
+  font-weight: var(--weight-h3);
+}
+
+.compare,
+.tapStage {
+  position: relative;
+  inline-size: min(100%, 26rem);
+  margin-inline: auto;
+}
+
+.tapStage {
+  cursor: crosshair;
+}
+
+/* The preview's picture leaves room for the looks under it; its width follows, so the photo always shows whole. */
+.compare {
+  inline-size: fit-content;
+  max-inline-size: min(100%, 26rem);
+}
+
+.compare .picture {
+  inline-size: auto;
+  max-inline-size: 100%;
+  max-block-size: 50dvh;
+}
+
+/* A two-tone hairline between before and after, so it shows on light and dark hair alike. */
+.divider {
+  position: absolute;
+  inset-block: 0;
+  inline-size: 2px;
+  background-color: var(--fc-core);
+  box-shadow: 0 0 0 1px var(--fc-casing);
+  transform: translateX(-1px);
+  pointer-events: none;
+}
+
+.picture {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  border-radius: var(--radius-picture);
+}
+
+.pictureOver {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  border-radius: var(--radius-picture);
+  pointer-events: none;
+}
+
+.slider {
+  display: grid;
+  gap: var(--space-2xs);
+  justify-self: stretch;
+}
+
+.slider input {
+  inline-size: 100%;
+  min-block-size: var(--target-min);
+}
+
+/* A two-tone ring, so the spot shows on light and dark hair alike. */
+.spot {
+  position: absolute;
+  inline-size: var(--space-m);
+  block-size: var(--space-m);
+  border: 2px solid var(--fc-core);
+  border-radius: 50%;
+  outline: 2px solid var(--fc-casing);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* The stage takes the photo's 4:5 frame; the Three.js canvas fills it and turns with a drag. */
+.viewer {
+  /* Short of 26rem on a low window, so the picture, the controls and the status are all in view while it turns. */
+  inline-size: min(100%, 26rem, max(14rem, calc((100dvh - 23rem) * 0.8)));
+  aspect-ratio: 4 / 5;
+  margin-inline: auto;
+  border-radius: var(--radius-picture);
+  background-color: var(--stage-edge);
+  background-image: radial-gradient(120% 90% at 50% 32%, var(--stage-glow), var(--stage-edge));
+  overflow: hidden;
+  touch-action: none;
+  cursor: grab;
+}
+
+.viewer canvas {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+}

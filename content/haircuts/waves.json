@@ -1,0 +1,383 @@
+[
+  {
+    "id": "waves-360",
+    "kind": "cut",
+    "name": "360 waves",
+    "aliases": [
+      "Waves",
+      "Wave cut",
+      "Brush waves"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "waves",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "guard_mm": [
+          6,
+          13
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          1.5,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          1.5,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 1.5,
+      "note": "Faded sides; waves form on the top."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Works only on short firm curls; waves need coarse, short hair.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design; needs coarse short hair.",
+        "daily": true
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Waves show less on low density; keep the top at about #2 and brush daily."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Waves highlight the hairline: not advised past stage 3."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick coarse hair.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": [
+        "pomade",
+        "brush",
+        "durag"
+      ]
+    },
+    "grow_out": "Stop brushing and the waves disappear within 2-3 weeks; it grows into a short afro.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-full-natural",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "flat",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": true,
+      "tags": [
+        "curly_first",
+        "waves"
+      ],
+      "silhouette": "buzz",
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ]
+    },
+    "variants": [],
+    "client": "Very short hair brushed into circular wave patterns that build over a few weeks.",
+    "stylist": "Cut at about #2, brush wet and dry and sleep in a durag; the waves develop over several weeks.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "360 waves: a short top of 6-13 mm brushed into circular wave patterns radiating from the crown, the sides and back faded from #0.5 to #2 (6 mm), the nape blade to #1, a tapered neckline and faded sideburns, a smooth glossy finish",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/how-to-get-360-waves",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://themanual.com/grooming/how-to-get-waves",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "wave-caesar",
+    "kind": "cut",
+    "name": "Wave Caesar",
+    "aliases": [
+      "Caesar waves",
+      "Wave crop"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "waves",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          0.8,
+          1.6
+        ]
+      },
+      "fringe": {
+        "cm": [
+          0.8,
+          1.6
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          1.5,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          1.5,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": "low",
+      "start_mm": 1.5,
+      "note": "Low taper; waves flow forward."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": {
+      "kind": "short_blunt",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "Not suited."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Works with short firm curls.",
+        "daily": true
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Core design.",
+        "daily": true
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Waves show less on low density; keep the top short and brush daily."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Forward waves cover stage 3-4."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick coarse hair.",
+    "glasses_note": "Bare or faded sides expose the frame arms completely; choose frames with narrow temples or keep the fade low so nothing snags.",
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "none",
+      "products": [
+        "pomade",
+        "brush"
+      ]
+    },
+    "grow_out": "Allow the sides to grow and the waves to loosen: it becomes a short curly top in about 4 weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-full-natural",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "flat",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "short_blunt",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "caesar",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "medium",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        10
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "air_dry_friendly",
+        "waves"
+      ]
+    },
+    "variants": [],
+    "client": "Short waves brushed forward with a small fringe. Neat, classic and sharp.",
+    "stylist": "Leave 1-1.5 cm, brush forward with pomade and wrap overnight; the fringe frames the forehead.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a wave Caesar: a short top of 8-16 mm brushed forward in waves with a small fringe of 8-16 mm framing the forehead, the sides and back at a low taper from #0.5 to #2 (6 mm), the nape up to #1, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://wisebarber.com/how-to-get-360-waves",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://themanual.com/grooming/how-to-get-waves",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

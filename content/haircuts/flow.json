@@ -1,0 +1,1103 @@
+[
+  {
+    "id": "curtains-middle-part",
+    "kind": "cut",
+    "name": "Curtains (middle part)",
+    "aliases": [
+      "Curtain fringe",
+      "90s middle part",
+      "Middle-part fringe"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "flow",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          15
+        ]
+      },
+      "fringe": {
+        "cm": [
+          8,
+          15
+        ]
+      },
+      "sides": {
+        "cm": [
+          3,
+          9
+        ]
+      },
+      "back": {
+        "cm": [
+          3,
+          9
+        ]
+      },
+      "nape": {
+        "cm": [
+          3,
+          8
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Long, blended",
+    "fringe": {
+      "kind": "curtain",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "A good fit."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Cut dry; curl pull-back matters."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Short coils: 10 cm minimum."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the curtains shorter and textured; a centre part shows the scalp."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 2,
+      "whorl_note": "Cowlick at the front pushes the part.",
+      "note": "Centre part shows the hairline; the curtains fall over the temple corners up to stage 2."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; thin hair splits at the part.",
+    "glasses_note": "Hair should clear the frame.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        6,
+        10
+      ],
+      "heat": "rare",
+      "products": [
+        "sea-salt spray",
+        "light cream"
+      ]
+    },
+    "grow_out": "Keep growing: the fringe reaches the cheekbones in about 4 months and becomes a medium flow.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-short-boxed",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        6,
+        10
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "Medium-length hair parted down the middle that falls softly to each side. Relaxed and a little retro.",
+    "stylist": "Point cut for movement; shape the sides to meet the ears. Check the part sits where the hair falls.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "centre-parted curtains: medium-length hair with the top 8-15 cm and a fringe of 8-15 cm parted down the middle and falling softly to each side over the ears, the sides 3-9 cm and the back 3-9 cm, point-cut, with a natural neckline",
+    "sources": [
+      {
+        "url": "https://www.pallmallbarbers.com/pmb-news/trending-haircuts-to-start-2026-strong/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bosshunting.com.au/style/grooming/best-long-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curtains-taper",
+    "kind": "cut",
+    "name": "Tapered curtains",
+    "aliases": [
+      "Curtains with taper",
+      "Taper curtains"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "flow",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          7,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          7,
+          12
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          1.5,
+          4
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Taper sides and neck; top stays long."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered",
+    "fringe": {
+      "kind": "curtain",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Needs 10 cm+ to part; shape with a pick and moisturising cream, or choose a taper with defined twists.",
+        "daily": true
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the curtains shorter and textured; a centre part shows the scalp."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 2,
+      "whorl_note": null,
+      "note": "Curtains cover the corners of a stage 2-3 hairline when the fringe is thick."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; thin hair splits at the part.",
+    "glasses_note": "Hair at ear height may touch frames; shorten.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "none",
+      "products": [
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Keep growing: curtains reach the ears in 3-4 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-short-boxed",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "Curtains parted in the centre with neat tapered sides, a tidy choice for work.",
+    "stylist": "Taper the sides and neck with a clipper, leave the top at 8-12 cm and cut the fringe to cheekbone length with a gentle curve.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "tapered curtains: a centre-parted top of 7-12 cm with a fringe curving to cheekbone length falling to each side, the sides and back tapered from #3 (10 mm) down to #1 (3 mm), the nape #0.5-#1.5, a tapered neckline and tapered sideburns",
+    "sources": [
+      {
+        "url": "https://www.pallmallbarbers.com/pmb-news/trending-haircuts-to-start-2026-strong/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "flow-medium",
+    "kind": "cut",
+    "name": "Medium flow",
+    "aliases": [
+      "The flow",
+      "Surfer cut",
+      "Skater hair"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "flow",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "fringe": {
+        "cm": [
+          8,
+          15
+        ]
+      },
+      "sides": {
+        "cm": [
+          5,
+          12
+        ]
+      },
+      "back": {
+        "cm": [
+          6,
+          14
+        ]
+      },
+      "nape": {
+        "cm": [
+          5,
+          10
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Long, blended",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "A good fit."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Keep layers."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Needs 12 cm+."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the layers few and the ends fuller so the length does not look sparse."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Length covers the hairline; ok for stage 3."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; thin hair looks stringy at length.",
+    "glasses_note": "Tuck behind the ear if needed.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "heat": "none",
+      "products": [
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Just wait: it reaches the shoulder in about 6-8 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-stubble-medium",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "swept_back",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "tags": [
+        "wash_and_go",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Ear-to-collar hair that falls with a loose, relaxed shape. Needs little more than air-drying.",
+    "stylist": "Light layering around the crown, point-cut ends and a clean perimeter. Cut dry if the hair has a wave. Neckline follows natural hairline.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a medium flow: ear-to-collar hair with the top 10-18 cm and the front at 8-15 cm, the sides 5-12 cm and the back 6-14 cm, lightly layered around the crown with soft point-cut ends and a natural neckline, falling loosely and air-dried",
+    "sources": [
+      {
+        "url": "https://bosshunting.com.au/style/grooming/best-long-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.pallmallbarbers.com/pmb-news/trending-haircuts-to-start-2026-strong/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "bro-flow",
+    "kind": "cut",
+    "name": "Bro flow",
+    "aliases": [
+      "Hockey hair",
+      "Swept-back medium",
+      "Brushed-back flow"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "flow",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "sides": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "back": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          4,
+          8
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Mid length",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Natural wave lifts."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Use cream and comb back."
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "Try twists."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use a texture spray; brushed-back length shows the scalp."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 2,
+      "whorl_note": null,
+      "note": "Brushing back exposes the hairline; stage 2 limit."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine hair needs a texture spray.",
+    "glasses_note": "Fine; tuck behind the ear if the frame arms press.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "none",
+      "products": [
+        "light cream"
+      ]
+    },
+    "grow_out": "Just wait; it reaches the collar in 3-4 months.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "swept_back",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "Medium-length hair brushed back from the face with a natural shape. A relaxed, surf-style look.",
+    "stylist": "Keep the sides slightly shorter than the back, layer internally and soften the ends so the flow falls back by itself.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a bro flow: medium-length hair brushed back from the face, the top 10-18 cm and the front at 10-18 cm, the sides 4-8 cm and back 6-12 cm, layered inside with soft ends, no part and a natural neckline, falling back by itself",
+    "sources": [
+      {
+        "url": "https://bosshunting.com.au/style/grooming/best-long-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mod-fringe-90s",
+    "kind": "cut",
+    "name": "90s mod fringe",
+    "aliases": [
+      "Mod cut",
+      "Britpop fringe",
+      "Moptop crop"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "flow",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "sides": {
+        "cm": [
+          2,
+          5
+        ]
+      },
+      "back": {
+        "cm": [
+          2,
+          5
+        ]
+      },
+      "nape": {
+        "cm": [
+          1,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": null,
+    "neckline": "tapered",
+    "sideburns": "Mid length",
+    "fringe": {
+      "kind": "side_swept",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Needs a short rounded fringe; keep the top 4-6 cm and use a pick for the shape.",
+        "daily": true
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Cut the fringe blunter with light layering so it keeps its weight."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Fringe covers temples at stage 2-3; beyond that the diagonal reveals the corners."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine hair lacks the thick fringe weight.",
+    "glasses_note": "Fine; keep the fringe above the frame.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "none",
+      "products": [
+        "paste"
+      ]
+    },
+    "grow_out": "Easy: it moves into a medium flow in about 3 months.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-short-boxed",
+        "beard-stubble-short"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "side_swept",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "tags": [
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A neat mop-top with a side-swept fringe, a retro 90s look that stays tidy.",
+    "stylist": "Cut the sides over the ears, the fringe to brow level with a slight diagonal and use point cutting to soften the edge.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a 90s mod fringe: a neat mop-top with the top 5-9 cm and a side-swept fringe of 5-9 cm cut to brow level on a slight diagonal with a point-cut edge, the sides and back 2-5 cm over the ears, the nape 1-3 cm, a soft taper",
+    "sources": [
+      {
+        "url": "https://www.pallmallbarbers.com/pmb-news/trending-haircuts-to-start-2026-strong/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-flow",
+    "kind": "cut",
+    "name": "Curly flow",
+    "aliases": [
+      "Curly medium length",
+      "Curly bro flow",
+      "Curl mop"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "flow",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "fringe": {
+        "cm": [
+          8,
+          14
+        ]
+      },
+      "sides": {
+        "cm": [
+          4,
+          9
+        ]
+      },
+      "back": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          5,
+          10
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Blended",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited: use a medium flow."
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Waves can curl."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Needs 12 cm+; shape with layers."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep it at ear length with fewer layers so the curls keep their shape."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Length and curls cover stage 3-4 recession."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine curls lose their shape at length.",
+    "glasses_note": "Hair may curl or drop over the arms of glasses; trim a clean channel behind the ear if frames sit on top of the hair.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "oil"
+      ]
+    },
+    "grow_out": "Just wait; it reaches the shoulder in 6-8 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-stubble-medium",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "high",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "wash_and_go",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Curls worn natural, from the ear to the collar. Soft, casual and low-fuss with a little cream.",
+    "stylist": "Cut dry, add short interior layers to remove bulk and keep the perimeter at ear or collar level.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly flow: ear-to-collar natural curls with the top 10-18 cm and the front at 8-14 cm, the sides 4-9 cm and back 6-12 cm, short interior layers removing bulk, a natural neckline, no fade, soft defined curls falling casually",
+    "sources": [
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/curly-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bosshunting.com.au/style/grooming/best-long-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

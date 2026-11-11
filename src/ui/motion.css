@@ -1,0 +1,121 @@
+/*
+ * Shared motion: press feedback and the defaults for same-document view transitions.
+ * Durations come from tokens.css, which drops movement to 0 under reduced motion (device or Settings).
+ */
+
+/* Feedback on press: a colour change from the component plus a 0.98 scale; under reduced motion the scale is 1. */
+.press {
+  transition-property: transform, background-color, color, border-color, box-shadow;
+  transition-duration: var(--dur-press), var(--dur-state), var(--dur-state), var(--dur-state), var(--dur-state);
+  transition-timing-function: var(--ease-standard);
+}
+
+.press:active {
+  transform: scale(var(--press-scale));
+}
+
+/* Continuity across a navigation: the shared-element morph runs forward at 360 ms on the spring (arch morph). */
+::view-transition-group(*) {
+  animation-duration: var(--dur-morph-forward);
+  animation-timing-function: var(--ease-spring);
+}
+
+::view-transition-old(*),
+::view-transition-new(*) {
+  animation-duration: var(--dur-morph-forward);
+}
+
+/* Reduced motion: no morph, only a 120 ms crossfade (the duration token is 120 ms there). */
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*) {
+    animation: none;
+  }
+}
+
+:root[data-motion='reduce']::view-transition-group(*) {
+  animation: none;
+}
+
+/*
+ * Moving between places: the old page sinks away and the new one rises through an arch, the app's own shape. Moving between
+ * steps of one place is a shorter slide. The router sets the attribute only for these, so Explore's own morph is untouched.
+ */
+:root[data-page-change]::view-transition {
+  background-color: var(--rose-soft);
+}
+
+:root[data-page-change='place']::view-transition-old(root),
+:root[data-page-change='place']::view-transition-new(root) {
+  mix-blend-mode: normal;
+}
+
+:root[data-page-change='place']::view-transition-old(root) {
+  animation: page-sink var(--dur-page) var(--ease-curtain) both;
+}
+
+:root[data-page-change='place']::view-transition-new(root) {
+  animation: page-arch var(--dur-page) var(--ease-curtain) both;
+}
+
+:root[data-page-change='step']::view-transition-old(root) {
+  animation: step-away var(--dur-morph-back) var(--ease-exit) both;
+}
+
+:root[data-page-change='step']::view-transition-new(root) {
+  animation: step-here var(--dur-morph-forward) var(--ease-out) both;
+}
+
+:root[data-page-change='step-back']::view-transition-old(root) {
+  animation: step-away-back var(--dur-morph-back) var(--ease-exit) both;
+}
+
+:root[data-page-change='step-back']::view-transition-new(root) {
+  animation: step-here-back var(--dur-morph-forward) var(--ease-out) both;
+}
+
+@keyframes page-sink {
+  to {
+    opacity: 0.4;
+    transform: scale(0.88);
+  }
+}
+
+@keyframes page-arch {
+  from {
+    clip-path: inset(100% 12% 0 12% round 70vw 70vw 0 0);
+    transform: translateY(8%);
+  }
+
+  to {
+    clip-path: inset(0 0 0 0 round 0 0 0 0);
+    transform: none;
+  }
+}
+
+@keyframes step-away {
+  to {
+    opacity: 0;
+    transform: translateX(calc(-1 * var(--space-xl)));
+  }
+}
+
+@keyframes step-here {
+  from {
+    opacity: 0;
+    transform: translateX(var(--space-2xl));
+  }
+}
+
+@keyframes step-away-back {
+  to {
+    opacity: 0;
+    transform: translateX(var(--space-xl));
+  }
+}
+
+@keyframes step-here-back {
+  from {
+    opacity: 0;
+    transform: translateX(calc(-1 * var(--space-2xl)));
+  }
+}

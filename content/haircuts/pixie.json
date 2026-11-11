@@ -1,0 +1,2085 @@
+[
+  {
+    "id": "classic-pixie",
+    "kind": "cut",
+    "name": "Classic pixie",
+    "aliases": [
+      "short crop",
+      "textured pixie"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "pixie",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "fringe": {
+        "cm": [
+          3,
+          6
+        ]
+      },
+      "sides": {
+        "cm": [
+          1,
+          3
+        ]
+      },
+      "back": {
+        "cm": [
+          0.5,
+          2
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.5,
+          2
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "side_swept",
+      "landmark": "brow",
+      "options": [
+        "wispy",
+        "none"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "leave the top 1 cm longer on loose curls (3A); use Curly pixie for tighter curls"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "use tapered-twa or curly-pixie instead"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "remove bulk at the sides only"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check crown whorl and front hairline before clipping the top short; a strong cowlick needs 1 cm more length there."
+    },
+    "strand_note": "Fine strands gain lift from short layers; coarse strands stand up and need some weight left on top.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        6
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising paste",
+        "light wax"
+      ]
+    },
+    "grow_out": "Reaches a shaggy pixie at about 8 weeks and a bixie at about 5 months.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "side_swept",
+      "layers": [
+        "light"
+      ],
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "low_maintenance",
+        "fine_hair_friendly",
+        "wash_and_go"
+      ],
+      "silhouette": "pixie",
+      "styling_minutes": [
+        3,
+        6
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ]
+    },
+    "variants": [],
+    "client": "A short, easy cut with soft layers on top and a side-swept fringe. Wash, add a little paste and go.",
+    "stylist": "Taper the sides and nape close, keep the top longer and point-cut it so the layers lie in a soft feathered direction. Leave the fringe long enough to sweep across. Weight: soft weight at the crown; sides and nape tapered close.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a classic pixie: the top 4-7 cm in soft feathered layers with soft weight at the crown, the sides 1-3 cm and the nape 0.5-2 cm tapered close, and a side-swept fringe of 3-6 cm falling across the brow, ears showing, a light textured finish",
+    "sources": [
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/pixie-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/pixie-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-top-side-swept-pixie",
+    "kind": "cut",
+    "name": "Long-top side-swept pixie",
+    "aliases": [
+      "deep side-part pixie",
+      "pixie with length on top"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "pixie",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          7,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          7,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          1.5,
+          4
+        ]
+      },
+      "back": {
+        "cm": [
+          1,
+          3
+        ]
+      },
+      "nape": {
+        "cm": [
+          1,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "side_swept",
+      "landmark": "cheekbone",
+      "options": [
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "keep the top 2 cm longer to allow for curl spring"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "choose tapered-curly-crop-long-top instead"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "lies flat, so add root lift"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "thin the top internally"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A strong natural part direction makes this much easier to style."
+    },
+    "strand_note": "Fine straight strands fall flat without root lift; thick strands need internal thinning on top.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "rare",
+      "products": [
+        "root-lift spray",
+        "light cream"
+      ]
+    },
+    "grow_out": "Top grows into a full bixie as the sides fill in; trim only the perimeter.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "side_swept",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "pixie",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "Short on the sides with a long soft sweep on top. Part it deep, push it back or tuck it behind an ear.",
+    "stylist": "Keep a large connected top section and blend it into tight sides with scissor-over-comb or a clipper taper. Angle the front so the sweep ends at the cheekbone without a visible line. Weight: weight held in the top section; sides and back kept close.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long-top side-swept pixie: a long soft top of 7-12 cm swept across to the side, ending in a side-swept fringe at the cheekbone, with the sides 1.5-4 cm and the nape 1-3 cm kept close and blended without a visible line",
+    "sources": [
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/pixie-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/pixie-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "micro-pixie",
+    "kind": "cut",
+    "name": "Micro pixie",
+    "aliases": [
+      "ultra-short crop",
+      "very short pixie"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "pixie",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          1.5,
+          3
+        ]
+      },
+      "fringe": {
+        "cm": [
+          1,
+          3
+        ]
+      },
+      "sides": {
+        "cm": [
+          0.5,
+          1.5
+        ]
+      },
+      "back": {
+        "cm": [
+          0.3,
+          1
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.3,
+          1
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "above_ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "wispy",
+      "landmark": "brow",
+      "options": [
+        "none"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves collapse at this length; keep the top near 3 cm"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry so curls sit where they will land"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "see Tapered TWA for the shaped version"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "very thick hair turns dense and puffy; ask for tapering"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Bares the hairline fully, so hair that sits higher at the temples and a nape whorl are on display."
+    },
+    "strand_note": "Short length makes strand thickness obvious: coarse hair feels spiky, fine hair looks sleek.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        2,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "rare",
+      "products": [
+        "light pomade",
+        "matte clay"
+      ]
+    },
+    "grow_out": "The grow-out passes through a pixie and bixie stage; plan on a few awkward weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "wispy",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "pixie",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        2,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "Very short with almost no styling, so the cheekbones and eyes are on show.",
+    "stylist": "Clipper-over-comb the sides and back, then scissor the top just long enough to move. Check the hairline for cowlicks before choosing a guard. Weight: none; almost one short length with a soft taper.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a micro pixie: almost one very short length, the top 1.5-3 cm with a wispy fringe of 1-3 cm at the brow, the sides 0.5-1.5 cm and the nape 0.3-1 cm softly tapered, the ears and hairline fully visible, a clean low-fuss finish",
+    "sources": [
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/pixie-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/pixie-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "undercut-pixie",
+    "kind": "cut",
+    "name": "Undercut pixie",
+    "aliases": [
+      "disconnected pixie",
+      "shaved-side pixie"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "pixie",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": {
+      "kind": "undercut",
+      "height": null,
+      "start_mm": 3,
+      "note": "Clip the sides and nape to 3-10 mm below the parietal ridge. Leave a clean line to the longer top."
+    },
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "side_swept",
+      "landmark": "brow",
+      "options": [
+        "none"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "works with loose curls, tighten the undercut line for definition"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep the top 8+ cm so the curls can fall over the line"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair loses volume when the sides go, keep sides moderate"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "removes bulk and gives thick hair a clear weight break"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Needs a clear nape and ear-edge; a double crown can pull the line out of place."
+    },
+    "strand_note": "Coarse or thick strands stand over a disconnected line; fine strands drape and can look flat.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        8
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "rare",
+      "products": [
+        "strong wax",
+        "styling paste"
+      ]
+    },
+    "grow_out": "Grow the undercut out gradually; it becomes an ear-length pixie in about 3 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "side_swept",
+      "layers": [
+        "light"
+      ],
+      "weight_removal": "high",
+      "cut_method": [
+        "razor"
+      ],
+      "nape_style": "undercut",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "thick_hair_friendly",
+        "textured_top"
+      ],
+      "silhouette": "pixie",
+      "styling_minutes": [
+        4,
+        8
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ]
+    },
+    "variants": [],
+    "client": "Very short sides and nape with a longer top you can sweep to the side, forward or back. Bold, and it lets thick hair breathe.",
+    "stylist": "Use a guard to set a clean horizontal line at the parietal ridge, then connect or deliberately disconnect with a razor. Offer a shorter undercut that can be covered when the top lies flat. Weight: a strong line between short sides and the longer top.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an undercut pixie: the sides and nape clipped very short (about 3-10 mm) with a clear disconnection to a longer top of 5-9 cm, the top swept to one side into a side-swept fringe at brow level, the ears fully visible",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/pixie-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/pixie-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "bixie",
+    "kind": "cut",
+    "name": "Bixie",
+    "aliases": [
+      "pixie-bob",
+      "pixie bob",
+      "grown-out pixie",
+      "soft pixie"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "pixie",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          7,
+          13
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          4,
+          9
+        ]
+      },
+      "back": {
+        "cm": [
+          3,
+          7
+        ]
+      },
+      "nape": {
+        "cm": [
+          3,
+          7
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "wispy",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "sits well on 3A-3B curls, keep the layers long and unbroken"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "needs a clear shape because shrinkage moves the length up"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "keep the nape layers soft"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "add internal layers; thick hair swells at the sides"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the crown and front hairline since the top layers sit close to them."
+    },
+    "strand_note": "Fine hair stays fuller than in a blunt bob; thick hair needs weight removed above the ears.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising spray",
+        "light cream"
+      ]
+    },
+    "grow_out": "An easy path to a full chin bob; trim the nape every few months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "medium",
+        "light"
+      ],
+      "silhouette": "pixie",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        8
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "A cut between a pixie and a bob: short at the neck, softly longer around the face.",
+    "stylist": "Take the sides to the jaw with a slight curve, then cut a short feathered graduation through the back so the length is off the neck but not clipped. Weight: weight held at the jaw in front, tapered at the nape.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a bixie: a cut between a pixie and a bob, the top 7-13 cm in feathered layers, curtain fringe of 6-12 cm falling to the cheekbones, the sides 4-9 cm curving to the jaw and the back 3-7 cm cut short off the neck",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/pixie-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/pixie-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "The sides reach the ear, so the length class is ear."
+    }
+  },
+  {
+    "id": "shaggy-pixie",
+    "kind": "cut",
+    "name": "Shaggy pixie",
+    "aliases": [
+      "shixie",
+      "choppy pixie"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "pixie",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "sides": {
+        "cm": [
+          3,
+          6
+        ]
+      },
+      "back": {
+        "cm": [
+          2,
+          5
+        ]
+      },
+      "nape": {
+        "cm": [
+          2,
+          5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "wispy",
+      "landmark": "brow",
+      "options": [
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Curls from 2C to 3B take shape on their own; a diffuser helps"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "choose curly-short-shag"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "avoid heavy razoring, it leaves ends see-through"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "thin the sides only"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the crown for swirls since the longer top layers show them."
+    },
+    "strand_note": "Fine strands look wispy at the ends; coarse strands stay chunky and need point cutting.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        8
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "rare",
+      "products": [
+        "sea-salt spray",
+        "texturising paste"
+      ]
+    },
+    "grow_out": "Layers merge into a soft shag within 2 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "temples"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "wispy",
+      "layers": [
+        "light",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        8
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "A messy short cut with soft pieces and movement. It softens into a short shag as it grows.",
+    "stylist": "Point cut and slide cut through the interior to break the line, and keep the sides slightly longer than a classic pixie so they blend with the top. Weight: movement and weight at the crown; ends broken and wispy.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a shaggy pixie: messy short layers with the top 6-10 cm and movement at the crown, a wispy fringe of 5-9 cm at the brow, the sides 3-6 cm and the nape 2-5 cm slightly longer, with broken, piecey ends and a tousled finish",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/pixie-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/pixie-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "baby-bang-pixie",
+    "kind": "cut",
+    "name": "Baby-fringe pixie",
+    "aliases": [
+      "micro-fringe pixie",
+      "cropped bangs pixie",
+      "baby-bang pixie"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "pixie",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          6
+        ]
+      },
+      "fringe": {
+        "cm": [
+          1.5,
+          3
+        ]
+      },
+      "sides": {
+        "cm": [
+          1.5,
+          3
+        ]
+      },
+      "back": {
+        "cm": [
+          0.5,
+          2
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.5,
+          2
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "micro",
+      "landmark": "above_brow",
+      "options": [
+        "none"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "the fringe springs up and shrinks to the hairline"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "a micro fringe shrinks to the hairline on coils; see tapered-twa"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "a very thick fringe looks heavy, thin lightly"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Needs a stable frontal hairline; a cowlick at the front makes the short fringe stand."
+    },
+    "strand_note": "Fine fringe lies flat and see-through; coarse fringe may stand away from the forehead.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        6
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "rare",
+      "products": [
+        "light wax"
+      ]
+    },
+    "grow_out": "The fringe reaches brow length in 4-6 weeks; the pixie follows.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "micro",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "pixie",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        6
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "A pixie with a tiny fringe above the brows. It looks bold, playful and graphic.",
+    "stylist": "Cut the fringe dry and directionally, off the natural hairline. Leave it slightly uneven so it moves, and check against the brow for symmetry. Weight: little weight; the short fringe is the main feature.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a baby-fringe pixie: a short uniform pixie with the top 3-6 cm, the sides 1.5-3 cm and the nape 0.5-2 cm, and a tiny baby fringe of 1.5-3 cm sitting above the brows, slightly uneven and graphic, the ears showing",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/hair/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/pixie-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "asymmetric-pixie",
+    "kind": "cut",
+    "name": "Asymmetric pixie",
+    "aliases": [
+      "uneven pixie",
+      "side-weighted pixie"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "pixie",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "sides": {
+        "cm": [
+          1,
+          6
+        ]
+      },
+      "back": {
+        "cm": [
+          1,
+          3
+        ]
+      },
+      "nape": {
+        "cm": [
+          1,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "side_swept",
+      "landmark": "cheekbone",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry on curl and keep the long side 2 cm longer"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see asymmetric-coily-taper"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "thin hair loses the asymmetry, use blunt edges"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Choose the long side to match the natural part; fighting it makes styling hard."
+    },
+    "strand_note": "Coarse strands hold the line on the long side; fine strands blow around.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        8
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "rare",
+      "products": [
+        "texture paste",
+        "shine serum"
+      ]
+    },
+    "grow_out": "As it grows, even out the sides and move toward a bixie.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "deep_side",
+      "fringe": "side_swept",
+      "layers": [
+        "medium",
+        "heavy"
+      ],
+      "silhouette": "pixie",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        8
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "A short cut with one longer side that gives a modern, edgy balance.",
+    "stylist": "Set the part first, build length and angle on the heavier side, and graduate the opposite side. Check symmetry at eye level from the front. Weight: one side kept longer, the other short; weight sits off-centre.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an asymmetric pixie: the top 5-10 cm with one side kept longer and the other cut short at 1-6 cm, a side-swept fringe of 5-10 cm falling to the cheekbone, the nape 1-3 cm, and the weight sitting off-centre",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/pixie-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/pixie-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "pixie-mullet",
+    "kind": "cut",
+    "name": "Pixie mullet",
+    "aliases": [
+      "mixie",
+      "mullet pixie"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "pixie",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "cm": [
+          1,
+          3
+        ]
+      },
+      "back": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          6,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "above_ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "brow",
+      "options": [
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "keep the nape moist and leave 2 cm more at the back"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "retain extra length in the nape for shrinkage"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check nape growth patterns and the crown whorl before leaving the nape long."
+    },
+    "strand_note": "Fine strands on the back flip if cut too thin; coarse strands add attitude.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising paste",
+        "light cream"
+      ]
+    },
+    "grow_out": "Let the back grow and it turns into a wolf cut.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "occiput"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "heavy",
+        "medium",
+        "shag"
+      ],
+      "silhouette": "mullet",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut",
+        "razor"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "Short around the face and top with a longer soft tail at the back.",
+    "stylist": "Create a clear contrast between the top and nape sections, disconnect with a razor or point cut, and keep the tail soft rather than blunt. Weight: the back is left longer than the top and sides; weight falls at the nape.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a pixie mullet: short around the face with the top 5-9 cm, a curtain fringe of 4-8 cm at the brow and the sides 1-3 cm above the ears, then a longer soft tail of 6-12 cm at the back, disconnected and wispy rather than blunt",
+    "sources": [
+      {
+        "url": "https://www.marieclaire.com/beauty/pixie-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-pixie",
+    "kind": "cut",
+    "name": "Curly pixie",
+    "aliases": [
+      "short curly crop",
+      "tapered curl pixie"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "pixie",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "cm": [
+          1,
+          3
+        ]
+      },
+      "back": {
+        "cm": [
+          1,
+          3
+        ]
+      },
+      "nape": {
+        "cm": [
+          1,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "side_swept",
+      "landmark": "brow",
+      "options": [
+        "curtain",
+        "wispy",
+        "none"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "the shape depends on curl, so use classic-pixie"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good",
+        "note": "for tight coils see tapered-curly-crop-long-top"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls can look thin when short, so leave the top fuller"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A nape whorl needs a careful taper, because short curls follow the whorl direction."
+    },
+    "strand_note": "Thick curls hold the shape well; fine curls need density on top and a light taper.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        6
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "light gel"
+      ]
+    },
+    "grow_out": "Grows into a curly bixie; the top can be left alone while the nape is tidied.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "side_swept",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "pixie",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        6
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "low_maintenance",
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A short, curly cut with the curls left to bounce on top.",
+    "stylist": "Cut dry curl by curl on top, leaving 2-3 cm more than the final result, and taper the sides and nape with scissors or a clipper. Check the shrink factor before you decide the length. Weight: curls are left longer on top and tapered close at the nape and sides.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly pixie: natural defined curls left longer on top at 5-9 cm with a side-swept curly fringe of 4-8 cm at the brow, the sides and nape tapered close to 1-3 cm, the ears showing, curls bouncing freely",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.bustle.com/style/short-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.devacurl.com/us/the-deva-blog/devadaily/the-devacut-a-game-changer-for-curls",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-bixie",
+    "kind": "cut",
+    "name": "Curly bixie",
+    "aliases": [
+      "curly pixie-bob",
+      "short curly shag crop"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "pixie",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          14
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "back": {
+        "cm": [
+          4,
+          9
+        ]
+      },
+      "nape": {
+        "cm": [
+          4,
+          9
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "use bixie"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep the nape longer for 4A-4B curls and plan trims around shrinkage"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "thin the sides only if the hair is very dense"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        25,
+        50
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A nape whorl can push curls outward, so leave the nape slightly longer."
+    },
+    "strand_note": "Medium to thick curls give the best volume; fine curls need more weight at the jaw.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "leave-in conditioner"
+      ]
+    },
+    "grow_out": "Grows into a curly bob without losing its rounded shape.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "pixie",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A short curly cut between a pixie and a bob.",
+    "stylist": "Cut dry, section by section, allow for shrinkage and keep the front longer so the curl frames the face. Weight: rounded weight at the jaw and crown, with a shorter nape.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly bixie: a short curly cut between a pixie and a bob, the top 8-14 cm with rounded weight at the crown and jaw, a curly curtain fringe of 6-12 cm at the cheekbones, the sides 5-10 cm and the nape 4-9 cm shorter",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.bustle.com/style/short-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bouncecurl.com/blogs/news/types-of-curly-hair-cuts-plus-tips-to-find-the-right-stylist",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "The sides reach the ear, so the length class is ear."
+    }
+  }
+]

@@ -1,0 +1,459 @@
+[
+ {
+  "id": "virgin-level-4-small-lift",
+  "about": "Natural level 4, never coloured, healthy, every cautious fact answered: lift 0-2 is plausible (lift-0-2-virgin), a demi cannot lift (deposit-only-lift), lifts of 3+ are cautious, grey blending is not a grey-to-silver change, permanent colour lifts natural hair two levels at most.",
+  "facts": {
+   "hair.chemical_history": [
+    "none"
+   ],
+   "colour.natural_level": 4,
+   "hair.condition": "healthy",
+   "safety.dye_reaction": "none",
+   "safety.scalp_irritation": "none",
+   "pref.colour_upkeep": "high",
+   "colour.current_tone": "neutral",
+   "hair.texture": "straight",
+   "hair.strand": "medium"
+  },
+  "request": {
+   "kinds": [
+    "colour"
+   ],
+   "collections": [
+    "salon"
+   ],
+   "count": 4
+  },
+  "expect": {
+   "labels": {
+    "caramel-balayage-chocolate": "plausible",
+    "chestnut-demi-refresh": "uncertain",
+    "icy-platinum": "needs_professional",
+    "copper-balayage-root-shadow": "uncertain",
+    "darkest-brown-gloss": "plausible",
+    "pastel-pink-all-over": "needs_professional",
+    "grey-blend-brunette": "plausible",
+    "grey-coverage-chocolate": "plausible",
+    "grey-coverage-light-brown": "plausible"
+   },
+   "depends_on": {
+    "caramel-balayage-chocolate": [],
+    "darkest-brown-gloss": [],
+    "grey-coverage-chocolate": [],
+    "grey-coverage-light-brown": [],
+    "grey-blend-brunette": []
+   }
+  },
+  "why": {
+   "labels.caramel-balayage-chocolate": "target 6 (caramel and golden brown 5-6) minus current 4 (derived from the natural level) = lift 2: lift-0-2-virgin applies and no more cautious record holds",
+   "labels.chestnut-demi-refresh": "target 5, lift 1: lift-0-2-virgin is plausible but deposit-only-lift (demi_refresh, lift 1-9) is uncertain, and the most cautious label wins",
+   "labels.icy-platinum": "target 10 (required base level), lift 6: lift-5-plus-any and very-dark-to-platinum (current 4, target 9-10) both say best done by a colourist",
+   "labels.copper-balayage-root-shadow": "target 7 (copper 6-7 at the ends), lift 3: lift-3-4-any",
+   "labels.darkest-brown-gloss": "target 2, lift -2: go-darker-modest (condition healthy) applies; deposit-only-lift needs a lift of 1 or more",
+   "labels.pastel-pink-all-over": "target 10, lift 6: lift-5-plus-any and vivid-on-dark (current 1-6, vivid and pre-lightened)",
+   "labels.grey-blend-brunette": "grey blending keeps the person's own grey, so grey-to-silver does not apply; the base is none, the highest placed shade is light-brown at level 5, so target 5 minus current 4 = lift 1: lift-0-2-virgin applies and no more cautious record holds",
+   "labels.grey-coverage-chocolate": "chocolate 3-4 on natural 4, lift 0: lift-0-2-virgin and grey-coverage-percent, nothing more cautious holds",
+   "labels.grey-coverage-light-brown": "target 5, lift 1: permanent cover lifts natural hair up to two levels; lift-0-2-virgin and grey-coverage-percent, nothing more cautious holds",
+   "depends_on.caramel-balayage-chocolate": "plausible means an empty dependsOn: every cautious record was evaluated on answers",
+   "depends_on.darkest-brown-gloss": "as above",
+   "depends_on.grey-coverage-chocolate": "as above",
+   "depends_on.grey-coverage-light-brown": "as above"
+  }
+ },
+ {
+  "id": "never-plausible-on-a-guess",
+  "about": "Only the Colour core set answered (no current tone): a cool look lifting 2 levels with lightener stays uncertain until the tone is answered, because ash-from-warm-base holds on it and its when is unknown.",
+  "facts": {
+   "colour.natural_level": 4,
+   "hair.chemical_history": [
+    "none"
+   ],
+   "hair.condition": "healthy",
+   "colour.grey_percent": 0,
+   "look.undertone": "warm",
+   "pref.colour_direction": "lighter",
+   "pref.colour_upkeep": "high",
+   "safety.dye_reaction": "none",
+   "safety.scalp_irritation": "none"
+  },
+  "request": {
+   "kinds": [
+    "colour"
+   ],
+   "collections": [
+    "salon"
+   ],
+   "count": 4
+  },
+  "expect": {
+   "labels": {
+    "espresso-soft-caramel-balayage": "uncertain",
+    "caramel-balayage-chocolate": "plausible",
+    "icy-platinum": "needs_professional"
+   },
+   "depends_on": {
+    "espresso-soft-caramel-balayage": [
+     "colour.current_tone"
+    ],
+    "caramel-balayage-chocolate": []
+   }
+  },
+  "why": {
+   "labels.espresso-soft-caramel-balayage": "cool look with lightener, target 6, lift 2: ash-from-warm-base's on holds but its when (current tone) is unanswered, so plausible is not given on a guess (a cool look without lightener lifts nothing)",
+   "labels.caramel-balayage-chocolate": "warm look, lift 2: no more cautious record holds on it, so core answers alone reach plausible",
+   "labels.icy-platinum": "lift 6: lift-5-plus-any",
+   "depends_on.espresso-soft-caramel-balayage": "the one unanswered fact of a more cautious record whose on holds",
+   "depends_on.caramel-balayage-chocolate": "plausible means an empty dependsOn"
+  }
+ },
+ {
+  "id": "never-plausible-on-a-guess-answered",
+  "about": "The same person answers the current tone (cool): ash-from-warm-base is now evaluated and does not apply, so the cool look becomes plausible.",
+  "facts": {
+   "colour.natural_level": 4,
+   "hair.chemical_history": [
+    "none"
+   ],
+   "hair.condition": "healthy",
+   "colour.grey_percent": 0,
+   "look.undertone": "warm",
+   "pref.colour_direction": "lighter",
+   "pref.colour_upkeep": "high",
+   "safety.dye_reaction": "none",
+   "safety.scalp_irritation": "none",
+   "colour.current_tone": "cool"
+  },
+  "request": {
+   "kinds": [
+    "colour"
+   ],
+   "collections": [
+    "salon"
+   ],
+   "count": 4
+  },
+  "expect": {
+   "labels": {
+    "espresso-soft-caramel-balayage": "plausible"
+   },
+   "depends_on": {
+    "espresso-soft-caramel-balayage": []
+   }
+  },
+  "why": {
+   "labels.espresso-soft-caramel-balayage": "current tone cool is not in [warm, copper, brassy]; lift 2 on virgin healthy hair: lift-0-2-virgin",
+   "depends_on.espresso-soft-caramel-balayage": "nothing left unanswered"
+  }
+ },
+ {
+  "id": "plausible-means-lift-at-most-2",
+  "about": "Natural level 3, never coloured, healthy, all answered: a lift of 3 is uncertain even on virgin hair; small lifts and going darker stay plausible; a gloss that would have to lift is uncertain.",
+  "facts": {
+   "hair.chemical_history": [
+    "none"
+   ],
+   "colour.natural_level": 3,
+   "hair.condition": "healthy",
+   "safety.dye_reaction": "none",
+   "safety.scalp_irritation": "none",
+   "pref.colour_upkeep": "high",
+   "colour.current_tone": "neutral",
+   "hair.texture": "straight",
+   "hair.strand": "medium"
+  },
+  "request": {
+   "kinds": [
+    "colour"
+   ],
+   "collections": [
+    "salon"
+   ],
+   "count": 4
+  },
+  "expect": {
+   "labels": {
+    "caramel-balayage-chocolate": "uncertain",
+    "darkest-brown-gloss": "plausible",
+    "cherry-cola-gloss": "uncertain",
+    "grey-coverage-chocolate": "plausible"
+   }
+  },
+  "why": {
+   "labels.caramel-balayage-chocolate": "target 6 minus 3 = lift 3: lift-3-4-any; lift-0-2-virgin stops at 2",
+   "labels.darkest-brown-gloss": "target 2, lift -1: go-darker-modest",
+   "labels.cherry-cola-gloss": "target 4, lift 1: lift-0-2-virgin would be plausible, but deposit-only-lift (gloss, lift 1-9) is uncertain",
+   "labels.grey-coverage-chocolate": "target 4, lift 1: lift-0-2-virgin and grey-coverage-percent"
+  }
+ },
+ {
+  "id": "home-dye-going-lighter",
+  "about": "Home dye on level 5 lengths: any lift needs a colourist (go-lighter-over-dye); staying level matches no record (uncertain by default); going darker is plausible; a colour correction stays uncertain. The last dye is answered (2-6 months ago): with a colour history and the last dye unknown, no look is Plausible (colour-soon-after-dye waits on it).",
+  "facts": {
+   "hair.chemical_history": [
+    "home_dye"
+   ],
+   "colour.natural_level": 5,
+   "colour.current_level_lengths": 5,
+   "colour.last_chemical_service": "never",
+   "hair.condition": "healthy",
+   "safety.dye_reaction": "none",
+   "safety.scalp_irritation": "none",
+   "colour.current_tone": "neutral",
+   "hair.texture": "straight",
+   "hair.strand": "medium",
+   "pref.colour_upkeep": "high",
+   "colour.last_dye": "months_2_6"
+  },
+  "request": {
+   "kinds": [
+    "colour"
+   ],
+   "collections": [
+    "salon"
+   ],
+   "count": 4
+  },
+  "expect": {
+   "labels": {
+    "caramel-ombre": "needs_professional",
+    "chestnut-demi-refresh": "plausible",
+    "darkest-brown-gloss": "plausible",
+    "chocolate-colour-correction": "uncertain",
+    "grey-coverage-chocolate": "plausible"
+   }
+  },
+  "why": {
+   "labels.caramel-ombre": "target 8 (honey blonde 7-8 at the ends), lift 3 over home dye: go-lighter-over-dye",
+   "labels.chestnut-demi-refresh": "target 5 with a shade spanning 4-5 over level 5 lengths: one level deeper at most (darkens_by 1, read region by region), so go-darker-modest makes it plausible",
+   "labels.darkest-brown-gloss": "target 2, lift -3: go-darker-modest; no cautious record holds",
+   "labels.chocolate-colour-correction": "colour_correction with lift -1 over dye: colour-correction-tone (uncertain) beats go-darker-modest",
+   "labels.grey-coverage-chocolate": "target 4, lift -1: go-darker-modest and grey-coverage-percent"
+  }
+ },
+ {
+  "id": "vivid-on-dark",
+  "about": "Natural level 5, virgin, healthy: every vivid look needs its base lightened first (all carry a required base level), so vivid-on-dark says best done by a colourist even at a lift of 1.",
+  "facts": {
+   "hair.chemical_history": [
+    "none"
+   ],
+   "colour.natural_level": 5,
+   "hair.condition": "healthy",
+   "safety.dye_reaction": "none",
+   "safety.scalp_irritation": "none",
+   "pref.colour_upkeep": "high",
+   "colour.current_tone": "neutral",
+   "hair.texture": "straight",
+   "hair.strand": "medium"
+  },
+  "request": {
+   "kinds": [
+    "colour"
+   ],
+   "collections": [
+    "salon"
+   ],
+   "count": 4
+  },
+  "expect": {
+   "labels": {
+    "cherry-red-all-over": "needs_professional",
+    "midnight-blue-all-over": "needs_professional",
+    "pastel-pink-all-over": "needs_professional"
+   }
+  },
+  "why": {
+   "labels.cherry-red-all-over": "target 6 (required base level 6), lift 1 would be plausible, but vivid-on-dark (current 5 in 1-6, vivid, pre-lightened) applies",
+   "labels.midnight-blue-all-over": "target 7, lift 2: vivid-on-dark",
+   "labels.pastel-pink-all-over": "target 10, lift 5: lift-5-plus-any and vivid-on-dark"
+  }
+ },
+ {
+  "id": "placement-not-lighter",
+  "about": "Natural level 6, virgin, healthy: lightening placements whose shade is no lighter than the hair are uncertain; a lighter money piece stays plausible; level 8 from mid brown is uncertain.",
+  "facts": {
+   "hair.chemical_history": [
+    "none"
+   ],
+   "colour.natural_level": 6,
+   "hair.condition": "healthy",
+   "safety.dye_reaction": "none",
+   "safety.scalp_irritation": "none",
+   "pref.colour_upkeep": "high",
+   "colour.current_tone": "neutral",
+   "hair.texture": "straight",
+   "hair.strand": "medium"
+  },
+  "request": {
+   "kinds": [
+    "colour"
+   ],
+   "collections": [
+    "salon"
+   ],
+   "count": 4
+  },
+  "expect": {
+   "labels": {
+    "caramel-balayage-chocolate": "uncertain",
+    "copper-balayage-root-shadow": "uncertain",
+    "auburn-money-piece": "plausible",
+    "honey-blonde-foil-highlights": "uncertain"
+   }
+  },
+  "why": {
+   "labels.caramel-balayage-chocolate": "its balayage shades top out at level 6, not above the current 6: lightening-placement-not-lighter",
+   "labels.copper-balayage-root-shadow": "the auburn balayage at the mids tops out at 5: lightening-placement-not-lighter",
+   "labels.auburn-money-piece": "copper money piece up to 7 is lighter than 6; target 7, lift 1: lift-0-2-virgin; red-copper-fade needs low upkeep",
+   "labels.honey-blonde-foil-highlights": "target 8 from current 6: mid-brown-to-light-blonde (current 4-6, target 8-9)"
+  }
+ },
+ {
+  "id": "unknown-history-never-plausible",
+  "about": "The chemical history is not answered: unknown-history applies to every look and the current level cannot be derived, so nothing is plausible, not even going darker.",
+  "facts": {
+   "colour.natural_level": 2,
+   "hair.condition": "healthy",
+   "safety.dye_reaction": "none",
+   "safety.scalp_irritation": "none"
+  },
+  "request": {
+   "kinds": [
+    "colour"
+   ],
+   "collections": [
+    "salon"
+   ],
+   "count": 4
+  },
+  "expect": {
+   "labels": {
+    "darkest-brown-gloss": "uncertain",
+    "icy-platinum": "needs_professional",
+    "soft-black-gloss": "uncertain"
+   }
+  },
+  "why": {
+   "labels.darkest-brown-gloss": "unknown-history and unknown-current-level apply; no more cautious record can be evaluated",
+   "labels.icy-platinum": "the roots, read from the natural level 2, need 8 levels of lift, so lift-5-plus-any applies on that known region alone; never plausible",
+   "labels.soft-black-gloss": "as darkest-brown-gloss"
+  }
+ },
+ {
+  "id": "henna-plant-colour",
+  "about": "Plant henna in the history, everything else answered and healthy (a colourist's review): lightening over henna is best done by a colourist (henna-plant), and any colour over it, darker or level, stays uncertain (henna-plant-any). The follow-up confirms plant henna: henna of unknown type is a referral (henna-type-unknown).",
+  "facts": {
+   "hair.chemical_history": [
+    "henna_plant"
+   ],
+   "colour.natural_level": 5,
+   "colour.current_level_lengths": 5,
+   "hair.condition": "healthy",
+   "safety.dye_reaction": "none",
+   "safety.scalp_irritation": "none",
+   "pref.colour_upkeep": "high",
+   "colour.current_tone": "neutral",
+   "hair.texture": "straight",
+   "hair.strand": "medium",
+   "colour.henna_type": "plant"
+  },
+  "request": {
+   "kinds": [
+    "colour"
+   ],
+   "collections": [
+    "salon"
+   ],
+   "count": 4
+  },
+  "expect": {
+   "labels": {
+    "honey-blonde-foil-highlights": "needs_professional",
+    "caramel-balayage-chocolate": "needs_professional",
+    "darkest-brown-gloss": "uncertain",
+    "chestnut-demi-refresh": "uncertain"
+   }
+  },
+  "why": {
+   "labels.honey-blonde-foil-highlights": "a lift of 3 or more over henna: henna-plant (lift 1-9) and lift-3-4-any; the most cautious label wins",
+   "labels.caramel-balayage-chocolate": "a lift of 1 over henna: henna-plant says best done by a colourist",
+   "labels.darkest-brown-gloss": "going darker over henna: henna-plant-any keeps it uncertain, so go-darker-modest cannot make it plausible",
+   "labels.chestnut-demi-refresh": "a level deposit over henna: henna-plant-any"
+  }
+ },
+ {
+  "id": "lightened-hair-going-darker",
+  "about": "Bleached lengths at level 9 going darker, everything else healthy and answered: porous lightened hair takes a darker shade unevenly, so no darker look is plausible (go-darker-over-lightened), even where go-darker-modest alone says so; four or more levels darker over near-white lengths needs a filler first, so a colourist does it (filler-before-dark).",
+  "facts": {
+   "hair.chemical_history": [
+    "bleach"
+   ],
+   "colour.natural_level": 5,
+   "colour.current_level_lengths": 9,
+   "hair.condition": "healthy",
+   "safety.dye_reaction": "none",
+   "safety.scalp_irritation": "none",
+   "pref.colour_upkeep": "high",
+   "colour.current_tone": "neutral",
+   "hair.texture": "straight",
+   "hair.strand": "medium"
+  },
+  "request": {
+   "kinds": [
+    "colour"
+   ],
+   "collections": [
+    "salon"
+   ],
+   "count": 4
+  },
+  "expect": {
+   "labels": {
+    "darkest-brown-gloss": "needs_professional",
+    "chestnut-demi-refresh": "needs_professional",
+    "caramel-balayage-chocolate": "needs_professional"
+   }
+  },
+  "why": {
+   "labels.darkest-brown-gloss": "7 levels darker over near-white lengths: filler-before-dark",
+   "labels.chestnut-demi-refresh": "5 levels darker over near-white lengths: filler-before-dark",
+   "labels.caramel-balayage-chocolate": "its caramel lengths are 4 levels below the bleached ones: filler-before-dark, the most cautious label wins"
+  }
+ },
+ {
+  "id": "colour-correction-never-plausible",
+  "about": "Natural, healthy level 6 hair with every cautious fact answered: a colour correction look is still never plausible, because a correction is planned case by case (colour-correction-any).",
+  "facts": {
+   "hair.chemical_history": [
+    "none"
+   ],
+   "colour.natural_level": 6,
+   "hair.condition": "healthy",
+   "safety.dye_reaction": "none",
+   "safety.scalp_irritation": "none",
+   "pref.colour_upkeep": "high",
+   "colour.current_tone": "neutral",
+   "hair.texture": "straight",
+   "hair.strand": "medium"
+  },
+  "request": {
+   "kinds": [
+    "colour"
+   ],
+   "collections": [
+    "salon"
+   ],
+   "count": 4
+  },
+  "expect": {
+   "labels": {
+    "beige-blonde-colour-correction": "uncertain",
+    "chocolate-colour-correction": "uncertain"
+   }
+  },
+  "why": {
+   "labels.beige-blonde-colour-correction": "lift-0-2-virgin alone would say plausible; colour-correction-any keeps it uncertain",
+   "labels.chocolate-colour-correction": "colour-correction-any"
+  }
+ }
+]

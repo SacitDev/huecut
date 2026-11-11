@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "runtimes": {
+    "@mediapipe/tasks-vision": "1.2.2",
+    "@huggingface/transformers": "4.3.2",
+    "onnxruntime-web": "1.31.0-dev.20260914-8d85527a0"
+  },
+  "files": [
+    {
+      "path": "mediapipe/vision_wasm_module_internal.wasm",
+      "sha256": "b8927a2eebfe80dd98a426a210a9e820c8215168c06f3bcf5d4d09080f623db5",
+      "bytes": 14603372,
+      "contentType": "application/wasm",
+      "source": "npm:@mediapipe/tasks-vision@1.2.2/wasm/vision_wasm_module_internal.wasm",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "mediapipe/face_landmarker.task",
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+      "bytes": 3758596,
+      "contentType": "application/octet-stream",
+      "source": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "mediapipe/hand_landmarker.task",
+      "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "bytes": 7819105,
+      "contentType": "application/octet-stream",
+      "source": "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "mediapipe/pose_landmarker_lite.task",
+      "sha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a",
+      "bytes": 5777746,
+      "contentType": "application/octet-stream",
+      "source": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "mediapipe/selfie_multiclass_256x256.tflite",
+      "sha256": "c6748b1253a99067ef71f7e26ca71096cd449baefa8f101900ea23016507e0e0",
+      "bytes": 16371837,
+      "contentType": "application/octet-stream",
+      "source": "https://storage.googleapis.com/mediapipe-models/image_segmenter/selfie_multiclass_256x256/float32/1/selfie_multiclass_256x256.tflite",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "onnxruntime-web/ort-wasm-simd-threaded.asyncify.wasm",
+      "sha256": "49871f5a4409519797e127440868a6d1923339d9185907f301a5b2a1d90af082",
+      "bytes": 26861777,
+      "contentType": "application/wasm",
+      "source": "npm:onnxruntime-web@1.31.0-dev.20260914-8d85527a0/dist/ort-wasm-simd-threaded.asyncify.wasm",
+      "licence": "MIT"
+    },
+    {
+      "path": "depth-anything-v2-small/config.json",
+      "sha256": "3aee5b9bc4f711ee885c2526d871f0c8c6c8c4b26b8e04253d0167f6a83264f5",
+      "bytes": 38,
+      "contentType": "application/json",
+      "source": "https://huggingface.co/onnx-community/depth-anything-v2-small/resolve/4472b7362082ad9968fee890ca0f1e5aca36b93d/config.json",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "depth-anything-v2-small/preprocessor_config.json",
+      "sha256": "03576db3c13dd0471fdf5f5e1428befcb95de063fe699879150b293dc9e0a2c6",
+      "bytes": 461,
+      "contentType": "application/json",
+      "source": "https://huggingface.co/onnx-community/depth-anything-v2-small/resolve/4472b7362082ad9968fee890ca0f1e5aca36b93d/preprocessor_config.json",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "depth-anything-v2-small/onnx/model_int8.onnx",
+      "sha256": "01aa7a23de3f4a0ee1a2bb9997e6918104c85a9f95dea46d27b9b3fb0c6b9001",
+      "bytes": 27258801,
+      "contentType": "application/octet-stream",
+      "source": "https://huggingface.co/onnx-community/depth-anything-v2-small/resolve/4472b7362082ad9968fee890ca0f1e5aca36b93d/onnx/model_int8.onnx",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "depth-anything-v2-small/onnx/model_fp16.onnx",
+      "sha256": "2df6223f206b5164e21f664ace61dabeb9bb6a49b8b5a3e00510b4807d0f5b04",
+      "bytes": 49642442,
+      "contentType": "application/octet-stream",
+      "source": "https://huggingface.co/onnx-community/depth-anything-v2-small/resolve/4472b7362082ad9968fee890ca0f1e5aca36b93d/onnx/model_fp16.onnx",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "sam2.1-hiera-tiny/config.json",
+      "sha256": "9813c595dfbbe73c6b40ed269a2d6252915f538b8cdef5955f48c79716414cce",
+      "bytes": 5814,
+      "contentType": "application/json",
+      "source": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/config.json",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "sam2.1-hiera-tiny/preprocessor_config.json",
+      "sha256": "240c886b428d36b63bbb51b0c17ad4d2668d83ba851a04f09880a2b93f0b7349",
+      "bytes": 749,
+      "contentType": "application/json",
+      "source": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/preprocessor_config.json",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "sam2.1-hiera-tiny/onnx/vision_encoder_int8.onnx",
+      "sha256": "d848e08b747ba44ee59b31246988528d5ecc67d1e1c0a2f5c08395c86d92176f",
+      "bytes": 440423,
+      "contentType": "application/octet-stream",
+      "source": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/vision_encoder_int8.onnx",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "sam2.1-hiera-tiny/onnx/vision_encoder_int8.onnx_data",
+      "sha256": "4359d45f8aafcbc69f945e714af7fb06b74b24c753b5af86b6a230ecd0e737bc",
+      "bytes": 52573088,
+      "contentType": "application/octet-stream",
+      "source": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/vision_encoder_int8.onnx_data",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "sam2.1-hiera-tiny/onnx/prompt_encoder_mask_decoder_int8.onnx",
+      "sha256": "e53727dc441a3c8716dd4a606d5bbf920e33e7545d1a6ff843c9fb804c7d19b6",
+      "bytes": 289885,
+      "contentType": "application/octet-stream",
+      "source": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/prompt_encoder_mask_decoder_int8.onnx",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "sam2.1-hiera-tiny/onnx/prompt_encoder_mask_decoder_int8.onnx_data",
+      "sha256": "fdb3179a32388267a944a416c0f992c77a138b69a4bfd94f0bbf7089430d7489",
+      "bytes": 8662016,
+      "contentType": "application/octet-stream",
+      "source": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/prompt_encoder_mask_decoder_int8.onnx_data",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "sam2.1-hiera-tiny/onnx/vision_encoder_fp16.onnx",
+      "sha256": "7773e79d589dada8e1e630cc7eb18b17b2c5b4faeb1eaab5ebf9df618ecbd50a",
+      "bytes": 314925,
+      "contentType": "application/octet-stream",
+      "source": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/vision_encoder_fp16.onnx",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "sam2.1-hiera-tiny/onnx/vision_encoder_fp16.onnx_data",
+      "sha256": "a4dd3759e9b6a476d991fb3493787992e78777e51462695e1bede71ae258103e",
+      "bytes": 67005504,
+      "contentType": "application/octet-stream",
+      "source": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/vision_encoder_fp16.onnx_data",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "sam2.1-hiera-tiny/onnx/prompt_encoder_mask_decoder_fp16.onnx",
+      "sha256": "00ac7200451f246e8307aa1a1648113f47dc45625738406403a0e6b86c69fc55",
+      "bytes": 229799,
+      "contentType": "application/octet-stream",
+      "source": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/prompt_encoder_mask_decoder_fp16.onnx",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "sam2.1-hiera-tiny/onnx/prompt_encoder_mask_decoder_fp16.onnx_data",
+      "sha256": "027b457a53f5bd76bb401c59555448451d04b4eab6d2f6a6758406b40133ee2c",
+      "bytes": 10454016,
+      "contentType": "application/octet-stream",
+      "source": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/resolve/814a066640debee5a91e70aa401fb8e17e030503/onnx/prompt_encoder_mask_decoder_fp16.onnx_data",
+      "licence": "Apache-2.0"
+    }
+  ]
+}

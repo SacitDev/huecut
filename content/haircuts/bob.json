@@ -1,0 +1,5930 @@
+[
+  {
+    "id": "blunt-chin-bob",
+    "kind": "cut",
+    "name": "Blunt chin bob",
+    "aliases": [
+      "one-length bob",
+      "classic bob",
+      "box bob",
+      "tassel cut"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          16
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          10,
+          14
+        ]
+      },
+      "back": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "nape": {
+        "cm": [
+          9,
+          13
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "blunt_full",
+        "side_swept",
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "cut dry or with a light hand, waves pull the line up unevenly"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "blunt lines turn triangular on curls, use curly-bob-rounded"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "use coily-sculpted-chin-bob"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "take internal weight out behind the ears; never razor the ends"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check nape growth and crown whorl so the line does not kick out at the back."
+    },
+    "strand_note": "Fine strands look denser with a hard edge; thick strands need internal debulking so the line does not flare.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "daily",
+      "products": [
+        "smoothing serum",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "Reaches a lob in 3-4 months; trim the perimeter every 6-8 weeks to stop the ends flaring.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "blunt",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "blunt",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "fine_hair_friendly",
+        "needs_blow_out"
+      ],
+      "silhouette": "one_length",
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ]
+    },
+    "variants": [],
+    "client": "A crisp, one-length bob at the chin that makes hair look thicker and glossier. Best with a quick blow-dry.",
+    "stylist": "Cut the back first, set the weight line at the chin, then connect the sides at a slight forward angle with tension-free sections. Check the line by eye with the head level. Weight: heavy, even weight sitting exactly on the perimeter.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a blunt chin bob: one length with a sharp, heavy perimeter sitting exactly at the chin, the top 12-16 cm, the sides 10-14 cm and the back 9-13 cm, no fringe and no layers, a smooth glossy blow-dried finish",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://stylist.co.uk/beauty/hair/graduated-bob-hair-trend/958233",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "micro-bob",
+    "kind": "cut",
+    "name": "Micro bob",
+    "aliases": [
+      "cheek-length bob",
+      "ultra-short bob",
+      "Paris micro bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "back": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "nape": {
+        "cm": [
+          5,
+          9
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "micro",
+        "blunt_full",
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "short waves bounce up, keep the perimeter slightly longer at the back"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "too short for curl spring, see curly-bob-rounded"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "too short to allow for coil shrinkage; see coily-sculpted-chin-bob or tapered-twa"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "thin the nape because thick hair flares at this length"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A short back shows any nape whorl or low hairline."
+    },
+    "strand_note": "Short length makes strand texture obvious: fine hair looks sleek, coarse hair looks fuller.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "daily",
+      "products": [
+        "smoothing serum",
+        "light mousse"
+      ]
+    },
+    "grow_out": "Becomes a chin bob after about two months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "jaw"
+      ],
+      "sides_width": "medium",
+      "perimeter": "blunt",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "blunt",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A very short bob that sits at the upper jaw. Bold, graphic and quick to dry.",
+    "stylist": "Cut the line at the upper jaw with a tight, slightly forward-angled perimeter and check balance from the profile so the front does not look heavier than the back. Weight: weight at the upper jaw, line rising a little at the front.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a micro bob: a very short blunt bob with the weight line at the upper jaw, the top 9-13 cm, the sides 6-10 cm and the back 5-9 cm, the line rising slightly at the front, no fringe, smooth and graphic",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/hair/best-haircut-trends-2026/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "french-bob",
+    "kind": "cut",
+    "name": "French bob",
+    "aliases": [
+      "Parisian bob",
+      "chin-length fringed bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          15
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "cm": [
+          10,
+          13
+        ]
+      },
+      "back": {
+        "cm": [
+          9,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          9,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "wispy",
+      "landmark": "brow",
+      "options": [
+        "micro",
+        "blunt_full"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "use a fringe long enough to allow for spring"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "use curly-bob-with-fringe"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "take weight out of the interior"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the front hairline for a cowlick before cutting a short fringe."
+    },
+    "strand_note": "Fine hair suits the airy ends; thick hair needs interior weight removed.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "light cream",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Grow the fringe out through a curtain stage; the bob becomes a lob.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "jaw"
+      ],
+      "sides_width": "medium",
+      "perimeter": "blunt",
+      "part": "none",
+      "fringe": "wispy",
+      "layers": [
+        "light"
+      ],
+      "weight_removal": "low",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "blunt",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "low_maintenance",
+        "air_dry_friendly"
+      ],
+      "silhouette": "bob",
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ]
+    },
+    "variants": [],
+    "client": "A chin-length bob with airy ends and a short, wispy fringe at the brows. Easy to wear a little tousled.",
+    "stylist": "Cut a clean perimeter at the chin, point-cut the ends for a light feel, then cut the fringe dry at the brow, slightly wispy. Weight: light weight at the chin, ends slightly airy.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a French bob: one length at the chin with slightly airy, softly undone ends, and a short wispy fringe just at the eyebrows, a tousled natural finish",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/hair/best-haircut-trends-2026/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "italian-bob",
+    "kind": "cut",
+    "name": "Italian bob",
+    "aliases": [
+      "rounded bob",
+      "cloud bob",
+      "voluminous bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          14,
+          18
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          12,
+          16
+        ]
+      },
+      "back": {
+        "cm": [
+          10,
+          14
+        ]
+      },
+      "nape": {
+        "cm": [
+          10,
+          14
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "side_swept",
+        "blunt_full"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "good on loose curls, graduate inside only"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep the length so the curl can bounce"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "avoid heavy layers, they take out volume"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "remove weight from the sides"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Crown whorl may lift the top, so cut slightly longer there."
+    },
+    "strand_note": "Fine hair gains volume from the rounded shape; thick hair needs interior thinning.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "daily",
+      "products": [
+        "volumising mousse",
+        "blow-dry cream"
+      ]
+    },
+    "grow_out": "Grows into a soft lob; the graduation keeps the shape.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends",
+        "jaw"
+      ],
+      "sides_width": "full",
+      "perimeter": "rounded",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "fine_hair_friendly",
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A fuller, rounded bob that curves softly under. It moves when you do.",
+    "stylist": "Build a shallow graduation through the back, keep the perimeter soft and curved, and leave the front slightly longer. Blow-dry with a round brush to turn the ends under. Weight: full rounded weight at the jaw with soft internal graduation.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an Italian bob: a full, rounded bob at the chin, the top 14-18 cm, the sides 12-16 cm and the back 10-14 cm, with shallow internal graduation, a soft curved perimeter and no fringe, the ends turned softly under",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "graduated-bob",
+    "kind": "cut",
+    "name": "Graduated bob",
+    "aliases": [
+      "classic stacked bob",
+      "layered nape bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          18
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          7,
+          14
+        ]
+      },
+      "back": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "nape": {
+        "cm": [
+          5,
+          10
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept",
+        "curtain",
+        "blunt_full"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "graduation bulks the nape, see curly-wedge-bob"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see coily-layered-midi-stacked"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "too much stack looks thin"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "thin the stack"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check for a nape whorl, a frequent cause of a lifted nape."
+    },
+    "strand_note": "Fine hair fills out at the stack; coarse hair can stand away from the nape.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        20
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "daily",
+      "products": [
+        "blow-dry lotion",
+        "smoothing serum"
+      ]
+    },
+    "grow_out": "Grows into an A-line and then a lob; the stack softens.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "occiput"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "geometric_bob",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        20
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "tags": [
+        "fine_hair_friendly",
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A bob shorter at the back and longer in the front, with a rounded shape.",
+    "stylist": "Cut a controlled graduation with a diagonal-back parting, increasing the stack toward the nape; cross-check horizontally and keep the interior bulk balanced. Weight: stacked weight at the occipital, sides longer.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a graduated bob: a rounded bob at the chin with stacked weight at the back of the head, the back 5-10 cm rising to the sides at 7-14 cm and the top 12-18 cm, longer in front, no fringe, smooth ends",
+    "sources": [
+      {
+        "url": "https://stylist.co.uk/beauty/hair/graduated-bob-hair-trend/958233",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "wedge-bob",
+    "kind": "cut",
+    "name": "Wedge bob",
+    "aliases": [
+      "70s wedge",
+      "stacked wedge"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          7,
+          12
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "back": {
+        "cm": [
+          2,
+          6
+        ]
+      },
+      "nape": {
+        "cm": [
+          2,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept",
+        "blunt_full"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "the stack turns into bulk on curls; see curly-wedge-bob"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see asymmetric-coily-taper or coily-sculpted-chin-bob"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair can look flat"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A short nape exposes any whorl, so check how the nape hair grows before stacking."
+    },
+    "strand_note": "A strong graduation needs enough strand strength to hold the stack.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "daily",
+      "products": [
+        "blow-dry lotion",
+        "strong-hold spray"
+      ]
+    },
+    "grow_out": "Grows into a lob but keeps a visible stack for a long time.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "occiput"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "geometric_bob",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A structured bob, shorter at the back, with lots of body.",
+    "stylist": "Establish the nape short, graduate fast to the sides, use a round brush for lift and keep the top lightly layered for body. Weight: tight stack at the back, very short nape, sides longer.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a wedge bob: a structured jaw-length bob with a tight stack at the back, the nape 2-6 cm, the sides 5-10 cm and the top 7-12 cm, lightly layered for body and lift, no fringe, the weight packed at the back",
+    "sources": [
+      {
+        "url": "https://www.hairboutique.com/articles_p/hairstyles-from-the-past-the-70s-dorothy-hamill-wedge/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "a-line-bob",
+    "kind": "cut",
+    "name": "A-line bob",
+    "aliases": [
+      "angled bob",
+      "sloped bob",
+      "long-front bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          13,
+          17
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          10,
+          17
+        ]
+      },
+      "back": {
+        "cm": [
+          8,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          8,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept",
+        "curtain",
+        "blunt_full"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "soften the diagonal on loose curls to avoid a heavy front"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see curly-a-line-bob"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "take out weight at the nape"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A short nape shows whorls; check the growth pattern before shortening the back."
+    },
+    "strand_note": "Smooth, fine hair is a good fit; coarse hair needs thinning at the nape.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        15
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "daily",
+      "products": [
+        "smoothing serum",
+        "shine spray"
+      ]
+    },
+    "grow_out": "Easy to grow into a lob; the angle softens naturally.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "medium",
+      "perimeter": "blunt_sleek",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "geometric_bob",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        15
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A sleek bob that is slightly shorter at the back than the front.",
+    "stylist": "Set the back shorter than the front by 3-6 cm; blend the nape to avoid a shelf and cut the perimeter on a soft diagonal. Weight: weight in a diagonal, shorter at the nape and longer at the front.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an A-line bob: a sleek chin-length bob on a soft diagonal, the back 8-12 cm and shorter than the front by 3-6 cm, the sides 10-17 cm and the top 13-17 cm, one length with no fringe, a smooth blended nape",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://stylist.co.uk/beauty/hair/graduated-bob-hair-trend/958233",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "stacked-inverted-bob",
+    "kind": "cut",
+    "name": "Stacked inverted bob",
+    "aliases": [
+      "inverted bob",
+      "reverse bob",
+      "hard-stacked bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          7,
+          14
+        ]
+      },
+      "back": {
+        "cm": [
+          2,
+          6
+        ]
+      },
+      "nape": {
+        "cm": [
+          2,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept",
+        "blunt_full"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "a steep stack turns into bulk on curls; see curly-wedge-bob"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see asymmetric-coily-taper"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair flattens at the nape"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "thin the stacks"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Examine the occipital bone and nape whorl before building a steep stack."
+    },
+    "strand_note": "Needs enough body to stack without collapsing.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        20
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "daily",
+      "products": [
+        "blow-dry lotion",
+        "strong-hold spray"
+      ]
+    },
+    "grow_out": "The strong angle softens in 6-8 weeks and becomes an A-line.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "occiput"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "geometric_bob",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        20
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A bob with a steep angle, short and stacked at the back, longer at the front.",
+    "stylist": "Use higher graduation than the standard graduated bob, choose a steep diagonal forward line and cross-check each section. Weight: steep stack at the back with a steep diagonal to the front.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a stacked inverted bob: a jaw-length bob with a steep diagonal line, short and tightly stacked at the back (2-6 cm), the sides 7-14 cm lengthening toward the front, the top 6-12 cm, no fringe, smooth polished ends",
+    "sources": [
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "soft-layered-bob",
+    "kind": "cut",
+    "name": "Soft layered bob",
+    "aliases": [
+      "feathered bob",
+      "layered bob",
+      "hush bob",
+      "short hush cut"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          11,
+          16
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "back": {
+        "cm": [
+          8,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          8,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "side_swept",
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and keep layers long"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "tight curls shrink more, keep the shape rounded"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair loses density if layers are short"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Look at the crown and front hairline before cutting top layers."
+    },
+    "strand_note": "Layers add volume to fine hair when kept long and not thinned.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "light mousse",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Grows into a layered lob, and the layers keep the shape while it does.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "jaw"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "A bob with soft layers that give movement. Easy to style with a round brush or by air-drying.",
+    "stylist": "Cut the base first, then add low layers from the cheekbone with point cutting; keep the layers connected to avoid steps. Weight: weight softened by layers from the cheekbone down.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a soft layered bob: a chin-length bob with the top 11-16 cm, the sides 9-13 cm and the back 8-12 cm, soft connected layers starting at the cheekbone to soften the weight, no fringe, a light bouncy blow-dry",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/medium-hairstyles/medium-length-layered-haircuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "choppy-bob",
+    "kind": "cut",
+    "name": "Choppy bob",
+    "aliases": [
+      "razored bob",
+      "textured bob",
+      "ripped bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          15
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          8,
+          12
+        ]
+      },
+      "back": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "nape": {
+        "cm": [
+          6,
+          10
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "wispy",
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "point-cut instead of razoring for curls"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "use curly-bob-rounded"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "razoring on fine hair leaves ends see-through"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Cut the crown carefully, because choppy ends draw attention to a cowlick."
+    },
+    "strand_note": "Thick hair benefits most; fine hair needs a soft hand.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising paste",
+        "dry texture spray"
+      ]
+    },
+    "grow_out": "Choppy ends fade within 6 weeks and are easy to refresh.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "high",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "tags": [
+        "thick_hair_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A bob with broken, messy ends that looks relaxed and easy.",
+    "stylist": "Point cut and slice through the ends to remove weight, leaving the base line visible so the shape remains. Weight: weight broken up, ends staggered.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a choppy bob: a jaw-length bob with the top 10-15 cm, the sides 8-12 cm and the back 6-10 cm, the weight broken up by point-cut, staggered ends, no fringe, a relaxed piecey finish with the base line still visible",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "asymmetric-bob",
+    "kind": "cut",
+    "name": "Asymmetric bob",
+    "aliases": [
+      "lopsided bob",
+      "uneven bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          17
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          7,
+          17
+        ]
+      },
+      "back": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          6,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept",
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry to see the real curl pattern"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see curly-asymmetric-bob"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "avoid on very fine hair, the long side falls limp"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Match the longer side to the natural part."
+    },
+    "strand_note": "The longer side needs enough strand strength to hold an edge.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "daily",
+      "products": [
+        "smoothing serum",
+        "texture spray"
+      ]
+    },
+    "grow_out": "Even out the sides to return to a regular bob.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "jaw"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "deep_side",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "geometric_bob",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A bob with one side longer than the other for a modern edge.",
+    "stylist": "Set the part first, then angle the perimeter from jaw length on the short side to chin on the long side, blending at the back. Weight: one side longer than the other; weight shifts off-centre.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an asymmetric bob: a chin-length bob with one side longer, the shorter side near jaw length and the longer side at the chin, the sides 7-17 cm, the top 10-17 cm and the back 6-12 cm, no fringe, weight off-centre",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "shaggy-bob",
+    "kind": "cut",
+    "name": "Shaggy bob",
+    "aliases": [
+      "shag bob",
+      "shob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          11,
+          16
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          8,
+          12
+        ]
+      },
+      "back": {
+        "cm": [
+          7,
+          11
+        ]
+      },
+      "nape": {
+        "cm": [
+          7,
+          11
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "wispy",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "good on 2B-3B curls; shape with a diffuser",
+        "daily": true
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep layers longer than for waves"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "thin the crown layers if heavy"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Crown layers show whorls, so keep them long there."
+    },
+    "strand_note": "Fine hair gains volume from the layers; thick hair needs interior layering.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "texturising spray",
+        "light cream"
+      ]
+    },
+    "grow_out": "Grows into a shaggy lob and then a shag; the crown layers stay useful throughout.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light",
+        "shag"
+      ],
+      "silhouette": "shag",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "A bob with shaggy layers that looks easy and tousled.",
+    "stylist": "Cut the perimeter, add short layers around the crown and long layers through the body, and leave a curtain fringe to link the face. Weight: weight at the cheeks and crown, ends fine and layered.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a shaggy bob: a chin-length bob with the top 11-16 cm and short layers at the crown, the sides 8-12 cm and the back 7-11 cm, ends fine and layered, and a curtain fringe of 6-12 cm falling to the cheekbones",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/wolf-cut-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "bevelled-bob",
+    "kind": "cut",
+    "name": "Bevelled bob",
+    "aliases": [
+      "soft round bob",
+      "tucked bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          16
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          10,
+          14
+        ]
+      },
+      "back": {
+        "cm": [
+          8,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          8,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept",
+        "curtain",
+        "blunt_full"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry on loose curls and bevel by hand"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "use curly-bob-rounded"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "internal thinning"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the front hairline since the front curves in."
+    },
+    "strand_note": "Medium strands hold tucked ends best.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "daily",
+      "products": [
+        "smoothing serum"
+      ]
+    },
+    "grow_out": "Becomes a soft lob within about three months, with no change in structure.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "rounded",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "low",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A smooth bob with ends that tuck under in a neat curve.",
+    "stylist": "Use a slightly rounded perimeter and a blow-dry that turns the ends under; bevel the corners with small point cuts. Weight: edge softly rounded under at the ends.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a bevelled bob: a smooth chin-length bob with the top 12-16 cm, the sides 10-14 cm and the back 8-12 cm in one length, the ends rounded and tucked softly under in a neat curve, no fringe, a polished finish",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mushroom-bob",
+    "kind": "cut",
+    "name": "Mushroom bob",
+    "aliases": [
+      "rounded mushroom",
+      "cap bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          17
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "sides": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "back": {
+        "cm": [
+          8,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          8,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "blunt_full",
+      "landmark": "brow",
+      "options": [
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and keep the top fuller"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "use curly-bowl-crop"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair may lose shape"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A crown whorl needs a longer section or it will push the rounded top out of shape."
+    },
+    "strand_note": "The curved outline suits medium strands.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "daily",
+      "products": [
+        "blow-dry cream"
+      ]
+    },
+    "grow_out": "The round shape remains for about two months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "sides",
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "rounded",
+      "part": "none",
+      "fringe": "blunt_full",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "rounded",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A bob with a rounded top that curves in at the ends like a mushroom.",
+    "stylist": "Create a convex shape at the crown with graduated layers, tuck the ends and keep the fringe just long enough to blend. Weight: weight at the crown that curves in toward the ears.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a mushroom bob: a jaw-length bob with a rounded, graduated crown of 12-17 cm curving in toward the ears, the sides 9-13 cm and the back 8-12 cm tucked under, and a blunt fringe of 6-10 cm sitting at the brow",
+    "sources": [
+      {
+        "url": "https://womanandhome.com/beauty/hair/mushroom-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "pageboy-bob",
+    "kind": "cut",
+    "name": "Pageboy",
+    "aliases": [
+      "pageboy bob",
+      "helmet bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          16
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          8
+        ]
+      },
+      "sides": {
+        "cm": [
+          10,
+          14
+        ]
+      },
+      "back": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "nape": {
+        "cm": [
+          9,
+          13
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "blunt_full",
+      "landmark": "brow",
+      "options": [
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "set the ends with a round brush",
+        "daily": true
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "curls will not hold a turned-under line; see curly-bob-with-fringe"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see curly-bob-with-fringe or coily-sculpted-chin-bob"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair loses lift"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "internal thinning"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Cut the crown carefully since it is on display."
+    },
+    "strand_note": "Best on smooth, fine to medium strands that lie flat and curve under without help.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "daily",
+      "products": [
+        "smoothing serum"
+      ]
+    },
+    "grow_out": "Grows into a long bob; the fringe is the part that needs regular trimming every 3-4 weeks.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "blunt",
+      "part": "none",
+      "fringe": "blunt_full",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "blunt",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A smooth, rounded bob with a straight-across fringe.",
+    "stylist": "Cut the perimeter with a gentle curve and a heavy fringe, with the ends turned under. Weight: heavy, even, rounded weight turned under.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a pageboy: a smooth chin-length bob in one length with heavy, evenly rounded weight turned under, the top 12-16 cm, the sides 10-14 cm and the back 9-13 cm, and a blunt straight-across fringe of 5-8 cm at the brow",
+    "sources": [
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "nape-undercut-bob",
+    "kind": "cut",
+    "name": "Nape undercut bob",
+    "aliases": [
+      "bob with hidden undercut"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          16
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "back": {
+        "cm": [
+          8,
+          13
+        ]
+      },
+      "nape": {
+        "cm": [
+          8,
+          13
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept",
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut the undercut with care on curls"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "the undercut must be tight for tight curls"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair loses density at the nape"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check nape growth patterns carefully; a strong whorl can push the shaved area out of line."
+    },
+    "strand_note": "Thick strands benefit from bulk removal.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "daily",
+      "products": [
+        "smoothing serum"
+      ]
+    },
+    "grow_out": "The undercut fills in within about 4 weeks, so no grow-out stage is visible beneath the length.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "medium",
+      "perimeter": "blunt",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "high",
+      "cut_method": [],
+      "nape_style": "undercut",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "thick_hair_friendly",
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A bob with a tidy, shaved section under the nape that removes bulk.",
+    "stylist": "Clipper cut the nape under a held-up section, leave the top section long to cover the line. Weight: removable bulk at the nape under the length.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a nape undercut bob: a chin-length bob with the top 12-16 cm, the sides 9-13 cm and the back 8-13 cm, with a clipped section under the nape covered by the longer top length, no fringe, a clean smooth finish",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/thick-hair/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curtain-fringe-bob",
+    "kind": "cut",
+    "name": "Curtain-fringe bob",
+    "aliases": [
+      "bob with curtain bangs"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          17
+        ]
+      },
+      "fringe": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "sides": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "back": {
+        "cm": [
+          8,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          8,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut the fringe dry and allow for shrinkage"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "use curly-bob-with-fringe"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "thin the fringe lightly"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check crown cowlicks; a centre part needs a calm front hairline."
+    },
+    "strand_note": "A soft fringe suits medium and fine strands; coarse hair needs more blending into the sides.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "light cream",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The fringe grows out as face-framing layers without an awkward stage.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "jaw"
+      ],
+      "sides_width": "medium",
+      "perimeter": "blunt",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "blunt",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "A chin bob with a fringe that parts in the middle and sweeps to the sides.",
+    "stylist": "Cut the fringe from a triangular section at the part, taper to the cheekbone, then link it into the side lengths. Weight: weight at the jaw, with a soft centre-parted fringe curving away from the face.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curtain-fringe bob: a chin-length bob in one length with the top 12-17 cm, the sides 9-13 cm and the back 8-12 cm, and a centre-parted curtain fringe of 9-13 cm curving away from the face to the cheekbones",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/hair/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "full-fringe-bob",
+    "kind": "cut",
+    "name": "Full-fringe bob",
+    "aliases": [
+      "bob with blunt bangs",
+      "fringed bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          16
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          8
+        ]
+      },
+      "sides": {
+        "cm": [
+          10,
+          14
+        ]
+      },
+      "back": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "nape": {
+        "cm": [
+          9,
+          13
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "blunt_full",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "the fringe may curl up, so blow-dry it flat",
+        "daily": true
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "a blunt fringe springs up on curls; see curly-bob-with-fringe"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "a blunt fringe shrinks to the hairline on coils; see curly-bob-with-fringe"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks sparse in the fringe"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Needs good front density and a calm hairline; check cowlicks."
+    },
+    "strand_note": "Medium-weight straight strands work best; coarse hair can push the fringe forward.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "daily",
+      "products": [
+        "smoothing serum",
+        "dry shampoo"
+      ]
+    },
+    "grow_out": "The fringe can be grown into a curtain fringe, passing through an awkward length at about 6 weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "full",
+      "perimeter": "blunt",
+      "part": "none",
+      "fringe": "blunt_full",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "low",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "blunt",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A bob with a thick fringe that sits straight above the brows.",
+    "stylist": "Section a wide triangular fringe, cut straight, then point cut to soften the edge. Weight: heavy bob and a heavy straight-across fringe.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a full-fringe bob: a heavy chin-length bob in one length with the top 12-16 cm, the sides 10-14 cm and the back 9-13 cm, and a thick straight-across fringe of 5-8 cm sitting at the brow with a softened point-cut edge",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "wavy-beach-bob",
+    "kind": "cut",
+    "name": "Wavy beach bob",
+    "aliases": [
+      "tousled bob",
+      "lived-in bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          17
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          9,
+          14
+        ]
+      },
+      "back": {
+        "cm": [
+          8,
+          13
+        ]
+      },
+      "nape": {
+        "cm": [
+          8,
+          13
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "cut on dry hair"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "tight curls need extra length"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Waves react to the weather, so cut dry or damp in the pattern and watch cowlicks at the crown and nape that may change the wave direction."
+    },
+    "strand_note": "The wave pattern shows best in medium to fine strands.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "rare",
+      "products": [
+        "sea-salt spray",
+        "light cream"
+      ]
+    },
+    "grow_out": "Grows into a wavy lob, and the loose texture covers the length change.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends",
+        "jaw"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "medium",
+        "light"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "low_maintenance",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A relaxed chin-length bob with a bit of wave and broken ends. It dries into an easy, lived-in shape with sea-salt spray or just air-drying.",
+    "stylist": "Cut dry or damp in the wave pattern, adding long layers for movement. Weight: light weight at the jaw, ends broken.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a wavy beach bob: a chin-length bob with the top 12-17 cm, the sides 9-14 cm and the back 8-13 cm, light weight at the jaw, broken ends, soft natural waves and a curtain fringe of 6-12 cm at the cheekbones",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/medium-hairstyles/medium-length-layered-haircuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "fine-hair-weighted-bob",
+    "kind": "cut",
+    "name": "Weighted bob for fine hair",
+    "aliases": [
+      "invisible-layer bob",
+      "thickening bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          16
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          10,
+          14
+        ]
+      },
+      "back": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "nape": {
+        "cm": [
+          9,
+          13
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "wispy",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "fine curls need a fuller shape"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see curly-bob-rounded"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "use internal debulking"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the part and hairline before choosing the length."
+    },
+    "strand_note": "Designed for fine strands where a blunt edge creates a thicker look.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "volumising mousse",
+        "root-lift spray"
+      ]
+    },
+    "grow_out": "Grows into a collarbone lob; trim the perimeter every 6-8 weeks to keep the ends dense.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "blunt",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "internal"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "blunt",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "fine_hair_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A blunt chin-length bob that makes fine hair look dense and shiny, with only hidden layers for movement.",
+    "stylist": "Keep the perimeter blunt and cut 2-3 long, hidden layers inside the back to prevent a flat shape. Avoid thinning shears or razors, which weaken fine ends. Weight: blunt base with only light, hidden layers.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a blunt weighted bob: one length at the chin with a sharp, dense perimeter, the top 12-16 cm, the sides 10-14 cm and the back 9-13 cm, no fringe, only two or three long layers inside the back, a smooth glossy finish",
+    "sources": [
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "side-swept-fringe-bob",
+    "kind": "cut",
+    "name": "Side-swept fringe bob",
+    "aliases": [
+      "bob with side bangs"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          17
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          16
+        ]
+      },
+      "sides": {
+        "cm": [
+          9,
+          14
+        ]
+      },
+      "back": {
+        "cm": [
+          8,
+          12
+        ]
+      },
+      "nape": {
+        "cm": [
+          8,
+          12
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "side_swept",
+      "landmark": "cheekbone",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "allow for spring in the fringe"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "use curly-bob-with-fringe"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "thin the fringe lightly"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The fringe direction should follow the natural part."
+    },
+    "strand_note": "Straight to wavy medium strands sweep best; very fine hair needs a little root lift.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        6,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "light cream",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The fringe merges with the sides in about 8 weeks, so the shape stays tidy while it grows.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "jaw"
+      ],
+      "sides_width": "medium",
+      "perimeter": "blunt",
+      "part": "side",
+      "fringe": "side_swept",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "blunt",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        6,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "A chin-length bob with a long fringe that sweeps across to one side. Easy to style and soft around the face.",
+    "stylist": "Mark the parting, cut the fringe on a long diagonal from the part to the cheekbone and blend it into the side length. Cut the fringe dry to confirm it falls naturally. Weight: weight at the jaw, with a long diagonal fringe.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a side-swept fringe bob: a chin-length bob in one length with the top 12-17 cm, the sides 9-14 cm and the back 8-12 cm, and a long diagonal fringe of 10-16 cm sweeping from a side part to the cheekbone",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/hair/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "tiered-bi-level-bob",
+    "kind": "cut",
+    "name": "Tiered bi-level bob",
+    "aliases": [
+      "double-layer bob",
+      "two-tier bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          11,
+          17
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          8,
+          13
+        ]
+      },
+      "back": {
+        "cm": [
+          6,
+          11
+        ]
+      },
+      "nape": {
+        "cm": [
+          6,
+          11
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "wispy",
+        "none"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "the upper tier sits as a natural cap on loose curls"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "on tight curls keep the upper tier 3 cm longer to allow for spring"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair can look thin in the lower tier, keep the base blunt"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "removes bulk without losing length"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Look at the crown whorl, because the upper tier must lie on it cleanly."
+    },
+    "strand_note": "Medium to thick strands hold the two tiers; fine strands blur the break.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        6,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "rare",
+      "products": [
+        "texture spray",
+        "light cream"
+      ]
+    },
+    "grow_out": "Grows into a shag bob; the tiers merge in about 10 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "temples"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "heavy"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "high",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        6,
+        12
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "thick_hair_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A bob with two levels that gives extra body on top. The short layer lifts and the longer layer keeps the weight.",
+    "stylist": "Take a horizontal parting at the temple-to-crown line, disconnect the upper section 3-5 cm shorter than the base and soften the join with point cutting. Weight: a shorter upper tier floats over a longer base tier, creating two weight points.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a tiered bi-level bob: a jaw-length bob with a shorter upper tier floating 3-5 cm above a longer base tier, the top 11-17 cm, the sides 8-13 cm and the back 6-11 cm, with a curtain fringe of 6-12 cm at the cheekbones",
+    "sources": [
+      {
+        "url": "https://us.davines.com/blogs/news/bob-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.thezoereport.com/beauty/jellyfish-cut-trend",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "soft-bowl-cut",
+    "kind": "cut",
+    "name": "Soft bowl cut",
+    "aliases": [
+      "rounded bowl",
+      "K-style bowl"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "cm": [
+          8,
+          12
+        ]
+      },
+      "back": {
+        "cm": [
+          7,
+          11
+        ]
+      },
+      "nape": {
+        "cm": [
+          7,
+          11
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "blunt_full",
+      "landmark": "brow",
+      "options": [
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry to keep the curls even"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep length on top for shrinkage, see Curly bowl crop"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Crown whorl may push the top; leave extra length there."
+    },
+    "strand_note": "Medium to coarse straight strands keep the round line; fine hair needs more body at the crown.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "rare",
+      "products": [
+        "light cream",
+        "matte paste"
+      ]
+    },
+    "grow_out": "Grows into a mushroom bob and then a chin bob, so the round shape remains for about 8 weeks.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "sides"
+      ],
+      "sides_width": "medium",
+      "perimeter": "rounded",
+      "part": "none",
+      "fringe": "blunt_full",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "rounded",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "A soft, rounded bowl with a short fringe. Playful, graphic and easy to wash and go.",
+    "stylist": "Cut a uniform round shape with soft edges, keep the nape slightly tapered and point cut the fringe for softness. Weight: round, even weight sitting around the head at the ears.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a soft bowl cut: an evenly round jaw-length shape with weight around the head at the ears, the top 9-13 cm, the sides 8-12 cm and the back 7-11 cm, the nape lightly tapered, and a short blunt fringe of 4-8 cm at the brow",
+    "sources": [
+      {
+        "url": "https://www.americansalon.com/how/how-shaggy-bowl-cut",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://womanandhome.com/beauty/hair/mushroom-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "retro-set-bob",
+    "kind": "cut",
+    "name": "Set-friendly retro bob",
+    "aliases": [
+      "finger-wave bob",
+      "vintage bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          16
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          9,
+          13
+        ]
+      },
+      "back": {
+        "cm": [
+          7,
+          11
+        ]
+      },
+      "nape": {
+        "cm": [
+          7,
+          11
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "side_swept",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good",
+        "daily": true
+      },
+      "wavy": {
+        "fit": "good",
+        "daily": true
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "set curls or finger waves into smooth shapes",
+        "daily": true
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "set shapes do not hold on coils; see coily-sculpted-chin-bob"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "use internal thinning"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the front hairline since waves move around it."
+    },
+    "strand_note": "Even strands of medium density set best. Fine hair loses the curl quickly and very coarse hair springs out.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        15,
+        25
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "daily",
+      "products": [
+        "setting lotion",
+        "light pomade"
+      ]
+    },
+    "grow_out": "Grows out softly into a long bob, and the set is replaced by a blow-dry once the shape relaxes.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "full",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "side_swept",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        15,
+        25
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A smooth vintage bob designed to be set into pin curls or finger waves for a polished look.",
+    "stylist": "Use a soft, even graduation with a smooth surface; leave enough length at the front for pin curls. Weight: soft graduation with smooth, even surface for setting.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a retro set bob: a smooth jaw-length bob with soft, even graduation, the top 12-16 cm, the sides 9-13 cm and the back 7-11 cm, and a side-swept fringe of 6-12 cm at the brow, a polished surface ready to be set into waves",
+    "sources": [
+      {
+        "url": "https://vintagehairstyling.com/bobbypinblog/2024/12/a-guide-to-vintage-waves-is-it-a-finger-wave-are-they-hollywood-waves.html",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-bob-rounded",
+    "kind": "cut",
+    "name": "Rounded curly bob",
+    "aliases": [
+      "curly bob",
+      "round-layered bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          14,
+          22
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          12,
+          20
+        ]
+      },
+      "back": {
+        "cm": [
+          12,
+          20
+        ]
+      },
+      "nape": {
+        "cm": [
+          12,
+          20
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "blunt lines turn triangular; choose blunt-chin-bob"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "loose waves look best with extra interior layers"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls look flat at the crown, so keep layers shallow"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "thick curls need interior thinning"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the crown for a whorl; curls spiral around it."
+    },
+    "strand_note": "Works across strand sizes; fine curls keep their fullness with minimal layers.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "leave-in conditioner"
+      ]
+    },
+    "grow_out": "Grows into a curly lob; the shape stays round.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "sides",
+        "jaw"
+      ],
+      "sides_width": "full",
+      "perimeter": "rounded",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "medium",
+        "long_layers"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "low_maintenance",
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A bouncy curly bob with a rounded shape.",
+    "stylist": "Cut dry curl by curl, starting with the length at the sides and back, then round the outline and refine the top layers. Weight: curls are shaped to a rounded outline with the weight just below the jaw.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a rounded curly bob: defined curls shaped to a round outline with the weight just below the jaw, the top 14-22 cm stretched, the sides and back 12-20 cm, springing up to jaw length, no fringe, bouncy and even",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.bustle.com/style/short-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bouncecurl.com/blogs/news/types-of-curly-hair-cuts-plus-tips-to-find-the-right-stylist",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-a-line-bob",
+    "kind": "cut",
+    "name": "Curly A-line bob",
+    "aliases": [
+      "angled curly bob",
+      "shaped curly bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          20
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          14,
+          24
+        ]
+      },
+      "back": {
+        "cm": [
+          9,
+          16
+        ]
+      },
+      "nape": {
+        "cm": [
+          9,
+          16
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept",
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "use a-line-bob"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "use light graduation and keep the nape well moisturised"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls look sparse at the nape, so keep the back fuller"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        25,
+        50
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A nape whorl can push the shorter back outward, so check how the nape curls grow."
+    },
+    "strand_note": "Medium to thick curls hold the diagonal; fine curls need the back kept fuller.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "leave-in conditioner"
+      ]
+    },
+    "grow_out": "The back grows to meet the front and the cut becomes a curly lob.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "full",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "medium",
+        "long_layers"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A curly bob that is longer at the front than at the back, with a rounded shape and no triangle.",
+    "stylist": "Cut the back shorter and graduate toward the front while shaping the curls dry, to avoid the pyramid shape. Weight: curls are shaped so the front falls longer than the back, without a triangle.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly A-line bob: defined curls with the back kept shorter at 9-16 cm stretched and the front sides longer at 14-24 cm, the top 12-20 cm, a rounded outline falling to the chin in front, no fringe and no triangle shape",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bouncecurl.com/blogs/news/types-of-curly-hair-cuts-plus-tips-to-find-the-right-stylist",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-wedge-bob",
+    "kind": "cut",
+    "name": "Curly wedge bob",
+    "aliases": [
+      "stacked curly bob",
+      "graduated curly bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          16
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "back": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "nape": {
+        "cm": [
+          5,
+          10
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need to be cut with minimal stacking"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls collapse with too much stacking"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The stack sits on the occipital bone; check the nape whorl."
+    },
+    "strand_note": "Dense curls build the stack, so the cut is best with medium to thick curls.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "light gel"
+      ]
+    },
+    "grow_out": "The stack relaxes into a curly bob after 3 months.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "occiput"
+      ],
+      "sides_width": "full",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A curly bob that is shorter and rounder at the back and a bit longer toward the front.",
+    "stylist": "Cut dry, graduating the back in small clusters over the occipital area and keeping the sides and front longer so the curls stack smoothly. Weight: a rounded stack at the back with longer curls at the sides.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly wedge bob: a rounded stack of defined curls at the back of 5-10 cm stretched, longer curls at the sides of 10-18 cm and the top 10-16 cm, a jaw-length rounded shape, no fringe, the curls stacking smoothly",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.devacurl.com/us/the-deva-blog/devadaily/the-devacut-a-game-changer-for-curls",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-bob-with-fringe",
+    "kind": "cut",
+    "name": "Curly bob with fringe",
+    "aliases": [
+      "curly bangs bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          13,
+          20
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          11
+        ]
+      },
+      "sides": {
+        "cm": [
+          12,
+          20
+        ]
+      },
+      "back": {
+        "cm": [
+          12,
+          18
+        ]
+      },
+      "nape": {
+        "cm": [
+          12,
+          18
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curly",
+      "landmark": "brow",
+      "options": [
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need blow-drying for the fringe",
+        "daily": true
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls make a sparse fringe, so cut it fuller"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A front cowlick strongly affects a curly fringe, so check the direction of the hairline before cutting."
+    },
+    "strand_note": "The fringe curl pattern is important; test how it springs before cutting.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "light gel"
+      ]
+    },
+    "grow_out": "The fringe moves into curtain-length curls in 8-10 weeks, and the bob then grows into a curly lob.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "sides",
+        "jaw"
+      ],
+      "sides_width": "full",
+      "perimeter": "rounded",
+      "part": "none",
+      "fringe": "curly",
+      "layers": [
+        "medium"
+      ],
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ],
+      "silhouette": "bob",
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ]
+    },
+    "variants": [],
+    "client": "A bouncy curly bob around the jaw with a short, springy fringe above the brows.",
+    "stylist": "Cut the fringe dry in a small triangle section, curl by curl, 3-4 cm longer than the target, then shape the bob outline round. Check the fringe length after the curls settle. Weight: rounded weight at the jaw with a springy fringe above the brows.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly bob: rounded, bouncy defined curls at chin-to-jaw length with a short springy curly fringe sitting just above the eyebrows",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.bustle.com/style/short-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "coily-sculpted-chin-bob",
+    "kind": "cut",
+    "name": "Sculpted coily bob",
+    "aliases": [
+      "coily bob",
+      "shaped natural bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          10,
+          18
+        ]
+      },
+      "back": {
+        "cm": [
+          9,
+          16
+        ]
+      },
+      "nape": {
+        "cm": [
+          9,
+          16
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "poor"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut in stretched sections; see the Rounded curly bob"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine coils need a lighter shape to avoid flatness"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        25,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the nape whorl, because coils bend sharply around it and can lift the back line."
+    },
+    "strand_note": "Coily strands hold sculpted shapes; dense coils need careful debulking.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        15
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "rare",
+      "products": [
+        "leave-in conditioner",
+        "styling cream"
+      ]
+    },
+    "grow_out": "Grows into a coily lob at about 4 months; the shape is kept by trimming sections rather than a line.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "sides",
+        "jaw"
+      ],
+      "sides_width": "full",
+      "perimeter": "rounded",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "low",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "blunt",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        15
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "curly_first"
+      ]
+    },
+    "variants": [],
+    "client": "A chin-length natural bob with a clean, rounded shape. It can be worn defined or stretched.",
+    "stylist": "Cut in stretched sections with a comb, then shape the outline dry on the stretched hair and refine it on the dry coils so the rounded edge sits just below the jaw. Weight: a defined, rounded outline at the chin that is trimmed in sections.",
+    "images": {
+      "shown_on": "Shown on 4A to 4B coils",
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a sculpted coily bob: natural coils shaped into a clean rounded outline just below the jaw, the top 10-18 cm stretched, the sides 10-18 cm and the back 9-16 cm, no fringe, an even defined edge",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bouncecurl.com/blogs/news/types-of-curly-hair-cuts-plus-tips-to-find-the-right-stylist",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-asymmetric-bob",
+    "kind": "cut",
+    "name": "Curly asymmetric bob",
+    "aliases": [
+      "uneven curly bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          12,
+          20
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          10,
+          22
+        ]
+      },
+      "back": {
+        "cm": [
+          9,
+          16
+        ]
+      },
+      "nape": {
+        "cm": [
+          9,
+          16
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "chin"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept",
+        "curly"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need blow-drying to hold the angle",
+        "daily": true
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls make the angle look weak, so keep it subtle"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Match the longer side to the natural part, and check any crown whorl that pulls the curls to one side."
+    },
+    "strand_note": "Dense curls hold the difference between the sides.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "light gel"
+      ]
+    },
+    "grow_out": "Even out the shorter side over three months and return to a curly bob.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "deep_side",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A curly bob with one side longer than the other.",
+    "stylist": "Cut the part first, then shape the longer side dry and match the shorter side to the curl length. Weight: one side kept longer, with the curls shaped to a rounded outline on both sides.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly asymmetric bob: defined curls in a rounded outline with one side kept longer, the sides 10-22 cm stretched, the top 12-20 cm and the back 9-16 cm, falling to the chin on the long side, no fringe",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.bustle.com/style/short-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "asymmetric-coily-taper",
+    "kind": "cut",
+    "name": "Asymmetric coily taper",
+    "aliases": [
+      "one-sided taper",
+      "shaped coil bob"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          14
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          1,
+          12
+        ]
+      },
+      "back": {
+        "cm": [
+          2,
+          10
+        ]
+      },
+      "nape": {
+        "cm": [
+          2,
+          10
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "poor"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "needs curl shape and extra length; see the Curly asymmetric bob"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine coils show the asymmetry weakly"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        25,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The taper needs a clear hairline above the ear."
+    },
+    "strand_note": "Dense coils hold a sharp taper; fine coils reveal scalp on the tapered side, so choose a slightly longer guard.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "rare",
+      "products": [
+        "leave-in conditioner",
+        "edge control"
+      ]
+    },
+    "grow_out": "The tapered side fills in over 6-8 weeks; to grow out, lengthen the short side first and the cut becomes a shaped round crop.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "sides"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "deep_side",
+      "fringe": "none",
+      "layers": [
+        "heavy",
+        "medium"
+      ],
+      "silhouette": "tapered_natural",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "curly_first"
+      ]
+    },
+    "variants": [],
+    "client": "A close-cropped natural cut with one side tapered short and the other left longer. It gives a sculpted, modern line.",
+    "stylist": "Clipper-taper the short side from the temple back to the nape, stop at the parting, and cut the long side dry by sections so the curl cluster length stays even. Keep the contrast at least 4 cm so the asymmetry reads clearly. Weight: one side tapered close, the other side kept at jaw length.",
+    "images": {
+      "shown_on": "Shown on 4A to 4B coils",
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an asymmetric coily taper: close-cropped natural coils with one side tapered short from the temple to the nape (1-3 cm) and the other side left longer at jaw length, the top 6-14 cm, no fringe, a clear contrast of at least 4 cm",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "shingle-bob",
+    "kind": "cut",
+    "name": "Shingle bob",
+    "aliases": [
+      "tapered-nape bob",
+      "1920s shingle"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "back": {
+        "cm": [
+          1,
+          4
+        ]
+      },
+      "nape": {
+        "cm": [
+          1,
+          4
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "jaw"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept",
+        "blunt_full"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "the taper is too close for curls"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see tapered-twa"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks very flat at the sides"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The very short nape shows every growth pattern and whorl."
+    },
+    "strand_note": "Smooth to wavy medium strands hold the graduated shape best; coarse hair stands off the nape.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "daily",
+      "products": [
+        "blow-dry lotion",
+        "smoothing serum"
+      ]
+    },
+    "grow_out": "The nape grows out first, so the shape becomes a graduated bob within about 8 weeks.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "bob",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A neat, short bob that is very tight at the neck, with a rounded shape at the crown. Classic and polished.",
+    "stylist": "Clipper-taper the nape up to the occipital and cut the sides in a rounded line around the ear. Weight: tight clipper taper at the nape that opens into a longer rounded bob at the crown.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a shingle bob: a short jaw-length bob tight at the nape, the back 1-4 cm clipper-tapered up to the occipital, the sides 6-10 cm and the top 6-10 cm in a rounded line around the ears, no fringe, a polished close shape",
+    "sources": [
+      {
+        "url": "https://www.smithsonianmag.com/arts-culture/the-history-of-the-flapper-part-4-emboldened-by-the-bob-27361862/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

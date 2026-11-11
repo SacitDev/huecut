@@ -1,0 +1,17 @@
+{
+  "weights": { "weak": 1, "moderate": 2, "strong": 3 },
+  "count": { "min": 1, "default": 4, "max": 8 },
+  "both_split": "cut_first_half",
+  "grid_max_tiles": 4,
+  "max_per_silhouette": 2,
+  "min_distinct_silhouettes_share": 0.5,
+  "low_upkeep": { "max_styling_minutes": 10, "min_trim_weeks": 8 },
+  "max_reasons": 3,
+  "reason_group_order": ["B", "C", "D", "A", "E"],
+  "pool_size": 14,
+  "change_span": null,
+  "length_span": null,
+  "colour_variety": null,
+  "upkeep_stack": null,
+  "growth_cm_per_month": null
+}

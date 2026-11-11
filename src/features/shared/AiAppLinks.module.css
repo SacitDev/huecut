@@ -1,0 +1,16 @@
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-s);
+}
+
+.group {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-s);
+}
+
+.label {
+  font-weight: var(--weight-h3);
+}

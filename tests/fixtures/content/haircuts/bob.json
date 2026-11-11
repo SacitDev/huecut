@@ -1,0 +1,54 @@
+[
+  {
+    "id": "chin-bob-curtain-fringe",
+    "kind": "cut",
+    "name": "Chin bob with a curtain fringe",
+    "aliases": [],
+    "collections": ["salon"],
+    "family": "bob",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": { "cm": [15, 20] },
+      "fringe": { "cm": [8, 10] },
+      "sides": { "cm": [18, 22] },
+      "back": { "cm": [18, 22] },
+      "nape": { "cm": [14, 18] }
+    },
+    "perimeter": { "landmark": "chin" },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": { "kind": "curtain", "landmark": "cheekbone", "options": ["none"] },
+    "texture_fit": {
+      "straight": { "fit": "good" },
+      "wavy": { "fit": "good" },
+      "curly": { "fit": "adapt", "note": "Cut it dry, curl by curl." },
+      "coily": { "fit": "adapt", "note": "Allow for shrinkage at the ends." }
+    },
+    "density_fit": { "low": { "fit": "good" }, "medium": { "fit": "good" }, "high": { "fit": "adapt", "note": "Remove weight inside the lengths." } },
+    "shrinkage": { "curly_pct": [10, 25], "coily_pct": [25, 50] },
+    "growth": { "recession_stage_max": null, "whorl_note": null, "note": null },
+    "strand_note": "Fine hair keeps a fuller edge at this length.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": { "styling_minutes": [5, 10], "trim_weeks": [6, 8], "heat": "rare", "products": ["light cream"] },
+    "grow_out": "Grows into a collarbone lob in about three months.",
+    "era": "current",
+    "pairs_with": { "beards": [], "looks": ["copper-with-silver-ends"] },
+    "traits": {
+      "height_top": "low", "volume_zone": ["jaw", "ends"], "sides_width": "full", "perimeter": "blunt", "part": "centre",
+      "fringe": "curtain", "layers": ["face_framing"], "silhouette": "bob", "weight_removal": "low",
+      "cut_method": ["dry_shaped"], "nape_style": "blunt", "shrinkage_risk": "high", "tension": "none",
+      "heat_dependent": false, "grow_out_friendly": true, "tie_back": false, "covers_forehead": true, "covers_ears": true,
+      "tucked_behind_ear": true, "beard_blend": false, "lineup": false, "styling_minutes": [5, 10], "trim_weeks": [6, 8],
+      "tags": ["air_dry_friendly", "workplace_friendly"]
+    },
+    "variants": [],
+    "client": "A chin-length bob with a soft curtain fringe that opens at the centre.",
+    "stylist": "Cut the perimeter blunt at the chin; blend the curtain fringe into the face-framing lengths.",
+    "images": { "model": "salon-straight-wavy", "views": ["front", "side", "back"] },
+    "prompt_spec": "a chin-length blunt bob with a soft curtain fringe parted in the centre",
+    "sources": [{ "url": "https://example.org/salon/chin-bob", "supports": "style exists; typical lengths", "level": "trade_consensus" }],
+    "review": { "status": "checked", "date": "2026-11-08" }
+  }
+]

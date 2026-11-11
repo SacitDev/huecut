@@ -1,0 +1,35 @@
+/*
+ * The arch is a rose-soft shape behind the picture: a semicircle crown (radius half the width) and 20 px feet.
+ * The picture sits inside it, whole: contained, never covered by a mask.
+ */
+
+/* flow-root keeps the picture's margins inside the frame; the arch is the container its cqi units measure. */
+.arch {
+  display: flow-root;
+  position: relative;
+  isolation: isolate;
+  container-type: inline-size;
+}
+
+.frame {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--rose-soft);
+  border-radius: var(--arch-top) var(--arch-top) var(--radius-arch-foot) var(--radius-arch-foot);
+}
+
+.picture {
+  position: relative;
+  margin: var(--arch-crown) var(--arch-inset) var(--arch-inset);
+  overflow: hidden;
+  border-radius: var(--radius-picture);
+  background-color: var(--picture-placeholder);
+}
+
+.picture > img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}

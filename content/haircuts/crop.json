@@ -1,0 +1,2289 @@
+[
+  {
+    "id": "rounded-cap-crop",
+    "kind": "cut",
+    "name": "Rounded cap crop",
+    "aliases": [
+      "cap cut",
+      "short layered crop"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          9
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "sides": {
+        "cm": [
+          3,
+          6
+        ]
+      },
+      "back": {
+        "cm": [
+          2,
+          5
+        ]
+      },
+      "nape": {
+        "cm": [
+          2,
+          5
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "brow",
+      "options": [
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and let the curls shape the cap"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep length on top for shrinkage"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "thin the sides if very thick"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The crown whorl needs a longer section or it may poke up."
+    },
+    "strand_note": "Works with medium to fine strands; coarse strands are bulkier.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        8
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "rare",
+      "products": [
+        "light cream",
+        "texture spray"
+      ]
+    },
+    "grow_out": "As it grows the cap fills in at the nape and turns into a bixie, with no awkward stage.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "medium",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        8
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "A neat, soft, rounded short cut that frames the face and stays tidy.",
+    "stylist": "Create a uniform curved shape from crown to ears using over-direction, then blend the nape with a short taper. Soften the perimeter by point cutting. Weight: round weight sits above the ears.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a rounded cap crop: a neat curved shape with the top 6-9 cm, a curtain fringe of 4-7 cm at the brow, the sides 3-6 cm with round weight above the ears and the nape 2-5 cm tapered short, soft point-cut edges",
+    "sources": [
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/pixie-hairstyles",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/pixie-cuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "tapered-curly-crop-long-top",
+    "kind": "cut",
+    "name": "Tapered curly crop with longer top",
+    "aliases": [
+      "curly taper",
+      "curly fade with length on top"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          8,
+          14
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "sides": {
+        "cm": [
+          0.5,
+          3
+        ]
+      },
+      "back": {
+        "cm": [
+          0.5,
+          3
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.5,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "side_swept",
+      "landmark": "brow",
+      "options": [
+        "curtain",
+        "none"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "loose waves need more length on top"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        60
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The taper follows the nape and ear shape; a nape whorl may need a longer guard."
+    },
+    "strand_note": "Works with all curl diameters; tight coils give height and loose curls give drape.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        8
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "curl-defining gel"
+      ]
+    },
+    "grow_out": "The sides fill in and the cut grows into a curly bixie.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "side_swept",
+      "layers": [
+        "heavy",
+        "medium"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        8
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A cut with long curls on top and tight sides.",
+    "stylist": "Taper the sides and nape with clippers and keep the top 8-14 cm stretched so curls fall in their natural pattern. Weight: longer curls on top, tapered tight at the sides and nape.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a tapered curly crop: long defined curls on top of 8-14 cm falling in their natural pattern with a side-swept curly fringe of 6-12 cm at the brow, the sides and nape tapered tight to 0.5-3 cm",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.bustle.com/style/short-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-bowl-crop",
+    "kind": "cut",
+    "name": "Curly bowl crop",
+    "aliases": [
+      "rounded curly bowl",
+      "curly mushroom crop"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          7,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "cm": [
+          3,
+          6
+        ]
+      },
+      "back": {
+        "cm": [
+          3,
+          6
+        ]
+      },
+      "nape": {
+        "cm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curly",
+      "landmark": "brow",
+      "options": [
+        "curtain",
+        "micro"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need more length to form the cap"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls make a lighter cap, so avoid thinning"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The crown whorl affects the cap, so keep the length longer there."
+    },
+    "strand_note": "The cap needs enough curl density to hold a round outline.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        8
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "light gel"
+      ]
+    },
+    "grow_out": "The cap grows into a curly bob as the sides lengthen, and only the fringe needs trimming in between.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown",
+        "sides"
+      ],
+      "sides_width": "medium",
+      "perimeter": "rounded",
+      "part": "none",
+      "fringe": "curly",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "rounded",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        8
+      ],
+      "trim_weeks": [
+        5,
+        7
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A round, short cap of curls with a short fringe.",
+    "stylist": "Cut dry in a circle from the crown, keeping the perimeter even and adding a short fringe. Weight: a rounded cap of curls, with weight sitting around the ears.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly bowl crop: a round cap of defined curls with the top 7-12 cm, weight sitting around the ears, the sides and back 3-6 cm, and a short curly fringe of 4-8 cm at the brow, an even rounded perimeter",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.bustle.com/style/short-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "eton-crop",
+    "kind": "cut",
+    "name": "Eton crop",
+    "aliases": [
+      "slicked crop",
+      "1920s crop",
+      "boyish crop"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          2,
+          5
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          1,
+          3
+        ]
+      },
+      "back": {
+        "cm": [
+          0.5,
+          2
+        ]
+      },
+      "nape": {
+        "cm": [
+          0.5,
+          2
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "above_ear"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need gel to lie flat"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "see tapered-twa"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see tapered-twa"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "thick hair stands off the head and needs closer tapering"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A crown whorl or a cowlick makes slicking back difficult."
+    },
+    "strand_note": "Fine to medium straight strands lie flat and give the sleek finish.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "rare",
+      "products": [
+        "gel",
+        "pomade"
+      ]
+    },
+    "grow_out": "Grows out through a micro pixie stage and then a pixie, so expect about 8 weeks before it can be styled again.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "flat",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "medium"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        5
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "slick_back"
+      ]
+    },
+    "variants": [],
+    "client": "A very short, sleek crop that hugs the head and shows off the face. Classic and graphic.",
+    "stylist": "Clipper-cut the sides and nape tight, scissor the top to 2-5 cm and comb back to set the shape. Weight: smooth, close to the head; no volume anywhere.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "an Eton crop: a very short sleek crop that hugs the head, the top 2-5 cm combed back with no fringe, the sides 1-3 cm and the nape 0.5-2 cm clipped tight above the ears, smooth with no volume, the face fully visible",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Eton_crop",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.smithsonianmag.com/arts-culture/the-history-of-the-flapper-part-4-emboldened-by-the-bob-27361862/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "french-crop",
+    "kind": "cut",
+    "name": "French crop",
+    "aliases": [
+      "Short crop with fringe",
+      "Caesar-style crop",
+      "Blunt fringe crop"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          2.5,
+          5
+        ]
+      },
+      "fringe": {
+        "cm": [
+          1.5,
+          3
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": "low",
+      "start_mm": 3,
+      "note": "Low taper, #3 down to #1, kept simple so the fringe is the focus."
+    },
+    "neckline": "tapered",
+    "sideburns": "Short, tapered",
+    "fringe": {
+      "kind": "short_blunt",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Lift texture with clay and keep the top at 3-4 cm."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Use a blunt-cut fringe at the shorter end to avoid hanging forward."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Shorten fringe to 2 cm and shape-up the line."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the fringe short and textured; a heavy fringe looks sparse."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 5,
+      "whorl_note": "Crown whorls are hidden; cowlicks at the hairline may need blow-dry.",
+      "note": "One of the strongest options for a hairline that is higher at the temples or high overall, because the fringe covers it."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; needs enough density to hold a visible fringe.",
+    "glasses_note": "The fringe should clear the top of the frames by 1 cm.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "rare",
+      "products": [
+        "matte clay",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Becomes a longer fringe crop at 8 weeks; keep fringe trimmed.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-stubble-short"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "short_blunt",
+      "layers": [
+        "light"
+      ],
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "workplace_friendly",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "textured_top"
+      ],
+      "silhouette": "french_crop",
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ]
+    },
+    "variants": [],
+    "client": "Short sides with a short, straight fringe brushed forward. Neat and very easy to live with.",
+    "stylist": "Cut the fringe straight with scissors, then point-cut to break it. Back and sides tapered, no dramatic fade. Tapered or rounded.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a French crop: the top 2.5-5 cm cut short, with a short straight fringe of 1.5-3 cm pushed forward above the brow, the sides and back at a low taper from #3 (10 mm) to #1 (3 mm), a tapered neckline, no part, a neat sharp finish",
+    "sources": [
+      {
+        "url": "https://www.bosshunting.com.au/style/grooming/french-crop-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://apetogentleman.com/short-hair-mens-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "caesar-cut",
+    "kind": "cut",
+    "name": "Caesar cut",
+    "aliases": [
+      "Roman cut",
+      "Short fringe crop",
+      "Bowl-top (informal)"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          2,
+          3.5
+        ]
+      },
+      "fringe": {
+        "cm": [
+          1.5,
+          3
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          9
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          9
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Light taper; the line from fringe to sides is short and clean."
+    },
+    "neckline": "tapered",
+    "sideburns": "Short",
+    "fringe": {
+      "kind": "short_blunt",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Use shorter fringe to prevent curls hanging in the eyes."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Short, flat or waved top with line-up works well."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the fringe short and choppy so less scalp shows."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 5,
+      "whorl_note": null,
+      "note": "Very good for stage 3-5; the straight horizontal fringe conceals a hairline that is higher at the temples."
+    },
+    "strand_note": null,
+    "density_note": "Needs medium to high density on top.",
+    "glasses_note": "Good with any frames.",
+    "upkeep": {
+      "styling_minutes": [
+        2,
+        2
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "none",
+      "products": [
+        "wax or light paste"
+      ]
+    },
+    "grow_out": "Grows into a French crop and then a longer textured fringe.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-circle"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "flat",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "short_blunt",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "caesar",
+      "weight_removal": "high",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        2,
+        2
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "workplace_friendly",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A short, even top combed forward with a straight fringe. Neat, tidy and quick to style.",
+    "stylist": "Scissor-over-comb top to an even 2-3 cm, fringe cut straight just above the brow. Add light texturising if too heavy. Natural or lightly rounded.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a Caesar cut: an even top of 2-3.5 cm combed forward, with a short straight fringe of 1.5-3 cm just above the brow, the sides and back tapered lightly from #3 (9 mm) to #1 (3 mm), a clean short line from fringe to sides, a natural neckline",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/mens-short-hairstyles-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.gatsbyglobal.com/en/technique/mens-crop-and-crew-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "textured-crop-low-taper",
+    "kind": "cut",
+    "name": "Textured crop with low taper",
+    "aliases": [
+      "Textured crop",
+      "Textured fringe",
+      "Soho crop (media nickname)"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          3,
+          6
+        ]
+      },
+      "fringe": {
+        "cm": [
+          2,
+          4
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          13
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          13
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": "low",
+      "start_mm": 6,
+      "note": "Low taper, #1 to #3; keeps weight above the ear."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered",
+    "fringe": {
+      "kind": "textured_forward",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Texture builds itself; use less product."
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Ask for a point-cut finish; leave 1 cm extra on top."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Shape-up the fringe line; works as a defined twist or sponge top."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use sea-salt spray and matte clay for grip and body."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": "Texture covers a thinning crown.",
+      "note": "Good: fringe covers temples; at stage 4 keep fringe at the longest end."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine hair benefits from salt spray and a matte clay.",
+    "glasses_note": "Fringe should clear the frame top.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "rare",
+      "products": [
+        "matte clay",
+        "sea-salt spray"
+      ]
+    },
+    "grow_out": "Moves toward a textured quiff or flow in 8 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "textured_forward",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "high",
+      "cut_method": [
+        "point_cut",
+        "razor"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "Short sides with a choppy, messy top pushed forward. Looks styled even when you don't try.",
+    "stylist": "Clipper sides, scissor top with point cutting and razor texturising; leave the longest piece at the front. Blend with scissor-over-comb at the crown.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a textured crop with a low taper: a choppy top of 3-6 cm pushed forward with a fringe of 2-4 cm, the longest piece at the front, the sides and back at a low taper from #4 (13 mm) down to #1 (3 mm), weight kept above the ear, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://www.reuzel.com/blogs/news/how-to-style-a-textured-crop-the-complete-2026-guide",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://behindthechair.com/articles/what-men-are-actually-asking-their-hairdressers-for-in-2026/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.pallmallbarbers.com/pmb-news/trending-haircuts-to-start-2026-strong/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "textured-crop-mid-fade",
+    "kind": "cut",
+    "name": "Textured crop with mid fade",
+    "aliases": [
+      "Crop with fade",
+      "Fringe crop mid fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          7
+        ]
+      },
+      "fringe": {
+        "cm": [
+          3,
+          5
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "mid",
+      "start_mm": 0.5,
+      "note": "Skin or #0.5 to #2 blend starting at the temple height."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded, lined optional",
+    "fringe": {
+      "kind": "textured_forward",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Leave 1 cm extra on top to account for spring-up."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Cut as a taper with a defined top; use curl cream."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Ask for a taper instead of skin so the top does not look sparse against the sides."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Fringe covers temples at stage 3-4; mid fade keeps the sides neat."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; thinning fine hair would show contrast.",
+    "glasses_note": "Tight sides around the arms; leave 2-3 mm if frames are thick.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "rare",
+      "products": [
+        "matte clay"
+      ]
+    },
+    "grow_out": "Fade grows out to a taper by week 4.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-short-boxed",
+        "beard-stubble-medium"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "textured_forward",
+      "layers": [
+        "light"
+      ],
+      "weight_removal": "high",
+      "cut_method": [
+        "razor"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "tags": [
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "textured_top"
+      ],
+      "silhouette": "crop",
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ]
+    },
+    "variants": [],
+    "client": "A textured top that falls forward over sides faded from mid height. Modern and quick to style.",
+    "stylist": "Clip fade to skin or #0.5, then blend to #2. Scissor top and razor-texturise. Leave a short fringe with a lived-in line. Clean taper into the neckline.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a textured crop with a mid fade: a choppy top of 4-7 cm falling forward into a short fringe of 3-5 cm, the sides and back faded from skin (#0.5) to #2 (6 mm), the fade line starting at temple height, a clean tapered neckline, matte texture",
+    "sources": [
+      {
+        "url": "https://www.reuzel.com/blogs/news/how-to-style-a-textured-crop-the-complete-2026-guide",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://behindthechair.com/articles/what-men-are-actually-asking-their-hairdressers-for-in-2026/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "top-heavy-fade",
+    "kind": "cut",
+    "name": "Top heavy fade",
+    "aliases": [
+      "Disconnected volume fade",
+      "High-contrast fade",
+      "Heavy-top fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          10
+        ]
+      },
+      "fringe": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "high",
+      "start_mm": 0.5,
+      "note": "High skin fade with the top left long and disconnected."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good",
+        "note": "Volume comes naturally."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Excellent; the curl length is the feature."
+      },
+      "coily": {
+        "fit": "good",
+        "note": "Works with a defined sponge or twist top."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the fade lower and the top textured; the volume on top is limited."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": "Long top covers a thin crown moderately.",
+      "note": "High fade exposes the temples; not advised past stage 3."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; needs enough hair to show volume.",
+    "glasses_note": "Tight fade opens the sides; frames show prominently.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "heat": "rare",
+      "products": [
+        "clay",
+        "curl cream (curly)"
+      ]
+    },
+    "grow_out": "Fade grows out to a taper in 3-4 weeks; keep top trimmed.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-faded-full",
+        "beard-short-boxed",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "high",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        2,
+        3
+      ],
+      "tags": [
+        "textured_top"
+      ]
+    },
+    "variants": [],
+    "client": "Sharp, tight sides with a lot of volume on top. A strong, modern look.",
+    "stylist": "Fade to skin, work from high to mid, preserve at least 6 cm on top. Blend the line cleanly by shaping the parietal ridge. Clean fade into the neck.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a top-heavy fade: a long, voluminous top of 6-10 cm with the front at 4-8 cm, disconnected from sides and back faded from skin to #2 (6 mm), a high skin fade line at the temple, a clean fade into the neckline, a textured finish",
+    "sources": [
+      {
+        "url": "https://www.apetogentleman.com/best-mens-hair-trends-fall-winter/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://behindthechair.com/articles/what-men-are-actually-asking-their-hairdressers-for-in-2026/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "perm-curls-men",
+    "kind": "cut",
+    "name": "Men's soft perm",
+    "aliases": [
+      "Perm",
+      "Permed top",
+      "Wavy perm"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          6,
+          12
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          10
+        ]
+      },
+      "sides": {
+        "cm": [
+          2,
+          4
+        ]
+      },
+      "back": {
+        "cm": [
+          2,
+          4
+        ]
+      },
+      "nape": {
+        "cm": [
+          1,
+          2
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "scissor_taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Scissor-tapered sides under a permed top."
+    },
+    "neckline": "tapered",
+    "sideburns": "Short",
+    "fringe": {
+      "kind": "curly",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good",
+        "note": "Gives curl to straight hair."
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Your curls already give this shape; ask for the cut without the perm."
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "Chemical straighten/perm risks breakage."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "Remove bulk before the perm so the top does not turn wide."
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Curls add volume and cover recession."
+    },
+    "strand_note": null,
+    "density_note": "Any density; fine hair gets more body.",
+    "glasses_note": "Curls may sit on the frame arms; trim the sides shorter.",
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream"
+      ]
+    },
+    "grow_out": "Perm grows out over 4-6 months; cut the permed ends gradually.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [
+        "beard-stubble-medium",
+        "beard-short-boxed",
+        "beard-clean-shaven"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "curly",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        5
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "tags": [
+        "thinning_crown_friendly",
+        "wash_and_go",
+        "perm_dependent"
+      ]
+    },
+    "variants": [],
+    "client": "A soft permanent wave added to straight hair for body and curl. It grows out gradually.",
+    "stylist": "Use large rods on top, test a strand, and cut after the perm is set. Aftercare cream helps curl hold.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a men's soft perm: a top of 6-12 cm with a fringe of 5-10 cm set in soft, loose, large-rod curls on otherwise straight hair, the sides and back scissor-tapered to 2-4 cm, the nape 1-2 cm, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://www.pallmallbarbers.com/pmb-news/trending-haircuts-to-start-2026-strong/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "crown-sweep-even-top",
+    "kind": "cut",
+    "name": "Even-length short top (crown cover)",
+    "aliases": [
+      "Crown-friendly crop",
+      "Short sweep",
+      "Even top cut"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          2,
+          3.5
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "guard_mm": [
+          3,
+          9
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          9
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          3,
+          6
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 6,
+      "note": "Taper."
+    },
+    "neckline": "tapered",
+    "sideburns": "Short",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "Keep the top 3-4 cm so curls lie flat over the crown."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Keep the top 2-3 cm with a tidy taper."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "Thin the top with scissors so it lies flat and sweeps."
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 6,
+      "whorl_note": "Keep the crown length the same as the rest of the top.",
+      "note": "Even top length leaves less contrast between thin and dense areas."
+    },
+    "strand_note": null,
+    "density_note": "Thin or thinning hair, mostly at the crown.",
+    "glasses_note": "Sits well with most frames; keep hair above the ear short so the arms rest cleanly.",
+    "upkeep": {
+      "styling_minutes": [
+        2,
+        2
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "none",
+      "products": [
+        "matte paste"
+      ]
+    },
+    "grow_out": "Grow the top for 8 weeks; the cut becomes a crew or Ivy base.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crew",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "tapered",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        2,
+        2
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "workplace_friendly",
+        "recession_friendly",
+        "thinning_crown_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "A short, even top with a slight side sweep. Tidy and unfussy, and it suits thinning at the crown.",
+    "stylist": "Keep one even length over the crown and top, clipper-taper the sides and avoid long sections that would highlight thinning.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a short even-length top: one even length of 2-3.5 cm over the crown and top with a slight side sweep, the sides and back clipper-tapered from #3 (9 mm) down to #1 (3 mm), the nape #1-#2, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/20-haircuts-tips-for-men-with-a-receding-hairline",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.beardbrand.com/blogs/urbanbeardsman/the-best-haircuts-to-wear-when-experiencing-hair-loss",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-fringe-forward",
+    "kind": "cut",
+    "name": "Curly forward crop",
+    "aliases": [
+      "Curly French crop",
+      "Curly Caesar",
+      "Curly fringe cut"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          4,
+          8
+        ]
+      },
+      "fringe": {
+        "cm": [
+          3,
+          6
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          3,
+          10
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          1.5,
+          4
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": null
+    },
+    "fade": {
+      "kind": "taper",
+      "height": "low",
+      "start_mm": 3,
+      "note": "Low taper under a forward-brushed curl fringe."
+    },
+    "neckline": "tapered",
+    "sideburns": "Tapered",
+    "fringe": {
+      "kind": "curly",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Straight hair lacks the spring; use a French crop instead."
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "Needs a diffuser to keep wave curl."
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Short coils: shorten fringe to 3 cm and keep it moisturised."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Keep the curls shorter so they hold their spring."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 5,
+      "whorl_note": "Curls cover the crown.",
+      "note": "Forward curls cover temples and a high forehead well; one of the best for stage 3-5."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick; fine curls collapse.",
+    "glasses_note": "Keep the fringe clear of the top rim.",
+    "upkeep": {
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "heat": "rare",
+      "products": [
+        "curl cream",
+        "light gel"
+      ]
+    },
+    "grow_out": "Fringe lengthens to a curly flow.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-short-boxed",
+        "beard-stubble-medium",
+        "beard-full-natural"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "curly",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "crop",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "tapered",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": false,
+      "covers_forehead": true,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        4,
+        4
+      ],
+      "trim_weeks": [
+        3,
+        5
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "thinning_crown_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Short sides with a curly fringe falling forward. Neat, relaxed and easy to style with cream.",
+    "stylist": "Cut dry; shorten the fringe by 1 cm as curls spring up. Do not square the fringe; use a gently rounded edge.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly forward crop: natural curls of 4-8 cm on top falling forward into a curly fringe of 3-6 cm with a gently rounded edge, the sides and back at a low taper from #3 (10 mm) to #1 (3 mm), the nape #0.5-#1.5, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/curly-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.apetogentleman.com/best-mens-hair-trends-fall-winter/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

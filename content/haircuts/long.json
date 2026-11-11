@@ -1,0 +1,6459 @@
+[
+  {
+    "id": "long-one-length-blunt",
+    "kind": "cut",
+    "name": "Long blunt one-length",
+    "aliases": [
+      "blunt long",
+      "shoulder-blade blunt",
+      "sleek cut"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          45,
+          60
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          42,
+          55
+        ]
+      },
+      "back": {
+        "cm": [
+          48,
+          62
+        ]
+      },
+      "nape": {
+        "cm": [
+          48,
+          62
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "allow extra length and shape curls inside to avoid a triangle"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut as a stretched-length trim and keep layers minimal"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "take out interior weight at the nape"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the nape growth direction, because a long blunt line shows it."
+    },
+    "strand_note": "Fine strands look thicker with a straight edge but show thin ends sooner; thick hair feels heavy.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        12,
+        16
+      ],
+      "heat": "rare",
+      "products": [
+        "smoothing serum",
+        "light oil"
+      ]
+    },
+    "grow_out": "Needs only dusting trims; every 12-16 weeks keeps the ends healthy.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "full",
+      "perimeter": "blunt_sleek",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [
+        "low_maintenance",
+        "fine_hair_friendly"
+      ],
+      "silhouette": "one_length",
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        12,
+        16
+      ]
+    },
+    "variants": [],
+    "client": "Long hair cut to one clean, even edge. Simple to wear down or tie back.",
+    "stylist": "Cut the perimeter with the client upright and the hair parted centrally. Check that the front pieces are not cut too short as shoulders can shorten them. Weight: a single weight line at the shoulder blade or mid-back. Invisible layers cut inside the weight line cannot be seen, so this look covers that request too.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long blunt one-length cut: a single weight line at the shoulder blade, the top 45-60 cm, the sides 42-55 cm and the back 48-62 cm, no layers and no fringe, a clean level bottom edge and a sleek, smooth finish",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-u-layers",
+    "kind": "cut",
+    "name": "Long U-shape layers",
+    "aliases": [
+      "U-cut",
+      "rounded long layers"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          38,
+          58
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          38,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          42,
+          60
+        ]
+      },
+      "nape": {
+        "cm": [
+          42,
+          60
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and let curls shape the U"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep the U shallow for tight curls"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks thin at the ends if the U is deep"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the nape hair; a V-shaped nape will not hold a deep U."
+    },
+    "strand_note": "Works with most strand sizes; very fine hair needs a shallow U.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        12,
+        14
+      ],
+      "heat": "rare",
+      "products": [
+        "light cream",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The U grows out softly and holds its shape for 4-5 months.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        12,
+        14
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "A long cut with a gently curved back. It looks full from behind and easy to wear.",
+    "stylist": "Shape the back in a gentle curve 6-8 cm longer at the centre than at the sides and cut long layers around the face to connect with the curve. Weight: back is a soft U with the middle longest.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long U-shape layers: a cut reaching the shoulder blades with the top 38-58 cm, the sides 38-52 cm and the back 42-60 cm, long layers and a back edge forming a gentle U about 6-8 cm longer at the centre than at the sides, no fringe",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/medium-hairstyles/medium-length-layered-haircuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-v-layers",
+    "kind": "cut",
+    "name": "Long V-shape layers",
+    "aliases": [
+      "V-cut",
+      "pointed long layers"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          45,
+          68
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          48,
+          65
+        ]
+      },
+      "back": {
+        "cm": [
+          48,
+          72
+        ]
+      },
+      "nape": {
+        "cm": [
+          48,
+          72
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "mid_back"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and keep the point shallow"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "tight curls make V points look sparse"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks thin at the point"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "good for thick hair"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A flat or low nape hairline does not hold a deep V, so keep the point shallow there."
+    },
+    "strand_note": "Thick, strong strands hold the point.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "smoothing serum"
+      ]
+    },
+    "grow_out": "The point softens in about 8 weeks as the sides grow past it, so re-point at each trim.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "high",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "thick_hair_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A very long cut with a V-shaped back that makes the most of your length. The point makes the ends look full and tidy from behind.",
+    "stylist": "Cut the point at the centre of the back first, then angle the sides forward so the lengths meet in a clean V. Re-point the shape at each trim to keep it sharp. Weight: back comes to a defined point at the centre, with the sides shorter.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long V-shape layers: a very long cut reaching mid-back with the top 45-68 cm, the sides 48-65 cm and the back 48-72 cm, long layers and a back edge coming to a defined V point at the centre, with shorter sides, no fringe",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://hji.co.uk/style-101-the-bob",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-soft-face-frame",
+    "kind": "cut",
+    "name": "Long soft face-framing layers",
+    "aliases": [
+      "face-framing layers",
+      "long layers with curtain frame",
+      "waterfall layers",
+      "luxury layers",
+      "supermodel layers",
+      "long Bardot fringe"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          35,
+          55
+        ]
+      },
+      "fringe": {
+        "cm": [
+          15,
+          25
+        ]
+      },
+      "sides": {
+        "cm": [
+          38,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          42,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          42,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "side_swept",
+        "none"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and keep the face pieces 3-4 cm longer"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut dry and keep a long length for shrinkage"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair needs fewer face layers"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the front hairline and parting; a cowlick at the temple will push the face pieces forward."
+    },
+    "strand_note": "Fine to medium strands move best around the face; very coarse hair can push the face pieces outward.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "light cream",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "Grows out softly with no visible step, so trims can be spaced to every 12-14 weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "long_layers",
+        "face_framing"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "Long hair that keeps its length, with a few shorter pieces around the face that soften the look.",
+    "stylist": "Hold the perimeter level, then cut a V of face layers starting at the cheekbone and ending at the chin or collarbone. Point cut the face pieces to blend them into the length. Weight: length kept at the perimeter, with soft shorter layers around the face.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long soft face-framing layers: hair reaching the shoulder blades with a level perimeter, the top 35-55 cm, the sides 38-52 cm and the back 42-58 cm, and shorter point-cut face pieces of 15-25 cm falling from the cheekbone to the chin or collarbone",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/medium-hairstyles/medium-length-layered-haircuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-feathered",
+    "kind": "cut",
+    "name": "Long feathered layers",
+    "aliases": [
+      "feathered long cut",
+      "70s-style layers",
+      "feather cut"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          28,
+          50
+        ]
+      },
+      "fringe": {
+        "cm": [
+          14,
+          24
+        ]
+      },
+      "sides": {
+        "cm": [
+          36,
+          50
+        ]
+      },
+      "back": {
+        "cm": [
+          40,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          40,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "side_swept",
+      "landmark": "cheekbone",
+      "options": [
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry, layers must stay long"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "needs blow-drying to flick; choose curly-u-shape-long-layers"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair loses the ends when feathered, keep a blunt base"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Side layers expose cowlicks at the temples."
+    },
+    "strand_note": "Medium strands flick best; fine strands need volumising help.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        15,
+        25
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "daily",
+      "products": [
+        "blow-dry lotion",
+        "flexible-hold spray"
+      ]
+    },
+    "grow_out": "The layers fade into a long layered style over about 12 weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "crown",
+        "sides",
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "graduated",
+      "part": "side",
+      "fringe": "side_swept",
+      "layers": [
+        "medium",
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        15,
+        25
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A long cut with soft, feathered layers that flick away from the face.",
+    "stylist": "Cut face layers on a diagonal back and carry them into the sides, finishing with point-cut ends. Weight: volume at the sides and crown, with feathered ends flicking away from the face.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long feathered layers: a cut reaching the shoulder blades with the top 28-50 cm, the sides 36-50 cm and the back 40-58 cm, volume at the sides and crown, a side-swept fringe of 14-24 cm at the cheekbone, ends feathered and flicking away from the face",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/medium-hairstyles/medium-length-layered-haircuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-curtain-layers",
+    "kind": "cut",
+    "name": "Long layers with a curtain fringe",
+    "aliases": [
+      "curtain bangs and long layers",
+      "classic face-frame"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          35,
+          55
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          16
+        ]
+      },
+      "sides": {
+        "cm": [
+          38,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          42,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          42,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and allow the fringe to spring"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut dry and allow the fringe to shrink"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks sparse in the fringe"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the front hairline for a cowlick before cutting the fringe."
+    },
+    "strand_note": "Medium strands drape best into a curtain parting; very thick strands need weight removed from the fringe.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "light cream",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The fringe grows into face-framing layers in 8-12 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "long_layers",
+        "face_framing"
+      ],
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "tags": [],
+      "silhouette": "long_layers",
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ]
+    },
+    "variants": [],
+    "client": "Long layers past the shoulder blades with a centre-parted curtain fringe that blends into the sides.",
+    "stylist": "Cut a triangle section at the front, taper the fringe to the cheekbone and blend into the side layers. Weight: long layers, with a centre-parted curtain fringe that melts into the sides.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long layers reaching past the shoulder blades, with a centre-parted curtain fringe that starts at the cheekbones and melts into the face-framing sides, soft blow-dried movement through the lengths",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/hair/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "hime-cut",
+    "kind": "cut",
+    "name": "Hime cut",
+    "aliases": [
+      "princess cut",
+      "Japanese hime layers"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          40,
+          55
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          8
+        ]
+      },
+      "sides": {
+        "cm": [
+          14,
+          22
+        ]
+      },
+      "back": {
+        "cm": [
+          45,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          45,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "blunt_full",
+      "landmark": "brow",
+      "options": [
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "works with soft waves if the side panels are blow-dried smooth",
+        "daily": true
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "side panels fight the curl"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "straight panels need daily heat on coils; see coily-length-preserving-layers"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair loses density at the short sides"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Side panels start at the temple; check that the hairline allows a clean panel."
+    },
+    "strand_note": "Straight, medium to thick strands hold the panels; wavy hair needs blow-drying.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        20
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "daily",
+      "products": [
+        "smoothing serum",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The side panels grow into face-framing layers after about 4 months.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "blunt",
+      "part": "none",
+      "fringe": "blunt_full",
+      "layers": [
+        "heavy"
+      ],
+      "silhouette": "one_length",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        20
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A long cut with straight cheek-length side pieces and a straight fringe.",
+    "stylist": "Disconnect the side panels at the cheekbone or jaw, keep the back long and blunt and cut the fringe straight across. Weight: straight long back with shorter, cheek-length side panels and a straight fringe.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a hime cut: a long straight back of 45-58 cm reaching the shoulder blades with the top 40-55 cm, disconnected cheek-length side panels of 14-22 cm cut straight at the cheekbone or jaw, and a blunt straight-across fringe of 5-8 cm at the brow",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/jellyfish-haircut",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.thezoereport.com/beauty/jellyfish-cut-trend",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "jellyfish-cut",
+    "kind": "cut",
+    "name": "Jellyfish cut",
+    "aliases": [
+      "bi-level layered cut"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          18,
+          30
+        ]
+      },
+      "fringe": {
+        "cm": [
+          9,
+          14
+        ]
+      },
+      "sides": {
+        "cm": [
+          22,
+          32
+        ]
+      },
+      "back": {
+        "cm": [
+          42,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          42,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and keep the upper layer longer"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "the upper layer pulls into a puff"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks thin in the lower layer, so keep the base blunt"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The short upper layer sits on the crown and exposes any cowlick or double crown there, so check before choosing its length."
+    },
+    "strand_note": "Medium to thick strands support the contrast between the two levels.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "daily",
+      "products": [
+        "texturising spray",
+        "blow-dry lotion"
+      ]
+    },
+    "grow_out": "The upper layer grows into long layers over 3-4 months.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "crown",
+        "jaw"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "heavy"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A bold two-level cut with a short, rounded top layer and long hair underneath.",
+    "stylist": "Section off a circle from the crown to the cheek and cut it short and rounded, leaving the lower layer long, with a visible disconnection. Weight: rounded short upper layer floating above a long, thin lower layer.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a jellyfish cut: a short rounded upper layer of 18-30 cm from the crown to the cheek, with a curtain fringe of 9-14 cm and sides of 22-32 cm, floating visibly above a long lower layer of 42-58 cm at the back, clearly disconnected",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/jellyfish-haircut",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.thezoereport.com/beauty/jellyfish-cut-trend",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "wavy-cascade-layers",
+    "kind": "cut",
+    "name": "Wavy cascade layers",
+    "aliases": [
+      "long waves cut",
+      "lived-in long layers"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          35,
+          55
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          38,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          42,
+          60
+        ]
+      },
+      "nape": {
+        "cm": [
+          42,
+          60
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "cut dry or damp in the wave pattern"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "tight curls need 8-10 cm extra length to fall as waves"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "thick waves benefit from more interior layers"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the crown and nape because waves exaggerate any whorl."
+    },
+    "strand_note": "Fine to medium waves show the pattern. Thick waves spread without work on the inside.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        14
+      ],
+      "heat": "rare",
+      "products": [
+        "sea-salt spray",
+        "curl cream"
+      ]
+    },
+    "grow_out": "The cascade grows out with no obvious step and needs trims only every 12-14 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        14
+      ],
+      "tags": [
+        "low_maintenance",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Long, wavy hair with soft layers that shape the waves. Easy to air-dry.",
+    "stylist": "Cut long layers in the wave pattern and avoid short layers at the crown. Slide cut the ends lightly. Weight: long layers cut in the wave pattern, with weight kept in the lower third.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "wavy cascade layers: long layers cut in the wave pattern reaching the shoulder blades, the top 35-55 cm, the sides 38-52 cm and the back 42-60 cm, no short crown layers, the weight kept in the lower third, no fringe, soft natural waves",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/medium-hairstyles/medium-length-layered-haircuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "thick-hair-long-layers",
+    "kind": "cut",
+    "name": "Long layers for thick hair",
+    "aliases": [
+      "channel layers",
+      "debulked long cut"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          35,
+          55
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          38,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          42,
+          60
+        ]
+      },
+      "nape": {
+        "cm": [
+          42,
+          60
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and keep thinning inside the lengths"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "do not thin near the roots"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "poor",
+        "note": "too little density to remove weight"
+      },
+      "medium": {
+        "fit": "adapt",
+        "note": "medium density needs only a light touch"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Avoid thinning around crown whorls, because short hairs will stand up."
+    },
+    "strand_note": "Designed for dense, thick or coarse strands that swell outward.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "smoothing cream",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "Grows out slowly with the weight reduction intact for about 12 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "blunt",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "internal",
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "high",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "thick_hair_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "A long cut for thick hair that removes weight and dries faster.",
+    "stylist": "Slide cut or channel the interior in mid-lengths, leaving the outer layer untouched, and cut weight out behind the ears and at the nape. Weight: interior weight removed through channels, with a dense outline kept at the ends.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long layers for thick hair: a cut reaching the shoulder blades with the top 35-55 cm, the sides 38-52 cm and the back 42-60 cm, long and shattered inner layers removing weight from the mid-lengths, a dense outline kept at the ends, no fringe",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/thick-hair/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-a-line-shape",
+    "kind": "cut",
+    "name": "Long A-line shape",
+    "aliases": [
+      "long diagonal-forward cut",
+      "angled long layers"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          35,
+          55
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          50,
+          62
+        ]
+      },
+      "back": {
+        "cm": [
+          38,
+          52
+        ]
+      },
+      "nape": {
+        "cm": [
+          38,
+          52
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept",
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and soften the diagonal for curls"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep the line gentle to avoid a hard step"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks sparse at the nape, keep the back blunt"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A shorter back exposes the nape growth pattern, so look at the whorl before shortening."
+    },
+    "strand_note": "Smooth strands of medium weight show the slope best. Curly hair makes the angle harder to see.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "daily",
+      "products": [
+        "smoothing serum",
+        "light oil"
+      ]
+    },
+    "grow_out": "Lengthen the back and the line flattens into one-length over about 4 months, with no awkward step.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "medium",
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "Long hair that is cut so the front falls a little longer than the back, giving a narrow angled line.",
+    "stylist": "Carry a gentle diagonal forward from the nape, with the front 6-10 cm longer than the back. Soften the corner with point cutting so no hard step shows when the hair is worn back. Weight: back is shorter than the front, with a diagonal line from the nape to the front.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long A-line shape: hair reaching the shoulder blades on a gentle diagonal, the back 38-52 cm and 6-10 cm shorter than the front at 50-62 cm, the top 35-55 cm, long layers, no fringe, a softened corner at the ends",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-u-shape-long-layers",
+    "kind": "cut",
+    "name": "Curly U-shape long layers",
+    "aliases": [
+      "long curl layers",
+      "long curls with rounded back"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          28,
+          48
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          36,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          40,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          40,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "straight hair needs a different layering plan"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep the U shallow and cut dry on tighter coils"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls look thin at the ends, so layer lightly"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the nape and crown, as curls spiral around whorls."
+    },
+    "strand_note": "Curl density determines how deep the U can be; thick curls handle more layering.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        12,
+        14
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "leave-in conditioner"
+      ]
+    },
+    "grow_out": "Grows out with almost no visible step, so only the ends need a trim every 3 months.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        12,
+        14
+      ],
+      "tags": [
+        "low_maintenance",
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Curls that land at the shoulders when dry, with soft layers that stop them from forming a triangle. Pulled straight, they reach the shoulder blades.",
+    "stylist": "Cut dry, curl by curl, with the shortest layers at the top, and keep the back length gently rounded. Weight: long layers shaped into a U so the curls stack evenly instead of forming a triangle. Tight coils shrink more and land nearer the collarbone.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "curly U-shape long layers: defined curls that land at the shoulders when dry, cut at 28-48 cm at the top, 36-52 cm at the sides and 40-58 cm at the back when stretched, layered so the curls stack evenly in a gently rounded U at the back, with no triangle shape and no fringe",
+    "sources": [
+      {
+        "url": "https://www.devacurl.com/us/the-deva-blog/devadaily/the-devacut-a-game-changer-for-curls",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bouncecurl.com/blogs/news/types-of-curly-hair-cuts-plus-tips-to-find-the-right-stylist",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "coily-length-preserving-layers",
+    "kind": "cut",
+    "name": "Length-preserving coily layers",
+    "aliases": [
+      "long coily layers",
+      "trim-only coily shape"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          25,
+          45
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          34,
+          50
+        ]
+      },
+      "back": {
+        "cm": [
+          38,
+          55
+        ]
+      },
+      "nape": {
+        "cm": [
+          38,
+          55
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "collarbone"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "poor"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "needs curls or texture-friendly styling"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine coils look thin at the ends, so keep layers few and long"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        25,
+        55
+      ],
+      "coily_pct": [
+        50,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check whorls at the crown and nape; coils follow them closely."
+    },
+    "strand_note": "Coily strands are fragile; light layers reduce tangling and retain length.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        15,
+        30
+      ],
+      "trim_weeks": [
+        12,
+        16
+      ],
+      "heat": "rare",
+      "products": [
+        "leave-in conditioner",
+        "styling cream"
+      ]
+    },
+    "grow_out": "Grows out with minimal change; only the ends need regular trims.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        15,
+        30
+      ],
+      "trim_weeks": [
+        12,
+        16
+      ],
+      "tags": [
+        "curly_first"
+      ]
+    },
+    "variants": [],
+    "client": "Natural coils kept as long as they can be, with light shaping. Pulled straight they reach the shoulder blades, but dry they land between the jaw and the collarbone.",
+    "stylist": "Use shallow layers and avoid short pieces; trim split ends in sections. Weight: very long, shallow layers that keep as much length as possible.",
+    "images": {
+      "shown_on": "Shown on 4A to 4B coils",
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "length-preserving coily layers: natural coils that land between the jaw and the collarbone when dry, with only very shallow layers, the top 25-45 cm stretched, the sides 34-50 cm and the back 38-55 cm stretched, no short pieces and no fringe, full dense ends",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bouncecurl.com/blogs/news/types-of-curly-hair-cuts-plus-tips-to-find-the-right-stylist",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-face-frame-length",
+    "kind": "cut",
+    "name": "Curly face-framing cut",
+    "aliases": [
+      "face-framing curls",
+      "curls with front layers"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          35,
+          50
+        ]
+      },
+      "fringe": {
+        "cm": [
+          15,
+          24
+        ]
+      },
+      "sides": {
+        "cm": [
+          38,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          40,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          40,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "curly"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need styling"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The front hairline decides how the pieces fall; check cowlicks."
+    },
+    "strand_note": "Works across densities because only the front is cut.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        12,
+        14
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "leave-in conditioner"
+      ]
+    },
+    "grow_out": "The front pieces grow into long layers over about 3 months with no visible step.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "long_layers",
+        "face_framing"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        12,
+        14
+      ],
+      "tags": [
+        "low_maintenance",
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Curls kept at full length, landing at the shoulders when dry, with a few shorter curls around the face to frame it. Pulled straight, they reach the shoulder blades.",
+    "stylist": "Cut dry in small curl clusters, shaping only the front section from the cheekbone to the chin; leave the rest of the length untouched. Check the face pieces after the curls settle. Weight: length kept at the back with short curls only around the face. Tight coils shrink more and land nearer the collarbone.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly face-framing cut: defined curls kept at full length that land at the shoulders when dry, the top 35-50 cm stretched, the sides 38-52 cm and the back 40-58 cm stretched, with shorter curls of 15-24 cm stretched shaping the face from the cheekbone to the chin as a curtain fringe",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.devacurl.com/us/the-deva-blog/devadaily/the-devacut-a-game-changer-for-curls",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-bangs-long-curls",
+    "kind": "cut",
+    "name": "Long curls with a curly fringe",
+    "aliases": [
+      "curly fringe long layers",
+      "long curls with curly bangs"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          30,
+          48
+        ]
+      },
+      "fringe": {
+        "cm": [
+          8,
+          14
+        ]
+      },
+      "sides": {
+        "cm": [
+          36,
+          50
+        ]
+      },
+      "back": {
+        "cm": [
+          40,
+          56
+        ]
+      },
+      "nape": {
+        "cm": [
+          40,
+          56
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curly",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need blow-drying for the fringe",
+        "daily": true
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls make a sparse fringe, so cut it fuller"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "A front cowlick strongly affects a curly fringe."
+    },
+    "strand_note": "The fringe curl pattern decides the final length; test how it springs before cutting.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "light gel"
+      ]
+    },
+    "grow_out": "The fringe grows into curtain-length curls in 8-12 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "curly",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        6,
+        8
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Curls that land at the shoulders when dry, with a short, springy curly fringe. Pulled straight, they reach the shoulder blades.",
+    "stylist": "Cut the fringe dry, curl by curl, about 3 cm longer than the target to allow for shrinkage. Weight: long layered curls with a short curly fringe above the brows. Tight coils shrink more and land nearer the collarbone.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "curls with a curly fringe: layered defined curls that land at the shoulders when dry, the top 30-48 cm stretched, the sides 36-50 cm and the back 40-56 cm stretched, with a short springy curly fringe of 8-14 cm stretched sitting above the brows",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.devacurl.com/us/the-deva-blog/devadaily/the-devacut-a-game-changer-for-curls",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "bottleneck-bang-long-layers",
+    "kind": "cut",
+    "name": "Bottleneck fringe on long layers",
+    "aliases": [
+      "bottleneck fringe",
+      "curved-in curtain fringe",
+      "bottleneck bangs"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          35,
+          55
+        ]
+      },
+      "fringe": {
+        "cm": [
+          8,
+          16
+        ]
+      },
+      "sides": {
+        "cm": [
+          38,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          42,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          42,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "bottleneck",
+      "landmark": "lash",
+      "options": [
+        "curtain"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut the fringe dry and allow for spring"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut dry; see Curly curtain-fringe shoulder cut"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks sparse in a wide fringe, so keep it short and full"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The fringe starts further back on the head and needs a calm front hairline."
+    },
+    "strand_note": "Medium strands hold the shape of the fringe; fine strands may separate.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "light cream",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The fringe grows into a curtain fringe in about 8 weeks.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "crown",
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "bottleneck",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "Long hair with a fringe that curves around the face like a bottle.",
+    "stylist": "Take a triangle section at the front hairline, keep the centre shortest at the lashes and angle the sides longer towards the cheekbones. Weight: long layers with a fringe that is short in the centre and widens into longer side pieces.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a bottleneck fringe on long layers: lengths reaching the shoulder blades in long layers, the top 35-55 cm, the sides 38-52 cm and the back 42-58 cm, with a fringe of 8-16 cm at the lash line, short in the centre and widening into longer side pieces",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/hair/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "wispy-brow-fringe-long",
+    "kind": "cut",
+    "name": "See-through fringe on long layers",
+    "aliases": [
+      "see-through bangs",
+      "wispy brow fringe"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          38,
+          55
+        ]
+      },
+      "fringe": {
+        "cm": [
+          5,
+          9
+        ]
+      },
+      "sides": {
+        "cm": [
+          40,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          44,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          44,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "wispy",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut the fringe dry and leave extra length for spring"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "wispy edges disappear into curls"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks very transparent, so keep a little density"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "thin the fringe lightly"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Needs a stable front hairline and no strong cowlick."
+    },
+    "strand_note": "Fine to medium straight or wavy strands make the see-through finish. Thick or curly hair looks dense and needs thinning.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        8
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "heat": "rare",
+      "products": [
+        "dry shampoo",
+        "light cream"
+      ]
+    },
+    "grow_out": "The fringe grows out into a curtain fringe.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "wispy",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        8
+      ],
+      "trim_weeks": [
+        4,
+        6
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "Long hair with a thin, soft fringe that skims the brows. Easy, French and a little undone.",
+    "stylist": "Cut a narrow fringe, point cut the ends for a see-through texture and leave the rest of the length untouched. Weight: long natural lengths with a thin, see-through fringe skimming the brows.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a wispy brow-grazing fringe on long hair: natural long lengths reaching the shoulder blades, the top 38-55 cm, the sides 40-52 cm and the back 44-58 cm in long layers, with a thin, see-through fringe of 5-9 cm skimming the brows",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/hair/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "side-swept-fringe-long-layers",
+    "kind": "cut",
+    "name": "Side-swept fringe on long layers",
+    "aliases": [
+      "long diagonal bangs",
+      "sweeping side bangs"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          35,
+          55
+        ]
+      },
+      "fringe": {
+        "cm": [
+          14,
+          24
+        ]
+      },
+      "sides": {
+        "cm": [
+          38,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          42,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          42,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "side_swept",
+      "landmark": "cheekbone",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and allow for spring"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "cut dry; see Curly curtain-fringe shoulder cut"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks flat, so add volume"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The fringe follows the part; check the natural parting."
+    },
+    "strand_note": "Strands of medium weight carry the long slope. Very fine strands need root lift so the sweep does not fall flat.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        6,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "light cream",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The fringe blends into the side layers within about 8 weeks, with no awkward length stage.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "side",
+      "fringe": "side_swept",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        6,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "Long hair with a long fringe that sweeps to the side.",
+    "stylist": "Cut a long diagonal from the part to the cheekbone and blend it into the side layers. Weight: long layers with a long fringe that sweeps across the forehead from a side part.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a side-swept fringe on long layers: long layers reaching the shoulder blades, the top 35-55 cm, the sides 38-52 cm and the back 42-58 cm, with a long fringe of 14-24 cm sweeping across the forehead from a side part to the cheekbone",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/hair/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "baby-bangs-long-hair",
+    "kind": "cut",
+    "name": "Baby fringe on long hair",
+    "aliases": [
+      "micro bangs",
+      "short fringe on long hair",
+      "baby bangs on long hair"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          38,
+          55
+        ]
+      },
+      "fringe": {
+        "cm": [
+          2,
+          4
+        ]
+      },
+      "sides": {
+        "cm": [
+          40,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          44,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          44,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "micro",
+      "landmark": "above_brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "the fringe springs and shrinks"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "a micro fringe shrinks to the hairline on coils; see curly-bangs-long-curls"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair makes a sparse fringe, so keep it dense"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "thin lightly"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The fringe needs a calm hairline; a front cowlick will lift it."
+    },
+    "strand_note": "Straight, smooth strands give the cleanest micro fringe; waves make the length difficult to control.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        8
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "rare",
+      "products": [
+        "light wax"
+      ]
+    },
+    "grow_out": "The fringe grows to brow length in about 6 weeks.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "blunt",
+      "part": "none",
+      "fringe": "micro",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "one_length",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        8
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": []
+    },
+    "variants": [],
+    "client": "Long hair with a tiny fringe at the hairline. Very graphic and playful.",
+    "stylist": "Cut the micro fringe dry, a little at a time, measuring at the natural hairline; take no more than 2-3 cm in the first pass. Keep the rest of the length untouched to make the contrast. Weight: one-length long hair with a micro fringe at the hairline.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a baby fringe on long hair: one-length hair reaching the shoulder blades, the top 38-55 cm, the sides 40-52 cm and the back 44-58 cm with no layers, and a micro fringe of 2-4 cm sitting at the hairline above the brows",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/hair/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "blunt-full-fringe-long",
+    "kind": "cut",
+    "name": "Long hair with blunt full fringe",
+    "aliases": [
+      "heavy fringe long hair",
+      "full bangs"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          38,
+          55
+        ]
+      },
+      "fringe": {
+        "cm": [
+          6,
+          9
+        ]
+      },
+      "sides": {
+        "cm": [
+          40,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          44,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          44,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "blunt_full",
+      "landmark": "brow",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "blow-dry the fringe flat",
+        "daily": true
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "a blunt fringe springs up on curls; see curly-bangs-long-curls"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "a blunt fringe shrinks to the hairline on coils; see curly-bangs-long-curls"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks sparse in the fringe"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Needs a stable front hairline; a crown cowlick or strong whorl makes a blunt fringe split or lift."
+    },
+    "strand_note": "Straight strands of medium weight give the cleanest fringe line. Very fine strands look see-through and very coarse strands push forward.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "daily",
+      "products": [
+        "smoothing serum",
+        "dry shampoo"
+      ]
+    },
+    "grow_out": "The fringe reaches the eyes within about 3 weeks, so most clients grow it into a curtain fringe over 8-10 weeks.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "blunt_sleek",
+      "part": "none",
+      "fringe": "blunt_full",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "one_length",
+      "weight_removal": "low",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "Long, sleek hair with a heavy straight fringe across the brows. Bold and graphic, and it draws the eye.",
+    "stylist": "Section a wide triangle from about 3 cm behind the hairline, cut the fringe dry and straight at the brow, then point cut the edge slightly to soften it. Keep the long lengths one-length to preserve the contrast. Weight: one-length long hair with a thick, straight-across fringe.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long blunt full fringe: sleek one-length hair reaching the shoulder blades, the top 38-55 cm, the sides 40-52 cm and the back 44-58 cm with no layers, and a thick, straight-across fringe of 6-9 cm at the brow with a softly point-cut edge",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/hair/types-of-bangs",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-hidden-undercut",
+    "kind": "cut",
+    "name": "Long hair with hidden undercut",
+    "aliases": [
+      "nape undercut long",
+      "bulk-removal long cut"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          45,
+          65
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          50,
+          65
+        ]
+      },
+      "back": {
+        "cm": [
+          45,
+          70
+        ]
+      },
+      "nape": {
+        "cm": [
+          45,
+          70
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "mid_back"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut the undercut carefully on curls and keep it short"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep the undercut tight on coils"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "poor",
+        "note": "fine hair lacks density for an undercut"
+      },
+      "medium": {
+        "fit": "adapt",
+        "note": "medium hair needs only a small undercut"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The undercut should follow the nape hairline, including any whorls."
+    },
+    "strand_note": "Very thick, dense or coarse strands benefit; the long length covers the undercut.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "smoothing serum",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The undercut stays covered while it grows back, but it takes several months to reach the length around it.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "blunt",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "high",
+      "cut_method": [],
+      "nape_style": "undercut",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "thick_hair_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Long hair that feels much lighter because bulk is removed from underneath.",
+    "stylist": "Clipper cut a section at the nape and above the ears, then drop the long hair to cover it. Weight: the nape and lower sides are shortened beneath the long lengths to remove bulk.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long hair with a concealed undercut: one long length to mid-back, the top 45-65 cm, the sides 50-65 cm and the back 45-70 cm, with a clipped section at the nape and above the ears lying beneath the long lengths, no fringe",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/thick-hair/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "mid-back-soft-layers",
+    "kind": "cut",
+    "name": "Mid-back soft layers",
+    "aliases": [
+      "length-priority long cut"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          45,
+          70
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          50,
+          70
+        ]
+      },
+      "back": {
+        "cm": [
+          55,
+          80
+        ]
+      },
+      "nape": {
+        "cm": [
+          55,
+          80
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "mid_back"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and keep layers minimal to avoid a pyramid shape"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep the layers very shallow and allow for 30 percent or more shrinkage"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair looks stringy at this length, so keep a blunt perimeter"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "thick hair benefits from interior weight removal"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the nape growth direction, because the long back highlights whorls."
+    },
+    "strand_note": "Long lengths put stress on the ends. The oldest hair is at the edge, so regular dusting matters.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        12,
+        16
+      ],
+      "heat": "rare",
+      "products": [
+        "leave-in conditioner",
+        "light oil"
+      ]
+    },
+    "grow_out": "Almost no grow-out because length is the priority; just dust the ends every 3-4 months.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "long_layers",
+        "face_framing"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        12,
+        16
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "Very long hair with a few light layers around the face, mostly to keep the length.",
+    "stylist": "Start the first layer at the chin, cut it long and soft, and leave the back untouched apart from a shallow curve at the ends. Weight: maximum length kept, with a few soft layers starting below the chin.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "mid-back soft layers: very long hair reaching mid-back, the top 45-70 cm, the sides 50-70 cm and the back 55-80 cm, a few soft long layers starting below the chin, face-framing pieces of 18-28 cm falling to the chin from a centre part and a gently curved perimeter",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/layered-haircuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/medium-hairstyles/medium-length-layered-haircuts",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-layers-natural",
+    "kind": "cut",
+    "name": "Long layers, natural",
+    "aliases": [
+      "Long hair for men",
+      "Rock layers",
+      "One-length long"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          15,
+          30
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "sides": {
+        "cm": [
+          12,
+          25
+        ]
+      },
+      "back": {
+        "cm": [
+          15,
+          35
+        ]
+      },
+      "nape": {
+        "cm": [
+          15,
+          30
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Blended",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Layers prevent a triangle shape."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Needs moisture; twist-outs."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Use fewer, longer layers so the ends keep their weight."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Length covers recession at stage 3-4."
+    },
+    "strand_note": null,
+    "density_note": "Any; thin hair looks better with fewer layers.",
+    "glasses_note": "Hair may tuck behind arms.",
+    "upkeep": {
+      "styling_minutes": [
+        6,
+        6
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "heat": "none",
+      "products": [
+        "oil",
+        "conditioner"
+      ]
+    },
+    "grow_out": "Just wait: growth pace is about 1 cm per month.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-full-long",
+        "beard-garibaldi"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        6,
+        6
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "tags": [
+        "recession_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Hair past the shoulders with long layers. It needs care, moisture and gentle brushing.",
+    "stylist": "Cut a clean perimeter, use long soft layers to avoid a triangle shape, and trim every 2-3 months to remove splits.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "natural long layers: hair past the shoulders with the top 15-30 cm and the front at 10-20 cm, the sides 12-25 cm and the back 15-35 cm in long soft layers with a clean perimeter, an optional part, no fade, a natural neckline",
+    "sources": [
+      {
+        "url": "https://bosshunting.com.au/style/grooming/best-long-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "man-bun-classic",
+    "kind": "cut",
+    "name": "Man bun",
+    "aliases": [
+      "Bun",
+      "Low bun",
+      "Half-up bun (variation)"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          20,
+          30
+        ]
+      },
+      "fringe": {
+        "cm": [
+          8,
+          15
+        ]
+      },
+      "sides": {
+        "cm": [
+          8,
+          18
+        ]
+      },
+      "back": {
+        "cm": [
+          12,
+          25
+        ]
+      },
+      "nape": {
+        "cm": [
+          10,
+          20
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Natural",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Needs 15+ cm; coily hair forms a puff or twist-bun rather than a smooth bun."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "The bun will be smaller; tie it loosely to spare the hairline."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Pulling back exposes the hairline."
+    },
+    "strand_note": null,
+    "density_note": "Medium to thick for a full bun.",
+    "glasses_note": "Fine; the bun sits above the frame arms.",
+    "upkeep": {
+      "styling_minutes": [
+        2,
+        2
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "heat": "none",
+      "products": [
+        "elastic",
+        "light oil"
+      ]
+    },
+    "grow_out": "Keep the length; undercut the sides if the bulk becomes heavy.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-short-boxed",
+        "beard-garibaldi"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "swept_back",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "high",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        2,
+        2
+      ],
+      "trim_weeks": [
+        8,
+        12
+      ],
+      "tags": [
+        "recession_friendly",
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "Long hair gathered into a bun at the back or top of the head. Practical and tidy once tied.",
+    "stylist": "Trim the ends square, remove weight at the hairline for comfort, and check that the top layers reach the tie point.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a man bun: long hair gathered into a bun at the back or top of the head, the top 12-25 cm, the sides 8-18 cm and the back 12-25 cm, trimmed square at the ends, weight removed at the hairline so the sides lie smooth, a natural neckline",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/man-bun-guide/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://schwarzkopf.com/article-overview/hairstyling/man-buns.html",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "About 20 cm on top is needed to tie a bun, so the length class is shoulder."
+    }
+  },
+  {
+    "id": "top-knot-undercut",
+    "kind": "cut",
+    "name": "Top knot with undercut",
+    "aliases": [
+      "Samurai bun",
+      "Bun fade",
+      "Man bun fade"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          20,
+          30
+        ]
+      },
+      "fringe": {
+        "cm": [
+          8,
+          12
+        ]
+      },
+      "sides": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "back": {
+        "guard_mm": [
+          0,
+          6
+        ]
+      },
+      "nape": {
+        "guard_mm": [
+          0,
+          3
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": {
+      "kind": "fade",
+      "height": "mid",
+      "start_mm": 0.5,
+      "note": "Mid skin fade."
+    },
+    "neckline": "tapered",
+    "sideburns": "Faded",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Needs 15+ cm for a knot; coils tend to form a puff, so twisting first helps."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "The knot will be smaller; tie it loosely."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 3,
+      "whorl_note": null,
+      "note": "Tight pull exposes the hairline."
+    },
+    "strand_note": null,
+    "density_note": "Medium; the knot needs enough density to have shape.",
+    "glasses_note": "The knot sits above the frame arms; faded sides keep arms clear.",
+    "upkeep": {
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "elastic",
+        "pomade"
+      ]
+    },
+    "grow_out": "Stop clipping the sides; the fade grows into a long tied-back style over 6 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-faded-full",
+        "beard-short-boxed"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "close",
+      "perimeter": "graduated",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "swept_back",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "undercut",
+      "shrinkage_risk": "low",
+      "tension": "high",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": true,
+      "lineup": false,
+      "styling_minutes": [
+        3,
+        3
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "wash_and_go"
+      ]
+    },
+    "variants": [],
+    "client": "Long hair on top gathered into a knot, with faded sides. Smart and practical for long hair.",
+    "stylist": "Separate the top at the parietal ridge, fade the sides to #1-#2 and leave 15+ cm on top for the knot.",
+    "images": {
+      "model": "barbering-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a top knot with an undercut: long hair of 12-22 cm on top gathered into a knot, with the sides and back at a mid skin fade from skin to #2 (6 mm) and the nape blade to #1, the fade line at the parietal ridge, a tapered neckline",
+    "sources": [
+      {
+        "url": "https://www.fashionbeans.com/article/man-bun-guide/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://bosshunting.com.au/style/grooming/best-long-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "About 20 cm on top is needed to tie a knot. The top falls to the shoulder."
+    }
+  },
+  {
+    "id": "curly-long-natural",
+    "kind": "cut",
+    "name": "Long curls, natural",
+    "aliases": [
+      "Long curly hair",
+      "Long curls"
+    ],
+    "collections": [
+      "barbering"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          15,
+          30
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          20
+        ]
+      },
+      "sides": {
+        "cm": [
+          12,
+          25
+        ]
+      },
+      "back": {
+        "cm": [
+          15,
+          35
+        ]
+      },
+      "nape": {
+        "cm": [
+          15,
+          30
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": "natural",
+    "sideburns": "Natural",
+    "fringe": null,
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "Not suited: use long layers."
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "Core design."
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "Works as a stretched twist-out or defined afro."
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "Add a few long layers so the ends do not look sparse."
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": 4,
+      "whorl_note": null,
+      "note": "Length covers recession at stage 3-4."
+    },
+    "strand_note": null,
+    "density_note": "Any density; low density curls need a few layers to avoid a thin look.",
+    "glasses_note": "Hair may curl or drop over the arms of glasses; trim a clean channel behind the ear if frames sit on top of the hair.",
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        8
+      ],
+      "trim_weeks": [
+        10,
+        14
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "oil"
+      ]
+    },
+    "grow_out": "Grows about 1 cm per month.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [
+        "beard-full-natural",
+        "beard-full-long",
+        "beard-garibaldi"
+      ],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        8
+      ],
+      "trim_weeks": [
+        10,
+        14
+      ],
+      "tags": [
+        "curly_first",
+        "recession_friendly",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Long curly hair worn loose. Needs moisture and a gentle comb through.",
+    "stylist": "Trim ends every 3 months, shape with a few layers and avoid heat; moisture and a wide-tooth comb are key.",
+    "images": {
+      "model": "barbering-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long natural curls: loose long curls with the top 15-30 cm and the front at 10-20 cm, the sides 12-25 cm, the back 15-35 cm and the nape 15-30 cm, shaped with a few layers, no fade, a natural neckline and an optional part",
+    "sources": [
+      {
+        "url": "https://bosshunting.com.au/style/grooming/best-long-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://manofmany.com/style/mens-hairstyles/curly-hairstyles-for-men",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-hush-cut",
+    "kind": "cut",
+    "name": "Korean hush cut, long",
+    "aliases": [
+      "long hush cut",
+      "Korean long layers",
+      "airy long layers"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          22,
+          34
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          16
+        ]
+      },
+      "sides": {
+        "cm": [
+          30,
+          46
+        ]
+      },
+      "back": {
+        "cm": [
+          42,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          42,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "none",
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "only loose 3A curls cut dry, with no razor, will work; for tighter curls see curly-face-frame-length"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see coily-length-preserving-layers"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "use fewer layers and keep the ends fuller"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "thinned ends lighten thick hair"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": "Keep the crown layers a little longer around a whorl so they do not stand up.",
+      "note": "Face pieces start at the chin, so a strong front cowlick changes how they fall. Check it before cutting."
+    },
+    "strand_note": "Fine to medium strands move well with thinned ends. Coarse strands can frizz at the ends, so cut those with scissors.",
+    "density_note": "Thick hair gets lighter ends. Very fine hair needs fewer layers, or the hem looks thin.",
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "rare",
+      "products": [
+        "light cream",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The layers soften into plain long layers, with no clear line to grow out.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "light",
+        "long_layers",
+        "face_framing",
+        "chin_level"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "razor",
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        8,
+        12
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "air_dry_friendly",
+        "thick_hair_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Long layers that start at the chin, with light pieces curving in around the face and thinned, airy ends. The hair stays long but feels light and moves easily.",
+    "stylist": "Cut light layers from the chin down, with scissors or a light razor on straight or wavy hair. Curve the face pieces in at the jaw (about 20-26 cm) and keep the outline narrow through the lengths, not round. Thin the ends so they look see-through. If the shape turns round and bouncy, it has become a butterfly cut. Weight: light, feathered layers with a narrow outline and wispy ends.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long Korean hush cut: shoulder-blade length with light razored layers starting at the chin, the top 22-34 cm, the sides 30-46 cm and the back 42-58 cm, face pieces of about 20-26 cm curving in at the jaw, a centre-parted curtain fringe of 10-16 cm, a narrow outline through the lengths and thinned see-through ends, not a round bouncy butterfly shape",
+    "sources": [
+      {
+        "url": "https://www.bustle.com/style/hush-cut-korean-hairstyle",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.davines.com/blogs/news/hush-cut-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://therighthairstyles.com/hush-cut-hairstyles/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.associatedhairprofessionals.com/node/2033",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  },
+  {
+    "id": "long-sleek-face-frame",
+    "kind": "cut",
+    "name": "Long sleek cut with face pieces",
+    "aliases": [
+      "face-framed sleek cut",
+      "long blunt with face pieces"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          38,
+          55
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          40,
+          52
+        ]
+      },
+      "back": {
+        "cm": [
+          44,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          44,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "needs a smooth blow-dry to keep the hem sleek",
+        "daily": true
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "the face pieces spring up; see curly-face-frame-length"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see curly-face-frame-length"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "good"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "take weight out from inside so the blunt hem does not sit heavy"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the nape growth direction, because a blunt line shows it."
+    },
+    "strand_note": "Fine to medium strands look fuller with a blunt edge. Thick hair feels heavy without thinning inside.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "rare",
+      "products": [
+        "smoothing serum",
+        "light oil"
+      ]
+    },
+    "grow_out": "Needs only a dusting trim. The face pieces grow into plain long hair.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "full",
+      "perimeter": "blunt_sleek",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "face_framing"
+      ],
+      "silhouette": "one_length",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "low_maintenance",
+        "fine_hair_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Long hair with one clean, blunt edge and two to four shorter pieces around the face. It looks sleek and takes little work.",
+    "stylist": "Cut one blunt hem with shears, as a razor spoils the line, and add no inside layers. Cut two to four face pieces from the chin to the collarbone (about 22-32 cm). From behind it looks the same as a long one-length cut, so the face pieces are the only difference. Weight: one blunt weight line with a few face-framing pieces.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long sleek cut with face pieces: one blunt level hem at the shoulder blades, the top 38-55 cm, the sides 40-52 cm and the back 44-58 cm, no inside layers and no fringe, two to four shorter face pieces falling from the chin to the collarbone (about 22-32 cm), a smooth shiny finish",
+    "sources": [
+      {
+        "url": "https://creatrip.com/en/blog/13126",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://coveteur.com/winter-2026-haircut-trends",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  },
+  {
+    "id": "long-step-cut",
+    "kind": "cut",
+    "name": "Step cut",
+    "aliases": [
+      "long step layers",
+      "steps"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          22,
+          32
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          34,
+          48
+        ]
+      },
+      "back": {
+        "cm": [
+          44,
+          60
+        ]
+      },
+      "nape": {
+        "cm": [
+          44,
+          60
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "side_swept"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves blur the steps"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "the steps vanish into the curl"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "the steps vanish into the coil"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "poor",
+        "note": "each step needs enough hair; fine hair looks thin on the upper steps"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "thick hair shows the steps best"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Steps show a cowlick at the nape, so check the nape growth direction first."
+    },
+    "strand_note": "Thick strands show the steps best. Fine strands look thin on the upper steps.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "weekly",
+      "products": [
+        "smoothing serum",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The steps lose their edge in about 2 to 3 months and blur into long layers.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "medium",
+        "long_layers"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "thick_hair_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Long hair cut in three or four clear steps down the back. The steps give shape and movement, and they show most on thick hair.",
+    "stylist": "Cut three or four horizontal tiers down the back, about 8-12 cm apart, and leave them visible instead of blending them out. Keep the longest tier at the shoulder blades or lower. Face pieces can flick out from the cheek. Weight: three or four clear horizontal tiers down the back.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long step cut: shoulder-blade length hair cut in three or four clearly visible horizontal steps down the back, about 8-12 cm apart, the top 22-32 cm, the sides 34-48 cm and the back 44-60 cm, no fringe, optional face pieces flicking out from the cheek, a smooth finish that shows each step",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  },
+  {
+    "id": "long-curls-light-layers",
+    "kind": "cut",
+    "name": "Long curls, barely layered",
+    "aliases": [
+      "length-keeping curl cut",
+      "springy curl cut",
+      "light-layer curls"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          44,
+          60
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          46,
+          62
+        ]
+      },
+      "back": {
+        "cm": [
+          48,
+          68
+        ]
+      },
+      "nape": {
+        "cm": [
+          48,
+          68
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "there is no curl to shape the cut around"
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "waves do not hold this shape"
+      },
+      "curly": {
+        "fit": "good",
+        "note": "tight 3C curls shrink most and land higher"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "4A needs more length, and the hair lands higher when dry"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "poor",
+        "note": "fine curls lose body with this much length and so few layers"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "take weight out from inside"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Curls spiral around whorls, so check the crown and nape before cutting."
+    },
+    "strand_note": "Medium to thick curls give the full, even shape. Fine curls fall flat at the ends.",
+    "density_note": "Thick hair: take weight out from inside so the shape does not turn into a triangle.",
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "curl-defining gel"
+      ]
+    },
+    "grow_out": "Grows out with no visible step. Trim the ends about every 3 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "light"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "low",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Long curls with very few layers and a full, even shape down to the ends. Dry, they land between the shoulders and the armpits.",
+    "stylist": "Cut dry, curl by curl, with very few layers so the mass stays full and even to the hem. Plan for 30-55% shrinkage: at a typical 35% the back lands at about 31-44 cm, from the shoulder to the armpit. On thick hair, take weight out from inside so the shape does not turn into a triangle. Weight: a full, even curl mass to the hem with barely any layers.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long curls with very few layers: defined curls that land between the shoulders and the armpits when dry, cut at 44-60 cm at the top, 46-62 cm at the sides and 48-68 cm at the back when stretched, a full even outline down to the hem, no visible layer steps and no fringe",
+    "sources": [
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.thezoereport.com/beauty/summer-2026-haircut-trends",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://patternbeauty.com/blogs/news/heres-the-secret-to-a-curly-hair-cut",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  },
+  {
+    "id": "long-coily-blunt-shape",
+    "kind": "cut",
+    "name": "Blunt-shaped coils, long when stretched",
+    "aliases": [
+      "shaped blunt coils",
+      "trim-and-shape",
+      "length-retention cut"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          46,
+          70
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          46,
+          70
+        ]
+      },
+      "back": {
+        "cm": [
+          46,
+          70
+        ]
+      },
+      "nape": {
+        "cm": [
+          46,
+          70
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "not recommended"
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "not recommended"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "looser curls do not hold an even blunt shape; see the Curly U-shape long layers"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine coils look sparse at the ends, so keep the density"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        50,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the nape and crown for whorls that shorten the cut."
+    },
+    "strand_note": "Dense coils hold the even hem. Very fine strands look sparse at the ends.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        20
+      ],
+      "trim_weeks": [
+        8,
+        16
+      ],
+      "heat": "rare",
+      "products": [
+        "leave-in conditioner",
+        "styling cream"
+      ]
+    },
+    "grow_out": "Grows out evenly because nothing is cut away. A dusting trim keeps the ends healthy.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "blunt",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "one_length",
+      "weight_removal": "low",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        20
+      ],
+      "trim_weeks": [
+        8,
+        16
+      ],
+      "tags": [
+        "low_maintenance",
+        "curly_first"
+      ]
+    },
+    "variants": [],
+    "client": "Natural coils shaped to one even edge. Pulled straight the hair is very long, but dry it lands between the jaw and the shoulders.",
+    "stylist": "Check the hem on stretched hair, in sections, and keep it blunt with the ends dusted. Use no layers. Plan for 50-70% shrinkage: the back lands at about 14-35 cm dry, from the jaw to the shoulder. Show it as a twist-out with the hem resting on the shoulders, never hanging to the shoulder blades. Weight: even weight to a blunt hem in an A-frame mass.",
+    "images": {
+      "shown_on": "Shown on 4A to 4B coils",
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "blunt-shaped coils: natural 4A to 4C coils with one even blunt hem that lands between the jaw and the shoulders when dry (46-70 cm when stretched), shown as a twist-out with the hem resting on the shoulders and never hanging to the shoulder blades, no layers, no fringe, full dense ends",
+    "sources": [
+      {
+        "url": "https://coveteur.com/winter-2026-haircut-trends",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.yahoo.com/beauty/which-curly-hair-cutting-method-is-right-for-you-185643855.html",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  },
+  {
+    "id": "hug-cut",
+    "kind": "cut",
+    "name": "Hug cut",
+    "aliases": [
+      "hug layers",
+      "C-shaped layers",
+      "long C-curve"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          28,
+          42
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          42,
+          58
+        ]
+      },
+      "back": {
+        "cm": [
+          34,
+          48
+        ]
+      },
+      "nape": {
+        "cm": [
+          34,
+          48
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": [
+        "curtain",
+        "wispy"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need a blow-dry or flat iron to bring the ends in",
+        "daily": true
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "the inward curve cannot be held by the cut alone"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "the inward curve cannot be held by the cut alone"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair loses weight in the layers, so keep them few"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "the layers lighten thick hair"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the nape and the front hairline so the front pieces fall evenly."
+    },
+    "strand_note": "Smooth, straight strands hold the curve best. Very coarse strands spring out.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "daily",
+      "products": [
+        "blow-dry lotion",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The curve relaxes after about 8 to 10 weeks and the cut becomes long layers.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "full",
+      "perimeter": "soft",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "long_layers",
+        "face_framing",
+        "chin_level"
+      ],
+      "silhouette": "long_layers",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "Long layers that start below the chin and curve in to hug the neck and shoulders. The front is longer than the back.",
+    "stylist": "Cut a long A-line with the front hem 8-10 cm longer than the back. Start C-shaped layers below the chin (about 24-30 cm) and curve them in, so the ends can wrap the neck. Half the curve comes from styling, so show it with a blow-dry or flat iron, or it reads as a long A-line cut. Weight: a long A-line hem with C-shaped layers that curve inward.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a hug cut: long C-shaped layers starting below the chin (about 24-30 cm) and curving inward to hug the neck and shoulders, the top 28-42 cm, the sides and front pieces 42-58 cm and the back 34-48 cm so the front hem is 8-10 cm longer than the back, ends turned in, no fringe",
+    "sources": [
+      {
+        "url": "https://therighthairstyles.com/hug-haircut-trend",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://creatrip.com/en/blog/13126",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  },
+  {
+    "id": "waist-length-one-length",
+    "kind": "cut",
+    "name": "Waist-length one-length",
+    "aliases": [
+      "Rapunzel cut",
+      "waist-length blunt"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          62,
+          80
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          60,
+          78
+        ]
+      },
+      "back": {
+        "cm": [
+          66,
+          85
+        ]
+      },
+      "nape": {
+        "cm": [
+          66,
+          85
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "waist"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves shrink up, so allow extra length"
+      },
+      "curly": {
+        "fit": "poor",
+        "note": "curls shrink too much to reach the waist"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "coils shrink too much to reach the waist"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "poor",
+        "note": "the ends look thin at this length"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "adapt",
+        "note": "very thick hair is heavy at this length, so take weight out from inside"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Check the nape growth direction, because a long blunt line shows it. Reaching this length takes a long time."
+    },
+    "strand_note": "Strong, thick strands hold the hem best. Fine strands go thin at the ends.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        12,
+        16
+      ],
+      "heat": "rare",
+      "products": [
+        "smoothing serum",
+        "light oil"
+      ]
+    },
+    "grow_out": "Needs only dusting trims, every 12 to 16 weeks, to keep the ends healthy.",
+    "era": "classic",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "full",
+      "perimeter": "blunt_sleek",
+      "part": "centre",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "one_length",
+      "weight_removal": "low",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        10,
+        15
+      ],
+      "trim_weeks": [
+        12,
+        16
+      ],
+      "tags": [
+        "low_maintenance"
+      ]
+    },
+    "variants": [],
+    "client": "Hair cut to one clean edge at the waist. It is very long, so it needs a long grow-out and careful care.",
+    "stylist": "Cut one blunt hem at the waist, with no layers. Hip length is the same cut with more hair. Check the hem with the client standing and the hair brushed straight. Weight: one blunt weight line at the waist.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a waist-length one-length cut: one blunt level hem at the waist, the top 62-80 cm, the sides 60-78 cm and the back 66-85 cm, no layers and no fringe, a smooth, healthy finish",
+    "sources": [],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  },
+  {
+    "id": "long-shaved-side",
+    "kind": "cut",
+    "name": "Long hair with a shaved side",
+    "aliases": [
+      "side undercut",
+      "half-shaved long hair"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          30,
+          55
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          40,
+          50
+        ]
+      },
+      "back": {
+        "cm": [
+          42,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          42,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": {
+      "kind": "undercut",
+      "height": null,
+      "start_mm": 3,
+      "note": "Clip one side to 3-15 mm in a band 4-8 cm high above the ear. Leave a clear step to the longer hair."
+    },
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "the long side shrinks as it dries; see Long curls with a tapered side"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "the long side shrinks as it dries; see Long curls with a tapered side"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "the long side has less hair to cover the line"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "removes bulk on one side"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": "A whorl above the ear can pull the clipper line out of place, so mark the line first.",
+      "note": "The shaved side shows when the hair is tied back, so check any work rule on hair first."
+    },
+    "strand_note": "Every strand type works. Coarse strands stand away from the clipped line, so keep the step clean.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "rare",
+      "products": [
+        "smoothing serum",
+        "heat protectant"
+      ]
+    },
+    "grow_out": "The clipped side takes several months to grow level with the rest.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "deep_side",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "one_length",
+      "weight_removal": "high",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "thick_hair_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Long hair with one side clipped short above the ear, in a clear band with a clear step to the longer hair. The rest keeps its full length.",
+    "stylist": "Clip one side from just above the ear in a band 4-8 cm high, to about 3-15 mm, with a clear step to the long hair. Keep the length elsewhere: top 30-55 cm, long side 40-50 cm, back 42-58 cm. The side view must show the shaved side. Mark the line before clipping. Weight: full length kept, with a visible clipper band on one side.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long hair with a shaved side: shoulder-blade length hair with the top 30-55 cm, the long side 40-50 cm and the back 42-58 cm, and one side clipped short (3-15 mm) in a band 4-8 cm high above the ear with a clear step to the longer hair, the clipped side clearly visible in the side view",
+    "sources": [
+      {
+        "url": "https://studio.salonory.com/education/how-to-do-an-undercut/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  },
+  {
+    "id": "long-curls-tapered-side",
+    "kind": "cut",
+    "name": "Long curls with a tapered side",
+    "aliases": [
+      "curly side taper",
+      "curly side shave"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "long",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          34,
+          54
+        ]
+      },
+      "fringe": null,
+      "sides": {
+        "cm": [
+          42,
+          60
+        ]
+      },
+      "back": {
+        "cm": [
+          48,
+          66
+        ]
+      },
+      "nape": {
+        "cm": [
+          48,
+          66
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": {
+      "kind": "taper",
+      "height": null,
+      "start_mm": 5,
+      "note": "Taper one side in a band 5-8 cm high. It goes from about 5 mm at the ear to about 20 mm at the top. Blend it into the curls above."
+    },
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "none",
+      "landmark": null,
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor",
+        "note": "there is no curl to shape the cut around"
+      },
+      "wavy": {
+        "fit": "poor",
+        "note": "waves do not hold this shape"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "3C curls work best; looser curls show the taper less clearly"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "the long side has less hair to cover the taper"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good",
+        "note": "removes bulk on one side"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": "A whorl above the ear can pull the taper out of place, so mark the line first.",
+      "note": "The tapered side shows when the hair is tied back, so check any work rule on hair first."
+    },
+    "strand_note": "Medium to thick curls cover the taper best. Fine curls leave it showing.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "curl-defining gel"
+      ]
+    },
+    "grow_out": "The tapered side takes several months to grow level with the curls.",
+    "era": "niche",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "low",
+      "volume_zone": [
+        "ends"
+      ],
+      "sides_width": "medium",
+      "perimeter": "soft",
+      "part": "none",
+      "fringe": "none",
+      "layers": [
+        "none"
+      ],
+      "silhouette": "one_length",
+      "weight_removal": "high",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": false,
+      "tie_back": true,
+      "covers_forehead": false,
+      "covers_ears": false,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        3,
+        4
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Long curls with one side tapered short above the ear. Dry, the long curls land between the shoulders and the armpits.",
+    "stylist": "Taper one side from just above the ear in a band 5-8 cm high, from about 5 mm at the ear to about 20 mm at the top, and blend it into the curls above. Cut the long side dry, curl by curl. Plan for 30-55% shrinkage (coils more): at a typical 35% the back lands at about 31-43 cm. The side view must show the tapered side. Weight: full long curls with a visible tapered side.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "long curls with a tapered side: defined curls that land between the shoulders and the armpits when dry (48-66 cm at the back when stretched), the top 34-54 cm and the long side 42-60 cm stretched, and one side tapered short (5-20 mm) in a band 5-8 cm high above the ear, the tapered side clearly visible in the side view",
+    "sources": [
+      {
+        "url": "https://studio.salonory.com/education/how-to-do-an-undercut/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "Women's styles list: stylist and."
+    }
+  }
+]

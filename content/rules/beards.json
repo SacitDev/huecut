@@ -1,0 +1,491 @@
+[
+  {
+    "id": "c10-beard",
+    "group": "C",
+    "when": {
+      "life.hair_covered_at_work": {
+        "is": true
+      }
+    },
+    "from": "c10",
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "beard_length": {
+        "in": [
+          "stubble",
+          "short"
+        ]
+      }
+    },
+    "because": "If your work asks for hair to be covered, short facial hair is easiest to keep neat under a beard cover.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.fda.gov/food/retail-food-protection/fda-food-code"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "d02",
+    "group": "D",
+    "when": {
+      "beard.style": {
+        "in": [
+          "short",
+          "medium",
+          "full"
+        ]
+      },
+      "wish.face_length": {
+        "is": "soften"
+      }
+    },
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "beard_shape": {
+        "is": "fuller_sides"
+      }
+    },
+    "because": "You would like fullness at the sides, so a beard kept fuller at the sides and shorter at the chin goes with it.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.fashionbeans.com/article/right-beard-for-your-face-shape/",
+      "https://noah.com.au/blogs/the-grooming-guide/the-best-beard-styles-and-how-to-choose-one-that-suits-your-face"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10"
+    }
+  },
+  {
+    "id": "d02-b",
+    "group": "D",
+    "when": {
+      "beard.style": {
+        "in": [
+          "short",
+          "medium",
+          "full"
+        ]
+      },
+      "wish.face_length": {
+        "is": "soften"
+      }
+    },
+    "from": "d02",
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "beard_length": {
+        "in": [
+          "stubble",
+          "short"
+        ]
+      },
+      "beard_shape": {
+        "not": [
+          "none",
+          "goatee",
+          "moustache_only"
+        ]
+      }
+    },
+    "because": "You would like to soften the length of your face, so a beard kept short at the chin helps.",
+    "evidence": "single_source",
+    "sources": [
+      "https://www.fashionbeans.com/article/right-beard-for-your-face-shape/",
+      "https://noah.com.au/blogs/the-grooming-guide/the-best-beard-styles-and-how-to-choose-one-that-suits-your-face"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "The stated wish controls the rule."
+    }
+  },
+  {
+    "id": "d03",
+    "group": "D",
+    "when": {
+      "beard.style": {
+        "in": [
+          "short",
+          "medium",
+          "full"
+        ]
+      },
+      "wish.face_width": {
+        "is": "soften"
+      }
+    },
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "beard_shape": {
+        "in": [
+          "short_sides",
+          "fuller_chin",
+          "pointed_chin",
+          "ducktail"
+        ]
+      }
+    },
+    "because": "You would like more height and closer sides. A beard kept close at the sides and a little longer at the chin goes with that.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.fashionbeans.com/article/right-beard-for-your-face-shape/",
+      "https://manofmany.com/style/hairstyles-grooming/best-beard-styles-men",
+      "https://noah.com.au/blogs/the-grooming-guide/the-best-beard-styles-and-how-to-choose-one-that-suits-your-face"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10"
+    }
+  },
+  {
+    "id": "d03-b",
+    "group": "D",
+    "when": {
+      "beard.style": {
+        "in": [
+          "short",
+          "medium",
+          "full"
+        ]
+      },
+      "wish.face_width": {
+        "is": "soften"
+      }
+    },
+    "from": "d03",
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "cheek_line": {
+        "is": "natural"
+      },
+      "beard_shape": {
+        "not": [
+          "none",
+          "goatee",
+          "moustache_only"
+        ]
+      }
+    },
+    "because": "You would like to soften width, so a natural cheek line avoids a hard straight edge across the cheeks.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.fashionbeans.com/article/right-beard-for-your-face-shape/",
+      "https://manofmany.com/style/hairstyles-grooming/best-beard-styles-men",
+      "https://noah.com.au/blogs/the-grooming-guide/the-best-beard-styles-and-how-to-choose-one-that-suits-your-face"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-10",
+      "note": "The stated wish controls the rule."
+    }
+  },
+  {
+    "id": "d04",
+    "group": "D",
+    "when": {
+      "beard.style": {
+        "in": [
+          "stubble",
+          "short",
+          "medium"
+        ]
+      },
+      "wish.jaw": {
+        "is": "emphasise"
+      }
+    },
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "beard_shape": {
+        "is": "short_along_jaw"
+      }
+    },
+    "because": "You want your jaw line to show, so keeping the beard short and well-defined along it makes the most of it.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.fashionbeans.com/article/right-beard-for-your-face-shape/",
+      "https://manofmany.com/style/hairstyles-grooming/best-beard-styles-men"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "design note: on = the favour alternatives; the disfavour list dropped; strength dropped (notes carry none)"
+    }
+  },
+  {
+    "id": "d04-b",
+    "group": "D",
+    "when": {
+      "beard.style": {
+        "in": [
+          "stubble",
+          "short",
+          "medium"
+        ]
+      },
+      "wish.jaw": {
+        "is": "emphasise"
+      }
+    },
+    "from": "d04",
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "cheek_line": {
+        "is": "sharp"
+      }
+    },
+    "because": "You want your jaw line to show, so a crisp cheek line gives the beard a clean edge that frames it.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://www.fashionbeans.com/article/right-beard-for-your-face-shape/",
+      "https://manofmany.com/style/hairstyles-grooming/best-beard-styles-men"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "d06",
+    "group": "D",
+    "when": {
+      "face.jaw_vs_cheek": {
+        "is": "narrower"
+      },
+      "beard.style": {
+        "in": [
+          "stubble",
+          "short",
+          "medium",
+          "full"
+        ]
+      },
+      "wish.overall_balance": {
+        "is": "soften"
+      }
+    },
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "beard_shape": {
+        "in": [
+          "fuller_chin",
+          "full_rounded"
+        ]
+      }
+    },
+    "because": "You would like to balance your face, so a fuller beard at the chin can add width to the lower half.",
+    "evidence": "single_source",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design",
+      "https://www.fashionbeans.com/article/right-beard-for-your-face-shape/"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09",
+      "note": "design note: on = the favour alternatives; the disfavour list dropped; strength dropped (notes carry none)"
+    }
+  },
+  {
+    "id": "d07",
+    "group": "D",
+    "when": {
+      "beard.density": {
+        "is": "patchy"
+      }
+    },
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "beard_length": {
+        "in": [
+          "stubble",
+          "short"
+        ]
+      }
+    },
+    "because": "With uneven growth, a short beard that follows your natural lines looks neat and is easy to keep.",
+    "evidence": "single_source",
+    "sources": [
+      "https://cremocompany.com/blog/how-to-shape-and-style-a-beard",
+      "https://open-exam-prep.com/study-guides/az-barber/haircutting-styling-techniques/mustache-beard-design-trimming"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    },
+    "suppresses": [
+      "d03",
+      "d03-b"
+    ]
+  },
+  {
+    "id": "d07-b",
+    "group": "D",
+    "when": {
+      "beard.density": {
+        "is": "patchy"
+      }
+    },
+    "from": "d07",
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "cheek_line": {
+        "is": "natural"
+      },
+      "beard_shape": {
+        "not": [
+          "none",
+          "goatee",
+          "moustache_only"
+        ]
+      }
+    },
+    "because": "With uneven growth, a natural cheek line looks neater than a sharp one.",
+    "evidence": "single_source",
+    "sources": [
+      "https://cremocompany.com/blog/how-to-shape-and-style-a-beard",
+      "https://open-exam-prep.com/study-guides/az-barber/haircutting-styling-techniques/mustache-beard-design-trimming"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    },
+    "suppresses": [
+      "d03",
+      "d03-b"
+    ]
+  },
+  {
+    "id": "d08",
+    "group": "D",
+    "when": {
+      "beard.style": {
+        "in": [
+          "short",
+          "medium",
+          "full"
+        ]
+      }
+    },
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "neckline": {
+        "is": "two_fingers"
+      }
+    },
+    "because": "A neckline about two fingers above the Adam's apple keeps the beard tidy and the jaw line clear.",
+    "evidence": "trade_consensus",
+    "sources": [
+      "https://open-exam-prep.com/study-guides/az-barber/haircutting-styling-techniques/mustache-beard-design-trimming",
+      "https://cremocompany.com/blog/how-to-shape-and-style-a-beard",
+      "https://open-exam-prep.com/study-guides/pa-barber/ch05-haircutting-techniques/head-shapes-facial-proportions-hair-design"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "d20",
+    "group": "D",
+    "when": {
+      "beard.texture": {
+        "in": [
+          "curly",
+          "coily"
+        ]
+      },
+      "beard.shave_close": {
+        "is": true
+      }
+    },
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "beard_length": {
+        "in": [
+          "stubble",
+          "short"
+        ]
+      },
+      "beard_shape": {
+        "is": "short_along_jaw"
+      }
+    },
+    "because": "Tightly curled hair can grow back into the skin after a very close shave. Leaving a little length is kinder to skin.",
+    "evidence": "research",
+    "sources": [
+      "https://dermnetnz.org/topics/pseudofolliculitis-barbae"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "d20-b",
+    "group": "D",
+    "when": {
+      "beard.texture": {
+        "in": [
+          "curly",
+          "coily"
+        ]
+      },
+      "beard.shave_close": {
+        "is": true
+      }
+    },
+    "from": "d20",
+    "target": "beard",
+    "effect": "note",
+    "note": "design",
+    "on": {
+      "cheek_line": {
+        "is": "natural"
+      },
+      "beard_shape": {
+        "not": [
+          "none",
+          "goatee",
+          "moustache_only"
+        ]
+      }
+    },
+    "because": "Tightly curled hair can grow back into the skin after close shaving. A natural cheek line, not razor-edged, is kinder to skin.",
+    "evidence": "research",
+    "sources": [
+      "https://dermnetnz.org/topics/pseudofolliculitis-barbae"
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

@@ -1,0 +1,572 @@
+[
+  {
+    "id": "midi-butterfly",
+    "kind": "cut",
+    "name": "Shoulder-length butterfly cut",
+    "aliases": [
+      "butterfly layers",
+      "midi butterfly"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "butterfly",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          16,
+          28
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          15
+        ]
+      },
+      "sides": {
+        "cm": [
+          26,
+          34
+        ]
+      },
+      "back": {
+        "cm": [
+          30,
+          37
+        ]
+      },
+      "nape": {
+        "cm": [
+          30,
+          37
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry on loose waves; keep the upper tier longer"
+      },
+      "coily": {
+        "fit": "poor",
+        "note": "see curly-butterfly"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair loses density from the lower tier, so keep it blunt"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Crown layers highlight any cowlick, so choose the upper tier length with the whorl in mind."
+    },
+    "strand_note": "Fine to medium strands gain from the added movement. Thick strands need less cutting in the upper tier.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        15,
+        20
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "heat": "daily",
+      "products": [
+        "blow-dry lotion",
+        "volumising mousse"
+      ]
+    },
+    "grow_out": "Grows into a long layered cut without a clear grow-out line.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "full",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "medium",
+        "long_layers",
+        "chin_level"
+      ],
+      "silhouette": "butterfly",
+      "weight_removal": "medium",
+      "cut_method": [],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        15,
+        20
+      ],
+      "trim_weeks": [
+        8,
+        10
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A layered cut with short, bouncy pieces around the face and longer lengths beneath.",
+    "stylist": "Create a shorter upper layer from the crown to the cheekbones using elevated cutting, keep the lower layer long and link the two tiers without a visible step. Weight: two tiers of layers: a short upper tier around the crown and face, a long lower tier.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a shoulder-length butterfly cut: two tiers at shoulder length, a shorter bouncy upper tier of 16-28 cm from the crown around the face and a long lower tier at 30-37 cm in the back, with a curtain fringe of 10-15 cm falling to the cheekbones",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/butterfly-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.davines.com/blogs/news/butterfly-haircut",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "long-butterfly",
+    "kind": "cut",
+    "name": "Long butterfly cut",
+    "aliases": [
+      "butterfly haircut",
+      "butterfly layers",
+      "soft butterfly"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "butterfly",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          22,
+          35
+        ]
+      },
+      "fringe": {
+        "cm": [
+          10,
+          16
+        ]
+      },
+      "sides": {
+        "cm": [
+          36,
+          50
+        ]
+      },
+      "back": {
+        "cm": [
+          40,
+          58
+        ]
+      },
+      "nape": {
+        "cm": [
+          40,
+          58
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder_blade"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": []
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "good"
+      },
+      "wavy": {
+        "fit": "good"
+      },
+      "curly": {
+        "fit": "adapt",
+        "note": "cut dry and keep the upper tier longer"
+      },
+      "coily": {
+        "fit": "adapt",
+        "note": "keep the lower tier unchanged and shape the upper tier as in Curly butterfly"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine hair loses density in the lower tier, so keep it blunt"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": null,
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "Crown layers reveal a cowlick, so choose the upper tier length around the whorl."
+    },
+    "strand_note": "Fine to medium strands move well; thick strands need only a light upper tier.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        15,
+        25
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "daily",
+      "products": [
+        "blow-dry lotion",
+        "volumising mousse"
+      ]
+    },
+    "grow_out": "Grows out as long layers, with a visible upper tier for about 3 months.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "full",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "medium",
+        "long_layers",
+        "chin_level"
+      ],
+      "silhouette": "butterfly",
+      "weight_removal": "medium",
+      "cut_method": [
+        "point_cut"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "low",
+      "tension": "none",
+      "heat_dependent": true,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        15,
+        25
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "needs_blow_out"
+      ]
+    },
+    "variants": [],
+    "client": "A long layered cut with short bouncy pieces around the face and a long bottom layer.",
+    "stylist": "Cut a short upper tier from the crown to the cheekbone using elevated cutting, with the lower length kept long, blending the join with point cutting. Weight: short upper tier from crown to cheek, long lower tier at the perimeter.",
+    "images": {
+      "model": "salon-straight-wavy",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a long butterfly cut: shoulder-blade length with a shorter bouncy upper tier of 22-35 cm from the crown to the cheekbone, a long lower tier at the back of 40-58 cm, and a curtain fringe of 10-16 cm, the join blended softly",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/butterfly-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.davines.com/blogs/news/butterfly-haircut",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "curly-butterfly",
+    "kind": "cut",
+    "name": "Curly butterfly",
+    "aliases": [
+      "butterfly curls",
+      "curly layered face-frame"
+    ],
+    "collections": [
+      "salon"
+    ],
+    "family": "butterfly",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": {
+        "cm": [
+          14,
+          26
+        ]
+      },
+      "fringe": {
+        "cm": [
+          12,
+          20
+        ]
+      },
+      "sides": {
+        "cm": [
+          30,
+          44
+        ]
+      },
+      "back": {
+        "cm": [
+          38,
+          52
+        ]
+      },
+      "nape": {
+        "cm": [
+          38,
+          52
+        ]
+      }
+    },
+    "perimeter": {
+      "landmark": "shoulder"
+    },
+    "fade": null,
+    "neckline": null,
+    "sideburns": null,
+    "fringe": {
+      "kind": "curtain",
+      "landmark": "cheekbone",
+      "options": [
+        "curly"
+      ]
+    },
+    "texture_fit": {
+      "straight": {
+        "fit": "poor"
+      },
+      "wavy": {
+        "fit": "adapt",
+        "note": "waves need styling"
+      },
+      "curly": {
+        "fit": "good"
+      },
+      "coily": {
+        "fit": "good"
+      }
+    },
+    "density_fit": {
+      "low": {
+        "fit": "adapt",
+        "note": "fine curls lose density, so layer lightly"
+      },
+      "medium": {
+        "fit": "good"
+      },
+      "high": {
+        "fit": "good"
+      }
+    },
+    "shrinkage": {
+      "curly_pct": [
+        30,
+        55
+      ],
+      "coily_pct": [
+        45,
+        70
+      ]
+    },
+    "growth": {
+      "recession_stage_max": null,
+      "whorl_note": null,
+      "note": "The upper tier sits on the crown and highlights whorls, so lengthen the layers around them."
+    },
+    "strand_note": "Medium to thick curls hold the two tiers; fine curls need the lower tier left fuller.",
+    "density_note": null,
+    "glasses_note": null,
+    "upkeep": {
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "heat": "none",
+      "products": [
+        "curl cream",
+        "curl-defining gel"
+      ]
+    },
+    "grow_out": "The upper tier lengthens into long curly layers over about 3 months, with the two tiers merging without a visible step.",
+    "era": "current",
+    "pairs_with": {
+      "beards": [],
+      "looks": []
+    },
+    "traits": {
+      "height_top": "medium",
+      "volume_zone": [
+        "crown"
+      ],
+      "sides_width": "full",
+      "perimeter": "graduated",
+      "part": "centre",
+      "fringe": "curtain",
+      "layers": [
+        "medium",
+        "long_layers",
+        "chin_level"
+      ],
+      "silhouette": "butterfly",
+      "weight_removal": "medium",
+      "cut_method": [
+        "dry_shaped"
+      ],
+      "nape_style": "natural",
+      "shrinkage_risk": "high",
+      "tension": "none",
+      "heat_dependent": false,
+      "grow_out_friendly": true,
+      "tie_back": true,
+      "covers_forehead": true,
+      "covers_ears": true,
+      "tucked_behind_ear": false,
+      "beard_blend": false,
+      "lineup": false,
+      "styling_minutes": [
+        5,
+        10
+      ],
+      "trim_weeks": [
+        10,
+        12
+      ],
+      "tags": [
+        "curly_first",
+        "air_dry_friendly"
+      ]
+    },
+    "variants": [],
+    "client": "Curls that land at the shoulders when dry, with a shorter, bouncy layer around the face and crown for volume. Pulled straight, they reach the shoulder blades.",
+    "stylist": "Cut the shorter upper tier dry from crown to cheekbone, curl by curl, leaving it 2-3 cm longer than the final length, then blend it into the long lower tier. Weight: short upper tier of curls around the crown and face with a long lower tier. Tight coils shrink more and land nearer the collarbone.",
+    "images": {
+      "model": "salon-curly-coily",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "prompt_spec": "a curly butterfly cut: defined curls that land at the shoulders when dry, with a shorter bouncy upper tier of 14-26 cm stretched around the crown and face, a curly curtain fringe of 12-20 cm stretched at the cheekbones, and a longer lower tier of 38-52 cm stretched",
+    "sources": [
+      {
+        "url": "https://www.johnfrieda.com/en-uk/blog/hairstyles/butterfly-cuts/",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://us.davines.com/blogs/news/butterfly-haircut",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.purewow.com/beauty/best-haircuts-for-curly-hair",
+        "supports": "the style exists and how it is generally described",
+        "level": "single_source"
+      }
+    ],
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

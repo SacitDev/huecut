@@ -1,0 +1,33 @@
+/* A copy button with its hint and live line, and the prompt box shown when the browser refuses to copy. */
+
+.copy {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-xs);
+  inline-size: 100%;
+}
+
+.small {
+  color: var(--text-2);
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+}
+
+.label {
+  display: grid;
+  gap: var(--space-2xs);
+  inline-size: 100%;
+  font-weight: var(--weight-h3);
+}
+
+/* The prompt when the browser refuses to copy: selected, to copy by hand. */
+.box {
+  inline-size: 100%;
+  padding: var(--space-s);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-panel);
+  background-color: var(--sunken);
+  color: var(--text);
+  font: inherit;
+  font-weight: var(--weight-body);
+}

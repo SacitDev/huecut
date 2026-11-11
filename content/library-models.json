@@ -1,0 +1,58 @@
+[
+  {
+    "id": "salon-straight-wavy",
+    "collection": "salon",
+    "hair_group": "straight_wavy",
+    "label": "Straight to wavy hair",
+    "shown_on": "Shown on straight to wavy hair",
+    "base_pictures": {
+      "front": "salon-straight-wavy/model-base-front",
+      "side": "salon-straight-wavy/model-base-side",
+      "back": "salon-straight-wavy/model-base-back"
+    },
+    "example": "examples/salon-straight-wavy.json",
+    "licence": "same as the repository"
+  },
+  {
+    "id": "salon-curly-coily",
+    "collection": "salon",
+    "hair_group": "curly_coily",
+    "label": "Curly to coily hair",
+    "shown_on": "Shown on 3C to 4A curls and coils",
+    "base_pictures": {
+      "front": "salon-curly-coily/model-base-front",
+      "side": "salon-curly-coily/model-base-side",
+      "back": "salon-curly-coily/model-base-back"
+    },
+    "example": "examples/salon-curly-coily.json",
+    "licence": "same as the repository"
+  },
+  {
+    "id": "barbering-straight-wavy",
+    "collection": "barbering",
+    "hair_group": "straight_wavy",
+    "label": "Straight to wavy hair",
+    "shown_on": "Shown on straight to wavy hair",
+    "base_pictures": {
+      "front": "barbering-straight-wavy/model-base-front",
+      "side": "barbering-straight-wavy/model-base-side",
+      "back": "barbering-straight-wavy/model-base-back"
+    },
+    "example": "examples/barbering-straight-wavy.json",
+    "licence": "same as the repository"
+  },
+  {
+    "id": "barbering-curly-coily",
+    "collection": "barbering",
+    "hair_group": "curly_coily",
+    "label": "Curly to coily hair",
+    "shown_on": "Shown on 3C to 4A curls and coils",
+    "base_pictures": {
+      "front": "barbering-curly-coily/model-base-front",
+      "side": "barbering-curly-coily/model-base-side",
+      "back": "barbering-curly-coily/model-base-back"
+    },
+    "example": "examples/barbering-curly-coily.json",
+    "licence": "same as the repository"
+  }
+]

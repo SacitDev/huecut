@@ -1,0 +1,189 @@
+/*
+ * Base element styles on the tokens: box model, the type roles, links, the focus ring
+ * and global utilities. Values come from tokens.css; the only literals are window-class breakpoints (a custom
+ * property cannot be used in a media query) and the 1 px of the visually-hidden technique.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  text-size-adjust: 100%;
+  scrollbar-gutter: stable;
+}
+
+/* The page behind a modal sheet does not scroll. */
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+
+/* The bottom tab bar must not hide the focused element (WCAG 2.4.11), on the classes that show it. */
+@media (width < 600px), (width < 840px) and (orientation: portrait) {
+  html {
+    scroll-padding-block-end: calc(var(--tabbar-h) + var(--border-line) + env(safe-area-inset-bottom));
+  }
+}
+
+body {
+  margin: 0;
+  min-block-size: 100dvh;
+  background-color: var(--ground);
+  color: var(--text);
+  font-family: var(--font-text);
+  font-size: var(--text-body);
+  font-weight: var(--weight-body);
+  line-height: var(--lh-body);
+  /* A word longer than its line breaks rather than pushing the page sideways. */
+  overflow-wrap: break-word;
+}
+
+/*
+ * Latvian words run long: on a phone, running text (paragraphs and list items, not inside a control) may break a word at a
+ * hyphenation point the browser knows, but only a word of eight letters or more, four each side. Headings, buttons, links, labels,
+ * chips and tabs keep their words whole, and so does everything on a wider screen. Zero specificity, so a component can opt out.
+ */
+@media (width < 30rem) {
+  :where(:lang(lv) :is(p, li, dd):not(a *, button *, label *, summary *, legend *, [role='tab'] *)) {
+    hyphens: auto;
+    hyphenate-limit-chars: 8 4 4;
+  }
+
+  :where(:lang(lv) :is(a, button)) {
+    hyphens: manual;
+  }
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p,
+li,
+dd {
+  text-wrap: pretty;
+}
+
+h1,
+.t-h1 {
+  font-family: var(--font-display);
+  font-size: var(--text-h1);
+  font-weight: var(--weight-h1);
+  font-stretch: var(--wdth-h1);
+  line-height: var(--lh-h1);
+}
+
+h2,
+.t-h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  font-weight: var(--weight-h2);
+  font-stretch: var(--wdth-h2);
+  line-height: var(--lh-h2);
+}
+
+h3,
+.t-h3 {
+  font-family: var(--font-text);
+  font-size: var(--text-h3);
+  font-weight: var(--weight-h3);
+  line-height: var(--lh-h3);
+}
+
+.t-display {
+  font-family: var(--font-display);
+  font-size: var(--text-display);
+  font-weight: var(--weight-display);
+  font-stretch: var(--wdth-display);
+  letter-spacing: var(--tracking-display);
+  line-height: var(--lh-display);
+}
+
+.t-body-lg {
+  font-size: var(--text-body-lg);
+}
+
+.t-small {
+  font-size: var(--text-small);
+  font-weight: var(--weight-small);
+  line-height: var(--lh-small);
+}
+
+/* Measurements use the text font with tabular figures, never monospace. */
+.t-tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+img,
+svg,
+video,
+canvas {
+  display: block;
+  max-inline-size: 100%;
+}
+
+img {
+  block-size: auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-line: underline;
+  text-decoration-thickness: var(--underline-thin);
+  text-underline-offset: var(--underline-offset);
+}
+
+a:hover {
+  text-decoration-thickness: var(--underline-thick);
+}
+
+/* A 2 px focus ring with a 2 px offset on every focusable element, never removed. */
+:focus-visible {
+  outline: var(--focus-width) solid var(--focus);
+  outline-offset: var(--focus-offset);
+}
+
+/* On photos, a double ring: an inner ring in --focus-inner fills the offset, so one of the two always shows. */
+[data-focus='photo']:focus-visible {
+  box-shadow: 0 0 0 var(--focus-offset) var(--focus-inner);
+}
+
+/* Programmatic focus targets (the heading after a route change) take focus without a ring. */
+[tabindex='-1']:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}

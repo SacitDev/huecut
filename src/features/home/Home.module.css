@@ -1,0 +1,855 @@
+/*
+ * Home. The default rules are the whole page standing still, readable, in order. Everything that
+ * moves is at the end, inside one @supports and one reduced-motion test, on CSS scroll timelines: no script, nothing added to the load.
+ * Each panel is one solid colour with a photograph taking the other half of it, hard-edged and full height, so type and faces
+ * never share space. A panel names the colours its buttons and text use, so it looks the same in the light and dark themes.
+ */
+
+.home {
+  container-type: inline-size;
+  margin-inline: calc(-1 * var(--page-margin));
+  overflow-x: clip;
+  isolation: isolate;
+}
+
+/* ── Standing still ── */
+
+.panel {
+  position: relative;
+  display: grid;
+  gap: var(--space-xl);
+  padding: var(--space-2xl) var(--page-margin);
+  border-start-start-radius: var(--radius-sheet);
+  border-start-end-radius: var(--radius-sheet);
+  overflow: clip;
+  color: var(--text);
+}
+
+.cream {
+  --text: var(--on-studio);
+  --text-2: var(--on-studio-2);
+  --primary: var(--on-studio);
+  --on-primary: var(--cream);
+  --accent: var(--on-studio);
+  --focus-inner: var(--cream);
+  background-color: var(--cream);
+}
+
+.ink {
+  --text: var(--on-night);
+  --text-2: var(--on-night-2);
+  --primary: var(--rose-panel);
+  --on-primary: var(--on-studio);
+  --accent: var(--rose-panel);
+  --line: var(--on-night-2);
+  background-color: var(--night);
+}
+
+.rose {
+  --text: var(--on-studio);
+  --text-2: var(--on-studio-2);
+  --primary: var(--on-studio);
+  --on-primary: var(--cream);
+  --accent: var(--on-studio);
+  --focus-inner: var(--cream);
+  --shadow-float: var(--studio-shadow);
+  background-color: var(--rose-panel);
+}
+
+.copy {
+  display: grid;
+  align-content: start;
+  gap: var(--space-m);
+}
+
+.promise,
+.bigTitle {
+  text-wrap: balance;
+}
+
+.promiseLine,
+.promiseLine > span {
+  display: block;
+}
+
+.intro,
+.expectations {
+  max-inline-size: var(--measure);
+}
+
+.expectations {
+  color: var(--text-2);
+}
+
+.ways {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-s);
+}
+
+.ways[data-reading='true'] {
+  visibility: hidden;
+}
+
+.figure {
+  position: relative;
+  inline-size: min(100%, var(--mirrors-max));
+  aspect-ratio: 3 / 4;
+  justify-self: center;
+  overflow: clip;
+}
+
+.figure img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  object-position: 50% 15%;
+}
+
+.shot {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.shot:first-child {
+  opacity: 1;
+}
+
+.restNames,
+.cue {
+  display: none;
+}
+
+.zoom {
+  position: relative;
+  block-size: 100%;
+}
+
+.figure .shotOn {
+  display: block;
+  object-position: 50% 50%;
+}
+
+/* The app's own light line over a photograph. */
+.lines {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  fill: none;
+  stroke: var(--cream);
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.points,
+.cards,
+.closingRow,
+.wallRow {
+  display: grid;
+  gap: var(--space-s);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.point {
+  max-inline-size: var(--measure);
+}
+
+.card {
+  max-inline-size: var(--card-idea);
+  padding: var(--space-m);
+  border-radius: var(--radius-panel);
+  background-color: var(--cream);
+  box-shadow: var(--shadow-float);
+}
+
+.card p {
+  margin: var(--space-2xs) 0 0;
+  color: var(--text-2);
+}
+
+.cardTop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-xs);
+}
+
+.cardLabel {
+  padding: var(--space-2xs) var(--space-s);
+  border-radius: var(--radius-pill);
+  background-color: var(--on-studio);
+  color: var(--cream);
+  font-size: var(--text-small);
+  font-weight: var(--weight-button);
+}
+
+.wallHead {
+  display: grid;
+  gap: var(--space-m);
+  justify-items: start;
+}
+
+.wallRow {
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+}
+
+.tile {
+  display: grid;
+  gap: var(--space-xs);
+  align-content: start;
+  font-weight: var(--weight-button);
+}
+
+.tile img {
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.closing {
+  gap: var(--space-l);
+}
+
+.closingTitle {
+  text-wrap: balance;
+}
+
+.closingMain {
+  display: grid;
+  gap: var(--space-l);
+  align-items: center;
+}
+
+.closingAct {
+  display: grid;
+  gap: var(--space-m);
+  justify-items: start;
+}
+
+.closingAct p {
+  margin: 0;
+  max-inline-size: var(--measure);
+}
+
+.closingRow {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--border-control);
+}
+
+.closingRow img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.fine {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2xs) var(--space-l);
+  padding-block-start: var(--space-m);
+  border-block-start: var(--border-line) solid var(--line);
+  color: var(--text-2);
+  font-size: var(--text-fine);
+}
+
+.fine p {
+  margin: 0;
+}
+
+.fine a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: var(--target-min);
+  color: var(--text);
+  font-weight: var(--weight-button);
+}
+
+@container (width >= 40rem) {
+  .panel:not(.wallPanel, .closing) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+  }
+
+  .closingMain {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  }
+}
+
+/* ── Moving ── */
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    :root:not([data-motion='reduce']) {
+      /* Each section is a tall track; its panel pins, then the next panel rises over it while this one sinks back. */
+      .track {
+        --share: 56;
+        position: relative;
+        block-size: var(--track);
+      }
+
+      .track + .track,
+      .track + .closing {
+        margin-block-start: -100svh;
+      }
+
+      /* The inset is 0 so the page's scroll padding (focus clear of the tab bar) does not shift where a panel's motion starts and ends. */
+      .heroTrack {
+        --track: 215svh;
+        --sink-from: 13%;
+        --timeline: --hero;
+        view-timeline: --hero block;
+        view-timeline-inset: 0px;
+      }
+
+      .linesTrack {
+        --track: 310svh;
+        --sink-from: 53%;
+        --timeline: --lines;
+        view-timeline: --lines block;
+        view-timeline-inset: 0px;
+      }
+
+      .wallTrack {
+        --track: 340svh;
+        --sink-from: 58%;
+        --timeline: --wall;
+        view-timeline: --wall block;
+        view-timeline-inset: 0px;
+      }
+
+      .colourTrack {
+        --track: 310svh;
+        --sink-from: 53%;
+        --timeline: --colour;
+        view-timeline: --colour block;
+        view-timeline-inset: 0px;
+      }
+
+      .track > .panel {
+        display: block;
+        position: sticky;
+        inset-block-start: 0;
+        block-size: 100svh;
+        padding: 0;
+        animation: sink linear both;
+        animation-timeline: var(--timeline);
+        animation-range: contain var(--sink-from) contain 100%;
+        transform-origin: 50% 30%;
+      }
+
+      /* The panel going under darkens as it goes. */
+      .track > .panel::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 3;
+        background-color: var(--night);
+        opacity: 0;
+        pointer-events: none;
+        animation: dim linear both;
+        animation-timeline: var(--timeline);
+        animation-range: contain var(--sink-from) contain 100%;
+      }
+
+      /* Words in one half, the photograph in the other. */
+      .track .copy {
+        position: absolute;
+        inset-block: 0 var(--panel-foot);
+        inset-inline-start: var(--page-margin);
+        inline-size: calc((100 - var(--share)) * 1cqi - 2 * var(--page-margin));
+        align-content: center;
+        z-index: 2;
+      }
+
+      /*
+       * The hero's words end above the scroll cue (its own inset, its line and a gap), and the panel's last top-bar height is below
+       * the screen: centred in what is left, a long promise never runs under the cue. "safe" keeps the start in view if it still does not fit.
+       */
+      .heroTrack .copy {
+        inset-block-end: calc(var(--topbar-h) + var(--space-m) + var(--space-l) + var(--space-m));
+        align-content: safe center;
+      }
+
+      .track .figure {
+        position: absolute;
+        inset-block: 0 var(--panel-foot);
+        inset-inline-end: 0;
+        inline-size: calc(var(--share) * 1cqi);
+        aspect-ratio: auto;
+      }
+
+      .promise {
+        font-size: var(--text-promise-mid);
+      }
+
+      .bigTitle {
+        font-size: var(--text-section);
+      }
+
+      /* Each line of the promise rises out of its own slot when the page opens. */
+      .promiseLine {
+        overflow: clip;
+        padding-block-end: 0.12em;
+        margin-block-end: -0.12em;
+      }
+
+      .promiseLine > span {
+        animation: lineUp var(--dur-promise) var(--ease-out) both;
+      }
+
+      .promiseLine:nth-child(2) > span {
+        animation-delay: var(--stagger-promise);
+      }
+
+      .promiseLine:nth-child(3) > span {
+        animation-delay: calc(2 * var(--stagger-promise));
+      }
+
+      .intro {
+        animation: settle var(--dur-promise) var(--ease-out) calc(3 * var(--stagger-promise)) both;
+      }
+
+      /* Buttons under a panel that has covered them cannot take focus. */
+      .track .ways {
+        animation: shut linear both;
+        animation-timeline: var(--timeline);
+        animation-range: contain 99% contain 99.5%;
+      }
+
+      .heroTrack .ways {
+        animation: settle var(--dur-promise) var(--ease-out) calc(3 * var(--stagger-promise)) both, shut linear both;
+        animation-timeline: auto, var(--timeline);
+        animation-range: normal, contain 99% contain 99.5%;
+      }
+
+      /* Before any scrolling the first looks change on their own, each named. */
+      .rest {
+        animation: restLook var(--dur-rest) linear infinite both;
+        animation-delay: calc(var(--i) * var(--dur-rest) / 4 - var(--dur-rest) / 8);
+      }
+
+      .heroFigure:hover .rest,
+      .heroFigure:hover .restNames li {
+        animation-play-state: paused;
+      }
+
+      /* Clear of the top bar's height, so the name shows before any scrolling too. */
+      .restNames {
+        position: absolute;
+        inset-block-end: calc(var(--topbar-h) + var(--space-m));
+        inset-inline-start: 50%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .restNames li {
+        position: absolute;
+        inset-block-end: 0;
+        inset-inline-start: 0;
+        padding: var(--space-2xs) var(--space-m);
+        border-radius: var(--radius-pill);
+        background-color: var(--cream);
+        color: var(--on-studio);
+        font-weight: var(--weight-button);
+        white-space: nowrap;
+        translate: -50% 0;
+        animation: restLook var(--dur-rest) linear infinite both;
+        animation-delay: calc(var(--i) * var(--dur-rest) / 4 - var(--dur-rest) / 8);
+      }
+
+      .cue {
+        position: absolute;
+        inset-block-end: calc(var(--topbar-h) + var(--space-m));
+        inset-inline-start: var(--page-margin);
+        z-index: 2;
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-xs);
+        font-size: var(--text-small);
+        font-weight: var(--weight-button);
+        animation: cueBob var(--dur-cue) var(--ease-standard) infinite alternate;
+      }
+
+      .cue::after {
+        content: '';
+        inline-size: var(--border-control);
+        block-size: var(--space-l);
+        background-color: currentcolor;
+      }
+
+      /* The lines draw while the picture comes towards you. */
+      .zoom {
+        position: absolute;
+        inset: 0;
+        transform-origin: 50% 46%;
+        animation: zoomFace linear both;
+        animation-timeline: --lines;
+        animation-range: entry 40% contain 50%;
+      }
+
+      .lines path {
+        stroke-dasharray: 1;
+        animation: draw linear both;
+        animation-timeline: --lines;
+        animation-range: contain calc(3% + var(--i) * 13%) contain calc(16% + var(--i) * 13%);
+      }
+
+      .linesTrack .copy,
+      .colourTrack .copy {
+        animation: rise linear both;
+        animation-timeline: var(--timeline);
+        animation-range: entry 30% entry 100%;
+      }
+
+      /* Each point lights up in turn and stays lit. */
+      .point {
+        animation: lit linear both;
+        animation-timeline: --lines;
+        animation-range: contain calc(4% + var(--i) * 14%) contain calc(14% + var(--i) * 14%);
+      }
+
+      /* The library runs past as one strip, each look named. */
+      .track > .wallPanel {
+        display: grid;
+        grid-template-rows: auto minmax(0, 1fr);
+        grid-template-columns: minmax(0, 1fr);
+        gap: var(--space-l);
+        padding-block: clamp(var(--space-l), 6svh, var(--space-2xl)) var(--panel-foot);
+      }
+
+      .wallHead {
+        padding-inline: var(--page-margin);
+      }
+
+      .wallRow {
+        display: flex;
+        align-items: start;
+        align-self: center;
+        inline-size: max-content;
+        gap: var(--border-control);
+        animation: runAcross linear both;
+        animation-timeline: --wall;
+        animation-range: entry 70% contain 58%;
+      }
+
+      .tile {
+        inline-size: calc(var(--tile-h) * 0.75);
+      }
+
+      .tile span {
+        padding-inline: var(--space-xs);
+      }
+
+      /* Colour by colour: the new colour melts down the hair, root to ends, and its card takes the last one's place. */
+      .colourShot {
+        opacity: 1;
+        mask-image: linear-gradient(to bottom, #000 33%, transparent 66%);
+        mask-size: 100% 300%;
+        mask-repeat: no-repeat;
+        animation: washIn linear both;
+        animation-timeline: --colour;
+        animation-range: contain calc(var(--i) * 13% - 5%) contain calc(var(--i) * 13% + 8%);
+      }
+
+      .colourShot:first-child {
+        mask-image: none;
+        animation: none;
+      }
+
+      .cards {
+        grid-template-areas: 'card';
+        min-block-size: var(--card-idea-h);
+      }
+
+      .card {
+        grid-area: card;
+        align-self: start;
+        animation: cardShow linear both;
+        animation-timeline: --colour;
+        animation-range: contain calc(var(--i) * 13%) contain calc((var(--i) + 1) * 13%);
+      }
+
+      .card:first-child {
+        animation-name: cardFirst;
+      }
+
+      .card:last-child {
+        animation-name: cardLast;
+      }
+
+      .closing {
+        position: relative;
+        min-block-size: 100svh;
+        align-content: space-between;
+        padding-block: var(--space-2xl) calc(var(--space-m) + var(--panel-foot));
+      }
+
+      .closingTitle {
+        font-size: var(--text-closing);
+        animation: rise linear both;
+        animation-timeline: view();
+        animation-range: entry 30% entry 90%;
+      }
+
+      /*
+       * Narrow screens: words above, the photograph in whatever height they leave. One grid places both, so they cannot touch
+       * however short the page is once a phone's browser bars take their share.
+       */
+      @container (width < 40rem) {
+        .promise {
+          font-size: min(var(--text-promise), 6svh);
+        }
+
+        .track > .panel:not(.wallPanel) {
+          display: grid;
+          grid-template-rows: auto minmax(0, 1fr);
+          grid-template-columns: minmax(0, 1fr);
+          gap: var(--space-m);
+          padding-block-end: var(--panel-foot);
+        }
+
+        .track .copy {
+          position: relative;
+          inset: auto;
+          inline-size: auto;
+          margin: var(--space-l) var(--page-margin) 0;
+          align-content: start;
+        }
+
+        .track .figure {
+          position: relative;
+          inset: auto;
+          inline-size: 100cqi;
+          min-block-size: 0;
+        }
+
+        .track {
+          --tile-h: 46svh;
+        }
+
+        /* A short page: the same words closer together, so the photograph keeps its share. */
+        @media (height < 46rem) {
+          .track > .panel:not(.wallPanel) {
+            gap: var(--space-s);
+          }
+
+          .track .copy {
+            gap: var(--space-s);
+            margin-block-start: var(--space-m);
+          }
+
+          .heroTrack .intro {
+            line-height: 1.4;
+          }
+
+          .heroTrack .ways {
+            row-gap: 0;
+          }
+
+          /* On a short page it gives way to the photograph, which keeps its share. */
+          .heroTrack .expectations {
+            display: none;
+          }
+        }
+
+        /* Where the pictures of you come from is said on a phone too, in small type. */
+        .heroTrack .expectations {
+          font-size: var(--text-small);
+          line-height: var(--lh-small);
+        }
+
+        .cue {
+          display: none;
+        }
+
+        /* On the phone's short band the name sits in the top corner, clear of the face. */
+        .restNames {
+          inset-block: var(--space-s) auto;
+          inset-inline-start: var(--page-margin);
+        }
+
+        .restNames li {
+          inset-block: 0 auto;
+          translate: none;
+        }
+      }
+
+      @container (width >= 40rem) {
+        .wallHead {
+          grid-template-columns: minmax(0, 1fr) auto;
+          align-items: end;
+        }
+      }
+
+      @container (width >= 64rem) {
+        .track {
+          --share: 50;
+        }
+
+        .promise {
+          font-size: var(--text-promise-wide);
+        }
+      }
+    }
+  }
+}
+
+@keyframes lineUp {
+  from {
+    transform: translateY(125%);
+  }
+}
+
+@keyframes settle {
+  from {
+    opacity: 0;
+    transform: translateY(var(--space-xl));
+  }
+}
+
+/* Under the next panel, further away. */
+@keyframes sink {
+  to {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes dim {
+  to {
+    opacity: 0.55;
+  }
+}
+
+@keyframes shut {
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(var(--space-3xl));
+  }
+}
+
+@keyframes cueBob {
+  to {
+    transform: translateY(var(--space-2xs));
+  }
+}
+
+@keyframes restLook {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  3%,
+  25% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomFace {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.25);
+  }
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes lit {
+  from {
+    opacity: 0.6;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes runAcross {
+  to {
+    transform: translateX(calc(-100% + 100cqi));
+  }
+}
+
+@keyframes washIn {
+  from {
+    mask-position: 0 100%;
+  }
+
+  to {
+    mask-position: 0 0;
+  }
+}
+
+/* One card at a time: each leaves before the next arrives, so no two share the spot. */
+@keyframes cardShow {
+  0% {
+    opacity: 0;
+    transform: translateY(var(--space-s));
+  }
+
+  18%,
+  82% {
+    opacity: 1;
+    transform: none;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(calc(-1 * var(--space-s)));
+  }
+}
+
+@keyframes cardFirst {
+  0%,
+  82% {
+    opacity: 1;
+    transform: none;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(calc(-1 * var(--space-s)));
+  }
+}
+
+@keyframes cardLast {
+  0% {
+    opacity: 0;
+    transform: translateY(var(--space-s));
+  }
+
+  18%,
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

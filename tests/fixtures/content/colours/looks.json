@@ -1,0 +1,35 @@
+[
+  {
+    "id": "copper-with-silver-ends",
+    "kind": "colour",
+    "name": "Copper with silver ends",
+    "collections": ["salon"],
+    "base": { "shade": "copper-auburn", "technique": "all_over" },
+    "placements": [{ "technique": "balayage", "shade": "ash-silver", "region": "ends" }],
+    "required_base_level": null,
+    "grey": "covers",
+    "client": "An all-over copper with painted silver ends.",
+    "stylist": "Colour all over in copper; balayage the ends and tone them silver.",
+    "images": { "models": ["salon-straight-wavy"], "view": "back" },
+    "prompt_spec": "an all-over copper colour with hand-painted silver ends",
+    "review": { "status": "checked", "date": "2026-11-08" }
+  },
+  {
+    "id": "copper-balayage-prelightened",
+    "kind": "colour",
+    "name": "Bright copper balayage on a lightened base",
+    "collections": ["salon"],
+    "base": { "shade": "copper-auburn", "technique": "none", "on": "copper-auburn", "on_words": ["the natural root"] },
+    "placements": [
+      { "technique": "balayage", "shade": "copper-auburn", "region": "mids" },
+      { "technique": "balayage", "shade": "copper-auburn", "region": "ends" }
+    ],
+    "required_base_level": 9,
+    "grey": "shows",
+    "client": "A bright copper painted through the lengths over your own root.",
+    "stylist": "Lighten the lengths to level 9 first, then glaze them copper.",
+    "images": { "models": ["salon-straight-wavy"], "view": "back" },
+    "prompt_spec": "a bright copper balayage through the mid-lengths and ends, with the natural root left as it is",
+    "review": { "status": "checked", "date": "2026-11-08" }
+  }
+]

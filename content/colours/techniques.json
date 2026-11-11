@@ -1,0 +1,959 @@
+[
+  {
+    "id": "all-over",
+    "kind": "technique",
+    "name": "All-over colour (single process)",
+    "category": "process",
+    "how": "Roots to ends in one shade; often refreshed at the roots only.",
+    "regions": [
+      "root",
+      "mids",
+      "ends"
+    ],
+    "lightening": "none",
+    "lifts": {
+      "natural": 2,
+      "coloured": 0
+    },
+    "pairs_with": {
+      "families": [
+        "brunette",
+        "red_copper",
+        "black",
+        "blonde"
+      ],
+      "avoid": [
+        "vivid"
+      ]
+    },
+    "regrowth_friendliness": 2,
+    "revisit_weeks": [
+      5,
+      8
+    ],
+    "session_hours": [
+      1.5,
+      2.5
+    ],
+    "damage_risk": "medium",
+    "salon_only": false,
+    "client": "One even colour from roots to ends. Simple and polished, and the roots show as the hair grows.",
+    "stylist": "Works for shades at or near the client's current visible level, or darker. Lifting more than a little needs a different technique. Best when the hair is evenly coloured and the target is at a similar or darker level. Predictable on healthy hair; the less the shade differs from the natural level, the softer the regrowth. Always check history and keep the skin test in the plan.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "what the technique is and how it is placed",
+        "level": "trade_consensus"
+      },
+      {
+        "url": "https://www.nhs.uk/conditions/hair-dye-allergy/",
+        "supports": "what the technique is and how it is placed",
+        "level": "authority"
+      },
+      {
+        "url": "https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes",
+        "supports": "what the technique is and how it is placed",
+        "level": "authority"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "gloss",
+    "kind": "technique",
+    "name": "Gloss / glaze (tone refresh)",
+    "category": "process",
+    "how": "Applied over the whole head or to lengths and ends after lightening or between colour visits.",
+    "regions": [
+      "root",
+      "mids",
+      "ends"
+    ],
+    "lightening": "none",
+    "lifts": {
+      "natural": 0,
+      "coloured": 0
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "brunette",
+        "red_copper",
+        "grey_silver"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 5,
+    "revisit_weeks": [
+      4,
+      8
+    ],
+    "session_hours": [
+      0.5,
+      1
+    ],
+    "damage_risk": "low",
+    "salon_only": false,
+    "client": "An easy, sheer colour or toner that adjusts tone and adds shine. It does not usually lift.",
+    "stylist": "Can refresh ash, gold, copper or red tones between visits; cannot cover heavy grey or lighten. Suits any starting level. Good bridge between colour visits. Result depends heavily on porosity and the existing colour; sheer pigment shows most on lighter hair.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "what the technique is and how it is placed",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "foil-highlights",
+    "kind": "technique",
+    "name": "Foil highlights",
+    "category": "placement",
+    "how": "Woven sections from near the root to the ends, usually with a defined root.",
+    "regions": [
+      "highlights"
+    ],
+    "lightening": "always",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "brunette",
+        "grey_silver"
+      ],
+      "avoid": [
+        "black"
+      ]
+    },
+    "regrowth_friendliness": 2,
+    "revisit_weeks": [
+      6,
+      10
+    ],
+    "session_hours": [
+      2,
+      3.5
+    ],
+    "damage_risk": "medium",
+    "salon_only": true,
+    "client": "Sections of hair are lightened inside foils for a clear, bright, structured lift.",
+    "stylist": "Pairs with beige, golden, honey, ash or platinum blondes on light to medium bases. Best when starting from level 3-7, healthy, little prior colour. Strong lift and control; the wider the contrast, the more visible the root line. Needs appointment and strand test.",
+    "sources": [
+      {
+        "url": "https://prose.com/blog/balayage-vs-highlights",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-color/hair-color-application/highlights-hair-foils-foilayage-balayage",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "babylights",
+    "kind": "technique",
+    "name": "Babylights",
+    "category": "placement",
+    "how": "Micro-sections through the top and sides, close to the root.",
+    "regions": [
+      "highlights",
+      "face_frame"
+    ],
+    "lightening": "always",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "brunette",
+        "grey_silver"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 4,
+    "revisit_weeks": [
+      10,
+      16
+    ],
+    "session_hours": [
+      3,
+      4.5
+    ],
+    "damage_risk": "medium",
+    "salon_only": true,
+    "client": "Very fine, soft highlights like the natural lightness seen in children's hair.",
+    "stylist": "Pairs with soft blondes (beige, sandy, honey, champagne) and with grey blending. Best when starting from level 4-7, healthy. Takes time because of the fine sectioning; a good fit for gentle brightness and for blurring early grey. Strand test first.",
+    "sources": [
+      {
+        "url": "https://prose.com/blog/balayage-vs-highlights",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "lowlights",
+    "kind": "technique",
+    "name": "Lowlights",
+    "category": "placement",
+    "how": "Through the mid-lengths to create dimension.",
+    "regions": [
+      "lowlights"
+    ],
+    "lightening": "none",
+    "lifts": {
+      "natural": 0,
+      "coloured": 0
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "brunette",
+        "red_copper",
+        "grey_silver"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 4,
+    "revisit_weeks": [
+      8,
+      14
+    ],
+    "session_hours": [
+      1.5,
+      2.5
+    ],
+    "damage_risk": "low",
+    "salon_only": false,
+    "client": "Strands deposited a few levels darker than the base to add depth or break up heavy highlights.",
+    "stylist": "Pairs with honey, caramel, ash or copper to add dimension; helps grey blending. Suits most starting levels, but very dark hair has little room to go darker. Useful to re-balance over-lightened hair and to soften grey. Grey percentage and tone decide the shade.",
+    "sources": [
+      {
+        "url": "https://blog.wella.com/gb/node/525",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "balayage",
+    "kind": "technique",
+    "name": "Balayage",
+    "category": "placement",
+    "how": "Painted on the surface, heavier toward the ends and around the face.",
+    "regions": [
+      "mids",
+      "ends"
+    ],
+    "lightening": "always",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "brunette",
+        "red_copper"
+      ],
+      "avoid": [
+        "black"
+      ]
+    },
+    "regrowth_friendliness": 5,
+    "revisit_weeks": [
+      12,
+      20
+    ],
+    "session_hours": [
+      2.5,
+      4
+    ],
+    "damage_risk": "medium",
+    "salon_only": true,
+    "client": "Colour painted by hand through the mid-lengths and ends, with a soft root, so it grows out gently.",
+    "stylist": "Pairs with caramel, honey, beige, bronde and copper; suits nearly any base though very dark hair needs more stages. Best when starting from level 3-7, healthy. Amount of lift varies with base level. Lighter results on dark hair take longer and may need more than one visit; history and condition must be checked first.",
+    "sources": [
+      {
+        "url": "https://www.matrix.com/blog/balayage-vs-ombre",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      },
+      {
+        "url": "https://blog.wella.com/us/node/2058",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      },
+      {
+        "url": "https://prose.com/blog/balayage-vs-highlights",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "foilayage",
+    "kind": "technique",
+    "name": "Foilayage",
+    "category": "placement",
+    "how": "Painted sections wrapped for greater lightening.",
+    "regions": [
+      "mids",
+      "ends"
+    ],
+    "lightening": "always",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "brunette",
+        "red_copper"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 4,
+    "revisit_weeks": [
+      10,
+      16
+    ],
+    "session_hours": [
+      3,
+      4.5
+    ],
+    "damage_risk": "medium",
+    "salon_only": true,
+    "client": "Painted like balayage, then wrapped in foil or film for a stronger, brighter lift.",
+    "stylist": "Pairs with light blondes, honey, champagne, copper; useful when free-painted balayage would not lift enough. Best when starting from level 3-7, healthy. Wrapping gives stronger lift, so porous or fragile hair needs careful assessment. Same strand test and appointment requirement as other lightening.",
+    "sources": [
+      {
+        "url": "https://www.lorealparisusa.com/beauty-magazine/hair-color/hair-color-application/highlights-hair-foils-foilayage-balayage",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "ombre",
+    "kind": "technique",
+    "name": "Ombre",
+    "category": "placement",
+    "how": "Distinct gradient from mid-lengths, with the natural root zone left.",
+    "regions": [
+      "mids",
+      "ends"
+    ],
+    "lightening": "always",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "brunette",
+        "red_copper",
+        "vivid"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 5,
+    "revisit_weeks": [
+      16,
+      24
+    ],
+    "session_hours": [
+      3,
+      5
+    ],
+    "damage_risk": "high",
+    "salon_only": true,
+    "client": "A two-tone gradient: darker roots flowing to much lighter lengths and ends.",
+    "stylist": "Pairs with caramel, honey, blonde, copper and vivid ends. Best when starting from level 2-6, healthy lengths. Strong contrast needs a lot of lifting at the lengths; ends can be dry or porous. Needs a healthy-hair assessment.",
+    "sources": [
+      {
+        "url": "https://www.matrix.com/blog/balayage-vs-ombre",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      },
+      {
+        "url": "https://blog.wella.com/us/node/2058",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "sombre",
+    "kind": "technique",
+    "name": "Sombre (soft ombre)",
+    "category": "placement",
+    "how": "Subtle gradient; lengths and ends about two or three levels lighter than roots.",
+    "regions": [
+      "mids",
+      "ends"
+    ],
+    "lightening": "some",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "brunette",
+        "red_copper"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 5,
+    "revisit_weeks": [
+      16,
+      26
+    ],
+    "session_hours": [
+      2,
+      3.5
+    ],
+    "damage_risk": "medium",
+    "salon_only": false,
+    "client": "A softer ombre with a gentle fade between close tones.",
+    "stylist": "Pairs with beige, caramel, honey, bronde and muted tones. Best when starting from level 3-6. Needs less lift than ombre; the shade is chosen to melt softly into the base.",
+    "sources": [
+      {
+        "url": "https://blog.wella.com/us/node/2058",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "root-shadow",
+    "kind": "technique",
+    "name": "Root shadow / root smudge",
+    "category": "finish",
+    "how": "At the roots, softly blended into the lengths.",
+    "regions": [
+      "root"
+    ],
+    "lightening": "none",
+    "lifts": {
+      "natural": 0,
+      "coloured": 0
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "grey_silver",
+        "vivid"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 5,
+    "revisit_weeks": [
+      8,
+      14
+    ],
+    "session_hours": [
+      0.75,
+      1.5
+    ],
+    "damage_risk": "low",
+    "salon_only": false,
+    "client": "A slightly deeper colour at the roots that melts into the lengths, so regrowth shows less.",
+    "stylist": "Pairs with blonde, silver and vivid lengths to cover regrowth and add depth. Best when starting from light lengths with natural roots. Good for extending visits; the shadow shade must match the client's natural level and tone.",
+    "sources": [
+      {
+        "url": "https://opentextbc.ca/haircolourforhairstylistslevel2/",
+        "supports": "what the technique is and how it is placed",
+        "level": "trade_consensus"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "colour-melt",
+    "kind": "technique",
+    "name": "Colour melt",
+    "category": "blending",
+    "how": "Blending along each strand from root to ends.",
+    "regions": [
+      "root",
+      "mids",
+      "ends"
+    ],
+    "lightening": "some",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "brunette",
+        "red_copper",
+        "vivid"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 4,
+    "revisit_weeks": [
+      10,
+      16
+    ],
+    "session_hours": [
+      3,
+      5
+    ],
+    "damage_risk": "medium",
+    "salon_only": true,
+    "client": "Two or three shades blended smoothly so one flows into the next, without a visible line.",
+    "stylist": "Pairs with multi-tone looks: brunette to caramel to blonde, or vivid blends. The right starting level depends on the target. Needs advanced blending skill. Final blend depends on base, porosity and chosen shades.",
+    "sources": [
+      {
+        "url": "https://www.matrix.com/blog/balayage-vs-ombre",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "money-piece",
+    "kind": "technique",
+    "name": "Money piece / face-framing",
+    "category": "placement",
+    "how": "Front sections near the face, heavier at the front and thinner behind.",
+    "regions": [
+      "face_frame"
+    ],
+    "lightening": "always",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "brunette",
+        "red_copper",
+        "vivid"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 3,
+    "revisit_weeks": [
+      6,
+      12
+    ],
+    "session_hours": [
+      1,
+      2
+    ],
+    "damage_risk": "medium",
+    "salon_only": true,
+    "client": "Brighter sections at the front that frame the face, while the rest of your colour stays as it is.",
+    "stylist": "Pairs with any base; golden, honey, platinum or copper accent strands. Best when starting from level 3-7. The face frame draws attention, so the tone must suit the client's skin and preferences. Lighter pieces need regular toning.",
+    "sources": [],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "peekaboo",
+    "kind": "technique",
+    "name": "Peekaboo / underlights",
+    "category": "placement",
+    "how": "Underneath sections, often at the nape or behind the ears.",
+    "regions": [
+      "mids",
+      "ends"
+    ],
+    "lightening": "some",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "vivid",
+        "blonde",
+        "red_copper"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 4,
+    "revisit_weeks": [
+      8,
+      16
+    ],
+    "session_hours": [
+      1,
+      2.5
+    ],
+    "damage_risk": "medium",
+    "salon_only": false,
+    "client": "Hidden colour in the underlayer or nape that shows when hair moves or is styled up.",
+    "stylist": "Pairs with vivid, copper or platinum accents under natural hair. Suits any starting level. Good where workplace rules limit visible colour; sectioning is the main time cost. Pre-lightening is needed for bright shades.",
+    "sources": [],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-blending",
+    "kind": "technique",
+    "name": "Grey blending",
+    "category": "coverage",
+    "how": "Fine lights and lowlights around the root zone or through the surface.",
+    "regions": [
+      "root",
+      "mids",
+      "ends",
+      "highlights",
+      "lowlights"
+    ],
+    "lightening": "some",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "grey_silver",
+        "blonde",
+        "brunette"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 5,
+    "revisit_weeks": [
+      8,
+      16
+    ],
+    "session_hours": [
+      1.5,
+      3
+    ],
+    "damage_risk": "medium",
+    "salon_only": false,
+    "client": "Lights and lowlights that blend with your natural grey instead of covering it, for a soft grow-out.",
+    "stylist": "Pairs with the grey-blend shades, beige, sandy or soft brunette. Best when starting from about 20-60% grey. Often best at lower to middle grey percentages; tone, grey texture and desired visibility of grey decide the approach. A strand test is useful.",
+    "sources": [
+      {
+        "url": "https://blog.wella.com/gb/node/525",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.madison-reed.com/gray-hair-coverage",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      },
+      {
+        "url": "https://clairolpro.com/inside-clairol-pro/gray-hair-coverage-solutions",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "grey-coverage",
+    "kind": "technique",
+    "name": "Grey coverage (root colour)",
+    "category": "coverage",
+    "how": "Roots only, with an occasional refresh of lengths.",
+    "regions": [
+      "root",
+      "mids",
+      "ends"
+    ],
+    "lightening": "none",
+    "lifts": {
+      "natural": 2,
+      "coloured": 0
+    },
+    "pairs_with": {
+      "families": [
+        "brunette",
+        "black",
+        "red_copper",
+        "blonde"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 2,
+    "revisit_weeks": [
+      4,
+      6
+    ],
+    "session_hours": [
+      1,
+      2
+    ],
+    "damage_risk": "low",
+    "salon_only": false,
+    "client": "Permanent colour applied to the regrowth to cover grey. Very resistant grey can need extra steps.",
+    "stylist": "Pairs with level 3-7 natural-looking shades and a warm or neutral base. Best when starting from roots with grey. Percentage and texture of grey affect which formula is needed; very resistant grey may need extra steps. Skin test before every use.",
+    "sources": [
+      {
+        "url": "https://blog.wella.com/gb/node/525",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.madison-reed.com/gray-hair-coverage",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      },
+      {
+        "url": "https://clairolpro.com/inside-clairol-pro/gray-hair-coverage-solutions",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.nhs.uk/conditions/hair-dye-allergy/",
+        "supports": "what the technique is and how it is placed",
+        "level": "authority"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "colour-correction",
+    "kind": "technique",
+    "name": "Colour correction",
+    "category": "correction",
+    "how": "Any, assessed individually.",
+    "regions": [
+      "root",
+      "mids",
+      "ends"
+    ],
+    "lightening": "always",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "blonde",
+        "brunette",
+        "red_copper",
+        "black",
+        "grey_silver",
+        "vivid"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 1,
+    "revisit_weeks": [
+      6,
+      12
+    ],
+    "session_hours": [
+      4,
+      8
+    ],
+    "damage_risk": "high",
+    "salon_only": true,
+    "client": "A colourist's plan to put right colour that is patchy, banded, too dark, too brassy or damaged.",
+    "stylist": "Depends on the case. Professional only: needs in-person assessment, strand test and realistic aims; outcomes are not promised and the sequence is decided case by case.",
+    "sources": [
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      },
+      {
+        "url": "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "vivid-all-over",
+    "kind": "technique",
+    "name": "Vivid all-over colour",
+    "category": "process",
+    "how": "Roots to ends or lengths only, over a pre-lightened base.",
+    "regions": [
+      "root",
+      "mids",
+      "ends"
+    ],
+    "lightening": "some",
+    "lifts": {
+      "natural": 9,
+      "coloured": 9
+    },
+    "pairs_with": {
+      "families": [
+        "vivid"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 1,
+    "revisit_weeks": [
+      3,
+      6
+    ],
+    "session_hours": [
+      3,
+      6
+    ],
+    "damage_risk": "high",
+    "salon_only": false,
+    "client": "A bright fashion colour all over, usually on hair that has been lightened first. It fades quickly.",
+    "stylist": "Pastel shades need very pale bases; deeper vivids (cherry red, plum, midnight blue) can show on darker bases at lower brightness. Best when starting from level 8-10 or pre-lightened. Base level and previous colour decide the end result; bright colours on dark hair usually need lightening. Dyes may stain skin and fabrics.",
+    "sources": [
+      {
+        "url": "https://www.coloredhaircare.com/why-wont-my-bleached-hair-take-color/",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      },
+      {
+        "url": "https://esalon.com/hair-color-mastery/colorist-tips/can-i-lighten-already-colored-hair",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  },
+  {
+    "id": "demi-refresh",
+    "kind": "technique",
+    "name": "Demi/semi-permanent refresh (tone-on-tone)",
+    "category": "process",
+    "how": "Whole head or lengths.",
+    "regions": [
+      "root",
+      "mids",
+      "ends"
+    ],
+    "lightening": "none",
+    "lifts": {
+      "natural": 0,
+      "coloured": 0
+    },
+    "pairs_with": {
+      "families": [
+        "brunette",
+        "red_copper",
+        "blonde",
+        "vivid",
+        "grey_silver"
+      ],
+      "avoid": []
+    },
+    "regrowth_friendliness": 4,
+    "revisit_weeks": [
+      4,
+      8
+    ],
+    "session_hours": [
+      0.75,
+      1.5
+    ],
+    "damage_risk": "low",
+    "salon_only": false,
+    "client": "A gentle, tone-on-tone colour that revives depth and shine and fades without a hard line.",
+    "stylist": "Pairs with any shade at or darker than the current level. Suits any starting level. A good test-drive for clients unsure about commitment; limited grey coverage (blends rather than covers).",
+    "sources": [
+      {
+        "url": "https://blog.wella.com/gb/node/525",
+        "supports": "what the technique is and how it is placed",
+        "level": "single_source"
+      }
+    ],
+    "evidence": "trade_consensus",
+    "review": {
+      "status": "checked",
+      "date": "2026-11-09"
+    }
+  }
+]

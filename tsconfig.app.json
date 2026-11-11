@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["es2023", "dom", "dom.iterable"],
+    "jsx": "react-jsx",
+    "types": ["vite/client"]
+  },
+  "files": ["src/worker/protocol.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "tests/harness/**/*.ts", "tests/harness/**/*.tsx"],
+  "exclude": ["src/worker/**", "src/sw.ts"]
+}

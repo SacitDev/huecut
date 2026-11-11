@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "id": "hair-texture",
+      "fact": "hair.texture",
+      "type": "single",
+      "goals": ["cut", "colour"],
+      "collections": ["salon", "barbering"],
+      "prompt": "How does your hair dry if you leave it alone?",
+      "help": "Pick the closest. You can change this later.",
+      "options": [
+        { "value": "straight", "label": "Straight", "illustration": "q-texture-straight" },
+        { "value": "wavy", "label": "Wavy", "illustration": "q-texture-wavy" },
+        { "value": "curly", "label": "Curly", "illustration": "q-texture-curly" },
+        { "value": "coily", "label": "Coily", "illustration": "q-texture-coily" },
+        { "value": "mixed", "label": "A mix" },
+        { "value": null, "label": "Not sure" }
+      ]
+    },
+    {
+      "id": "chemical-history",
+      "fact": "hair.chemical_history",
+      "type": "multi",
+      "goals": ["colour"],
+      "collections": ["salon", "barbering"],
+      "prompt": "What has your hair had in the last 2 to 3 years?",
+      "help": "Choose all that apply.",
+      "options": [
+        { "value": "none", "label": "Nothing" },
+        { "value": "home_dye", "label": "Home dye" },
+        { "value": "bleach", "label": "Bleach" },
+        { "value": "henna_compound", "label": "Compound henna" },
+        { "value": "relaxer_perm", "label": "A relaxer or perm" },
+        { "value": null, "label": "Not sure" }
+      ]
+    },
+    {
+      "id": "dye-reaction",
+      "type": "single",
+      "goals": ["colour"],
+      "collections": ["salon", "barbering"],
+      "prompt": "Has hair dye or a black henna tattoo ever made your skin react? And is your scalp sore now?",
+      "options": [
+        { "label": "No reaction, and my scalp is fine", "sets": { "safety.dye_reaction": "none", "safety.scalp_irritation": "none" } },
+        { "label": "No reaction, but my scalp is sore, itchy, sunburnt or broken now", "sets": { "safety.dye_reaction": "none", "safety.scalp_irritation": "now" } },
+        { "label": "Yes, a mild reaction", "sets": { "safety.dye_reaction": "mild" } },
+        { "label": "Yes, a serious reaction", "sets": { "safety.dye_reaction": "serious" } },
+        { "value": null, "label": "Not sure" }
+      ]
+    }
+  ],
+  "core_sets": {
+    "cut/salon": ["hair-texture"],
+    "cut/barbering": ["hair-texture"],
+    "colour/any": ["chemical-history", "dye-reaction"],
+    "both/salon": ["hair-texture", "chemical-history", "dye-reaction"],
+    "both/barbering": ["hair-texture", "chemical-history", "dye-reaction"]
+  }
+}

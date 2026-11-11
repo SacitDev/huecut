@@ -1,0 +1,42 @@
+/* Chip: 1.5 px --line-strong edge (3.82:1 on ground); selected is cocoa with a check icon. */
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  min-block-size: var(--chip-h);
+  padding-inline: var(--space-m);
+  border: var(--border-control) solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background-color: transparent;
+  color: var(--text);
+  font-size: var(--text-small);
+  font-weight: var(--weight-button);
+  line-height: var(--lh-button);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.chip:hover {
+  background-color: var(--sunken);
+}
+
+.chip[aria-pressed='true'] {
+  border-color: var(--primary);
+  background-color: var(--primary);
+  color: var(--on-primary);
+}
+
+.check {
+  flex: none;
+  inline-size: var(--icon-s);
+  block-size: var(--icon-s);
+  animation: check-in var(--dur-state) var(--ease-out);
+}
+
+/* Feedback on select: the check fades in from its final state's position, no travel. */
+@keyframes check-in {
+  from {
+    opacity: 0;
+  }
+}

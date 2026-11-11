@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ash-silver",
+    "kind": "shade",
+    "name": "Ash silver",
+    "aliases": ["silver"],
+    "family": "grey_silver",
+    "level": [9, 10],
+    "tone": "silver",
+    "warmth": "cool",
+    "tone_description": "A cool grey that turns white at the ends.",
+    "swatch": { "root": "#808080", "mids": "#808080", "ends": "#ffffff" },
+    "maintenance": { "fade_speed": "fast", "gloss_weeks": [3, 5], "retouch_weeks": [4, 6], "regrowth_visibility": "high", "upkeep_level": 5 },
+    "risks": ["turns yellow without a toner"],
+    "vivid": false,
+    "client": "A cool silver that needs regular toning to stay clear.",
+    "stylist": "Tone over a pale yellow base; refresh the toner every 3-5 weeks.",
+    "sources": [],
+    "evidence": "trade_consensus",
+    "review": { "status": "checked", "date": "2026-11-08" }
+  },
+  {
+    "id": "copper-auburn",
+    "kind": "shade",
+    "name": "Copper auburn",
+    "aliases": [],
+    "family": "red_copper",
+    "level": [5, 7],
+    "tone": "copper",
+    "warmth": "warm",
+    "tone_description": "Warm copper with a dark root.",
+    "swatch": { "root": "#000000", "mids": "#ff0000", "ends": "#ff0000" },
+    "maintenance": { "fade_speed": "fast", "gloss_weeks": [4, 6], "retouch_weeks": [6, 8], "regrowth_visibility": "medium", "upkeep_level": 4 },
+    "risks": ["fades quickly"],
+    "vivid": false,
+    "client": "A bright, warm copper that fades faster than browns.",
+    "stylist": "Glaze every 4-6 weeks to keep the copper bright.",
+    "sources": [],
+    "evidence": "trade_consensus",
+    "review": { "status": "checked", "date": "2026-11-08" }
+  }
+]

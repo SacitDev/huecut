@@ -1,0 +1,61 @@
+[
+  {
+    "id": "mid-drop-fade-textured-crop",
+    "kind": "cut",
+    "name": "Mid drop fade with textured crop",
+    "aliases": ["drop fade crop"],
+    "collections": ["barbering"],
+    "family": "crop",
+    "zones": {
+      "basis": "dry_stretched",
+      "top": { "cm": [3, 5] },
+      "fringe": { "cm": [2, 4] },
+      "sides": { "guard_mm": [3, 9] },
+      "back": { "guard_mm": [3, 9] },
+      "nape": { "guard_mm": [0, 3] }
+    },
+    "perimeter": { "landmark": null },
+    "fade": { "kind": "drop", "height": "mid", "start_mm": 0.5, "note": "Drop the line behind the ear." },
+    "neckline": "tapered",
+    "sideburns": "Tapered to the fade.",
+    "fringe": { "kind": "textured_forward", "landmark": "brow", "options": ["curtain", "none"] },
+    "texture_fit": {
+      "straight": { "fit": "good" },
+      "wavy": { "fit": "good" },
+      "curly": { "fit": "good", "note": "Keep 1 cm more on top." },
+      "coily": { "fit": "adapt", "note": "Sponge-friendly top length." }
+    },
+    "density_fit": { "low": { "fit": "good" }, "medium": { "fit": "good" }, "high": { "fit": "adapt", "note": "Remove bulk on top." } },
+    "shrinkage": null,
+    "growth": { "recession_stage_max": 3, "whorl_note": "Leave 5 mm more at a crown whorl.", "note": null },
+    "strand_note": null,
+    "density_note": null,
+    "glasses_note": "Keep the sides tight above the arms.",
+    "upkeep": { "styling_minutes": [3, 6], "trim_weeks": [2, 4], "heat": "none", "products": ["matte paste"] },
+    "grow_out": "Let the sides grow to a scissor taper in 6-8 weeks.",
+    "era": "current",
+    "pairs_with": { "beards": [], "looks": [] },
+    "traits": {
+      "height_top": "medium", "volume_zone": ["crown"], "sides_width": "close", "perimeter": "soft", "part": "none",
+      "fringe": "textured_forward", "layers": ["light"], "silhouette": "crop", "weight_removal": "medium",
+      "cut_method": ["point_cut", "razor"], "nape_style": "tapered", "shrinkage_risk": "low", "tension": "none",
+      "heat_dependent": false, "grow_out_friendly": true, "tie_back": false, "covers_forehead": true, "covers_ears": false,
+      "tucked_behind_ear": false, "beard_blend": true, "lineup": false, "styling_minutes": [3, 6], "trim_weeks": [2, 4],
+      "tags": ["textured_top", "recession_friendly", "workplace_friendly"]
+    },
+    "variants": [
+      {
+        "id": "skin-fade-textured-crop",
+        "name": "Skin fade with a longer textured crop",
+        "changes": { "zones": { "top": { "cm": [5, 7] } }, "fade": { "kind": "skin", "start_mm": 0 } },
+        "prompt_spec": "a skin fade with a textured crop, 5-7 cm on top, sides faded from 9 mm down to the skin"
+      }
+    ],
+    "client": "Short, textured top with sides that fade and curve down behind the ear.",
+    "stylist": "Drop the fade line behind the ear; point-cut the top for separation.",
+    "images": { "model": "barbering-straight-wavy", "views": ["front", "side", "back"] },
+    "prompt_spec": "a mid drop fade with a short textured crop, 3-5 cm on top, sides faded from 9 mm to 0.5 mm behind the ear",
+    "sources": [{ "url": "https://example.org/barbering/drop-fade", "supports": "style exists; typical lengths", "level": "trade_consensus" }],
+    "review": { "status": "checked", "date": "2026-11-08" }
+  }
+]
